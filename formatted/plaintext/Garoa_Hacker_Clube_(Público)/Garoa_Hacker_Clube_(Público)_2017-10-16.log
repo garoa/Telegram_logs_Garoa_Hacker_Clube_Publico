@@ -1,0 +1,77 @@
+[2017-10-16 00:27:36] circula um boato que quebraram o wpa2 e vão publicar em https://www.krackattacks.com/
+[2017-10-16 00:28:43] parece q amanhã vão tornar os cves publicos
+CVE-2017-13077 
+CVE-2017-13078
+CVE-2017-13079
+CVE-2017-13080
+CVE-2017-13081
+CVE-2017-13082
+[2017-10-16 00:30:32] Darknet tá "em polvorosa" com isso... hehehe
+[2017-10-16 00:32:09] em outros contos, uns espiões hackers de israel hackearam os espiões hackers russos que estavam hackeando os espiões americanos
+[2017-10-16 00:32:33] https://www.theregister.co.uk/2017/10/11/israel_russia_kaspersky/
+[2017-10-16 00:43:38] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_1045404939746018387.webp
+[2017-10-16 00:52:53] reality is stranger than fiction
+[2017-10-16 01:02:06] A quebra wpa2 é a salvação pra quem quiser ir pro bar em 2018 e nao falar de politica
+[2017-10-16 03:52:29] parece real
+[2017-10-16 06:36:02] Ontem estava tentando fazer um Scripts em JS para ler o DOM de um site que coloquei em uma tag iframe. Dei de cara no muro. Aparentemente o JS não permite esse tipo de coisa (proteção contra cross-site scripting). Existe outra maneira de pegar elementos de um outro DOM? Talvez tenha de baixar o html inteiro do site para fazer isso em outra linguagem...
+[2017-10-16 07:16:31] sem usar um "proxy" da página que entrega com os headers certos (se não me falha a memória, habilitando CORS) você só consegue com acesso ao servidor pra mudar os headers dele mesmo
+[2017-10-16 07:17:56] https://github.com/Adam-Burke/cors-everywhere
+[2017-10-16 07:18:29] hum, acho que apagaram
+[2017-10-16 07:18:58] https://hub.docker.com/r/cityburke/cors-everywhere/
+[2017-10-16 07:19:20] este já vem pronto no container
+[2017-10-16 07:23:29] https://www.krackattacks.com/ tá no ar
+[2017-10-16 07:24:35] obrigado @mynameiserin! vou dar uma olhada que ta difícil de entender :(
+[2017-10-16 11:47:05] Roberto Muszkat joined
+[2017-10-16 11:47:06] Hi Roberto !
+[2017-10-16 12:10:31] http://nand2tetris.org/
+
+Acho que vcs já devem conhecer, mas não custa compartilhar.
+[2017-10-16 12:13:58] Esse curso é legal demais. Recomendo!
+[2017-10-16 12:14:28] Tenho um amigo fazendo o "Make a LISP": https://github.com/kanaka/mal/
+[2017-10-16 12:15:09] Se souber inglês, recomendo também ver os vídeos do Ben Eater no YouTube. Ele monta uma CPU na breadboard com TTL e EEPROM, e explica tudo muito bem
+[2017-10-16 12:39:27] que legal, obrigado por indicar, eu nao conhecia. vou ver sim.
+[2017-10-16 12:39:49] estou curtindo "home brew computers" (qual seria tradução para português?) mas não sei por onde começar, rs...
+[2017-10-16 12:40:18] Os vídeos do Ben são uma boa. Esse nand2tetris também
+[2017-10-16 12:41:06] Tem varios projetos legais por aí, desde reconstruções de máquinas históricas até coisas novas. Eu gosto das CPUs implementadas com relê
+[2017-10-16 13:19:53] herrera joined
+[2017-10-16 13:19:54] Hi herrera !
+[2017-10-16 13:29:56] Usar o Tor alivia essa brecha de segurança ou nada a ver? E um VPN? Alguém recomenda uma solução provisória?
+[2017-10-16 13:41:21] Site https alivia
+[2017-10-16 13:41:28] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_150229821346022379.webp
+[2017-10-16 13:42:23] Devem corrigir em breve nos Linux da vida
+[2017-10-16 13:44:50] Sim, Https, VPN, TOR ajudam
+[2017-10-16 15:04:35] OpenBSD já tá corrigido
+[2017-10-16 15:05:30] Tanto que os caras que descobriram a vuln ficaram putinhos que eles corrigiram antes do resto
+[2017-10-16 15:07:59] Kkkkkkkkkk
+[2017-10-16 15:08:03] quero ver como será feito nos celulares android =p
+[2017-10-16 15:08:24] É só usar Android 7
+[2017-10-16 15:09:07] Não é todo mundo que tem condição de ter um celular que rode isso né
+[2017-10-16 15:09:11] @silasdb dá uma olhadinha nesse trabalho que eu tenho feito de resgate da documentação técnica (e de relatos de engenheiros) sobre o computador Patinho Feio da USP (1971): https://forum.fiozera.com.br/t/resgate-historico-do-computador-patinho-feio-usp-1971/58
+[2017-10-16 15:11:53] Não será... hehehe
+[2017-10-16 15:12:24] O Google falou que iria sair patch, só não especificou pelo que li
+[2017-10-16 15:12:27] Imagina o quanto de cel Android < 7 tem no mundo
+[2017-10-16 15:12:33] Hahaha complicado :(
+[2017-10-16 15:16:13] 60% é Android 6
+[2017-10-16 15:18:40] Condição pra trocar de celular no caso né? Pq só não roda o 7 celular com 2 anos ou mais de idade que não seja top
+[2017-10-16 15:20:07] ahm?
+[2017-10-16 16:36:01] Sim, me falaram q vc tinha feito isso e fiquei mto curioso. Valeu!!!
+[2017-10-16 17:16:11] Tem também um outro projetinho legal, @silasdb , que é o estudo do circuito discreto do jogo GranTrak10. Dá uma olhadinha na lista de emails do Garoa. Tem uma thread lá sobre esse tema.
+[2017-10-16 17:21:24] Nobre joined
+[2017-10-16 17:21:25] Hi Nobre !
+[2017-10-16 17:24:07] https://groups.google.com/d/msg/hackerspacesp/TRoJPW2tyC8/74bWik1gEgAJ
+[2017-10-16 17:37:53] legal! vou entrar na lista. valeu!
+[2017-10-16 17:52:27] https://twitter.com/roadsec/status/920012292078612480
+[2017-10-16 17:54:23] CoFounder, ai zim, vai falar duqE?
+[2017-10-16 17:54:58] Vou falar na RoadsecSP sobre os esforços de preservação histórica do computador Patinho Feio (da USP, 1971) e, de forma mais geral, sobre técnicas de emulação por meio do Projeto MAME.
+[2017-10-16 17:57:02] Dhora, vou assistir sua palestra
+[2017-10-16 18:24:16] Galera
+[2017-10-16 18:24:50] qual é a vantagem na prática de usar Athena + S3 vs usar um postgre em EC2?
+[2017-10-16 18:38:29] Estamos tentando montar um seguindo mais ou menos os passos do ben eater no Garoa. Eu e um colega estávamos de férias, mas devemos retornar em breve os encontros :)
+[2017-10-16 19:01:43] \o/
+[2017-10-16 19:02:50] alguem me falkou desse encontro. o problema eh que eu moro longe do Garoa e nao teria como participar regularmente... mas vou acompanhando vcs :-)
+[2017-10-16 19:29:21] ===b
+[2017-10-16 19:56:23] @gustavo_ribeiro algum motivo especifico para seguir o ben eater e nao o nand2tetris?
+[2017-10-16 20:06:20] Mais prático. Nand2tetris é bem legal para aprender, mas para construir, fica mais difícil, na minha opinião de leigo :)
+[2017-10-16 20:07:38] Quero muito comprar o livro físico deles
+[2017-10-16 20:29:22] Hackers da Coreia do Norte podem roubar até US$ 1 bi por ano e provocar caos global - Notícias - Internacional
+https://noticias.uol.com.br/internacional/ultimas-noticias/the-new-york-times/2017/10/16/hackers-da-coreia-do-norte-podem-roubar-ate-us-1-bi-por-ano-e-provocar-caos-global.htm

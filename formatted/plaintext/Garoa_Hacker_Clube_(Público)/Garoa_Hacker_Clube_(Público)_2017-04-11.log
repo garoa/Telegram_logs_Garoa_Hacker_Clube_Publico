@@ -1,0 +1,72 @@
+[2017-04-11 02:50:35] eita
+[2017-04-11 07:40:57] Bom dia a pessoALL
+[2017-04-11 09:57:37] Estou com um seguidor de linha montando, mas ainda nao tive tempo de fazer  a programação. Vou tentar ir na sexta.
+[2017-04-11 10:04:11] Free Learning Python eBook | PACKT Books
+https://www.packtpub.com/packt/free-ebook/learning-python
+[2017-04-11 11:58:10] Quinta terá tbm?
+[2017-04-11 12:11:11] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803111759_47853.jpg
+[2017-04-11 12:16:46] 😂😂😂
+[2017-04-11 13:23:50] A gente pode usar para fazer o "qual é o circuito"
+[2017-04-11 14:25:04] OI ?!
+[2017-04-11 15:00:44] Usar o circuito do "qual é a música" para algum jogo parecido, talvez "qual é o circuito", etc
+[2017-04-11 15:01:03] hahaha
+[2017-04-11 15:01:07] certamente!
+[2017-04-11 15:01:24] dá pra fazer uma atividade pra programar o bicho
+[2017-04-11 15:01:36] agora que eu tenho um emulador, eu posso testar antes de gravar na EPROM
+[2017-04-11 15:02:49] podíamos programar ele pra ser um display de "eventos da semana", recebendo pela porta serial dados vindos do wiki do Garoa, com o raspberrypi do sensor da porta servindo de proxy
+[2017-04-11 15:03:37] botar ele dentro do rack de servidor
+[2017-04-11 15:03:45] deve dar um efeito legal
+[2017-04-11 15:04:20] curti a idéia
+[2017-04-11 15:04:26] o monitor é pb ou colorido?
+[2017-04-11 15:04:43] monocromático, de fósforo verde
+[2017-04-11 15:04:50] fallout feelings
+[2017-04-11 15:06:19] pra evitar de ter que ficar re-gravando eprom o tempo todo, daria pra transformar ele num terminal burro via serial
+[2017-04-11 15:06:32] aí toto o resto a gente faz em python no raspberrypi mesmo
+[2017-04-11 15:06:48] enviando escritas pro VDP via porta serial
+[2017-04-11 15:07:11] vt100!
+[2017-04-11 15:07:20] oh yeah!
+[2017-04-11 15:07:27] com VDP de MSX1
+[2017-04-11 15:07:33] naiss
+[2017-04-11 15:07:43] ou então faz um modo teletexto!
+[2017-04-11 15:08:05] já temos um tema pro hackathon hahaha
+[2017-04-11 15:08:37] ó que legal seria fazer a wiki do garoa renderizada desse jeito https://en.wikipedia.org/wiki/Teletext
+[2017-04-11 15:08:57] super combina com a idéia de exibir informações, já que é pra isso que era usado
+[2017-04-11 15:12:42] :-D
+[2017-04-11 15:39:01] https://github.com/garoa/CRT-info
+[2017-04-11 15:39:03] garoa | CRT-info
+
+CRT display with all sorts of info at the hackerspace.
+
+Language: C
+Forks: 0
+Stars: 0
+Issues: 0
+[2017-04-11 15:40:07] https://books.google.com.br/books?id=NHQEUzLiY1MC&pg=PA52&lpg=PA52&dq=28800+baud&source=bl&ots=jhbgtID7wX&sig=GU7PbziRyUoqxBXbdu-dnQjLEHw&hl=pt-BR&sa=X&ved=0ahUKEwjskK7zgp3TAhVEI5AKHSX3BSsQ6AEIZzAJ#v=onepage&q=28800%20baud&f=false
+[2017-04-11 15:48:24] https://github.com/felipesanches/mame/commits/qual_e_a_musica
+[2017-04-11 18:24:44] hahahahah, campus são paulo = garoa nutella hahaha
+[2017-04-11 18:25:48] Gente,
+[2017-04-11 18:26:01] eu conheci os dois lugares quando eu fui para SP essa semana
+[2017-04-11 18:26:08] eu curti muito mais estar no garoa
+[2017-04-11 19:08:25] Alguém no garoa agora?
+
+
+eu vou me atrasar um pouco para o Z80: Homebrew Computer, pois fiquei preso no trabalho
+[2017-04-11 19:54:31] Garoa aberto para o  Z80: Homebrew Computer
+[2017-04-11 19:54:38] alguém pretende vir?
+[2017-04-11 20:08:45] eu só vou amanhã
+[2017-04-11 20:08:52] fazer a atividade sobre Coreboot
+[2017-04-11 20:09:10] hoje eu vi aqui em casa o livro sobre Z80, do Steve Ciarcia
+[2017-04-11 20:27:34] queria muiti participar da sua atividade amanhã... nas não vou conseguir sair cedo do trabalho :/
+[2017-04-11 20:28:00] já que ninguém apareceu para o Z80: Homebrew Computer, estou fechando o garoa
+[2017-04-11 20:28:44] :-(
+[2017-04-11 20:29:42] Queria ir no Garoa, mas por causa do caos causado pela greve dos trens, achei melhor não arriscar e vir embora...
+[2017-04-11 20:38:58] Offtopic: O Google lançou o free tier do serviço de cloud deles
+
+https://cloud.google.com/free/
+[2017-04-11 22:28:14] pessoinhas sabado vou no garoa pro tutorial de jupyter notebooks e pa... como funciona pra levar uns negocios velhos (tablet, celular e afins) que possa servir pra alguma coisa? ou eh algo tipo "desecana mina joga fora e vida que segue"
+[2017-04-11 23:13:20] Jé, pode levar sim, o que serve é aproveitado, o que não serve ou é doado ou jogado fora...
+[2017-04-11 23:13:47] 👍👍
+[2017-04-11 23:13:48] https://garoa.net.br/wiki/Jupyter_Notebooks
+[2017-04-11 23:14:15] 👆 sábado 15/4 10h
+[2017-04-11 23:14:27] massa
+[2017-04-11 23:17:16] obrigada! entao vou levar as coisas

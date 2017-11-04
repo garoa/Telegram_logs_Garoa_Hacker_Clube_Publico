@@ -1,0 +1,224 @@
+[2016-09-16 06:41:55] Esta manhã acordei MT decepcionado com meu Linux. Ontem à noite cheguei em casa e ao ligar o computador, após logar no ubuntu ,  os botões do Unit sumiram. Nem topo fé janela, só os ícones do Desktop e papel de parede. Console só no alt f1
+[2016-09-16 06:43:11] Achei, configs corrompidas, reiniciei como totó, convidado e msm coisa, opa, treta seria
+[2016-09-16 06:44:27] Seis horas depois, e após muita briga, gnome—shell
+[2016-09-16 06:44:40] Instalado,
+[2016-09-16 06:46:10] Soh consigo uma sessão usável gráfica com boot de console e malandragens que Faria o Slackware corar
+[2016-09-16 06:47:08] O mais loco eh que o usb—create—disk do ouvinte 16.4 64
+[2016-09-16 06:47:35] Faz um pendrive que não boota
+ no computador...
+[2016-09-16 06:48:40] Justo hj
+[2016-09-16 06:48:56] Dia do nós robôs....
+[2016-09-16 06:50:20] Desculpe, précisava desabafar
+[2016-09-16 08:05:10] Foi por essas e outras que hoje Mac OS pra mim, vale cada centavo e não troco por nada.
+[2016-09-16 08:32:03] pra fazer pendrive, 
+dd if=/ondeestaa.iso of=/dev/<dev do pendrive> bs=1M 
+
+sempre desabilito atualização (lembra windows pirata?)
+tanto ubunto quanto debian podem corromper coisas quando atualizam, atualizo manualmente, no synaptic, dá pra controlar melhor o que ele faz, as vezes vai atualizar algo ele pede pra remover coisas importantes
+[2016-09-16 08:34:35] no automático ele pode remover e nem avisar, aí dá nisso
+[2016-09-16 09:13:21] O estranho é que o pendrive não dá boot na minha máquina. Em outra boota
+[2016-09-16 09:13:26] Loco loco
+[2016-09-16 09:14:54] Verifica a questão de segurança no setup
+[2016-09-16 09:15:08] Geralmente UEFI pode atrapalhar
+[2016-09-16 09:15:17] Mude para legacy
+[2016-09-16 09:16:37] Eu uso Fedora e OpenSUSE por ter cansado desses bugs do Ubuntu
+[2016-09-16 09:16:54] Quando atualiza o kernel automaticamente então
+[2016-09-16 09:17:11] Existem grandes chances de dar zica
+[2016-09-16 09:18:59] Meu note eh velho. I5 com setup antigo. Não eh UEFI
+[2016-09-16 09:19:25] Eu gostava com esse pendrive no note antes
+[2016-09-16 09:32:29] Em alguns modelos mais antigos, o Pen drive é reconhecido como um hard disk para efeito de boot
+[2016-09-16 09:32:57] Aí ao invés de escolher usb nas opções de iniciação
+[2016-09-16 09:33:05] Escolha hard disk
+[2016-09-16 09:33:14] E vai mostrar as duas opções
+[2016-09-16 09:33:23] Aí vc escolhe o pendrive
+[2016-09-16 09:54:38] Me passe a marca e o modelo do seu note que vou confirmar
+[2016-09-16 11:25:52] Quem já mexe com visão computacional?
+[2016-09-16 11:46:15] photo
+[2016-09-16 11:46:53] Eh um Lenovo ideapad z470
+[2016-09-16 11:50:14] tente outros pendrives
+[2016-09-16 11:50:22] nem todos aparecem na bios por vários fatores
+[2016-09-16 11:50:33] Achei o bug.
+[2016-09-16 11:50:37] yay
+[2016-09-16 11:51:09] Subi td que era usb pra cima na ordem de boot.
+[2016-09-16 11:51:44] Acho q agora anda
+[2016-09-16 11:54:47] E agora q estou mais animado
+[2016-09-16 11:55:08] Alguém vai no eu robô de hj?
+[2016-09-16 11:55:39] calma
+[2016-09-16 11:55:43] deu ou não deu?
+[2016-09-16 11:56:05] porque nome de pendrive não aparecer na sua foto pra mim é um forte sinal que seu pendrive não serve para boot
+[2016-09-16 11:56:17] photo
+[2016-09-16 11:56:21] ah ok
+[2016-09-16 11:56:36] Da uma alegria ver isso não?
+[2016-09-16 11:56:43] porque "tudo que era usb" nas bios geralmente pode significar usb-fdd, usd-cd
+[2016-09-16 11:57:01] e não necessariamente o pendrive, que geralmente aparece separado e com o nome do fabricante/modelo
+[2016-09-16 11:57:33] Sim. Este pendrive costumava aparecer de boa
+[2016-09-16 11:57:43] entendi
+[2016-09-16 11:57:43] Não sei Pq não.mais
+[2016-09-16 11:58:04] Não me lembro de ter atualizado a BIOS
+[2016-09-16 11:58:28] O importante eu que acho que agora td volta aos eixos
+[2016-09-16 11:58:56] Meu /home eh separado
+[2016-09-16 12:01:48] sempre bom
+[2016-09-16 13:01:50] Bruno Drago joined
+[2016-09-16 13:01:51] Hi Bruno !
+[2016-09-16 14:21:50] https://www.youtube.com/watch?v=uKxzK9xtSXM
+[2016-09-16 14:23:38] Caros.
+Há mais de uma semana tive um problema no windows na hora de mover uma pasta de arquivos (gigante), e esta acabou perdida sei lá onde.
+Desde então, usando diferentes softwares de recovery e falando com alguns poucos especialistas, continuo na mesma.
+Antes de levar pra uma empresa que vai me cobrar no mínimo R$ 1.500,00, gostaria de saber se alguém já fez isso de um linux para acessar bad blocks ou qualquer coisa do tipo, e que possa me ajudar.
+Obrigada!
+[2016-09-16 14:40:27] tá complicado mesmo Rita
+[2016-09-16 14:40:38] o ctrl x é geralmente irreparavel porisso que nunca se usa
+[2016-09-16 14:41:24] já reiniciou o pc? tava zipado ou era a pasta aberta?
+[2016-09-16 14:42:17] Aberta...perdi quase 500gb...foi um erro...tava organizando pra fazer o backup...ai droga
+[2016-09-16 14:42:36] ja tentou o recuva?
+[2016-09-16 14:42:42] Não reiniciei...tirei o hd...fiquei com medo de perder pra sempre
+[2016-09-16 14:42:45] ou algum outro?
+[2016-09-16 14:42:53] Tentei sim esse e outros
+[2016-09-16 14:43:35] ql windows tá usando?
+[2016-09-16 14:43:55] 10
+[2016-09-16 15:03:45] http://spaceflightnow.com/2016/09/15/av062_journal/
+[2016-09-16 15:04:02] mais um lançamento de foguete, dessa vez um Atlas 5
+[2016-09-16 15:04:15] o streaming começa em 1 minuto
+[2016-09-16 15:07:24] O Atlas 5 é projetado e fabricado pela United Launch Alliance (ULA) que basicamente é uma empresa formada pela junção dos departamento de P&D de tecnologia espacial da Boing e da Lockheed Martin
+[2016-09-16 15:08:38] Esse é um dos que explodem mais legal,de todas as formas
+[2016-09-16 15:09:03] vai ser de dia o lançamento, então vai dar pra ver melhor
+[2016-09-16 15:09:32] antes de entrar no "cyberespaço" como diz nosso amigo @Anders_Bateva ahahhaa
+[2016-09-16 15:09:51] Ele se chama atlas porque ele empurra o planeta inteiro para baixo, usando essa força para subir. Como todo o foguete.
+[2016-09-16 15:10:18] hahaha
+[2016-09-16 15:10:21] oooops!
+[2016-09-16 15:10:58] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803707612_95627.jpg
+[2016-09-16 15:11:08] Eita
+[2016-09-16 15:11:12] Atlas shrugged
+[2016-09-16 15:11:17] Atlas scrubbed
+[2016-09-16 15:11:29] devem tentar de novo amanha
+[2016-09-16 15:11:35] deu alguma zica de ultima hora
+[2016-09-16 15:13:29] photo
+[2016-09-16 15:14:14] A Microsoft pode ter deletado pra você então.
+[2016-09-16 15:37:02] Rita, quando percebeu a falha, desliga o sistema é faz uma cópia do HD usando um HD igual ou maior com o comando dd do linux
+[2016-09-16 15:38:17] Depois disso, trabalhe somente na copia
+[2016-09-16 15:38:52] Vc pode fazer a busca pelo nome de um dos arquivos
+[2016-09-16 16:06:16] @CROCANTE onde vc está? Quem sabe consegue ajuda de pessoas próximas a vc.
+Há várias ferramentas para recuperar ao menos parte do que perdeu, não costumam ser triviais e exigem LONGO tempo de processamento, (as vezes dias)  Wagner tem razão, trabalhar sobre uma cópia é fundamental.
+[2016-09-16 16:23:44] É...eu passei 4 dias so scaneando e veio lixo q deletei ano passado, mas não o que perdi quarta retrasada....
+Eu moro em pinheiros, perto do garoa até
+[2016-09-16 16:28:09] putz... semana passada eu fiz um backup com rsync do meu HD inteiro prum HD externo por conta do medo de perder os dados. E fiquei todo receoso de fazer besteira durante o processo de backup. Que bom que deu tudo certo. É um tanto irônico ferrar um HD exatamente no momento da tomada de iniciativa de se fazer um backup... 😞
+[2016-09-16 16:28:30] Eu sinto falta de soluções mais simples e óbvias para todo mundo ter backup
+[2016-09-16 16:30:38] eu andei experimentando o git-annex Parece uma ferramenta sensacional conceitualmente, mas na prática, para uma quantidade muito grande de arquivos muito pequenos (tipo centenas de milhares de arquivos com poucos kbytes) o overhead do índice do git ferra com a performance. Levou alguns dias pra fazer o backup do disco e desesti antes de terminar. Joguei tudo fora e recomecei o backup usando uma ferramenta mais simples (o rsync)
+[2016-09-16 16:30:44] incrível como rsync é simples !
+[2016-09-16 16:30:46] git
+[2016-09-16 16:30:51] uso git pra backup
+[2016-09-16 16:30:57] com cronm
+[2016-09-16 16:31:04] sim, eu faço backup em git, mas não de TUDO
+[2016-09-16 16:31:24] o mais simples seria backup da imagem do hd
+[2016-09-16 16:31:28] faço de forma estruturada, projeto por projeto, cada um em seu próprio repositório. Coisas que não são "projeto" não têm backup ainda
+[2016-09-16 16:31:31] como o timelapse faz
+[2016-09-16 16:31:38] bem... agora tem, via rsync num hd externo
+[2016-09-16 16:31:54] timemachine(*
+[2016-09-16 16:32:11] eu fazia backups com a ferramenta padrão que vem no Trisquel (talvez seja igual no Ubuntu, não sei)
+[2016-09-16 16:32:27] mas eu não tinha uma forma prática de validar que o backup tava bom no hd
+[2016-09-16 16:32:57] e nunca validei um recovery, então não sei o que eu faria num eventual momento de desastre de dados no futuro pra recuperar os dados a partir do backup
+[2016-09-16 16:33:36] mas com rsync, o HD externo é completamente legível pois vc vê os arquivos diretamente, sem compressão nenhuma, sem o empacotamento de dados que algumas ferramentas fazem
+[2016-09-16 16:44:36] Isso, rsync também é minha filosofia para backups
+[2016-09-16 16:44:58] usei muito rsync pra transferir coisas entre servers
+[2016-09-16 16:45:05] mas nunca pra backup
+[2016-09-16 16:45:09] vou tentar depois
+[2016-09-16 17:13:40] Galera, vou precisar adiar o horário do #Quebrando_o_Cerco das 15h para as 13h devido um compromisso pessoal
+[2016-09-16 17:25:51] Cara, rsync é perfeito para backup. Acho que talvez só aquele sistema de arquivo específico seja melhor (esqueci o nome)
+[2016-09-16 17:42:12] Que bom que conseguiu
+[2016-09-16 17:42:38] Se refere ao Bacula?
+[2016-09-16 17:43:31] O Wifi Tá estranho pacas
+[2016-09-16 17:45:55] Não. É algo que o rsync.net está oferecendo agora
+[2016-09-16 17:48:37] To indo no garoa
+[2016-09-16 17:48:53] o/
+[2016-09-16 17:48:54] comigo a mesma coisa, estava fazendo backup de hds antigos e notes antigos, aí deu pau no hd de backup!
+[2016-09-16 17:50:28] o recuva estava funcionando para recuperar os dados, aí acabou a bateria do note, eu não percebi que estava com mal contato na tomada, aí tentei usar o software de recuperação da seagate, aí ferrou tudo, nem com o recuva mais, perdi um hd externo de 4TB
+[2016-09-16 17:51:02] Dependendo do valor dos teus dados esses 1500 poderão sair baratos. Primeira coisa que recomendo seria clonar os setores em um HD pelo menos do dobro de capacidade. Os bloco defeituosos você preenche com algo óbvio e depois sai recuperando os arquivos manualmente com ferramentas lentas e laboriosas.
+[2016-09-16 17:51:08] Scalpel pode ajudar.
+[2016-09-16 17:51:32] Mas seria basicamente fazer o trampo do povo que quer te cobrar pra fazer. E 500gb por 1.5? Tá barato.
+[2016-09-16 18:02:58] Garoa aí vamos nois
+[2016-09-16 18:26:34] Jureci joined
+[2016-09-16 18:26:35] Hi JFilho !
+[2016-09-16 18:26:53] boa noite galera!
+[2016-09-16 18:27:00] Boa
+[2016-09-16 18:27:49] Uma bela noite para garoar em grupo
+[2016-09-16 18:28:05] chegando aqui no grupo, tema livre ou restrito algum conteudo ?
+[2016-09-16 18:32:37] so pode falar de pizza
+[2016-09-16 18:34:09] 😂😂
+[2016-09-16 18:35:02] pra curtir entao ..
+[2016-09-16 18:35:03] Linux é igual brasileiro, pode não ser a melhor solução mais para tudo tem
+um jeito.
+Windows é igual americano, não gosta de velharia e toda mudança muda a cara
+mais não os hábitos.
+Solaris é igual europeu, pinta as paredes para dizer que a casa é nova mais
+a fundação é do seculo passado.
+UNIX/BSD é igual russo, mudanças só se julgar necessário, e quando muda
+ninguém nota.
+Flamers > /dev/null !!!
+[2016-09-16 18:35:50] Acho que é um grupo direcionado a discutir tecnologia, com ênfase em hacking. E o espaço do clube em si.
+[2016-09-16 18:36:56] entao vamos dividar a mesma pizza👍
+[2016-09-16 18:39:53] https://www.youtube.com/watch?v=uKxzK9xtSXM
+[2016-09-16 18:40:04] 🍕🍕🍕🍕 🍕🍕🍕🍕
+[2016-09-16 18:40:08] oooops
+[2016-09-16 18:40:13] canal errado
+[2016-09-16 18:40:27] (se bem que eu já tinha mandado esse video aqui mais cedo hoje)
+[2016-09-16 18:40:33] o cara fala bem demais
+[2016-09-16 18:40:42] Oito pedaços de pizza para 8 hackers tristes
+[2016-09-16 18:40:45] que domínio de oratória!
+[2016-09-16 18:41:40] o video certo que eu queria mandar agora era esse: https://www.youtube.com/watch?v=9L87XiQTAZE
+[2016-09-16 18:43:02] O cara da SpaceX que fala no vídeo é o diretor de certificação para vôos tripulados. Que treta ter que responder sobre acidente/explosão... Mas o cara se saiu bem na argumentação. Profissa!
+[2016-09-16 18:45:24] http://computerworld.com.br/nove-frases-temidas-por-especialistas-em-seguranca-da-informacao
+[2016-09-16 18:45:50] a ultima delas é a melhor : 9. Nós enviamos as regras do firewall para...
+[2016-09-16 18:48:45] Qual era o certo? Pq quero participar do grupo onde esse vídeo fora destinado.
+[2016-09-16 18:48:55] hahaha
+[2016-09-16 18:49:05] era prum grupo de amigos do colegial
+[2016-09-16 18:50:18] o canal se chama "Nossa, Mas Que Farra!!!" hahahahha
+[2016-09-16 18:50:32] é um canal muito sério
+[2016-09-16 18:50:34] :-P
+[2016-09-16 18:50:45] tipo rola vídeo do Eben Moglen por lá
+[2016-09-16 18:52:34] Testdisk
+[2016-09-16 18:53:05] Photorec
+[2016-09-16 18:53:14] Mount -o ro
+[2016-09-16 18:55:47] Atenção, campainha do portão is down
+[2016-09-16 18:56:09] Doorbell is down
+[2016-09-16 18:56:30] Alguém tem uma chave Philips ae
+?
+[2016-09-16 18:57:57] a chave do portão exterior é quase reta
+[2016-09-16 18:58:06] um clipe de papel faz lockpicking naquilo
+[2016-09-16 18:58:33] Má idéia
+[2016-09-16 18:58:54] pq?
+[2016-09-16 18:59:19] Mensagem pública maléfica em mãos erradas
+[2016-09-16 18:59:54] vamos ver se assim trocam por uma fechadura melhor :p
+[2016-09-16 19:04:20] É, a segurança da chave não depende muito do formato específico, mas da técnica e precisão de montagem da fechadura.
+[2016-09-16 19:04:21] É quase reta porque esta é uma das formas possíveis que ela pode assumir. Coisas aleatórias às vezes parecem ter um padrão
+[2016-09-16 19:04:21] Mas não é mais difícil ou fácil que outras fechaduras do mesmo modelo
+[2016-09-16 19:07:04] Doorbell now is back
+[2016-09-16 19:07:19] Ninguém atende a campainha?
+[2016-09-16 19:07:36] Tem fila na.porta
+[2016-09-16 19:08:37] Toc toc
+[2016-09-16 19:13:03] pelo que eu entendi, (pelo menos a minha chave) é quase reta porque por ser cópia da cópia da cópia.. e acabou perdendo os dentes
+[2016-09-16 19:14:00] o que me indica que as travas do barril da fechadura abrem quase na mesma altura, o que eu consideraria fácil no caso de lockpicking, ao contrário de alturas mais diferentes
+[2016-09-16 19:14:17] falando pela minha experiência em fazer lockpicking com cadeados
+[2016-09-16 19:15:31] Bom, consertei
+[2016-09-16 19:15:36] A campainha
+[2016-09-16 19:15:47] Éramos seis....
+[2016-09-16 19:15:56] Caramba
+[2016-09-16 19:16:17] Nada que uma chave Philips e um estilete não resolva
+[2016-09-16 19:16:37] Mas precisa de um ou dois parafusos com bucha
+[2016-09-16 19:17:09] Para uma solução satisfatória
+[2016-09-16 19:17:10] A chave do portão do Garoa é meio reta, mesmo
+[2016-09-16 19:17:20] Se eu soubesse...
+[2016-09-16 19:17:33] O parafuso de cima está enferrujado
+[2016-09-16 19:18:49] Eu teria trazido algo bom
+[2016-09-16 19:24:26] garoa tem mil e um parafusos
+[2016-09-16 19:24:33] um deles deve servir
+[2016-09-16 19:30:25] Garoa aberto
+[2016-09-16 19:30:52] Tem uma luminária caída na chão
+[2016-09-16 19:30:58] tem que ligar o disjuntor
+[2016-09-16 19:43:57] Quem vai no Garoa Reboot (sábado 24/9)?
+[2016-09-16 20:52:01] Airton Gaidys que deu a oficina de VC no Garoa (ele usa profissionalmente para controle de qualidade na própria gráfica)
+[2016-09-16 21:42:15] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803730022_59830.jpg
+[2016-09-16 21:52:29] Mesmo não tendo conhecimento nenhum em Arduíno e robótica, posso ir para aprender ?
+[2016-09-16 21:55:45] ***deve*** ir para aprender!
+[2016-09-16 21:56:06] ;)
+[2016-09-16 23:47:49] gente, na página inicial diz que o Garoa está aberto, mas quando clica no link diz que está fechado
+[2016-09-16 23:57:52] Garoa de Schrödinger

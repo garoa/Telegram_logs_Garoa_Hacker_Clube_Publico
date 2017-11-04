@@ -1,0 +1,127 @@
+[2016-06-10 00:16:40] Putz, vai ser depois. Mas já resolvemos aqui.
+[2016-06-10 00:16:57] No domingo provavelmente vamos fazer broadcast das palestras do auditorio da bsides. Se isso der certo, vai ser avisado via telegram
+https://telegram.me/bsideslatam2016
+[2016-06-10 00:17:43] Opa, valeu. Estarei acompanhando
+[2016-06-10 00:18:50] Combina com o pessoal do raul p vcs assistirem todos juntos no hackerspace !!!   #ficaadica
+[2016-06-10 00:19:54] Sim,irei falar no grupo. Obrigado
+[2016-06-10 00:33:43] Vai vir??
+[2016-06-10 00:34:45] blargh
+[2016-06-10 00:34:51] finalmente terminei
+[2016-06-10 00:35:06] fiz um sistema de interface web todo em 1 dia
+[2016-06-10 00:35:08] viva o flask
+[2016-06-10 00:36:29] Essa parte eu quero
+[2016-06-10 00:36:56] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_826459275206328386.webp
+[2016-06-10 00:38:56] no final de semana eu pretendo trabalhar na construção de uma réplica do Patinho Feio usando um arduino e muitos LEDs e botões
+[2016-06-10 00:39:21] e um painel impresso numa gráfica e acrílico cortado a laser
+[2016-06-10 00:39:44] com essa arte: https://github.com/felipesanches/PatinhoFeio/blob/master/SVG/Painel_Frontal_PatinhoFeio.svg
+[2016-06-10 00:40:10] talvez eu faça essas coisas lá no Garoa :-)
+[2016-06-10 01:33:57] Pessoal, alguém tem alguma referências na internet que ensinado passa a passo como reconstruir na unha o initrd corrompido?
+[2016-06-10 01:34:48] Meu cryptseyup deu pau. Estou tentar recuperar o meu Debia 8 com Live CD do Debia 8.
+[2016-06-10 03:03:56] debian
+[2016-06-10 03:03:59] com n
+[2016-06-10 09:39:56] Cássio Pereira joined
+[2016-06-10 09:40:42] Pessoal sou Cássio desenvolvedor participando aqui agora
+[2016-06-10 10:51:29] senha 123456
+[2016-06-10 10:51:29] document
+[2016-06-10 11:05:21] Bem vindo! =) 
+Ja conhece o garoa?
+[2016-06-10 11:20:32] <!DOCTYPE html><html><head><style>body {  font-family:'lucida grande, Helvetica, Verdana, sans-serif';}.button {display: block;height: 60px;background: orange;padding: 10px;text-align: center;border-radius: 2px;color: black;font-weight: bold;text-decoration: none;}</style></head><body><h2>Visual Studio 2015 C++ Compiler Secretly Inserts Telemetry Code Into Binaries</h2><p STYLE="padding: 10px;" ><b>Reader edxwelch writes:</b><br><br>&nbsp;&nbsp; Reddit user sammiesdog discovered recently that Visual Studio 2015 C++ compiler was inserting calls to a Microsoft telemetry function into binaries. "I compiled a simple program with only main(). When looking at the compiled binary in IDA, I see a call for telemetry_main_invoke_trigger and telemetry_main_return_trigger. I cannot find documentation for these calls, either on the web or in the options page," he wrote. Only after the discovery did Steve Carroll, the dev manager for Visual C++ admit to the "feature" and posted a workaround to remove it.A Microsoft spokesperson confirmed the existence of this behavior to InfoQ, adding that the company wil bel removing it in a future preview build. For those who wish to get rid of it, the blog writes:</b><br><br>&nbsp;&nbsp; Users who have a copy of VS2015 Update 2 and wish to turn off the telemetry functionality currently being compiled into their code should add notelemetry.obj to their linker command line.<p><!--<div class="share_submission" style="position:relative;"><a class="slashpop" href="http://twitter.com/home?status=Visual+Studio+2015+C%2B%2B+Compiler+Secretly+Inserts+Telemetry+Code+Into+Binaries%3A+http%3A%2F%2Fbit.ly%2F1UqBwsV"><img src="https://a.fsdn.com/sd/twitter_icon_large.png"></a><a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fyro.slashdot.org%2Fstory%2F16%2F06%2F10%2F1350245%2Fvisual-studio-2015-c-compiler-secretly-inserts-telemetry-code-into-binaries%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"><img src="https://a.fsdn.com/sd/facebook_icon_large.png"></a><a class="nobg" href="http://plus.google.com/share?url=https://yro.slashdot.org/story/16/06/10/1350245/visual-studio-2015-c-compiler-secretly-inserts-telemetry-code-into-binaries?utm_source=slashdot&amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/></a></div></p><p><a href="https://yro.slashdot.org/story/16/06/10/1350245/visual-studio-2015-c-compiler-secretly-inserts-telemetry-code-into-binaries?utm_source=rss1.0moreanon&amp;utm_medium=feed">Read more of this story</a>at Slashdot.</p><iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;id=9225789&amp;smallembed=1" style="height: 300px; width: 100%; border: none;"></iframe><img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/ivS01TrfsvE" height="1" width="1" alt=""/>--></p><center><h3>Read more here at:</center><br><a class="button" href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/ivS01TrfsvE/visual-studio-2015-c-compiler-secretly-inserts-telemetry-code-into-binaries">Slashdot Site</a><h3><a href="https://itunes.apple.com/us/app/slashdot-reader/id867594324">Download app here ..</a></body></html>
+[2016-06-10 11:21:11] Pra quem curte "obra prima" da web
+http://code.divshot.com/geo-bootstrap/
+[2016-06-10 11:21:24] Conheço Fábio estive lá ontem mesmo
+[2016-06-10 11:31:17] nao recoheci a foto hahaha
+[2016-06-10 11:31:17] hihihi...
+[2016-06-10 11:46:34] Bem vindo ao grupo, Cássio.
+[2016-06-10 12:37:44] eae
+[2016-06-10 12:39:07] so para vcs saberem, no garoa.club tem webdav
+[2016-06-10 12:39:25] quem nao usa eh mulher do padre
+[2016-06-10 12:41:11] dependendo do Padre...
+[2016-06-10 12:41:39] Fábio de Melo
+[2016-06-10 12:41:47] Snapcheteiro
+[2016-06-10 12:41:53] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_285892071401720405.webp
+[2016-06-10 15:10:15] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_802232031_98414.jpg
+[2016-06-10 15:17:16] !!!
+[2016-06-10 15:17:22] essa vai pro meu blog :) valeu
+[2016-06-10 15:17:30] http://pcfails.tumblr.com/
+[2016-06-10 15:17:45] wait, essa não é a url?
+[2016-06-10 15:18:01] http://pcfailures.tumblr.com/
+[2016-06-10 15:18:03] confundi
+[2016-06-10 16:59:32] GENTE
+[2016-06-10 16:59:41] PÁRA TUDOOOO
+[2016-06-10 16:59:52] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_421939805_94801.jpg
+[2016-06-10 17:00:01] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_58023844232823714.webp
+[2016-06-10 17:02:24] essa camisa nova tá igual o adesivo todo verde
+[2016-06-10 17:02:32] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_505010926202650744.webp
+[2016-06-10 17:02:33] ngm pode ir no itaquerão com ela
+[2016-06-10 17:02:39] não, a camisa tá linda
+[2016-06-10 17:02:49] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_826459275206328402.webp
+[2016-06-10 17:02:54] Ninguém deveria ir ao Itaquerão
+[2016-06-10 17:02:55] pena quenao tem do meu tamanho
+[2016-06-10 17:03:03] so to inventando desculpa
+[2016-06-10 17:03:06] pq nao posso usar uma auhhuaeuhae
+[2016-06-10 17:03:54] A de tamanhos diferentes estava muito cara... mas se quiser, nós mandamos fazer numa próxima leva
+[2016-06-10 17:04:27] dessa vez eu perguntei e só tinha uma
+[2016-06-10 17:04:42] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_421937376_95372.jpg
+[2016-06-10 17:05:14] Se alguém quiser comprar, vai estar hj a noite no Garoa. E domingo na BSides
+[2016-06-10 17:05:31] 25 Temers
+[2016-06-10 17:06:54] A única que tinha era Branca.
+[2016-06-10 17:11:56] quanto tá a da bsides? tem babylook?
+[2016-06-10 17:12:18] ou da bsides é só pra quem comprou na hora?
+[2016-06-10 17:12:28] Acho que não vai ter babylook na BSides... =(
+[2016-06-10 17:12:31] awh
+[2016-06-10 17:12:52] qual uso na bsides, a do garoa ou a do anchises? :p
+[2016-06-10 17:26:39] Wow onde compra?
+[2016-06-10 17:26:52] Se alguém quiser comprar, vai estar hj a noite no Garoa. E domingo na BSides
+[2016-06-10 17:37:11] daora, se pá eu passo lá. eu tinha uma antiga que foi roubada
+[2016-06-10 17:38:51] a da nike ngm rouba
+[2016-06-10 17:38:53] agora do garoa
+[2016-06-10 17:38:56] todo mundo quer roubar
+[2016-06-10 17:39:28] pois é. tá bem cotada por aí
+[2016-06-10 17:40:47] Galera que precisa criar aplicações Flask e Python, criei um Boilerplate para projetos Flask, ele está disponível através deste link: https://github.com/vmesel/FlaskBP
+[2016-06-10 17:43:44] E não vou separar pra ninguém
+[2016-06-10 17:43:52] pegar pagar e levar
+[2016-06-10 18:29:02] Confesso que tenho medinho de abrir o garoa à noite.
+[2016-06-10 18:29:35] Mas abri
+[2016-06-10 18:31:26] eu tenho medo de ficar no garoa sozinha, porque daí aparecem estranhos querendo conhecer e eu a) não sei mostrar o espaço direito b) tenho medo de estranhos enquanto sozinha
+[2016-06-10 18:31:31] em qualquer hora do dia
+[2016-06-10 18:32:31] Eu não queria abrir a porta. Tava tão quentinho. Snif
+[2016-06-10 18:33:47] Yumi, pena que hoje tenho curso no Tatuapé... senão iria no Garoa... não tem mesmo GG?
+[2016-06-10 18:34:11] camiseta GG tem
+[2016-06-10 18:34:29] só não vou pro garoa hoje porque quero descansar um pouco, e vou amanhã
+[2016-06-10 18:34:32] gomen
+[2016-06-10 18:35:25] Fabiolicius está vindo.
+[2016-06-10 18:37:09] Maldito corretor bizarro
+[2016-06-10 18:37:18] Fabio*
+[2016-06-10 18:40:13] sei
+[2016-06-10 18:40:18] esse corretor ai..
+[2016-06-10 18:41:02] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_362950403236561115.webp
+[2016-06-10 19:25:15] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_826459275206328386.webp
+[2016-06-10 19:47:19] ASHUASUHSAHUUHAS
+[2016-06-10 19:48:17] olha o jabá https://soundcloud.com/svetlana/undecent-couscous
+[2016-06-10 19:56:27] Fabiolixos
+[2016-06-10 19:58:40] Fabiolocos
+[2016-06-10 20:05:55] FABS LOCK
+[2016-06-10 20:08:51] Corretor safadinho...
+[2016-06-10 20:20:52] Fabiolicious foi demais kkk
+[2016-06-10 20:21:51] ele é
+[2016-06-10 20:34:13] https://www.packtpub.com/packt/offers/free-learning
+[2016-06-10 20:34:31] Raspberry Pi for Secret Agents
+[2016-06-10 20:34:46] Hahahaha... já apaguei...
+[2016-06-10 20:34:46] Rá!
+[2016-06-10 21:55:40] É perto de casa então passar por alí é inevitável
+[2016-06-10 21:56:43] Achei bem verde tb
+[2016-06-10 21:57:34] acho que a gente podia fazer uma com desenho branco num fundo verde
+[2016-06-10 21:58:28] Eu gostei dessa Verde! Pena q n vou conseguir ir hoje la pegar
+[2016-06-10 21:59:41] Comprei peças (botões com LED e toggle-switches) e encomendei corte a laser e impressão de adesivo com a arte do painel didático do Patinho Feio. Essa semana devo começar a montar o protótipo. :-D
+[2016-06-10 22:01:02] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_334442278644160358.webp
+[2016-06-10 22:03:27] Eu vi ao vivo... ficou boa a impressão. A do Anchises tá com impressão branca
+[2016-06-10 22:04:26] Meu... da série só acontece comigo: roubaram nosso carrinho de supermercado. ANTES de pagar.
+[2016-06-10 22:04:41] Tivemos que pegar tudo de novo
+[2016-06-10 22:04:58] alguém aprovou a sua curadoria de produtos hahaha
+[2016-06-10 22:05:02] hehehehe!
+[2016-06-10 22:05:10] LOL
+[2016-06-10 22:05:23] Já aconteceu comigo
+[2016-06-10 22:06:00] podiam fazer carrinhos pré-carregados, né? Tipo cesta-básica
+[2016-06-10 22:06:17] "compra-básica"
+[2016-06-10 22:08:47] Então só acontece conosco. A merda do carrinho tava cheia.
+[2016-06-10 22:16:55] ajuda a descarregar aqui fora

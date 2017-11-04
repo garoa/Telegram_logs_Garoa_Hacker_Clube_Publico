@@ -1,0 +1,83 @@
+[2017-09-21 00:56:23] Felipe "Juca" Sanches: ;-)
+[2017-09-21 00:56:35] Felipe "Juca" Sanches: prefiro chamar de "cada dia melhor"
+[2017-09-21 01:02:51] Jeferson: Alright
+[2017-09-21 08:37:54] Felipe "Juca" Sanches added Yabadabaduca
+[2017-09-21 08:39:46] Yabadabaduca (in reply to Felipe "Juca" Sanches): Topo
+[2017-09-21 08:40:16] Felipe "Juca" Sanches: :-)
+[2017-09-21 10:23:50] Felipe "Juca" Sanches added Vinicyus
+[2017-09-21 10:26:27] Vinicyus: Cara, alguma dica de como começar a contribuir? Tipo pegar issues ou algo assim
+[2017-09-21 10:27:00] Vinicyus: Eu entendo um pouco de python mas nunca contribui pra projeto open source
+[2017-09-21 12:37:37] Felipe "Juca" Sanches: é... o bug tracker no github tem um monte de coisas que precisam ser feitas. Hoje, por exemplo, eu estou trabalhando na implementação de um teste novo, descrito nessa issue: https://github.com/googlefonts/fontbakery/issues/1488
+[2017-09-21 12:38:30] Felipe "Juca" Sanches added Felipe Sousa
+[2017-09-21 12:56:42] Vinicyus: Legal, vou pegar uma issue quando puder e trabalhar nela
+[2017-09-21 13:00:58] Felipe "Juca" Sanches: Os testes são implementados no arquivo Lib/fontbakery/specifications/googlefonts.py
+[2017-09-21 13:01:21] Felipe "Juca" Sanches: são testes para avaliar arquivos de fontes
+[2017-09-21 13:01:26] Vinicyus: Okay ;)
+[2017-09-21 13:01:56] Felipe "Juca" Sanches: mas há também testes de código (pra certificar que o código em si está OK). Esses "auto-testes" ficam em Lib/fontbakery/specifications/googlefonts_test.py
+[2017-09-21 13:02:21] Felipe "Juca" Sanches: implementar mais auto-testes pode ser uma tarefa mais simples pra quem está começando
+[2017-09-21 13:12:41] Felipe "Juca" Sanches added Vinicius Melo
+[2017-09-21 13:14:31] Vinicius Melo: Olá! Cheguei agora, sou iniciante em programação e tô pegando python pra estudar 😊
+[2017-09-21 13:14:45] Vinicius Melo: Agora sou de Salvador (terra de aurium) tem algum problema?
+[2017-09-21 13:15:06] Felipe "Juca" Sanches: Claro que não! Software livre é pro mundo todo!
+[2017-09-21 13:15:16] Vinicius Melo: Maravilha
+[2017-09-21 13:15:27] Vinicius Melo: Dar uma olhada no repo agora
+[2017-09-21 13:15:41] Felipe "Juca" Sanches: dá uma lida no histórico daqui desse grupo e veja se tem alguma dúvida, curiosidade, etc
+[2017-09-21 13:16:10] Vinicius Melo: Sim, fui lendo
+[2017-09-21 13:17:12] Felipe "Juca" Sanches: o código do FontBakery usa muito de uma biblioteca chamada fontTools, que é desenvolvida por um cara que era da RedHat, mas hoje em dia trabalha pro Google. O nome dele é Behdad.
+[2017-09-21 13:17:21] Felipe "Juca" Sanches: https://github.com/behdad/fonttools
+[2017-09-21 13:17:21] Vinicius Melo: Sim
+[2017-09-21 13:17:35] Vinicius Melo: Tu usa bastante da libmagick e C né?
+[2017-09-21 13:18:26] Felipe "Juca" Sanches: eu, pessoalmente, uso bastante C, sim. Quase não uso libmagick. Mas o FontBakery é todo em python mesmo.
+[2017-09-21 13:19:00] Vinicius Melo: Sim
+[2017-09-21 13:19:10] Felipe "Juca" Sanches: a biblioteca fonttools nos dá acesso aos dados internos de arquivos de fontes OpenType
+[2017-09-21 13:19:42] Felipe "Juca" Sanches: e são esses dados que a vasta maioria dos testes do fontbakery visa validar, pra ter certeza de que estão todos corretos
+[2017-09-21 13:21:14] Felipe "Juca" Sanches: eu fiz uma lista de todos os testes que o fontbakery tem hoje em dia aqui: https://github.com/googlefonts/fontbakery/wiki/Documentation-for-the-Google-Fonts-Specification
+[2017-09-21 13:21:57] Felipe "Juca" Sanches: seria bacana ter uma forma de listar esses testes por meio da linha de comando... uma opção assim, por exemplo: fontbakery check-googlefonts --list-tests
+[2017-09-21 13:22:12] Felipe "Juca" Sanches: isso seria muito útil
+[2017-09-21 13:23:57] Vinicius Melo: Certo, esses foram escritos manualmente?
+[2017-09-21 13:24:14] Felipe "Juca" Sanches: aquela lista que tá na wiki eu gerei manualmente
+[2017-09-21 13:24:39] Felipe "Juca" Sanches: usei uns truques de editor de texto pra facilitar minha vida, claro
+[2017-09-21 13:24:41] Vinicius Melo: Tu se baseou em qual arquivo?
+[2017-09-21 13:24:47] Vinicius Melo (in reply to Felipe "Juca" Sanches): Claro né kkk
+[2017-09-21 13:25:24] Felipe "Juca" Sanches: no Lib/fontbakery/specifications/googlefonts.py
+[2017-09-21 13:26:55] Vinicius Melo: Nessas partes?
+[2017-09-21 13:27:02] Vinicius Melo: """Check font has a license"""
+[2017-09-21 13:27:55] Felipe "Juca" Sanches: exato
+[2017-09-21 13:28:13] Vinicius Melo: Então em tese, usar regex?
+[2017-09-21 13:28:30] Felipe "Juca" Sanches: mas eu acho que o lugar pra adicionar o código de listar testes deve ser no arquivo Lib/fontbakery/commands/check_spec.py
+[2017-09-21 13:28:58] Vinicius Melo: Sim, entendo
+[2017-09-21 13:32:24] Vinicius Melo (in reply to Vinicius Melo): .
+[2017-09-21 13:33:05] Felipe "Juca" Sanches (in reply to Vinicius Melo): acho que não
+[2017-09-21 13:33:34] Felipe "Juca" Sanches: eu usaria regex se eu fosse extrair os dados do arquivo de código fonte
+[2017-09-21 13:33:47] Vinicius Melo: Foi o que tinha pensado kkk
+[2017-09-21 13:33:57] Felipe "Juca" Sanches: mas o que acho que precisaria ser feito aqui é pegar os dados em runtime
+[2017-09-21 13:34:52] Felipe "Juca" Sanches: assim como o programa é capaz de exibir essas informações ao usuário no terminal no momento de gerar as mensagens dos resultados dos testes, daria também para coletar essas informações e listar quais testes estão disponíveis
+[2017-09-21 13:35:23] Vinicius Melo: 🤔
+[2017-09-21 13:49:21] Felipe "Juca" Sanches added Vinicius Mesel
+[2017-09-21 13:53:30] Felipe "Juca" Sanches added Alexandre Villares
+[2017-09-21 15:13:05] Cesar Scavone left
+[2017-09-21 17:59:11] Felipe "Juca" Sanches: Pessoal, acabei de implementar o teste referente à issue #1488
+[2017-09-21 17:59:16] Felipe "Juca" Sanches: https://github.com/googlefonts/fontbakery/pull/1583
+[2017-09-21 18:00:25] Felipe "Juca" Sanches: Toda vez que abro um pull request, o Travis roda uma suite de testes automatizados no servidor pra me dizer se tem algum problema impedindo que eu mescle o código no branch master
+[2017-09-21 18:00:27] Felipe "Juca" Sanches: https://travis-ci.org/googlefonts/fontbakery/pull_requests
+[2017-09-21 18:00:50] Felipe "Juca" Sanches: Se passar nos testes automatizados, posso fazer o merge e fechar a issue.
+[2017-09-21 18:01:44] Felipe "Juca" Sanches: Uma coisa interessante é que eu não apenas implementei um teste novo para o FontBakery como também implementei um auto-teste para verificar que meu código funciona corretamente. E são esses "auto-testes" que rodam no Travis.
+[2017-09-21 18:02:20] Felipe "Juca" Sanches: Se tiverem dúvidas, é só perguntar. Acho que esse é um ótimo exemplo de como as coisas funcionam.
+[2017-09-21 18:03:04] Felipe "Juca" Sanches: OK! O Travis deu sinal verde! Então eu posso fazer o merge :-)
+[2017-09-21 18:04:17] Felipe "Juca" Sanches: E fechar a issue também!
+[2017-09-21 18:04:20] Felipe "Juca" Sanches: Feito :-D
+[2017-09-21 18:12:35] Vinicius Melo: Boa!
+[2017-09-21 18:12:47] Vinicius Melo: Vc que passa os parâmetros pro Travis?
+[2017-09-21 18:15:27] Felipe "Juca" Sanches: o Travis já está configurado por meio de um arquivo .travis.yml na raiz do projeto. E uma vez na vida eu configurei pro travis rodar nesse projeto a cada pull request
+[2017-09-21 18:15:37] Felipe "Juca" Sanches: então ele lê o arquivo de configuração e faz o que tá escrito lá
+[2017-09-21 18:15:48] Vinicius Melo: Hm, muito bom
+[2017-09-21 18:15:59] Felipe "Juca" Sanches: que é basicamente rodar um pylint pra ver se tem erros de sintaxe
+[2017-09-21 18:16:04] Felipe "Juca" Sanches: e também rodar a suite de auto-testes
+[2017-09-21 18:16:55] Felipe "Juca" Sanches: ele instala todas as dependências no servidor a partir de um container zerado de GNU+Linux e depois roda os auto-testes. Então isso nos dá uma boa garantia de que tá tudo redondinho e de que eu não quebrei nada sem querer com as alterações propostas
+[2017-09-21 18:17:06] Felipe "Juca" Sanches: os auto-testes são importantes por isso
+[2017-09-21 18:17:21] Vinicius Melo: Sim, curti
+[2017-09-21 18:17:24] Felipe "Juca" Sanches: entretanto, hoje em dia só uns 30% dos testes do FontBakery possuem auto-testes
+[2017-09-21 18:17:49] Felipe "Juca" Sanches: seria importante eu (ou alguém) implementar os auto-testes para todos os outros testes que já temos
+[2017-09-21 18:18:15] Felipe "Juca" Sanches: de agora em diante estou adotando a política de não adicionar novos testes ao FontBakery se eles não estiverem acompanhados também de auto-testes
+[2017-09-21 18:18:24] Felipe "Juca" Sanches: assim pelo menos o problema não aumenta
+[2017-09-21 18:19:04] Felipe "Juca" Sanches: tem uma issue específica sobre essa suite de "auto-testes" aqui: https://github.com/googlefonts/fontbakery/issues/1413

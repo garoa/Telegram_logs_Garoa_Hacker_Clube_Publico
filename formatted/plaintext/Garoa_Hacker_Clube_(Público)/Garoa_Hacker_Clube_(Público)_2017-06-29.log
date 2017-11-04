@@ -1,0 +1,69 @@
+[2017-06-29 00:27:23] Sabe algo sobre Eletrônica Básica? Eu fiz da outra vez que ele deu o curso de Eletronica para Hackers e consegui acompanhar bem sem saber muito de Eletronica...
+[2017-06-29 00:28:25] PEssoal, para quem estiver afim, sábado agora vai ter visitação no laboratório. Vai ser BEM legal, além de visitar o acelerador, ainda tem os outros laboratórios e vai ter palestras, conversas, food trucks...
+[2017-06-29 00:28:36] http://pages.cnpem.br/cienciaaberta/
+[2017-06-29 01:12:13] Ah sim, manjo, então de boa
+[2017-06-29 03:39:22] to escrevendo aqui um bot pra arquivar as mensagens de grupo de telegram
+[2017-06-29 03:39:44] quero sugestões de formato pra armazenar
+[2017-06-29 03:40:17] da pra exibir simplesmente em html em um site por exemplo, ou converter pra markdown e ir atualizando uma página na wiki do garoa por exemplo
+[2017-06-29 03:40:51] da pra mandar pra lista de e-mail também
+[2017-06-29 03:41:39] o xkeyscore da NSA provavelmente usa um esquema de armazenamento muito melhor do que eu ou qualquer pessoa aqui possa pensar, mas é código fechado e proprietário
+[2017-06-29 03:41:54] é melhor ver quem foi que sugeriu essa demanda como gostaria que funcionasse
+[2017-06-29 03:42:18] nenhuma decisão é excludente: o bot consegue lavar, passar, secar, fabricar e destruir a roupa ao mesmo tempo
+[2017-06-29 03:54:01] json
+[2017-06-29 03:54:17] na verdade o bot já recebe em json
+[2017-06-29 03:54:28] e sendo em python, todo conteúdo continua sendo json
+[2017-06-29 03:54:54] da pra ir salvando exatamente como é recebido se for o caso
+[2017-06-29 03:55:06] mas aí salvar como arquivo, em um banco de dados, etc.?
+[2017-06-29 03:55:56] tu me deu uma ideia, manter um banco de dados (que pode ser arquivos simples) com tudo do jeito que vem da API (em json) e pra fazer coisas como exibir em html, usar estes dados já salvos
+[2017-06-29 03:55:58] unix philosophy, deixa simples para uma tarefa
+[2017-06-29 03:56:32] depois parseia e converte
+[2017-06-29 03:57:24] eu tava pensando em manter armazenado no IPFS pra facilitar a descentralização do armazenamento
+[2017-06-29 03:58:02] mas se for fazer um arquivo json pra cada mensagem, quem for armazenar teria que usar um sistema de arquivos que otimize milhões de arquivos de tamanho pequeno
+[2017-06-29 04:01:29] ipfs usa um banco de dados, não armazena arquivos. eu sou burro, deveria saber disto
+[2017-06-29 04:01:42] vou ler os detalhes técnicos disto
+[2017-06-29 07:56:19] Mongodb
+[2017-06-29 08:04:23] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_326066319315173631.webp
+[2017-06-29 08:38:52] ipfs usa leveldb
+[2017-06-29 08:38:58] Bom dia. Alguém indica um vídeo bom para explicar como funciona o Dojo
+[2017-06-29 08:52:51] Pessoal... Preciso fazer uma com periférico na serial do Ubuntu. Alguém me indica algo?? Precisando do caminho das pedras
+[2017-06-29 11:13:48] https://garoa.net.br/wiki/Coding_Dojo_com_Arduino
+[2017-06-29 11:23:15] https://www.infoq.com/br/presentations/dojo-com-arduino
+[2017-06-29 11:27:11] Talvez o pessoal do garoa se interesse por essa série de posts
+
+http://curso-r.com/blog/2017/06/28/2017-06-29-captcha-intro/
+
+;)
+[2017-06-29 11:28:00] Boa!
+[2017-06-29 11:41:21] quem vai na noite do arduino hoje?
+[2017-06-29 11:46:33] Euuuuuuu
+[2017-06-29 11:59:06] Euuu
+[2017-06-29 13:24:08] Então levem um nodemcu ou esp8266 de algum tipo
+[2017-06-29 13:24:46] Hoje vamos fazer noite do esp8266 :)
+[2017-06-29 13:25:00] Trocamos os chips
+[2017-06-29 13:28:19] /me@jackbot
+[2017-06-29 13:28:20] LATex
+You've sent 275 (0%) messages and this group has 32923 messages.
+[2017-06-29 13:29:11] Kkkk
+[2017-06-29 13:35:53] Esqueci a plaquinha de novo em casa, só estou levando um NodeMCU que eu tenho...
+[2017-06-29 13:47:09] Eu tb...
+[2017-06-29 13:47:30] Alias nem o nodemcu
+[2017-06-29 13:55:10] Eu vou levar so eu mesmo
+[2017-06-29 13:55:18] Nao tenho node
+[2017-06-29 13:57:10] OFFTOPIC: https://streamable.com/heskt
+[2017-06-29 14:51:56] Pessoal boa tarde, alguém conhece o Lan turtle ?
+[2017-06-29 14:52:50] Alguém sabe  se é possivel montar algo semelhante ao Lan Turtle utilizando o arduino nano ?
+[2017-06-29 18:15:24] Alguem no garoa
+[2017-06-29 18:15:28] ?
+[2017-06-29 18:16:11] Ou vindo....
+[2017-06-29 18:16:47] Estou no portão
+[2017-06-29 18:35:15] 👆 demais
+[2017-06-29 18:50:31] Vou chegar umas 20
+[2017-06-29 18:50:47] Eu tb
+[2017-06-29 19:23:27] Não precisa de nem micro para isso.  Um eletreto, amplificador com bc548 e um circuito para ligar e desligar o strobo
+[2017-06-29 19:31:36] https://spaceflightnow.com/2017/06/29/video-bringing-nasas-tdrs-m-satellite-to-florida/
+[2017-06-29 19:32:14] 👍
+[2017-06-29 21:54:54] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803120528_79747.jpg
+[2017-06-29 22:18:15] https://twitter.com/SpaceX/status/880592028844806144
+[2017-06-29 22:19:09] 👍
+[2017-06-29 23:31:49] http://www.wired.com/story/this-cell-phone-can-make-calls-even-without-a-battery
+[2017-06-29 23:36:54] Show!

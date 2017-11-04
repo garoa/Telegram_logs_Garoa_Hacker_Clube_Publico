@@ -1,0 +1,37 @@
+[2016-02-17 00:44:28] Erin Pinheiro: github, twitter e facebook já fiz :p
+[2016-02-17 06:18:36] (Unknown): Te ajudo a fazer engenharia reversa do encoder ATRAC3 se quiser =)
+[2016-02-17 08:26:20] Erin Pinheiro: o ffmpeg só tem decoder
+[2016-02-17 08:27:00] Erin Pinheiro: parece que escrever um encoder é meio treta por causa de patentes da sony
+[2016-02-17 08:27:00] Erin Pinheiro: mas em todo caso, tem um link pro codec da sony no readme do meu repositório
+[2016-02-17 08:34:12] (Unknown): No ffmpeg a gente não liga nem um pouco pra patentes
+[2016-02-17 08:35:00] Erin Pinheiro: então por que ninguém fez um encoder ainda?
+[2016-02-17 08:35:16] (Unknown): Porque ninguém mais usa md? =)
+[2016-02-17 08:35:45] Erin Pinheiro: também serve em psp e ps3 :p
+[2016-02-17 08:35:49] Erin Pinheiro: https://github.com/FFmpeg/FFmpeg/blob/master/libavcodec/atrac3.c
+[2016-02-17 08:35:53] Erin Pinheiro: tem um decoder aqui
+[2016-02-17 08:36:00] Erin Pinheiro: mas não encoder
+[2016-02-17 08:36:36] (Unknown): Dei uma olhada no encoder da Sony, não é tão grande. Com motivação o suficiente dá pra fazer engenharia reversa.
+[2016-02-17 08:37:12] Erin Pinheiro: legal :p eu não faço a mínima idéia de como isso é feito
+[2016-02-17 08:37:16] (Unknown): O mais divertido é fazer o encoder melhor que o original, tanto em velocidade quanto qualidade
+[2016-02-17 08:43:08] Erin Pinheiro: seria legal eliminar o uso do wine e poder subir músicas pro netmd só com o ffmpeg
+[2016-02-17 08:43:40] Erin Pinheiro: um sonho meu é reescrever o linux-minidisc do zero, que o projeto original é bem bagunçado
+[2016-02-17 08:43:48] Erin Pinheiro: bastantes inconsistências e magic numbers
+[2016-02-17 09:53:48] Kemel Zaidan: patentes de software não são válidas no Brasil. Então, se vc não fizer um desasembly do encoder dele, não tem problema nenhum
+[2016-02-17 11:55:00] Felipe "Juca" Sanches: https://twitter.com/internetofshit/status/684852924745269248
+[2016-02-17 11:55:36] Felipe "Juca" Sanches: https://twitter.com/juca_gnu/status/699944976709509120
+[2016-02-17 13:44:20] Felipe "Juca" Sanches: http://calango.club/hackeando_meu_ipod
+[2016-02-17 13:51:52] G4b1s: nunca tive coragem de usar o rockbox
+[2016-02-17 13:55:24] Kemel Zaidan: Eu já usei, na época que tinha um iPod classic, Aquele que vinha com um hd de 80Gb! :-P
+[2016-02-17 13:56:00] Kemel Zaidan: e era incrível! Muuuuito melhor que o firmware da apple: mais flexível, mas customizável, mais poderoso
+[2016-02-17 13:56:20] Kemel Zaidan: na epoca o ipod nem tinha suporte a vídeo, mas com o rockbox era possível
+[2016-02-17 13:59:20] Felipe "Juca" Sanches: https://twitter.com/juca_gnu/status/699985857848217600
+[2016-02-17 14:38:48] Erin Pinheiro: eu queria um ipod clássico com hd
+[2016-02-17 14:38:56] Erin Pinheiro: acho elegante
+[2016-02-17 14:49:44] 153: Congrats Juca!
+[2016-02-17 14:52:36] (Unknown): Meu ipod classico deu pau no hd =(
+[2016-02-17 14:55:24] G4b1s: eu tenho um classic 2g, mas o hd deu ruim, troquei por aquele cartão de memória
+[2016-02-17 15:29:21] G4b1s: isso -> http://www.apartmenttherapy.com/how-to-convert-an-ipod-hard-dr-127584
+[2016-02-17 18:29:00] Erin Pinheiro: tem um ipod 1a geração no ml listado como raridade
+[2016-02-17 18:29:08] Erin Pinheiro: vendedor pede R$1000
+[2016-02-17 18:29:12] Erin Pinheiro: adoro o ml
+[2016-02-17 23:11:36] Luiz "LG" Martinez (in reply to Fernando Guisso): https://www.facebook.com/groups/916776445104432/

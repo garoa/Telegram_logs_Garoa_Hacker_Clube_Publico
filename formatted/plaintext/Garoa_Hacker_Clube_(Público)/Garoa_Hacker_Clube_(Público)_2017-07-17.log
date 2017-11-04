@@ -1,0 +1,84 @@
+[2017-07-17 00:01:46] legal!
+[2017-07-17 00:02:28] bom... vou dormir agora. Talvez amanhã eu escreva um update sobre oanother world no fórum: https://forum.fiozera.com.br/t/estudando-a-maquina-virtual-do-jogo-another-world/127
+[2017-07-17 00:05:04] flw
+[2017-07-17 02:11:11] Bom dia, galera. Tem alguém aqui que mexa com Tkinter? Tô com um problema desde ontem e não consigo resolver.
+Tenho um formulário que vai receber alguns valores e um botão de "gerar" que, por enquanto, tá chamando uma função pra exibir os valores do formulário, porém, ele tá exibindo tudo vazio, como se não tivesse pegando os valores. Alguém pode me ajudar?
+https://gist.github.com/yuriscosta/31953f242bc82dd08fd7b8dcc066c37d
+[2017-07-17 07:37:17] https://youtu.be/y5oRsvRH_Ig
+[2017-07-17 07:51:35] @pycoding
+[2017-07-17 09:04:52] https://tech.slashdot.org/story/17/07/16/1931221/facebooks-ai-keeps-inventing-languages-that-humans-cant-understand
+[2017-07-17 09:08:30] Vamos ver se dessa vez dura pelo menos a semana...
+[2017-07-17 09:23:12] https://www.peerlyst.com/posts/resource-learning-how-to-reverse-malware-a-guide
+[2017-07-17 10:07:06] Fernando Guisso added Roz'
+[2017-07-17 10:07:07] Hi Roz' !
+[2017-07-17 10:07:48] Fernando
+You've sent 989 (2%) messages and this group has 33891 messages.
+[2017-07-17 10:08:11] combot.org/chat/-1001050919227
+[2017-07-17 14:02:50] Vagner Selvenca joined
+[2017-07-17 14:02:50] Hi Vagner !
+[2017-07-17 14:03:01] tiago s joined
+[2017-07-17 14:03:01] Hi tiago !
+[2017-07-17 14:04:17] FOS joined
+[2017-07-17 14:04:18] Hi Braddock !
+[2017-07-17 14:05:41] Rato Zumbi joined
+[2017-07-17 14:05:42] Hi Rato Zumbi !
+[2017-07-17 16:56:17] Pessoal me tirem uma duvida porfavor , estou tentado programar um ESP8266 na IDE 1.6.4 do arduino no windows 10 , mas não mas na aba Ferramentas>programador não esta aparecendo a opção "esptool" ,  o que pode ser que esta acontecendo ?
+[2017-07-17 16:56:37] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803117785_93014.jpg
+[2017-07-17 16:57:47] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803116334_92648.jpg
+[2017-07-17 16:57:54] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803111163_117772.jpg
+[2017-07-17 16:57:55] Estou utilizando essa FTDI
+[2017-07-17 17:01:53] o Windows reconhece a ftdi?
+[2017-07-17 17:03:03] reconhece
+[2017-07-17 17:03:06] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803111349_118726.jpg
+[2017-07-17 17:05:29] estranho, pq o port do Arduino ide esta cinza no print q vc mandou
+[2017-07-17 17:08:00] é que a FTDI não estava conectada
+[2017-07-17 17:08:53] mas mesmo conetando fica assim
+[2017-07-17 17:08:57] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803115673_92976.jpg
+[2017-07-17 17:58:54] http://w.hobbyconsolas.com/blmwm5
+[2017-07-17 18:14:00] Escrevi um assembler em python :-D
+[2017-07-17 18:14:07] Tá funcionando :-)
+[2017-07-17 18:15:24] Inicialmente eu pensei em usar flex/bison (lex/yacc), mas depois resolvi rascunhar algo rápido em python mesmo. Deve ter mil problemas de performance pra montar códigos grandes. Mas por enquanto isso não é muito preocupante.
+[2017-07-17 18:16:27] Implementei apenas o suporte a montagem das instruções que foram usadas no meu pequeno programa de exemplo. E com isso consegui montá-lo com sucesso. Em seguida, modifiquei o programa adicionando um segundo elemento gráfico na tela, montei e rodei e funcionou.
+[2017-07-17 18:16:56] Acho que vou começar a fazer exemplos um pouco mais complexos e usando outras instruções e ir adicionando suporte no montador sob demanda
+[2017-07-17 18:17:48] O ultimate-mega-blaster teste de funcionamento do assembler vai ser pegar o jogo original, passar pelo disassembler e pegar esse resultado e montar de novo com o assembler.
+[2017-07-17 18:19:45] 👏👏👏👏
+[2017-07-17 18:20:01] E pra ser rigoroso... o real teste precisaria envolver a instalação do bytecode montado na engine original do game, pra garantir que não teve nenhum viés na minha interpretação de todo o toolchain. (por exemplo se eu implementar algo de forma errada em todas as ferramentas - assembler, disassembler, emulador, debugger - todas de minha autoria). Se eu errar coerentemente, eu posso estar oficializando um dialeto da VM incompatível com a VM original. Isso não é nada desejável.
+[2017-07-17 18:34:37] por exemplo, ainda não tem suporte às instruções call e ret por que meu exemplo simples não usa subrotinas
+[2017-07-17 18:35:18] e não tem suporte a nenhuma das instruções de configuração de threads por que o meu programa-exemplo roda numa única thread.
+[2017-07-17 18:36:16] e também ainda não tem as instruções de operações booleanas
+[2017-07-17 19:52:44] O, preciso transmitir pra um nodemcu sempre que houver mudanca de estado (HIGH/LOW)  do pino de output do sensor de presenca. 
+
+O nodemcu recebe essa infomacao e fa alguma coisa com isso. Exemplo: liga ou desliga um led.
+
+O sensor ira ficar a 10 metros de distancia do nodemcu.
+
+Minha duvida eh: como transmitir o sinal e como receber ele no nodemcu?
+
+Tks
+[2017-07-17 20:13:05] 10 metros pode ser usado fios
+[2017-07-17 20:14:03] Ops, era pra digitar 100 metros
+[2017-07-17 20:14:09] Sorry
+[2017-07-17 20:15:45] Desculpa minha ignorância, mais por que o sensor irar ficar a 100 metros do microcontrolador
+[2017-07-17 20:16:08] Eh uma especificacao do sistema
+[2017-07-17 20:16:23] Ele vai ficar a uma distancia de 100 metros
+[2017-07-17 20:16:38] Nao pode ser por fio a conexao
+[2017-07-17 20:20:31] Tem um rádio nRF24L01 que atende está distância porém acredito que não seja possível ligar ele diretamente no sensor de movimento
+[2017-07-17 20:22:16] Na minha pouco experiência jugo que unindo o rádio + sensor de movimento + microcontrolador + bateria possa atender
+[2017-07-17 20:23:22] Queria achar um jeito de fazer sem microcontrolador do lado do sensor
+[2017-07-17 20:23:27] 🤔
+[2017-07-17 20:24:44] Sei que exige sensor sem fio, porém não tenho certeza para está distância
+[2017-07-17 20:35:28] Da um exemplo ai de sensor sem fio
+[2017-07-17 20:42:23] Já vi sensor de movimento sem fio para montagem de alarme residencial porém não sei a especificação
+[2017-07-17 21:26:27] não manjo secas de eletrônica, mas me parece que sinto o cheiro de algum circuito que aciona com 3.3volts e transmite um sinal enquanto os 3.3volts estiver ativo... e do lado do meu um receiver que fica alerta escutando... no google tentei
+[2017-07-17 21:26:56] 'simples high low radio transmitter'
+[2017-07-17 21:27:22] 🤷🏻‍♂️
+[2017-07-17 21:30:32] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_5145764175187804174.gif
+[2017-07-17 21:31:41] acho q isso resolve o transmitter, agora tenho q ver o receiver...
+[2017-07-17 21:45:42] parece ser mais simples do q eu imaginava... vou tentar Nissaki... https://www.youtube.com/watch?v=_vojnN0WeuU valeu pessu.
+[2017-07-17 22:08:18] Eu gosto de ler as coisas que vocês fazem aqui mas eu não maioria das vezes não faço ideia
+[2017-07-17 22:18:57] Se tiver interesse em RF veja a página do Miguel, PY2OHH http://py2ohh.w2c.com.br/ tem do mais básico até SDR aí.
+[2017-07-17 22:33:44] boa felipe
+[2017-07-17 22:53:32] Pessoal, sou usuário da Vivo Fibra em casa. Entre ontem e hoje estava tendo muita instabilidade e resolvi ligar para eles. A atendente resolveu enviar umas alterações no modem e no roteador. Tirei o meu 3COM e liguei o original da Vivo. Foram feitas alguma reconfigurações e o sistema voltou a normalidade. Após desligar o telefone, resolvi voltar meu roteador 3COM e para minha surpresa não me conectava mais. Consegui descobrir que a senha do usuário 'cliente@cliente' do PPoE mudou para '{[(+-)]}'. Mesmo assim não consigo conectar. Tentei clonar o macaddress do roteador da vivo e nada também. Alguma dica do que pode ser? Tenho um 3COM 3CRWER300-73 (http://www.oficinadosbits.com.br/produto9362/3Com_Roteador_Wireless300Mbp.html)
+[2017-07-17 23:04:57] Tenta nesse grupo 
+https://t.me/NetworkersBR
+[2017-07-17 23:05:10] alguém conhece algum lugar onde possa arrumar a versão mais atual do firmaware deste roteador para ser se ajuda?

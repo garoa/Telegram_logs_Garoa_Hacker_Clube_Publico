@@ -1,0 +1,157 @@
+[2016-10-11 01:18:03] eu nao
+[2016-10-11 07:27:03] Pessoal, pra quem não manja nada de hardware, tem algum livro que vocês me recomendam ? Algo bem for dummies mesmo xD
+[2016-10-11 07:54:32] depende que hardware você quer aprender
+[2016-10-11 08:01:51] PC?  microcontrolador? iot? monitor de tubo?
+[2016-10-11 10:33:08] Rodrigo joined
+[2016-10-11 10:33:19] Hi Rodrigo !
+[2016-10-11 10:33:22] Olá pessoal estou chegando
+[2016-10-11 10:33:32] Olá Jack
+[2016-10-11 10:33:40] Kkkk
+[2016-10-11 10:34:57] Amanhã estarei no Garoa com minha padawan
+[2016-10-11 10:35:17] Parabéns pela iniciativa...precisam que leve algo?
+[2016-10-11 10:36:57] Fernando, eu conheço e tenho essa espuma. veio numa caixinha de uma CPU beeem cara. Infelizmente ela nao é muito grande, ela foi concebida para dissipar ESD e tem uma resistencia grande
+[2016-10-11 10:37:54] Olá Rodrigo... Padawan é o shield de Arduino da Robocore, certo?
+[2016-10-11 10:38:28] eh mais facil vc achar a espuma condutiva como ESD foam. Ela não esta comigo em mãos neste momento, senão eu mediria a resistencia dela para voce.
+[2016-10-11 10:39:06] Não... É minha filha mesmo heu
+[2016-10-11 10:39:54] voce pode encontrar essa espuma condutiva desmontando cartuchos de toner de impressora. no rolo que fica o toner impregnado, é uma espuma condutiva. esse rolo se chama rolo PCR e a espuma fica por dentro do plastico rigido.
+[2016-10-11 10:40:16] eu também estou querendo levar a minha padawan caçula no hackids, vamos ver amanhã como será o tempo
+[2016-10-11 10:43:16] A previsão não está muito favorável
+[2016-10-11 10:43:23] 😢
+[2016-10-11 10:45:42] sim, eu sei, embora eu vá de trem, essa primavera tem o tempo mais loco que já vi em anos...  Mas sobre a atividade da casinha eletrica
+[2016-10-11 10:45:59] tem uma previa para os Jedis darem uma espiada?
+[2016-10-11 10:47:41] Eu vi o dispensador de doces do DQ, eu fiquei intrigado, não seria mais fácil colocar uma caçamba giratória para evitar tantos sensores óticos para medir o nível, já que o dispensador já usa um servo de 9 gramas?
+[2016-10-11 10:52:50] Obrigado, é isso mesmo. Eu acho que tenho uns pedaços pequenos perdidos por aqui tbm, mas queria encontrar um lugar que vendesse uma placa ou pedaços deste material, para criar um resistor sensível a pressão.
+[2016-10-11 11:01:56] bom dia ehehe
+[2016-10-11 11:04:25] A primeira versão deste dispensador eu fiz para um evento da intel com o Edison (tem até um vídeo em algum lugar). A ideia era ter uma pegada IoT, eu achei que ter os sensores seria bacana e daria a oportunidade de brincar com as entradas analógicas. Eu também estava com vontade de brincar com o par TIL32 / TIL78 como sensor de presença. Já a "portinha" ligada ao servo é resultado de falta de tempo e preguiça. É só um pedaço de papelão cortado. Algum dia eu faço algo melhor na impressora 3D. Agora estou correndo para fazer a parte lúdica para amanhã.
+[2016-10-11 11:09:51] https://www.youtube.com/watch?v=Npfmlf_QtU0
+[2016-10-11 11:13:44] Sandro Friedland joined
+[2016-10-11 11:13:44] Hi Sandro !
+[2016-10-11 11:16:45] Compreendido e anotado.
+[2016-10-11 11:17:23] Olá, finalmente entrei no telegram. ☺ 
+Meu perfil: https://garoa.net.br/wiki/Usu%C3%A1rio:Sandro
+[2016-10-11 12:00:15] Antes de dizer "bem-vindo", vai ter que passar o Turing...
+[2016-10-11 12:05:14] Teste de Turing já era haha
+https://tecnoblog.net/157935/computador-passou-primeira-vez-teste-de-turing/
+[2016-10-11 12:06:32] Isso foi em 2014 xD
+[2016-10-11 12:06:39] Mas sim, é uma notícia incrível ainda
+[2016-10-11 12:08:28] Eu perdi no psicoteste da carteira de motorista. Imagina se fosse o de Turing...
+[2016-10-11 12:08:38] eu n to convencida kkk
+[2016-10-11 12:14:26] 井手 joined
+[2016-10-11 12:14:26] Hi Victor !
+[2016-10-11 13:13:23] Tenho curiosidade sobre iot !  Quais são os conceitos de hardware que eu devo saber ? (E que livro você recomenda ?)
+[2016-10-11 13:17:37] http://makezine.com/category/technology/iot/
+[2016-10-11 13:17:40] http://www.embarcados.com.br/
+[2016-10-11 13:18:08] Esp8266.com
+[2016-10-11 13:55:27] @aylons coloquei no Kicad o projeto daquela roda de leds https://github.com/dquadros/RodaDeLeds
+[2016-10-11 13:55:28] dquadros | RodaDeLeds
+
+Projeto de uma roda de LEDs acionada pelo para 555 e 4017
+
+Language: KiCad
+Forks: 0
+Stars: 0
+Issues: 0
+[2016-10-11 13:55:49] Fantástico!
+[2016-10-11 13:56:10] Agora é só rotear. Se quiser te passo uma imagem da placa chinesa.
+[2016-10-11 13:56:13] http://g1.globo.com/educacao/noticia/brasil-vence-olimpiada-latino-americana-de-astronomia-e-astronautica.ghtml
+[2016-10-11 13:56:28] Tem algumas trilhas bem fininhas, mas é face simples.
+[2016-10-11 13:56:39] Para alegrar a véspera de feriado da galera do espaço!
+[2016-10-11 13:59:17] Manda. Só não garanto nada porque ando mega ocupado cuidando do gato doente :c/
+[2016-10-11 13:59:43] Bem fininha mas provavelmente 6 mils, imagino
+[2016-10-11 13:59:43] Este imagem é do anúncio no mercado livre http://mlb-d2-p.mlstatic.com/kit-montar-roleta-eletrnica-led-azul-vermelho-cd4017-ne555-987211-MLB20519455738_122015-O.jpg
+[2016-10-11 14:00:12] Alguém aqui já trabalhou com fitas perfuradas?
+[2016-10-11 14:01:48] O Juca, recentemente, no projeto do Patinho Feio...
+[2016-10-11 14:02:30] Décadas atrás e muito pouco.
+[2016-10-11 14:03:37] @Biazzotto, acertou na mosca. Ia falar do vídeo do Juca.
+@DQuadros ,  você ainda tem algum programa seu armazenado em fita? :)
+Juca fez um leitor por software:
+https://www.youtube.com/watch?v=_zLpv11bTGI
+[2016-10-11 14:04:35] Vejam só que nesse episódio o Juca está vestido a carater.
+[2016-10-11 14:05:31] Não. Acho que nunca cheguei a salvar programa em fita. Também não tenho mais os programas em cartões perfurados. Da época da faculdade só sobrou um disquete de 8"
+[2016-10-11 14:05:44] Vou levar minhas irmãs de 9 e 7 anos amanhã.
+Já fizemos a hora do código juntas e brincamos um pouco com Scratch.
+Sinto que o Hackids de dia das criança será um sucesso
+[2016-10-11 14:06:11] Crianças*
+[2016-10-11 14:07:17] Acho que o Sebastião tinha algumas fitas, mas já passou para o Juca.
+[2016-10-11 14:07:42] Sim, essas que o Juca mostro ele pegou com o Sebastião, se não me engano.
+[2016-10-11 14:11:40] Eu tenho um pedacinho de fita perfurada recentemente no The National Museum of Computing, mas sem nenhuma informação útil.
+[2016-10-11 14:11:42] http://www.tnmoc.org/
+[2016-10-11 14:12:42] Legal DQ, foi lá visitar o Colossus?
+[2016-10-11 14:14:36] Sim
+[2016-10-11 14:15:55] The Forbin Project.
+[2016-10-11 14:18:17] Bom, é uma pena, não temos hardware para fazer a perfuração da fita. pois com um pouco de malandragem e um rolo de papel poderiamos fazer a nossa própria fita perfurada para gravar pic. seria uma ideia divertida,
+[2016-10-11 14:19:43] pois na kalunga vc consegue comprar uma bobina de papel 75gr/m2 para plotter por mais ou menos 30 reais, ai com uma traquitana para desenrolar e outra para enrolar, vc coloca estiletes em posicoes pre-definidas para filetar a bobina em várias bobinas de papel perfurado. é um projeto mecanico bacana para um fim de semana prolongado
+[2016-10-11 14:21:11] pois enquanto se fileta as bobinas, teriamos que ter um disco com pinos para fazer a perfuração da fita em espaços deinidos para que possamos alinhar a fita na hora de gravar programas
+[2016-10-11 14:46:24] O bom das fitas perfuradas é a resistência que elas possuem...  hoje existem fitas perfuradas de 40 anos atrás que estão em excelente estado... não acredito que mídias magnéticas resistiriam por tanto tempo...
+[2016-10-11 14:47:52] Existem filmes da era do cinema mudo que só sobreviveram porquê foram impressos e arquivados. O filme de cinema com certeza não resistiria, viraria vinagre, ou pegaria fogo, ou seria re-aproveitado, dependendo da tecnologia de filme.
+[2016-10-11 14:49:02] Gente, papel é algo que deteriora horrores também. Dá trabalho armazenar e manter qualidade por séculos. Certo @dudedias?
+[2016-10-11 14:50:23] Também. Bicho rói, acidez estraga, o rio transborda e molha o papel, cresce mofo, faz volume e a pessoa decide jogar fora...
+[2016-10-11 14:50:46] @aylons  e o que seria melhor que papel? :)
+[2016-10-11 14:51:11] discordo acerca da deterioração do papel, o papel hoje em dia para impressão é um papel alcalino, ele resiste mais que o papel mais antigo que amarelava rapidamente. Basta saber armazenar os rolos de papel num ambiente estério sem umidade, saco plastico dentro de caixa de isopor com dissecante gel.
+[2016-10-11 14:51:53] Papiro? Pergaminho de couro de cabra?
+[2016-10-11 14:52:13] se vc guardar o papel hoje numa caixa de isopor com vácuo, acredito que vai durar muito.
+[2016-10-11 14:52:14] é, pq se for ver os dvds e cds... não duram muito tempo não. Tirando aquele mdisc, que foi feito para durar.
+[2016-10-11 14:52:41] pergaminhos sao feitos com papiro, um junco egípcio e também tinha o linho
+[2016-10-11 14:53:03] que era usado para as múmias.
+[2016-10-11 14:54:25] Tudo deteriora se não for bem cuidado. Digital, analógico, papel, pergaminho....
+[2016-10-11 14:54:28] embora tenha o que era feito com a pele de animais,
+[2016-10-11 14:54:39] hoje em dia, por que não usar um material sintético para fazer as fitas?
+[2016-10-11 14:54:40] Só não achem que papel é para sempre
+[2016-10-11 14:55:00] nylon?
+[2016-10-11 14:55:02] Tem coisa que vai sobreviver simplesmente por sorte
+[2016-10-11 14:59:08] Show
+[2016-10-11 14:59:25] bom, na norma eles dizem que o papel tem que aguentar 8kgf sem rasgar
+[2016-10-11 14:59:33] e ter espessura de 0,01mm
+[2016-10-11 14:59:36] https://www.polyomino.org.uk/computer/ECMA-10/
+[2016-10-11 15:03:21] No fim, o Sol vai explodir e destruir tudo. Não há salvação.
+[2016-10-11 15:09:09] Aí você foge. Sempre dá para preservar, mas dá trabalho
+[2016-10-11 15:42:01] okay, fita de mylar
+[2016-10-11 16:00:31] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803711400_112324.jpg
+[2016-10-11 16:03:52] Quando o Juca criou o aplicativo leitor, ele digitalizou a fita ao contrário, pois não havia indicação do lado correto... com esse documento seria possível ver a posição correta...
+[2016-10-11 16:04:41] <troll>
+Pedra! Além de ganhar no joquempô (não sei como escreve isso), se vc gravar o seu programa em pedra, a mídia vai durar mais do que papel ;)
+</troll>
+[2016-10-11 16:06:12] mas, zoeira a parte, se pensarmos nas informações mais antigas que recuperamos até hoje, pedra e papel são as melhores mídias. Se tiver um pouco de cuidado, duram por séculos a fim...
+[2016-10-11 16:06:24] @Biazzotto É, ele acho que um dos passos do programa dele pode ser verificar se a direção da fita está correta e então corrigir
+[2016-10-11 16:07:15] Como diria o Rodrigo Rodrigues, salvando a princesa em php...
+[2016-10-11 16:08:29] Inteligente o fato de o furo de tração ser assimétrico... se fosse no centro seria difícil deduzir a posição correta...
+[2016-10-11 16:08:58] o problema é vc saber que lado ler, já que o furo passa pro outro lado....
+[2016-10-11 16:09:31] Isso me lembra aquela velha piada da NASA sobre o peso do software do foguete
+[2016-10-11 16:12:15] Tsc, tsc, tsc. Papel embrulha pedra e ganha. Papel é melhor. Pedra as pessoas catam e usam pra fazer alicerce de casa. A informação fica inacessível por séculos se for um prédio histórico. Se não for, a informação desaparece num depósito de entulho depois.
+[2016-10-11 16:13:40] isso se chama "Abstração de dados" .... lol!
+[2016-10-11 16:13:47] essa doença pega?
+[2016-10-11 16:21:52] 👏
+[2016-10-11 16:27:12] devo aparecer no garoa amanhã pra ajudar/causar
+[2016-10-11 16:28:22] vou tbm pra causar/bagunçar
+[2016-10-11 16:28:27] \:D/
+[2016-10-11 16:28:31] pra ajudar ja tem gente demais
+[2016-10-11 16:36:04] Kkkk
+[2016-10-11 16:41:29] Memória de cristal
+Essa só acaba quando o Sol explodir
+"O armazenamento da memória de cristal permite parâmetros sem precedentes, como por exemplo 360 terabytes de capacidade de armazenamento de dados num único disco, estabilidade térmica em até 1000 ° C e tempo de vida praticamente ilimitado.
+
+Leia mais em: http://ciencia.me/ktGg0
+[2016-10-11 16:45:16] E se eu jogar dentro de um vulcão, não dá 1000ºC?
+[2016-10-11 16:45:49] se sobreviver ou não, quero ver é tirar do vulcão
+[2016-10-11 16:46:02] 😆
+[2016-10-11 16:49:51] você não leu as letrinhas miúdas "A garantia eterna desta memória perde a validade em caso de explosão nuclear, encontro com o Sol ou caso o usuário inadvertidamente jogá-la dentro de um vulcão...."
+[2016-10-11 17:12:28] O lance desses meios é que todos exigem equipamentos bem mais complicados de leitura do que papel. Estes também teriam que ser preservados
+[2016-10-11 18:37:34] Tão ligados que sábado vai ter uma atividade nova no Garoa? :)
+[2016-10-11 18:37:36] https://garoa.net.br/wiki/Matem%C3%A1ticos_de_Quinta
+[2016-10-11 18:55:06] vixe
+[2016-10-11 19:11:42] Show
+[2016-10-11 19:16:42] Ancestral da fita perfurada. Sistema Verdol-Jacquard 
+http://www.humphriesweaving.co.uk/refining-jacquard/
+[2016-10-11 20:27:08] Saco
+[2016-10-11 20:28:44] Melhor agora
+[2016-10-11 20:28:44] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803701688_113045.jpg
+[2016-10-11 20:38:41] O que tinha acontecido antes, vindo texto de Facebook junto?
+[2016-10-11 20:42:38] Foi o link em vez da imagem
+[2016-10-11 20:47:35] Pra mim tinha aparecido o link + a imagem. Mas realmente, só a imagem fica melhor.
+[2016-10-11 20:50:01] Agora estão fazendo as fundações,são separadas do resto do prédio. Na real, é um prédio dentro do outro
+[2016-10-11 20:51:24] E o equipamento vai ser o recheio, entre os dois círculos?
+[2016-10-11 20:52:43] Os aceleradores ficam sobre esse piso. O prédio de dentro é coberto pelo circular que se vê de fora
+[2016-10-11 22:23:53] https://www.theguardian.com/books/2016/oct/11/ada-lovelace-day-sydney-padua-babbage #adalovelaceday
+[2016-10-11 22:45:17] vai ser no sábado?! Mas não era "de quinta" ?!
+[2016-10-11 22:45:36] Só ler na página :)
+[2016-10-11 22:46:13] Vai ter matemáticos de segunda (também no sábado) :)

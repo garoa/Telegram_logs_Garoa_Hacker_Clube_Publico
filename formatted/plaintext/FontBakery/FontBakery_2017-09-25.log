@@ -1,0 +1,7 @@
+[2017-09-25 07:50:28] Yabadabaduca: Bom dia!
+Comecei a dar uma estudada este fim de semana
+[2017-09-25 07:51:33] Yabadabaduca: @fsanches nesses testes vc usa o Jenkins?
+[2017-09-25 08:01:20] Felipe "Juca" Sanches: Não. Os auto-testes são executados automaticamente no servidor do TravisCI
+[2017-09-25 08:01:42] Felipe "Juca" Sanches: http://travis-ci.org/
+[2017-09-25 08:03:08] Felipe "Juca" Sanches: https://travis-ci.org/googlefonts/fontbakery/builds
+[2017-09-25 08:06:20] Yabadabaduca: Hmmm... Mais leve e clean

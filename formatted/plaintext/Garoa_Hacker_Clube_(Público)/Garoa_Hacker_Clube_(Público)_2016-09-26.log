@@ -1,0 +1,227 @@
+[2016-09-26 03:20:00] Ei pessoal eu vi  uns videos do ganoa no youtube e ja foi gente da gringa ai importante........sera que tem como um dia quem sabe, convidar Jeff Moss ou o Kevin Mitnick pra fazer uma vizita ai no garoa.....nossa morro de vontade de conhecer esses caras.....mo mitnick veio no brazil em 2010 se nao me engano na campus party
+[2016-09-26 04:01:02] já o oda, dq, erin, yumi, marcelo, dentre outros melhores que esse povo tudo ai.. porque nao conhecer eles, em vez de manter o espirito de vira-lata?
+[2016-09-26 04:47:35] oi eu
+[2016-09-26 04:47:36] q
+[2016-09-26 04:47:44] bomdia
+[2016-09-26 04:48:49] aliás com uns 2 dias de atraso queria me desculpar por não ter ido no sábado ajudar arrumar mas fiquei o dia todo fazendo um trabalho chato da faculdade envolvendo descubrir um jeito de baixar uns 500 currículos lattes da porra do cnpq
+[2016-09-26 04:48:57] este é meu álibi
+[2016-09-26 07:09:20] Filhos da puta do CNPq dificultando acesso ao Lattes
+[2016-09-26 08:35:57] era so uma ideia....   eu sei q no garoa tem gente muito firmeza......agora to meio corrido pra  mim.... mas quero muito ir no garoa conhecer todos.....trocar experiencias  e aprender um pouco com cada um😊😊😊😉😉😉😉
+[2016-09-26 09:21:05] Specialization | Coursera
+https://www.coursera.org/specializations/iot?recoOrder=14&utm_medium=email&utm_source=recommendations&utm_campaign=recommendationsEmail%7Erecs_email_2016_09_25_17%3A58
+[2016-09-26 09:21:51] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803707407_101441.jpg
+[2016-09-26 09:22:28] Parece interessante 👆🏼
+[2016-09-26 09:37:42] a proposta é até legal, mas o arduino me decepcionou
+[2016-09-26 09:37:57] ele esta lerdo demais para ler uma porta LPT e enviar pela serial
+[2016-09-26 09:39:32] Imagine a situação, eu tenho um sinal de strobe que pulsa por 0.5us
+[2016-09-26 09:40:40] o 
+arduino deveria detectar a queda do sinal, subir o sinal de BUSY e ai processar tranquilamente os dados de D0-D7. derrubar por 0.5us o sinal de ACK e depois disso derrubar o Sinal de BUSY para que o host mande outro byte pela paralela.
+[2016-09-26 09:40:51] o Arduino até detecta o strobe
+[2016-09-26 09:41:31] mas 
+quando ele sobe o sinal de Busy, o computador já enviou pelo menos oito bytes, pulsando o strobe 8 vezes.
+[2016-09-26 09:50:31] Não achei o contexto, mas é conhecido que as funções genéricas da biblioteca Arduino (digitalRead, digitalWrite) tem um preço alto de desempenho.
+[2016-09-26 09:51:08] Às vezes a solução é acessar direto os registradores do ATmega.
+[2016-09-26 09:52:05] eu digo, que uma ideia de fazer Iot usando Arduino e o Raspi, dependendo da solução, pode não ser uma boa ideia, como no meu caso. que vou fazer o Rasp ser uma impressora paralela virtual.
+[2016-09-26 09:52:56] Lembre-se também que o ATmega está rodando a 16MHz. Portanto tem só 16 ciclos em cada uS.
+[2016-09-26 09:53:05] DQ, eu tentei investigar como o codigo C do arduino é compilado, mas meu conhecimento de arduino não foi muito longe.
+[2016-09-26 09:53:24] O que corresponde, na melhor das situações, a 16 instruções.
+[2016-09-26 09:53:45] eu achava que pelo menos daria tempo para detectar e subir o BUSY a tempo de não perder mais dados.
+[2016-09-26 09:54:06] estou pensando na possibilidade de trocar o arduino que estou usando pelo pinguino, mas ...
+[2016-09-26 09:54:40] foi interessante vc colocar essa ideia das 16 instrucoes por us do arduino, eu não havia me atentado a esta possibilidade.
+[2016-09-26 09:54:58] A compilação do código C no Arduino não tem muito segredo. Tirando as versões mais recentes, ele juntava tudo em um fonte só e passava pelo compilador avr-gcc.
+[2016-09-26 09:55:46] então, o meu objetivo era descobrir onde esta esse C gigante que é pasado para o avr-gcc. e investigar o que rola la dentro
+[2016-09-26 09:55:59] Eu fiz uma atividade sobre programação de ATmega e ATtiny direto em C: https://garoa.net.br/wiki/AVR_100_No%C3%A7%C3%A3o
+[2016-09-26 09:56:29] mas depois da informacao sobre a quantidade de instrucoes por us (que achei uma ideia sensacional)
+[2016-09-26 09:56:55] Ou então compre o livro Make: AVR Programming. Gostei tanto do eBook (mesmo já sabendo o assunto) que comprei a cópia física.
+[2016-09-26 09:58:27] Vou ver o livro citado. Mas de antemão, vc acha que daria certo ler a paralela com a placa do Arduino Nano, Uno ou Leonardo?
+[2016-09-26 09:58:51] já que nao sei se o AVR tem um C otimizado para asm
+[2016-09-26 10:00:03] O avr-gcc é bem otimizado. Mas responder assim rápido é bem complicado, ainda mais se puderem ocorrer interrupções.
+[2016-09-26 10:00:46] eu não preciso necessariamente de interrupcoes se eu levantar o busy a tempo
+[2016-09-26 10:01:06] pois o menor tempo de um sinal na LPT é 0.5us
+[2016-09-26 10:02:09] Uma "adaptação técnica" seria fazer a detecção do strobe e acionamento do busy por hardware.
+[2016-09-26 10:02:37] fiz isso tambem. mas ai a bomba explodiu depois
+[2016-09-26 10:02:54] vejamos: LPT 101
+[2016-09-26 10:03:16] 1. Host verifica se BUSY=0,
+[2016-09-26 10:03:50] Mas eu acho que deve dar tempo se você ficar em loop, com interrupções desabilitadas, testando o sinal de strobe e acionando o busy acessando direto os registradores  do ATmega.
+[2016-09-26 10:03:59] 2. Se sim, Host coloca os dados em D0-D7 e 0.5us depois derruba por 0.5us o sinal STROBE
+[2016-09-26 10:04:59] 3. Impressora detecta a queda de Strobe e levanta o BUSY, le os dados de D0-D7, processa, transmite, imprime, e quando termina  ACK=0 por 0.5us e depois BUSY =0
+[2016-09-26 10:05:38] 4. GOTO 1 até acabar tudo que tem para enviar.
+[2016-09-26 10:05:51] eu diria que esse tipo de tradução de sinal em tempo real que você quer é mais cabível sendo feito em uma fpga
+[2016-09-26 10:06:13] no passo 3, quando o arduino faz BUSY=0
+[2016-09-26 10:06:39] nao da tempo dele verificar se o strobe caiu novamente. pois quando isso ocorre, o computado já mandou um trem de bytes
+[2016-09-26 10:06:40] ou pelo menos utilizando um buffer na memória maior que só uma instrução
+[2016-09-26 10:06:48] com interrupção é a mesma coisa.
+[2016-09-26 10:07:42] aliás esse papo tá me dando vontade de retomar meu gravador de eeproms
+[2016-09-26 10:07:44] Erin, eu estou avaliando a  possibilidade de um FPGA, mas nao sei nada como se programa, e nem como criar a logica para isso. eh uma coisa para aprender do zero
+[2016-09-26 10:08:26] sim, mas você não vai longe com arduino pra isso, eu não perderia tempo
+[2016-09-26 10:08:51] rpi TALVEZ daria certo mas eu não apostaria minhas fichas
+[2016-09-26 10:09:22] nao daria certo usar a Rasp para ler a paralela diretamente
+[2016-09-26 10:09:38] nao se vc jogar o kernel linux no lixo e fazer baremetal
+[2016-09-26 10:09:51] então pule para fpga
+[2016-09-26 10:10:15] e mesmo assim, nao se garante, li alguns projetos de oscilocopios e analizadores logicos com rpi, mas eles não sao promissores
+[2016-09-26 10:10:19] baremetal
+[2016-09-26 10:10:25] 16 ciclos por µs é muito pouco pra sua aplicação
+[2016-09-26 10:10:27] digo, nem por baremetal
+[2016-09-26 10:10:45] realmente. por isso estou pensando no PIC4550 do pinguino
+[2016-09-26 10:10:57] nao sei quantas instrucoes por us faria com 20Mhz
+[2016-09-26 10:11:16] 20 ciclos
+[2016-09-26 10:11:39] daí depende de quantos ciclos cada instrução leva
+[2016-09-26 10:12:14] cada uma leva um número diferente de ciclos
+[2016-09-26 10:13:16] preciso ir tomar banho, falamos mais tarde
+[2016-09-26 10:32:13] Você pode também fazer um teste com o Arduino Due. É um ARM trotando a 84MHz, deu um gás legal no "Pau de LED"
+[2016-09-26 10:32:15] https://garoa.net.br/wiki/Pau_de_LED
+[2016-09-26 10:54:04] eu já havia lido sobre o "pau de LED" e tinha achado engraçado usar DMA na história. não que não fosse necessário. pelo contrário, achei o máximo contudo
+[2016-09-26 10:54:41] o Arduino due é 3v3, nada muito trágico, mas no site do arduino, diz que a placa foi "aposentada"
+[2016-09-26 10:54:59] https://www.arduino.cc/en/Main/ArduinoBoardDue  NOTE: this product is currently retired.
+[2016-09-26 11:00:40] http://arstechnica.com/security/2016/09/why-the-silencing-of-krebsonsecurity-opens-a-troubling-chapter-for-the-net/
+[2016-09-26 11:17:07] Daqui a pouco só tem Genuino Intel...
+[2016-09-26 11:17:21] Mas tem as "genélicas": http://www.dx.com/s/arduino+due
+[2016-09-26 11:18:23] E tá em promoção na FilipeFlop
+[2016-09-26 11:26:44] vi no flip, R$ 129,90, pra testar dá pra encarar.
+[2016-09-26 11:28:13] obrigado pela sugestão. vou colocar na lista de compras
+[2016-09-26 11:29:45] A frase em destaque não me pareceu tet muito a ver com o artigo. Não se trata diretamente de censura ou liberdade de expressão, mas do fato da infraestrutura da internet ser inadequada para bloquear ataques do tipo DDoS. Ataque, no caso, motivado pela divulgação dos nomes de criminosos que vendiam os ataques. E feito (segundo o artigo) se utilizando dos zilhões de aparelhos desprotegidos vendidos como parte da Internet dos Trecos (IoT).
+[2016-09-26 11:30:37] Internet dos Trecos, essa tradução vai pegar
+[2016-09-26 11:36:58] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_532584212516048196.mp4
+[2016-09-26 11:47:07] brilhante, DQ
+[2016-09-26 11:51:10] Ok, isso foi, no mínimo, curioso... =)
+[2016-09-26 12:01:30] claro que tem um sensacionalismo ai, mas a preocupacao disso a liberdade de expressao eh o fato de ser um ataque quase impossivel de se lidar e disponivel facilmente para script kiddies (pseudo-hackers como ele chamou)
+[2016-09-26 12:01:55] eh uma praga pior que cryptolocker
+[2016-09-26 12:03:46] e quando eu falo que ipv6 vai ser o apocalipse zumbi ninguem acredita em mim...
+[2016-09-26 13:16:14] Script kiddies... Faz tempo que vi esse termo ate me lembrei dos lamers
+[2016-09-26 13:16:38] kkkk
+[2016-09-26 13:16:56] como se chamam os ze-ruela hoje em dia?
+[2016-09-26 13:18:05] Nem sei.. Nessa era de politicamente correto essas coisas se perderam... Talvez hipster?
+[2016-09-26 13:18:45] A gente chama de Anonymous
+[2016-09-26 13:19:00] Verdade
+[2016-09-26 13:19:10] newfag eh uma dessas que sempre me vem a cabeca mas eu evito falar em voz alta...
+[2016-09-26 13:19:19] Kkkk
+[2016-09-26 13:21:44] O sujeito anonymous seria anonyzete?
+[2016-09-26 13:22:39] Porque o pessoal que fala isso também é um monte de zé ruela. Zé ruela all the way down.
+[2016-09-26 13:22:55] Mas os lamers nem hackativismo fazia. Era bem zeruela mesmo
+[2016-09-26 13:23:40] Chamar alguém de lamer era tipo xingar a mãe
+[2016-09-26 13:25:10] Ficavam revoltados e ameaçando da takeover em td
+[2016-09-26 13:27:55] ah controversia, mas numa certa medica compartilho do seu ponto
+[2016-09-26 13:30:18] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803711492_102485.jpg
+[2016-09-26 13:32:44] Hahauhsuahuahsushu
+[2016-09-26 13:32:55] Se você entra no 4chan e vê os anonymous, vai ver que xingar a mãe foi elevado a um esporte lá
+[2016-09-26 13:33:23] Exatamente como o 4chan, que ficam postando planos de takeover mundial todo o dia.
+[2016-09-26 13:35:15] Kkkkkk não sabia disso
+[2016-09-26 13:35:35] Já entrei uma vez la e não consegui foco e nem tempo pra acompanhar
+[2016-09-26 14:06:56] Pessoal, comecou a semana do Desenvolvimento Android. Uma boa desculpa para quem quer aprender do zero e não tem tempo ou coragem
+[2016-09-26 14:08:31] http://semana.androidaccelerate.com.br/sda-video-1
+[2016-09-26 14:08:42] corrigido o link
+[2016-09-26 14:40:10] Galerinha do bem, está aberto o CFP para a BSides SP 13
+
+http://sp13.securitybsides.com.br/cfp-pt/
+[2016-09-26 15:32:34] Fernando, coisa bem curiosa é o candidato do PSOL que diz ter um carro Voyage 1978?  Até onde eu sei, o Voyage foi criado pela VW Brasil e foi lançado em 1981!
+[2016-09-26 15:34:07] Erro de digitação mais provável
+[2016-09-26 15:35:05] Se a revista não percebeu que o preço do quadro era o número do candidato imagina o que deixa passar normalmente
+[2016-09-26 15:35:40] de toda forma, da revista não foi erro de digitação, pois no tse consta mesmo o referido carro de 1978
+[2016-09-26 15:35:44] http://divulgacandcontas.tse.jus.br/divulga/#/candidato/2016/2/71072/250000014895/bens
+[2016-09-26 15:36:39] As vezes o erro é no próprio detran
+[2016-09-26 15:36:48] e não quero bancar o "advogado do Diabo" mas a referida revista não costuma dar erros de digitação.
+[2016-09-26 15:37:09] de toda forma, é uma questão divertida essa lista de bens "curiosos"
+[2016-09-26 15:37:58] O que destaquei foi o hack do Markum
+[2016-09-26 15:39:13] sim, eu saquei de prima e achei divertido o hack dele. sinceramente falando, eu votaria nele se fosse de SP, ganhou meu respeito fazendo esse hack.
+[2016-09-26 15:42:10] via bastante esses lamers na época do irc
+[2016-09-26 15:42:49] @eduoda como assim o ipv6 será o guerra mundial z?
+[2016-09-26 15:51:28] Cara, você não faz ideia.
+[2016-09-26 15:54:07] Li uma vez a respeito de simulação de threads no Arduino
+[2016-09-26 15:55:14] Isso talvez atenda sua necessidade pois com a mudança do fluxo de excursão consiga contornar
+[2016-09-26 16:01:06] Olá Rafael, pelo pouco que conheco de microcontroladores, num processador como o AVR do arduino, se instrucoes sequenciais não resolvem o problema, imagine colocando uma entidade para chavear as tarefas? Não que eu bote fé no assunto, mas acho que vou acabar adquirindo um arduino com clock bem mais alto baseado em ARM. De toda forma, se vc tiver algum link sobre isso, terei o prazer de ler.
+[2016-09-26 16:01:38] O que assusta nestas declarações de bens é o pessoal que guarda dinheiro no colchão. Tem uma candidata a prefeita que declarou 120 mil reais em espécie. A presidente afastada declarou em 2014 152 mil em espécie.  Dados do site do TSE, no link acima. Se procurar mais, vai achar outros.
+[2016-09-26 16:09:42] O mal de declarar dinheiro embaixo do colchao é a real origem deste numerário. O Candidato diz que tem X embaixo do colchao, diz que vendeu uma casa nao sei onde, mas na verdade a casa foi vendida por 1/3 do valor real e o resto ficou embaixo do colchao.
+[2016-09-26 16:18:11] ou talvez esse valor não exista realmente, ja foi gasto a muito tempo e esta lá somente caso entre alguma propininha, seja justificado o suposto valor pré lavado e branqueado
+[2016-09-26 16:18:31] de toda forma, politica nao é legal discutir em rede
+[2016-09-26 16:18:39] assuntos mais legais chegando
+[2016-09-26 16:18:47] Porque não?
+[2016-09-26 16:21:09] pq vai acabar rolando uma lista divertida de nomes de candidatos
+[2016-09-26 16:21:20] como na minha cidade: Bozo, apito, adriano do trator
+[2016-09-26 16:21:56] Quem estiver interessado em discussão séria vai ter um evento legal logo
+[2016-09-26 16:22:04] A virada política
+[2016-09-26 16:30:13] bahia do pesqueiro, barrão, DOLLYNHO, DR. DENGUE, MACARRÃO DO LAVA RAPIDO,
+[2016-09-26 16:32:13] Some ESP32 Development Boards to Look Out For: NodeMCU, Widora-air, Nano32, Noduino Quantum, and Wemos | CNXSoft - Embedded Systems News
+http://www.cnx-software.com/2016/09/24/some-esp32-development-boards-to-look-out-for-nodemcu-widora-air-nano32-noduino-quantum-and-wemos/?utm_content=buffer6adfb&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer
+[2016-09-26 16:36:05] https://github.com/ivanseidel/ArduinoThread/blob/master/README.md
+[2016-09-26 16:37:51] https://www.youtube.com/watch?v=oeP_NiajWME
+[2016-09-26 16:38:21] https://www.youtube.com/watch?v=0SyutmiLzj0
+[2016-09-26 16:54:55] estou baixando para ver no caminho de casa.
+[2016-09-26 16:55:01] vou estudar com carinho
+[2016-09-26 17:34:14] Aqui vai um chute de como ler uma porta paralela e enviar pela SPI, acessando direto os registradores do ATmega: http://pastebin.com/nS8qngQq
+[2016-09-26 17:41:13] DQ adorei a ideia postada. vou testar e reportarei o resultado.
+[2016-09-26 18:03:15] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_303050341195186375.webp
+[2016-09-26 18:04:39] Mestres JEDIs, como posso sugerir um evento recorrente no Garoa que ensine e ao mesmo tempo ajude a recolher fundos para o garoa? Monto uma página lá na wiki? @DQuadros @eduoda @anchisesbr
+[2016-09-26 18:06:17] @LGMart o Garoa tá precisando de $?
+[2016-09-26 18:06:47] Se não estiver, podemos manter só a parte do aprendizado. rsrs
+[2016-09-26 18:07:01] Bem mais fácil
+[2016-09-26 18:08:17] O maior desafio do Garoa nunca foi $
+[2016-09-26 18:08:45] O maior desafio é ter uma programação mais rica de atividades recorrentes
+[2016-09-26 18:09:15] Minha ideia seria alguém levar eletrônicos com defeito em casa para algum especialista em eletrônica do garoa ensinar como diagnosticar, usar multímetro, soldar e o que mais for preciso. Quem levar o eletrônico poderia dar uma contribuição para o garoa.
+[2016-09-26 18:10:28] Verdade, durante um tempo tentei retornar com a InfoSec nas terças, o difícil é o quórum.
+[2016-09-26 18:11:37] o conceito se base neste recurso
+[2016-09-26 18:11:40] https://www.arduino.cc/en/Reference/AttachInterrupt
+[2016-09-26 18:12:34] Agora estou com mais tempo livre. Posso ajudar no que precisarem.
+[2016-09-26 19:59:54] O primeiro passo é ver se tem algum especialista em eletrônica com disponibilidade e disposição. Se ele não for sócio, precisa procurar pelo menos um sócio.
+[2016-09-26 20:02:33] Como costumo dizer, o "segredo" da Noite do Arduino é que a a atividade é "apadrinhada" por vários sócios. Isto garante a assiduidade do evento mesmo com as inevitáveis faltas de um ou outro.
+[2016-09-26 20:21:31] nós robo tbnm
+[2016-09-26 20:28:29] Não sei exatamente o segredo da Noite de Processing, mas dá certo
+[2016-09-26 20:28:46] Pra infosec quando tem atividade... lota. Difícil é alguém dar uma atividade. Quanto aos consertos... O pessoal do café reparo faz... É bem divertido.
+[2016-09-26 20:29:35] O segredo é o Villares 👍
+[2016-09-26 20:32:04] Nah, o segredo é a Monica
+[2016-09-26 20:33:36] e tb que trabalhamos juntos muito felizes pra rolar essa atividade
+[2016-09-26 20:35:47] Óbvio que não deveria ter esquecido da Mônica
+[2016-09-26 20:39:15] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803712803_102882.jpg
+[2016-09-26 20:41:14] Esse Juca picareta devia dizer no vídeo o local onde está gravando.
+[2016-09-26 20:49:57] Legal. Não conheço o café reparo, vou pesquisar.
+[2016-09-26 20:50:45] Ainda vamos chegar no episódio do Garoa :)
+[2016-09-26 21:19:20] Em qual board, /b/?
+[2016-09-26 21:21:16] Você votaria nele e seu voto seria hackeado.
+[2016-09-26 21:21:44] Isso
+[2016-09-26 21:23:26] AAAh! Nessa board só tem papo furado.
+[2016-09-26 21:23:39] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803712545_102503.jpg
+[2016-09-26 21:23:41] gambs da noite
+[2016-09-26 21:26:59] Porquê isso te assusta?
+[2016-09-26 21:47:44] Justamente aí que usam mais essas expressões. E no /pol/
+[2016-09-26 21:49:08] Eu sei, só não sabia que "takeover mundial" é um tema recorrente no /b/.
+[2016-09-26 21:53:06] Sim, planos muito loucos
+[2016-09-26 22:27:03] Texto interessante.
+[2016-09-26 22:38:49] Tem a ver com o artigo, o Krebs foi censurado. Para ter liberdade de expressão, não basta ter o direito no papel, tem que ter o meio, as condições. Sem o site, ele não consegue se expressar.
+
+Mas a culpa é dele em parte. O conteúdo do site dele é ©, não Creative Commons. Se ninguém pode copiar o que ele escreve, o site dele é um ponto central de falha, e isso é culpa dele. Derrubam o site dele, acaba de uma vez toda a expressão e conteúdo dele. Não tem backup, mirror, descentralização, etc.
+
+Se as pessoas tivessem a permissão de copiar, a expressão do Krebs estaria em centenas ou milhares de sites, derrubar um site não seria o bastante para calá-lo. Não precisa de cooperação de indústria nenhuma, é decisão pessoal dele.
+
+Ele quer que "a indústria" vá socorrer ele numa situação em que ele se coloca de propósito? Se ele estivesse preocupado com liberdade de expressão, não estaria com protecionismo intelectual, segurando direitos de cópia dos textos para até 90 anos após a morte dele. Ele valoriza mais o protecionismo intelectual do quê liberdade de expressão!
+
+Então, acho que é bem-feito, ele vá se fazer de desentendido na casa do Bill Gates, e eu acabei de bloquear o site dele no meu navegador pra censurar ele e ele nunca mais ter liberdade de se expressar comigo.
+[2016-09-26 22:42:16] Ele usou o © pra ganhar dinheiro, agora ele que use esse dinheiro pra pagar proteção anti-DDoS. Não vai ter Google, Microsoft, Apple, nem Akamai pra ajudar ele de graça pois não são instituições de caridade.
+[2016-09-26 22:45:23] no que se refere ao krebs, concordo e ate gosto do papo sobre descentralizacao, se esse utilizasse zot (ref: hubzilla) seria muito mais resiliente
+[2016-09-26 22:45:38] mas o caso eh que poderiam derrubar a wikipedia com o ataque utilizado
+[2016-09-26 22:46:39] a gente teria backup e subiria outra? sim, mas nada impediria d ser atacada novamente, isso sem dificuldade alguma, so com uns cliques, seria um gato e rato sem fim, onde so quem tem a perder eh o rato
+[2016-09-26 23:01:05] @eduoda , você está querendo dizer que mesmo que tivesse 10.000 sites com o mesmo texto copiado, em diferentes servidores, no fim os atacantes ainda poderiam derrubar todos eles com a mesma facilidade, é isto?
+[2016-09-26 23:01:41] basicamente
+[2016-09-26 23:02:22] e pior, vc saberia todos os mil sites? qual servico de descentralizacao que vc usa? :D
+[2016-09-26 23:03:18] imagina que akamai nao aguentou, vc viu a largura do ataque?
+[2016-09-26 23:04:33] "620 gigabits per second of junk data"
+[2016-09-26 23:04:39] surreal, nao acha?
+[2016-09-26 23:12:48] como sabem que eh junk data?
+[2016-09-26 23:13:18] pois eh...
+[2016-09-26 23:13:44] se soubessem identificar dado real do junk nao tinha ddos
+[2016-09-26 23:19:37] btw, o google salvou o dia com o project shield
+[2016-09-26 23:21:37] bobear o ataque foi do google, so para fazer publicidade do project shield ahuahuahuahau
+[2016-09-26 23:38:11] Bom, o tamanho do ataque é um problema sim, está certo. Não adianta ter 10.000 cópias do texto nos servidores da mesma empresa de hospedagem, por exemplo, pois ainda estão no mesmo lugar. Não adianta copiar e colar em 10.000 grupos no Telegram e derrubarem os servidores dos Durov. OK!
+
+Porém, me pareceu que o foco do texto não foi criticar a centralização da internet (Krebs "curte" isso), mas as empresas capitalistas agirem com lógica econômica - a China fabricar IoT baratos sem segurança, e empresas de internet não segurarem a barra se for caro demais. Ele mesmo não quer pagar o valor necessário pra proteger o site dele. O que ele quer é comunismo! (hehhehe)
+
+Veja que está escrito que ele pesquisou um valor que, se ele pagasse, seguraria a barra do ataque (US$100K~200K), e ele diz que não pode pagar por isso. Não é que o todo poderoso Akamai não aguentou, é que o Krebs estava tendo proteção de graça e o pessoal do Akamai achou que não valia mais a pena ficar fazendo isso de graça. Então não é que o ataque pode derrubar a internet inteira se for o caso, é questão de custo. Google, Microsoft, Apple não têm US$100K~200K pra pagar essa proteção? Têm. Porquê elas foram citadas na matéria então? Elas não estão nem aí, isso não derrubaria elas. E não vão estar nem aí por mais que o Krebs reclame.
+
+Ele colocou essa questão de custo como se fosse questão de liberdade de expressão. Babaquice dele. Ele acha que eu sou abestado, porém não sou não. Ele só quer ter proteção de graça. Quer ganhar dinheiro com o site e não gastar nada. Free as in free beer!
+[2016-09-26 23:42:44] concordo, mas continuo com o seguinte receio: se eu quiser ter um site independente e nao tiver 150 mil para gastar (note que 600gbps pode nao derrubar a internet, mas derruba o brasil facil), estou a merce de ataques desse tipo
+[2016-09-26 23:43:11] ou isso, ou como o krebs, deixo de ser independente e vou ficar sob a tutela do google
+[2016-09-26 23:43:53] alem disso, 600gbps direcionado direto para um cara
+[2016-09-26 23:45:50] com um round robin babaca vc deixa inumeros sites muito intermitentes (tipo, falha 1 minuto a cada 4 ou 5)
+[2016-09-26 23:46:34] enfim, concordo contigo e com o DQ: sensacionalismo, gente babaca chorando e tal..
+[2016-09-26 23:48:59] mas no frigir do ovos, eh bom a gente nao ser alvo de coisa parecida.
+
+alias, o que fariamos se o site do garoa passasse por uma dessas?
+[2016-09-26 23:48:59] eu ia desligar a maquina e esperar passar :D

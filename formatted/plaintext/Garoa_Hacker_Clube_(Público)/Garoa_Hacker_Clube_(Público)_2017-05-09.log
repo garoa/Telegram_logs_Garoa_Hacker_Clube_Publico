@@ -1,0 +1,67 @@
+[2017-05-09 00:03:16] Gomex joined
+[2017-05-09 00:03:17] Hi Gomex !
+[2017-05-09 00:03:23] Olá pessoal...
+[2017-05-09 00:03:43] tem um devel do TOR aqui em SP e ele queria fazer uma reunião/conversa lá no Garoa
+[2017-05-09 00:03:48] quem topa abrir pra essa atividade?]
+[2017-05-09 00:04:05] Olá, eu sou Gomex, recém morador de SP, socio fundador do Raul hacker club
+[2017-05-09 00:04:16] (tinha esquecido de me apresentar)
+[2017-05-09 00:04:46] qdo? Eu gostaria sim
+[2017-05-09 00:07:35] Ele fica até sexta
+[2017-05-09 00:07:42] temos que fazer até lá
+[2017-05-09 00:07:52] Quem poderia abrir o Garoa pra isso?
+[2017-05-09 00:07:58] vc pode @kretcheu ?
+[2017-05-09 00:09:25] eu não posso abrir, mas acredito que tenha quem possa e tb se interesse por esse papo
+[2017-05-09 00:14:47] massa
+[2017-05-09 00:14:49] vamos esperar
+[2017-05-09 00:34:16] o Garoa tem tb uma lista no google groups
+[2017-05-09 01:19:38] Tendo vaga só propor a atividade..
+[2017-05-09 01:26:04] O canal pra isso é na lista de emails mesmo, né?
+[2017-05-09 01:26:24] tem serviço de maillist?
+[2017-05-09 01:35:12] Wiki e convida na lista
+[2017-05-09 01:35:20] Que eu saiba é assim
+[2017-05-09 01:35:43] Mas preciso de alguém com chave
+[2017-05-09 01:36:30] Pergunta na lista
+[2017-05-09 02:01:24] Vem na bsides!!!!
+[2017-05-09 02:01:49] Restam menos de 50 vagas gratuitas para a BSidesSP
+[2017-05-09 07:58:43] Eu posso abrir
+[2017-05-09 07:58:50] Hoje?
+[2017-05-09 07:58:56] Ou amanhã
+[2017-05-09 07:59:22] Chego umas 19h e muito 20h
+[2017-05-09 08:00:06] Quinta e sexta costuma estar aberto por ter atividades fixas
+[2017-05-09 08:12:25] Vou ver com o cara e falo aqui viu @Gutemhc ?
+[2017-05-09 08:19:21] Beleza
+[2017-05-09 09:05:58] Amigos uma duvida, techo que conectar um leitor de código de barra usb em um arduino, na internet que da pra fazer sem usar um shild, mas ninguém replica como, sei fazer.
+[2017-05-09 09:48:22] https://www.theverge.com/2017/5/8/15086774/blade-runner-2049-trailer-watch
+[2017-05-09 10:28:52] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803113012_49757.jpg
+[2017-05-09 10:30:38] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_826459275206328380.webp
+[2017-05-09 11:00:11] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_446404499720896621.webp
+[2017-05-09 11:53:26] Sobre o leitor de codigo de barras usb. Os leitores mais antigos eram sempre seriais. Embora trocando o cabo e escaneando um codigo do manual. Poderia se trocar para emulador de teclado. Veja como eh reconhecido no computador. Se for uma serial usb. Deve ter um conversor usb serial no leitor. Ai vc consegue fazer um bypass no leitor e ligar na serial do arduino. Caso for um leitor com driver diferente pode ser necessário um usb host.
+[2017-05-09 12:31:00] cara, cria um app q faz isso
+[2017-05-09 12:31:02] mais facil kkkk
+[2017-05-09 14:33:14] Uma dúvida rápida (ou duas): o amplificador com caixa de som tá na sala multiuso? 
+O projetor da sala multiuso tem entrada RCA?
+[2017-05-09 15:25:22] sim.
+sim (acho).
+[2017-05-09 16:25:18] Salve galera, alguém conhece uma boa IDE para py, que não precise programar label, botoes etc???
+[2017-05-09 17:48:40] Putz, vou perder o Glitch Night no Garoa pq tou em Campinas ainda :((
+[2017-05-09 17:48:52] Quem estiver em SP não perca!
+[2017-05-09 18:13:11] Bomba um lá!
+[2017-05-09 18:51:50] editor normal tipo, emacs, vim, não atendem?
+[2017-05-09 18:59:09] IDE como Visual Studio, mais vou focar na programação primeiro, depois e vejo isso melhor.
+[2017-05-09 18:59:10] editor normal tipo, emacs, vim, não atendem?
+[2017-05-09 19:05:37] PyCharm?
+[2017-05-09 19:06:48] Esse já uso, queria um para criar os botões lebal etc
+[2017-05-09 19:08:45] Programação para Desktop ou Web?
+[2017-05-09 19:10:06] Desktop windows
+[2017-05-09 19:14:01] Ai nesse caso vc não vai conseguir com python puro, só misturando com alguma biblioteca (GTK, QT, etc) gráfica e fazendo muita coisa na unha.
+https://wiki.python.org/moin/GuiProgramming
+[2017-05-09 19:15:05] 👍
+[2017-05-09 19:53:17] Para Qt, sei que existe o Qt Designer, mas não tenho experiência.
+[2017-05-09 23:18:46] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803120589_50019.jpg
+[2017-05-09 23:18:50] Bora implantar uns imãs?
+[2017-05-09 23:41:38] Bora
+[2017-05-09 23:41:44] Qual o esquema?
+[2017-05-09 23:41:56] Corta, poe e espera o câncer?
+[2017-05-09 23:42:44] Câncer eh exagero... Rejeição
+[2017-05-09 23:45:07] Ainda falta o coating pra evitar a rejeição [mas não o câncer]...
+[2017-05-09 23:45:33] To vendo uma empresa do interior, vou levar umas amostras e ver a viabilidade de fazer aqui no BR o revestimetno

@@ -1,0 +1,30 @@
+[2017-07-15 00:07:51] Hoje eu investiguei a ROM de SNES do jogo Out of this World para tentar extrair dela o bytecode e outros resources (como paletas de cores, estruturas de dados de polígonos, etc) deste release do Another World. 
+Eu sei que os resources são diferentes, por que consigo ver algumas diferenças sutis no gameplay. E alguns bugfixes. E também a censura que anintendo aplicou ao game (dentre várias modificações, uma das coisas que a Nintendo pediu foi que o sangue fosse pintado de verde para ser interpretado como "gosma de alien" e não afetar a classificação etária do jogo).
+[2017-07-15 00:10:25] Mas eu não consegui ainda achar os dados que estou procurando. Suponho que eles estejam comprimidos. Mas não tenho idéia de qual algorítmo de compressão foi usado. Para tentar descobrir, eu usei o debugger do MAME para inspecionar a memória RAM em runtime rodando o cartucho de SNES e tentando achar na RAM similaridades com o bytecode de MSDOS que eu já conheço.
+[2017-07-15 00:10:45] Mas por enquanto isso ainda não adiantou, pois não consegui achar.
+[2017-07-15 00:15:00] Aí resolvi usar watchpoints para interromper a execução do jogo e cair de volta no debugger assim que fosse lido um endereço especifico da ROM, contento uma string de texto "PRESS BUTTON B TO CONTINUE". Fiz isso por que sei que o desenho de strings de texto na tela é efeito colateral da execução da instrução "drawString". Consegui achar esse ponto da ROM. E minha esperança era que eu poderia a partir daí ver de onde foi lido o opcode que levou à execução da instrução drawString. E então eu poderia ver onde na memória ficam armazenados trechos de bytecode descompressos. E depois eu poderia investigar quem foi que escreveu o bytecode alí e, com isso, ter algum insight sobre como está armazenado o bytecode na ROM.
+[2017-07-15 00:16:20] Mas... apesar de ter achado a execução da instrução drawString, não consegui fazer esses "passos pra trás" justamente pela falta de uma feature de back-track log no debugger do MAME. Agora fico pensando se vale a pena eu implementar essa feature no MAME pra solucionar o meu problema, ou se é melhor eu forçar um pouco mais a cabeça pra achar algum outro jeito de achar os dados de bytecode.
+[2017-07-15 01:15:46] Chiptune de keygen
+[2017-07-15 01:15:48] Sdds
+[2017-07-15 10:09:25] https://www.youtube.com/watch?v=ZM5jX-thwzU&list=PLCTKWsE4qK-rxcTDadj1JQg6b2WRd8V1v&index=25
+[2017-07-15 11:27:18] #Dica #Curso
+Python para Técnicos e Engenheiros:
+https://www.udemy.com/python-para-tecnicos-e-engenheiros/?couponCode=RASPPYFREE
+
+Gratuito somente hoje...
+[2017-07-15 15:29:08] sæulø joined
+[2017-07-15 15:29:08] Hi saulø !
+[2017-07-15 15:49:31] https://www.academia.edu/33649460/Narrativas_do_jogo_Tetris_em_um_recorte_tipográfico_-_De_sua_origem_ao_Game_Boy
+[2017-07-15 16:25:06] Por backtrack log vc quer dizer reverse debugging?
+[2017-07-15 17:32:34] Vão abrir o garoa hj?
+[2017-07-15 17:48:07] Leo Ventura joined
+[2017-07-15 17:48:08] Hi Leo !
+[2017-07-15 18:33:47] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803111940_115243.jpg
+[2017-07-15 19:09:14] É... tipo isso. Eu preciso listar a sequencia de endereços de memória das instruções que foram executadas antes de chegar na instrução atual (onde parou por conta do watchpoint)
+[2017-07-15 19:09:27] Preciso ver de onde veio a execução pra chegar aqui
+[2017-07-15 19:27:57] Ah, então não é reverse debugging, é mais simples. É basicamente um stack trace.
+[2017-07-15 19:28:05] https://m.imgur.com/gallery/ZAx7R
+[2017-07-15 19:28:43] Um cara montou uma calculadora curta de peças impressas de uma impressora 3D
+[2017-07-15 22:08:54] Pessoal, fixei o IP do meu RPI no arquivo '/etc/network/interfaces'. Mas ele continua pegando o IP pelo DHCP do roteador. Alguém poderia me dar uma ajudinha, pf
+[2017-07-15 22:09:11] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803116384_91351.jpg
+[2017-07-15 23:10:23] Salva de palmas para o @agaelebe q arrumou lindamente o Garoa, se tiver mais alguém envolvido, parabéns tb

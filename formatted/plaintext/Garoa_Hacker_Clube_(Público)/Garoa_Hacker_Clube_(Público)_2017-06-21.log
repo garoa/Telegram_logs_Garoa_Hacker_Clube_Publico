@@ -1,0 +1,120 @@
+[2017-06-21 00:08:14] KeePass2
+[2017-06-21 00:31:05] Este grupo só será deletado após providenciarmos um backup. Garoando na Terra dá Hacking 😃
+[2017-06-21 00:31:12] uh huh
+[2017-06-21 00:31:36] no telegram tudo que se digita um dia vai para o espaço
+[2017-06-21 00:33:52] é só fazer um script pra salvar o log e acessar a tua conta pelo telegram-cli
+[2017-06-21 00:34:18] ou fazer um bot de telegram convencional que fique salvando todas mensagens
+[2017-06-21 00:34:42] na primeira solução, ninguém vai ficar sabendo que tu ta logando, na segunda os moderadores do grupo podem bloquear ou mesmo impedir a entrada do bot
+[2017-06-21 00:35:39] A não ser que alguém esteja gravando tudo
+[2017-06-21 00:36:09] ou que voce mesmo quiser encontrar
+[2017-06-21 00:37:06] listas de email geralmente já são indexadas por google
+[2017-06-21 00:42:07] em 2011, havia uma conversa sobre fazer PCB na lista do garoa - https://groups.google.com/forum/#!searchin/hackerspacesp/percloreto%7Csort:relevance/hackerspacesp/xHTtxp8bvG8/g3aujClDNAoJ
+[2017-06-21 02:16:46] 😍
+[2017-06-21 06:52:51] @michaelhoward9 podemos fazer um log e coloca-lo no github
+[2017-06-21 08:18:31] Protonvpn.com lançou alguns dias atrás
+[2017-06-21 09:36:49] Olha este sumô de robôs https://twitter.com/ID_R_McGregor/status/877050984127713281
+[2017-06-21 09:39:15] Nível nipônico
+[2017-06-21 09:55:43] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803119022_73573.jpg
+[2017-06-21 09:56:41] Olha só quem vai palestrar no JS Experience, Olha ela! @heloa6
+[2017-06-21 09:58:42] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_533238787006794854.webp
+[2017-06-21 09:59:24] Mas q esse painel vai dar uma treta loka, ahhh vai
+[2017-06-21 09:59:36] ainda mais comunidade de JS, pessoal já treta pouco kkk
+[2017-06-21 09:59:46] 500 membros caramba
+[2017-06-21 09:59:49] Que zona
+[2017-06-21 10:00:21] A year later...
+[2017-06-21 10:00:30] Quer uma abraço, Mike? hehehe
+[2017-06-21 10:00:48] A lista de emails tem mais de 3000 inscritos. Mas pelo menos por lá teremos backup das conversas. Aqui, aposto que cedo ou tarde vai tudo pro /dev/null
+[2017-06-21 10:00:48] Alguém sabe se tem algum script bom para publicação dos chats em páginas web?
+[2017-06-21 10:01:31] Eu prefiro irc
+[2017-06-21 10:01:57] Eu prefiro Jabber
+[2017-06-21 10:02:42] Eu prefiro pair-programming.
+[2017-06-21 10:03:02] Imagina o medo de treta, de desenvolvedor js, deve ser loko
+[2017-06-21 10:03:06] Rubber Ducking Debugging
+[2017-06-21 10:03:28] Loko
+[2017-06-21 10:04:34] Faço isso direto. Tava fazendo agora há pouco, inclusive.
+[2017-06-21 10:05:13] Só se for Dev Nutella... Se for Raiz, dá caderada no SysAdmin, pergunta em que curso por correspondencia o Backend se formou, manda o Gestor "ir tomar um sucuzinho"...
+[2017-06-21 10:07:20] https://en.wikipedia.org/wiki/Rubber_duck_debugging
+[2017-06-21 10:09:50] Mas em vez de usar um pato, eu uso um blog ou fórum (ou uma noite no Garoa) pra exercitar o raciocínio algorítmico e a solução de problemas nos projetos em andamento: https://forum.fiozera.com.br/t/suporte-a-opentype-variable-fonts-no-inkscape/115
+[2017-06-21 10:21:40] Aliás... Esse aqui é um exemplo de "Rubber Ducking" no YouTube! LOL https://www.youtube.com/watch?v=snLWzKMR0Us
+[2017-06-21 10:23:23] Eu me sinto dividido entre terminar os projetos pra poder gravar vídeos gloriosos mostrando o sucesso da coisa pronta, versus gravar esses vídeos de relato de progresso, com tudo incompleto, mostrando o potencial das coisas, e onde quebra, onde funciona, onde não faz o menor sentido, etc...
+[2017-06-21 10:25:26] Eu tô com um projeto em andamento já faz umas 3 semanas, "em off". Esperando amadurecer pra virar vídeo. Todo dia avanço um pouco e acho que já tem tanta informação acumulada que se eu gravar um vídeo dá umas duas horas de bla bla bla
+[2017-06-21 10:26:53] ...mas ao mesmo tempo, acho chato mostrar um vídeo com a coisa pela metade por que "queima a largada". Mata a chance de fazer o show de uma vez só no momento em que o projeto estiver funcional, devidamente demonstrável.
+[2017-06-21 11:07:43] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804206422_75637.jpg
+[2017-06-21 12:55:00] O espaço físico garoa hacker clube precisa de mais vassouras e prateleiras
+[2017-06-21 12:55:06] e pessoas que usem os dois
+[2017-06-21 12:55:21] para varrer e guardar
+[2017-06-21 12:56:00] comparando uma implementação anterior (e completamente funcional da VM) que eu mesmo já tinha feito, na execução passo a passo das instruções, chega um momento em que a execução do bytecode diverge
+[2017-06-21 12:56:00] logo após a instrução break
+[2017-06-21 12:56:00] ou seja, lá vou eu debugar a instrução break
+[2017-06-21 12:56:00] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803735074_123379.jpg
+[2017-06-21 12:56:00] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804740578_45201.jpg
+[2017-06-21 12:56:00] Quando a gente explica algo prum pedaço de papel usando uma caneta BIC também é considerado Rubber Ducking ?
+[2017-06-21 12:56:17] como fazer uma infinidade de prateleiras de baixo custo?
+[2017-06-21 12:58:36] também precisamos de um galpão de uns 1000 m2 para caber tudo que queremos do universo
+[2017-06-21 13:05:16] Tem bastante espaço pra guardar as coisas aqui: https://en.wikipedia.org/wiki/Bo%C3%B6tes_void
+[2017-06-21 13:06:47] tô zoando... eu também quero um galpão enorme pra poder ter mil coisas interessantes para as nossas insaciáveis explorações tecnológicas.
+[2017-06-21 13:09:51] razoável pensar em buscar espaços distantes, um galpão gigante fora do centro de sp é viável
+[2017-06-21 13:16:50] não importa o tamanho do galpão.... ele inevitavelmente será totalmente ocupado e será necessário um espaço maior 😄
+[2017-06-21 13:34:42] @fsanches Ainda temos a vinyl cutter (funcional) no Garoa?
+[2017-06-21 13:42:30] Ainda temos a cinyl cutter, sim. Mas não sei dizer se está funcional ou não. Alguém precisa ligar e testar.
+[2017-06-21 13:42:37] algum tempo atrás deu umas panes
+[2017-06-21 13:42:43] e depois alguém deu um tapa
+[2017-06-21 13:42:48] não sei em que estado está agora
+[2017-06-21 15:04:36] Site do garoa ta fora?
+[2017-06-21 15:10:48] http://downdetector.com.br/
+[2017-06-21 15:11:01] antigo.. caiutudo.com rs
+[2017-06-21 15:12:08] Aqui está normal...
+[2017-06-21 15:12:10] que filhos da mae... mudaram tudo... rs
+[2017-06-21 15:12:17] https://foradoar.org/garoa.net.br
+[2017-06-21 17:18:53] Está certo ou errado isso? -- https://en.m.wikipedia.org/wiki/Hackerspace
+[2017-06-21 17:51:51] Seria legal criar o verbete em inglês do garoa na Wikipedia
+[2017-06-21 17:59:57] Seria legal lembrar que a Wikipédia não permite auto-promoção
+[2017-06-21 18:24:11] Então seria legal um terceiro criar o verbete em inglês do Garoa na Wikipedia... 😜
+[2017-06-21 18:25:37] seria legal
+[2017-06-21 18:28:54] https://youtu.be/nY7i7kj2jO4
+[2017-06-21 18:37:16] Alguém no Garoa hoje?
+[2017-06-21 18:45:57] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803112746_76272.jpg
+[2017-06-21 18:45:57] Este é o mais antigo "ASCII-art" brasileiro. 
+Apesar do termo não ser usado naquela época...
+[2017-06-21 18:45:57] https://forum.fiozera.com.br/t/resgate-historico-do-computador-patinho-feio-usp-1971/58/16
+[2017-06-21 18:45:57] Tem mais informações obre esse desenho na postagem que acabei de fazer no fórum, no link enviado acima.
+[2017-06-21 18:47:58] Someone?
+[2017-06-21 18:48:40] http://garoahc.appspot.com/
+[2017-06-21 19:19:01] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803118083_74047.jpg
+[2017-06-21 19:21:19] É golpe
+[2017-06-21 19:21:38] não, deve ser noobiçe mesmo...
+[2017-06-21 19:21:48] Devem ter esquecido de ligar o disjuntor
+[2017-06-21 19:21:56] como ontem no CMC
+[2017-06-21 19:22:05] uhauhahuahuauha
+[2017-06-21 19:22:11] eu to aqui 😆
+[2017-06-21 19:22:12] E deixamos o entregador da Pizza esperando... rs
+[2017-06-21 19:22:15] como na foto
+[2017-06-21 19:22:38] Ligou o disjuntor?
+[2017-06-21 19:22:59] Qual (sorry)?
+[2017-06-21 19:24:20] atras da porta da sala 0, no quadro de força que a bre o portão. Tem um disjuntor que é marcado com um adesivo branco. Segundo da esquerda pra direita, se não me engano
+[2017-06-21 19:24:48] ok
+[2017-06-21 19:29:33] working fine now
+[2017-06-21 19:29:37] :)
+[2017-06-21 19:31:07] #FicaDica
+[2017-06-21 19:35:38] TY
+[2017-06-21 19:45:53] Galera,
+[2017-06-21 19:46:04] qual marca de HDD de notebook vcs recomendam?
+[2017-06-21 19:46:13] WD
+[2017-06-21 19:47:14] Valeu!!! =D
+[2017-06-21 19:47:26] hds que morreram na minha mão: 1 wd, 2 hgst (hitachi) e 3 samsung
+[2017-06-21 19:47:38] então, estatisticamente wd tá ganhando :p
+[2017-06-21 19:48:11] =D
+[2017-06-21 19:48:20] ótimo!
+[2017-06-21 19:51:15] Em 20 minutos estaremos online com @dbader_org https://www.youtube.com/watch?v=uZ-IrwCKGFg #castalio #python
+[2017-06-21 20:18:10] Para mim, depende do uso... E do desempenho que vc espera
+[2017-06-21 20:18:32] computador de Tia
+[2017-06-21 20:18:42] hahaaha
+[2017-06-21 20:18:52] Hehehe
+[2017-06-21 20:18:55] rwindão, estabilidade, pouco arquivo
+[2017-06-21 20:19:14] rwindão com estabilidade não combinam, mas né...
+[2017-06-21 20:19:20] haha
+[2017-06-21 20:19:41] Vai de wd, custo/benefício melhor
+[2017-06-21 20:23:03] 👍
+[2017-06-21 20:29:54] Wd 40
+[2017-06-21 21:34:27] Internet do Garoa está ok?
+[2017-06-21 23:54:46] Consertei a instrução break e agora a execução da VM parece estar redondinha do ponto de vista de controle de fluxo de execução do bytecode e alternãncia de threads. Mas o vídeo continua zoado. Estou agora debugando a interpretação dos dados de renderação de polígonos pra ver se rolou algum tropeço no meio do caminho na interpretação dos dados e manipulação de ponteiros pra cá e pra lá...

@@ -1,0 +1,40 @@
+[2016-02-27 07:15:56] Fernando Guisso: JavaScript né, eu falo direto
+[2016-02-27 07:16:44] Fernando Guisso sent document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Este_grupo_só_será_deletado_após_providenciarmos_um_backup._Garoando_na_Terra_dá_Hacking__/download_326066319315173614.webp
+[2016-02-27 07:16:52] Fernando Guisso sent document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Este_grupo_só_será_deletado_após_providenciarmos_um_backup._Garoando_na_Terra_dá_Hacking__/download_326066319315173633.webp
+[2016-02-27 19:26:20] Luciano Ramalho: O que tem de tão bom o Node?
+[2016-02-27 19:27:24] Luciano Ramalho: Me contem. Quero tentar entender a perspectiva de quem gosta.
+[2016-02-27 19:28:16] Luciano Ramalho: Nota de esclarecimento: eu não acho Node legal.
+[2016-02-27 19:28:36] Luciano Ramalho: Mas quero ouvir a opinião de que curte.
+[2016-02-27 20:36:08] Fernando Guisso (in reply to Luciano Ramalho): Eu gosto pq sou front, uso mt JavaScript, uso gulp pra automatizar minhas tarefas, às vezes parto para back com o node, depois tem uns módulos q uso pra mexer com arduinoe raspberry.
+Primeiro pq é JavaScript. Vou achar uns artigos explicando pq ele é legal para servidores, vai q vc entende
+[2016-02-27 21:01:00] Kemel Zaidan: Eu gosto do fato de ser assíncrono por padrão
+[2016-02-27 21:01:12] Kemel Zaidan: Orientado a eventos
+[2016-02-27 21:01:28] Kemel Zaidan: Acho simples
+[2016-02-27 21:01:47] Kemel Zaidan: Acho gostoso de programar
+[2016-02-27 21:03:16] Kemel Zaidan: Gosto do ecossistema igualmente simples, versátil, poderoso. Gosto da forma como ele lida com APIs, com json
+[2016-02-27 21:06:00] Fernando Guisso: https://www.paypal-engineering.com/2013/11/22/node-js-at-paypal/Essa história é legal
+[2016-02-27 21:06:28] Fernando Guisso: https://www.paypal-engineering.com/2013/11/22/node-js-at-paypal/
+[2016-02-27 21:09:20] Kemel Zaidan: Engraçado @LucianoRamalho. Uma vez me lembro de vc falando de node antes mesmo de eu conhecer
+[2016-02-27 21:09:32] Kemel Zaidan: Me deu o exemplo do stat
+[2016-02-27 21:10:20] Kemel Zaidan: Me lembro de achar que vc gostava
+[2016-02-27 21:12:04] Luciano Ramalho: Eu achava intrigante. Hoje acho que há opções bem melhores.
+[2016-02-27 21:12:24] Aurelio Heckert (in reply to Luciano Ramalho): Eu sou fullstack web-dev, então poder usar a mesma linguagem para cliente e serv é ótimo.
+
+Node é não bloqueante (o tal async) por padão e esse modelo faz parte da cultura da comunidade, então você pode esperar isso de qq modul que você use. Quando um módulo é sync por padrão o projeto lista isso como uma característica relevante (como o shell.js).
+
+Se o JS, como qq linguagem interpretada, estiver limitando o melhor uso dos recursos, é relativamente tranquilo fazer módulos C++ https://nodejs.org/api/addons.html#addons_wrapping_c_objects
+[2016-02-27 21:12:28] Aurelio Heckert: Os módulos base fazem muito sentido depois que se aprende a pensar no modelo Node.js. E eles são suficiente para construir muita coisa. Em interação com NPM temos um bom isolamento de dependências e um controle por projeto que, por exemplo, o gem não consegue fazer tão bem.
+[2016-02-27 21:13:12] Luciano Ramalho: E para mim o fato de ser js é um grande defeito. JS é muito errada, de várias formas.
+[2016-02-27 21:13:20] Aurelio Heckert: Mas tudo pode ser relativizado. Gostar de JS e da sua flexibilidade é decisivo para gostar ou não de Node
+[2016-02-27 21:14:08] Aurelio Heckert (in reply to Luciano Ramalho): Então Node não é pra você e viva a diversidade! :-)
+[2016-02-27 21:14:12] Luciano Ramalho: Eu não tenho nada contra flexibilidade.
+[2016-02-27 21:15:16] Acidx Leandro Pereira: Pô, o JS é muito gente boa :D
+[2016-02-27 21:15:48] Aurelio Heckert: Hehehehehehe! E o pior é que o JS prefere Python!
+[2016-02-27 21:18:41] Aurelio Heckert: @LucianoRamalho o coffescript soluciona os problemas que te incomodam no JS? Esteticamente já muda muito e lembra python.
+[2016-02-27 21:24:12] Kemel Zaidan: E tem o ES6 (ou ES2015) que resolve muita coisa tb
+[2016-02-27 21:24:36] Kemel Zaidan: Que solução vc acha melhor @LucianoRamalho ?
+[2016-02-27 21:26:00] Kemel Zaidan: JS tem muitos defeitos. Mas no meu caso, acho que as vantagens superam
+[2016-02-27 21:26:48] Kemel Zaidan: Inclusive, legal esse post do PayPal @fernandoGuisso
+[2016-02-27 21:28:16] Fernando Guisso: Tem outros cases, mas não lembro onde deixei os links
+[2016-02-27 21:29:36] Aurelio Heckert: Bem lembrado @kemelzaidan! Boa parte do ES6 já funciona no Node mais recente. Não me lembro desde que versão, mas muitos módulos já dependem de fetures ES6.
+[2016-02-27 21:30:28] Acidx Leandro Pereira: https://www.youtube.com/watch?v=LJvEIjRBSDA

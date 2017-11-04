@@ -1,0 +1,166 @@
+[2016-08-31 00:00:15] daniel: qual a voltagem de entrada?
+[2016-08-31 00:00:37] Liguei uma bateria de 9v
+[2016-08-31 00:00:40] hm
+[2016-08-31 00:00:58] meça a bateria. meça a saída do 7805
+[2016-08-31 00:01:18] ignore o 7805 e use apenas a saída de 3v3 do ftdi direto no atmega para gravação
+[2016-08-31 00:01:29] tenta essas 3 coisas.
+[2016-08-31 00:01:42] o atmega funciona com uma margem de 1.8v a 5.5v
+[2016-08-31 00:01:46] Tá! Vou tentar!
+[2016-08-31 00:01:49] (6v se você for malandro)
+[2016-08-31 00:01:57] Não, é isso mesmo... quem pratica o bem é bom... quem pratica o mal é mau...
+[2016-08-31 00:02:11] Maldade, bondade
+[2016-08-31 00:02:28] 😉
+[2016-08-31 00:02:29] buguei
+[2016-08-31 00:02:34] mas acredito em vocês
+[2016-08-31 00:02:40] Hahaha
+[2016-08-31 00:03:06] Valeu as dicas Erin! Amanhã tento isso. 🙌🏾👍🏽
+[2016-08-31 00:03:13] Eu sempre decorei usando as letras por extenso
+[2016-08-31 00:03:28] L por extenso é tipo um e grande
+[2016-08-31 00:03:52] Aí bEm e maL são antônimos um do outro
+[2016-08-31 00:04:17] Vixe, rs
+[2016-08-31 00:04:49] Acho q vc tá certo
+[2016-08-31 00:04:56] incrível mnemônica
+[2016-08-31 00:04:59] - - joined
+[2016-08-31 00:05:01] Hi Pietro !
+[2016-08-31 00:05:14] Boa noite!
+[2016-08-31 00:05:16] chegou o manjador de unicode
+[2016-08-31 00:05:23] heuheuheuhe
+[2016-08-31 00:06:31] Alguém manja aonde tem loja de eletronica em miami que valha a pena olhar?
+[2016-08-31 00:08:36] Talvez na Paje Galery, ou March 25th... hahahaha...
+[2016-08-31 00:09:09] Ahahaahahahah lá também vale se alguém souber onde encontrar coisas legais lá
+[2016-08-31 00:09:51] No meu blog (dqsoft.blogspot.com) tem um passo a passo DP Arduíno na protoboard.
+[2016-08-31 00:10:36] Fica difícil diagnosticar à distância, mas aqui vão algumas dicas.
+[2016-08-31 00:12:00] Comece pelo circuito mínimo: atmega, alimentação, cristal, capacitores do cristal, reset, rx e tx
+[2016-08-31 00:12:51] Alimente com os 5v do ftdi. A rigor não funciona a 16mhz com 3.3v
+[2016-08-31 00:12:58] Opa, valeu! Vou dar uma olhada.
+[2016-08-31 00:14:15] o ftdi fornece 5v? achei que só 3v3
+[2016-08-31 00:14:16] Veja se precisa dar reset para entrar no bootloader ou se tem um capacitor para o dtr do ftdi. Se precisar dar reset manual, é bem chatinho.
+[2016-08-31 00:15:03] A USB fornece 5v mas os sinais de dados são 3.3v...
+[2016-08-31 00:16:12] Experimente também inverter o rx com tx, pois existem convenções distintas.
+[2016-08-31 00:16:34] Fiz dos dois jeitos...
+[2016-08-31 00:17:06] Achei aqui o post, vou seguir esse 🙌🏾
+[2016-08-31 00:17:35] Boa sorte?
+[2016-08-31 00:18:15] 😅🍀🐢
+[2016-08-31 00:19:50] hum. preguiça de montar protoboard pra gravar bootloader em atmega..
+[2016-08-31 00:20:48] Eu tô montando pra aprender e tentar entender mais sobre arduino mesmo...
+[2016-08-31 00:23:29] ah, é que eu tenho 12 atmegas sem bootloader pra gravar  :p
+[2016-08-31 00:23:44] eu quem tô com preguiça mesmo
+[2016-08-31 00:25:02] Rs 😭
+[2016-08-31 00:50:22] hm. gravei o bootloader no atmega avulso usando um uno, tirei o atmega do uno e agora não responde mais a serial. uai...
+[2016-08-31 00:51:53] e voltou a funcionar. malditos duendes...
+[2016-08-31 02:13:58] https://twitter.com/lana_chan_/status/770850474606075905
+[2016-08-31 02:22:36] ei eu to vendo videos de vcs da galera do garoa no youtube.....nossa  ....muito dez o espaco e galera ai
+[2016-08-31 02:22:37] cada projeto legal
+[2016-08-31 02:22:37] o pessoal muito divertido
+[2016-08-31 02:25:54] haha.. o jumper de programação que eu coloquei na placa é completamente inútil
+[2016-08-31 02:26:14] eu não preciso desligar o pullup do reset pra reprogramar o broche..
+[2016-08-31 02:26:30] dá pra só soldar um fio no lugar.. vou tirar o jumper no v3
+[2016-08-31 03:03:40] alguem ja colocou no ar uma BB....ou ja mexeu.....eu to mexendo num programa pra montar uma....mas tem poucas informacoes
+[2016-08-31 03:03:50] bbs
+[2016-08-31 03:04:22] boletin board system
+[2016-08-31 03:12:56] Minha experiência com BBS é de usuário.
+[2016-08-31 03:13:16] 30 anos atrás...
+[2016-08-31 03:13:24] eu quero montar uma
+[2016-08-31 03:14:12] por incrivel pareca ainda tem um monte ainda em funcionamento....mas como montar é bem diferente
+[2016-08-31 03:15:38] Erin, eu montei em uma prototipe shield um soquete e componentes para gravar ATmega. Se quiser posso deixar no Garoa na quinta da semana que vem.
+[2016-08-31 03:16:45] Jonatas, qual software você vai usar? Vai usar modem e linha telefônica?
+[2016-08-31 03:19:11] vai ser dentro da banda larga mesmo.....talvez vc ache q to  viajando....mas olha o bbs guide e vc vai ver milhares em funcionamento....acesso por terminal ou ate web
+[2016-08-31 03:21:49] Algum tempo atrás eu dei uma olhada rápida nisto. Realmente é mais prático usar a internet, mas sem usar terminal alfanumérico com comandos ANSI perde a graça. Vira web site.
+[2016-08-31 03:21:50] http://telnetbbsguide.com/
+[2016-08-31 03:22:20] sim realmente
+[2016-08-31 03:22:59] so disse q agora as coisas mudaram um pouco....mas prefiro usar o telnet
+[2016-08-31 03:28:53] https://m.youtube.com/watch?v=7UngRQEfxaE
+[2016-08-31 03:33:17] se tudo dar certo ....deixar funcionando num rasperbarry pi ligado a rede da minha casa....pra acesso externo e acesso a um servico de irc dentro da BBS
+[2016-08-31 07:18:08] poxa, não pensei nisso por incrível que pareça.. vou ver se não faço uma pra mim também
+[2016-08-31 07:25:06] Acho que ainda tenho desta shield (versão só a placa)
+[2016-08-31 07:36:01]  joined
+[2016-08-31 07:36:02] Hi Valcezio !
+[2016-08-31 08:16:01] https://www.troyhunt.com/the-dropbox-hack-is-real/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TroyHunt+%28Troy+Hunt%29
+[2016-08-31 08:16:11] É galerinha...
+[2016-08-31 08:19:37] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803711604_85750.jpg
+[2016-08-31 08:20:03] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803717476_85957.jpg
+[2016-08-31 08:30:11] ?
+[2016-08-31 08:49:46] Aconteceu com um amigo meu...
+[2016-08-31 08:57:33] Que bom....
+[2016-08-31 09:41:09] Alguma tradução preferencial para ‘tag’ em português? (no contexto de HTML e ’linguagem de marcação’)
+[2016-08-31 09:41:28] na wikipedia tá uma salada
+[2016-08-31 09:41:29] https://pt.wikipedia.org/wiki/HTML
+[2016-08-31 09:42:04] prefiro marcadores a etiquetas
+[2016-08-31 09:45:27] Etiqueta?
+[2016-08-31 09:45:27] Já vi como marcador também
+[2016-08-31 09:46:34] marcador é mais comum.
+[2016-08-31 09:46:50] etiqueta eu nunca ouvi, na real. Acho que é uma tradução ruim, só
+[2016-08-31 09:47:23] Marcador...
+[2016-08-31 09:47:54] Obrigado!
+[2016-08-31 10:59:46] SpaceX signs up its first reused rocket customer
+Luxembourg-based satellite and telecoms operator SES will be the first company to launch a payload on a refurbished SpaceX Falcon 9 rocket that's been landed after a previous launch (SpaceNews). The launch, scheduled for October, will see the rocket booster taking up the 5,000kg SES-10 telecommunications satellite. SES Chief Technology Officer Martin Halliwell said that "having been the first commercial satellite operator to launch with SpaceX back in 2013, we are excited to once again be the first customer to launch on SpaceX's first ever mission using a flight-proven rocket."
+[2016-08-31 12:08:45] Nunca, jamais, deixa cartão salvo
+[2016-08-31 12:27:48] Eu deixo no Paypal...
+[2016-08-31 12:45:13] Isso depende. Na verdade, o mais comum fora do âmbito computacional, é etiqueta.
+[2016-08-31 12:45:39] No caso, prefiro marcador para HTML
+[2016-08-31 12:46:33] Ahn? Fora do âmbito computacional, a pergunta não faz sentido. "Etiqueta", na página da wikipedia, está errado porque o contexto exige outra tradução.
+[2016-08-31 12:48:00] Perdão; associei que seu comentário em nunca ter visto tivesse sido de forma geral.
+[2016-08-31 13:12:31] costumo deixar como tag mesmo... Mas acho que marcador faz mais sentido já que o "M" em HTML é de Markup === marcação.
+[2016-08-31 13:18:36] sem problemas
+[2016-08-31 13:50:57] Editei na Wikipédia, vamos ver se alguém reverte :)
+[2016-08-31 15:09:43] alguem sabe dizer se o livro introducao ao web hacking da editora novatec é bom.. alguem ja leu ele....ou tem alguma indicacao de livro sobre o assunto
+[2016-08-31 15:10:58] o hacker expoded eu comprei gostei muito e o livro de hardware do morimoto é otimo
+[2016-08-31 15:47:52] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803730599_48152.jpg
+[2016-08-31 15:48:12] @mynameiserin esse screenshot é do kicad?
+[2016-08-31 15:48:20] si
+[2016-08-31 15:48:24] Este pad gigante aí em cima vai ser difícil de soldar. Tem versão nova no github
+[2016-08-31 15:48:37] https://pbs.twimg.com/media/CrJj2noXYAAfRCS.jpg:large
+[2016-08-31 15:48:42] esse screenshot é da vida real
+[2016-08-31 15:49:28] ehhe! legale! posso usar na divulgação do grupo de desenvolvimento de kicad? seria massa ter algo de gente do garoa
+[2016-08-31 15:49:33] sure
+[2016-08-31 15:49:38] https://github.com/Lana-chan/brochehacker
+[2016-08-31 15:49:39] Lana-chan | brochehacker
+
+Design de um broche animado com LEDs
+
+Language: KiCad
+Forks: 1
+Stars: 1
+Issues: 0
+[2016-08-31 15:50:03] BOOOA
+[2016-08-31 15:50:20] Aliás, a Erin poderia dar uma palestra ou oficina dos projetos dela na e-HAL, também, não está afim?
+[2016-08-31 15:50:28] afim? não
+[2016-08-31 15:50:29] ahahaha
+[2016-08-31 15:50:33] mas explica mais
+[2016-08-31 15:50:50] esse projeto foi meio que iniciativa do labhacker, onde eu trabalho
+[2016-08-31 15:51:04] na real do pedro, que agora tá em campanha pra vereador
+[2016-08-31 15:51:09] ele queria pra vestir nos eventos
+[2016-08-31 15:53:46] o que é e-hal?
+[2016-08-31 15:56:21] Encontro de Hardware Aberto e Livre...
+[2016-08-31 16:10:15] http://garoahackerclube.tumblr.com/image/117183309172
+[2016-08-31 16:11:16] outra plaquinha feita com kicad e renderizada em 3D
+[2016-08-31 16:47:32] http://www.e-hal.org.br/
+[2016-08-31 16:50:03] legal!
+[2016-08-31 16:50:12] essa img já ta upada no wiki?
+[2016-08-31 16:51:43] acho que não.
+[2016-08-31 16:51:48] eu só subi no tumblr
+[2016-08-31 16:51:57] na época em que eu tava querendo bombar o tumblr do garoa
+[2016-08-31 17:04:32] blz. posso subir?
+[2016-08-31 17:28:30] pode, claro
+[2016-08-31 17:34:08] Postei na lista de e-mails do garoa um link sobre concurso da fundação Oswaldo Cruz
+[2016-08-31 17:34:59] A maior parte das vagas é na área de saúde, mas tem algumas de eletrônica, biologia e matemática
+[2016-08-31 18:13:30] e o projeto, onde esta?
+[2016-08-31 18:14:01] hahaha
+[2016-08-31 18:14:02] HAHAHA
+[2016-08-31 18:14:31] na camada de silk
+[2016-08-31 18:14:37] :-P
+[2016-08-31 18:15:02] da, digo o arquivo kicad
+[2016-08-31 18:15:18] dã?
+[2016-08-31 18:15:30] na camada de silk tem uma URL para o arquivo kicad
+[2016-08-31 18:15:59] https://github.com/garoa/74595_LED_Controller
+[2016-08-31 18:16:01] garoa | 74595_LED_Controller
+
+A daisy-chainable 8 LED controller based on the 74595 shift-register IC.
+
+Language: Eagle
+Forks: 0
+Stars: 1
+Issues: 0
+[2016-08-31 18:16:43] o fdp do github acha que o projeto foi feito no Eagle! Que mancada!!!!
+[2016-08-31 18:20:12] COMEÇOU !!! Se inscrevam :-D
+[2016-08-31 18:20:14] https://www.youtube.com/watch?v=-m4haIh0Yrc

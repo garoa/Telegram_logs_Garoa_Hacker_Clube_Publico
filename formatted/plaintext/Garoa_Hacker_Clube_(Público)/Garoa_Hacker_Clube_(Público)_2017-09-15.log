@@ -1,0 +1,272 @@
+[2017-09-15 00:10:09] Galera
+[2017-09-15 00:10:23] Alguém sabe subir SSH para acesso externo com a merda da Net Virtua
+[2017-09-15 00:10:24] m
+[2017-09-15 00:10:25] ?
+[2017-09-15 00:12:42] conte me mais
+[2017-09-15 00:12:57] localmente voce esta acessando ?
+[2017-09-15 00:15:24] Sim
+[2017-09-15 00:15:38] Consigo acessar localmente
+[2017-09-15 00:15:46] Mas conexão remota não
+[2017-09-15 00:16:06] Dei um nmap no IP externo
+[2017-09-15 00:16:27] E as portas tavam closed ou filtered
+[2017-09-15 00:16:50] certo voce ja tentou atribuir outra porta no servico
+[2017-09-15 00:16:55] tipo 10022
+[2017-09-15 00:17:21] vou tentar
+[2017-09-15 00:17:24] no roteador abrir
+[2017-09-15 00:18:17] hmm entao tem um roteador depois do modem da net ?
+[2017-09-15 00:18:34] eu tenho um roteador wifi aqui em casa
+[2017-09-15 00:18:40] Archer C60
+[2017-09-15 00:20:41] já abri a porta nele
+[2017-09-15 00:21:17] certo se quiser posso dar o nmap daqui
+[2017-09-15 00:21:29] alterou a porta no serviço ?
+[2017-09-15 00:22:02] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_5035473632684408869.png
+[2017-09-15 00:22:21] boa
+[2017-09-15 00:22:28] fez o forwarding neh
+[2017-09-15 00:22:39] 201.6.235.158
+[2017-09-15 00:22:39] sim
+[2017-09-15 00:24:06] MacBook-Pro-de-Gilmar:~ gilmarleite$ nmap 201.6.235.158
+
+Starting Nmap 5.61TEST4 ( http://nmap.org ) at 2017-09-15 00:24 -03
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 3.11 seconds
+[2017-09-15 00:24:14] o ip ta certo ?
+[2017-09-15 00:24:26] sim
+[2017-09-15 00:24:38] curl ipinfo.io/ip
+[2017-09-15 00:24:40] vi assim
+[2017-09-15 00:27:36] eu vou botar 22 externa
+[2017-09-15 00:30:51] nem assim
+[2017-09-15 00:30:55] o ip não pinga
+[2017-09-15 00:31:34] sim aqui tbm nao
+[2017-09-15 00:31:43] que caçamba
+[2017-09-15 00:31:49] esta conectado essa maquina ?
+[2017-09-15 00:31:55] o curl pode ser cache
+[2017-09-15 00:32:01] tenta outra url
+[2017-09-15 00:33:25] faz isso para testar
+[2017-09-15 00:33:27] curl -o /dev/null http://speedtest.wdc01.softlayer.com/downloads/test500.zip
+[2017-09-15 00:33:52] tá conectando
+[2017-09-15 00:34:00] eu já conectei em um amigo meu tbm
+[2017-09-15 00:34:33] eu tenho acesso a ssh de fora tbm
+[2017-09-15 00:34:38] voce conseguiu sair ?
+[2017-09-15 00:34:39] e consigo acessar
+[2017-09-15 00:34:49] dei ctrl+c
+[2017-09-15 00:34:59] nao
+[2017-09-15 00:35:09] voce conseguiu fazer uma conexao para fora da sua rede
+[2017-09-15 00:35:12] certo ?
+[2017-09-15 00:35:14] eu consigo acessar o ssh da usp e tal
+[2017-09-15 00:35:15] sim
+[2017-09-15 00:35:40] blz deve ter algum regra de input no seu roteador entao
+[2017-09-15 00:35:56] cara
+[2017-09-15 00:36:05] se eu conectar direto no modem
+[2017-09-15 00:36:08] não dá tbm
+[2017-09-15 00:36:18] o cabo de rede
+[2017-09-15 00:36:49] vixi
+[2017-09-15 00:37:03] o ip é dinâmico e eu to com noip tbm
+[2017-09-15 00:37:31] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_268044605386129530.webp
+[2017-09-15 00:38:34] voce consegue conectar direto entao alterar a porta do serviço
+[2017-09-15 00:38:44] ou ja fez isso ?
+[2017-09-15 00:39:05] porque normalmente essas operadoras bloqueiam a porta especifica
+[2017-09-15 00:40:50] como assi?
+[2017-09-15 00:41:02] não sei fazer isso
+[2017-09-15 00:41:12] certo vamos la
+[2017-09-15 00:41:34] primeiro altera a porta do servico de ssh para 10022
+[2017-09-15 00:41:47] voce ta usando openssh ?
+[2017-09-15 00:42:47] sim
+[2017-09-15 00:43:02] no /etc/ssh/sshd
+[2017-09-15 00:43:03] né?
+[2017-09-15 00:43:14] isso
+[2017-09-15 00:43:20] que linux voce ta usando ?
+[2017-09-15 00:44:12] debian
+[2017-09-15 00:44:52] eu mudei aqui para 10022
+[2017-09-15 00:45:09] fechou da um restart no servico
+[2017-09-15 00:47:37] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_5035473632684408870.png
+[2017-09-15 00:48:19] eu fiz assim
+[2017-09-15 00:48:35] vou tentar conectar do servidor externo
+[2017-09-15 00:49:13] calma
+[2017-09-15 00:49:30] agora conecta direto o modem da net no debian
+[2017-09-15 00:49:48] sem o roteador
+[2017-09-15 00:49:48] ok
+[2017-09-15 00:49:55] vou tirar o router
+[2017-09-15 00:50:03] e vou dar restart no sshd
+[2017-09-15 00:50:12] isso
+[2017-09-15 00:51:01] pronto
+[2017-09-15 00:51:07] dou curl no ip?
+[2017-09-15 00:51:12] não muda né?
+[2017-09-15 00:51:39] se for dinamico muda sim
+[2017-09-15 00:51:44] pode dar
+[2017-09-15 00:51:52] mudou
+[2017-09-15 00:51:53] 201.6.135.184
+[2017-09-15 00:51:56] vou ver aqui
+[2017-09-15 00:52:34] ssh -p 10022 né?
+[2017-09-15 00:53:13] Gilmar nada...
+[2017-09-15 00:54:59] que debian voce ta usando ?
+[2017-09-15 00:55:05] versao ?
+[2017-09-15 00:55:32] 9
+[2017-09-15 00:55:37] eu pinguei o ip
+[2017-09-15 00:55:39] deu bosta
+[2017-09-15 00:55:44] é a NET
+[2017-09-15 00:56:26] voltei pro roteador
+[2017-09-15 00:56:30] iptables -L
+[2017-09-15 00:56:32] no debian
+[2017-09-15 00:56:52] eu não tenho nem o iptables baixado
+[2017-09-15 00:56:53] hahahaha
+[2017-09-15 00:57:49] merda da net
+[2017-09-15 00:58:00] eu costumava subir coisas com ngrok
+[2017-09-15 00:58:08] porém não tenho scp com ele nem sftp
+[2017-09-15 00:58:11] aí é osso
+[2017-09-15 00:58:50] ta muito estranho isso eu to achando que eh o debian que pode estar com um firewall interno ativado
+[2017-09-15 00:59:02] não tem cara
+[2017-09-15 00:59:05] é a net
+[2017-09-15 00:59:10] mas localmente voce conecta neh
+[2017-09-15 00:59:10] tipo
+[2017-09-15 00:59:14] sim
+[2017-09-15 00:59:15] pode cre
+[2017-09-15 00:59:17] olha isso aqui
+[2017-09-15 00:59:46] já te mando o output aqui
+[2017-09-15 01:00:24] me falara queeu preciso fazer um ssh reverso com NAT
+[2017-09-15 01:00:27] mas sei lá
+[2017-09-15 01:00:30] sou noob hahaha
+[2017-09-15 01:01:05] estranho nao precisa disso nao
+[2017-09-15 01:01:22] ssh sobe o servico eh disponibiliza
+[2017-09-15 01:02:02] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_5035473632684408871.png
+[2017-09-15 01:02:16] me falaram que para NET tem que ser assim
+[2017-09-15 01:09:08] mas não manjo
+[2017-09-15 01:09:27] valeu Gilmar 👍
+[2017-09-15 01:09:42] foi nada.
+[2017-09-15 01:10:01] quer tentar algo remoto ?
+[2017-09-15 01:10:14] tipo teamviewer
+[2017-09-15 01:10:27] não quero teamviewer não hahah
+[2017-09-15 01:10:43] fechou boa sorte
+[2017-09-15 01:10:46] mas você diz de tentar teamviewer?
+[2017-09-15 01:10:57] acho que vai funcionar
+[2017-09-15 01:11:11] sim ai posso olhar melhor
+[2017-09-15 01:11:32] ah
+[2017-09-15 01:11:34] saquei
+[2017-09-15 06:19:33] Bom dia pessoal! Tem uns caras me ameaçando e fazendo exposed...  Se alguém aqui souber uma maneira de para-los ou mesmo de combater esse mal, por favor me chama no pv
+[2017-09-15 07:37:03] Se vocês tivessem tido essa conversa de roteador, ssh e debian a umas 3 semanas atrás, eu teria quebrado menos a cabeça ahahhaa
+[2017-09-15 07:48:14] Esses caras lammer e idiota que só sabe exposed?
+[2017-09-15 07:48:24] Bem, ignora eles
+[2017-09-15 07:50:21] https://twitter.com/GeneticJen/status/908582826236407808
+[2017-09-15 10:07:43] https://wiki.codingrights.org/pls/radar/2017/09/semanaii
+ PL novo que:
+- proíbe bot na compra de ingressos pela Internet
+- criminaliza discurso de ódio na Internet (e provedores de conteúdo entram nessa)
+- trata da "herança digital" de mortos
+- regulamenta a profissão de blogueira
+- permite petição/recurso por email
+- cria auditoria e controle social através de grupos de whatsapp
+- proibe fake news
+(até o momento não passa, não cozinha nem lava a roupa)
+[2017-09-15 10:09:13] Hahahahahaha
+[2017-09-15 10:11:00] Por acaso o modem da net esta entregando IP publico para o Debian ou ele entrega IP privado? Se for privado vc esta tentando fazer NAT sobre NAT, e isso pode causar esse tipo de comportamento.
+[2017-09-15 10:12:06] Para sanar isso, você precisa publicar a porta 10022 com um direcionamento para a 22 do Debian direto no modem da NET, e deixa o Debian conectado direto por ele. (Mas isso só se o modem entregar IP privado)
+[2017-09-15 10:15:59] Não sei ver isso
+[2017-09-15 10:16:27] Acho que não entrega IP privado não, o IP é dinâmico
+[2017-09-15 10:17:28] Eu tô chegando no trampo
+[2017-09-15 10:17:34] Mais tarde em casa vejo isso
+[2017-09-15 10:17:39] IP privado são IPs nas faixas: 10.0.0.0/8, 172.16.0.0/16 e 192.168.x.0/24.
+[2017-09-15 10:21:19] Pluga o Debian no modem direto no console da um "ip a", se ele atribuir um ip diferente dessa faixa que o fernando falou é publico
+[2017-09-15 10:22:07] É público
+[2017-09-15 10:22:22] Era numa faixa diferente, lembra ontem?
+[2017-09-15 10:22:36] Daria para fazer um seriado interminável contando as histórias de projetos de lei sem noção e sem futuro de deputados
+[2017-09-15 10:23:34] 201.6.135.184
+[2017-09-15 10:23:38] O ip externo
+[2017-09-15 10:23:47] O problema é que entraria na categoria humor e concorreria com monty python
+[2017-09-15 10:24:15] A maioria das propostas de lei viola a constituição, é impossível implementar, anti ética, etc
+[2017-09-15 10:24:58] Voce viu isso no console ou consumindo um site que fala seu IP ?
+[2017-09-15 10:25:47] Pode ser várias categorias - humor negro, filme noir, drama, comédia
+[2017-09-15 10:25:49] impossível implementar é algo questionável... tá punk
+[2017-09-15 10:26:04] Loga no Debian e manda pra gente o resultado do comando ifconfig
+[2017-09-15 10:26:30] é, "impossível" está ficando arriscado dizer
+[2017-09-15 10:26:52] Não sei se comentei com vocês, nosso lindo governo estava propondo a criação do Conselho de Governaça da Internet (CGI) para substituir o Comitê Gestor da Internet (CGI). https://porta23.blogosfera.uol.com.br/2017/09/14/mesa-da-camara-rejeita-projeto-que-tenta-mudar-o-comite-gestor-da-internet/?cmpid=copiaecola coisa linda de se ver
+[2017-09-15 10:27:03] ip addr,
+[2017-09-15 10:27:30] Consumindo site que vê o ip
+[2017-09-15 10:27:53] Mais de noite eu vejo, eu tô no trabalho agora
+[2017-09-15 10:28:28] Esse sempre vai te dar o ip externo, que pode/deve ser do modem. Para ver o IP da sua máquina tem que usar o comando que passei.
+[2017-09-15 10:28:58] exatamente
+[2017-09-15 10:29:35] NET + SSH = NOVELA
+[2017-09-15 10:35:06] As vezes não viu, teve casos que nem precisei mudar a porta 22, só fiz a publicação e rolou de boa. O que eu também faço geralmente é deixar o modem em bridge, pq prefiro o meu roteador fazendo NAT e Wi-Fi.
+[2017-09-15 10:36:28] E se quiser ser muito feliz, cria uma máquina rodando openvpn-as e conecta via VPN. Geralmente essa porta a NET não filtra/bloqueia.
+[2017-09-15 10:38:32] aqui tambem sempre foi liso nao tem nenhum bloqueio o modem serve ip publico
+[2017-09-15 10:39:21] pode ser que esse modem dele ta como router
+[2017-09-15 10:40:06] Se estiver do jeito padrão que a NET entrega, tenho 99% de certeza que sim...
+[2017-09-15 10:40:15] Ainda está.
+[2017-09-15 10:41:02] Ishar Singh joined
+[2017-09-15 10:41:02] Hi He protect but he also attac !
+[2017-09-15 10:41:42] O meu é antigo pode ser que no modelo novo eles fazem isso por facilitar para o usuario
+[2017-09-15 10:56:01] Galera, qual é um serviço de VPN
+[2017-09-15 10:56:08] com um bom custo benefício?
+[2017-09-15 10:56:10] haha
+[2017-09-15 10:56:17] tunnel bear?
+[2017-09-15 11:05:46] PIA - https://privateinternetaccess.com/
+[2017-09-15 11:08:24] É o que vou assinar
+[2017-09-15 11:09:50] tem limite de banda consumida e pode usar ssh ?
+[2017-09-15 11:10:23] Não.
+[2017-09-15 11:11:40] show
+[2017-09-15 11:13:57] Digital Ocean + OpenVPN
+[2017-09-15 11:14:02] Unica que confio
+[2017-09-15 11:14:19] por que?
+[2017-09-15 11:14:41] Porque Eu controlo o Server
+[2017-09-15 11:14:51] Se for comprometido, minha culpa
+[2017-09-15 11:15:00] Eu escolho se guardo log ou não
+[2017-09-15 11:15:11] ahh sim
+[2017-09-15 11:15:11] se dá um ou doi pulos ou se não dar nenhum
+[2017-09-15 11:17:42] Inclusive essa é a solução que uso quando estou em algum hotel, mas uso um RPi como router, ela fecha a VPN e aí conecto os meus devices nele, fica tudo tunelado. Só não testei ainda fechar um IPSec entre os devices e ele tb.
+[2017-09-15 11:20:10] Tem um site que faz comparação de serviços de VPN e e-mail
+[2017-09-15 11:23:41] Se tiver alguém da região de Jundiaí, estamos montando um GruPy na cidade: https://t.me/grupy_jundiai
+[2017-09-15 11:32:11] Tava pensando no NordVPN
+[2017-09-15 11:58:41] Ulisses Athanasio joined
+[2017-09-15 11:58:41] Hi Ulisses !
+[2017-09-15 12:10:40] Mas esse digital ocean é vps não?
+[2017-09-15 12:12:26] sim
+[2017-09-15 12:12:35] Onde vai ser instalado
+[2017-09-15 12:12:39] mas vc tem acesso SSH e pode instalar o que quiser
+[2017-09-15 12:14:58] VPS. Eu uso e recomendo
+[2017-09-15 12:16:53] Claro, é uma das melhores soluçoes de praticidade e segurança, eu tava avaliando aqui a questão do custo.
+[2017-09-15 12:21:14] 5,00 USD
+[2017-09-15 12:51:25] Qual serviço?
+[2017-09-15 13:03:48] É para subir uma db em postgre
+[2017-09-15 13:04:11] Desejo sorte e paciência
+[2017-09-15 13:05:00] Ops não. O VPN não é para isso hahahahaha
+[2017-09-15 13:05:16] O VPN é para rodar scraper
+[2017-09-15 13:26:04] Rt
+[2017-09-15 13:30:50] o garoa tem aterramento nas tomadas?
+[2017-09-15 13:52:38] Acredito que não
+[2017-09-15 13:53:54] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804728351_2763.jpg
+[2017-09-15 13:55:10] kkk, essa foi boa,
+[2017-09-15 13:55:30] IoT para monitorar tempo de uso do chuveiro e quanto foi gasto com ele,rs,
+[2017-09-15 14:03:47] Parece seguro:
+[2017-09-15 14:03:48] https://rideapart.com/articles/russians-build-flying-motorcycle
+[2017-09-15 15:17:58] Real
+[2017-09-15 15:20:30] Só proposta sensata e inteligente. #SQN heheheheheheh
+[2017-09-15 15:22:15] William added Ariel (@Aesc1996)
+[2017-09-15 15:22:16] Hi Ariel (@Aesc1996) !
+[2017-09-15 15:47:25] init 1
+[2017-09-15 16:05:52] Pessoal, boa tarde..
+[2017-09-15 16:05:58] Olá
+[2017-09-15 16:06:23] Alguém pode me ajudar com uma dúvida de programação?
+[2017-09-15 16:06:25] boa tarde
+[2017-09-15 16:06:33] Claro diga
+[2017-09-15 16:08:06] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_5035371747470213151.png
+[2017-09-15 16:09:09] É só pq eles são instanciados de maneira diferente?
+[2017-09-15 16:09:16] https://stackoverflow.com/questions/7520432/what-is-the-difference-between-vs-equals-in-java
+[2017-09-15 16:09:22] Pode perceber a diferença aqui.
+[2017-09-15 16:09:46] Eu não manjo muito de Java
+[2017-09-15 16:09:57] Só de C++, Bash
+[2017-09-15 16:10:59] Muito obrigado!
+[2017-09-15 16:11:10] Bash?
+[2017-09-15 16:11:16] Sim.
+[2017-09-15 16:11:22] Bash é o terminal?
+[2017-09-15 16:11:45] é Bash ou Hash?
+[2017-09-15 16:11:48] ah, ..
+[2017-09-15 16:11:48] Falando da Bash
+[2017-09-15 16:11:54] Linguagem De Programação
+[2017-09-15 16:12:34] Entendi..
+[2017-09-15 17:51:35] Vagas para desenvolvedor backend #JavaScript em #SãoPaulo #SP, Níveis #Jr #Pleno #Senior
+Requisitos: Conhecimentos em JavaScript e controle de versão Git
+Diferenciais: Conhecimentos em NodeJS e interesse por soluções voltadas a Machine Learning/ IA
+Contratação PJ e apenas presencial
+Entrar em contato comigo em amirelemam@gmail.com
+[2017-09-15 22:05:03] Estou fazendo a festinha de aniversário amanhã no garoa, convidei colegas, vou trazer umas comidinhas, etc e tal, estão todos convidados
+[2017-09-15 22:05:50] 19h
+[2017-09-15 22:10:44] 👍🏽
+[2017-09-15 22:18:21] Semna passada eu passei na porta mas ja eram umas 21:00 acabei nem parando

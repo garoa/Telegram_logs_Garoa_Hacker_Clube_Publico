@@ -1,0 +1,38 @@
+[2017-08-17 09:42:52] Group "GT-Anti-Blobs" created
+[2017-08-17 09:43:25] Felipe "Juca" Sanches: Membros iniciais nesse grupo: Kretcheu, Madruga e Edu Filipe
+[2017-08-17 09:43:35] Felipe "Juca" Sanches: e eu (Felipe "Juca" Sanches)
+[2017-08-17 09:43:52] Felipe "Juca" Sanches: Essa é a lista: https://libreplanet.org/wiki/LinuxLibre:Devices_that_require_non-free_firmware
+[2017-08-17 09:45:31] Felipe "Juca" Sanches: A tabela é meio enfadonha de editar. As datas e versões do kernel eu editei algoritmicamente
+[2017-08-17 09:46:46] Felipe "Juca" Sanches: escrevi um script para fazer o parsing do wiki-code, pegar o nome do driver, baixar o HTML de duas páginas que têm essas infos de data de cada release do Linux, fazer o parsing dos HTML pra extrair as infor, enxertar no wiki-code e salvar num arquivo de output que eu copiei e colei de volta pro wiki
+[2017-08-17 09:47:44] Felipe "Juca" Sanches: acho que seria o caso de ter esses dados todos armazenados em JSON em um repositório git junto com ferramentas para gerenciar os dados, assim como para gerar visualizações
+[2017-08-17 09:47:55] Felipe "Juca" Sanches: mas por enquanto o que a gente tem é o wiki mesmo
+[2017-08-17 09:48:13] Felipe "Juca" Sanches: Pensei em adicionar mais campos nessa tabela
+[2017-08-17 09:48:22] Felipe "Juca" Sanches: hoje ela nos mostra as seguintes informações:
+[2017-08-17 09:48:27] Felipe "Juca" Sanches: Nome do driver
+[2017-08-17 09:48:47] Felipe "Juca" Sanches: em qual modelo de CPU o firmware roda
+[2017-08-17 09:49:07] Felipe "Juca" Sanches: qual foi a primeira versão do kernel contendo um driver para o dispositivo
+[2017-08-17 09:49:17] Felipe "Juca" Sanches: qual foi a data de release desse primeiro driver
+[2017-08-17 09:49:52] Felipe "Juca" Sanches: qual a relevância desse dispositivo (aqui podem entrar observações, evidências de popularidade, algum uso importante, notório do dispositivo, etc)
+[2017-08-17 09:50:14] Felipe "Juca" Sanches: quais são os termos de licenciamento do firmware (vou falar mais sobre esse campo depois)
+[2017-08-17 09:51:14] Felipe "Juca" Sanches: e a descrição do driver (essa é a string de descrição oferecida no log de deblobbing do Linux-Libre que, por sua vez, provavelmente vem da descrição escrita pelo próprio autor do driver no kernel)
+[2017-08-17 09:52:08] Felipe "Juca" Sanches: Os campos atualmente incompletos nessa tabela são: CPU, relevância e status legal/licenciamento
+[2017-08-17 09:53:00] Felipe "Juca" Sanches: Descobrir qual é a CPU de um dispositivo não é trivial, então esse campo vai muito provavelmente continuar incompleto pra sempre. Gradualmente podemos ir anotando o que formos descobrindo.
+[2017-08-17 09:53:25] Felipe "Juca" Sanches: Mas é importante lembrar que sem saber qual é a CPU, é absolutamente impossível escrever um novo firmware para o dispositivo.
+[2017-08-17 09:55:54] Felipe "Juca" Sanches: Às vezes constam no driver comentários sobre a arquitetura do hardware. Às vezes podemos inferir por meio do algorítmo de carga de firmware implementado no hardware qual é a CPU do dispositivo (cruzando com informações de datasheets, foi isso que eu fiz no caso dos EzUSB dessa lista). E às vezes uma análise do binário do firmware pode prover evidências de qual arquitetura de CPU foi usada (dá pra fazer isso, por exemplo, com binários compilados para processadores ARM - há um padrão numérico bem evidente, posso explicar em mais detalhes esse exemplo depois se quiserem)
+[2017-08-17 09:56:51] Felipe "Juca" Sanches: A coluna "relevância" também será preenchida gradativamente, com base em pesquisas online e coleta de relatos de usuários.
+[2017-08-17 09:57:39] Felipe "Juca" Sanches: Talvez caiba aqui uma pesquisa de popularidade desses dispositivos. Essa é uma parte importante para vocês me ajudarem a planejar/executar.
+[2017-08-17 09:58:09] Felipe "Juca" Sanches: (tudo é importante, na real ! Mas acho que o campo "relevância" é muito estratégico, então vale uma atenção maior)
+[2017-08-17 10:00:43] Felipe "Juca" Sanches: Por fim, temos a coluna de "status legal / licenciamento do firmware". A lógica por trás da coleta desse tipo de info é que em alguns casos os fabricantes se acharam espertinhos aplicando a licença GPLv2 nos blobs para mascarar o fato de não serem software livre. Mas o tiro saiu pela culatra pra eles, pois para firmwares não livres licenciados sob GPLv2 podemos fazer um disassembly e o código resultante pode servir de base para iniciar um projeto de firmware livre (depois de umas boas massagens, é claro)
+[2017-08-17 10:03:17] Felipe "Juca" Sanches: Pensei também em adicionar mais colunas nessa tabela como, por exemplo, informações sobre "onde comprar" listando links para lojas online onde produtos que dependam do firmware não livre em questão possa ser comprado. O objetivo não é induzir a compra. Pelo contrário, seria para servir de maior evidência sobre a relevância do dispositivo. E também para evitar trabalho à toa: Se é impossível de comprar, então por que gastaríamos neurônios tentando dar suporte ?
+[2017-08-17 10:04:37] Felipe "Juca" Sanches: Uma última observação inicial: A funcionalidade de ordenação da tabela no wiki da LibrePlanet parece estar com problemas de lidar com essa tabelona que eu fiz. Não estou conseguindo ordenar por data de release do primeiro driver, o que seria extremamente importante para visualizar as informações.
+[2017-08-17 10:04:59] Felipe "Juca" Sanches: Bom, é isso aí! Está enunciado o desafio :-D Happy Hacking!
+[2017-08-17 11:07:44] Felipe "Juca" Sanches added Raphael Thaumaturgo Molnar
+[2017-08-17 11:43:13] kretcheu ☭ added Alexsandro Carvalho
+[2017-08-17 11:51:44] Alexsandro Carvalho (in reply to Felipe "Juca" Sanches): Pode fazer um script que busca no stack overflow e nos sites de suporte das sistros por perguntas sobre o hardware. Considerando que muitas perguntas maior  interesse
+[2017-08-17 11:56:43] Felipe "Juca" Sanches: boa!
+[2017-08-17 11:57:30] Felipe "Juca" Sanches: Seria um crawler. Você quer tentar escrever um script desses ?
+[2017-08-17 11:58:04] Felipe "Juca" Sanches: ou talvez simplesmente consultar os resultados de busca do próprio Google
+[2017-08-17 11:59:02] Alexsandro Carvalho (in reply to Felipe "Juca" Sanches): Google serve
+[2017-08-17 12:17:05] Felipe "Juca" Sanches: vou abrir um repo no gitlab pra botar scripts auxiliares
+[2017-08-17 12:26:05] Felipe "Juca" Sanches: https://gitlab.com/fsanches/Anti-Blobs
+[2017-08-17 16:05:54] Felipe "Juca" Sanches (in reply to Felipe "Juca" Sanches): Nesse repo eu coloquei o script que escrevi ontem para automaticamente alimentar as colunas "data" e "versão" da introdução de novos drivers no kernel

@@ -1,0 +1,282 @@
+[2017-03-16 00:12:44] armengue é como o baiano diz "gambiarra"?
+[2017-03-16 00:16:42] (Regionalismo - Bahia⚠) Algo ou alguém feio, mal arranjado. Esse armengue que saiu veio quando abriram a porta do cemitério!
+armengue - Wikcionário
+https://pt.wiktionary.org/wiki/armengue
+[2017-03-16 00:21:05] Alan joined
+[2017-03-16 00:21:06] Hi Alan !
+[2017-03-16 00:25:48] GnuTrisquel joined
+[2017-03-16 00:25:49] Hi TrisquelLinux !
+[2017-03-16 00:30:38] é iuri
+[2017-03-16 00:30:47] e parou de funciona depois de um reboot :P
+[2017-03-16 00:48:14] é muito merda tentar manter um servidor com um raspi com um hd's externos ligados?
+[2017-03-16 00:48:24] é melhor para isso utilizar um hub usb energizado?
+[2017-03-16 00:48:45] o hd externo está sendo alimentado pelo raspi?
+[2017-03-16 00:49:13] se funciona funciona, o único problema é a alimentação ser insuficiente, que é o problema, e o hd desliga no meio de uma operação
+[2017-03-16 00:49:33] é
+[2017-03-16 00:49:43] melhor usar um hub energizado
+[2017-03-16 00:50:14] Eu sei acessar o meu raspi via ngrok, porém eu queria saber setar um servidor de sshd via meu ip
+[2017-03-16 00:50:22] Tem algum tutorial para isso?
+[2017-03-16 00:50:28] Muito obrigado Erin!
+[2017-03-16 02:20:43] https://en.wikipedia.org/wiki/Intel_80386EX
+[2017-03-16 02:21:13] Used aboard several orbiting satellites and microsatellites; Used in NASA's FlightLinux project.
+[2017-03-16 02:35:30] lançamento da SpaceX agora AOVIVO: http://www.spacex.com/webcast
+[2017-03-16 02:37:03] A pior parte de ver esses lançamentos é saber que não existe código nem hardware meu nesses foguetes :(
+[2017-03-16 02:38:59] :-)
+[2017-03-16 02:39:24] E nem terá, dado que você (presumo) não é cidadão estadunidense
+[2017-03-16 02:40:02] foguete é tratado como tecnologia de (potencial) uso militar e, portanto, só cidadãos do país podem trabalhar em projetos de foguetes
+[2017-03-16 02:40:26] um detalhe importante sobre o lançamento de hoje é que não haverá pouso
+[2017-03-16 02:40:35] vão voar sem as pernas
+[2017-03-16 02:41:01] por que a carga é pesada demais e o perfil de vôo demanda uso de todo o combustível
+[2017-03-16 02:41:29] Eu sei disso, só cidadão americano consegue clearance para trabalhar com isso.
+[2017-03-16 02:41:50] MAS... o vôo seguinte, daqui uns 15 dias, será histórico: https://garoa.net.br/wiki/Foguetes#2017.2F03.2F27:_SpaceX_.E2.80.A2_Falcon_9_.E2.80.A2_PRIMEIRO_REUSO.21
+[2017-03-16 02:42:01] Fiquei sabendo disso pela pior pessoa possível, a mulher do RH UAHUAUHAHUAUAAHUUHA
+[2017-03-16 02:42:18] putz
+[2017-03-16 02:42:29] começou o stream, galera
+[2017-03-16 02:42:30] té mais
+[2017-03-16 03:23:17] Foto em longa-exposição do lançamento de hoje: http://i.imgur.com/IGlBYaC.jpg
+[2017-03-16 03:25:26] Mais info sobre essa foto aqui: https://www.reddit.com/r/spacex/comments/5zoxv7/long_exposure_photograph_i_took_from_satellite/
+[2017-03-16 03:27:10] wow q lindo, fenomenal, belo wallpaper
+[2017-03-16 03:27:39] mudando um pouco de assunto, o gitter foi vendido http://venturebeat.com/2017/03/15/gitlab-acquires-software-chat-startup-gitter-will-open-source-the-code/
+[2017-03-16 03:41:38] se for disco alimentado pelo usb do raspberry, ele aguenta, mas a vida útil será curtíssima. é muito melhor usar o hub energizado. melhor ainda era que cada disco tivesse sua fonte de alimentação, que é o normal. esses discos com alimentação por usb são ruins por definição. pior ainda são os que usam um cabo só.
+[2017-03-16 03:42:11] o hub precisa aguentar 1A pra cada disco de 2.5
+[2017-03-16 03:42:45] e as portas de energia têm que suportar 1A também
+[2017-03-16 03:44:07] disco de 3.5 pode ser 1A também, mas melhor seria se a alimentação fosse de 12V, aí ele consome só 500mA
+[2017-03-16 03:46:24] ssd quer mais corrente, é recomendado 1A
+[2017-03-16 03:46:56] no caso precisa garantir que a porta suporte mais que 1A se for botar ssd
+[2017-03-16 06:38:24] Interessante, sempre considerei que o consumo do SSD fosse menor que o do HD...
+[2017-03-16 06:54:08] Como pensei, é loucura fazer servidor com HD externo de cabo USB por causa de mal contato e tal tbm
+[2017-03-16 06:56:56] produto.mercadolivre.com.br/MLB-743738992-dock-station-p-2-hd-sata-25-e-35-c-boto-clone-ate-6-tb-_JM o ideal é algo desse tipo né
+[2017-03-16 06:57:18] Valeu @desci42 !
+[2017-03-16 07:23:28] Gil Sousa joined
+[2017-03-16 07:23:30] Hi Gil !
+[2017-03-16 08:59:25] Build a talking, face-recognizing doorbell for about $100 ~ Stephen Downes
+http://www.downes.ca/cgi-bin/page.cgi?post=66492
+[2017-03-16 09:02:09] No Arduino Day vão haver atividades em todos os 12 fablab livre
+[2017-03-16 09:02:45] Pessoal, uma dúvida. Vi na internet (Mercado Livre, principalmente) que o preço do Arduino Nano está entre 15 e 20 reais. Sabem se na Santa Ifigênia eu consigo achar por esse preço? Na Multicomercial parece que estão cobrando reais!
+[2017-03-16 09:02:56] 45
+[2017-03-16 09:03:17] Não.
+[2017-03-16 09:03:56] Só no ML mesmo então
+[2017-03-16 09:04:14] /help@jackbot
+[2017-03-16 09:04:15] Message me first so i can message you !
+[2017-03-16 09:04:15] /help@jackbot
+[2017-03-16 09:04:15] /help@jackbot
+[2017-03-16 09:04:16] Message me first so i can message you !
+[2017-03-16 09:04:17] Message me first so i can message you !
+[2017-03-16 09:04:19] No MercadoLivre acho que nao pagam aluguel e funcionarios
+[2017-03-16 09:12:59] Na Santa muito lugar não paga imposto, não assina carteira de funcionário etc.
+[2017-03-16 09:15:10] Alguém tem um tutorial para subir um server sshd com o raspberry pi e disponibilizar seu acesso via ssh?
+[2017-03-16 09:15:22] Eu só estou conseguindo fazer isso usando ngrok
+[2017-03-16 09:19:54] Embaçado
+[2017-03-16 09:23:03] Eletrônica embaçada ? :-P
+[2017-03-16 09:26:14] Embaçado não assinarem a carteira, sonegar imposto, etc
+[2017-03-16 09:27:26] Sim, eu sei. Só fiz um trocadilho com "eletrônica embarcada". Eu também acho muito zoado isso tudo.
+[2017-03-16 10:22:29] Galera, um help básico aqui...
+[2017-03-16 10:23:34] Quero fazer um somase no OfficeLibre. Pegar uma tabela e trazer a soma de valores para variáveis que mudam (montar um centro de custos)....
+[2017-03-16 10:23:47] Alguém aí pratica isso no cotidiano?
+[2017-03-16 10:56:08] Cara, na Multi é tudo msis caro, no ML tem mais em conta mas tem que tomar cuidado com o vendedor, só prestar atenção na reputação do vendedor.
+[2017-03-16 10:58:18] Valeu Sergio!
+[2017-03-16 11:19:01] Imposto é roubo, sonegar é legítima defesa 🐍
+[2017-03-16 11:19:20] aff
+[2017-03-16 11:22:01] http://www.techtudo.com.br/noticias/noticia/2017/03/whatsapp-web-e-telegram-tem-falha-de-seguranca-no-navegador-entenda.html
+[2017-03-16 11:22:27] Com uma simples esteganografia, conseguiram burlar a segurança do wpp e telegram web
+[2017-03-16 11:34:18] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_675652270385267261.webp
+[2017-03-16 11:35:16] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_675652270385267258.webp
+[2017-03-16 11:37:38] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_712233365838759565.webp
+[2017-03-16 11:48:26] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803111959_38182.jpg
+[2017-03-16 11:55:25] ryzen ta crashando com instruções FMA3 :O http://forum.hwbot.org/showthread.php?t=167605
+[2017-03-16 11:58:27] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_826459275206328386.webp
+[2017-03-16 12:19:28] anacaps haha
+[2017-03-16 12:23:48] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_272479773299572990.webp
+[2017-03-16 12:31:38] ZX Spectrum Clone com carcaça impressa em 3D
+http://www.vintageisthenewold.com/building-zx-spectrum-clone-harlequin-part-1/
+[2017-03-16 12:34:57] Grupo de estudos de Arduíno/eletrônica está se encontrando no fablab Galeria Olido, quinta à tarde
+[2017-03-16 12:35:10] Vou passar lá hoje
+[2017-03-16 12:36:31] Everywhere
+[2017-03-16 12:59:30] 😍
+[2017-03-16 13:16:31] Que horas?
+[2017-03-16 13:18:05] @tilt4 ou outros que usam essas paradas makers, estou querendo me livrar da fita crepe para imprimir, estou pensando em comprar um desses spray adesivos, sera que funciona com pla, sem mesa aquecida?
+[2017-03-16 13:18:41] a mesa eh de aluminio pintado meio aspero, nao sei descrever bem...
+[2017-03-16 13:31:03] A mendo joined
+[2017-03-16 13:31:03] Hi A !
+[2017-03-16 13:34:25] Alguém já comprou no site da Mouser?
+[2017-03-16 13:41:51] Sim
+[2017-03-16 13:41:57] Alguém já comprou.
+[2017-03-16 13:46:01] Show! Harlequin + case 3D...
+[2017-03-16 13:52:13] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_246108729936707762.webp
+[2017-03-16 13:56:27] Spray Karina extra forte funciona bem cmg 20h+ impressão é nao solta, mas tu tem que ta o First layer filé, pq a vantagem da crepe azul é que se o First layer tiver tronxo a fita compensa
+[2017-03-16 13:56:46] @eduoda
+[2017-03-16 13:57:19] #só-que-não
+[2017-03-16 13:57:37] Nunca usei mesa fosca seria bom meter um espelho ou vidro
+[2017-03-16 14:03:40] #suaopinião
+[2017-03-16 14:04:06] Valeu. Achei que nunca tivessem vendido nada
+[2017-03-16 14:04:34] Hahaha. Sempre à disposição.
+[2017-03-16 14:04:53] Sendo mais generoso, eu já comprei diversas vezes na Mouser, são excelentes. Alguma dúvida mais prática?
+[2017-03-16 14:05:32] Trivia: a Mouser é do Warren-Buffer (mais precisamente, da Berkshire Hathaway).
+[2017-03-16 14:05:37] Warren Buffet
+[2017-03-16 14:05:39] Não é exatamente uma questão de opinião. É o arcabouço jurídico sob o qual vivemos no Brasil e na maioria dos países.
+[2017-03-16 14:05:59] 😂
+[2017-03-16 14:05:59] Nunca comprei lá. Eles sempre enviam do EUA eu tem estoque no Brasil?
+[2017-03-16 14:06:20] Sempre dos EUA
+[2017-03-16 14:06:30] Queria me iludir assim, não consigo
+[2017-03-16 14:07:03] Logo, sujeito a customs.
+[2017-03-16 14:08:02] Sim, e como eles não mandam pelo correio, não tem margem.
+[2017-03-16 14:10:19] O que você quer comprar lá?
+[2017-03-16 14:14:37] Putz
+[2017-03-16 14:16:14] Uns COBs da Cree (3590), drivers
+[2017-03-16 14:16:29] E uns acessórios, conectores solderless, etc
+[2017-03-16 14:16:45] Ali express
+[2017-03-16 14:16:50] Ou Opoen
+[2017-03-16 14:17:27] Assim, claro que você pode comprar dos EUA, mas se quer evitar impostos ou já te-los resolvidos, são essas as opções
+[2017-03-16 14:17:40] (alem de outra lojas de LED... essa nao é muito a minha)
+[2017-03-16 14:19:04] Emaranhados jurídicos impostos sob monopólio da força são capazes de legitimar as mais diversas práticas imorais e anti-éticas, da escravatura ao apartheid, dos gulags aos campos de concentração, até o espólio comum (impostos)
+[2017-03-16 14:19:20] Cabe à cada uma seguir ou não a imposição
+[2017-03-16 14:19:25] Btw, não vamos desvirtuar o propósito do grupo
+[2017-03-16 14:20:03] Cogitando aliexpress, mas não tem tanta opção de drivers, por exemplo
+[2017-03-16 14:20:15] Acho que vou arriscar ao menos os drivers na Mouser
+[2017-03-16 14:20:20] Isso tudo pq eu perguntei se tinha alguma loja na Santa Ifigenia que vende Arduino mais barato.
+[2017-03-16 14:25:42] Desculpe interromper a conversa de vocês, poderiam me explicar a diferencia entre o curso bacharelado em sistema de informação, para o de análise e desenvolvimento de sistema?
+[2017-03-16 14:25:50] Grato pela atenção!
+[2017-03-16 14:28:22] A profissão não é regulamentada, portanto não há um currículo padrão e cada universidade coloca o nome e a grade que quiser. O ideal seria você verificar o programa de cada curso.
+[2017-03-16 14:28:45] SI o foco é na formação do analista de sistema (curso isso)
+[2017-03-16 14:28:48] o outro n sei
+[2017-03-16 14:30:35] Estou pesquisando a respeito, estou vendo a grade curricular da unip
+[2017-03-16 14:30:41] Pessoalmente eu recomendaria escolher um que tivesse mais foco em Álgebra, Cálculo e menos em administração.
+[2017-03-16 14:30:54] http://www.epl.org.br/economia-em-um-dia/
+
+O curso é online e oferecerá uma introdução aos princípios da economia de mercado: escassez, prosperidade, valores, cooperação, caráter, mercados, ordem espontânea e empreendedorismo.
+[2017-03-16 14:30:59] A quem possa interessar
+[2017-03-16 14:31:13] Ambos que você citou são na Unip?
+[2017-03-16 14:31:50] Apenas um o outro não lembro onde vi
+[2017-03-16 14:33:11] Estou na rua agora mas se quiser posso ajudar a avaliar os cursos. Me envie mais detalhes (univ e curso), pode ser em mensagem privada, que eu posso dar umas dicas.
+[2017-03-16 14:34:22] Obrigado, vou lhe mandar as informações mais detalhada.
+[2017-03-16 14:43:48] Isso é pura ideologia
+[2017-03-16 14:47:35] Né, não?
+[2017-03-16 15:08:43] Hi, 
+ You can activate also Joystick On Pokemon GO with the best 2017 android App
+ 
+  https://play.google.com/store/apps/details?id=analog.stick.forpokemongo.joystick
+[2017-03-16 15:11:10] Obrigado
+[2017-03-16 15:14:20] Não é ideologia, imposto é roubo por definição, apropriação indébita de bem alheio...
+[2017-03-16 15:18:35] Ambos os pontos de vista são ideológicos, e ambos tem uma fundamentação moral válida
+[2017-03-16 15:20:35] Eu particularmente não gosto de impostos, mas não vejo alternativa melhor (ou até vejo mas sendo o tipo de coisa extremamente utópica por enquanto)
+[2017-03-16 15:27:26] +1
+[2017-03-16 15:28:35] Talvez se as instituições estatais tivessem total transparência (blockchain), autonomia financeira e você escolhesse para o que contribuir, sendo algumas obrigatórias (segurança, saúde, infraestrutura de vias públicas, etc).
+[2017-03-16 15:34:53] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803721528_90130.jpg
+[2017-03-16 15:35:27] Excelente
+[2017-03-16 15:40:47] Pode indicar curso marxista também?
+[2017-03-16 15:42:15] Marxista não pode
+[2017-03-16 15:43:12] Não tem risco, é super tranquilo e chega rápido. Só sai caro
+[2017-03-16 15:44:20] Bem, propriedade então é um roubo também. Muito rasa essa conversa, hein?
+[2017-03-16 15:44:33] comprei no ML uma webcam para um projeto .. Com o cartão da minha irmã... Os Filhas clonarão o cartão gastam 2 compra e outra loja no valor BRL 1500,00 com o cartão... O cartão externou débito..
+[2017-03-16 15:44:59] digo BRL 3.000,00
+[2017-03-16 15:45:23] como assim, o cartão teve dados vazados do ML? vc tem como provar?
+[2017-03-16 15:45:38] Mas o mais bizarro é ver alguém dar uma definição super abstrata de uma visão de mundo e falar "não é ideologia"
+[2017-03-16 15:46:06] É a mistura ideal de arrogância com ignorância para ser manipulado
+[2017-03-16 15:50:05] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_1244824411647770849.webp
+[2017-03-16 15:54:07] Avisando o pessoal: o EPL é ferramenta de propaganda do mesmo pessoal que está fazendo a farra no governo do Trump.
+[2017-03-16 15:54:18] AniimusxD joined
+[2017-03-16 15:54:39] ✌🏽
+[2017-03-16 15:57:46] Não conheço esses em específico, mas tem a cara do pessoal libertário
+[2017-03-16 15:58:35] Vale a pena ler a reportagem da Publica sobre eles: http://apublica.org/2015/06/a-nova-roupa-da-direita/
+[2017-03-16 15:58:50] Ofensa pessoal agora? O que aconteceu com o "be excellent to each other"?
+[2017-03-16 15:59:28] Eu falei explicitamente da sua frase, nada contra você, Fabricio. Mas dourar a pílula não ia te ajudar, essa frase foi vergonhosa.
+[2017-03-16 15:59:36] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_420297158760071193.webp
+[2017-03-16 16:02:04] Esse artigo explica bem melhor do que eu o porquê do imposto ser um roubo:
+https://ideallibertario.wordpress.com/2016/08/12/por-que-imposto-e-roubo/
+[2017-03-16 16:03:12] Mais coisa ideologica, veja que o link nem se exime de ser bem claro em dizer que está propagando uma ideologia específica. Não tem nada a ver com "explicação de um fato".
+[2017-03-16 16:03:40] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_422091437182550201.webp
+[2017-03-16 16:03:52] Diga-se de passagem, a escola austríaca nunca nem se propos a ser cientifica.
+[2017-03-16 16:03:59] Até hoje o pessoal acredita nisso?
+[2017-03-16 16:04:03] Meu jesus
+[2017-03-16 16:04:23] ALERTA DA MODERAÇÃO. Já rolou flamewar semana passada na lista de emails e agora estou vendo acontecer algo meio parecido por aqui. Vamos com calma, pessoal...
+[2017-03-16 16:04:46] Como eu já disse: stay classy
+[2017-03-16 16:04:59] +1 (e minhas desculpas que eu andei pondo lenha)
+[2017-03-16 16:05:32] Preciso estudar mais sobre isso. Mas uma coisa que me impressiona é como o pessoal que ser interessa por isso trata quase como se fosse uma revelação divina
+[2017-03-16 16:06:11] Arduino Firmata all inputs rolando legal aqui, mas outputs necas, alguma dica?
+[2017-03-16 16:06:27] É o novo "o segredo"
+[2017-03-16 16:07:45] Tentei StandardFirmata, OLD tb
+[2017-03-16 16:09:03] Leio os pinos de boa, mas não consigo setar HIGH ou LOW.
+[2017-03-16 16:10:03] Conversa sim, treta não.
+[2017-03-16 16:10:54] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_38846012097298894.webp
+[2017-03-16 16:13:06] De boa, mano... Segunda vez, em dois dias, que você "incentiva" flamewar.
+Depois fica perguntando porque tento vetar sua Associação... ;)
+[2017-03-16 16:16:27] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_5068811714296807429.mp4
+[2017-03-16 16:16:29] Quando a Galera vem falar de Escola Austríaca já rola um "rolling eyes"...
+[2017-03-16 16:17:51] Tentei conversar... desisti... eu não causei treta, até onde sei só discordei de certas ideias...
+[2017-03-16 16:18:51] Não sabia que tentava vetar, pra mim era só troll
+[2017-03-16 16:20:13] Não deixa de ser uma trollada... hehehe
+[2017-03-16 16:25:47] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_1244824411647770764.webp
+[2017-03-16 16:28:29] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_135158025190114302.webp
+[2017-03-16 16:33:03] Galera, já já teremos alguns cursos aí sobre Economia Política. Quem estiver a fim... são tod@s bem-vind@s! Inclusive quem   tiver ideias pra formatar os cursos com algumas estratégias e temáticas do mundo h4ck, são bem vindas! 👊👍
+[2017-03-16 17:04:55] 👍
+[2017-03-16 17:26:05] ATA
+[2017-03-16 17:33:29] Sonegação com cryptomoedas se encaixa em economia com temática hack? 😂
+[2017-03-16 17:35:55] É, acho que é algo a ser explorado...lembrando que os cursos são sobre Economia Política e não sobre economia.
+[2017-03-16 17:37:48] Sonegação tá no cerne da economia política, uma vez que vai de encontro à regulamentação estatal da produção de riqueza
+[2017-03-16 17:38:32] Mas tava zoando. Dar curso de sonegação é infração penal por apologia ao crime
+[2017-03-16 17:39:40] Pagamento de juros e amortização da dívida pública que nunca foi auditada no Brasil é crime?
+[2017-03-16 17:44:35] Cobrança de juros não é crime, nem imoral
+[2017-03-16 17:44:55] Amortização de dívida é negocial
+[2017-03-16 17:45:29] Dívida pública não auditada é crime por omissão, pois é função do TCU. Se houve escalada de corrupção por essa omissão, ainda cabe agravante.
+[2017-03-16 17:54:47] Alguém pode testar pra mim o exemplo arduino_output da Biblioteca Firmata no Processing?
+[2017-03-16 18:01:48] Tou portando pro Modo Python, preciso validar
+[2017-03-16 18:02:07] E se o original não tá rolando...
+[2017-03-16 18:13:45] Bacharel tu demora mais tempo pra ter o papel de ensino superior o resto tu aprende programando e participando de grupos de estudo.
+[2017-03-16 18:30:46] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803117334_20573.jpg
+[2017-03-16 18:31:59] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_285892071401719723.webp
+[2017-03-16 18:43:34] Show
+[2017-03-16 18:51:17] :)
+[2017-03-16 18:52:35] https://twitter.com/NASASpaceflight/status/842482961907892224
+[2017-03-16 18:53:37] Hoje tem noite do Arduíno no Garoa?
+[2017-03-16 18:53:52] Segunda-feira, dia 27 de março, no final da tarde, teremos streaming ao vivo (NO TELÃO NO GAROA!!!!) do lançamento histórico do primeiro Falcon 9 com 1st stage booster resgatado de um vôo anterior.  https://garoa.net.br/wiki/Foguetes#2017.2F03.2F27:_SpaceX_.E2.80.A2_Falcon_9_.E2.80.A2_PRIMEIRO_REUSO.21
+[2017-03-16 18:59:18] Fotos do lançamento de ontem: http://imgur.com/a/0vxZW
+[2017-03-16 19:25:20] galera, vai ter camp mesmo?
+[2017-03-16 19:26:13] Lidiane Taquehara joined
+[2017-03-16 19:26:13] Hi Lidiane !
+[2017-03-16 19:26:31] ignorem, acabei de achar a pag no wiki
+[2017-03-16 19:28:35] oi pessoal, tudo bom??
+eu ia pra noite do arduino, mas o garoa tá como fechado na wiki... alguém sabe me dizer se vai rolar?
+[2017-03-16 19:30:36] recebi um email do pagseguro pra pagar. é isso ou é gorpe?
+[2017-03-16 19:39:04] Alguém no Garoa agora?
+[2017-03-16 19:49:47] O culpado está lá fora
+http://www.zdnet.com/article/blue-screen-of-death-iphone-freezing-now-you-can-blame-particles-from-outer-space/
+[2017-03-16 19:51:52] solar flares!!!111
+[2017-03-16 19:52:16] http://pages.cs.wisc.edu/~ballard/bofh/bofhserver.pl
+[2017-03-16 19:53:33] 🇧🇷 Paulo 🇧🇷 joined
+[2017-03-16 19:53:33] Hi paulo@host#: ./backdoor.sh !
+[2017-03-16 19:53:41] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_328774854541050270.webp
+[2017-03-16 20:26:26] Sim, estamos no Garoa
+[2017-03-16 20:26:42] Lidiane
+[2017-03-16 20:27:04] É pra pagar o Camp
+[2017-03-16 20:27:42] Oda pode confirmar
+[2017-03-16 20:33:17] Jack?
+[2017-03-16 20:35:45] Translator
+
+/tr <language> <text>
+Will translate text to language
+<language> examples:
+RU
+will translate text to Russian
+FR-EN
+will translate text to Russian from French
+[2017-03-16 20:37:48] Language: en-nl
+'or 1=1--
+[2017-03-16 20:56:48] /me@jackbot
+[2017-03-16 20:56:48] Ian
+You've sent 19 (0%) messages and this group has 24656 messages.
+[2017-03-16 21:21:56] Desculpem interromper o assunto, mas segue a foto da colega de família desaparecida e se puderem compartilhem, obrigado
+[2017-03-16 21:21:56] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803120528_19940.jpg
+[2017-03-16 21:51:27] Pode vir, está aberto
+[2017-03-16 21:52:39]  joined
+[2017-03-16 21:52:40] Hi Daniel !
+[2017-03-16 22:24:06] Bruno Mouta joined
+[2017-03-16 22:24:06] Hi Bruno !
+[2017-03-16 22:25:24] Oi pessoal, queria visitar o garoa no sábado, mas no Facebook diz que estará fechado, apesar do site mostrar que até tem evento no dia. Alguém saberia dizer se abre ao público no sábado?
+[2017-03-16 22:59:48] @erickemi "Dat4L34k" Emiliano
+[2017-03-16 23:17:55] OVNI? Balão do Google causa pânico na Colômbia | Google Discovery
+https://googlediscovery.com/2017/03/16/ovni-balao-google-causa-panico-na-colombia/amp/
+[2017-03-16 23:18:22] @fsanches, mais um encontrado...
+[2017-03-16 23:32:39] Ignore o Facebook
+[2017-03-16 23:33:47] Ok, qual seria o horário de sábado então? Eu e um amigo meu conhecemos sobre o garoa na campus e queremos visitar
+[2017-03-16 23:43:53] O horário que tem atividades é certeza
+[2017-03-16 23:44:15] Blz, valeu :)

@@ -1,0 +1,23 @@
+[2016-04-10 01:41:10] Yumi: Moço mandou e-mail na lista aberta perguntando se vamos abrir no domingo..l
+[2016-04-10 01:41:41] Yumi: o problem é que não posso responder pois a mensagem dele contém "delete todas as informações que apareçam no corpo do email e que possam ser usadas por hackers."
+[2016-04-10 01:44:05] Yumi: Deletei antes
+[2016-04-10 08:45:08] Alexandre Villares: Catch 22
+[2016-04-10 08:50:55] Alexandre Villares: Algum report do Aprendizagem Criativa? Fabio?
+[2016-04-10 09:04:24] Fabio Hirano (in reply to Alexandre Villares): Acabei não indo.... @carril ?
+[2016-04-10 13:25:09] Acidx Leandro Pereira: Pra fazer esses efeitos legais eu tenho brincado com isso https://forthsalon.appspot.com/
+[2016-04-10 18:04:30] Erin Pinheiro: alguém aqui sabe algo sobre tabu search ou simulated annealing pra resolver CVRP? só encontro papers que descrevem como resolver outros problemas.
+[2016-04-10 21:32:39] Alexandre Villares: Erin, eu não faço ideia do que você está falando, mas tentei googlar mesmo assim...
+[2016-04-10 21:32:48] Alexandre Villares: http://www.sciencedirect.com/science/article/pii/S0305054813003122
+[2016-04-10 21:35:14] Alexandre Villares: CVRP é uma variante do cacheiro viajante?
+[2016-04-10 21:35:59] Alexandre Villares: @Fabiohirano Dos mesmos caras do CSUnplugged: http://csfieldguide.org.nz/en/index.html
+[2016-04-10 21:38:33] Erin Pinheiro: mais ou menos
+[2016-04-10 21:38:42] Erin Pinheiro: Capacitated Vehicle Routing Problem
+[2016-04-10 21:38:55] Erin Pinheiro: só encontro pra outras variantes de VRP, nenhuma  pra CVRP em específico
+[2016-04-10 21:39:58] Erin Pinheiro: essa que você me mandou eu já tinha visto, não ajudou muito, porque eles explicam o algorítmo de carregamento de um baú tridimensional, mas não o algorítmo de roteamento
+[2016-04-10 21:40:23] Erin Pinheiro: eu acabei achando um paper que explica Simulated Annealing pra CVRP, então vou tentar usar esse
+[2016-04-10 21:40:30] Erin Pinheiro: obrigada :)
+[2016-04-10 21:40:51] Alexandre Villares: : P
+[2016-04-10 21:41:02] Alexandre Villares: Boa sorte!
+[2016-04-10 22:13:13] Alexandre Villares: @mynameiserin Se este não rolas... tentou buscar por CVRPTW? (via leitura na Wikipedia)
+[2016-04-10 22:13:49] Erin Pinheiro: sim, achei alguns papers sobre cvrptw
+[2016-04-10 22:13:55] Alexandre Villares: : )

@@ -1,0 +1,37 @@
+[2017-08-12 01:49:54] @mynameiserin Se você identificar deficiências técnicas no debugger do MAME e tiver interesse em aprimorá-lo me avisa. Eu sei que ele não é perfeito e tem algumas features importantes faltando. Se topar, podemos fazer um sprint/hackathon de melhorias no debugger do MAME, o que acha?
+[2017-08-12 01:50:55] na verdade peguei o IDA Pro pra fazer disassembly  no próprio jogo mesmo pra encontrar as variáveis e pontos de entrada
+[2017-08-12 01:51:13] o que eu quero é menos um debugger e mais uma maneira de automatizar as funções que um debugger teria
+[2017-08-12 01:51:43] pára num breakpoint, modifica a memória, daí continua a execução, sem interação humana
+[2017-08-12 01:53:08] ok
+[2017-08-12 01:54:49] Eu não gosto de soluções proprietárias como o IDA Pro. Gosto de saber que toda a informação sobre oque está acontecendo está ao meu alcance e que a única peça proprietária/secreta do sistema é o próprio programa sob engenharia reversa. A própria ferramenta ser secreta é meio contra-senso pra mim...
+[2017-08-12 01:55:31] eu só precisei saber endereços de memória. fazer isso num disassembly cru pra mim é impossível
+[2017-08-12 01:55:56] as funções do ida de mostrar onde uma coisa é referenciada foi o que me ajudou a achar tudo o que eu precisava
+[2017-08-12 01:56:08] com esses endereços em mãos não preciso mais dele
+[2017-08-12 01:56:32] agora, se você quiser fazer disassembly no mesmo jogo sem o ida e encontrar os mesmos endereços que eu achei, fique à vontade :)
+[2017-08-12 01:58:05] qual é o jogo ?
+[2017-08-12 02:19:09] The Solar Hockey League
+[2017-08-12 05:48:11] Já brincou com o radare? Não é tão fácil de aprender como o ida, mas é bem poderoso e scriptavel.
+[2017-08-12 05:49:15] eu não preciso mais fazer disassembly, eu preciso é rodar o programa com um script residente no fundo que faça as modificações em tempo real
+[2017-08-12 05:49:30] o site do radare tá offline mas não me parece ter um emulador de DOS embutido
+[2017-08-12 05:50:36] Ah, não, não tem emulador de dos. Tem um emulador de x86 mas não sei se emula syscalls do dos, bios, ou hardware de pc sem um bocado de trabalho.
+[2017-08-12 05:50:51] muito menos deve ter saída de vídeo :)
+[2017-08-12 05:50:58] Mas pra disassembly é excelente
+[2017-08-12 05:51:12] acredito na sua palavra
+[2017-08-12 05:51:31] até porque, a deles tá offline
+[2017-08-12 10:27:55] http://rada.re/r/
+[2017-08-12 10:28:10] Aqui tá online. Talvez tenha voltado. Verifica aí.
+[2017-08-12 11:11:37] sim, realmente agora está online.
+[2017-08-12 14:49:09] Garoa tá aberto até 20h no mínimo
+[2017-08-12 15:23:51] Tem algum canal IRC do Garoa Hacker Clube?
+[2017-08-12 16:47:26] irc.freenode.net #garoa
+[2017-08-12 16:52:12] Obrigado
+[2017-08-12 16:56:00] Hey people, I'm at the gate
+[2017-08-12 16:56:08] Can someone open it?
+[2017-08-12 16:59:00] Rang the bell? Nobody answered?  Seems to be people there.
+[2017-08-12 19:21:40] Tem alguém no garoa?
+[2017-08-12 19:57:40] tem
+[2017-08-12 20:21:05] Valeu pela hospitalidade pessoal. Mto legal o espaço!
+[2017-08-12 21:07:40] Gabriela added Adonis Grecco De Araujo
+[2017-08-12 21:07:41] Hi Adonis Grecco !
+[2017-08-12 23:24:16] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803110519_142177.jpg
+[2017-08-12 23:35:13] Conheço uns Billy "Bully" Bob desses

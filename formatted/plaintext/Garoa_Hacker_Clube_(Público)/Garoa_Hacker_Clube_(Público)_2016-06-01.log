@@ -1,0 +1,19 @@
+[2016-06-01 00:24:45] No Windows Phone fica assim tbm
+[2016-06-01 00:43:36] desktop tambem
+[2016-06-01 19:00:07] C:\Users\Erin\Dropbox\USP\IA\EP2>java VRP2 ..\EP1\B-n34-k5.vrp
+Rota #0: [0, 22, 32, 33, 23, 10, 0] custo: 157 demanda atendida: 94
+Rota #1: [0, 1, 19, 27, 3, 29, 24, 2, 0] custo: 182 demanda atendida: 77
+Rota #2: [0, 12, 26, 8, 20, 4, 21, 7, 0] custo: 146 demanda atendida: 89
+Rota #3: [0, 18, 16, 9, 14, 0] custo: 145 demanda atendida: 96
+Rota #4: [0, 5, 6, 25, 17, 31, 15, 28, 13, 0] custo: 116 demanda atendida: 86
+Rota #5: [0, 11, 30, 0] custo: 118 demanda atendida: 15
+Custo 746
+Tempo 12
+[2016-06-01 19:00:50] os valores ótimos dos problemas CVRP são calculados apenas com o número mínimo de rotas? porque usando uma rota a mais eu encontrei uma solução melhor que a ótima.
+[2016-06-01 19:02:11] .. não, pera. desconsidera, achei o bug.
+[2016-06-01 19:02:46] não vou publicar artigos tão cedo
+[2016-06-01 19:04:46] auhduhaduhad
+[2016-06-01 19:35:26] Alguém indo agora pro Garoa?
+[2016-06-01 22:56:24] @gfth4x07 ?
+[2016-06-01 22:57:04] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_802610201_95708.jpg
+[2016-06-01 23:31:17] Boa noite, alguém programa em C/C++ no xcode? Ou é melhor ir de codeblocks mesmo..

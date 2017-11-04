@@ -1,0 +1,66 @@
+[2016-11-12 00:52:08] Pessoal alguém tem algum código de desconto para a Roadsec?  320 tá osso
+[2016-11-12 00:57:01] Tenho esse, só não sei se ainda funciona:
+PMMKDC-9HIWE7
+[2016-11-12 00:58:28] PMRDDC-R0AD1316
+[2016-11-12 01:05:06] Show valeu
+[2016-11-12 01:06:09] 👍
+[2016-11-12 01:06:18] 👍
+[2016-11-12 01:17:45] Os dois funcionam ... 10% o do Erick e 15% o do Frabricio
+[2016-11-12 01:23:15] #DICA
+Curso gratuito de Python Básico
+https://solyd.com.br/treinamentos/python-basico
+[2016-11-12 08:07:18] http://speakerfight.com/events/noite-de-processing-relampagos/
+[2016-11-12 08:07:54] 👆últimos dias para inscrever uma apresentação de 5min
+[2016-11-12 12:50:58] chegou tarde nada! dei uma parada há um tempo, mas quero voltar! Vamos marcar o encontro de ESP Owners no garoa
+[2016-11-12 12:51:13] tentarei ir com mais frequência no garoa quando eu entrar de férias escolares pré-faculdade
+[2016-11-12 13:11:53] Você recomenda esse curso? Tô sofrendo com um projeto em python
+[2016-11-12 13:14:23] Preciso que quando o usuário comece a digitar, o programa vá procurando aquela substring em um dicionário e retorne as palavras que a contenham
+[2016-11-12 13:28:38] quem faz isso é o js, o python só recebe a a string e busca no banco
+[2016-11-12 13:46:43] Então, eu tenho a substring,  preciso fazer a busca no banco com o python
+[2016-11-12 13:47:38] acho q não dá pra fazer busca instantânea assim no banco
+[2016-11-12 13:47:43] geralmente o pessoal usa um arquivo json um pedacinho do banco pra agilizar a busca
+[2016-11-12 13:50:12] Procura alguma coisa tipo: instant search
+[2016-11-12 13:51:17] sei q elasticsearch tb faz umas magias dessa, mas não manjo mt pra falar
+[2016-11-12 14:00:28] tu faz isso na camada do ORM
+[2016-11-12 14:00:39] ou direto na unha com sql mesmo
+[2016-11-12 14:04:19] Eu tenho o banco em JSON
+[2016-11-12 14:04:47] Mas tenho que resolver só usando python
+[2016-11-12 14:05:28] Valeu, vou procurar
+[2016-11-12 14:05:39] Ouvi falar que tem que fazer busca recursiva
+[2016-11-12 14:06:02] Se não rolar, vou fazer isso, é que meu nível de python não chega nisso ainda, por isso o curso me interessou
+[2016-11-12 14:36:59] como está fazendo? web? desculpe, não peguei o começo da conversa
+[2016-11-12 14:37:12] vc precisa de um autocomplete?
+[2016-11-12 14:43:05] https://rms.sexy/ (safe for work)
+[2016-11-12 14:44:16] isso é trabalhar concentrado, sem ninguém perturbando kkkk
+[2016-11-12 14:59:16] Conecte no banco, jogue os dados numa lista ou dicionário e faça a busca via Python
+[2016-11-12 15:42:43] Estou fazendo requisições para um dicionário em JSON, tudo via Python
+[2016-11-12 15:43:21] O caso é exatamente esse, eu estou buscando um curso/tutorial pra poder fazer essa busca com o Python
+[2016-11-12 15:44:55] está usando import requests, json?
+[2016-11-12 15:45:51] esses módulos facilitam trabalhar com requests e arquivos json
+[2016-11-12 15:46:01] conhece?
+[2016-11-12 15:55:17] pode fazer assim:
+
+>>> import requests, json
+
+>>> req = requests.get('http://api.postmon.com.br/v1/cep/02011200')
+>>> resposta = json.loads(resp.text)
+>>> resposta
+>>> resposta['bairro']
+[2016-11-12 16:09:04] Estou!
+[2016-11-12 16:22:30] Ao estilo urllib
+[2016-11-12 17:09:06] Funcionou? Era isso que precisava?
+[2016-11-12 17:12:41] Amauri, o próprio requests faz a conversão. :)
+requests.get('http://api.postmon.com.br/v1/cep/02011200').json()
+[2016-11-12 17:14:34] Cara valeu, não sabia.
+Já economiza código, rss
+Testei aqui e deu certo.
+👏👍😀
+[2016-11-12 17:15:05] :D
+[2016-11-12 22:23:00] Hahahaha
+[2016-11-12 22:24:38] 😊
+[2016-11-12 22:31:58] Acabei indo mexer com outras coisas, vou ler um livro de Python que eu tenho e volto ao código quando estiver entendendo melhor, valeu pela ajuda
+[2016-11-12 22:32:27] The earliest reference to robots in Greek antiquity comes in Homer’s Iliad, where Hephaestus, god of fire and craftsmen, has handmaids made of gold who assist him in his forge (Iliad 18.417-20) 
+http://blogs.bl.uk/digitisedmanuscripts/2016/11/automata-for-the-people-greek-scientific-manuscripts-online.html
+[2016-11-12 23:24:02] https://automatetheboringstuff.com/
+A quem possa interessar
+Automatização simples com Python

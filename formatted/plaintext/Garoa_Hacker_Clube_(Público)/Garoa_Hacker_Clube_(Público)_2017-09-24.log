@@ -1,0 +1,14 @@
+[2017-09-24 00:54:46] Jitsi é um otimo software livre para webconferencias
+[2017-09-24 01:11:59] Pessoal, tenho uma dúvida, alguém poderia me ajudar? Tenho um código em C para aquisição de dados, consigo salvados num SD sem problema. Acontece que nos dados que recebo, também recebo a data por meio de uma string. Eu gostaria de saber como eu poderia recortar apenas a data desta string e nomear o arquivo que eu quero salvar com esta data de forma automática. Gostaria que cada arquivo, resultado de uma amostragem de 1 dia, fique com o nome da sua data. 
+Gostaria que os nomes tivessem formato aammddhh.txt, por exemplo, 17092401.txt com base na linha seguinte:
+
+$GPRMC,123519,A,4807.038,N,01131.000,E,022.4,084.4,17092401,003.1,W*6A
+[2017-09-24 06:38:04] Regex http://thobias.org/doc/er_c.html
+[2017-09-24 06:40:13] http://aurelio.net/regex/guia/
+[2017-09-24 12:50:32] não acredito que regex vá te ajudar nesse caso exemplo
+[2017-09-24 12:51:08] se a data está sempre na mesma posição, conte o número de vírgulas e use os índices para cortar uma substring
+[2017-09-24 12:51:20] mas o pessoal gosta de complicar
+[2017-09-24 17:34:06] Obrigado gente, vou tentar de ambas as maneiras!
+[2017-09-24 21:02:32] https://twitter.com/lhc_campinas/status/912099484599029760
+[2017-09-24 21:58:19] Esse arcade aí do LHC é "irmão" do meu :-)
+[2017-09-24 22:02:44] Lotou o camp?

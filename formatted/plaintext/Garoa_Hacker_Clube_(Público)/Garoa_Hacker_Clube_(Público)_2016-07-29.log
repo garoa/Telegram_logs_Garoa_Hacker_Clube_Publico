@@ -1,0 +1,156 @@
+[2016-07-29 15:04:11] Galera, fiz uma enquete para saber o nível das pessoas que tem interesse em participar do SciPy São Paulo, por tanto se puderem preencher: https://docs.google.com/forms/u/0/d/1tCJ0gz0uEDO1Z_6GDbPDs4kLd0jqlTifvd3uf2g_-QU/
+[2016-07-29 16:45:22] Tenho um arquivo que está no .gitignore.
+Portanto ele não "passa" pelo fabfile.
+Como eu faço para inclui-lo no fabfile?
+Ou seja, ele deve ser ignorado no versionamento,
+mas não deve ser ignorado no fabfile?
+[2016-07-29 17:17:23] (Unknown) added Breno
+[2016-07-29 17:17:23] Hi Breno !
+[2016-07-29 17:17:52] Ahahaha
+[2016-07-29 17:17:55] Olá
+[2016-07-29 17:19:37] E gente esse cara ai é o zip do python quem sabe interaçoes novas  apareçam.
+[2016-07-29 17:20:32] Breno esse grupo é bem fléxivel alguns avançados outros estudam.
+[2016-07-29 17:22:02] Breno da uma olha na wiki do Garoa é uma iniciativa interessante. Mas pensei que teria um grupo em algum xmpp
+[2016-07-29 17:22:51] Onde, qual, como
+[2016-07-29 17:24:42] https://garoa.net.br/wiki/P%C3%A1gina_principal
+[2016-07-29 17:25:45] Eles tem um hubzilla hospedado com a webfaction
+[2016-07-29 17:26:37] gente, alguém tem experiência em exportar gerbers do kicad pra usar no curta circuitos? já tentei exportar de tudo quanto é jeito mas não parece funcionar
+[2016-07-29 17:26:51] os meus projetos exportados do eagle como .brd funcionam normal
+[2016-07-29 17:33:41] qnd tu exportar o gerber do eagle da certo?
+[2016-07-29 17:33:52] no curta tem um tuto lá explicando como tem que ser os gerbers
+[2016-07-29 17:33:58] tem que ser numa versão especifica lá
+[2016-07-29 17:35:03] esse projeto eu não tenho no eagle
+[2016-07-29 17:35:09] o que eu fiz no eagle foi o pingente
+[2016-07-29 17:35:22] consegue fazer um teste pra mim, afonso?
+[2016-07-29 17:35:35] https://github.com/Lana-chan/brochehacker
+[2016-07-29 17:35:36] Lana-chan | brochehacker
+
+Design de um broche animado com LEDs
+
+Language: KiCad
+Forks: 0
+Stars: 0
+Issues: 0
+[2016-07-29 17:35:41] quem aí q fez o Garoa Hub?
+[2016-07-29 17:35:45] preciso dar reset na minha senha
+[2016-07-29 17:37:09] eu exportei os gerbers e o drill, ele pegou o drill ok, mas os gerbers apareciam todos em branco e ele não sabia o tamanho da placa
+[2016-07-29 17:37:34] dizia que eu tinha que mandar fazer 1e+100 pra dar o espaço mínimo hahaha
+[2016-07-29 17:41:34] lol
+[2016-07-29 17:42:39] Já descobriu?
+[2016-07-29 17:43:02] Não.
+[2016-07-29 17:43:12] Curta circuitos? Não conheço
+[2016-07-29 17:43:25] https://curtacircuitos.com.br/
+[2016-07-29 17:43:38] onde eu fiz as placas do pingente rgb 2 anos atrás
+[2016-07-29 17:43:47] não use entrar com github, não dá certo
+[2016-07-29 17:43:50] a barra de cima some
+[2016-07-29 17:44:20] https://curtacircuitos.com.br/Erin/pendant5
+[2016-07-29 17:44:52] to vendo
+[2016-07-29 17:45:18] Você deve forçar e dar o endereço do arquivo. tipo.
+git add -f ./arquivo-ignorado.txt
+[2016-07-29 17:46:29] Vou experimentar. Valeu.
+[2016-07-29 17:47:35] Ok. Agora apareceu um pepininho para resolver no trampo, se não tiverem resolvido o lance do kicad até eu chegar em casa, eu dou uma olhada com calma para ver se é um pau do gerber gerado pelo Kicad.
+[2016-07-29 17:50:05] Galera criei um Script que ele Otimiza o Sqlmap, Não precisar digitar um comando todo apenas ir selecionando.
+https://github.com/ticosena/Scripts/blob/master/OtSql.sh
+[2016-07-29 17:56:14] https://curtacircuitos.com.br/afonso503189533c194ad8/teste
+[2016-07-29 17:56:25] ver se tá certo
+[2016-07-29 17:58:09] tá sem furos
+[2016-07-29 17:58:19] que, ironicamente, foi a única coisa no meu que deu certo
+[2016-07-29 17:58:25] @tilt4 que você fez?
+[2016-07-29 17:59:04] eu nao mandei os furos
+[2016-07-29 17:59:09] ah
+[2016-07-29 17:59:14] mas como exportou os gerbers?
+[2016-07-29 17:59:24] fui em plot e selecionei tudo
+[2016-07-29 17:59:30] e salvei e criei o zip e mandei
+[2016-07-29 17:59:41] mas meu kicad é o mais recente
+[2016-07-29 18:00:03] 4.0.2 aqui
+[2016-07-29 18:00:09] aqui tbm
+[2016-07-29 18:00:13] kkk
+[2016-07-29 18:00:21] mas tu vez isso que falei?
+[2016-07-29 18:00:27] vou tentar agora
+[2016-07-29 18:01:31] arquivo > plot e só salva
+[2016-07-29 18:01:37] nem mexi em nenhuma config
+[2016-07-29 18:02:10] eu comecei não mexendo e fui mexendo tentando ver se alguma coisa dava certo
+[2016-07-29 18:02:27] me manda um print da sua config?
+[2016-07-29 18:03:08] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803712218_64796.jpg
+[2016-07-29 18:03:46] ah
+[2016-07-29 18:04:01] não pera
+[2016-07-29 18:04:08] eu testei desse jeito acho haha
+[2016-07-29 18:04:10] vou tentar denovo
+[2016-07-29 18:04:59] uai
+[2016-07-29 18:05:01] deu certo agora
+[2016-07-29 18:05:16] nao é magia, é tecnologia
+[2016-07-29 18:05:23] haha
+[2016-07-29 18:05:29] ok ok, eu fiz algo errado, eu sei
+[2016-07-29 18:05:33] valeu afonso
+[2016-07-29 18:07:06] de nada
+[2016-07-29 18:30:53] LOL!!
+[2016-07-29 18:31:24] Garoa aberto amanhã, sábado, dia 30???
+[2016-07-29 20:44:14] alguém pra virar hoje no garoa?
+[2016-07-29 20:46:06] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803705265_65202.jpg
+[2016-07-29 20:46:09] projeto da noite
+[2016-07-29 20:53:13] Estou no Garoa, mas pra mim não rola virar... amanhã vou pra Tecno Weekend da UFABC...
+[2016-07-29 20:53:55] Qual placa é essa?
+[2016-07-29 20:54:15] te dou três chances
+[2016-07-29 20:56:15] Sega Saturn?
+[2016-07-29 20:58:59] mais
+[2016-07-29 21:01:11] Dreamcast?
+[2016-07-29 21:11:15] isso
+[2016-07-29 21:49:00] o que vai fazer com esse dreamcast?
+[2016-07-29 21:49:28] eu tenho uns 3 dreamcasts encostados
+[2016-07-29 21:59:38] espero não precisar de reposição, mas se precisar já sei a quem recorrer
+[2016-07-29 21:59:49] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803703670_64768.jpg
+[2016-07-29 21:59:55] se ligar sem queimar já é sucesso...
+[2016-07-29 21:59:57] :-)
+[2016-07-29 22:00:07] se precisar é só falar
+[2016-07-29 22:01:21] eu não consigo colocar mais solda que isso sem causar (visíveis) curtos :(
+[2016-07-29 22:01:36] se é que já não está causando, vou pegar um multímetro agora
+[2016-07-29 22:03:33] mmmm adoro quando guardam multímetro ligado, pra acabar a bateria logo
+[2016-07-29 22:12:20] Enviado no grupo de ex-alunos do meu curso:
+ Seguem alguns tópicos de interesse dessa e da última semana, a respeito de atualidades diversas:
+
+• Inovação
+Adolescentes italianos criam máquina que transforma lixo plástico em cases para celular
+http://goo.gl/Qx1bU6
+
+• Sociedade
+Startup Vista um Sorriso dá desconto na compra de roupa nova para quem doar uma peça
+http://goo.gl/C68RSQ
+
+• Tecnologia
+Estudantes brasileiros criam sistema que descontamina água usando sementes de moringa
+http://goo.gl/g6Q9uF
+[2016-07-29 22:23:18] fu... ok, tentativa 2
+[2016-07-29 22:23:25] vou tentar soldar na placa dessa vez
+[2016-07-29 22:23:47] consegui tirar todos os curtos pelo menos (o 3 e o 8 ambos serem ground me deixaram aflita por um momento)
+[2016-07-29 22:27:05] já pensou em usar o soprador térmico do garoa?
+[2016-07-29 22:27:10] as vezes ajuda
+[2016-07-29 22:27:34] se bem que precisa de umas coisas  a mais para os componentes smds não sairem voando e fio pode derreter....
+[2016-07-29 22:32:32] mas eu não preciso dessoldar nada
+[2016-07-29 22:32:45] e eu nunca consegui resultados bons com aquele soprador
+[2016-07-29 22:32:48] e não estou no garoa
+[2016-07-29 22:33:31] sei que vc não está no garoa, estou aqui :P
+[2016-07-29 22:34:02] realmente nunca tentei usar o soprador, mas já ouvi falar muito bem da técnica (por pessoas confiáveis)
+[2016-07-29 22:39:38] soprador até onde eu sei serve pra dessoldar coisas
+[2016-07-29 22:40:56] serve para trocar CIs smd, e tal também...
+[2016-07-29 22:43:28] erin, o que vc precisa fazer com esse dreamcast?
+[2016-07-29 22:43:33] fazer ele voltar a funcionar?
+[2016-07-29 22:43:52] ou vc tá fazendo algum tipo de modificação / hardware hack ?
+[2016-07-29 22:49:01] sd card mod!
+[2016-07-29 22:49:22] http://i.imgur.com/znUmV.jpg
+[2016-07-29 22:49:37] parece não ter curtos
+[2016-07-29 22:50:00] mas a placa é uma bem cagada que eu fiz faz uns 3 ou 4 anos :p não sei se ela funciona.. arrumei algumas soldas ruins
+[2016-07-29 22:50:16] na época eu não tinha estação de solda boa então não consegui chegar a soldar o mod no dc
+[2016-07-29 22:50:20] agora tem uma no lab
+[2016-07-29 22:50:42] eu devia fazer uma placa melhor mas tá tarde e eu tô sem perfboard, vai essa mesmo
+[2016-07-29 23:14:03] a idéia é carregar games direto do SDcard em vez de CD ?
+[2016-07-29 23:30:14] também
+[2016-07-29 23:30:25] tem suporte a isso, mas não substitui o gdrom
+[2016-07-29 23:30:33] preciso correr pro metrô agora
+[2016-07-29 23:45:44] consegui fechar ele todo com os novos componentes dentro  surpreendentemente
+[2016-07-29 23:47:14] tem bastante espaço de sobra atrás da placa dos controles
+[2016-07-29 23:47:15] o slot SD tá dependurado do lado de fora enquanto eu não fizer um buraco pra ele na carcaça haha
+[2016-07-29 23:48:03] eu fui testar mas quando coloquei na tomada ele ligou sozinho com um pequeno estalo e eu falei fodeu né, dei curto na fonte
+[2016-07-29 23:48:37] lógico que eu puxei da tomada no mesmo segundo
+[2016-07-29 23:48:58] mas agora que eu to no metrô que eu me toquei
+[2016-07-29 23:49:37] acho que só fechei com o botão power apertado HAHAHA
+[2016-07-29 23:50:14] assim que chegar em casa vou poder ver se foi isso mesmo

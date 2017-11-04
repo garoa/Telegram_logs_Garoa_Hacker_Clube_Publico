@@ -1,0 +1,86 @@
+[2017-09-01 07:09:39] Já tentou atualizar o firmware!? 😂
+[2017-09-01 07:41:42] cara, certeza que é o motor, esses modelos possuem características de chair building, sempre necessitam reparos tanto no motor quanto na parte eletrônica, quando funcionam são surpreendentes. 😝
+[2017-09-01 09:21:38] http://www.reuters.tv/v/q6A/2017/09/01/swimmer-avoids-shark-but-not-jail
+[2017-09-01 09:37:19] Farmy joined
+[2017-09-01 09:37:20] Hi Farmy !
+[2017-09-01 10:26:54] Oi gente. Aqui é o Cristthian do CTA. Estamos na residencia hacker do Red Bull Basement construindo o projeto do Micro Aerogerador e precisamos de um gerador de funções emprestado para testarmos as bobinas que fabricamos. Alguém teria como conseguir um pra gente? Devolveriamos amanhã, no caso.
+[2017-09-01 10:31:01] Se nao der para emprestar ou preferirem nao emprestar podemos levar as bobinas e medir a indutancia no local mesmo. OK?
+[2017-09-01 10:37:56] Preferimos que tragam as bobinas para serem medidas no Garoa.
+[2017-09-01 11:42:22] Blz mas eu acho q ja encontrei um , mas vlw a ajuda aew e tbm eu queria saber se alguem pode me ajuda a comprar pelo ebay
+[2017-09-01 11:42:40] Oq e coreboot man
+[2017-09-01 11:42:41] ?
+[2017-09-01 11:56:33] Esta bem, ate que horas ficara Aberto hoje?
+[2017-09-01 11:57:32] É uma BIOS alternativa, feita majoritariamente de software livre. Alguns computadores suportam o arranque só com software livre, alguns precisam de alguns blobs binários ainda.
+[2017-09-01 11:58:16] Eu uso no meu laptop (um X220). Inclusive, com Coreboot, eu consegui colocar Linux direto na ROM... e aí eu tenho a partição de boot criptografada também. Meu PC não tem mais setor de boot no HD. :)
+[2017-09-01 11:59:37] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_599725048252596264.webp
+[2017-09-01 12:05:59] Eu provavelmente devo chegar no meio da tarde, lá pras 16h
+[2017-09-01 12:06:28] Não sei dizer (nem posso prometer) até que horas vou ficar por lá. Mas de noite estarei organizando uma apresentação de demos no projetor de uma das salas.
+[2017-09-01 12:06:54] fica de olho no wiki do Garoa pra ver quando o guarda-chuva abre
+[2017-09-01 12:16:02] Ok
+[2017-09-01 12:27:01] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_40214259828786233.webp
+[2017-09-01 12:36:25] Agora me diz oq e blobs binarios
+[2017-09-01 12:36:57] Mano como q criptografa OS Linux
+[2017-09-01 12:37:08] E qual os pros e contras??
+[2017-09-01 12:38:34] Blobs binários são coisas proprietárias. Sem acesso público ao código fonte. No caso do firmware, geralmente fornecido pelo fabricante. Pode conter rotinas pra inicializar o hardware, etc.
+[2017-09-01 12:39:35] Melhor ler a documentação da tua distribuição pra saber como que é o melhor jeito de fazer isso nela. Algumas (tipo Fedora), permitem criptografar com um checkbox na instalação. Outras (tipo Arch Linux, que eu uso), você faz todo o setup na mão usando cryptsetup.
+[2017-09-01 12:41:00] O pró: teus dados tão criptografados. O contra: talvez alguns anos atrás, com processadores velhos, tivesse alguma diferença mensurável em desempenho do disco... hoje em dia, com SSD e processadores com primitivas critptográficas em hardware, pra uso doméstico, não dá diferença nenhuma.
+[2017-09-01 13:09:16] Usando aqueles cds q encontram a senha do os
+[2017-09-01 13:09:44] Se eu criptografar tem alguma chance de n conseguirem quebrar minha senha?
+[2017-09-01 13:09:58] Tipo descobrirem usando ophcrack etc...?
+[2017-09-01 13:22:53] Pergunta meio óbivia: alguém aqui compra com frequencia no Aliexpress?
+[2017-09-01 13:28:20] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804740861_110392.jpg
+[2017-09-01 13:28:27] o povo nao cansa de pedir doacao mesmo 😂
+[2017-09-01 13:29:16] Com frequência não. Mas já fiz algumas compras lá (umas quinze ou vinte)
+[2017-09-01 13:32:46] enquanto isso no ancapstão kkkkk
+[2017-09-01 13:34:28] Já comprei bastante lá, o lance é ficar de olho na classificação do vendedor e se tem comentário BR, me baseio por isso
+[2017-09-01 14:11:25] Quem conhece a história do grupo UX da França
+[2017-09-01 14:11:29] ?
+[2017-09-01 14:11:58] Do conserto do relógio
+[2017-09-01 14:17:51] eu!
+[2017-09-01 14:18:24] Conheço, entraram em um prédio/lugar histórico escondidos e consertaram um relógio bem antigo. E foram processados por fazer o conserto. É algo assim, né?
+[2017-09-01 14:18:51] acho que tiveram que construir algumas peças para o relógio hehe
+[2017-09-01 14:59:02] Alguém procurando emprego? Fullstack developer para integrar uma startup do setor de energia com base no Rio e Sampa.
+[2017-09-01 15:01:28] Manda os detalhes da vaga para eu divulgar.
+[2017-09-01 15:03:08] qual o stack de backend?
+[2017-09-01 15:05:13] BD Fireblade + angular
+rodrigo@enguia.eco.br
+[2017-09-01 15:13:39] Compro com MUITA frequencia
+[2017-09-01 15:15:15] Geralmente vc prefere pagar no boleto ou compensa pagar no Cartão de Crédito com IOF?
+[2017-09-01 15:15:39] Pago no Cartão
+[2017-09-01 15:15:48] nunca paguei com boleto
+[2017-09-01 15:16:39] não incide IOF pq quem cobra é a EBANX, aqui do Br (Curitiba)
+[2017-09-01 15:16:48] te cobram direto em reais
+[2017-09-01 15:18:02] Hayitam joined
+[2017-09-01 15:18:02] Hi Hayitam !
+[2017-09-01 15:19:52] Boa tarde galera, que horas o garoa vai estar aberto amanhã?
+[2017-09-01 15:24:36] Mas vc tem cartão da ebanx? Achei que o ebanx fosse só pro boleto
+[2017-09-01 15:41:44] O Garoa está aberto. Acabei de chegar
+[2017-09-01 15:51:29] Pessoal,
+
+ Vai ter alguém no Garoa hoje no Open Hack Night?
+[2017-09-01 15:52:16] Já tem
+[2017-09-01 15:54:42] Legal, estou indo aí conhecer, saindo de Santana de Parnaíba hehe
+[2017-09-01 16:01:15] Nubank e Itaucard...
+[2017-09-01 16:21:02] Show talvez eu vá mais tarde
+[2017-09-01 16:39:14] Legal
+[2017-09-01 17:15:38] http://avidanocentro.com.br/cultura/o-itau-cultural-vai-liberar-r-15-milhoes-para-projetos-culturais-veja-como-concorrer/
+[2017-09-01 17:37:07] Um pro e que fica mais dificil de alguem
+Modificar seu bash para resetar sua senha. Mas se voce estava falando de criptografar o home pode ignorar o que eu falei
+[2017-09-01 17:46:28] Já tem alguém no Garoa?
+[2017-09-01 18:03:12] sim
+[2017-09-01 18:03:13] eu
+[2017-09-01 18:03:16] faz tempo
+[2017-09-01 18:03:57] Cesar Scavone joined
+[2017-09-01 18:03:58] Hi Cesar !
+[2017-09-01 18:04:10] Boa noite!
+[2017-09-01 18:05:54] Vou dar um pulo agora no Garoa para conhecer. Já li que tem gente. Obrigado
+[2017-09-01 19:12:42] Vou no garoa fazer uma análise dos nossos dados de pizza e cerveja
+[2017-09-01 19:29:38] Sacanagem falar isso abertamente no grupo sendo que muitos não podem ir
+[2017-09-01 19:30:49] Google How to open a hackerspace
+[2017-09-01 19:35:24] Google reasons to quit your job
+[2017-09-01 20:52:01] Garoa aberto ainda?
+[2017-09-01 20:53:39] Aberto
+[2017-09-01 22:56:35] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_4994618164303101965
+[2017-09-01 23:30:22] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804740839_111745.jpg
+[2017-09-01 23:33:43] 😂
+[2017-09-01 23:34:02] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_272479773299573004.webp

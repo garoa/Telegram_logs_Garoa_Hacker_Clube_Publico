@@ -1,0 +1,69 @@
+[2016-10-08 03:07:23] https://leaksource.files.wordpress.com/2014/08/the-web-application-hackers-handbook.pdf
+[2016-10-08 05:39:56] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803705669_110402.jpg
+[2016-10-08 07:03:12] Em princípio o Raspbian funciona nos dois, mas as CPUs dos dois são diferentes (armv7 x armv8), portanto é possível ter software que roda no RPi3 mas não no RPi2. Eu tentaria fazer um teste no RPi2 partindo de uma imagem nova do SO (isto é, reformatar e regravar o SD).
+[2016-10-08 09:13:56] Já criei nova imagem no mesmo sdcard, já criei em novo sdcard, já mudei cabo. O RPi2 funcionava direto nesse ambiente.
+[2016-10-08 09:15:04] É como a @mynameiserin disse. Li em fóruns que é problema de boot, mas tenho certeza que não é a sdcard.
+[2016-10-08 09:15:29] Ó Vida... Ó Céus... Ó Azar... rsrs
+[2016-10-08 09:16:04] Alguém sabe se dá para dar um novo flash na firmware?
+[2016-10-08 09:31:26] Welcome to rpi hell
+[2016-10-08 09:33:42] Oda ama os RPis. kkkkk
+[2016-10-08 10:42:21] Troquei meio os pelo Linux Mint! Pensa num arrependimento!!
+[2016-10-08 11:23:38] Luiz "LG" Martinez added fabricio
+[2016-10-08 11:23:39] Hi fabricio !
+[2016-10-08 11:24:06] Opa
+[2016-10-08 11:24:24] Bom dia galera
+[2016-10-08 11:25:27] Bom dia!!
+[2016-10-08 11:27:24] Buenos
+[2016-10-08 11:47:21] Internet no Garoa está funcionando direito? (a/c @Biazzotto e demais pessoas no dojo do grupy)
+[2016-10-08 11:48:31] Ontem tava meio lerda
+[2016-10-08 12:48:04] Alguem já usou o Parrot OS?
+[2016-10-08 14:13:13] Sim, está funcionando... testei com o simet.nic.br
+[2016-10-08 14:20:38] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_272479773299572978.webp
+[2016-10-08 14:24:13] Fsck
+[2016-10-08 14:25:47] Já vi isso, uma vez um cara falou que comprou um SD pirata, a máquina identificava com 32GB mas tinha somente 4GB... ele tentava expandir para os 32GB mas quando passava dos 4GB apresentava erro... só não lembro se era esse o erro, mas também indicava para rodar fsck...
+[2016-10-08 14:28:30] o cartão é classe 10? nunca vi esse erro
+[2016-10-08 14:56:52] Testei com 4 e 10
+[2016-10-08 14:57:09] Tenta dar boot pelo virtualbox
+[2016-10-08 15:02:09] Ah, deve ser complicado virtualizar ARM. Ao menos no QEMU eu acho complicado.
+O fsck não mostrou nenhum erro?
+[2016-10-08 15:03:13] alguém no Garoa?
+[2016-10-08 15:07:11] Nunca vi esse problema
+[2016-10-08 15:07:24] Está montando no sd onde e de q forma?
+[2016-10-08 15:19:32] Temos sensores piezo no Garoa? Para medição de vibração?
+[2016-10-08 16:01:30] Gutem, estávamos no Garoa até 12:30, mas não sei se temos sensores piezo lá...
+[2016-10-08 16:57:32] Aaaa, fsck não adianta nesse caso, pq ele da ok, mas na hora do uso real já era
+[2016-10-08 17:01:43] eh nao deu certo da fsck
+[2016-10-08 17:02:00] acho que o pi tá zoado sei la.. desistir ja fui fazer outra coisa
+[2016-10-08 19:08:50] Boa noite, alguém conhece alguma empresa que faz recuperação de dados em HD com problemas mecânicos?
+[2016-10-08 19:12:32] Rapaz, conhecer eu não conheço, mas se você for em uma loja de informática, eles com toda certeza vão te recomendar uma.
+[2016-10-08 19:15:15] Alguém sabe um local no Brasil para comprar Raspb3 confiável?
+[2016-10-08 19:40:50] Procura no Google Jesus do HD
+[2016-10-08 19:41:51] É um cara que literalmente faz milagres, trabalha em uma empresa que o servidor pegou fogo e a empresa do cara conseguiu recuperar boa parte dos dados
+[2016-10-08 20:03:53] Vou verificar, mas o problema foi que um cliente deixou o HD cair, aí o amigo do amigo disse que recuperava, abriu o HD e falou que a agulha só estava i do até a metade
+[2016-10-08 20:04:07] Agora vem desesperado para recuperar
+[2016-10-08 20:09:40] Se funcionou com o HD queimado acho que com a agulha vai ser tranquilo
+[2016-10-08 20:09:43] Não sei
+[2016-10-08 20:11:24] Blz, valeu @LimaWill
+[2016-10-08 20:14:17] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803716472_109223.jpg
+[2016-10-08 20:25:15] Eu recuperei numa da santa ifigenia
+[2016-10-08 20:26:52] Hummm, mas deve ser muito caro
+[2016-10-08 20:28:37] Lembra onde foi?
+[2016-10-08 22:06:02] Filipe Mandarino joined
+[2016-10-08 22:06:03] Hi Filipe !
+[2016-10-08 22:06:40] Olá...
+[2016-10-08 22:06:59] estou querendo frequentar o Garoa aqui na minha cidade....
+[2016-10-08 22:07:46] entendo mais de software do que de hardware..
+[2016-10-08 22:09:03] sou do Rio..
+[2016-10-08 22:12:42] Acho que tem um hackerspace aí no rio, não?
+[2016-10-08 22:12:56] tem sim..
+[2016-10-08 22:13:24] não entendo nada de hardware..
+[2016-10-08 22:13:32] minha praia é banco de dados..
+[2016-10-08 22:14:18] estudei um pouco de criptografia de banco de dados
+[2016-10-08 22:14:27] Tudo bem, a maior parte do pessoal aprende de hardware nos hackerspaces
+[2016-10-08 22:14:42] ótimo!!
+[2016-10-08 22:15:40] tenho um amigo que está querendo fazer um software para controle de acesso..
+[2016-10-08 22:15:49] estou ajudando ele a escrever o software..
+[2016-10-08 23:01:17] No Rio de Janeiro não garoa. Teria que ser algo como Redentor Hacker Clube, sei lá. 😛
+[2016-10-08 23:48:12] Aqui em maringá teve algo assim!!
+[2016-10-08 23:48:22] Um clube ligado ao Garoa!!
+[2016-10-08 23:48:35] Mas parece que não existe mais!!

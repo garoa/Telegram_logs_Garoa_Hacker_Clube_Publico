@@ -1,0 +1,77 @@
+[2017-01-14 01:24:01] Exposed de merda...
+Peraí que vou ali mostrar como faz e já volto! Hehehe
+[2017-01-14 01:31:53] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803729891_153102.jpg
+[2017-01-14 01:31:56] Gutem removido do grupo
+[2017-01-14 01:32:05] LOL! (é mentira!)
+[2017-01-14 01:52:12] 😂
+[2017-01-14 03:04:05] concordo
+[2017-01-14 03:07:40] as anonemas tao falando que o governo mudou de ideia por causa do exposed deles, tá de sacanagem né....
+[2017-01-14 06:37:56] Massa
+[2017-01-14 09:36:35] Vou la no Garoa ver o que temos para a pizza
+[2017-01-14 09:38:05] O Marcelo disse que hoje ele vai falar de introdução a eletronica
+[2017-01-14 11:23:34] Gente, vocês já viram um Arduino resetar a cada poucos segundos quando ligado no micro?
+[2017-01-14 11:23:50] Numa fonte externa ele vai bem
+[2017-01-14 11:25:10] (será USB zoado?)
+[2017-01-14 12:26:58] Pode ser USB zoado. Ou pode ter algum programa tentando comunicar. O Arduino é ressetado sempre que ocorre uma conexão na serial (por exemplo, quando você abre o Serial Monitor da IDE). Isto é usado para disparar automaticamente o bootloader para carga de um novo sketch.
+[2017-01-14 12:30:33] Muito obrigado DQ!
+[2017-01-14 12:30:44] Vou investigar!
+[2017-01-14 12:38:29] Matou! Tinha um Scratch for Arduino tentando falar ao mesmo tempo!
+[2017-01-14 12:38:45] Esse Scratch tagarela...
+[2017-01-14 13:04:40] Vou indo no garoa para a grande aventura de fazer pizza que vai começar e terminar em pizza
+[2017-01-14 13:48:17] Carlos Tabarnac joined
+[2017-01-14 13:48:17] Hi Carlos !
+[2017-01-14 14:21:34] Alce added Dênis Almiro
+[2017-01-14 14:21:34] Hi Dênis !
+[2017-01-14 16:26:56] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803110147_305.jpg
+[2017-01-14 16:26:58] #vaiterpizza
+[2017-01-14 16:28:03] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803734178_30965.jpg
+[2017-01-14 16:28:18] #tatendocursodeeletronica
+[2017-01-14 17:08:16] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803709071_22700.jpg
+[2017-01-14 17:08:16] #vaiterpizza
+[2017-01-14 17:24:40] 👏👏👏
+[2017-01-14 18:22:23] Bizarro esse tal de s4a! Num entendi nada... Aí fiz um Garoa dojo, na casa dessa amiga :)
+[2017-01-14 19:04:45] Ta rolando pizza ainda
+[2017-01-14 19:04:49] Precisam de algi
+[2017-01-14 19:05:01] Vou colar ai😊
+[2017-01-14 19:05:08] 🍕🍕🍕
+[2017-01-14 19:08:09] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803111436_573.jpg
+[2017-01-14 19:08:13] Update
+[2017-01-14 19:08:23] Devidamente sinetados
+[2017-01-14 19:25:57] "olha aqui meu bem, não mexe comigo não em" kkkk
+[2017-01-14 19:50:53] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803709694_20677.jpg
+[2017-01-14 19:51:31] 😂
+[2017-01-14 20:10:08] Quais problemas?
+[2017-01-14 20:11:05] Aqui
+[2017-01-14 20:13:19] Boa noite pessoal ?
+[2017-01-14 20:13:41] to com pum problema em um script que estou tentando fazer no python
+[2017-01-14 20:13:59] def api_request(method, params=None):
+    'requests methods to api_url and prints the result in json decoded format'
+    r = s.get(api_url + method)
+    print 'status:', r.status_code
+    #print r.json()
+    print r.text
+[2017-01-14 20:14:42] ele funciona mas estou tentando fazer o parse com a linha
+[2017-01-14 20:15:23] print r.text[mac] e da o erro
+[2017-01-14 20:15:24] File "./teste2.py", line 14, in api_request
+    print r[mac]
+NameError: global name 'mac' is not define
+[2017-01-14 20:15:35] se algum poder me ajudar. vlw
+[2017-01-14 20:25:41] Então, não me contaram, mas na hora q eu fui pensar tb, veio como o usuário pode ferrar com o sistema, tem a parte dá segurança, tem a privacidade do usuário. Vou tentar marcar um dia pra gente discutir sobre essa automação aí, assim a gente já vê os obstáculos e faz o o projeto se td der certo
+[2017-01-14 21:08:47] Também podemos pensar usar MiFare
+[2017-01-14 21:09:09] Cada pessoa quase tem um Bilhete Único, funciona sem problemas
+[2017-01-14 21:10:18] No escritório onde eu trabalhava, invés de ter MAIS UM cartão no meu bolsou eu cadastro meu Bilhete Unico
+[2017-01-14 21:10:36] Acho que é MiFare se não me engano
+[2017-01-14 21:51:51] sim, bu é mifare classic
+[2017-01-14 21:52:16] 1k comum, 4k o registrado (com foto/estudante)
+[2017-01-14 22:24:26] mac não definido.
+[2017-01-14 22:24:49] De onde vem esse mac?
+[2017-01-14 22:24:57] vlw, mas achei o problema é que tem mais de um entrada com esse nome no meu json
+[2017-01-14 22:26:52] Então vc pode contar as ocorrências e retornar apenas o primeiro
+[2017-01-14 22:27:36] Mas aí q tá, mts sócios são hacker, e como um bom hacker, curtem privacidade e talz
+[2017-01-14 22:28:09] para o que eu quero eu tenho que analisar tudo atrás de um valor, por enquanto eu desistir do python e fui para o bash e consegui resolver, mas amanhã irei voltar com isso
+[2017-01-14 22:52:26] e qual e o problema de incluir isso? AirGap no controlador, nao gravar acessos no controlador, fazer ele OpenSOurce?
+[2017-01-14 22:52:51] so numero de Serie do MiFare para checar com base de dados se existe
+[2017-01-14 23:22:29] Dhora, mas como eu falei, tem q marcar um dia e falar com a maioria, ver as issues, depois passar pros associados, se aprovar a gente faz
+[2017-01-14 23:56:38] Hue
+[2017-01-14 23:57:08] Pizza foi top valeu quem compareceu 
+...cheguei tarde mas deu para aproveitar

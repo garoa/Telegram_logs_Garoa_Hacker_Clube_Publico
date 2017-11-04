@@ -1,0 +1,28 @@
+[2017-01-08 02:12:20]  joined
+[2017-01-08 02:12:21] Hi grayhat¬_¬ !
+[2017-01-08 17:51:01] Interessante eh saber como vai funcionar este espaço.. principalmente por ser na área aberta.. terá um grande número de pessoas circulando.. pra divulgação do hackerspace... uma ótima oportunidade.
+[2017-01-08 18:51:04] alguém manja onde tem a lista de notas de corte das FATECs do ano passado?
+[2017-01-08 20:05:33] Tem num site chamado Calculadora Fatec, mas está fora do ar por exceder os limites do servidor:
+http://calculadorafatec.gregmaster.com.br/docs/Resultado%20Ano%20Anteriores.pdf
+[2017-01-08 20:07:35] O cálculo da sua nota pode ser obtido aqui:
+http://www.vestibularfatec.com.br/duvidas-frequentes/?c=3#collapse34
+[2017-01-08 20:10:00] Boa sorte Vini!!! Estamos torcendo por você!
+[2017-01-08 20:10:35] Sim! Também estou torcendo por você!
+[2017-01-08 20:17:54] Opaaaa
+[2017-01-08 20:24:07] Trap, n house 😂😂😂😂😂
+[2017-01-08 21:37:40] Allan @anchisesbr @fsanches @wmariusso Sobre o espaço Fazedores, vai ter sim, mas deixa em off q ainda não foi divulgado oficialmente, sera um makerspace no espaço open da Campus, com impressoras 3D, cortadoras a laser, CNC e etc, Garoeiros estão convidados a participar, fazer atividades e tal. Amanha vou conversar com o responsável pra ver como a gente pode participar, se alguém tiver alguma pergunta, posso repassar, abçs
+[2017-01-08 22:11:57] @Yumizinha @Biazzotto valeu mesmo! do fundo do core!
+[2017-01-08 22:12:11] alguem manja de programa para stress loadar um site?
+[2017-01-08 22:15:33]  joined
+[2017-01-08 22:15:33] Hi up2root !
+[2017-01-08 22:18:57] Load impact
+[2017-01-08 22:56:19] A quem interessar possa: a Udemy tá com um monte de curso a 10 dolares, incluindo CCNA, AWS, LPIC, ITIL, CEH...
+[2017-01-08 23:00:00] Coursera conta como hora complementar na facul?🤔
+[2017-01-08 23:03:24] Tem serviços, gringos, de botnet para isso
+[2017-01-08 23:05:59] um unico programa não vai ser capaz de fazer stress testing, por dois motivos:
+1 - A banda do server PROVAVELMENTE será maior que a tua
+2 - sem explorar uma vuln de L7 (Slowloris, p. e.) você cai no item item. Se explorar, não é stress test
+[2017-01-08 23:07:14] Uma solução é ir atras de um script de DoS do tipo Amplificação (NTP, DNS, etc)
+[2017-01-08 23:07:42] Ou, pegar um servidor que tenha acesso SSH na mesma rede e rodar o T50, por exemplo
+[2017-01-08 23:08:46] Em qualquer dos casos, não esqueça de avisar o pessoal do DC que vai fazer o Teste (assim você garante que o unico stress vai ser na Rede, não nos funcionários... rs)
+[2017-01-08 23:44:52] isso mesmo recomendocom Leandro recomenda, LoadImpact

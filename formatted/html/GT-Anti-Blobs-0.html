@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<title>Chat: GT-Anti-Blobs</title>
+  	<link rel=stylesheet href="telegram-history-dump.css">
+  </head>
+  <body>
+  	<div class='navigation-top'><a href="index.html">Back to index</a> | Page 1 | </div>
+  	<h1>Group chat: GT-Anti-Blobs</h1>
+<div class='msg-service' title='2017-08-17 09:42:52 -0300'><div class=inner>Thu 2017-08-17, 09:09</div></div>
+<div class='msg out' title='2017-08-17 09:43:25 -0300'>Membros iniciais nesse grupo: Kretcheu, Madruga e Edu Filipe</div>
+<div class='msg out' title='2017-08-17 09:43:35 -0300'>e eu (Felipe &quot;Juca&quot; Sanches)</div>
+<div class='msg out' title='2017-08-17 09:43:52 -0300'>Essa é a lista: <a target='_blank' href='https://libreplanet.org/wiki/LinuxLibre:Devices_that_require_non-free_firmware'>https://libreplanet.org/wiki/LinuxLibre:Devices_that_require_non-free_firmware</a></div>
+<div class='msg out' title='2017-08-17 09:45:31 -0300'>A tabela é meio enfadonha de editar. As datas e versões do kernel eu editei algoritmicamente</div>
+<div class='msg out' title='2017-08-17 09:46:46 -0300'>escrevi um script para fazer o parsing do wiki-code, pegar o nome do driver, baixar o HTML de duas páginas que têm essas infos de data de cada release do Linux, fazer o parsing dos HTML pra extrair as infor, enxertar no wiki-code e salvar num arquivo de output que eu copiei e colei de volta pro wiki</div>
+<div class='msg out' title='2017-08-17 09:47:44 -0300'>acho que seria o caso de ter esses dados todos armazenados em JSON em um repositório git junto com ferramentas para gerenciar os dados, assim como para gerar visualizações</div>
+<div class='msg out' title='2017-08-17 09:47:55 -0300'>mas por enquanto o que a gente tem é o wiki mesmo</div>
+<div class='msg out' title='2017-08-17 09:48:13 -0300'>Pensei em adicionar mais campos nessa tabela</div>
+<div class='msg out' title='2017-08-17 09:48:22 -0300'>hoje ela nos mostra as seguintes informações:</div>
+<div class='msg out' title='2017-08-17 09:48:27 -0300'>Nome do driver</div>
+<div class='msg out' title='2017-08-17 09:48:47 -0300'>em qual modelo de CPU o firmware roda</div>
+<div class='msg out' title='2017-08-17 09:49:07 -0300'>qual foi a primeira versão do kernel contendo um driver para o dispositivo</div>
+<div class='msg out' title='2017-08-17 09:49:17 -0300'>qual foi a data de release desse primeiro driver</div>
+<div class='msg out' title='2017-08-17 09:49:52 -0300'>qual a relevância desse dispositivo (aqui podem entrar observações, evidências de popularidade, algum uso importante, notório do dispositivo, etc)</div>
+<div class='msg out' title='2017-08-17 09:50:14 -0300'>quais são os termos de licenciamento do firmware (vou falar mais sobre esse campo depois)</div>
+<div class='msg out' title='2017-08-17 09:51:14 -0300'>e a descrição do driver (essa é a string de descrição oferecida no log de deblobbing do Linux-Libre que, por sua vez, provavelmente vem da descrição escrita pelo próprio autor do driver no kernel)</div>
+<div class='msg out' title='2017-08-17 09:52:08 -0300'>Os campos atualmente incompletos nessa tabela são: CPU, relevância e status legal/licenciamento</div>
+<div class='msg out' title='2017-08-17 09:53:00 -0300'>Descobrir qual é a CPU de um dispositivo não é trivial, então esse campo vai muito provavelmente continuar incompleto pra sempre. Gradualmente podemos ir anotando o que formos descobrindo.</div>
+<div class='msg out' title='2017-08-17 09:53:25 -0300'>Mas é importante lembrar que sem saber qual é a CPU, é absolutamente impossível escrever um novo firmware para o dispositivo.</div>
+<div class='msg out' title='2017-08-17 09:55:54 -0300'>Às vezes constam no driver comentários sobre a arquitetura do hardware. Às vezes podemos inferir por meio do algorítmo de carga de firmware implementado no hardware qual é a CPU do dispositivo (cruzando com informações de datasheets, foi isso que eu fiz no caso dos EzUSB dessa lista). E às vezes uma análise do binário do firmware pode prover evidências de qual arquitetura de CPU foi usada (dá pra fazer isso, por exemplo, com binários compilados para processadores ARM - há um padrão numérico bem evidente, posso explicar em mais detalhes esse exemplo depois se quiserem)</div>
+<div class='msg out' title='2017-08-17 09:56:51 -0300'>A coluna &quot;relevância&quot; também será preenchida gradativamente, com base em pesquisas online e coleta de relatos de usuários.</div>
+<div class='msg out' title='2017-08-17 09:57:39 -0300'>Talvez caiba aqui uma pesquisa de popularidade desses dispositivos. Essa é uma parte importante para vocês me ajudarem a planejar/executar.</div>
+<div class='msg out' title='2017-08-17 09:58:09 -0300'>(tudo é importante, na real ! Mas acho que o campo &quot;relevância&quot; é muito estratégico, então vale uma atenção maior)</div>
+<div class='msg out' title='2017-08-17 10:00:43 -0300'>Por fim, temos a coluna de &quot;status legal / licenciamento do firmware&quot;. A lógica por trás da coleta desse tipo de info é que em alguns casos os fabricantes se acharam espertinhos aplicando a licença GPLv2 nos blobs para mascarar o fato de não serem software livre. Mas o tiro saiu pela culatra pra eles, pois para firmwares não livres licenciados sob GPLv2 podemos fazer um disassembly e o código resultante pode servir de base para iniciar um projeto de firmware livre (depois de umas boas massagens, é claro)</div>
+<div class='msg out' title='2017-08-17 10:03:17 -0300'>Pensei também em adicionar mais colunas nessa tabela como, por exemplo, informações sobre &quot;onde comprar&quot; listando links para lojas online onde produtos que dependam do firmware não livre em questão possa ser comprado. O objetivo não é induzir a compra. Pelo contrário, seria para servir de maior evidência sobre a relevância do dispositivo. E também para evitar trabalho à toa: Se é impossível de comprar, então por que gastaríamos neurônios tentando dar suporte ?</div>
+<div class='msg out' title='2017-08-17 10:04:37 -0300'>Uma última observação inicial: A funcionalidade de ordenação da tabela no wiki da LibrePlanet parece estar com problemas de lidar com essa tabelona que eu fiz. Não estou conseguindo ordenar por data de release do primeiro driver, o que seria extremamente importante para visualizar as informações.</div>
+<div class='msg out' title='2017-08-17 10:04:59 -0300'>Bom, é isso aí! Está enunciado o desafio :-D Happy Hacking!</div>
+<div class='msg-service' title='2017-08-17 11:07:44 -0300'><div class=inner>Felipe &quot;Juca&quot; Sanches added Raphael Thaumaturgo Molnar</div></div>
+<div class='msg-service' title='2017-08-17 11:43:13 -0300'><div class=inner>kretcheu ☭ added Alexsandro Carvalho</div></div>
+<div class='msg in' title='2017-08-17 11:51:44 -0300'><div class="author">Alexsandro Carvalho:</div> Pode fazer um script que busca no stack overflow e nos sites de suporte das sistros por perguntas sobre o hardware. Considerando que muitas perguntas maior  interesse</div>
+<div class='msg out' title='2017-08-17 11:56:43 -0300'>boa!</div>
+<div class='msg out' title='2017-08-17 11:57:30 -0300'>Seria um crawler. Você quer tentar escrever um script desses ?</div>
+<div class='msg out' title='2017-08-17 11:58:04 -0300'>ou talvez simplesmente consultar os resultados de busca do próprio Google</div>
+<div class='msg in' title='2017-08-17 11:59:02 -0300'><div class="author">Alexsandro Carvalho:</div> Google serve</div>
+<div class='msg out' title='2017-08-17 12:17:05 -0300'>vou abrir um repo no gitlab pra botar scripts auxiliares</div>
+<div class='msg out' title='2017-08-17 12:26:05 -0300'><a target='_blank' href='https://gitlab.com/fsanches/Anti-Blobs'>https://gitlab.com/fsanches/Anti-Blobs</a></div>
+<div class='msg out' title='2017-08-17 16:05:54 -0300'>Nesse repo eu coloquei o script que escrevi ontem para automaticamente alimentar as colunas &quot;data&quot; e &quot;versão&quot; da introdução de novos drivers no kernel</div>
+<div class='msg in' title='2017-09-26 03:06:40 -0300'><div class="author">kretcheu ☭:</div> Os firmwares saindo da árvore principal do Linux, ainda sobram blobs sendo distribuídos ni tarball ?</div>
+<div class='msg out' title='2017-09-28 18:16:12 -0300'>não sei dizer</div>
+<div class='msg out' title='2017-10-10 16:57:25 -0300'>Tem um repo Anti-Blobs que precisa ser atualizado. Alguém aqui está a fim de fazer a atualização dessa vez ?</div>
+<div class='msg out' title='2017-10-10 16:59:00 -0300'><a target='_blank' href='https://gitlab.com/fsanches/Anti-Blobs'>https://gitlab.com/fsanches/Anti-Blobs</a></div>
+<div class='msg out' title='2017-10-10 17:01:50 -0300'>Precisaríamos ir passo a passo atualizando a lista do wiki (https://libreplanet.org/wiki/LinuxLibre:Devices_that_require_non-free_firmware) da versão 4.12.7 até a versão atual que, se não me engano, é a 4.13.5</div>
+<div class='msg out' title='2017-10-10 17:01:56 -0300'><a target='_blank' href='http://linux-libre.fsfla.org/pub/linux-libre/releases/LATEST-4.13.N/'>http://linux-libre.fsfla.org/pub/linux-libre/releases/LATEST-4.13.N/</a></div>
+<div class='msg out' title='2017-10-10 17:02:51 -0300'>E descobrir quais novos firmwares não livres apareceram como dependência de drivers do kernel nesse meio tempo (e se algum foi embora)</div>
+<div class='msg out' title='2017-10-10 17:03:31 -0300'>hoje em dia o trabalho é mais ou menos manual ainda. Entretanto, tem um pequeno script no repo git do Anti-Blobs, que ajuda um pouquinho nessa tarefa.</div>
+<div class='msg out' title='2017-10-10 17:04:45 -0300'>Mas o que mais ajuda é meramente fazer o diff (usando o git) entre o log do linux-libre de uma versão antiga e os logs mais atuais.</div>
+  	<div class='navigation-bottom'><a href="index.html">Back to index</a> | Page 1 | </div>
+  </body>
+</html>

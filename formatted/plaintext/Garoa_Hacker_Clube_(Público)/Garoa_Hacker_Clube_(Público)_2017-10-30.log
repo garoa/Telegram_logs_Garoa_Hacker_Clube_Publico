@@ -1,0 +1,85 @@
+[2017-10-30 01:50:23] se puder vir na sexta seria legal
+[2017-10-30 01:50:56] Emulei o CP-500 no MAME
+[2017-10-30 01:50:56] https://forum.fiozera.com.br/t/estudando-os-circuitos-do-prologica-cp-500/150/5
+[2017-10-30 01:50:56] photo
+[2017-10-30 01:50:56] O hardware não é idêntico ao do TRS-80 Model 3. Tem um flipflop que chaveia página de memória e por causa da falta da emulação dessa parte simplesmente carregar a ROM do cp500 no emulador de TRS80 Model 3 não funciona
+[2017-10-30 01:50:56] Fiz os ajustes, declarei um novo driver de emulação derivado do TRS80 Model 3 contendo a emulação do flipflop adicional e do mecanismo de chaveamento de página e agora rola direitinho
+[2017-10-30 01:50:56] deve ser incluso na versão do MAME do mês que vem, a 0.192
+[2017-10-30 07:56:20] Como vai ser o garoa no feriado?vai abrir?
+[2017-10-30 07:57:18] Estou vendo com uns cria de sudo su aqui de Sorocaba  pra termos uns Hackerspace.  Pq a cidade  aqui tá fraca não  tem evento  não  tem nada pro pessoal  da T.I. 
+
+Daí gostaria de fazer uma visita
+[2017-10-30 07:57:34] E o pessoal  daqui... quem vai na RoadSec?
+[2017-10-30 08:40:58] O Garoa tem uma mesa na roadsec, se quiser ajudar lá na mesa um pouco é legal
+[2017-10-30 08:41:27] Só ficar lá conversando com o povo
+[2017-10-30 08:50:25] Galera, alguém aqui usa Manjaro?
+[2017-10-30 08:51:02] E está tendo problema com a velocidade de download do mirror desde ontem de noite?
+[2017-10-30 09:26:53] Bruno, eu estarei lá provavelmente umas 18, 19h
+[2017-10-30 09:45:31] Também pretendo ir... agora só estou podendo ir ao Garoa nos feriados...
+[2017-10-30 11:52:30] Sexta estarei lá, montando um drone de corrida.
+[2017-10-30 13:09:03] Opa. Pode deixar mike. Conparecerei lá
+[2017-10-30 13:11:42] Gustavo Fabricio  e Gutem...
+
+Tô com um amigo Ronaldo  querendo ir também. Vou acertar  com ele. Qualquer novidade mando aqui no grupo
+[2017-10-30 14:11:10] Eu tenho interesse, poderia me passar mais informacoes?
+[2017-10-30 14:13:29] Eu! :D
+[2017-10-30 14:32:57] Bastarde!
+[2017-10-30 14:34:02] Ótimo trabalho cara! Parabéns pela preservação desse computador tão amado pelo pessoal da retro-computação.
+[2017-10-30 14:45:22] o garoa ou alguém do grupo se interessa por um PVM sony com defeito?
+[2017-10-30 14:45:56] pra dar pra alguém queria uns R$100 em troca, pra deixar pro garoa posso deixar de graça
+[2017-10-30 14:48:03] Deixei um pente de 512mb pra vc la, nao sei se vai ser util
+[2017-10-30 14:48:25] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804722125_58447.jpg
+[2017-10-30 14:48:44] Eu tinha 2x1 gb mas nao consigo achar
+[2017-10-30 14:49:13] assim que liga a imagem ainda aparece boa por poucos segundos antes dessa falha acontecer então acredito que tenha salvação, mas eu já consegui outro em melhor estado por menos do que o conserto numa assistência custaria, por isso queria me desfazer dele
+[2017-10-30 14:49:54] obrigada! mas 512mb não vão servir pro que preciso :( desculpa
+[2017-10-30 14:50:15] Sem probs
+[2017-10-30 14:53:55] Eu sou acumulador, você sabe, né? Tô tentando me segurar aqui, mas vontade de pegar pra mim eu tenho com certeza
+[2017-10-30 14:54:00] hehehe
+[2017-10-30 14:54:21] eu fiquei tão feliz quando consegui ele, mas depois de 1 dia de uso ele começou a dar esse problema
+[2017-10-30 14:54:27] estava perfeito antes
+[2017-10-30 14:54:41] ou seja, não "se desfaça" dele jogando no lixo :-P
+[2017-10-30 14:54:54] nunca
+[2017-10-30 14:55:01] hehe
+[2017-10-30 14:55:02] ok
+[2017-10-30 14:55:04] quero deixar pra alguém
+[2017-10-30 14:55:28] é que eu já tentei consertar e estou desistindo
+[2017-10-30 14:55:33] acho que devíamos fazer um encontro de "Acumuladores Anônimos" no Garoa...
+[2017-10-30 14:55:37] hehehehe
+[2017-10-30 14:56:01] e uma das atividades podia ser uma feirinha do rolo. Pra desapegar trocando de mãos...
+[2017-10-30 14:56:28] Não diminui o acúmulo, mas ajuda a exercitar o desapego.
+[2017-10-30 15:02:14] 🤔 me lembra problema de capacitor....  linha de sincronismo. ..
+[2017-10-30 15:03:01] hum. se eu te mostrar os esquemáticos sabe me dar uma idéia de onde caçar o problema? :p tem um service manual inteiro desse modelo na internet
+[2017-10-30 15:03:56] me sugeriram que o problema esteja na malha G1 (SCREEN) ou, na pior das hipóteses, no próprio tubo
+[2017-10-30 15:07:03] Me segurando... kkkkk. 😅 bora brincar... manual com esquema, osciloscopio, bancada...
+[2017-10-30 15:13:45] AEEEE!!!!
+[2017-10-30 15:13:58] Bora destrinchar esse bicho no Garoa durante o feriadão ?
+[2017-10-30 15:14:27] posso levar ele sexta talvez..
+[2017-10-30 15:15:16] Quero
+[2017-10-30 15:15:27] hahaha
+[2017-10-30 15:15:34] galera mostrando as caras
+[2017-10-30 15:15:55] bora converter um expert do garoa pra msx2+ e ligar ele no monitor :x
+[2017-10-30 15:17:30] eu comprei todos os capacitores da placa lógica do pvm pra tentar consertar, mas não quis trocar todos cegamente... são uns 140 capacitores
+[2017-10-30 15:17:37] tem capacímetro no garoa?
+[2017-10-30 15:28:28] não sei dizer
+[2017-10-30 15:46:15] ah, e..
+[2017-10-30 15:46:42] aceito carona ou dinheiro do taxi pra levar o bicho no garoa :p
+[2017-10-30 15:55:27] hmpf...
+[2017-10-30 16:07:15] Sexta fico livre após as 17h....
+[2017-10-30 16:07:34] Capacimetro, eu levo.
+[2017-10-30 16:19:40] pessoal, alguém aqui teve alguma experiencia ruim na troca de rom do android e precisou voltar para a rom standard? Estou querendo voltar a rom do meu Moto G e nao acho onde fazer o download
+[2017-10-30 16:28:48] Já rolou bootloop comigo e precisei dar rollback
+[2017-10-30 16:29:49] No meu caso era um Galaxy. Tem um site que tem todas as Roms stocks da Samsung
+[2017-10-30 16:30:29] o meu está esquentando demais... na rom original nao
+[2017-10-30 16:37:02] O meu aconteceu isso, mas fiz uma atualização "suja"... não tinha limpado os caches antes... depois que limpei tudo, funcionou sem problemas... (estou com ela agora)
+[2017-10-30 16:38:06] Mas o meu é um Zenfone 2, não um Moto G...
+[2017-10-30 16:50:36] Maneiro
+[2017-10-30 17:21:34] http://www.spacex.com/webcast
+[2017-10-30 17:24:42] https://www.youtube.com/c/EverydayAstronaut/live
+[2017-10-30 17:31:15] Eu estava procurando uma blindagem de RF para um projeto e apareceu esse fantástico website: https://www.lessemf.com/personal.html
+[2017-10-30 17:32:04] Deixa o chapéu de papel alumínio no chinelo
+[2017-10-30 17:45:15] O meu eu esqueci de limpar cache e outras coisas. Até pensei que poderia ser isso mesmo. Estava pensando em copiar os arquivos so LineageOS no microSD e formatar toda a memória dele e ver se adianta...
+[2017-10-30 18:15:37] https://cinegnose.blogspot.com.br/2017/10/para-cia-plano-astral-existe-e-e.html
+[2017-10-30 18:15:39] shit got real
+[2017-10-30 18:26:04] Eu li cinegospel hahahahaha
+[2017-10-30 23:56:09] Check out @_primes_’s Tweet: https://twitter.com/_primes_/status/925162553000345601?s=09
+[2017-10-30 23:57:04] Check out @_primes_’s Tweet: https://twitter.com/_primes_/status/925147466047074304?s=09

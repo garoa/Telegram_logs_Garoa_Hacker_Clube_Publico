@@ -1,0 +1,83 @@
+[2016-09-09 00:19:25] (2) intereese de aprender +1. Conheço o básico do básico no que puder ajudar tbm ... lpi. samba, iptables, shell... no que puder ajudar ...
+[2016-09-09 02:35:25] @vmesel Tinha o OpenPCR. Não sei que fim levou.
+[2016-09-09 02:37:38] Pessoal no Garoa tem brincado com ESP8266, que é WiFi, e bem compacto. 
+Pode ser interessante para o seu projeto
+[2016-09-09 04:12:02] http://mamedev.emulab.it/fsanches/2016/09/09/pixotosco-homebrew-on-gunsmoke-pcb/
+[2016-09-09 07:05:53] Mas no garoa?
+[2016-09-09 07:07:39] O openpcr é aparentemente eficiente
+[2016-09-09 07:11:09] Dá para fazer Madrid simples
+[2016-09-09 07:11:15] Mais simples
+[2016-09-09 08:23:00] Sim sim dá realmente, mas a questão é como pegar a sequência dps
+[2016-09-09 08:23:15] Precisamos de um sequenciador
+[2016-09-09 08:23:24] O pcr acho que até temos no garoa
+[2016-09-09 08:24:31] Eu sou um cara simples, Vinicius, e não consigo fazer coisas complicadas. Fazer uma PCR é simples, descobrir os passos de fazer um sequenciador é simples. Fazer um lab inteiro de uma vez só é complicado.
+[2016-09-09 08:25:03] O que eu posso oferecer é isso: primeiro a gente faz a PCR, vê que ela funciona, sente confiança, depois olha sobre como fazer o sequenciador.
+[2016-09-09 08:25:05] Sim sim Aylons, só quero saber como podrriamos fazer isso DIY
+[2016-09-09 08:25:17] Pode ser
+[2016-09-09 08:25:33] Da mesma maneira como fazemos essas coisas profissionalmente: um passo de cada vez.
+[2016-09-09 10:06:18] KISS++
+[2016-09-09 10:07:06] Eu animo biohacking/wet lab.
+Podemos começar com a PCR e ver o que mais precisamos depois
+[2016-09-09 10:45:33] Enquanto isso na ACM:
+[2016-09-09 10:45:51] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803730149_54676.jpg
+[2016-09-09 10:45:56] #caralho
+[2016-09-09 10:47:34] Tem alguém de S. Luis - MA por aqui?
+[2016-09-09 11:08:51] Wet lab == ❤️
+[2016-09-09 15:18:00] Alguém conhece uma loja na Sta Ifigenia para hackware?
+[2016-09-09 15:45:58] o que é hackware?
+[2016-09-09 15:49:01] Hardware eu acho
+[2016-09-09 16:00:00] ferramentas para hack?
+[2016-09-09 16:03:28] Hardware mesmo.
+[2016-09-09 16:03:53] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803711141_91604.jpg
+[2016-09-09 16:04:51] Acabei de comprar um pen 3.0 para fazer um BadUSB
+[2016-09-09 16:15:59] Essa alfa compro onde?
+[2016-09-09 16:16:18] Não comprei... Estou procurando.
+[2016-09-09 16:16:36] A original acho que n acha
+[2016-09-09 16:16:46] Mas o Alfa é o piraton... O chipset não aguenta
+[2016-09-09 16:17:06] O Signal é Realtek
+[2016-09-09 16:17:37] Tô a procura de uma original mais só vejo falsificada aí n sei ser e boa
+[2016-09-09 16:22:42] Alfa é uma empresa. O fato de usar Realtek não faz dela pirata. Isso se chama OEM
+[2016-09-09 16:23:23] ^
+[2016-09-09 16:24:00] realtek inclusive era muito boa na década de 90, tanto que virou padrão pra audio onboard de computador
+[2016-09-09 16:24:42] não é a realtek que saiu recentemente com um competidor pro ESP8266?
+[2016-09-09 16:26:27] Já tive 2 Alfa. Um 2.4GHz e um 5GHz. Os dois importei porque não achava por aqui
+[2016-09-09 16:52:00] Importo em qual site?
+[2016-09-09 17:17:21] ebay
+[2016-09-09 17:26:46] Gente, tem aqueles "notebooks" da Xuxa ou outro de brinquedo no Garoa?
+[2016-09-09 18:46:14] Wagner De Queiroz joined
+[2016-09-09 18:46:15] Hi Wagner !
+[2016-09-09 18:46:35] Boa noite a todos, estou na porta
+[2016-09-09 18:47:06] Mas a campainha not work?
+[2016-09-09 18:47:39] Status = open
+[2016-09-09 18:48:15] Maravilha
+[2016-09-09 18:48:28] Estou dentro
+[2016-09-09 19:59:26] pessoal, o mike ta ai pelo garoa?
+[2016-09-09 20:16:29] Só o mikey
+[2016-09-09 20:16:40] O mike não
+[2016-09-09 20:49:07] Estou indo no Garoa
+[2016-09-09 20:49:12] https://telegram.me/FreePacktPubDaily
+[2016-09-09 21:48:36] @rodrigopitanga , coloquei passo a passo do Kicad no site do Garoa
+[2016-09-09 21:50:19] Minha compilação está em 32% agora, vamos ver se dá xabu
+[2016-09-09 21:51:10] Alguém sabe onde consigo o Schematics do Raspberry Pi 3 em alta resolução, ou formato vetorial?
+[2016-09-09 21:51:32] Não consegue
+[2016-09-09 21:52:16] Oops, errei: https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/RPI-3B-V1_2-SCHEMATIC-REDUCED.pdf
+[2016-09-09 21:52:44] (mas eles realmente tinham uma politica de não ser HAL)
+[2016-09-09 21:53:06] É o mesmo que eu peguei aqui... "reduced"... é ilegível...
+[2016-09-09 21:53:42] Ah, entendi
+[2016-09-09 21:53:49] Estou vendo aqui: https://github.com/raspberrypi/documentation/issues/347
+[2016-09-09 21:54:13] A saber, provavelmente eles não liberam por causa da Broadcom
+[2016-09-09 21:54:42] https://github.com/raspberrypi/documentation/issues/347
+[2016-09-09 21:55:14] Eles nunca vão liberar. Se quiser, vai ter que fazer engenharia reversa, e aposto que vários chips não são de mercado ou estão com marcação interna
+[2016-09-09 21:56:07] (Por estas e outrs eu sempre gostei  da BeagleBone)
+[2016-09-09 21:56:18] (Kicad build a 40%)
+[2016-09-09 22:41:02] Consegui compilar com sucesso hj
+[2016-09-09 22:41:15] Já fiz uma mudança besta e testei ta pronto
+[2016-09-09 22:41:20] Agora é resolver os bugs
+[2016-09-09 22:57:26] Consegui compilar com sucesso, mas na hora de abrir arquivo em um projeto, deu pau que não consegue achar a Kiface
+[2016-09-09 23:01:53] Cria um projeto antes do zero e ver se continua com o pau
+[2016-09-09 23:02:12] Eu tive só que colocar os paths e baixar do Git as libs padroes
+[2016-09-09 23:03:10] O RaspPi 3 de um amigo, aqui no Garoa, está com um problema nas portas USB, então fiquei curioso e queria saber se utiliza um HUB para as 4 portas, pois todas pararam de funcionar todas ao mesmo tempo... aparentemente é o único problema...
+[2016-09-09 23:04:12] Fiz isso, continua dando pau. MAs abrindo direto o EESCHEMA, ele roda.
+[2016-09-09 23:05:02] Hm
+[2016-09-09 23:05:04] Vai ter que rolar uma engenharia reversa. Eu nunca peguei um RaspPi 3 na mão, então nem sei dar um palpite.
+[2016-09-09 23:58:09] Fiz a instalação com outro prefixo, funcionou agora. Domingo vou brincar

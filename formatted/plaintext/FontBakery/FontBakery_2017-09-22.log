@@ -1,0 +1,34 @@
+[2017-09-22 00:15:34] Felipe "Juca" Sanches added Ma
+[2017-09-22 01:57:11] Felipe "Juca" Sanches: esse commit aqui foi meio cabeludo: https://github.com/googlefonts/fontbakery/commit/894957f44e3f0499a5de4e8be4d9b267d46e77c8
+[2017-09-22 01:57:29] Felipe "Juca" Sanches: Mas é um bom exemplo de como escrever um auto-teste rigoroso
+[2017-09-22 09:16:57] Felipe "Juca" Sanches added Fabiano Salles
+[2017-09-22 14:51:35] Felipe "Juca" Sanches: hoje estou trabalhando na implementação de um auto-teste para o teste com.google.fonts/test/040
+[2017-09-22 14:52:05] Vinicius Melo: @fsanches depos quero pegar a issue de mostrar os testes na cli
+[2017-09-22 14:52:16] Felipe "Juca" Sanches: :-)
+[2017-09-22 14:52:46] Felipe "Juca" Sanches: ok, então vou cadastrar uma issua lá descrevendo isso (existe o risco de alguém implementar antes de você, é claro, hahaha)
+[2017-09-22 14:52:55] Felipe "Juca" Sanches: Talvez o Lasse Fister seja mais rápido
+[2017-09-22 14:53:00] Vinicius Melo: kkkk
+[2017-09-22 14:53:02] Vinicius Melo: tranquilo
+[2017-09-22 14:53:16] Felipe "Juca" Sanches: mas sempre tem mais bugs a serem resolvidos
+[2017-09-22 14:54:29] Vinicius Melo: como tá teu tempo pra me dar uns helps nessa issue mais tarde?
+[2017-09-22 14:56:47] Felipe "Juca" Sanches: eu estou focado em implementar os auto-testes. Acho que o que faz mais sentido é você arregaçar as mangas e tentar. Se depois de tentar por um tempo você enroscar, aí pode perguntar aqui que eu tento tirar as dúvidas :-)
+[2017-09-22 15:00:36] Vinicius Melo: certo
+[2017-09-22 15:01:08] Felipe "Juca" Sanches: eu estarei indisponível das 16h às 17h
+[2017-09-22 15:01:23] Felipe "Juca" Sanches: participando de uma reunião
+[2017-09-22 15:04:02] Felipe "Juca" Sanches: https://github.com/googlefonts/fontbakery/issues/1586
+[2017-09-22 15:24:01] Felipe "Juca" Sanches: O que acontece com os "Vinis" por aqui? Temos 3 de vocês, @vinicyus_m (Vinicyus) @vmesel (Vinicius Mesel) e @vinimlo (Vinicius Melo) !
+[2017-09-22 15:24:37] Vinicyus (in reply to Felipe "Juca" Sanches): 😂
+[2017-09-22 15:25:19] Felipe "Juca" Sanches: Caraca! E os 3 são "Vini M."
+[2017-09-22 15:25:50] Vinicyus: Eu sou o único com y
+[2017-09-22 15:25:51] Felipe "Juca" Sanches: Desculpa, gente... eu sou programador. Minha maior habilidade é a detecção de padrões...
+[2017-09-22 15:25:58] Vinicyus: Hahah
+[2017-09-22 15:26:40] Felipe "Juca" Sanches: Então vou ter que me referir ao Melo, ao Mesel e ao Y :-P
+[2017-09-22 15:27:12] Vinicyus: Haushaush
+[2017-09-22 15:36:27] Vinicius Mesel (in reply to Felipe "Juca" Sanches): uahsauhsahuasuhsauahs
+[2017-09-22 16:02:51] Vinicius Melo (in reply to Felipe "Juca" Sanches): Krai kkkkk
+[2017-09-22 17:03:37] Felipe "Juca" Sanches: acabei de implementar um auto-teste para o teste número 098: https://github.com/googlefonts/fontbakery/pull/1587
+[2017-09-22 17:04:23] Felipe "Juca" Sanches: job rolando agora no Travis aqui: https://travis-ci.org/googlefonts/fontbakery/builds/278761684
+[2017-09-22 18:08:21] Felipe "Juca" Sanches: ok, voltei. O próximo auto-teste que vou fazer é o 099 ;-)
+[2017-09-22 18:08:34] Felipe "Juca" Sanches: Acho que é bem parecido com o anterior, então deve ser fácil
+[2017-09-22 20:38:02] Ma (in reply to Felipe "Juca" Sanches): Boa noite, estou analisando para entender, aprender e poder ajudar.
+[2017-09-22 20:38:46] Felipe "Juca" Sanches: :-)

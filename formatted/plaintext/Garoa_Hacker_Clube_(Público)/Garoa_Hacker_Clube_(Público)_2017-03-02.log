@@ -1,0 +1,256 @@
+[2017-03-02 01:14:22] Salve salve
+
+Buscando dev em arduino/processing pra amanha, R$1k200
+
+Temos dois arduinos mega com ethernet shield, um conectando 25 ldrs e mandando por UDP no processing o sinal de estado pullup dos 25 sensores.
+
+Outro mega com DMX Receive e Output pra 25 dmx on/off  000-255
++ 25 sensores sharp de distancia nas portas analógicas e pwm, mapeados para sair por UDP recebido pelo processing e enviados para o ableton em MIDI note/cc;
+
+Tem tudo em estado frankstein precisando afinar pra ate amanha :P
+
+eu saio de perdizes de uber pra interlargos as 7
+
+noix
+[2017-03-02 01:45:20] wtf?
+[2017-03-02 01:52:20] tenho duas plcas 8bit dessa dá pra somar um com outro em 16bit de resolução, fiz um videomapping com biofeedback ecg e eeg realtime
+[2017-03-02 06:12:15] @mynameiserin consegui usar o ibus, mas agora preciso ativar a acentua'c~ao geral dele
+[2017-03-02 08:11:34] Pensei. Mas não falei
+[2017-03-02 10:33:25] já tá tudo montado, programado e funcionando mas você quer contratar um code-review de um especialista por 1200 reais?
+[2017-03-02 11:03:42] 🤔
+[2017-03-02 11:09:51] Pastelaria...
+[2017-03-02 11:33:58] Proposta interessante
+[2017-03-02 11:35:37] o problema eh que eh muito corda no pescoco, ate gostaria de ter ajudado, o guima eh camarada, mas as 7 da madruga, eh impossivel mesmo
+[2017-03-02 12:23:48] Pastelaria é elogio... Isso chega a ser indecente
+[2017-03-02 12:41:25] Não quis ser pejorativo...rsss
+[2017-03-02 12:46:34] Até ia responder na hora, mas não quis levar um ban, rs
+[2017-03-02 12:50:48] Relaxa. Conversar, mesmo que criticando, não gera banimento, desde que não se falte com o respeito mútuo.
+[2017-03-02 13:41:24] Galera, vocês acham que é possível desenvolver um sistema
+[2017-03-02 13:41:37] Ops foi antes de terminar
+[2017-03-02 13:41:39] Again
+[2017-03-02 13:43:27] Galera, vocês acham que é possível desenvolver um equipamento com Arduino ou Raspberry que consiga espelhar desenhos ou vídeos de um celular para um projetor através de NFC ou Bluetooth?
+[2017-03-02 14:03:04] alem de vc ter um trabalhao na implementacao, o baud rate eh baixo
+[2017-03-02 14:03:44] eu botaria um vnc client num esp8266
+[2017-03-02 14:07:14] Oloko, será que cabe?
+[2017-03-02 14:12:34] Entendi
+[2017-03-02 14:12:40] Obrigado
+[2017-03-02 14:12:48] Eu tava bolando algo pro meu TCC
+[2017-03-02 14:13:03] Uma ideia meia futurística vou voltar uns anos hahaha
+[2017-03-02 14:19:44] @henrick_s acho que o Raspicast (Android) faz isso.
+[2017-03-02 14:20:31] Show!
+[2017-03-02 14:20:39] Acho que é disso que preciso mesmo
+[2017-03-02 14:20:51] Obrigado
+[2017-03-02 14:22:35] Pesquisa sobre o EZCast...
+[2017-03-02 14:27:06] Então a ideia de cast é perfeita a minha ideia em resumo era juntar atividades vistas como "undergrounds" toda essa discussão sobre grafite me fez pensar nisso. Que seria em tese um espaço com projetor onde cada um poderia exibir seu desenho, manifestar sua arte por meio da tecnologia o que não "deprecia" patrimônio, e exibe o conteúdo no período noturno e no diurno está "limpo" sem dizer que dá alcance a qualquer pessoa exibir algo que considere arte
+[2017-03-02 14:28:11] Só que pra democratizar isso o suficiente teria que ser algo simples o suficiente e eu prefiro que seja seguro
+[2017-03-02 14:28:55] Algo como NFC, Bluetooth ou a própria ação de se conectar na rede própria do cast
+[2017-03-02 14:35:09] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_532576369905769014.mp4
+[2017-03-02 14:40:58] essa aplicacao ja esta ate batida...
+[2017-03-02 14:46:24] Palestra bo Balestra em Goiânia https://www.youtube.com/watch?v=oY8zNKF1jIU
+[2017-03-02 15:04:26] Interessante, uma hora vou fazer um teste aqui...
+[2017-03-02 15:25:19] nfc só serveria pra triggar algo, e bluetooth(BLE) se mantem no limite de velocidade pra transferir musica, video nem rola a não ser que queira gif animado.
+[2017-03-02 15:26:17] Valeu!
+[2017-03-02 15:31:20] a unica vantagem que vejo de usar rpi eh a saida hdmi
+[2017-03-02 15:31:30] ai tem uma carreta de desvantagens...
+[2017-03-02 15:32:43] o rpi eh tao fail que nem wifi ele tem...
+[2017-03-02 15:32:57] se for por esse caminho, da uma olhada nos orangepi mais completinhos
+[2017-03-02 15:37:53] `Saiu na semana passada o Rpi Zero W com WIFI! =D
+[2017-03-02 15:37:56] mas já esgotou... aiuehaiue
+[2017-03-02 15:38:39] to sabendo, teve um pessoal ai falando de comprar 500 kkk
+[2017-03-02 15:49:09] Ué?! Seu projeto vai ser simplesmente pegar algo pronto e mostrar pra "psôra" ? Ou vai ser de fato projetar e montar algo novo?
+[2017-03-02 15:50:26] RPi3 bem WiFi e bluetooth
+[2017-03-02 15:54:01] Já vi o resto da sua descrição do projeto 😊
+[2017-03-02 15:54:54] a ideia era saber se era possível se tiver sugestões serão bem vindas, sempre priorizo ouvir e conversar sobre as possibilidades...
+[2017-03-02 15:55:09] uma eventual tecnologia de broadcast de celular pra projetor não é o foco do seu trabalho, mas apenas ferramenta para fazer alguma outra coisa, saquei..
+[2017-03-02 15:56:23] é que eu achei que você estivesse procurando um projeto de engenharia pra fazer no TCC. Não sabia que era artes. (você não disse TCC do que era e eu ingenuamente pensei que fosse engenharia)
+[2017-03-02 16:00:24] não... hahaha eu imaginei o meu projeto é pra marketing
+[2017-03-02 16:01:53] como eu disse a intenção é trazer tecnologia quero otimizar o máximo, aquele conceito de hackear a cidade seria a alma do projeto
+[2017-03-02 16:02:17] mas sempre visando um veículo de propaganda entre as projeções que poderiam patrocinar o projeto por se só
+[2017-03-02 16:03:24] Hacker a cidade e patrocínio, acho q não combinam mt
+[2017-03-02 16:03:40] kkkkkk sim
+[2017-03-02 16:03:55] essa é a parte idealizada
+[2017-03-02 16:05:15] obrigado pelo comentário aliás é algo primordial para se pensar, como casar esses conceitos extremos, se for possível né
+[2017-03-02 16:05:29] gente, usem mais vírgulas pfv
+[2017-03-02 16:05:33] Agora sobre atividades tecnológicas com artes, já tem muitas, inclusive, acho q foi em 2013, a FIESP tinha um sensor q vc podia desenhar no telão deles
+[2017-03-02 16:05:43] é horrível tentar ler os textos de vocês
+[2017-03-02 16:05:44] opa: apagra o graffite, vende coca-cola, arifrier etc., e volta o graffite?
+[2017-03-02 16:05:52] ta, bom, erin
+[2017-03-02 16:05:58] o, brigada
+[2017-03-02 16:06:19] hahahaha não tão conflitante Oda
+[2017-03-02 16:06:54] a ideia de patrocínio é mais casual pelo menos no meu imaginário
+[2017-03-02 16:06:58] po, achei que ia conseguir vender a merda da minha air fryer
+[2017-03-02 16:07:55] alias, ta ai uma coisa que nao sei pq a gente nao faz uma para o garoa: um resistor feito de arame inox, um blower e batata congelada
+[2017-03-02 16:08:00] hahahaha
+[2017-03-02 16:08:14] cara é muito prático
+[2017-03-02 16:08:17] fiquei puto quando vi que era realmente so isso
+[2017-03-02 16:08:35] achei uma bosta
+[2017-03-02 16:09:23] eu sempre encontro cada vez mais itens congelados, para fazer nela
+[2017-03-02 16:09:32] coxinha, churros
+[2017-03-02 16:09:35] cada coisa
+[2017-03-02 16:15:40] Tenho um Cyber Gourmet George Foreman, um forno de convecção... pelo menos não paguei nada por ele...
+[2017-03-02 16:15:51] https://techcrunch.com/2017/03/02/aws-cloudsplains-what-happend-to-s3-storage-on-monday/
+[2017-03-02 16:30:47] Obrigado, Erin. Eu estava notando isso também.
+[2017-03-02 18:38:38] Talvez as pessoas estejam sentindo que seu discurso está sendo oprimido pelas vírgulas
+[2017-03-02 18:39:55] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803116921_13111.jpg
+[2017-03-02 18:43:13] O que isso significa?
+[2017-03-02 18:43:49] O eixo Y não está descrito de forma objetiva.
+[2017-03-02 18:44:19] por quanto de ouro?
+[2017-03-02 18:44:27] 1 ouro = eixo y
+[2017-03-02 18:44:30] quanto é 1 ouro
+[2017-03-02 18:45:01] dez quilos de bitcoin
+[2017-03-02 18:45:06] me vê aí
+[2017-03-02 18:45:21] 5 litros de bitcoin
+[2017-03-02 18:46:44] pois é
+[2017-03-02 18:46:56] acho que a comparação é com 1oz (uma onça)
+[2017-03-02 18:47:38] ou seja, hoje o preço de 1 bitcoin alcançou o mesmo valor numérico que 28,349523125 gramas de ouro. E daí ?
+[2017-03-02 18:47:55] Me parece um fato um tanto irrelevante
+[2017-03-02 18:49:09] o gráfico seria muito mais interessante e muito mais significativo se o eixo Y fosse a quantidade total de dinheiro investido em ouro hoje em dia (comparado com o tamanho da fortuna investida em bitcoins no mundo todo)
+[2017-03-02 18:49:15] é um "olha como bitcoin é legal"
+[2017-03-02 18:51:12] hum.. firefox com umas 20 abas + cordova compilando no fundo + emulador android = xubuntu começa a travar alguns processos
+[2017-03-02 18:51:18] sinto que preciso de mais ram
+[2017-03-02 18:52:06] se bem que isso é bem mais observável quando acordo o laptop de hibernação do que um boot fresco
+[2017-03-02 18:52:27] então acho que o problema tá é na hibernação (que nunca prestou no 64bit, só no 32bit)
+[2017-03-02 18:57:18] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803113597_13039.jpg
+[2017-03-02 18:58:20] Por isso que tenho 16GB no meu Desktop, trabalhar no note é um porre...
+[2017-03-02 18:58:38] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_753733448681652841.webp
+[2017-03-02 18:58:42] Aqui no meu note, o suspender funciona 100% mas estou usando Debian
+[2017-03-02 18:58:52] então, quem tem dinheiro é outra coisa né
+[2017-03-02 18:59:04] eu ainda preciso atualizar meu desktop, specs de 2011
+[2017-03-02 18:59:23] o laptop pelo menos é de 2014
+[2017-03-02 18:59:31] só trabalhar...rsss
+[2017-03-02 18:59:47] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_118535303458718313.webp
+[2017-03-02 18:59:53] apenas..
+[2017-03-02 19:00:22] Meu desk também é de 2014, meu note (asus ultrabook) é de 2013...
+[2017-03-02 19:00:45] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_858174108288942872.webp
+[2017-03-02 19:00:47] Não pense em crise...
+[2017-03-02 19:01:32] Estou indo no garoa
+[2017-03-02 19:01:43] Acho que vou montar um dojo hoje
+[2017-03-02 19:02:14] Vou testar a bomba
+[2017-03-02 19:02:34] Uai, não foi falado ontem de tralagem? O cara só postou pq essa foi a notícia do dia em alguns sites internacionais, acho válido
+[2017-03-02 19:02:37] Dojo de ESP!
+[2017-03-02 19:02:46] ieeei, chuva
+[2017-03-02 19:03:04] agora é saber, eu quero ficar no lab mais do que devo ou quero pegar chuva?
+[2017-03-02 19:03:18] A bomba parou de funcionar, dei um esbarrão nela na segunda, acho que detonou o conector da fonte...:(
+[2017-03-02 19:03:23] O meu gráfico mostra a curva da cotação de 1 bitcoin versus 5 gramas de ouro
+[2017-03-02 19:03:33] Vamos tentar um dojo de esp?
+[2017-03-02 19:03:44] Tem que instalar primeiro
+[2017-03-02 19:04:13] não é trolagem. É meramente uma tentativa minha de embasar o meu argumento de que é uma mera coincidência numérica por uma arbitrariedade da unidade de medida utilizada.
+[2017-03-02 19:05:17] Um gráfico da cotação de 5 gramas de ouro parece arbitrário, mas não tanto quanto o gráfico original que era do valor de 28,3495 gramas de ouro.
+[2017-03-02 19:06:35] Tá, entendi o embasamento
+[2017-03-02 19:08:41] Boa noite a todos
+[2017-03-02 19:09:26] Rolou na lista alguém vendendo um aparato para célular que dava para ligar na raspi
+[2017-03-02 19:09:39] Me fugiu o nome do dispositivo
+[2017-03-02 19:09:48] Estou interessado
+[2017-03-02 19:09:57] Pois comprei uma raspi
+[2017-03-02 19:10:17] Baratinha
+[2017-03-02 19:10:19] Na sta
+[2017-03-02 19:10:52] Vai ter alguma atividade com o patinho feio hoje?
+[2017-03-02 19:11:01] o que é "ligar um célular na raspi"?
+[2017-03-02 19:11:07] passar energia? dados?
+[2017-03-02 19:11:25] o que é um "célular" ?
+[2017-03-02 19:12:03] você quer alimentar a entrada de energia da raspi pelo "célular"? um cabo otg resolve, dependendo do modelo
+[2017-03-02 19:12:17] sim. Vou fazer uma apresentação sobre o tema. Um repeteco da apresentação que eu dei na USP
+[2017-03-02 19:12:18] nem todo célular fornece energia pela porta usb
+[2017-03-02 19:12:32] Já tenho os slides aqui. É só apresentar.
+[2017-03-02 19:13:37] Depois o Tiago (@Belimawr) pode usar os mesmos slides pra fazer uma apresentação similar lá no SESC se ele gostar da idéia
+[2017-03-02 19:15:32] Acho que nenhum viu, comprei um adaptador aqui de micro USB para USB comum e tentei ligar um monte de coisas no meu Nexus 4, nada!
+[2017-03-02 19:15:49] Ainda não testei no meu Motorola novo....
+[2017-03-02 19:16:53] meu milestone 2 de 2010 e um galaxy s advance de 2012 fornecem
+[2017-03-02 19:17:21] precisa fornecer, se não otg não funcionaria, porque até drive usb precisa de energia pra funcionar
+[2017-03-02 19:17:38] é o nexus 4 que não deve fornecer
+[2017-03-02 19:17:55] http://www.androidcentral.com/android-advanced-usb-otg-nexus-4
+[2017-03-02 19:18:03] primeiro resultado lmgtfy
+[2017-03-02 19:18:42] interessante, não sabia desses dados
+[2017-03-02 19:20:17] fiz esses testes com o android que veio com ele, quem sabe agora com o cyanogen ele faça isso
+[2017-03-02 19:20:34] ou... você lê a matéria e vê exatamente o que precisa...
+[2017-03-02 19:20:48] não vou dar spoilers pra não perder a graça
+[2017-03-02 19:20:59] mas bogosort sempre é legal de assistir rodando
+[2017-03-02 19:21:01] eu comprei um cabo mas não é esse Y, é um simples
+[2017-03-02 19:21:26] meu nexus 4 está na uti, acho que não tem mais jeito, só trocando a flash
+[2017-03-02 19:21:37] quero ver se consigo fazer algo com o motorola
+[2017-03-02 19:27:04] "Also, I've yet to get my Dualshock 3 controller working"....HA!
+[2017-03-02 19:28:24] Boa noite. Pra quem falou do Bitcoin ai em cima: US$1265 e subindo ❤️❤️
+[2017-03-02 19:30:27] #coolstorybro
+[2017-03-02 19:30:29] Quero recuperar meus R$400 em bitcoin....rsss
+[2017-03-02 21:47:21] Eu falo do Motorola atriz Lapdock que o Binho ofereceu na lista
+[2017-03-02 21:48:23] Queria uma forma de transformar uma raspberry num netbook em campo
+[2017-03-02 21:49:37] Estou desenvolvendo um dispositivo baseado na raspberry que precisa de rede Wifi e conectar algumas máquinas na rede
+[2017-03-02 21:50:21] E se caso eu não conseguir conectar com a raspberry via ssh
+[2017-03-02 21:50:44] Eu poder ligar tela e teclado e consertar
+[2017-03-02 21:51:26] Sem ter que retirar o cartão SD e adivinhar as coisas
+[2017-03-02 22:00:16] Já vi casos ce gente adaptando a tela na rasp
+[2017-03-02 22:01:08] MSG errada! Hehe
+[2017-03-02 22:01:35] Eu adaptei o lapdock pro rasp, e funfou de boas.
+[2017-03-02 22:02:24] Tela, teclado e mouse.
+[2017-03-02 22:16:06] Osmar Santos Jr joined
+[2017-03-02 22:16:06] Hi Osmar !
+[2017-03-02 22:38:56] eu falei com ele ontem e acho que comprei o ultimo que nem tava na caixa
+[2017-03-02 22:39:15] mas no ML se acha varios por 100-120
+[2017-03-02 22:45:58] Eu falei com ele ontem, depois ele sumiu... e vendeu pra vc
+[2017-03-02 22:46:19] ele "vendeu"
+[2017-03-02 22:46:24] pq nao passou a conta ainda pra depositar
+[2017-03-02 22:46:39] talvez ta falando com mais gente hehe
+[2017-03-02 22:47:15] ah, ele não me passou a conta tb.
+[2017-03-02 22:51:11] Bom. Foi se então
+[2017-03-02 22:51:22] Eu estava animado
+[2017-03-02 22:51:53] Pq achei rasp3 na Sta por menos de 200 reais
+[2017-03-02 22:52:37] Paguei 230 na rasp3 mais case oficial na rua dos gusmoes
+[2017-03-02 22:52:49] Animadissssimo
+[2017-03-02 22:54:09] A ideia era ter alguma prática para usar na rua a raspberry 3 e fazer diag
+[2017-03-02 22:56:34] pois é
+[2017-03-02 22:56:43] no mercado livre tu acha por preco bom ainda
+[2017-03-02 22:58:49] o problema é o monte de adaptador
+[2017-03-02 22:58:56] vai quase 100 reais so de adpatador ehauehae
+[2017-03-02 22:59:21] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_5028285622662463500.jpeg
+[2017-03-02 23:02:43] ai galera, dps de um papo com a yumi, tomei vergonha na cara e partiu estudar para virar imeano
+[2017-03-02 23:02:52] Vamo q vamo matematica!
+[2017-03-02 23:08:33] quem quiser dar uma ajuda moral, estudiosa ou qqr coisa, pode chamar!
+[2017-03-02 23:11:22] Vai viniiii #ajudaMoral
+[2017-03-02 23:14:10] vlw Guisso!
+[2017-03-02 23:16:23] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_1842540969984033.webp
+[2017-03-02 23:16:42] Se bem que esse é físico, rs
+[2017-03-02 23:16:58] Mas todo físico é matemático... Ou não?
+[2017-03-02 23:17:01] 😝
+[2017-03-02 23:17:38] nao ouse falar isso
+[2017-03-02 23:17:58] Estou impressionado, vi a @Yumizinha montar um cubo mágico DUAS VEZES hoje. Vou sonhar com isso...
+[2017-03-02 23:18:15] agora o B.O. esta na minha mao
+[2017-03-02 23:18:26] B.O. == cubo magico
+[2017-03-02 23:18:39] Hahaha. Desculpa a ignorância, sou só artista mesmo 😜
+[2017-03-02 23:18:47] relaxa!
+[2017-03-02 23:20:16] Com o cubo, ou com ela ou com o tudo?
+[2017-03-02 23:21:10] maluco compra adaptador de ouro
+[2017-03-02 23:21:12] wtf ????
+[2017-03-02 23:21:25] bem menos que 100 reais, vá
+[2017-03-02 23:21:33] na faixa de 50
+[2017-03-02 23:21:41] pára com isso
+[2017-03-02 23:21:43] tem 3 adaptadores de 20 reais
+[2017-03-02 23:21:48] mais cabos se nao tiver
+[2017-03-02 23:21:50] nao temos mais acento no para
+[2017-03-02 23:21:53] eu montei 10 desses lapdocks pro lab
+[2017-03-02 23:21:53] nem no meu telegram
+[2017-03-02 23:22:05] valor de mercado livre
+[2017-03-02 23:22:06] saiu uns 15-20 por unidade
+[2017-03-02 23:22:27] o mais caro é o adaptador mini hdmi, uns 10 reais
+[2017-03-02 23:22:33] daí uns 2 cabos de 5 reais
+[2017-03-02 23:22:36] tá pronto
+[2017-03-02 23:24:10] sai mais barato que um netbook e é hackeavel
+[2017-03-02 23:24:14] porisso vale a pena auheaue
+[2017-03-02 23:24:21] sim
+[2017-03-02 23:29:14] tem o post do marcelo lá
+[2017-03-02 23:29:24] ele abriu o dele vai meter o cabo direto no lugar no plug
+[2017-03-02 23:29:28] ai nao usa nenhum adaptador
+[2017-03-02 23:30:04] se for o zero rola
+[2017-03-02 23:30:23] o 1/2/3 precisa pro hdmi... ou ele vai soldar o minihdmi todo
+[2017-03-02 23:31:30] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803711739_9879.jpg
+[2017-03-02 23:31:31] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_702222669_67984.jpg
+[2017-03-02 23:31:37] os nossos eu fiz assim
+[2017-03-02 23:32:49] Pessoal mals mudar de assunto assim, mas q vcs pensam dá Abin?
+[2017-03-02 23:39:05] Hahahaha
+[2017-03-02 23:40:06] Tava vendo o concurso público deles 😅
+[2017-03-02 23:42:34] Mano, mas tu é polêmico em
+[2017-03-02 23:43:11] Nem sabia que isso era polêmico hahahahahaha
+[2017-03-02 23:43:27] poder especial: ser trollado
+[2017-03-02 23:44:03] Eu comprei um livro e fui ver o concurso era algo com 1k por vaga, algo assim.
+[2017-03-02 23:44:12] O salário era alto também
+[2017-03-02 23:45:09] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_532580054987718735.mp4
+[2017-03-02 23:45:59] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_5023927918779170820.mp4

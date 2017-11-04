@@ -1,0 +1,30 @@
+[2016-04-07 14:06:31] Aurium's Bot: Twitter Search / juca_gnu  — 7 de abril, 11:21
+[2016-04-07 14:24:29] Felipe "Juca" Sanches: show me the code !
+[2016-04-07 14:24:33] Aurium's Bot: Aqui Sanches: https://gitlab.com/raulhc/telegram-bot/blob/master/telegram-bot
+[2016-04-07 14:45:33] Luiz "LG" Martinez: Só o Code... Ou Show me the Money tb funciona?
+[2016-04-07 14:46:18] Felipe "Juca" Sanches: bom... dá pra responder essa pergunta olhando para o código :-)
+[2016-04-07 14:48:47] Felipe "Juca" Sanches: if textLine.match /show(\s*me)\s+the\s+code/i
+      sendMsg chatID, "Aqui #{randFromName from}:
+[2016-04-07 14:51:11] Erin Pinheiro: show me the code
+[2016-04-07 14:51:12] Aurium's Bot: Aqui Pinheiro: https://gitlab.com/raulhc/telegram-bot/blob/master/telegram-bot
+[2016-04-07 14:51:16] Erin Pinheiro: show       me the code
+[2016-04-07 14:51:16] Aurium's Bot: Aqui Erin: https://gitlab.com/raulhc/telegram-bot/blob/master/telegram-bot
+[2016-04-07 14:51:21] Erin Pinheiro: show me          the code
+[2016-04-07 14:51:21] Aurium's Bot: Aqui Erin: https://gitlab.com/raulhc/telegram-bot/blob/master/telegram-bot
+[2016-04-07 14:51:37] Erin Pinheiro: não entendi esse regex
+[2016-04-07 14:51:49] Felipe "Juca" Sanches: show the code
+[2016-04-07 14:52:23] Erin Pinheiro: showme the code
+[2016-04-07 14:52:23] Aurium's Bot: Aqui mynameiserin: https://gitlab.com/raulhc/telegram-bot/blob/master/telegram-bot
+[2016-04-07 14:52:28] Erin Pinheiro: show methe code
+[2016-04-07 14:52:29] Felipe "Juca" Sanches: SHow mE ThE CoDe
+[2016-04-07 14:52:33] Aurium's Bot: Aqui Felipe: https://gitlab.com/raulhc/telegram-bot/blob/master/telegram-bot
+[2016-04-07 14:52:34] Erin Pinheiro: agora entendi
+[2016-04-07 14:52:56] Erin Pinheiro: (não entendi o porque dele ser assim, mas entendi o que faz)
+[2016-04-07 17:20:02] Mike Howard: SHow mE ThE CoDe
+[2016-04-07 17:20:03] Aurium's Bot: Aqui michaelhoward9: https://gitlab.com/raulhc/telegram-bot/blob/master/telegram-bot
+[2016-04-07 17:51:18] Fabio Hirano: Xôu mi decode
+[2016-04-07 18:02:40] Felipe "Juca" Sanches: http://mamedev.emulab.it/fsanches/2016/04/07/hardware-reverse-engineering-insights-from-the-mame-project/
+[2016-04-07 21:29:53] Mike Howard: Noite do Arduíno ta um pouco vazio
+[2016-04-07 22:12:10] Mike Howard: IoT Internet dos Trem
+[2016-04-07 23:08:34] Oda: hahaah
+[2016-04-07 23:08:34] Aurium's Bot: Rá!

@@ -1,0 +1,109 @@
+[2016-07-22 01:07:32] https://github.com/felipesanches/PatinhoFeio/blob/master/Manual_do_Sintetizador__Guido_Stolfi.pdf
+[2016-07-22 08:39:01] Dica para o Oda:
+[2016-07-22 08:39:22] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803705801_60098.jpg
+[2016-07-22 08:42:38] Assim que der eu completo a documentação no Github. Ando meio atrapalhado, mas se der eu acerto a hora na próxima quinta. Tem também um MC/DC no conector do display, vou seguir a sugestão do Oda e fixar com cola quente.
+[2016-07-22 10:08:55] Por favor uma consultoria sobre notebook. Qual a marca com melhor assistência em SP?
+[2016-07-22 10:10:01] HP e Dell têm assistência fácil aqui...
+[2016-07-22 12:35:56] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_272479773299573020.webp
+[2016-07-22 13:44:55] Virou membro?
+[2016-07-22 14:09:15] Da série posts antigos que encontrei por um acaso (@fsanches):
+http://www.pakequis.com.br/2010/01/por-dentro-do-pense-bem-da-tectoy.html
+
+Felipe Sanches - 12 de maio de 2010 - 02:44
+Cara... eu fiz exatamente a mesma coisa que você alguns meses atrás. Mas eu abri o meu PenseBem da infância mesmo.
+
+Eu sou programador e me interesso muito em desenvolvimento de software livre e, em particular, gosto de lidar com código de emuladores. Comecei a escrever um emulador de PenseBem baseado na infraestrutura de código do MESS (parente do MAME).
+
+Como o PenseBem é super simples, basta fazer um dump da ROM desse Z8 aí e rodar ele num emulador de Z8 interfaceado com uma arte que represente o PenseBem.
+
+O MESS já tem um emulador de Z8. E eu já fiz todo o esqueleto do emulador de PenseBem. Só falta extrair a ROM e testar.
+
+Entretanto... como se faz para extrair uma imagem da memória ROM interna de um Z8?
+
+Existem algumas técnicas para extração de ROMs. Uma delas é escrever um programa que acesse sucessivamente os endereços de memória da ROM interna e vá jogando o conteúdo para fora por meio de algum pino de i/o. Aí grava-se esse programa numa mamória externa e basta induzir o microcontrolador a executar esse código - normalmente fazendo ele bootar pela memória externa.
+
+Para ver se essa técnica é possível, fui atrás dos datasheets do Z8. Mas eu tive 2 problemas principais:
+
+1) Não consegui achar o datasheet correto para o modelo específico de Z8 usado no PenseBem. Achei vários datasheets de variantes do Z8, com 2k, 4k, 8k, 16k, 32k de ROM e com outras características diferentes também. Olhando a pinagem dos DIP28 nesses datasheets nada parecia ser coerente com o circuito que estou analisando na placa do PenseBem. Os pinos 9 e 10 do microcontrolador parecem estar sendo usados como pinos de I/O no PenseBem. Entretanto, nos datasheets eles constam como sinais de osciladores de cristal (XTAL1 e XTAL2). Preciso de ajuda para tentar descobrir qual é o microcontrolador que está de fato sendo usado no PenseBem. Teoria da conspiração: será que a TecToy escreveu um nome errado nos chips de propósito pra dificultar a engenharia reversa?
+
+2) Caso seja mesmo um Z8, com base numa leitura rápida dos datasheets, me parece que não há como bootar o Z8 a partir de uma memória externa. Me parece que esses microcontroladores vêm de fábrica já com o software que o cliente tiver encomendado já gravado na ROM. Ou então que a memória só pode ser escrita uma vez, mas não lida. Eu posso estar equivocado (espero), mas essa é a primeira impressão que tive ao ler rapidamente os diversos datasheets que analisei.
+
+Adoraria poder contar com você para descobrir mais coisas a respeito do PenseBem e quem sabe conseguir fazer funcionar um emulador :-)
+
+Felipe "Juca" Sanches
+http://jucablues.blogspot.com/
+[2016-07-22 14:10:17] Sim, no CMC mais recente, que aconteceu na terça-feira...
+[2016-07-22 14:13:18] pois é... o PenseBem ficou pra trás. Mas serviu pra eu me ambientar com o código-fonte do MAME. O resto todos vocês já sabem... A busca atual é por documentação do computador Patinho Feio e do sintetizador musical do prof. Guido Stolfi :-)
+[2016-07-22 14:21:56] Tem o simulador que fiz com o Juca. Tá online ainda: http://labs.hardinfo.org/pb
+[2016-07-22 14:22:32] Tá uns 97% fiel. Não conseguimos entender completamente o algoritmo dos livros
+[2016-07-22 14:24:07] e na época eu era ruim de javascript :-P
+[2016-07-22 14:24:15] Sim... eu estava pesquisando sobre o Pense Bem, pois comprei um usado (não funcional) para "brincar" um pouco...
+[2016-07-22 14:24:39] vc tem um pensebem bichado é?
+[2016-07-22 14:24:44] hmmm.... interessante...
+[2016-07-22 14:24:53] (juca perdendo o foco)
+[2016-07-22 14:25:08] Da hora, testei também...
+[2016-07-22 14:25:42] peguei um livro aleatório e acertei as duas primeiras questões sem querer, achei que tivesse quebrado, hehehe
+[2016-07-22 14:47:04] Tem este projeto abandonado: https://garoa.net.br/wiki/OPEN-Sebem
+[2016-07-22 15:04:32] \o/ :D
+[2016-07-22 15:38:23] Para quem estiver interessado, semana que vem teremos a Tecno Weekend, na UFABC.
+Mais informações:
+http://tecnoweekend.ieeeufabc.org/index.html
+[2016-07-22 16:08:26] Alguém vai na Hackaflag amanhã?
+[2016-07-22 16:28:53] @erickemi vai?
+[2016-07-22 16:30:03] VOu
+[2016-07-22 16:42:51] Vou sim
+[2016-07-22 16:56:09] Eu não vou, pedi o prazo de inscrição...
+[2016-07-22 17:06:00] Já fecharam?
+[2016-07-22 17:09:07] Tá aberto ainda
+[2016-07-22 17:15:25] Não consegui me inscrever no Eventbridge...
+[2016-07-22 17:17:16] Tenta de novo
+[2016-07-22 17:17:19] Vê se tá aberto
+[2016-07-22 17:21:46] fechou,vi agora...
+[2016-07-22 17:21:49] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803730135_23324.jpg
+[2016-07-22 17:22:13] +55 (11)97040-0001
++55 (11)3256-5724
+[2016-07-22 17:22:33] Liga lá na responsável,de repente eles conseguem te enviar o QR Code
+[2016-07-22 17:23:07] Eita ahsush
+[2016-07-22 17:28:43] Deixa quieto, já me inscrevi em outro evento do GDG-ABC, na UFABC...
+[2016-07-22 17:31:25] gente, vai ter a eleicao do cgi.br
+[2016-07-22 17:31:45] acho que deveriamos solicitar um voto como garoa
+[2016-07-22 17:32:14] yep!
+[2016-07-22 17:32:50] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803705455_60627.jpg
+[2016-07-22 17:32:53] mandano na lista de associados para discussao
+[2016-07-22 17:34:58] Não tenho a menos idéia do que isso aqui faz... :-P
+[2016-07-22 17:35:04] *menor
+[2016-07-22 17:47:47] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803703517_61799.jpg
+[2016-07-22 17:48:12] @aylons dá uma olhada no detalhe dessa imagem...
+[2016-07-22 17:50:19] ? Qual detalhe?
+[2016-07-22 17:50:31] veja com calma...
+[2016-07-22 17:51:13] Beleza, logo vejo então . Ocupado no trampo, não vou ter como dar esta atenção agora.
+[2016-07-22 17:51:55] É um esboço de algorítmo em assembly rascunhado em uma folha de papel da FFLCH-USP
+[2016-07-22 17:52:24] (rascunhos de autoria do Guido Stolfi)
+[2016-07-22 17:52:42] e escritos em ASM de IBM-1130
+[2016-07-22 17:53:09] ooops... minto! ASM de HP-21MX
+[2016-07-22 17:53:39] Não é FFLCH. É algo bem mais antigo
+[2016-07-22 17:53:48] sim sim...
+[2016-07-22 17:53:58] é o que virou a FFLCH
+[2016-07-22 17:53:59] não é?
+[2016-07-22 17:54:06] É a FCF, de onde saiu também a matemática, física...
+[2016-07-22 17:54:19] :-)
+[2016-07-22 17:55:03] É a unidade original da USP. As quatro unidades que já existiam, mais a FCF, na Maria Antônia.
+[2016-07-22 17:55:06] justamente
+[2016-07-22 17:55:15] professores veiacos do IME vieram de la
+[2016-07-22 17:55:34] O Glen Wataghin dava aula lá
+[2016-07-22 17:55:38] Gleb
+[2016-07-22 17:55:39] notadamente o falecido e fantastico mestre guru
+[2016-07-22 17:58:55] Detalhe interessante: até hoje o Guido não programa em C. Tudo que ele faz ou é em Visual Basic ou ASM.
+[2016-07-22 17:59:16] hahaha
+[2016-07-22 17:59:20] dessa eu não sabia
+[2016-07-22 17:59:37] visual basic é de cagar, hein?
+[2016-07-22 18:31:02] Ah, ele provavelmente já sabia BASIC e queria algo que fosse arrastar e soltar para fazer GUIs práticas
+[2016-07-22 18:31:25] Ele também manja, muito de VHDL
+[2016-07-22 18:35:46] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803711079_60171.jpg
+[2016-07-22 18:35:58] Aí gente, inscrições na porta também
+[2016-07-22 19:15:19] Eu vou sim...
+[2016-07-22 19:23:01] Hoje a Receita Federal me  r̶o̶u̶b̶o̶u̶ cobrou 375 reais... dava pra comprar um RaspPi 3 com esse calor... 😢
+[2016-07-22 19:24:07] 311 reais só pra essa plaquinha aqui: http://openmono.com
+[2016-07-22 22:34:08] Descobri hoje, mas achei um pouco caro:
+https://shop.imasters.com.br/
+[2016-07-22 23:42:13] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803717355_60723.jpg

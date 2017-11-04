@@ -1,0 +1,105 @@
+[2016-09-30 07:54:47] vamos pensar em técnicas que os provedores usam pra bloqueio
+[2016-09-30 07:55:01] desvio de rota, pra detectar, 
+traceroute hostname
+[2016-09-30 07:55:13] se não achar o dns, é bloqueio por dns
+[2016-09-30 07:55:31] tem a terceira, que é packet injection/discard
+que tem que usar wireshark pra ver se estão de sacanagem
+[2016-09-30 07:55:52] eu tenho NET aqui, portanto, pra acessar servidores via ssh tenho que usar 3g pq eles bloqueiam mesmo
+[2016-09-30 08:16:42] 😱 q bostinha em
+[2016-09-30 08:18:09] vou fazer os testes aqui, Vlw @neves
+[2016-09-30 08:58:26] Já tentou mudar a porta padrão?
+[2016-09-30 08:59:00] não faz sentido
+[2016-09-30 08:59:18] eu só tenho NET pq não pago (grande obrigado a quem coloca senha de wifi como data de nascimento)
+[2016-09-30 08:59:32] quando eu pagava pra ter conexão
+[2016-09-30 08:59:38] eu abri pelo menos 15 reclamações na anatel
+[2016-09-30 09:36:05] Isso é muito feio.
+[2016-09-30 11:25:36] ui hackudão kkkk
+[2016-09-30 11:28:45] Se for bloqueio por porta, muda a porta. Se for bloqueio por detecção de TLS, certamente usam vinculado à porta.
+[2016-09-30 11:28:56] (Senao https seria prejudicado)
+[2016-09-30 11:29:41] Tem jeito de burlar. Já fiz isso há anos com isp. Mas dá trabalho e você precisa ter acesso administrativo nos servidores.
+[2016-09-30 13:32:02] Eu tenho NET e uso ssh a torto e a direito
+[2016-09-30 14:23:09] photo
+[2016-09-30 14:24:08] Eu tentei mas sempre tem a desculpa de"o armário está cheio aguarde alguns meses"
+[2016-09-30 14:27:40] "Só tem espaço se pegar esse plano combo com tv a cabo, telefone e Internet por apenas 489 reais por mês"
+Ou aguarde alguns anos
+[2016-09-30 14:28:06] Eu estou em vias de migrar pra NET telefone e internet, saindo da Oi. Acho que é vantagem. Só me chateia que isso é financiar a Globo diretamente, uns 2%.
+[2016-09-30 14:32:40] Eu tenho 2 reclamações na Anatel contra gvt
+[2016-09-30 14:32:45] Eu tinha plano
+[2016-09-30 14:33:15] Recusaram a mudar de endereçO
+[2016-09-30 14:33:25] Eu desenhei no mapa
+[2016-09-30 14:33:36] Daqui
+[2016-09-30 14:33:38] Pra cá
+[2016-09-30 14:34:07] Eles tem meta de venda
+[2016-09-30 14:34:30] Só fazem qualquer coisa mediante cancelamento e contratação de plano mais caro
+[2016-09-30 14:34:56] Nos 6 meses que fiquei tentando fazer eles instalarem
+[2016-09-30 14:35:01] Li sobre como quebrar
+[2016-09-30 14:35:45] Portei o fixo pra intelig
+[2016-09-30 14:36:54] E ficou por isso mesmo
+[2016-09-30 14:36:56] Detalhe
+[2016-09-30 14:37:01] Eu moro no centro
+[2016-09-30 14:37:17] Centro, e eles não tem estrutura pra instalar
+[2016-09-30 14:41:02] No meu caso a Oi disse que não conseguia mudar de volta. Uma ordem de serviço não foi fechada, daí novas ordens de serviço ficavam em espera, e no sistema deles o telefone ficou num endereço e a internet em outro. Nesse período, para completar os mistérios, o modem começou a pifar (capacitores vazando) e ninguém podia vir. Mas resolveram, em uns 6 meses. A titular da linha quis reclamar da Anatel, mas falei que o Procon/Sedecon eram mais promissores do quê o "sindicato das teles".
+[2016-09-30 14:44:16] Ué, vai ver resolveram focar na periferia, para promover a tão falada inclusão digital...😁
+[2016-09-30 16:47:58] 🛥̣̣̣̣̣̉̉̉̉̉ joined
+[2016-09-30 16:47:59] Hi Victor !
+[2016-09-30 17:31:28] Joao joined
+[2016-09-30 17:31:28] Hi Joao !
+[2016-09-30 17:37:30] @Biazzotto vai no garoa hoje?
+[2016-09-30 17:37:39] tem alguém querendo conversar sobre esp :)
+[2016-09-30 17:37:40] aliás
+[2016-09-30 17:38:00] acabei de comprar 5 com breakout boards, quem quiser um :p só que só chegam daqui 1-2 meses
+[2016-09-30 17:38:24] opa, eu sou esse misterioso alguém
+[2016-09-30 17:48:58] Oi, alguém sabe onde vende placa de desenvolvimento FPGA no BR? Queria uma com Xilinx Zynq, mas a Parallela tá mais de 1200 reais no MercadoLivre.
+[2016-09-30 18:09:25] Acho que a Avnet tem representação no Brasil. Não rola importar, é como sempre fiz.
+[2016-09-30 21:15:38] Uma das faixas q eu tenho produzido no Garoa saiu no portal Boomix :) http://www.portalboomix.com/2016/09/the-seventh-god-mita-e-lanca-um-remix-de-trap-que-nao-vai-deixar-voce-parado.html
+[2016-09-30 21:20:21] Tinha uma conta em atraso. Já foi paga.
+[2016-09-30 21:24:57] Oi Erin, só vi sua mensagem agora... de qualquer forma não fui no Garoa hoje... 😜
+[2016-09-30 21:30:40] Que lugar de são paulo tenho parentes em são paulo posso até ir
+[2016-09-30 21:32:30] Está perguntando em que lugar tem os eventos, e depois afirmando que pode até ir?
+[2016-09-30 21:32:51] im rs
+[2016-09-30 21:32:54] Sim8
+[2016-09-30 21:33:06] sim*
+[2016-09-30 21:34:29] Bom, sua pergunta é porquê eu me expressei mal. Eu não quis dizer que "Existem eventos de informática em SP", mas "Existem eventos de informática em São Paulo". Sendo na própria cidade/região metropolitana, não importa muito aonde é. Mas por exemplo, tem a CryptoRave no Centro Cultural São Paulo.
+[2016-09-30 21:35:38] Cryptorave, bacana eu não sabia que tinha em são paulo.
+[2016-09-30 21:37:35] Só tem em São Paulo! As outras são CryptoParties, sem festa de verdade. 😛
+[2016-09-30 21:38:41] rs...
+[2016-09-30 21:40:43] A rodsec é de são paulo né ?
+[2016-09-30 21:41:08] Não sei...
+[2016-09-30 21:44:08] vou dar uma pesquisada aqui
+[2016-09-30 21:44:34] No Roadsec apenas, ou também na CryptoRave?
+[2016-09-30 21:48:46] Em ambos
+[2016-09-30 22:06:34] @TRIPXKS, se se interessar, eu escrevi resumos das palestras do evento de 2014 e 2016. De 2015 ainda não....
+[2016-09-30 22:07:49] Claro que me interesso *----*
+[2016-09-30 22:08:48] https://andersbateva.wordpress.com/tag/cryptorave/
+As de 2016 você não vai achar em nenhum outro lugar, ai que delícia essa exclusividade. Mas as de 2014 você pode baixar os vídeos do YouTube se quiser.
+[2016-09-30 22:10:01] Muito obrigado Anders.
+[2016-09-30 22:10:07] 👍🏼
+[2016-09-30 23:12:52] Valeu! Não achei na Avnet, mas na Digi-key. Parece que cobram imposto. A placa é essa: http://www.digikey.com/product-search/en?keywords=P0286
+É uma DE0-nano com um Cyclone V da Altera, concorrente do Xilinx Zynq. FPGA com 2 núcleos ARM na mesma placa. Vem com 1Gb DDR3.
+A Intel comprou a Altera e promete Xeon com FPGA. A Microsoft também diz estar cogitando usar FPGA no Azure. Como eu sempre tive curiosidade por isso, resolvi procurar um desses kits de desenvolvimento para aprender. Acho que vou acabar comprando um simples mesmo no MercadoLivre e vendo se vale a pena.
+[2016-09-30 23:18:05] É, você não achou na Avnet porque a Avnet é distribuidora da Xilinx. Se está interessado em altera, veja com a Macnica, que representa a altera no Brasil e tem até as próprias placas didáticas.
+[2016-09-30 23:21:05] Para pirar um pouco: Loren Schmidt…http://vacuumflowers.com/projects/
+[2016-09-30 23:22:24] Hoje no Garoa eu estava falando sobre automatos celulares… essa atista faz coisas incríveis com automatos celulares: http://vacuumflowers.com/cellular_automata/rules.html
+[2016-09-30 23:22:32] cc @Belimawr
+[2016-09-30 23:26:10] Na verdade eu achei a FPGA pura (só o chip), mas nenhuma placa. O site é esse? http://www.macnicadhw.com.br/kit-cyclone-v-soc
+Muito obrigado! Não havia encontrado nada no Brasil até agora. Vou entrar em contato com eles! Já vi uma placa bem legal no site.
+[2016-09-30 23:27:19] Algumas placas próprias da Avnet: http://zedboard.org/
+[2016-09-30 23:27:28] ELes também vendem os kits oficias da Xilinx
+[2016-09-30 23:27:40] Tem a Digilente também, eu tenho uma Zybo.
+[2016-09-30 23:27:52] E tem coisas legais, com o red pitaya e o parallella
+[2016-09-30 23:27:59] O site é esse mesmo.
+[2016-09-30 23:28:20] Eu procurei a zed no site da avnet, mas não achei. Aí procurei pelo Zynq e veio o chip puro.
+[2016-09-30 23:29:37] https://products.avnet.com/shop/en/ema/manufacturer-xilinx/kits-and-tools?facet=mfName_ntk_cs%3a%22Xilinx%22&fromHMenu=true&manufacturerName=Xilinx#facet:&inStock:&productBeginIndex:0&orderBy:&pageView:list&minPrice:&maxPrice:&pageSize:10&selectedAttr:&
+[2016-09-30 23:30:14] Mas assim, se você está começando com FPGA, recomendo uma FPGA pequena, não SOC, em uma placa legal.
+[2016-09-30 23:30:26] SOC é muita complicação para começar.
+[2016-09-30 23:41:37] Eu fui parar em FPGA depois de viajar em assembly depois de ter jogado TIS-100 e baixado o datasheet de um roteador que abri para mexer com openwrt, mas não tenho conhecimento em eletrônica ainda.
+Meu interesse mesmo é em aprender a implementar funções lógicas (básicas) e chamar pelo assembly.
+O Parallela tem um repositório de exemplo: https://github.com/parallella/oh
+E tem até uma lib pro Python: https://pypi.python.org/pypi/pycoram/1.0.1
+Enfim, eu sei que sem a formação apropriada vai ser difícil, mas a empolgação move montanhas. Se eu conseguir implementar qualquer coisa e chamar pela CPU em Assembly com bind para python vai ser irado! \o/
+Esse site tem vários projetos que queria tentar: http://opencores.org/
+[2016-09-30 23:47:18] Qual placa simples você recomenda?
+[2016-09-30 23:49:28] Cara, a que você conseguir arranjar. Deve ter uma com Spartan 3 no garoa
+[2016-09-30 23:50:20] http://plasmacpu.no-ip.org/ Esse site é de um projeto do opencores. O site roda de uma FPGA com o projeto Plasma. É uma Spartan-3E. Tem todos os detalhes de como foi feito no opencores.
+[2016-09-30 23:51:18] O Garoa é legal demais, um dia eu apareço aí. É que moro no interior da Bahia, aí fica longe, mas na Cryptorave do ano que vem devo ir.
+[2016-09-30 23:58:36] Ah, beleza

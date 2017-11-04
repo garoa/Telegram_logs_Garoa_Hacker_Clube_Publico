@@ -1,0 +1,31 @@
+[2017-08-11 08:29:34] Que legal, sabia que tinha mas nunca tinha visto onde.
+[2017-08-11 08:30:05] https://mycroft.ai/
+[2017-08-11 08:57:10] https://wikileaks.org/vault7/#CouchPotato
+[2017-08-11 09:11:35] pow legal, vlw por compartilhar
+
+fyi, o scdl antigamente era escrito em bash https://github.com/lukapusic/soundcloud-dl
+posteriormente portaram pra python https://github.com/flyingrub/scdl
+[2017-08-11 10:49:24] Quem do Garoa está em Berlim?
+[2017-08-11 10:49:39] O Tiago está mudando para lá
+[2017-08-11 10:55:45] Gola
+[2017-08-11 11:57:22] Tem o Vitor tambem
+[2017-08-11 11:57:53] A Peggy, que é de lá mesmo mas visitou aqui
+[2017-08-11 11:58:04] oi pessoas
+[2017-08-11 11:58:10] amanha alguem estará no garoa?
+[2017-08-11 14:47:14] Pessoal, para quem quiser ficar ligado nas vagas da comunidade Python no Brasil todo: https://t.me/pyfreelas
+[2017-08-11 15:41:15] http://www.beatriceco.com/bti/porticus/bell/pdf/transistorname.pdf
+[2017-08-11 15:41:17] Cópia do documento (memorando) da Bell Labs, ao comitê criador do transístor, para decisão do nome do componente. Ao final do documento há uma ficha para que o membro fizesse seu voto. Muito legal!
+[2017-08-11 15:46:02] http://www.beatriceco.com/bti/porticus/bell/pdf/brattain_lab_notebook.pdf
+[2017-08-11 18:10:17] Garoa aberto
+[2017-08-11 19:21:50] @fsanches sabe de algum guia para rodar DOS no MAME facilmente? só encontro guia de como rodar MAME *no* DOS. quero ver se me dou melhor com o debugger do MAME que do DOSBox...
+[2017-08-11 19:37:28] hmmm
+[2017-08-11 19:37:41] procura algum CHD de MSDOS
+[2017-08-11 19:38:15] e roda o driver de placa mãe at486 do MAME
+[2017-08-11 19:38:28] usando a imagem de disco (CHD) pra bootar
+[2017-08-11 19:38:49] acho que esse link tem algumas dicas pra isso: http://forums.bannister.org/ubbthreads.php?ubb=showflat&Number=88698
+[2017-08-11 19:40:04] Achei um link melhor: https://dagarmansplayground.wordpress.com/2017/01/08/ct486-dos/
+[2017-08-11 19:40:31] 👌
+[2017-08-11 19:40:59] Eu já fiz algo parecido
+[2017-08-11 19:41:25] Rodei o TECNOPONTA PARK no MAME usando um setup desses
+[2017-08-11 19:41:41] https://www.youtube.com/watch?v=A4WEdtpA5aM
+[2017-08-11 19:43:39] valeu :)

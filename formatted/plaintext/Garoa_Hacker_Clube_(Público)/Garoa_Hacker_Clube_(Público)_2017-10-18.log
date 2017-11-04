@@ -1,0 +1,40 @@
+[2017-10-18 01:10:53] vou ver se aparece algum jeito de eu arrumar um ingresso ou freepass e vou dar uma passada acho
+[2017-10-18 09:10:44] Galeris, viram essa?
+[2017-10-18 09:10:47] https://www.sescsp.org.br/programacao/133590_SORRIA+SEUS+DADOS+ESTAO+SENDO+CHUPADOS
+[2017-10-18 09:11:03] Garota Hacker Clube
+[2017-10-18 09:14:35] Já tinha visto, eh doidera e a maioria das pessoas n liga.
+[2017-10-18 09:18:57] eu digo mais sobre o "Garota Hacker Clube". Conhecem?
+[2017-10-18 09:33:50] Pela Coalizão do Direitos de Rede, nós temos acompanhado bastante as novas leis e esses coletivos... é bem legal o trabalho realizado.
+[2017-10-18 09:34:22] Sim! O nome não é apenas uma coincidência... elas até perguntaram se o Garoa apoiaria o nome similar ao nosso. Achamos bem legal
+[2017-10-18 09:42:35] Que massa @Yumizinha , não sabia dessa conexão...algumas amigas minhas me convidaram pra esse evento, aí pensei na hora no Garoa 😊👍
+[2017-10-18 10:47:35] Garota Hacker Clube é um nome sensacional!
+[2017-10-18 10:48:25] Opa, quem mora em SP, curte Go (#golang) e tá a fim de experimentar Go com Arduino, Raspberry Pi, microbit etc?
+[2017-10-18 10:55:38] opa, eu topo
+[2017-10-18 10:57:13] Legal, Fernando! Então, eu e o Jeff Prestes da comunidade Go de SP vamos nos encontrar amanhã à noite na ThoughtWorks (av. Paulista) para fazer experimentos com Gobot (https://gobot.io/)
+[2017-10-18 11:00:07] É só chegar? Que horas?
+[2017-10-18 11:00:56] 19:00. Quem tiver a fim de participar precisa mandar um e-mail com nome completo e RG para lramalho@thoughtworks.com
+[2017-10-18 11:01:43] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_589936938044096515.webp
+[2017-10-18 11:02:50] Por gentileza, coloquem "Gobot" no assunto do e-mail. Valeu!
+[2017-10-18 11:04:12] tem q levar alguma coisa ou é só chegar?
+[2017-10-18 11:04:29] https://pastebin.com/aZyyS16w
+[2017-10-18 11:04:42] não sei se é fucional, só repassando
+[2017-10-18 11:05:51] @fernandoGuisso é legal trazer um notebook com a IDE do Arduino e o ambiente de desenvolvimento de Go instalado. Se quiser trazer algum Arduino ou RPi, pode trazer, mas teremos alguns aqui para experimentar.
+[2017-10-18 11:06:08] 👍
+[2017-10-18 12:53:30] Eu topo
+[2017-10-18 12:56:04] Pena amanhã não vou poder
+[2017-10-18 12:57:50] Go possui alguma vantagem nesse tipo de experimento em relação a python ?
+[2017-10-18 13:17:28] vc compila pra arquitetura que deseja o mesmo codigo por exemplo
+[2017-10-18 14:24:22] Flávio a vantagem de Go sobre Python é que Go compila para um executável binário nativo, então o desempenho é comparável ao de C. A desvantagem é que você escreve umas 3x mais linhas de código para implementar a mesma funcionalidade.
+[2017-10-18 14:25:06] Go tem garbage colector?
+[2017-10-18 14:26:04] A biblioteca Gobot permite controlar dispositivos de duas maneiras: rodando o executável direto no dispositivo (se ele suporta) ou então controlar o dispositivo remotamente via Firmata (no caso do Arduino). Nesse segundo caso as vantagens em relação a Python praticamente não existem, porque o desempenho vai para o saco de qualquer jeito.
+[2017-10-18 14:27:46] Sim, Go tem um garbage colector, o que na imensa maioria das aplicações é uma grande vantagem. Mas se tiver questões críticas de timing, pode não atender. Aí o jeito é C. Ou Rust.
+[2017-10-18 15:00:33] Dá pra escrever Go de um jeito que diminua a necessidade de alocação fora da pilha, mas a linguagem não te dá muito controle sobre isso, são mais coisas que deve evitar fazer.
+[2017-10-18 15:05:03] Mas, no caso de robôs e coisas do tipo, a alocação pode ser feita só no começo do programa -- isso não deve gerar muito lixo pro coletor jogar fora
+[2017-10-18 15:26:23] Acho que se vc quer velocidade de resposta em robos a melhor alternativa e o FPGA
+[2017-10-18 17:30:31] https://thehackernews.com/2017/10/rsa-encryption-keys.html?m=1
+[2017-10-18 19:47:01] Pessoal tirem fotos do encontro amanhã de Go, tenho muito interesse mas o horário não vai dar pra mim
+[2017-10-18 19:47:29] Alguma chance de um repeteco em outra data ?
+[2017-10-18 20:20:55] Depois da GopherCon Brasil meu plano é repetir a oficina em SP, mas ainda não tem data. O que vai rolar amanhã não é a oficina em si, é mais uma troca de ideias e experimentação informal mesmo.
+[2017-10-18 23:34:15] <<< Se puder assistirei!
+[2017-10-18 23:36:38] http://www.ipea.gov.br/portal/index.php?option=com_content&view=article&id=31310&Itemid=424
+[2017-10-18 23:52:39] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_805510783_32910.jpg

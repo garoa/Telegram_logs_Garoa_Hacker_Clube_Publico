@@ -1,0 +1,121 @@
+[2016-06-22 00:02:47] Eh cache
+[2016-06-22 00:03:14] Como se o garoa tivesse 1m de page views pra precisar de cache tao demorado
+[2016-06-22 00:05:27] Quem quiser administrar o servidor a senha de root eh talkischeap
+[2016-06-22 01:08:09] Kkkkkkkk
+[2016-06-22 01:08:10] hehehehe!
+[2016-06-22 07:09:47] Qual OS q vcs tem no server?
+[2016-06-22 08:28:01] Se foi o Oda que instalou, certeza que é Windows Vista
+[2016-06-22 08:47:46] slackware disfarçado de debian!
+[2016-06-22 08:48:07] certeza que o apt-get eh soh um script
+[2016-06-22 09:02:14] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803732288_11454.jpg
+[2016-06-22 12:21:17] Kernel of iOS 10 Preview Is Not Encrypted -- Nobody Knows Why
+
+Security experts are claiming that iOS 10 preview, which Apple made available to enthusiasts last week, is not secure. iOS 10 is the latest version of Apple's mobile operating system. It will be available to standard customers later this year (likely around September). According to security experts, iOS 10's kernel is not encrypted. MIT News reports:
+Why Apple has suddenly opened up its code is unclear. One hypothesis in the security community is that, as author Jonathan Levin puts it, someone inside the company "screwed up royally." But he and security researcher Mathew Solnik both say there are reasons to think it may have been intentional. Encouraging more people to pore over the code could result in more bugs being disclosed to Apple so that it can fix them.
+[2016-06-22 12:56:15] dificil acreditar que foi cagada...
+[2016-06-22 12:57:25] Binário agora é codigo aberto e código criptografado é seguro.
+[2016-06-22 13:31:15] Não só é um binário, como é um binário de um processador feito em casa, provavelmente com extensões proprietárias. Até para os níveis de binário, este é um binário bem fechado.
+[2016-06-22 16:58:02] Pessoal estou querendo comprar uns 20 kits do TV-B-Gone pra fazer uma oficina, alguem tem alguma dica de como conseguir uns alternativos?
+[2016-06-22 16:58:18] aquele kit com os componentes pra soldar e tudo mais
+[2016-06-22 17:09:30] na wiki do garoa tem um proeto desse usando arduino.
+[2016-06-22 17:09:42] https://garoa.net.br/wiki/TV-B-Garoa
+[2016-06-22 17:17:14] http://time.com/4378268/elon-musk-tesla-solarcity/
+[2016-06-22 17:25:35] DQ joined
+[2016-06-22 17:28:30] A ideia da oficina eh que ela seja de graça e que a pessoa leve pra casa o kit porisso queria algo sem o arduino, mas to pensando em fazer dois kits um montando arduino standalone e outro colocando o tv-b-gone nele
+[2016-06-22 17:29:40] ai nao ficaria muito caro
+[2016-06-22 17:29:52] ou usando pro mini chines
+[2016-06-22 17:29:53] kkk
+[2016-06-22 17:30:37] Tem na Adafruit mas é quase 20 Trumps (ou Hillaries). Eu pegaria o kit do instituto digital e faria uma adaptação técnica para colocar o emissor e receptor IR.
+[2016-06-22 17:32:05] O projeto é aberto, mas precisaria produzir a placa e achar os componentes.
+[2016-06-22 17:33:22] Ops, falha técnica, não precisa de receptor IR, só do transmissor.
+[2016-06-22 17:37:43] Sugestão de gambi: corta a trilha do LED de power, coloca um fio para uma das saídas digitais e troca o LED por um TIL32. O botão pode ser o próprio do reset: a cada execução envia os códigos de desligar. Acrescentar uma bateria de 9V e correr para o abraço.
+[2016-06-22 17:43:28] Mensagem do Léo Biscassi para quem irá participar do Hangout de Git Básico hoje:
+https://plus.google.com/+LeoBiscassi/posts/4XhDcQTff3Q
+[2016-06-22 17:56:11] gostei desse ai vou tentar reproduzir aqui e testar vlw
+[2016-06-22 19:01:38] Alguém indo agora pro Garoa?
+[2016-06-22 19:11:59] chegando em casa
+[2016-06-22 19:17:09] Tudo bem Yumi, não vou mais, é que eu precisava decidir se iria pro Garoa ou para casa, pois o hangout de Git começa 20:00...
+[2016-06-22 19:18:47] Eu ia assistir da biblioteca para não atrapalhar... mas já estou indo embora...
+[2016-06-22 20:26:32] http://prntscr.com/bjs8rg
+[2016-06-22 20:26:38] galera, vcs concordam com este meu post?
+[2016-06-22 20:31:30] lol @ quem pensa que tampar o microfone do laptop com uma fita resolve
+[2016-06-22 20:32:48] experimento prático: coloque uma música pra tocar no seu celular e tampe o alto-falante com o dedo
+[2016-06-22 20:33:04] exercício pra casa: estudar como uma onda de som funciona
+[2016-06-22 20:40:41] pois é...
+[2016-06-22 20:41:19] podia ter um guia de como se faz pra desativar fisicamente o microfone em cada modelo de laptop do mundo!
+[2016-06-22 20:41:39] talvez um wiki
+[2016-06-22 20:43:26] provavelmente em vários modelos deve ser só desplugar um conectorzinho (depois de remover N parafusos e peças)
+[2016-06-22 20:44:24] aliás... seria muito legal fazer um hardware-mod de instalar um botão capacitivo para ativar o microfone somente quando se deseja capturar um áudio
+[2016-06-22 20:44:30] aí ficaria como um walkie-talkie :-)
+[2016-06-22 20:44:49] mas não concorda tbm q é uma forma de se "precaver"
+[2016-06-22 20:44:55] e o botão chavearia o sensor de fato, estou falando de intervenção em hardware e não software
+[2016-06-22 20:45:10] sim, eu entendi o q vc quis dizer e seria uma boa ideia
+[2016-06-22 20:45:11] vinicius, fita adesiva não muda nada
+[2016-06-22 20:45:25] vai no máximo abafar um pouco o som
+[2016-06-22 20:45:37] melhor que nada, mas o benefício é quase nulo
+[2016-06-22 20:45:54] (do ponto de vista paranóico)
+[2016-06-22 20:46:19] alguns meses atrás eu baixei os esquemáticos do meu laptop
+[2016-06-22 20:46:40] e inspecionei o caminho do sinal de áudio do microfone pra ver onde é que eu tenho que intervir
+[2016-06-22 20:46:42] Não consegui achar que eu tenho que intervir. :-(
+Isso é mesmo um endereço?
+[2016-06-22 20:46:51] mas não consegui chegar a uma conclusão
+[2016-06-22 20:47:02] fiquei um pouco confuso por que tem MUITA coisa nos esquemáticos
+[2016-06-22 20:47:17] eu posso voltar a fazer isso
+[2016-06-22 20:47:24] em especial se mais alguém tiver interesse no assunto
+[2016-06-22 20:47:37] isso seria útil também para celulares
+[2016-06-22 20:47:38] talvez seria a questão de termos de fazer vários esquemáticos que ilustrem somente os pontos de captação de aúdio e vídeo
+[2016-06-22 20:47:49] sim
+[2016-06-22 20:47:53] ach oque é isso mesmo
+[2016-06-22 20:47:54] sim, para celulares eu vi o Snowden fazendo um teardown de câmera e tals
+[2016-06-22 20:48:00] mas achei meio violento
+[2016-06-22 20:48:07] arrancar a camera é uma coisa ok
+[2016-06-22 20:48:18] arrancar o microfone do celular faz ele deixar de ser um telefone
+[2016-06-22 20:48:25] sim, isso ele faz tbm
+[2016-06-22 20:48:32] então teria que ser no esquema walkie-talkie com chaveamento de microfone por hardware
+[2016-06-22 20:49:00] seria interessante ver como poderiamos fazer o chaveamento de uma câmera de celular tbm
+[2016-06-22 20:49:56] Hahahahah
+[2016-06-22 20:49:57] Rá!
+[2016-06-22 20:50:02] na verdade o q eu estou mais interessado é em saber quando a gente poderia ter uma oficina sobre segurança da informação no garoa
+[2016-06-22 20:50:14] ai eu poderia falar sobre o q eu sei(bem pouco) de phreaking
+[2016-06-22 20:50:37] tipo tecnologia Asterisk, BTS, Ramais Digitais, e etc
+[2016-06-22 20:54:02] ué
+[2016-06-22 20:54:11] demorou pra você anunciar uma então
+[2016-06-22 20:54:17] é só botar no wiki
+[2016-06-22 20:54:17] ASHUASUHASUHSAUHHUASA
+[2016-06-22 20:54:22] e mandar um email na lista anunciando
+[2016-06-22 20:54:23] vou botar então
+[2016-06-22 20:54:26] beleza
+[2016-06-22 20:54:37] pensei q tinha q ter alguma aprovação do CMC ou algo do gênero
+[2016-06-22 20:54:43] agenda uma apresentação sua sobre o que vc sabe, seguida de um bate papo informal
+[2016-06-22 20:54:47] nope
+[2016-06-22 20:54:51] é só chegar chegando
+[2016-06-22 20:54:59] a casa é sua
+[2016-06-22 21:06:42] É só marcar aí
+[2016-06-22 21:07:57] Erick (@erickemi), ainda está no GDG-SP?
+Sabe se o Regis (@rg3915) conseguiu participar?
+[2016-06-22 21:08:21] putz é hj GDG
+[2016-06-22 21:08:24] nem me inscrevi
+[2016-06-22 21:08:25] bosta
+[2016-06-22 21:08:33] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803726970_11444.jpg
+[2016-06-22 21:08:48] Leão falando sobre iot
+[2016-06-22 21:08:59] Mostrando o Arduíno mega e uno
+[2016-06-22 21:09:12] Não o vi aqui hoje
+[2016-06-22 21:10:39] Gdg geralmente 2hrs as vagas já acabaram
+[2016-06-22 21:11:04] sim
+[2016-06-22 21:13:52] Está ao vivo no Youtube:
+https://www.youtube.com/watch?v=48nE9RBUvpg
+[2016-06-22 21:14:11] Desisti de tentar acompanhar o Hangout de Git Hub... estou assistindo o GDG agora...
+[2016-06-22 21:14:20] Ele mostrou um esp @LucasVido
+[2016-06-22 21:14:45] Muito foda o controle da transmissão lá em cima
+[2016-06-22 21:17:52] Para a galera free software:
+livestreamer http://youtu.be/48nE9RBUvpg best -p mpv\ -fs
+[2016-06-22 21:21:44] Desenha um Guarda-Chuvas, Erick...
+[2016-06-22 21:26:14] Eu não abri a tempo :(
+[2016-06-22 22:03:02] Caiu o stream aqui...
+[2016-06-22 22:05:01] O fim do evento estava programado para 22:00, né?
+Deve ser isso... o stream deve cair quando atinge o horário limite...
+[2016-06-22 22:38:37] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_194397499786527107.mp4
+[2016-06-22 22:40:24] ICYMHM
+[2016-06-22 23:52:15] @fsanches quer ajuda com o esquemático?
+[2016-06-22 23:53:11] do laptop ou do patinho feio?
+[2016-06-22 23:58:12] Laptop

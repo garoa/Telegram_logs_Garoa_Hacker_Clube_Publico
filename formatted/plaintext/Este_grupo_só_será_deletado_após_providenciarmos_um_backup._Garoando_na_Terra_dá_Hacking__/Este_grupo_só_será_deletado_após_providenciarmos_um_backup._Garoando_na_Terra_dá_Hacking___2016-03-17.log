@@ -1,0 +1,13 @@
+[2016-03-17 08:13:34] Alexandre Villares: @aurium  é difícl fazer um bot que poste os próximos eventos a partir da página de eventos do Garoa? Tem que rolar um 'parse' da data imagino...
+[2016-03-17 08:13:59] Alexandre Villares: Tava pensando em um bot pro Twitter do Garoa na real...
+[2016-03-17 11:21:23] H. Galdino: Zapier pode fazer isso, é só integrar ele ao bot
+[2016-03-17 14:43:52] Alexandre Villares: @GaldinoHenrique  Zapier lembra o IFTTT né? Acho que o problema é a estrutura (ou falta de) no wiki
+[2016-03-17 14:46:37] H. Galdino: Sim @AlexandreVillares lembra bastante, particularmente eu prefiro o Zapier, ele me parece ter uma estrutura e disponibilidade melhor que a IFTTT. Em todo caso, faz um teste nos dois man, acho que vale a tentativa
+[2016-03-17 14:47:34] Alexandre Villares: legal, vou dar uma pesquisada!
+[2016-03-17 14:50:10] H. Galdino: Por exemplo, eu recebo msg's das seguintes plataformas em minha bot utilizando o zapier como base: Facebook, Twitter, Google calendar, Instagram e socialpilot
+[2016-03-17 14:53:29] Alexandre Villares: Ó vou querer usar esta página como fonte: https://garoa.net.br/wiki/Proximos_Eventos
+[2016-03-17 15:00:43] H. Galdino: No caso vc queria um webhooks?
+[2016-03-17 15:01:14] Alexandre Villares: não faço a menor ideia!
+[2016-03-17 15:02:31] Alexandre Villares: Vou ter que sair aqui, depois continuamos...
+[2016-03-17 16:44:07] Aurium's Bot: 29/03 = 9.666666666666666
+[2016-03-17 23:19:56] Aurium's Bot: Twitter Search / juca_gnu  — 17 de março, 23:00

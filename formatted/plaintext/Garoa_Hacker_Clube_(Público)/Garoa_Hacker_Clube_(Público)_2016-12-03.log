@@ -1,0 +1,149 @@
+[2016-12-03 00:00:04] Forum é mais colaborativo por definição, ou não?
+[2016-12-03 00:00:58] não sei, tenho pouca experiência pra afirmar qualquer coisa. Pra mim está sendo algo novo e interessante. Parece que pra algumas coisas funciona melhor que lista de email. E um milhão de vezes melhor que Telegram.
+[2016-12-03 00:01:24] Acho que no fim tende a organizar melhor a informação.
+[2016-12-03 00:01:51] Perdão, mas vc nunca participou de um fórum? Nem de uma banda, que seja?
+[2016-12-03 00:03:07] Eu acho forum foda, mas não participo hoje de nenhum. Por questões de hábito e tal. Já participei de alguns sobre bandas ou baladas, conheci muita gente massa. Mas isso foi pré orkut.
+[2016-12-03 00:05:05] Juca, o cp500 é seu desde que ele volte a funcionar 😘
+[2016-12-03 00:05:19] Vi um post recentemente sobre como o Facebook está matando os foruns, pq hj vc tem um problema específico, posta na sua timeline e em alguns comentários vc resolve. Enquanto que os foruns acabam produzindo verdadeiras bibliotecas, o que foi postado na sua timeline não é acessível pra quem busca no Google, por exemplo
+[2016-12-03 00:09:40] Post antigo mas eu não conhecia https://boingboing.net/2015/12/03/computationally-derived-sisyph.html
+[2016-12-03 00:17:37] E se ele for declarado irrecuperável ele é seu? LOL Parece uma boa regra :-)
+[2016-12-03 00:18:49] To brincando. Muito obrigado! Recuperar esse CP500 (ou ao menos estudar os circuitos da sua pcb) está na minha (loooonga) lista de projetos a fazer algum dia.
+[2016-12-03 00:31:51] https://github.com/garoa/Adesivos/blob/master/pixotosco/pixotoscolongo150mm.svg
+[2016-12-03 00:47:26] Live mc hackudão na madruga quem quiser salve ou alguma musica só entrar ai e pedir: http://www.youtube.com/channel/UCRihk2qGjnMfZ2DrwXXr1tQ/live
+[2016-12-03 01:03:08] Eu! Já ia mandar algo sobre isso: https://www.nextplatform.com/2016/11/30/fpga-accelerated-cloud-push-just-got-stronger/
+Tô aprendendo ainda né, mas a tendência de FPGA em servidores está se confirmando. Acho bem interessante! :)
+[2016-12-03 01:04:24] Bem no esquema que eu disse, vê? Fpga como aceleradores, com interface pcie para uma CPU
+[2016-12-03 01:06:39] É, mas vai aparecer de tudo. A Intel quer lançar um Xeon com FPGA também.
+[2016-12-03 01:08:54] In instances with more than one FPGA,  dedicated PCIe fabric allows the FPGAs to share the same memory address space and to communicate with each other across a PCIe Fabric at up to 12 gigabytes per second in each direction.  The FPGAs within an instance share access to a 400 Gbps bidirectional ring for low-latency, high bandwidth communication (you’ll need to define your own protocol in order to make use of this advanced feature).
+[2016-12-03 01:08:57] Caramba
+[2016-12-03 01:10:16] Um dia desses vi uma pergunta no Stack Exchange de engenharia elétrica de alguém tentando comunicar uma GPU com uma FPGA PCIe. Fiquei pensando nas aplicações disso.
+[2016-12-03 01:12:19] Nada disso é excepcional neste tipo de sistema
+[2016-12-03 01:12:41] Eu estou num projeto que envolve exatamente isso
+[2016-12-03 01:13:03] Que massa, o que faz? Pode falar?
+[2016-12-03 01:13:15] Aprendizado de máquina?
+[2016-12-03 01:16:49] Não, nada disso. Processamento de sensores de raios X, para formar imagens 3D de moléculas
+[2016-12-03 01:19:42] Que massa. Meu interesse é otimização, programação em baixo nível e criptografia, mas ambos são só diversão também. Quem sabe um dia vire algo sério.
+[2016-12-03 01:19:55] Mas eu já tinha um projeto parecido há um tempo, de passar vídeo direto da FPGA para a GPU para fazer transcodificação
+[2016-12-03 01:23:49] O que acho interessante é usar o paralelismo e habilidade em floating points da GPU dar ao FPGA o que lhe falta. Ainda tenho que estudar bastante para não falar besteira, mas fico pensando se o paralelismo da GPU não pode ajudar a orquestrar o uso de funções lógicas na GPU. Tipo vários blocos lógicos na FPGA com implementação de sha256 e a GPU coletando a saída e decidindo a entrada a partir de uma série de valores a serem processados.
+[2016-12-03 01:24:17] *lógicas na FPGA
+[2016-12-03 01:26:38] Enfim, x núcleos da GPU cada se apoiando em seu grupo de implementações da lógica na FPGA em paralelo.
+[2016-12-03 01:27:56] Ot: eh sempre legal estar a 140km/h e ser ultrapassado ferozmente por outro carro
+[2016-12-03 03:11:34] Olha as Virtexs mais novas da Xilinx que estão sendo usadas no Amazon F1 possuem mais de 6k multiplicadores. Acredito que são tecnologias concorrentes  ( fpga e gpu ) cada uma com sua vantagem e desvantagem.
+[2016-12-03 03:12:40] O futuro da web é fpga. Ainda mais agora que está cada vez melhor a sintetizacao do c para vhdl.
+[2016-12-03 05:03:16] Sim! Olha só que legal: http://www.clash-lang.org/ 
+Espero que resolvam esse mix de ferramentas dos fabricantes em algum projeto open source.
+[2016-12-03 07:11:23] Comprei a Altera DE1 por 125 dólares através do programa estudantil da Terasic. Tem um kit papillio da Xilinx que me saiu por 250 reais. Não experimentei, mas rola uns bem pequenos da lattice cuja proposta é substituir MCU de 8 bits
+[2016-12-03 07:11:27] A-há!!! Fui eu que preparei esse SVG! Justamente pra fazer o adesivão do lab de eletrônica! Eu nem lembrava desse arquivo. Muito obrigado, Fabricio!
+[2016-12-03 07:13:40] Apesar da predominância de ferramentas proprietárias, existe um movimento forte de publicação dos HDLs de forma livre, como é o caso da Opencores e do Cern
+[2016-12-03 07:18:05] Eu acabei de ver um produto que analisava o jitter de barramentos de fieldbuses, para determinar a capacidade de controle em tempo real, e era implementado em FPGA
+[2016-12-03 07:22:03] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_236760733616963947.webp
+[2016-12-03 08:19:33] /anime search Subete ga F ni Naru
+[2016-12-03 08:19:34] Subete ga F ni Naru: The Perfect Insider
+Episodes: 11
+Status: Finished Airing
+Genres: Mystery
+Age rating: R17+
+Rate:  3.58
+
+Genius programmer Shiki Magata has been living in isolation at a research facility on a solitary island since she was a girl. Nagono University associate professor Souhei Saikawa and Moe Nishinosono wish to meet Shiki in person, so they visit the facility but get caught up in a murderous game.
+
+(S
+
+2015-10-09 - 2015-12-18
+[2016-12-03 09:33:09] O cara do Open Hardware passou no Garoa mês passado, aliás.
+[2016-12-03 09:34:08] Mas o lance é que as ferramentas de síntese não vão ser livres em um futuro próximo, pelo menos para FPGAs grandes e novas. As empresas fazem bastante esforço para esconder a organização interna do hardware.
+[2016-12-03 09:34:45] Aproveitando, alguém aqui realmente trabalha com FPGA? Vai ter uma reunião do CERN no dia 12 sobre tooling aberto para FPGA, com participação remota, se alguém quiser assistir.
+[2016-12-03 09:58:52] Tem o meu Atari 2600 que veio passar uma temporada aqui em casa.
+[2016-12-03 10:47:17]  joined
+[2016-12-03 10:47:18] Hi Anders !
+[2016-12-03 10:47:24] Novo post: https://andersbateva.wordpress.com/2016/12/02/a-tendencia-crescente-de-criminalizar-hackers-e-reparadores/
+[2016-12-03 12:11:51] Nunca tinha ouvido falar nesse solution 16
+[2016-12-03 12:37:38] Caramba, tem um Solution 16 no Garoa?
+Solution 16 era um IBM PC-XT compatível "portátil", com a tela e os drives de disquete embutidos no gabinete, e o teclado servia como tampa...
+Um dos meus sonhos de consumo quando era moleque...
+[2016-12-03 12:40:04] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803712920_146195.jpg
+[2016-12-03 12:40:16] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803711826_145578.jpg
+[2016-12-03 13:22:54] tá no depósito faz teeeeeempo
+[2016-12-03 14:15:20] /anime
+[2016-12-03 14:31:11] Muito legal, @fsanches. O resultado ficou um barato.
+Ainda tem os códigos? Que acha de explicar o processo numa Glitch Nights?
+[2016-12-03 15:19:12] https://groups.google.com/forum/#!topic/hackerspacesp/fRS8Pkk5evc
+[2016-12-03 15:21:09] Por acaso achei isso https://www.youtube.com/watch?v=VyDCOMMmFog
+[2016-12-03 15:30:25] 486, formula 1 dos micros, 94 quase saindo pentium 2..
+[2016-12-03 15:32:05] Mas em notebook sempre se ficava um pouco atras, não?
+[2016-12-03 16:05:00] https://www.facebook.com/events/1268997059840107/
+[2016-12-03 16:05:13] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_362950403236561105.webp
+[2016-12-03 16:05:38] #hackerspaceitinerante
+[2016-12-03 16:32:58] Legal
+[2016-12-03 16:34:48] O imposto ficou como? 60%?
+[2016-12-03 16:41:38] document
+[2016-12-03 16:41:57] Malditos 60%
+[2016-12-03 16:42:34] Burrei, usei FedEx
+[2016-12-03 16:43:05] Havia outras opções, mas foi uma das primeiras compras que fiz no exterior
+[2016-12-03 16:43:11] Não sabia
+[2016-12-03 16:43:46] É bem mal isso de cobrarem a mesma porcentagem pra iPhone e FPGA.
+[2016-12-03 16:44:55] Ferramentas de desenvolvimento e de pesquisa deveriam ser livre de impostos
+[2016-12-03 16:45:17] Vai até contra a lógica do protecionismo
+[2016-12-03 16:51:01] Vi outro dia e fui pesquisar
+[2016-12-03 17:05:06] Na real, o imposto é diferente, mas tem que ter radar e o escambal
+[2016-12-03 17:06:51] Tem alguém pleiteando isso?
+[2016-12-03 17:07:44] Esse é o lance: já é diferente. Mas dá um trabalhão (e demora) importar no processo que permite classificar o bem
+[2016-12-03 17:08:46] Tenho a impressão de já ter ouvido falar, mas serve pra qq tipo de entidade?
+[2016-12-03 17:09:21] Sim, até pessoa física pode fazer. Mas é demorado, complicado e na prática, vai ter que arranjar um despachante
+[2016-12-03 17:11:35] Fotógrafo e cinegrafista poderão ter isenção para importar equipamentos — Senado Federal - Portal de Notícias
+http://www12.senado.leg.br/noticias/materias/2016/08/22/fotografo-e-cinegrafista-poderao-ter-isencao-para-importar-equipamentos
+[2016-12-03 17:13:14] Infelizmente burocracia é sempre um problema, mas dá pra arranjar alguma maneira de melhorar
+[2016-12-03 17:13:23] Vou dar uma v pesquisada
+[2016-12-03 17:13:31] Aquele tal de importa fácil não ajuda?
+[2016-12-03 17:14:30] Não sei. No trabalho eu tenho equipe que importa, e lá a gente importa sem imposto
+[2016-12-03 17:15:06] A gente podia fazer uma vaquinha em cada hackerspace pra deixar essa burocracia pronta pra pedir coisa! :D
+[2016-12-03 17:15:13] Esse daí é o lobby da Globo, já conseguiram várias benesses, como simplificar levar equipamento para fora, mas só para filmagens
+[2016-12-03 17:15:34] Fazer um hackaton
+[2016-12-03 17:15:51] Até uma Wiki com o mapa dessa burocracia já ajudava
+[2016-12-03 17:16:06] Tem q fazer um lobby dos hackerspaces então
+[2016-12-03 17:16:37] Aylons Vc sabe o número da lei?
+[2016-12-03 17:16:46] Bem, se a gente conseguir uma cadeira no CGI já vou comemorar, quer enfrentar a FIESP agora?
+[2016-12-03 17:17:08] Não, não sou especialista, só convivo com essas coisas
+[2016-12-03 17:17:26] Beleza, vou pesquisar
+[2016-12-03 17:18:03] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_413438718758617142.webp
+[2016-12-03 17:20:36] O mais importante é que contratar o despachante sai caro, e dificilmente compensa a diferença nos impostos a não ser que esteja importando muito num único pacote
+[2016-12-03 18:08:10] 9/12 no Garoa: Ludum Dare 37
+[2016-12-03 18:08:17] https://www.facebook.com/events/2182010718690615/
+[2016-12-03 18:08:50] 9 de dezembro às 23:30 a 12 de dezembro às 23:59
+[2016-12-03 18:57:58] precisamos transformar o garoa numa igreja
+[2016-12-03 18:58:01] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803701347_146548.jpg
+[2016-12-03 19:03:07] E os pastores serão ‘isentos de dízimo’ e de impostos… incrível…
+[2016-12-03 19:04:01] em vez de chanceler supremo teremos sumo-sacerdote!
+[2016-12-03 19:07:44] isso ai
+[2016-12-03 19:50:06] "Só Cristo Salva", padroeira "Santa Ifigénia"...
+[2016-12-03 19:53:27] o Tony tem umas histórias de N. Senhora do Postcript Error…
+[2016-12-03 19:55:20] Ingreja dos Hackers do Ultimos Dias
+[2016-12-03 19:58:39] 0-day saints
+[2016-12-03 20:01:09] Igreja dos Piratas da Internet, minha sugestão.
+[2016-12-03 20:12:03] Assembléia dos Hacker - Ministério Garoa
+Dá até pra fazer franquias em outros Estados
+[2016-12-03 20:12:10] Louvemos ao Nosso Senhor e Salvador Monstro Spaghetti Voador
+[2016-12-03 20:12:50] Padroeiros: Sta Ifigênia e Nossa Senhora do Imaculado Ferro de Solda
+[2016-12-03 20:14:49] Igreja do Barramento Central Universal Paralelo
+[2016-12-03 20:16:21] Eu lembro de ter em casa alguns livros de programação em msx
+[2016-12-03 20:16:53] São Pareto: dõe 20% e tenha 80% dos benefícios :D
+[2016-12-03 20:17:34] Putz, preciso de um chapéu escorredor urgente!
+[2016-12-03 20:26:09] AHUAHEHAHUEH
+Igreja do 0º dia! (E no 7º saiu o patch...)
+[2016-12-03 20:26:37] aeeee alguém entendeu
+[2016-12-03 20:26:59] hauahauha
+[2016-12-03 20:28:04] Missa todo primeiro domingo, little endian.
+[2016-12-03 20:29:36] E se a gente juntar e pedir tudo no mesmo? :D
+[2016-12-03 20:46:06] Igreja Universal do /etc/Sudoers
+[2016-12-03 20:47:19] Eu voto pra ter musiquinha country estilo show da fé (muito estilo)
+[2016-12-03 20:52:50] Hmmm e esses livros tão à toa lá? 😋
+[2016-12-03 21:02:28] Não sei.
+[2016-12-03 21:03:26] Sim sim, eu vou até procurar lá pelas estantes
+[2016-12-03 21:06:05] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803711538_146387.jpg
+[2016-12-03 21:07:00] Nunca nem cheguei perto de um msx... Esses livros foram parar em casa por causa de um amigo. Minha primeira máquina da vida foi um Pentium 1 com 32mb de memória RAM.
+[2016-12-03 21:08:45] Infelizmente meus livros de MSX minha mãe me obrigou a vender... que saudades
+[2016-12-03 21:09:20] Eu te entendo hehe
+[2016-12-03 21:11:35] Rede Mesh a paritr de dispositivos wireless
+https://commotionwireless.net/
+[2016-12-03 23:49:18] Grupo do telegram sobre Rust, alguém sabe de algum?
+[2016-12-03 23:55:54] telegram, rust? pode ser irc channel de Elixir? 😝

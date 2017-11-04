@@ -1,0 +1,235 @@
+[2017-03-07 00:32:25] Hahhaha
+[2017-03-07 00:32:29] Olaa
+[2017-03-07 02:14:04] Juca, o arcade nao foi comprado pelo garoa?
+[2017-03-07 02:14:08] https://garoa.net.br/wiki/Reuni%C3%A3o_de_16/12/2014#Arcade
+[2017-03-07 02:25:08] Foi, mas nunca fui reembolsado. E então decidi abrir mão do reembolso e ficar com ele pra mim mesmo.
+[2017-03-07 02:26:05] hahaha eu lembro desse cmc...
+[2017-03-07 02:26:20] ah, lógico, foi o cmc que eu me associei
+[2017-03-07 02:27:03] :-)
+[2017-03-07 02:27:41] E depois fiz todos os outros investimentos do meu próprio bolso, de modo que o Arcade foi integralmente financiado por mim e portanto é meu.
+[2017-03-07 02:27:43] e porque eu quem comecei a redigir a ata no cmc nesse pc aí da foto (que virou o ncc-1701)
+[2017-03-07 02:27:53] https://garoa.net.br/wiki/NCC-1701
+[2017-03-07 02:28:09] to indo deitar. Batemos papo amanhã. Boa noite.
+[2017-03-07 02:28:10] acho que isso precisa ser formalizado em um cmc
+[2017-03-07 02:28:24] isso nao esta claro para muita gente, eu incluso
+[2017-03-07 02:28:26] Posso dar um informe, sim.
+[2017-03-07 02:28:52] OK. Faz sentido. É bom botar os pingos nos I, com certeza
+[2017-03-07 02:30:48] Mas a única coisa que precisa formalizar é um informe no início do CMC esclarecendo que a verba "on hold" nunca foi re-liberada e que eu abri mão dela. Todo o resto é resto e não cabe ao CMC, pois é idêntico a qualquer outro projeto de associado.
+[2017-03-07 02:31:56] A única diferença, em relação a outros projetos de associados, é que o bicho é grande e toma espaço. Mas, por outro lado, há agora o benefício das pessoas poderem jogar de graça.
+[2017-03-07 02:32:34] (e faço vistas grossas ao fato de algum anônimo ter arregaçado o vidro do arcade com uma droga dum dardo)
+[2017-03-07 02:32:56] Bom... agora preciso mesmo ir dormir
+[2017-03-07 02:32:57] té mais!
+[2017-03-07 06:00:46] ei jogo ugertre
+[2017-03-07 06:01:00] alguem pode me ajduar comesse numero_
+[2017-03-07 06:01:02] 55 11 96307 1085
+[2017-03-07 06:01:33] tipo eh real ele esta em umhelicopitero[
+[2017-03-07 06:13:13] foi um puta trote desculpa
+[2017-03-07 06:37:51] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_930838074399655315.webp
+[2017-03-07 06:39:52] Para que seria este número?
+[2017-03-07 06:51:07] Não entendi nada...
+[2017-03-07 07:09:55] O que quer com isso, moço?
+[2017-03-07 07:10:20] esquece
+[2017-03-07 07:10:58] foi desepspero pela mina filha mais ja passou resolvi
+[2017-03-07 07:15:52] Tipo aqueles trotes de falso sequestro?
+[2017-03-07 07:30:43] ainda não entendi nada
+[2017-03-07 07:52:21] era trote falando q era sequestro da sua filha, confere?
+[2017-03-07 09:37:52] Vamos, tenho bastante coisa pronta pra responder via processing
+[2017-03-07 10:05:03] Não necessariamente. Dá pra começar a programar pra essas placas fazendo um hello world absolutamente mínimo.
+[2017-03-07 10:07:34] Por exemplo, escrever alguns bytes nos endereços da memória de vídeo para fazer aparecer na tela um determinado texto (pode ser "GAROA" por exemplo) e, em seguida, entrar num loop infinito. Esse seria o "hello world" mínimo para uma placa de fliperama.
+[2017-03-07 10:09:11] Teria como pre-requisito estudar minimamente como funciona o layout de vídeo, onde ele fica mapeado na memória e como se compila um código C (ou assembly talvez) para gerar um binário que se possa inicialmente carregar num emulador como o MAME e, posteriormente, gravar numa EPROM pra espetar direto na placa de arcade.
+[2017-03-07 10:09:42] Para cada modelo diferente de placa de arcade, a técnica será ligeiramente diferente, mas dá pra repetir o hello world como um novo desafio em cada arquitetura.
+[2017-03-07 10:10:40] Mas a grande maioria dos arcades usa processador Motorola 68000. Então o passo zero é arranjar um compilador C para m68k. Talvez o GCC dê conta do recado com os pés nas costas.
+[2017-03-07 10:54:24] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_694481660414001192.webp
+[2017-03-07 14:08:20] https://garoa.net.br/wiki/Arcade
+[2017-03-07 14:20:45] auhauahauhau
+[2017-03-07 14:31:46] Extamente, o GCC tem sim pois o Sharp X68000 tem um GCC para ele, não sei se é um fork ou o próprio...
+[2017-03-07 15:44:10] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_285892071401719735.webp
+[2017-03-07 15:52:53] Sergio (@sergiovl), sabe o que seria legal? Abrir um repositório git de "hello world"s para arcades. Com um diretório pra cada máquina em que alguém já tenha escrito um hello world. Usando como nome do diretório a nomenclatura dos drivers do MAME. E botando nas regras de Makefile um alvo "make run" que compila e já carrega as ROMs resultantes no próprio MAME pra testar.
+[2017-03-07 15:53:10] esse repositório poderia se chamar HelloArcade
+[2017-03-07 15:57:22] github tá ai pra isso! 😝
+[2017-03-07 15:57:41] yep!
+[2017-03-07 15:58:05] você tem interesse em estudar programação de arcades ?
+[2017-03-07 15:58:14] começando pelo basicão do hello world... ?
+[2017-03-07 16:03:17] interesse sempre tenho, problema é tempo...esses plantões do BK estão acabando comigo....
+[2017-03-07 16:05:21] :-P
+[2017-03-07 16:36:29] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_272479773299573147.webp
+[2017-03-07 16:36:59] offtopic pra quebrar o gelo
+[2017-03-07 17:10:31] rapaz... pior erro da vida kkkkk
+[2017-03-07 17:36:24] Dei uma geral na página do Arcade no wiki. Documentei todos os jogos que tenho disponíveis. Falta só identificar lá quais estão jogáveis (dica: todos MVS + SuperX estão jogáveis. O resto tá com alguma zica, que irei detalhar na wiki mais tarde) https://garoa.net.br/wiki/Arcade
+[2017-03-07 17:40:24] 👍
+[2017-03-07 17:43:32] Tem alguém no garoa agora?
+[2017-03-07 17:49:19] tô saindo da faculdade agora pra ir pra lá
+[2017-03-07 17:49:29] faço nem ideia de que horas chego
+[2017-03-07 17:49:45] provavelmente umas 18:30 - 19
+[2017-03-07 17:49:54] levando em conta q a linha azul está meio abarrotada
+[2017-03-07 17:50:12] @mynameiserin chutando uma localidade aleatoria
+[2017-03-07 17:50:30] nem vou pegar linha azul
+[2017-03-07 17:52:33] Qual linha?
+[2017-03-07 17:52:33] USP leste -> sé -> república -> pinheiros
+[2017-03-07 17:52:50] trem ainda nem chegou aqui ainda, cptm demora
+[2017-03-07 17:53:27] Queria deixar um treco no garoa
+[2017-03-07 17:53:29] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_606707282096422962.webp
+[2017-03-07 17:53:32] https://wikileaks.org/ciav7p1/index.html
+[2017-03-07 17:54:15] o Afonso tá passando lá alguma hora, que eu ia pegar um treco com ele
+[2017-03-07 17:54:41] Afonso ?
+[2017-03-07 18:02:11] document
+[2017-03-07 18:03:22] The increasing sophistication of surveillance techniques has drawn comparisons with George Orwell's 1984, but "Weeping Angel", developed by the CIA's Embedded Devices Branch (EDB), which infests smart TVs, transforming them into covert microphones, is surely its most emblematic realization.
+[2017-03-07 18:04:04] Esses americanos tão enchendo o saco já...
+[2017-03-07 18:04:28] Bora fazer oficina de cortar a trilha do microfone na PCB
+[2017-03-07 18:05:00] pré-requisito: saber manusear uma chave phillips e um estilete
+[2017-03-07 18:05:02] e desligar webcam em notebook
+[2017-03-07 18:09:23] Oi eu vou lá as 19:30
+[2017-03-07 18:10:30] a webcam é fácil: é só colar um chiclete na frente
+[2017-03-07 18:10:47] (brincadeira... eu uso um adesivo na minha webcam já faz alguns anos)
+[2017-03-07 18:11:12] 👍
+[2017-03-07 18:11:14] e sempre me incomodou a noção de que não tem uma solução simples como o adesivo pra lidar com o microfone
+[2017-03-07 18:11:19] Eu também.
+[2017-03-07 18:11:42] mas para prevenir, só desconectar o cabo da camera
+[2017-03-07 18:12:23] se a câmera tiver um adesivo na frente, tanto faz se está capturando imagem ou não. O resultado será um frame-buffer de pixels cinza-escuros
+[2017-03-07 18:13:02] no caso do microfone eu desabilito via software. Mas tenho certeza que um atacante conseguiria re-habilitar por software tmb. Então no caso do microfone realmente é necessário remover o cabo (ou cortar a triliha se não tiver conector.
+[2017-03-07 18:13:10] imprimir um dedo do meio e colar na camera! rsss
+[2017-03-07 18:13:52] pontinho extra pra quem bolar um circuitinho extra de walkie-talkie pra habilitar o microfone com o pressionamento de um botão mecânico
+[2017-03-07 18:13:56] pois é, que se pode desabilitar via software, também pode ser habilitado...
+[2017-03-07 18:15:02] mas tem que ser botão mecânico. Se for tecla do teclado, volta o problema de poder ser enganado por ataque via software
+[2017-03-07 18:16:48] sabe o que é revoltante? Faz mais de 10 anos que eu falo sobre essa porra. E a galera me chamava de paranóico. Diziam: "Jamais um governo iria se arriscar a esse ponto de cometer um abuso desse tipo... você está com minhoca na cabeça, sai dessa esquizofrenia e acorda pro mundo real..." Pois é... me diz agora quem é que tava delirando.
+[2017-03-07 18:17:47] Sei como é, cara... 😏
+[2017-03-07 18:19:14] Já me chamaram de paranoico
+[2017-03-07 18:19:49] bem... você é um caso à parte LOL
+[2017-03-07 18:19:51] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_328774854541050158.webp
+[2017-03-07 18:20:06] mal precisa ser circuito se não importar leve ruído no acionamento, só um botão em série fechando a conexão do microfone com a entrada de áudio
+[2017-03-07 18:20:07] 1 componente
+[2017-03-07 18:20:10] (zueirinha)
+[2017-03-07 18:20:27] PERFEITO!
+[2017-03-07 18:21:00] o microfone é um dispositivo analógico. Ruídos não devem causar interferencia nenhuma no resto do computador.
+[2017-03-07 18:21:01] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_858174108288942893.webp
+[2017-03-07 18:21:30] tá certo que ainda existe o caminho do software, mas uma ideia simplinha: plugar um p2 sem cabo na entrada do mic pro PC 'achar' que tem um mic plugado
+[2017-03-07 18:22:25] Mas o software pode 'ajustar' isso, não?
+[2017-03-07 18:23:02] sim, se o invasor pensar em tudo. foi minha primeira frase, hehe.
+[2017-03-07 18:23:06] Eu estive lá na porta mas já saí, esqueci minha chave no trampo 🤐
+[2017-03-07 18:23:33] Genial! Tem que ver caso-a-caso o diagrama do circuito pra ver como é feito esse roteamento do sinal do mic interno pro mic externo. Se for completamente analógico, é a solução menos intrusiva e, portanto, a mais indicada. Entratanto, pode haver casos em que o chaveamento entre mics seja feito por software com base na leitura da impedância da entrada de mic externo por parte do driver.
+[2017-03-07 18:23:42] é que seria uma solução caseira ao alcance de qualquer um. até se tornar comum.
+[2017-03-07 18:24:14] dudu, você é um gênio! Vou dar uma pesquisada sobre essa possibilidade
+[2017-03-07 18:24:32] Promete ser uma solução geral para os leigos
+[2017-03-07 18:24:37] não no resto do pc, mas digo o áudio captado
+[2017-03-07 18:24:46] mas é importante ressaltar que pode variar de modelo pra modelo de computador
+[2017-03-07 18:24:59] pode crer, não tinha pensado na possibilidade do circuito analógico. seria ideal!
+[2017-03-07 18:25:20] sim sim... mas ninguém liga pra um chiadinho em troca da certeza de não estar sendo monitorado
+[2017-03-07 18:25:38] sure
+[2017-03-07 18:26:39] tive uma ideia: um "P2 drive" que só toca Kenny G pra quem tiver bisbilhotando.
+[2017-03-07 18:27:01] olha... na dúvida, eu já enfiei um plug P2 aqui no meu. Por que se você estiver certo isso já passa de imediato a inibir qualquer captura.
+[2017-03-07 18:27:30] mas pensando bem... um plug sem nada é igual a um circuito aberto
+[2017-03-07 18:28:02] hmmm verdade
+[2017-03-07 18:28:05] pra surtir efeito precisaria ser um plog p2 com um resistor do valor correto para apresentar ao circuito do computador uma impedância equivalente à de um microfone
+[2017-03-07 18:28:22] se plugar um P2 no meu note, mesmo assim o microfone pode ser acessado via software, então permite que o note tenha 2 microfones, mesmo que no driver vc coloque para desativar o microfone interno se for plugado um externo...
+[2017-03-07 18:28:40] testa pra ver se o seu mic tá gravando
+[2017-03-07 18:28:44] impedância é (nesse caso) um termo técnico para resistência. Me desculpe o jargão excessivamente técnico
+[2017-03-07 18:29:05] sim sim! Parece um ótimo passo para um tutorial
+[2017-03-07 18:29:43] pois é... isso é evidẽncia de que o chaveamente é feito por software (ao menos no seu modelo de placa de som)
+[2017-03-07 18:30:13] hahaha! Que divertido
+[2017-03-07 18:30:46] Eu tinha pensado em algo do tipo para a webcam. Mas eu não tinha pensado nisso para o microfone. Da hora :-D
+[2017-03-07 18:31:21] Eduardodo, bem que você podia aparecer com mais frequencia lá no Garoa, hein?! :-D
+[2017-03-07 18:31:42] será que o chaveamento pode ser feito por algum sensor mecânico? tipo, enfiou o plug a placa detecta, independente do circuito estar fechado ou não?
+[2017-03-07 18:31:49] haha, é longe (mentira)
+[2017-03-07 18:32:07] The attack against Samsung smart TVs was developed in cooperation with the United Kingdom's MI5/BTSS. After infestation, Weeping Angel places the target TV in a 'Fake-Off' mode, so that the owner falsely believes the TV is off when it is on. In 'Fake-Off' mode the TV operates as a bug, recording conversations in the room and sending them over the Internet to a covert CIA server.
+[2017-03-07 18:33:35] acabei de receber isso em outro grupo, achei pertinente
+[2017-03-07 18:33:37] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_694481660414001275.webp
+[2017-03-07 18:34:19] Existem um P2 com chaveamento mecanico mas acho que os novos gabinetes de micros e notebooks não devam usar mais, agora é tudo via software ligado diretamente com o driver da placa de som
+[2017-03-07 18:35:42] Eu projetei um circuito de placa de som no meu trampo no moddevices.com Acho que tenho conhecimento suficiente pra bater o olho numa placa e achar o ponto onde uma intervenção pode ser feita pra nos dar controle manual do sinal de áudio dos mics
+[2017-03-07 18:37:38] E nem é um assunto cabeludo. Qualquer pessoa com um mínimo de noção de eletrônica consegue fazer a mesma análise, desde que tenha uma boa disciplina de ir atrás dos documentos certos e aplicar uma análise fria e metódica sobre as informações encontradas e observações do layout da PCB.
+[2017-03-07 18:38:28] (similar ao conserto da placa MVS que fiz nesse domingo. É só saber procurar nos lugares certos e ter paciência e atenção)
+[2017-03-07 18:39:49] certamente
+[2017-03-07 18:39:59] (outro exemplo foi aquela detecção da ROM de áudio corrompida na tua placa de arcade das tartarugas ninjas que fizemos outro dia depois de abordarmos o problema de forma sistêmica)
+[2017-03-07 18:41:03] No fim das contas, toda tecnologia é trivial se você tiver tempo suficiente pra pensar a respeito e investigar os detalhes de funcionamento
+[2017-03-07 18:41:55] o grande problema é que a maioria das pessoas não tem tempo (ou são treinadas a acreditar erroneamente que não têm tempo)
+[2017-03-07 18:43:16] @fsanches esse lance de bloquear o microfone dos PCs (e celulares!) daria uma boa palestra pra cryptorave. As chamadas pra atividades rolam até 31/03, fica a dica, hehe
+[2017-03-07 18:43:46] putz
+[2017-03-07 18:44:42] eu já saquei que eu tenho uma vulnerabilidade no meu cérebro que é a de assumir compromissos demais por achar foda. E depois fico feito um louco tentando cumprir tudo. Acho muito massa a sua idéia, mas acho que vou deixar pro ano que vem (ou pro próximo)
+[2017-03-07 18:45:32] hehe sussa. eu não manjo nada, só dou ideia e não faço nada. quem sou eu pra cobrar.
+[2017-03-07 18:55:36] garoa aberto
+[2017-03-07 18:58:18] garoa aberto a sugestões
+[2017-03-07 19:00:29]  joined
+[2017-03-07 19:00:30] Hi Yuhri !
+[2017-03-07 19:00:56] Boa noite
+[2017-03-07 19:06:55] o arcade funciona bem, mas os controles deixam bastante a desejar
+[2017-03-07 19:07:19] tem que fazer muita força pra registrar input, impossível ter reflexos
+[2017-03-07 19:08:04] e não lembrava do metal slug ter tanto slow down
+[2017-03-07 19:10:15] por isso prefiro micro switches.. podemos montar o kit que o garoa comprou nele
+[2017-03-07 19:10:40] ou um outro kit igual, não necessariamente o que foi comprado pra montar outro fightstick
+[2017-03-07 19:11:49] Galera, para quem curte big data e quer se interar sobre as novidades:
+https://www.meetup.com/pt-BR/Sao-Paulo-Big-Data-Meetup/events/238249402/
+[2017-03-07 19:22:06] então
+[2017-03-07 19:22:18] o json do status diz 'open for public'
+[2017-03-07 19:22:28] o appspot procura por 'open' ou 'closed'
+[2017-03-07 19:22:29] wtf
+[2017-03-07 19:25:06] garoa aberto manualmente
+[2017-03-07 19:42:24] Felipe joined
+[2017-03-07 19:42:25] Hi pingfreud !
+[2017-03-07 19:42:48] Hi, Jack.
+[2017-03-07 20:12:27] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804201727_27745.jpg
+[2017-03-07 20:14:37] O mic do meu note é um buraquim do lado da câmera (que já tá tampada) se pingar cola quente nele e espalhar já não zoa a captação?
+[2017-03-07 20:19:43] provavelmente zoa. Mas não impossibilita o reconhecimento dos diálogos
+[2017-03-07 20:20:09] a solução definitiva é cortar as trilhas ou desconectar o conector (caso exista)
+[2017-03-07 20:20:33] E usar software 100% livre, é claro, pra minimizar a superfície de ataque
+[2017-03-07 20:20:43] O ideal é impedir a captação mesmo 😉
+[2017-03-07 20:26:09] Ow se vocês bolarem algo por favor me avisem que eu levo meu note hahaha
+[2017-03-07 20:31:46] LOL
+[2017-03-07 20:31:50] oh yeah
+[2017-03-07 20:32:05] traz aê que a gente corta as trilha
+[2017-03-07 20:33:25] Hahahaha preciso de una ajuda com os parafusos também, eapanou e n consigo abrir hahaha
+[2017-03-07 20:33:43] Troco toda hora o SSD por HD, não sei como evitar isso
+[2017-03-07 20:34:02] SSD por HD e vice e versa
+[2017-03-07 20:51:44] alguem sabe o que que ta rolando no garoa hoje?
+[2017-03-07 20:51:57] O Jack do microfone tem uma chave que fecha quando você coloca um plug lá.
+[2017-03-07 20:52:09] Ele não mede a impedância.
+[2017-03-07 20:52:45] @eduoda garoeiros fazendo garoices
+[2017-03-07 20:52:59] comprei um pocketchip do afonso, vamos pedir pizza logo
+[2017-03-07 20:56:53] Alguém ai curte?
+[2017-03-07 20:56:53] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_532582099392150364.mp4
+[2017-03-07 20:57:39] Nãããooo....rssss
+[2017-03-07 20:58:44] tem um cara querendo visitar, posso mandar ai?
+[2017-03-07 20:58:48] original ou clone brasileiro?
+[2017-03-07 20:58:50] manda, oda
+[2017-03-07 20:59:01] o meu é da milmar, os controles são uma droga
+[2017-03-07 21:00:12] Tenho um Atari Polyvox com mod de saída de áudio stereo e vídeo composto e s-vídeo...
+[2017-03-07 21:00:46] Tem até pause...😝
+[2017-03-07 21:00:58] Polyvox
+[2017-03-07 21:01:17] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803721406_85225.jpg
+[2017-03-07 21:06:01] Pessoal vai ficar até que horas?
+[2017-03-07 21:06:14] até a pizza chegar, pelo menos haha
+[2017-03-07 21:06:20] o afonso ainda tá pedindo
+[2017-03-07 21:06:22] laboriosamente
+[2017-03-07 21:12:05] já que é pra falar de coisa antiga...
+[2017-03-07 21:12:09] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803119702_15504.jpg
+[2017-03-07 21:12:48] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_522134793308078722.webp
+[2017-03-07 21:12:55] Oia, acabei de comprar um, nem liguei ainda, preciso dar uma geral nele...
+[2017-03-07 21:15:25] Já tive um TVJogo da Eletron, kit que vinha com a Saber Eletrôinca, mas meu pai emprestou para um vizinho e o puto queimo ele...
+[2017-03-07 21:18:54] hahah
+[2017-03-07 21:19:18] esse aí veio como brinde na compra de um Ford... 197*
+[2017-03-07 21:19:55] 😝
+[2017-03-07 21:19:56] era do meu avô, passou 3 gerações, ainda liga
+[2017-03-07 21:20:12] lwgal
+[2017-03-07 21:20:31] @eduoda , acho que "um cara" sou eu. Não consigo mais hoje, mas estou antenado aqui no grupo já. Visito em breve. Obrigado!
+[2017-03-07 21:32:53] Crl que fodaa
+[2017-03-07 21:33:45] Pagou qnt?
+[2017-03-07 21:35:21] 250
+[2017-03-07 21:35:39] Eita, achei que fosse mais caro hehe
+[2017-03-07 21:36:14] Mas foi preço camarada de um camarada....rsss
+[2017-03-07 21:36:50] http://lista.mercadolivre.com.br/telejogo#D[A:telejogo]
+[2017-03-07 21:36:56] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803120629_15142.jpg
+[2017-03-07 21:37:42] Realmente preço camarada hahaha
+[2017-03-07 21:38:06] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803734960_64234.jpg
+[2017-03-07 21:38:11] Eu tenho o manual ainda
+[2017-03-07 21:39:11] E pensar que a última vez que eu joguei ele eu ainda não sabia ler haahaha
+[2017-03-07 21:40:48] http://produto.mercadolivre.com.br/MLB-838475768-harmony-flashcart-atari-2600-original-americano-semi-novo-_JM
+[2017-03-07 21:48:07] Dhr hahaha
+[2017-03-07 21:49:01] Tenho um desses, não fico colecionando cartucho zoado de atari não...
+[2017-03-07 21:49:46] Pow era do meu tio, gosto de jogar eles
+[2017-03-07 22:17:35] Alguém ai tem Net 15MB e usa o proprio roteador wifi? Porque aqui em casa esta assim e somente 2 aparelhos entram no wifi no máximo e queria saber se alguém consegui configurar diferente.
+[2017-03-07 23:23:25] Meu note tem uma ventoinha excêntrica, ninguém consegue me ouvir no mic onboard
+[2017-03-07 23:56:29] Falso. Meu mac tem ventoinha excêntrica e todo mundo me ouve bem em calls
+[2017-03-07 23:57:18] configura o aparelho da net em bridge e joga no roteador
+[2017-03-07 23:57:42] Uso aquele Arris mesmo da NET... Rola de boa.
+[2017-03-07 23:57:51] 4me = true ... Ninguém consegue me ouvir, fica um sonido de moto serra de frente
+[2017-03-07 23:58:05] O seu é o Arris ou Thompson?
+[2017-03-07 23:58:39] Culpa do Engenheiro, não da ventoinha
+[2017-03-07 23:59:27] Estou apontando fatos não culpados ;)

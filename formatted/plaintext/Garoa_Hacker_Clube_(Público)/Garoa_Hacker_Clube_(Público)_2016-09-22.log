@@ -1,0 +1,166 @@
+[2016-09-22 00:01:03] Sou novo no grupo do cora, e tive oportunidade de visitar o Garoa nos dias do evento Iot no começo de setembro
+[2016-09-22 00:20:56] photo
+[2016-09-22 00:59:46] Alguem usa o signal menssenger..........estou testando
+[2016-09-22 01:00:26] Nao tenho contatos na minha lista q posso usar para testar...alguem se candidata...please
+[2016-09-22 01:03:02] Estou conectada no signal messenger agora
+[2016-09-22 01:07:58] Quais dados você precisa para rodar seu teste?
+[2016-09-22 01:08:46] Eu so quero adicionar un contato para testar....mas nao conheco ninguem
+[2016-09-22 01:09:09] Do meu circulo social
+[2016-09-22 01:09:27] Como nao vejo seu numero nao consigo adicionar vc
+[2016-09-22 12:55:10] Pessoal alguem tem um esquema bom pra gravar e usar o esp8266-12E?
+[2016-09-22 12:55:48] ?
+[2016-09-22 12:56:00] tem um monte diferente na internet
+[2016-09-22 12:56:03] so queria cortar caminho
+[2016-09-22 12:56:06] monta o ftdi
+[2016-09-22 12:56:15] bota os pullup pulldown certo
+[2016-09-22 12:56:21] e usa a ide do arduino
+[2016-09-22 12:56:35] eu tava usando o modelo 07
+[2016-09-22 12:56:42] e foi facil
+[2016-09-22 12:56:45] eh a mesma coisa
+[2016-09-22 12:56:46] agora o 12e ta foda
+[2016-09-22 12:56:48] nao sei pq
+[2016-09-22 12:57:01] acertou os pullup/down ae?
+[2016-09-22 12:58:23] esse eh aquele do vido?
+[2016-09-22 12:58:57] é parecido com o do vido
+[2016-09-22 12:59:01] tem mais pino
+[2016-09-22 12:59:36] hum eh 7 e 12 o do vido
+[2016-09-22 12:59:59] acho que o 12 tem mais pino disponivel, mas nao tem mais pino
+[2016-09-22 13:00:04] nao sei esse 12E
+[2016-09-22 13:00:12] isso tem mais disponivel
+[2016-09-22 13:00:19] o E tem os pinos isp
+[2016-09-22 13:00:22] a mais
+[2016-09-22 13:00:44] spi*
+[2016-09-22 13:00:48] miso mosi etc etc
+[2016-09-22 13:01:35] hum..
+[2016-09-22 13:01:40] a mais que o 12?
+[2016-09-22 13:03:41] sim
+[2016-09-22 13:04:08] eh o modelo que vem grudado no nodemcu
+[2016-09-22 13:04:32] ai o que to fazendo agora é pegando o esquematico do nodemcu e arrumando pra fresar
+[2016-09-22 13:04:36] com PTH
+[2016-09-22 13:04:40] em vez de smd
+[2016-09-22 13:04:47] e tirando o ftdi
+[2016-09-22 13:05:25] mas nao eh pra ter diferenca entre o 12 e 12E
+[2016-09-22 13:07:44] que trampo...
+[2016-09-22 13:08:24] nao to achando o esquema dos pinos para colocar em modo de gravacao...
+[2016-09-22 13:09:23] agora me fala uma coisa...
+[2016-09-22 13:09:40] se vc vai tirar o ftdi, qual a vantagem do nodemcu?
+[2016-09-22 13:12:26] nenhuma
+[2016-09-22 13:13:06] alias, wemos eh ❤️
+[2016-09-22 13:13:40] entao, se eh por causa de encaixar em protoboard, tem aquele breakout de 3 reais, sabe?
+[2016-09-22 13:14:09] sim
+[2016-09-22 13:14:38] mas ai eh bom colocar a barra de pinos que tem macho e femea
+[2016-09-22 13:19:24] @tilt4 pelo que estou vendo eh a mesma coisa, hein?
+[2016-09-22 13:19:36] um dos projetos que to ajudando aqui vai usar o esp, então queria ver uma forma facil pra compartilhar
+[2016-09-22 13:19:41] eh a mesma coisa
+[2016-09-22 13:19:51] refiz aqui as ligacoes e deu certo agora
+[2016-09-22 13:19:52] devia ser sono
+[2016-09-22 13:20:45] cara, uma coisa que pode ser chata eh nao aterrar o reset
+[2016-09-22 13:21:30] da uns paus aleatorios
+[2016-09-22 13:21:43] paus = resets ;)
+[2016-09-22 13:21:51] hm
+[2016-09-22 13:21:54] deve ser isso entao
+[2016-09-22 13:22:15] pq eu tava vendo sobre o reset automatico usando transitor em outro pino
+[2016-09-22 13:22:47] pq eu pra programar ele eu tava apertando o reset
+[2016-09-22 13:23:05] bom, faz um pulldown, pq o foda eh que fica flutuando e reseta do nada
+[2016-09-22 13:45:31] @Oda Vamos fazer hoje a noite do ESP?
+[2016-09-22 13:46:44] Eu estava pensando em fazer uma versão com o ESP do meu dispenser.
+[2016-09-22 13:47:32] Basicamente um servo controlado pelo ESP para liberar jujubas quando algo ocorre "na nuvem) (email, twitter, sei lá o que)
+[2016-09-22 13:48:10] Para o pessoal remoto "alimentar" quem estiver fazendo a limpeza e arrumação do Garoa no sábado.
+[2016-09-22 13:53:08] Usei o we mos para acionar a lâmpada do quarto. Mais barato que comprar os fios e sistema X para fazer um three way
+[2016-09-22 14:24:30] aylons, da uma olhada no Blink, eh sucesso
+[2016-09-22 14:25:01] @DQuadros fechado!
+[2016-09-22 14:27:23] @aylons blynk
+[2016-09-22 14:28:00] http://www.blynk.cc/
+[2016-09-22 14:28:02] Do que se trata?
+[2016-09-22 14:28:41] vc entra na play store, instala a app
+[2016-09-22 14:28:56] ela te da um codigo que vc coloca no seu programa junto com a biblioteca deles
+[2016-09-22 14:29:00] Legal
+[2016-09-22 14:29:10] ai vc pode setar variaveis pelo celular
+[2016-09-22 14:30:27] e, o que eh mais legal, ele tem varios widgets
+[2016-09-22 14:30:27] bem bonitinhos
+[2016-09-22 14:30:27] eh so arrastar e soltar. E se vc ficar feliz com o que fez pode pagar uma assinatura e soltar sua app no play e appstore
+[2016-09-22 14:31:13] Parece ótimo mesmo. eu já tinha decidido usar o ESP Só Pra projetinhos é caseiros bestas e resolvi não não me aventurar nos detalhes técnicos.
+[2016-09-22 14:31:28] se liga: https://www.youtube.com/watch?v=IUhWQfWI4q8
+[2016-09-22 14:31:47] isso foi o relogio que fiz com fita de led enderecavel, esp e blynk
+[2016-09-22 14:32:07] depois de 1:30 eu mostro a app
+[2016-09-22 14:32:11] que fiz em 5 min
+[2016-09-22 14:32:27] Logo vejo
+[2016-09-22 14:32:55] a merda eh que ele usa um monte de request http, acho, e nao algo tipo MQTT
+[2016-09-22 14:36:23] @DQuadros https://github.com/tzapu/WiFiManager
+[2016-09-22 14:36:25] tzapu | WiFiManager
+
+ESP8266 WiFi Connection manager with web captive portal
+
+Language: C++
+Forks: 184
+Stars: 660
+Issues: 100
+[2016-09-22 14:36:33] aylons, pode te interessar tb
+[2016-09-22 14:37:25] isso ai eh o seguinte: ele tenta te conectar a ultima rede que vc se conectou, se nao der certo, ele inicia o modo AP e vc se conecta ao esp via wifi
+[2016-09-22 14:37:36] Boooa
+[2016-09-22 14:37:47] ai vc abre o navegador, ele te direciona para a pagina de config (sobrescrevendo o dns)
+[2016-09-22 14:37:48] Estava pensando nesses detalhes antes e sabia que estava aí
+[2016-09-22 14:37:57] e ai vc pode escolher a wifi a se conectar
+[2016-09-22 14:38:07] Tipo, que alguém tinha resolvido
+[2016-09-22 14:38:11] resumindo: no more hard coded essid
+[2016-09-22 14:38:12] Legal, muito bom
+[2016-09-22 14:53:51] Pessoal posso agendar um evento dia 08/10, sábado a tarde no Garoa?
+[2016-09-22 15:41:37] posso, posso, posso?
+[2016-09-22 15:43:37] Você é sócio?
+[2016-09-22 15:45:47] Eu? Não :( por isso que estou pedindo.
+[2016-09-22 15:46:12] Ah :c( não vou estar em São Paulo dia 8... :c/
+[2016-09-22 16:26:49] Para o caso de você não ter
+ lido ainda: https://garoa.net.br/wiki/Como_Criar_um_Evento
+[2016-09-22 16:27:37] O passo crítico provavelmente será achar um Associado que se comprometa a abrir e fechar o Garoa.
+[2016-09-22 16:28:09] Eu só frequento o Garoa aos sábados ocasionalmente...
+[2016-09-22 16:29:03] Mas se for um assunto que me interesse e eu conseguir conciliar com os eventos familiares, pode ser que role.
+[2016-09-22 16:36:52] 👍
+[2016-09-22 16:41:09] @rg3915 fala com o @biazz
+[2016-09-22 16:42:19] ok
+[2016-09-22 16:42:40] Sobre o que é o evento, aliás?
+[2016-09-22 16:45:00] Qual deles? O do dia 08/10? Seria um Coding Dojo com a galera do Grupy-SP.
+[2016-09-22 16:45:45] Putz, legal, hein? Para iniciantes?
+[2016-09-22 16:45:55] pra qq um.
+[2016-09-22 16:46:00] Não existe nível.
+[2016-09-22 16:46:15] Em um Coding Dojo somos todos iguais, um aprendendo com o outro.
+[2016-09-22 16:46:23] Posso marcar então?
+[2016-09-22 16:46:27] É bom porque eu não tenho nível nenhum em Python, mesmo.
+[2016-09-22 16:46:37] Vou marcar...
+[2016-09-22 16:46:43] Não, eu realmente não posso garantir estar aí no dia 08//, senão eu abria
+[2016-09-22 16:46:49] abriria
+[2016-09-22 16:46:57] OK, mas o @Biazzotto vai abrir.
+[2016-09-22 16:47:00] Ele é membro.
+[2016-09-22 16:47:03] Já falei com ele.
+[2016-09-22 16:47:05] Ah, legal
+[2016-09-22 16:47:10] Fechou?
+[2016-09-22 16:47:16] Vai ser bacana, com sorte eu consigo aparece lá, mas eu duvido
+[2016-09-22 16:47:25] Cara, se um sócio vai abrir, então, não tem nem que pedir :c)
+[2016-09-22 16:47:52] Combinado
+[2016-09-22 16:48:10] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803730929_63147.jpg
+[2016-09-22 16:57:13] Mas não deixe de avisar na lista e registrar na wiki. Estes são os lugares "oficiais" para isto. O Telegram é só para jogar conversa fora.
+[2016-09-22 16:57:35] Isso!
+[2016-09-22 16:57:44] sim
+[2016-09-22 16:57:52] vou agendar antes do final de semana.
+[2016-09-22 17:24:02] Galera programadora interessada em IoT, tenho uma coisa boa pra anunciar: a FIESP neste ano trouxe em sua hackathon o tema de IoT. Então é a oportunidade que faltava pra você poder mostrar seu talento de programação e criar um produto novo na Hackathon 2016! Para se inscrever, basta acessar: http://hotsite.fiesp.com.br/hackathon/
+[2016-09-22 19:28:32] onde vai isso? https://goo.gl/maps/CjW7pHi3nP42
+[2016-09-22 19:49:12] Se estiver com sangue demais e quiser doar para os mosquitos da região é uma boa :D
+[2016-09-22 19:50:56] Hehehe
+[2016-09-22 19:55:24] Galera alguém com experiência em eletrônica tem vontade de ser jurado da Hackathon da FIESP?
+[2016-09-22 20:05:07] Que dia? Que tipo de projeto? Quais as condições?
+[2016-09-22 20:05:18] E que experiência precisa?
+[2016-09-22 20:31:09] Preciso de alguém que conheça de IoT
+[2016-09-22 20:31:14] Precisamos de ajuda urgentr
+[2016-09-22 20:32:20] Olha, eu acho que eu fazia a aplicação de IOT mais famosa do Brasil antes de IOT ser cool, mas não curto tanto a "cena" hoje em dia. DE qualquer forma, eu estou sempre disposto a ajudar. Que dia é esse hackaton?
+[2016-09-22 20:39:16] Dia 15 ao dia 17
+[2016-09-22 20:39:19] De outubro
+[2016-09-22 20:41:56] Todos esses dias? Não vai rolar.
+[2016-09-22 20:45:38] Se for pra ser mentor
+[2016-09-22 20:45:40] Seria dia 15
+[2016-09-22 20:45:44] Jurado seria 16
+[2016-09-22 20:45:58] Só passei um panorama
+[2016-09-22 20:46:08] Olha, posso ser jurado
+[2016-09-22 20:46:25] Mentor, acho complicado, sou um cara chato.
+[2016-09-22 20:46:32] Beleza
+[2016-09-22 20:46:35] Me chama no priv8
+[2016-09-22 20:46:35] DIa 17 não rola eu ir.
+[2016-09-22 20:47:31] Dia 17 seria somente a premiação

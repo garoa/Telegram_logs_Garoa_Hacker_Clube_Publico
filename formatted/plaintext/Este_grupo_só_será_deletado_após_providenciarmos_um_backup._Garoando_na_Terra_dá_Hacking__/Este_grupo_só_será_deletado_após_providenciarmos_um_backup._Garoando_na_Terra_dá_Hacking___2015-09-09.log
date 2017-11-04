@@ -1,0 +1,41 @@
+[2015-09-09 00:02:00] Mike Howard: É aquele cara doando uns consoles?
+[2015-09-09 00:02:32] Mike Howard: Ih amanhã já virou hoje
+[2015-09-09 00:03:56] Erin Pinheiro (in reply to Cecilia Tanaka): contanto que o saturn tenha bom uso :p
+[2015-09-09 00:04:32] Erin Pinheiro: santa cruz é pertinho de mim. eu queria ter pego o saturn, não tinha visto o comentário do anchises
+[2015-09-09 00:04:52] Mike Howard: Precisava deixar esses consoles montados com monitor em algum lugar
+[2015-09-09 00:25:44] Felipe "Juca" Sanches: talvez dê pra adaptá-los para usar o Arcade ?
+[2015-09-09 00:25:56] Felipe "Juca" Sanches: não tenho certeza
+[2015-09-09 00:26:08] Felipe "Juca" Sanches: já vi adaptadores JAMMA pra megadrive e pra supernes
+[2015-09-09 00:37:48] Mike Howard: Bom o gabinete tem espaço pra muita coisa...
+[2015-09-09 00:42:32] Felipe "Juca" Sanches: :-)
+[2015-09-09 00:44:16] Felipe "Juca" Sanches: http://produto.mercadolivre.com.br/MLB-701041751-placa-jamma-super-ness-para-fliperama-arcade-_JM
+[2015-09-09 00:44:20] Mike Howard: Não é piada não, espaço é super escasso, dentro do gabinete, com aquele monitor, é realmente um bom lugar
+[2015-09-09 00:45:56] Felipe "Juca" Sanches: seria interessante fazer uma série de gavetas dentro do ganibete para guardarmos placas JAMMA de diversos jogos que podem ser usados no arcade
+[2015-09-09 00:46:00] Felipe "Juca" Sanches: como "cartuchos"
+[2015-09-09 00:46:08] Felipe "Juca" Sanches: eu comprei mais uma ontem
+[2015-09-09 00:46:20] Felipe "Juca" Sanches: um jogo de caça-níqueis
+[2015-09-09 00:46:28] Felipe "Juca" Sanches: chamado "Amazonia King"
+[2015-09-09 00:47:24] Mike Howard: Funciona?
+[2015-09-09 00:47:48] Felipe "Juca" Sanches: no mercado livre diz que é jamma
+[2015-09-09 00:47:52] Felipe "Juca" Sanches: então supostamente é só plugar
+[2015-09-09 00:52:49] Felipe "Juca" Sanches: alguém topa ir amanhã durante o dia no Garoa?
+[2015-09-09 00:53:12] Felipe "Juca" Sanches: eu tava pensando em talvez ir pra lá por volta das 10h da manhã
+[2015-09-09 00:53:52] Felipe "Juca" Sanches: e ficar até a metade da tarde
+[2015-09-09 18:00:46] Felipe "Juca" Sanches: galera!
+[2015-09-09 18:00:54] Felipe "Juca" Sanches: chegou a placa nova pro arcade
+[2015-09-09 18:00:58] Felipe "Juca" Sanches: hoje aqui em casa
+[2015-09-09 18:01:04] Felipe "Juca" Sanches: uma placa de caça-níqueis
+[2015-09-09 18:01:16] Felipe "Juca" Sanches: já dei uma analisada nos chips dela e fiz o dump de duas EPROMs
+[2015-09-09 18:01:30] Felipe "Juca" Sanches: hoje de noite vou plugar a placa no arcade pra ver se tá tudo OK
+[2015-09-09 18:01:38] Felipe "Juca" Sanches: o jogo em si é bobagem
+[2015-09-09 18:01:46] Felipe "Juca" Sanches: uma roletinha de cassino
+[2015-09-09 18:01:54] Felipe "Juca" Sanches: o legal é o desafio
+[2015-09-09 18:02:04] Felipe "Juca" Sanches: de engenharia reversa e cracking
+[2015-09-09 18:02:26] Cecilia Tanaka: Hahaha!!!  Que felicidade, Juca!!!  😄
+[2015-09-09 18:02:34] Felipe "Juca" Sanches: pra extrair o conteúdo do bootloader hospedado na memória interna precisamos descobrir vulnerabilidades do software original
+[2015-09-09 18:02:49] Felipe "Juca" Sanches: e escrever um trojan
+[2015-09-09 18:03:00] Felipe "Juca" Sanches: para fazer o dump pra gente
+[2015-09-09 18:03:16] Felipe "Juca" Sanches: e depois com isso escrever o emulador dessa placa
+[2015-09-09 18:03:20] Felipe "Juca" Sanches: é um desafio bem grande
+[2015-09-09 18:03:48] Felipe "Juca" Sanches: eu diria que tem menos de 30% de chance de eu conseguir fazer isso
+[2015-09-09 18:04:12] Cecilia Tanaka: Você vai conseguir, tenho certeza!  😘

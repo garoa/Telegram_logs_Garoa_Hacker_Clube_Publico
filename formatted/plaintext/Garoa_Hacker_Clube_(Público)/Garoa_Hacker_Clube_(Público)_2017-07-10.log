@@ -1,0 +1,58 @@
+[2017-07-10 13:33:48] gento to com o esp2866. Descobri um bug nele quando usa a ide do arduino, se você setar o nivel logico de um pino no setup() este valor é perdido 5 segundos depois.
+[2017-07-10 15:13:15] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_5147869576746237962
+[2017-07-10 15:34:15] Fale me mais sobre isso
+[2017-07-10 15:34:38] você testou com vários modelos de esp8266, várias ides arduino, varias versões?
+[2017-07-10 18:44:39] A versão da IDE do Arduino que estou usando é a 1.8.3, o esp 8266 que estou usando é o nodemcu. Alimentação do circuito é feito por 4 pilhas AA ligadas em serie gerando um total de 4.5v a 5v.
+[2017-07-10 18:46:06] Aqui vai o código com o qual descobri o bug: void setup() {
+  // put your setup code here, to run once:
+  pinMode(13,OUTPUT); 
+  digitalWrite(13, HIGH );
+}
+
+void loop() {
+  
+}
+[2017-07-10 18:49:09] Vou abrir o garoa quando chegar lá
+[2017-07-10 18:50:31] vai ter quinta do esp 8266 esta semana?
+[2017-07-10 18:51:05] @fsanches cê já mexeu com o debugger do dosbox?
+[2017-07-10 19:07:44] Estou chegando no Garoa...
+[2017-07-10 19:12:53] @mynameiserin Não. Eu ultimamente tenho usado muito pouco do dosbox.
+[2017-07-10 19:13:14] Acho que pra muita gente já tá bem claro que o meu emulador predileto é o MAME, né? :-)
+[2017-07-10 19:13:28] que aliás... tem um debugger muito bom
+[2017-07-10 19:18:24] Pq debugar um emulado de arcade?
+[2017-07-10 19:21:08] eu tô tentando achar onde que um jogo lê o teclado mas ele nunca chama o interrupt 21 ou qualquer outro durante o loop que ele faz, nem escreve em AH ou AL
+[2017-07-10 19:22:02] o debugger do dosbox é ok, eu quem não estou sabendo onde procurar o que preciso
+[2017-07-10 19:32:12] Sim
+[2017-07-10 20:08:54] Gabriel Andrade joined
+[2017-07-10 20:08:55] Hi Gabriel !
+[2017-07-10 20:09:10] Hello Jack :)
+[2017-07-10 20:42:46] Pelos mesmos motivos que você debuga um programa de computador
+[2017-07-10 21:00:40] Quem faz programas para um arcade? E pq ele faria
+[2017-07-10 21:08:03] Tu não faz ideia como o MAME funciona, né?
+[2017-07-10 22:03:27] um jogo é um programa feito para o interpretador
+[2017-07-10 22:03:53] Desobediente Civil added MateBot
+[2017-07-10 22:03:53] Hi MateBot !
+[2017-07-10 22:04:22] [2017-07-11 01:03:53.220707] RCV: Received "{u'from': {u'username': u'desci42', u'first_name': u'Desobediente', u'last_name': u'Civil', u'id': 184636438, u'language_code': u'en-US'}, u'new_chat_participant': {u'username': u'mate_obot', u'first_name': u'MateBot', u'id': 395744377}, u'new_chat_members': [{u'username': u'mate_obot', u'first_name': u'MateBot', u'id': 395744377}], u'chat': {u'username': u'GaroaHC', u'type': u'supergroup', u'id': -1001050919227, u'title': u'Garoa Hacker Clube (P\xfablico)'}, u'date': 1499735033, u'message_id': 41269, u'new_chat_member': {u'username': u'mate_obot', u'first_name': u'MateBot', u'id': 395744377}}" from -1001050919227
+[2017-07-10 22:04:54] esse dicionário inteiro, obviamente json, é o que o bot recebe a cada evento aqui
+[2017-07-10 22:05:00] pode ser mensagem, gente entrando no grupo, etc.
+[2017-07-10 22:05:07] outro exemplo:
+[2017-07-10 22:05:20] [2017-07-11 01:04:54.486367] RCV: Received "{u'date': 1499735094, u'text': u'esse dicion\xe1rio inteiro, obviamente json, \xe9 o que o bot recebe a cada evento aqui', u'from': {u'username': u'desci42', u'first_name': u'Desobediente', u'last_name': u'Civil', u'id': 184636438, u'language_code': u'en-US'}, u'message_id': 41272, u'chat': {u'username': u'GaroaHC', u'type': u'supergroup', u'id': -1001050919227, u'title': u'Garoa Hacker Clube (P\xfablico)'}}" from -1001050919227
+[2017-07-10 22:06:14] da pra ficar arquivando num banco de dados num formato coerente com json e o dicionário de python
+[2017-07-10 22:06:50] mas provavelmente o mais interessante é conseguir exibir em html por exemplo
+[2017-07-10 22:07:03] com busca e etc.
+[2017-07-10 22:16:50] eu! https://www.youtube.com/watch?v=jGZchmwxTrA
+[2017-07-10 22:17:24] https://github.com/garoa/GunSmoke/blob/master/homebrew/Pixo/
+[2017-07-10 22:18:25] E por que faria? https://garoa.net.br/wiki/Retroprograma%C3%A7%C3%A3o
+[2017-07-10 22:20:35] Esse vídeo aqui dá uma noção geral da real importância do projeto MAME: https://www.youtube.com/watch?v=9SzuTNZwAro
+[2017-07-10 22:22:42] E esse aqui responde explicitamente à sua pegunta sobre o por quê de alguém 
+querer debugar um arcade: https://www.youtube.com/watch?v=snLWzKMR0Us
+[2017-07-10 22:43:18] sem contar que alguém teve que programar um programa ops digo um jogo pro arcade em primeiro lugar
+[2017-07-10 22:50:42] Grupo KiCAD encontra neste sábado
+https://groups.google.com/forum/#!topic/hackerspacesp/wp97ClaKyJU
+[2017-07-10 23:48:38] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803110645_111729.jpg
+[2017-07-10 23:48:39] consegui parte do que eu queria... consigo determinar quais times vão jogar :)
+[2017-07-10 23:49:16] ainda preciso ver como começar o jogo (normalmente a tecla 3), onde fica o placar, e como "ouvir" para o término de um jogo
+[2017-07-10 23:50:40] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_135158025190114360.webp
+[2017-07-10 23:50:47] Gosti
+[2017-07-10 23:51:35] a idéia é fazer um saltybet com esse jogo, solar hockey league... solarbet :p
+[2017-07-10 23:51:45] e deixar rodando sozinho 24/7 numa stream

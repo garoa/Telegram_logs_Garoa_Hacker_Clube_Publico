@@ -1,0 +1,11 @@
+[2016-02-12 19:22:16] Felipe "Juca" Sanches (forwarded from Aurelio Heckert): O Garoa está distribuindo código velho do Zica:
+https://garoa.net.br/zika/
+Alguém poderia avezar que certo está aqui: https://github.com/hackerativismo/viral-aedes-aegypti ?
+[2016-02-12 19:22:16] Felipe "Juca" Sanches (forwarded from Valessio Brito 馬烈士男): Atualiza a galera ai
+[2016-02-12 19:22:16] Felipe "Juca" Sanches (forwarded from Valessio Brito 馬烈士男): O código sempre foi GPLv3
+[2016-02-12 19:22:16] Felipe "Juca" Sanches (forwarded from Valessio Brito 馬烈士男): Rss
+[2016-02-12 19:24:32] Erin Pinheiro: quebra cabeça do dia
+[2016-02-12 19:24:32] Erin Pinheiro: https://gist.github.com/Lana-chan/5de2ee94ff47da256a73
+[2016-02-12 19:25:04] Erin Pinheiro: ffmpeg não tá recebendo os filenames certos (tá truncando em lugares bizarros)
+[2016-02-12 19:25:16] Erin Pinheiro: se eu usar um echo os filenames estão certos
+[2016-02-12 19:25:24] Erin Pinheiro: cadê o galho?

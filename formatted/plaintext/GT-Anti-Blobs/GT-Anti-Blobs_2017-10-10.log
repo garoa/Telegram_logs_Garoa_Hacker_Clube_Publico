@@ -1,0 +1,7 @@
+[2017-10-10 16:57:25] Felipe "Juca" Sanches: Tem um repo Anti-Blobs que precisa ser atualizado. Alguém aqui está a fim de fazer a atualização dessa vez ?
+[2017-10-10 16:59:00] Felipe "Juca" Sanches: https://gitlab.com/fsanches/Anti-Blobs
+[2017-10-10 17:01:50] Felipe "Juca" Sanches: Precisaríamos ir passo a passo atualizando a lista do wiki (https://libreplanet.org/wiki/LinuxLibre:Devices_that_require_non-free_firmware) da versão 4.12.7 até a versão atual que, se não me engano, é a 4.13.5
+[2017-10-10 17:01:56] Felipe "Juca" Sanches: http://linux-libre.fsfla.org/pub/linux-libre/releases/LATEST-4.13.N/
+[2017-10-10 17:02:51] Felipe "Juca" Sanches: E descobrir quais novos firmwares não livres apareceram como dependência de drivers do kernel nesse meio tempo (e se algum foi embora)
+[2017-10-10 17:03:31] Felipe "Juca" Sanches: hoje em dia o trabalho é mais ou menos manual ainda. Entretanto, tem um pequeno script no repo git do Anti-Blobs, que ajuda um pouquinho nessa tarefa.
+[2017-10-10 17:04:45] Felipe "Juca" Sanches: Mas o que mais ajuda é meramente fazer o diff (usando o git) entre o log do linux-libre de uma versão antiga e os logs mais atuais.

@@ -1,0 +1,54 @@
+[2016-11-15 01:39:27] ✌️
+[2016-11-15 02:29:46] Olá pessoal... Alguém aqui teria algum material sobre hardware que:
+1)Comece do zero
+2)Não seja de 15 anos atrás
+De preferência, que trate realmente sobre o hardware, e não sobre a arquitetura. Odeio essas abstrações ex.: "Tal parte da CPU realiza operações matemáticas", estou procurando algo que trate sobre detalhes de implementação.
+Grato desde já.
+[2016-11-15 03:01:59] O Patinho Feio. Começa bem do zero. É sobre hardware pra valer, com muitos detalhes. E não é de 15 anos atrás. (é de 45 anos atrás LOL!!!)
+[2016-11-15 03:02:35] https://archive.org/search.php?query=subject%3A%22patinho+feio%22
+[2016-11-15 03:02:50] http://github.com/felipesanches/PatinhoFeio
+[2016-11-15 03:04:44] E tem bastante detalhes da implementação: o livro do Edson Fregni (disponível no link do github acima) contém o esquemático completo da CPU no nível de portas lógicas TTL (veja as 16 páginas de esquemáticos no final do capítulo 5).
+[2016-11-15 11:21:41] http://spaceapi-stats.n39.eu/#garoahackerclube
+[2016-11-15 11:37:55] 😂 Valeu, vou olhar
+[2016-11-15 13:39:41] Gabriel, quanto ao material ter menos de 15 anos, acredito que isso não faça diferença de verdade, pois tudo que vc encontrar hj vai mencionar como tudo começou.
+A anos atrás vc tinha componentes discretos onde, com apenas um pouco de conhecimento, já era possível entender o papel que ele desempenhava e como fisicamente ele fazia isso. Posso estar errado, mas acho que é muito difícil achar um material que explique os dias de hj sem que te mostre como tudo chegou aqui.
+[2016-11-15 14:04:42] Entendo, obrigado... É que as vezes fico com a sensação de que o conteúdo do que estou vendo é "obsoleto" por ser antigo, porém talvez seja importante ver como funcionava antes para entender como funciona nos dias de hoje.
+[2016-11-15 14:07:15] http://www.theregister.co.uk/2015/06/23/brit_mega_processor/
+[2016-11-15 14:30:00] A essencia é a mesma até hoje. Grande parte do que mudou está na miniaturização. É claro que tem técnicas novas também, mas não adianta querer estudar técnicas avançadas antes de entender o básico. E isso vai demorar muuuito pra mudar ainda.
+[2016-11-15 15:37:44] Hardware, você quer dizer, arquitetura de computadores?
+[2016-11-15 15:38:07] Só sistemas digitais?
+[2016-11-15 15:39:46] Detalhe melhor o que quer aprender. Relendo o post, @gabrielhst , eu estou meio confuso sobre qual nível de abstração você está procurando.
+[2016-11-15 15:41:34] Assim, se for ver os detalhes de implementação (do tipo, como funciona uma ULA), um livro de 15 anos atrás vai servir super bem.
+[2016-11-15 17:02:08] cmc hoje - https://garoa.net.br/wiki/Conselho_Manda-chuva
+[2016-11-15 17:13:43] http://www.archiveteam.org/index.php?title=Telegram
+[2016-11-15 17:13:53] http://spaceflightnow.com/2016/11/15/video-soyuz-rocket-rolled-to-pad-for-expedition-50-crew-launch/
+[2016-11-15 18:20:14] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803703721_133666.jpg
+[2016-11-15 18:20:22] Não vou comparecer ao cmc... pneu furou e não tem borracheiro
+[2016-11-15 18:26:39] também não vou poder ir hoje
+[2016-11-15 18:53:17] Pega silver tape!
+[2016-11-15 18:56:08] Cola quente!
+[2016-11-15 19:24:17] bruno messias joined
+[2016-11-15 19:24:17] Hi bruno !
+[2016-11-15 19:43:28] Quase que eu fico no meio do nada kkkk Tio da borracheria disse que já tinha tomado banho e que não iria mais mexer um pneu
+[2016-11-15 19:44:06] Owwwwnnnn... tadinho
+[2016-11-15 20:12:56] Oi galera
+[2016-11-15 20:13:05] Sou de Minas
+[2016-11-15 20:13:17] Um grupo de amigos e eu fundamos uma comuna de software livre e python(futuramente queremos expandir para hardware, perdemos o evento do e-hal ...triste) aqui em Uberlândia
+[2016-11-15 20:13:32] O lance é que eu estarei em SP essa semana e gostaria de conhecer o garoa
+[2016-11-15 20:13:41] aprender com o pessoal.
+[2016-11-15 20:14:53] haverá algum evento nesses dias ai no Garoa?
+[2016-11-15 20:15:09] https://github.com/PythonTriangulo
+[2016-11-15 21:03:15] Quase sempre tem algo no Garoa! Pode vir sim.
+[2016-11-15 21:08:08] legal
+[2016-11-15 21:17:17] Quinta e sexta e bem garantido que o Garoa estará aberto depois das 19:30
+[2016-11-15 21:18:46] Legal, então quinta acho que passo ai,rs
+[2016-11-15 21:19:00] então quinta passo ai*
+[2016-11-15 21:19:16] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_50945793963590112.webp
+[2016-11-15 22:47:55] Who Is joined
+[2016-11-15 22:47:56] Hi Moises !
+[2016-11-15 22:48:43] Olá pessoal :)
+[2016-11-15 23:45:09] Em falar de 45 anos atrás, falei contigo sobre uns disquetes que tenho aqui. Olha aí.
+[2016-11-15 23:45:20] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803701412_134390.jpg
+[2016-11-15 23:45:27] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803711473_132796.jpg
+[2016-11-15 23:45:29] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803712919_134387.jpg
+[2016-11-15 23:46:23] 😊

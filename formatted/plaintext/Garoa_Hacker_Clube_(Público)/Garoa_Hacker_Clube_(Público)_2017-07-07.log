@@ -1,0 +1,87 @@
+[2017-07-07 00:16:11] Danillo joined
+[2017-07-07 00:16:11] Hi Danillo !
+[2017-07-07 00:16:18] hi
+[2017-07-07 03:26:31] Anderson Gonçalves Marco joined
+[2017-07-07 03:26:32] Hi Anderson !
+[2017-07-07 03:29:23] Eu vou começar meu robo com nodemcu semana que vêem
+[2017-07-07 03:29:37] ele é bem melhor para construção de robores inteligentes
+[2017-07-07 03:30:36] alguem sabe quando lança o esp-32
+[2017-07-07 03:30:38] ?
+[2017-07-07 07:13:31] Eu achava que já tinha lançado, mas nao era tão famoso quanto o ESP8266
+[2017-07-07 07:14:07] eu ainda não vi para vender em nenhuma loja do brasil
+[2017-07-07 07:15:10] você já viram que no manual da "esp8266 arduino" no github ta escrito que a leitura de valores analogicos só pode chegar a 1.0v
+[2017-07-07 07:15:18] isto não faz sentido pra mim
+[2017-07-07 07:15:23] devia ser 3.3v
+[2017-07-07 09:37:29] Eu já tinha visto, mas o Dojo Shield ESP8266 que o @belimawr fez pro Garoa está aceitando 3.3V, há um potenciômetro de 10K ligado em VIN, A0 e GND.
+[2017-07-07 09:39:13] A especificação do ESP8266 limita a porta analógica a 1 V, mas não sei se o NodeMCU tem algum regulador de tensão embutido na placa, ainda não olhei o esquemático.
+[2017-07-07 09:49:41] achei a explicação
+[2017-07-07 09:49:55] https://github.com/esp8266/Arduino/issues/338
+[2017-07-07 09:50:24] é proibido colocar links
+[2017-07-07 09:50:28] aqui w
+[2017-07-07 09:50:41] eu coloquei um link do github com a explicação
+[2017-07-07 09:50:49] e recebi um error do jack
+[2017-07-07 09:50:54] ?
+[2017-07-07 09:52:42] O error do Jack se dá, pois não conseguiu mais informações do link
+[2017-07-07 09:52:59] Não é proibido... o Jack tem alguns bugs...
+[2017-07-07 09:53:14] a ta
+[2017-07-07 09:53:28] bem o problema e que é um bug no design do esp
+[2017-07-07 09:54:04] se vc ativar a wifi do micro controlador de um certo jeito o bug não acontece
+[2017-07-07 09:54:14] ou se usar o firmware com lua
+[2017-07-07 09:54:39] a solução mais barata é usar um divisor de tensão com dois resistores
+[2017-07-07 09:57:20] O NodeMCU tem um divisor de tensão com um resistor de 220K e outro de 100K, na porta A0. Vi no esquemático.
+[2017-07-07 09:59:50] Alguém já tem algum projeto de colocar as conversas desse canal em páginas web ?
+[2017-07-07 10:00:07] Para ficar arquivado?
+[2017-07-07 10:00:22] Encontrado em Google etc
+[2017-07-07 10:00:34] Senão se perde tudo
+[2017-07-07 10:01:30] o mais certo seria criar um robozinho que salva tudo e manda para a lista de discussão
+[2017-07-07 10:05:54] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803120126_86167.jpg
+[2017-07-07 10:11:43] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803110654_108317.jpg
+[2017-07-07 10:22:15] Legal
+[2017-07-07 10:35:21] Desculpe minha ignorância mais resitor de 220k não é muito? Não poderia ser de 2k?
+[2017-07-07 10:51:33] a vantagem de usar um resistor de 220k é que a corrente que o A0 coleta vai ser pequena
+[2017-07-07 10:52:06] sobre o arquivamento acho que o melhor formato é o html mesmo
+[2017-07-07 10:53:17] a proxima quinta tb vai ser uma noite do esp2866?
+[2017-07-07 11:08:29] Não seria o melhor formato para arquivamento... um banco de dados seria mais eficiente... as páginas poderiam ser geradas de forma dinâmica, posteriormente...
+[2017-07-07 11:10:10] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_532579157339538360.mp4
+[2017-07-07 11:12:28] O problema é pensar sobre como fazer para guardar as imagens
+[2017-07-07 11:30:46] tá precisando passar um álcool aí nesse cabo que está bem sujo :)
+[2017-07-07 11:37:49] @villares oia a dica ai tu q tava todo interessado nessas paradas
+[2017-07-07 11:37:49] gente o curso de pandas da udemy ta 100% free fikdik https://www.udemy.com/data-analysis-with-pandas/?couponCode=FREEPANDAS1&siteID=jpvA3GEYbR0-.3B6iGIrlGFMtAYUOki8qQ&LSNPUBID=jpvA3GEYbR0
+[2017-07-07 11:37:49] pros iniciantes pode ser uma boa ai
+[2017-07-07 11:41:45] 😊
+[2017-07-07 11:59:42] Entao estava com medo de passar e a borracha desmanchar mais
+[2017-07-07 12:02:15] Já lançou... 
+Comprei 4 no eBay a uns dias atrás. 
+Tbm vi pra vender no mercado livre
+[2017-07-07 12:31:53] Gileno Filho joined
+[2017-07-07 12:31:53] Hi Gileno !
+[2017-07-07 12:33:19] Olá pessoal, alguns me conhecem da comunidade Python em Recife, estou em SP até quarta ai queria conhecer o Garoa (quero ativar o MangueHack de lá), terá algum evento até quarta por lá?
+[2017-07-07 12:35:31] hj tem robotica
+[2017-07-07 12:35:36] segunda tem Lab de Python
+[2017-07-07 12:36:01] quarta tem ML e Biohacking
+[2017-07-07 12:46:29] Valeu, tem que se inscrever o de quarta?
+[2017-07-07 12:46:37] Ou so chegar?
+[2017-07-07 12:47:35] Celular descarregando :(
+[2017-07-07 12:50:04] so chegar
+[2017-07-07 12:50:12] e carrega o celular la
+[2017-07-07 12:53:18] Eheh valeu
+[2017-07-07 13:44:28] #Dica #Curso
+Curso gratuito de Pandas, na Udemy... SOMENTE HOJE...
+https://www.udemy.com/data-analysis-with-pandas/?couponCode=FREEPANDAS1
+[2017-07-07 15:50:35] Obrigado!
+[2017-07-07 16:00:23] Valeu!
+[2017-07-07 16:11:13] ;)
+[2017-07-07 16:13:12] what? eu quero
+[2017-07-07 16:14:07] soh vai!
+[2017-07-07 16:14:39] fui hahaha obrigada
+[2017-07-07 16:15:45] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803735898_134346.jpg
+[2017-07-07 16:16:07] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_50379188993000888.webp
+[2017-07-07 19:23:19] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804206144_88867.jpg
+[2017-07-07 20:05:47] https://twitter.com/MachinePix/status/877256643330752516
+[2017-07-07 21:18:18] Boa noite, lendo aqui as mensagens, se não achar me fala pq tenho um aqui nunca usado e te dou se vc quiser...
+[2017-07-07 22:15:54] Quem tá no Garoa?
+[2017-07-07 22:19:26] eu não
+[2017-07-07 23:19:40] tem uns agentes da cia
+[2017-07-07 23:19:49] mais ninguem
+[2017-07-07 23:31:22] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_5118527309367738376.docx
+[2017-07-07 23:32:09] resposta para tudo

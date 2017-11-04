@@ -1,0 +1,69 @@
+[2017-09-26 23:36:21] Felipe "Juca" Sanches added Aurelio Heckert
+[2017-09-26 23:37:15] Felipe "Juca" Sanches: hoje fiz uma limpeza geral no código, dei uns tapas nos nomes de todas as funções does testes e revisei várias docstrings
+[2017-09-26 23:37:36] Felipe "Juca" Sanches: E tropecei num bug, então acabei corrigindo-o, só por costume :-)
+[2017-09-26 23:37:44] Felipe "Juca" Sanches: https://github.com/googlefonts/fontbakery/pull/1593
+[2017-09-26 23:39:06] Vinicius Melo: Bem vindo @aurium !
+[2017-09-26 23:39:37] Felipe "Juca" Sanches: @aurium é um colega meu de longa-data
+[2017-09-26 23:40:11] Felipe "Juca" Sanches: Juntos nós fomos na década passada os dois únicos desenvolvedores do Inkscape
+[2017-09-26 23:40:20] Vinicius Melo: Conheço demais
+[2017-09-26 23:40:26] Vinicius Melo: Estava com ele tem poucos minutos kkk
+[2017-09-26 23:40:32] Felipe "Juca" Sanches: depois tiveram alguns outros brazucas que apareceram de forma passageira
+[2017-09-26 23:40:46] Felipe "Juca" Sanches (in reply to Vinicius Melo): tô sabendo :-)
+[2017-09-26 23:40:52] Felipe "Juca" Sanches: fico feliz
+[2017-09-26 23:41:56] Vinicius Melo: :D
+[2017-09-26 23:43:04] Vinicius Melo: Já resolveram aquela issue da cli pra listar os testes?
+[2017-09-26 23:43:15] Felipe "Juca" Sanches: não sei... deixa eu ver
+[2017-09-26 23:43:26] Felipe "Juca" Sanches: https://github.com/googlefonts/fontbakery/issues/1586
+[2017-09-26 23:43:40] Vinicius Melo: Vou ver se pego essa issue pra fazer
+[2017-09-26 23:43:46] Vinicius Melo: Mas vou precisar de uma ajuda na lógica
+[2017-09-26 23:43:50] Felipe "Juca" Sanches: ok
+[2017-09-26 23:43:52] Vinicius Melo: Onde pesquisar e tudo
+[2017-09-26 23:43:57] Felipe "Juca" Sanches: ok, conversamos
+[2017-09-26 23:44:04] Felipe "Juca" Sanches: hoje estou fechando o dia
+[2017-09-26 23:44:10] Felipe "Juca" Sanches: amanhã de manhã estarei por aqui
+[2017-09-26 23:44:16] Vinicius Melo: Beleza
+[2017-09-26 23:44:20] Vinicius Melo: Manhã é que horas?
+[2017-09-26 23:44:37] Felipe "Juca" Sanches: se quiser fritar o cérebro ai de madrugada você consegue tirar dúvidas comigo pela manhã hahaha
+[2017-09-26 23:44:48] Felipe "Juca" Sanches: a partir das 9h eu já tô na frente do laptop
+[2017-09-26 23:45:07] Vinicius Melo: Maravibelezura
+[2017-09-26 23:45:13] Vinicius Melo: Vou fazer isso então
+[2017-09-26 23:45:16] Vinicius Melo: Recomenda algo antes de tudo?
+[2017-09-26 23:45:34] Vinicius Melo: Alguma leitura*
+[2017-09-26 23:45:38] Felipe "Juca" Sanches: hmmmm...
+[2017-09-26 23:46:13] Felipe "Juca" Sanches: Lib/fontbakery/specifications/googlefonts.py
+[2017-09-26 23:46:44] Felipe "Juca" Sanches: Lib/fontbakery/testrunner.py
+[2017-09-26 23:47:22] Vinicius Melo: Certo..
+[2017-09-26 23:47:39] Felipe "Juca" Sanches: acho que o mais provável é que o que você procura esteja talvez em Lib/fontbakery/commands/check_spec.py
+[2017-09-26 23:47:45] Felipe "Juca" Sanches: eu começaria por esse
+[2017-09-26 23:47:54] Felipe "Juca" Sanches: mas não tenho certeza
+[2017-09-26 23:48:15] Vinicius Melo: Certo 🤔
+[2017-09-26 23:48:19] Vinicius Melo: Vou estudar kkk
+[2017-09-26 23:48:24] Felipe "Juca" Sanches: boa noite!
+[2017-09-26 23:48:33] Felipe "Juca" Sanches: e Happy Hacking ! :-D
+[2017-09-26 23:49:23] Vinicius Melo: Hehe, valeu ;-)
+[2017-09-26 23:55:32] Felipe "Juca" Sanches (forwarded from Felipe "Juca" Sanches): a primeira linha de código que eu vi na vida era escrita em clipper
+[2017-09-26 23:55:32] Felipe "Juca" Sanches (forwarded from Felipe "Juca" Sanches): eu ia toda sexta-feira para a casa do meu pai, pois meus pais são divorciados e eu morava com a minha mão e passava o final de semana com meu pai
+[2017-09-26 23:55:32] Felipe "Juca" Sanches (forwarded from Felipe "Juca" Sanches): mas pra ir pra casa dele eu precisava esperar ele sair do trabalho
+[2017-09-26 23:55:32] Felipe "Juca" Sanches (forwarded from Felipe "Juca" Sanches): então eu ia para a agência do banco do brasil onde ele trabalhava e ficava esperando lá
+[2017-09-26 23:55:32] Felipe "Juca" Sanches (forwarded from Felipe "Juca" Sanches): o povo me botava pra dentro da agência e os programadores que trabalhavam de sys-admin no banco me botavam pra jogar DOOM num dos 386 lá
+[2017-09-26 23:55:32] Felipe "Juca" Sanches (forwarded from Felipe "Juca" Sanches): e continuavam programando os sistemas do banco
+[2017-09-26 23:55:32] Felipe "Juca" Sanches (forwarded from Felipe "Juca" Sanches): eu era curioso e ia lá encher a paciencia deles
+[2017-09-26 23:55:32] Felipe "Juca" Sanches (forwarded from Felipe "Juca" Sanches): e ficava olhando pras telas
+[2017-09-26 23:55:32] Felipe "Juca" Sanches (forwarded from Felipe "Juca" Sanches): perguntei o que era e um deles me disse: "É clipper"
+[2017-09-26 23:55:32] Felipe "Juca" Sanches (forwarded from Felipe "Juca" Sanches): e me explicou que era uma linguagem de programação
+[2017-09-26 23:55:32] Felipe "Juca" Sanches (forwarded from Felipe "Juca" Sanches): e eu fiquei super entusiasmado, por que eu morria de curiosidade de saber como é que os jogos (como o DOOM, por exemplo) eram feitos. E ver ali do meu lado gente que sabia fazer programas de computador era algo incrível pra mim.
+[2017-09-26 23:55:32] Felipe "Juca" Sanches (forwarded from Felipe "Juca" Sanches): lembro que achei bizarro alguém entender aquelas letrinhas esquisitas na tela preta
+[2017-09-26 23:55:32] Felipe "Juca" Sanches (forwarded from Felipe "Juca" Sanches): <corta, 20 e poucos anos depois...>
+[2017-09-26 23:55:32] Felipe "Juca" Sanches (forwarded from Felipe "Juca" Sanches) sent document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/FontBakery/download_599725048252596245.webp
+[2017-09-26 23:55:55] Vinicius Melo: Tinha lido no do garoa kk
+[2017-09-26 23:56:02] Felipe "Juca" Sanches: :-)
+[2017-09-26 23:56:08] Vinicius Melo: Uma ótima história
+[2017-09-26 23:56:13] Vinicius Melo: Eu quase fui assim
+[2017-09-26 23:56:16] Felipe "Juca" Sanches: achei justo compartilihar por aqui, pra motivar a galera
+[2017-09-26 23:56:22] Vinicius Melo: Mas corta uns 8 anos atrás
+[2017-09-26 23:56:24] Vinicius Melo (in reply to Felipe "Juca" Sanches): Demais
+[2017-09-26 23:56:59] Vinicius Melo (in reply to Vinicius Melo): Já existia Delphi, essas outras mais "recentes"
+[2017-09-26 23:57:21] Vinicius Melo: Mas eu comecei quando jogava, ficava "programando" macro pra jogo
+[2017-09-26 23:57:42] Vinicius Melo: Todo mundo tinha uns Scripts maneiros, eu queria criar também kkk
+[2017-09-26 23:57:59] Felipe "Juca" Sanches: ;-)
+[2017-09-26 23:59:00] Vinicius Melo: (seria legal se outros daqui compartilhassem como se interessaram né)

@@ -1,0 +1,49 @@
+#DICA
+Livros com 70% de desconto no site da Novatec, somente hoje, usando o cupom `PROMO70`.
+
+1.	Revelando a Comédia Corporativa
+2.	A Psicologia e o seu Dinheiro
+3.	Pare de viver na corda bamba
+4.	Buscando o Equilíbrio
+5.	Expressões Regulares Cookbook
+6.	jQuery UI
+7.	Programação Funcional para Desenvolvedores Java
+8.	Fundamentos da SVG
+9.	Introdução ao Hibernate
+10.	Web Services SOAP em Java - 2ª Edição
+11.	Estendendo a jQuery
+12.	Temas em Magento
+13.	Análise de Redes Sociais
+14.	Computação em nuvem com o Office 365
+15.	Módulos para Magento
+16.	Manual do futuro redator
+17.	Dados Abertos Conectados
+18.	Criando um E-Commerce com CodeIgniter
+19.	Fundamentos de Sass e Compass
+20.	Criando um E-Commerce com CodeIgniter
+21.	Construindo uma Aplicação E-commerce com MEAN
+22.	A Empresa Conectada
+23.	Vida de Programador – Volume 0
+24.	Vida de Programador – Volume 1
+25.	Boas Apresentações Vendem Ideias
+26.	Criando Aplicações para Redes Sociais
+27.	Marketing Ágil
+28.	A Dieta da Informação
+29.	Gerenciando Privilégios em Tecnologia da Informação
+30.	Construindo Aplicativos Móveis com Java
+31.	Segredos do Ninja JavaScript
+32.	Introdução às Expressões Regulares
+33.	JavaScript Remoto
+34.	Como Melhorar a Performance de Websites .NET
+35.	Foundation for Sites
+36.	Crie seu próprio site
+37.	Desenvolvendo Web Components
+38.	Definindo Escopo em Projetos de Software
+39.	Nomes de Domínio na Internet
+40.	Ambientes Virtuais e Multiplataformas Online na EAD
+41.	Lauren Ipsum
+42.	Segurança para desenvolvedores web
+43.	Construindo uma loja virtual
+44.	Você deve testar!
+45.	Construindo Aplicativos Móveis com C#
+46.	Lidando com a Incerteza

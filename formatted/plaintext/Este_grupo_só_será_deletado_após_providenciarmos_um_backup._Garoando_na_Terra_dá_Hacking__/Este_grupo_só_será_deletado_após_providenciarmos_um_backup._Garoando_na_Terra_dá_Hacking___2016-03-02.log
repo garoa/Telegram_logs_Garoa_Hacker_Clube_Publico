@@ -1,0 +1,79 @@
+[2016-03-02 00:55:12] Aurium's Bot: Twitter Search / spaceflightnow  — 2 de março, 00:10
+[2016-03-02 00:55:12] Aurium's Bot: Twitter Search / spaceflightnow  — 2 de março, 00:33
+[2016-03-02 00:55:12] Aurium's Bot: Twitter Search / spaceflightnow  — 2 de março, 00:39
+[2016-03-02 01:59:52] Aurium's Bot: Twitter Search / spaceflightnow  — 2 de março, 01:02
+[2016-03-02 01:59:52] Aurium's Bot: Twitter Search / spaceflightnow  — 2 de março, 01:05
+[2016-03-02 01:59:52] Aurium's Bot: Twitter Search / spaceflightnow  — 2 de março, 01:10
+[2016-03-02 01:59:56] Aurium's Bot: Twitter Search / spaceflightnow  — 2 de março, 01:16
+[2016-03-02 01:59:56] Aurium's Bot: Twitter Search / spaceflightnow  — 2 de março, 01:30
+[2016-03-02 01:59:56] Aurium's Bot: Twitter Search / spaceflightnow  — 2 de março, 01:51
+[2016-03-02 01:59:56] Aurium's Bot: Twitter Search / spaceflightnow  — 2 de março, 01:55
+[2016-03-02 02:00:00] Aurium's Bot: Twitter Search / spaceflightnow  — 2 de março, 01:57
+[2016-03-02 03:04:32] Aurium's Bot: Twitter Search / spaceflightnow  — 2 de março, 02:41
+[2016-03-02 07:50:36] Anchises (Garoa): 👍👍👍👍👍
+[2016-03-02 08:15:00] Felipe "Juca" Sanches: Del rss
+[2016-03-02 08:15:00] Aurium's Bot: Eu sei ler RSS. :-)
+ Se quiser que eu anuncie as novidades aqui, mas não sabe como, diga "@AuriumBot feed help"
+[2016-03-02 08:15:24] Felipe "Juca" Sanches: @AuriumBot feed help
+[2016-03-02 08:15:24] Aurium's Bot: É simples... 
+
+Você pode agir como um programador e escrever: 
+ [@AuriumBot] (feed|rss) <cmd> 
+ Onde <cmd> pode ser add, show, rm ou ls. 
+ Após os comandos add e rm você deve colocar uma URL. 
+ Após o comando show coloque a quantidade e parte da URL. 
+
+Ou você pode agir como uma pessoa normal e escrever: 
+ Adicione o rss http://bla.bla/bla 
+ bot, mostre 5 notícias do feed bla 
+ bot registre o feed http://bla.bla/bla 
+ Apague o feed http://bla.bla/bla 
+ @AuriumBot, liste os feeds 
+
+ "RSS" e "Feed" são sinônimos para mim, assim como "adicione" e "registre". E me chamar pelo nome é opcional. ;-)
+[2016-03-02 08:16:36] Felipe "Juca" Sanches: @AuriumBot rss ls
+[2016-03-02 08:16:36] Aurium's Bot: Feeds registrados:
+▶ https://www.twitrss.me/twitterusertorss/?user=SpaceX
+▶ https://www.twitrss.me/twitterusertorss/?user=SpaceflightNow
+[2016-03-02 08:20:36] Felipe "Juca" Sanches: @AuriumBot Apague o feed https://www.twitrss.me/twitterusertorss/?user=SpaceflightNow
+[2016-03-02 08:20:36] Aurium's Bot: O feed https://www.twitrss.me/twitterusertorss/?user=SpaceflightNow não está cadastrado.
+Veja a lista com feed ls
+[2016-03-02 08:23:32] Felipe "Juca" Sanches: Apague o feed https://www.twitrss.me/twitter_user_to_rss/?user=SpaceflightNow
+[2016-03-02 08:25:04] Felipe "Juca" Sanches: @AuriumBot rss ls
+[2016-03-02 08:26:44] Fernando Guisso: rm https://www.twitrss.me/twitter_user_to_rss/?user=SpaceflightNow
+[2016-03-02 08:29:54] Felipe "Juca" Sanches: Acho que ja deu certo...
+[2016-03-02 08:30:08] Fernando Guisso: 👍🏻
+[2016-03-02 08:30:36] Felipe "Juca" Sanches: Foi bom enquanto durou ;-)
+[2016-03-02 08:31:21] Fernando Guisso: Foi, acordei várias vezes essa noite :p
+[2016-03-02 08:31:37] Felipe "Juca" Sanches: LOL!
+[2016-03-02 08:32:12] Felipe "Juca" Sanches: Dormir com o celular ligado é um erro! Hahahaha
+[2016-03-02 08:32:12] Aurium's Bot: hihihi...
+[2016-03-02 08:33:08] Felipe "Juca" Sanches: Pronto. Sabemos que o bot está ciente ... ;-)
+[2016-03-02 08:33:32] Fernando Guisso: Ele ainda tem senso de humor kkkk
+[2016-03-02 08:37:04] Felipe "Juca" Sanches: Talvez agora ele liste os feeds corretamente.
+[2016-03-02 08:37:57] Felipe "Juca" Sanches: @AuriumBot feed ls
+[2016-03-02 08:38:24] Felipe "Juca" Sanches: :-(
+[2016-03-02 08:39:04] Felipe "Juca" Sanches: @aurium teu bot tá lesado.
+[2016-03-02 08:48:47] Aurelio Heckert: É o markdown tá conflitando com a url. vou ver isso...
+[2016-03-02 10:51:44] Felipe "Juca" Sanches: @AuriumBot Adicione o rss https://www.twitrss.me/twitter_user_to_rss/?user=juca_gnu
+[2016-03-02 10:51:44] Aurium's Bot: Feed https://www.twitrss.me/twitterusertorss/?user=jucagnu registrado.
+[2016-03-02 10:51:48] Aurium's Bot: Twitter Search / juca_gnu  — 2 de março, 10:28
+[2016-03-02 10:51:52] Felipe "Juca" Sanches: :-)
+[2016-03-02 10:52:08] Felipe "Juca" Sanches: pronto, agora eu não preciso mais colar aqui meus próprios tuítes :-)
+[2016-03-02 10:52:24] Felipe "Juca" Sanches: (são raros, então sussa)
+[2016-03-02 11:31:16] Aurelio Heckert sent document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Este_grupo_só_será_deletado_após_providenciarmos_um_backup._Garoando_na_Terra_dá_Hacking__/download_454761153164214508.webp
+[2016-03-02 12:08:28] Felipe "Juca" Sanches: http://boingboing.net/2016/03/01/today-congress-finally-showed.html
+[2016-03-02 15:21:47] Yumi: gente... qual brinde compro pros marceneiros?
+[2016-03-02 15:24:16] Yumi: Estou quebrando a cabeça aqui
+[2016-03-02 17:03:21] G4b1s: brinde para marceneiro?
+[2016-03-02 17:03:33] G4b1s: lapis ? de marceneiro, claro
+[2016-03-02 17:50:18] Anchises (Garoa): Brinde para marceneiro? Que tal pregos?
+[2016-03-02 18:08:16] Fernando Guisso: Brinde para marceneiro? Chaveiro de madeira?
+[2016-03-02 18:08:56] Alexandre Villares: Trena?
+[2016-03-02 18:09:17] Alexandre Villares: Caderno sem pauta ou qudriculado
+[2016-03-02 18:10:20] Alexandre Villares: Régua de metal pequena
+[2016-03-02 18:12:00] Yumi: régua e trena digital já está no kit
+[2016-03-02 18:14:44] Alexandre Villares: Um caderninho de papel milimetrado ou quadriculado com a marca da empresa é bem legal (esquema molesquine ou similar genérico)
+[2016-03-02 23:30:32] Yumi: caderno e trena já estavam... coloquei um alicate dobrável fodão
+[2016-03-02 23:39:20] Alexandre Villares: 👍
+[2016-03-02 23:40:08] Acidx Leandro Pereira: Quanto pretende gastar por brinde? Um graminho, por exemplo, é útil e pode ser feito bem barato :P

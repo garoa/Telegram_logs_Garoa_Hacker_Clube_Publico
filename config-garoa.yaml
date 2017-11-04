@@ -1,0 +1,153 @@
+---
+
+  ## Backup targets ##
+  #
+  # Array of strings for each category
+  # Strings can be either a (partial) name or a telegram-cli "peer_id" value
+  # An empty array means "everything in this category"
+  # An array containing only null means "nothing in this category"
+
+  # Array of user dialogs to backup
+  backup_users: [
+    null
+  ]
+
+  # Array of group dialogs to backup
+  backup_groups: [
+    'Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos',
+    'grupo_mata-tretas_de_doacoes',
+    'Coreboot/Libreboot - Garoa Hacker Clube',
+    'Máquina_Pick-And-Place_procura_novo_dono...',
+    'Este_grupo_só_será_deletado_após_providenciarmos_um_backup._Garoando_na_Terra_dá_Hacking',
+    'Garoa_Hacker_Camp_2.0',
+    'FontBakery',
+    'GT-Anti-Blobs',
+  ]
+
+  # Array of supergroup dialogs to backup
+  backup_supergroups: [
+    'Garoa_Hacker_Clube_(Público)'
+  ]
+
+  blacklist: [
+  ]
+
+  # Array of broadcast channels to backup
+  # WARNING: using this can cause a crash when a channel has too many messages
+  # to fit in a single chunk (see https://github.com/vysheng/tg/issues/947)
+  backup_channels: [
+    null
+  ]
+
+  # By default telegram-cli returns only the first 100 dialogs/channels
+  # We increase this to 1000. If you have even more, increase this value
+  maximum_dialogs: 1000
+
+
+  ## Output options ##
+
+  # Formatters export the JSON output to a different format
+  # To enable a formatter, uncomment it along with all of its options
+  # If no formatters are enabled, only JSON files are produced
+  formatters: {
+    plaintext: {
+      date_format: '%Y-%m-%d %H:%M:%S'
+    },
+  #  bare: {},
+  #  pisg: {},
+    html: {
+      paginate: 1500, # messages per page
+      use_utc_time: false,
+      timestamps_every: 50, # messages
+      loop_video: true, # loop and autoplay videos
+    },
+  }
+
+  # Target directory for the backup files
+  # If this is a relative path it will be relative to the script's directory
+  # Absolute path starts with '/' or '~'
+  backup_dir: '~/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico'
+
+  # Data file naming style:
+  # True for "My_Chat_Name.jsonl", false for "193044.jsonl" (fixed id)
+  friendly_data_filenames: true
+
+  # True to rename data files when their name changes
+  # For example, "My_Chat_Name.jsonl" is renamed to "WhoChangedTheTitle.jsonl"
+  update_data_filenames: true
+
+  # Maximum number of messages to backup for each target (0 means unlimited)
+  backlog_limit: 0
+
+  # At the time of writing, telegram-cli does not properly detect audio/video
+  # These will be recognized as documents instead
+  # Stickers are also considered documents
+  download_media: {
+    photo: true,
+    document: true,
+    audio: true,
+    video: true,
+  }
+
+  # False to reference downloaded files in the telegram-cli cache
+  # True to copy downloaded media to a dedicated directory per dialog
+  copy_media: true
+
+  # True to delete media files from telegram-cli cache right after downloading
+  # Effectively turns copy_media into move_media
+  # Beware: this will cause media files to be redownloaded every backup run
+  delete_media: false
+
+  # When a user's real name is formatted, include their last name if possible
+  display_last_name: true
+
+
+  ## Technical options ##
+
+  # Use a unix socket to communicate with telegram-cli
+  # Should match the path passed to telegram-cli with the -S option
+  #
+  # NB: Setting tg_sock to some not false value will cause the script
+  # to ignore the next options about TCP connection
+
+  # tg_sock: "/var/run/telegram.sock"
+  tg_sock: null
+
+  # Address of the machine you are running telegram-cli on
+  # If this is not localhost telegram-cli must be invoked with --accept-any-tcp
+  tg_host: 'localhost'
+
+  # Should match the port passed to telegram-cli with the -P option
+  tg_port: 9009
+
+  # Number of messages to request in one chunk
+  chunk_size: 100
+
+  # Time in seconds to wait between requesting chunks
+  chunk_delay: 1.0
+
+  # Time in seconds to wait before considering a request stuck (0 = infinite)
+  chunk_timeout: 10
+
+  # Number of times to retry getting one chunk
+  chunk_retry: 3
+
+  # Time in seconds to wait before considering a download stuck (0 = infinite)
+  # After this time the script skips to the next message
+  media_timeout: 100
+
+
+  ## Advanced behavior settings ##
+
+  # Enables incremental backups (progress is tracked in <outdir>/progress.json)
+  # Setting this to false will force a complete re-run of the backup every time
+  track_progress: true
+
+  # Replacement string for the characters in dialog names which are potentially
+  # problematic in filenames
+  # You can set this to '' if the dialog names are unique enough
+  character_substitute: '_'
+
+  # Skip messages if their text matches this Ruby regex
+  # Example: '/forbidden|words/i'
+  filter_regex: null

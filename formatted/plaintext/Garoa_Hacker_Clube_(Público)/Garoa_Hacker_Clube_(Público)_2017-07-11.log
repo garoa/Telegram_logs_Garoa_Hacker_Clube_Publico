@@ -1,0 +1,198 @@
+[2017-07-11 00:04:28] hum
+[2017-07-11 00:14:17] Automato?
+[2017-07-11 00:18:05] sim
+[2017-07-11 00:18:18] o jogo em si já deixa colocar IA contra IA
+[2017-07-11 00:18:37] eu só quero controlar o jogo pra que isso continue acontecendo sem interferência humana nos menus
+[2017-07-11 00:18:45] e ler a memória pra saber quem ganhou
+[2017-07-11 00:22:16] tendi
+[2017-07-11 00:53:21] Boa noite galera! Duvida básica de Linux
+[2017-07-11 00:53:43] Serão precisa de ponto de montagem?
+[2017-07-11 00:54:43] Swap*
+[2017-07-11 01:48:36] Não precisa não. A partição swap é usada só pra armazenar temporariamente páginas de memória inativas. Mas pro Linux ativar no boot precisa estar no fstab. Se não estiver, pra ativar tem que usar o comando swapon.
+[2017-07-11 08:46:45] Você esta querendo fazer teste automatizado em jogos?
+[2017-07-11 08:56:11] Interessante a arquitetura do emulador mame. É bem mais complexo que a do znes por exemplo, a modularidade impressiona. Mais eu ainda não vejo vantagens de desenvolver jogos para mame nos tempos atuais, é muito melhor fazer um game no estilo destes arcades usando html/javascript. Com certeza seu game vai conseguir um publico muito maior.
+[2017-07-11 08:57:16] repare que eu falei em desenvolver games novos para o mame, não em desenvolver o emulador mame em si.
+[2017-07-11 09:20:10] Eu não programo em busca de popularidade. Busco satisfação pessoal. Superar desafios pelo prazer da tarefa em si. É, pra mim, como o prazer de montar um quebra-cabeça ou de jogar uma partida de xadrez. Ou de aprender a tocar uma música no piano.
+[2017-07-11 09:21:43] Você parece um matemático puro
+[2017-07-11 09:23:42] Tô mais pra engenharia mesmo...
+[2017-07-11 09:24:51] Eu gosto de estudar a história da engenharia de computação. Escrever javascript e CSS não vai me dar grandes insights sobre design de hardware retrô.
+[2017-07-11 09:35:06] Já ouviu falar do mecanismo de anticitera? Pq não o tenta recriar aposto que ia gostar do desafio
+[2017-07-11 09:35:25] Acho que da pra fazer ele funcionar no freecad
+[2017-07-11 09:38:00] já ouvi falar sim.
+[2017-07-11 09:38:17] Mas meu maior interesse tem sido as décadas de 1970 e 80
+[2017-07-11 09:40:05] Já estudou o 4004 então?
+[2017-07-11 09:41:21] muito pouco. Sei da existência. Mas não vi em detalhes.
+[2017-07-11 09:42:21] As CPUs retrô que conheço melhor são o Z80 e o Motorola 68000
+[2017-07-11 09:42:51] mas de vez em quando eu lido com coisas mais exóticas
+[2017-07-11 09:43:02] como a CPU do Patinho Feio :-)
+[2017-07-11 09:43:22] https://forum.fiozera.com.br/t/resgate-historico-do-computador-patinho-feio-usp-1971/58
+[2017-07-11 09:45:30] O m68k era de 32 ou 16 bits. A Apple falava que era 32 bits mais o megadrive usava o m68k e era dito como  sendo 16 bits.
+[2017-07-11 09:46:17] ah... essa é uma eterna batalha de nomenclatura....
+[2017-07-11 09:46:42] tem diversos aspectos de uma CPU que podem definir sua largura de bits
+[2017-07-11 09:47:18] Barramento de endereços interno. Barramento externo (exposto aos pinos). Barramento de dados. ULA. Etc...
+[2017-07-11 09:47:41] acaba virando uma briga entre os departamentos de engenharia e de marketing
+[2017-07-11 09:48:43] Pra mim oque importa é a ULA
+[2017-07-11 10:29:25] A resposta hacker pra sua duvida é: "por que eu posso" (~.^)
+[2017-07-11 10:33:37] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804740426_60046.jpg
+[2017-07-11 10:33:49] Parabéns Yumi!!!!!
+[2017-07-11 10:36:33] @Yumizinha Guardiã (Suplente) da Internet Brasileira!
+[2017-07-11 10:36:36] Parabéns!
+[2017-07-11 11:10:43] Parabéns e feliz niver
+[2017-07-11 11:11:16] O que aconteceu com o Brasil Underground?
+[2017-07-11 11:35:18] uau!!! parabens @Yumizinha 💖👌🏻
+[2017-07-11 11:36:16] Obrigado cara! Deu certo!
+[2017-07-11 11:37:06] nuss, sumiu mesmo... achei que eu tinha saído do grupo
+[2017-07-11 11:44:27] Sucesso!!! 😎
+[2017-07-11 11:46:59] A lista também tá off
+[2017-07-11 11:49:05] devem ter prendido alguém hahahaha
+[2017-07-11 11:52:16] Alguem pode me ajudar? Minha internet não sei o que está dando errado, mas sempre que eu clico em algum outro site, sem ser Facebook, ou Youtube. a pagina não carrega, n consigo nem se quer fazer um git clone .
+[2017-07-11 11:54:36] https://medium.com/@cdixon/crypto-tokens-a-breakthrough-in-open-network-design-e600975be2ef
+[2017-07-11 12:01:40] Parabéns @Yumizinha ✨🌟💫
+[2017-07-11 12:01:54] Obrigada!
+[2017-07-11 12:11:22] ? help me ?
+[2017-07-11 12:12:30] já verificou o DNS?
+[2017-07-11 12:12:40] Como ?
+[2017-07-11 12:13:00] vc usa windows?
+[2017-07-11 12:13:55] Linux
+[2017-07-11 12:14:07] To começando.
+[2017-07-11 12:14:36] entendi, bem procura no google então como alterar o DNS da conexao local do linux
+[2017-07-11 12:14:39] e vê se funciona
+[2017-07-11 12:21:26] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804206004_90073.jpg
+[2017-07-11 12:24:04] Tu tá com internet? Da um clique ali na conexão
+[2017-07-11 12:24:18] Veja se teu profile não está fazendo algum redirecionamento
+[2017-07-11 12:25:15] cat /etc/resolv.conf
+[2017-07-11 12:29:21] como ?
+[2017-07-11 12:31:17] vai no terminal, digita ifconfig e posta aqui o resultado
+[2017-07-11 12:31:18] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803113942_88396.jpg
+[2017-07-11 12:32:04] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804206063_90038.jpg
+[2017-07-11 12:34:18] oq faço agora ?
+[2017-07-11 12:34:41] Meu deus, nem no meu moden consigo entrar
+[2017-07-11 12:39:53] aonde ?
+[2017-07-11 12:41:35] Parabéns! 🏆🎉
+[2017-07-11 14:38:19] Estou escrevendo um conjunto de ferramentas para disassembly da máquina virtual do jogo Another World. Já conegui gerar o disassembly do bytecode de todas as fases e agora consegui extrair todas as cenas poligonais exportando para arquivos SVG individuais. Ainda falta decodificar as cores. Portanto por enquanto é tudo wireframe ainda. To pensando ainda como fazer pra pegar as cores também.
+[2017-07-11 14:38:34] Esse aqui é um exemplo do que o meu script tá gerando no momento:
+[2017-07-11 14:38:55] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803118775_89629.jpg
+[2017-07-11 14:39:14] E como é a cena do jogo, com as cores:
+[2017-07-11 14:39:31] http://www.writeups.org/wp-content/uploads/Lester-Chaykin-Another-World-video-game-a.jpg
+[2017-07-11 14:40:45] o código dessa ferramenta de análise do bytecode está aqui: https://github.com/felipesanches/AnotherWorld_VMTools/
+[2017-07-11 14:43:05] Massa!
+[2017-07-11 14:45:41] 😎 que foda isso!
+[2017-07-11 14:49:31] da hora, né? :-)
+[2017-07-11 14:50:25] É claro que depois vou ter que arregaçar as mangas e escrever um assembler
+[2017-07-11 14:50:44] e uma ferramenta para gerar as estruturas de dados de polígonos a partir de arquivos SVG
+[2017-07-11 15:02:42] @Yumizinha Parabéns, mts anos de vida, mt sucesso e bitcoins pra vc
+[2017-07-11 15:03:49] pode transferir, obrigada
+[2017-07-11 15:05:02] passa a carteira ai
+[2017-07-11 15:20:50] #Dica #Curso
+Python para Técnicos e Engenheiros, com mais de 90% de desconto:
+https://www.udemy.com/python-para-tecnicos-e-engenheiros/
+[2017-07-11 15:30:39] 👏👏👏
+[2017-07-11 16:25:09] http://farm5.static.flickr.com/4078/4813183562_88d3989c4c_b.jpg
+[2017-07-11 16:25:19] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_5134281021776199702
+[2017-07-11 16:25:55] http://www.lemonamiga.com/games/screenshots/full/another_world_08.png
+[2017-07-11 16:26:05] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803119802_90022.jpg
+[2017-07-11 16:27:41] ja digitei. mandei o print, e agora ?
+[2017-07-11 16:30:28] entendi, bem procura no google então como alterar o DNS da conexao local do linux
+[2017-07-11 16:33:13] ok
+[2017-07-11 16:36:50] sudo echo "nameserver 8.8.8.8" > /etc/resolv.conf
+[2017-07-11 16:37:09] ai vai da pra vc navegar e procurar como ajustar isso
+[2017-07-11 16:37:37] ok
+[2017-07-11 16:38:24] digitar esse comando ?
+[2017-07-11 16:39:07] depois da um ping google.com
+[2017-07-11 16:39:55] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803118996_88128.jpg
+[2017-07-11 16:40:34] sudo nano /etc/resolv.conf
+[2017-07-11 16:40:38] sudo su
+[2017-07-11 16:40:40] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803119686_89287.jpg
+[2017-07-11 16:40:40] e add na mão
+[2017-07-11 16:40:45] boa
+[2017-07-11 16:41:21] voce usa vivo internet  ?
+[2017-07-11 16:41:52] tive um problema assim era que a vivo to tava com ipv6
+[2017-07-11 16:42:03] n
+[2017-07-11 16:42:06] Net
+[2017-07-11 16:42:46] mano
+[2017-07-11 16:42:58] dei esse comando
+[2017-07-11 16:43:01] como sudo su
+[2017-07-11 16:43:07] e agora n quer se conectar
+[2017-07-11 16:43:11] a nenhum site
+[2017-07-11 16:43:45] mais não funcionou
+[2017-07-11 16:43:56] com sudo su
+[2017-07-11 16:43:58] funcionou
+[2017-07-11 16:44:10] nslookup google.com
+[2017-07-11 16:44:14] manda a saida aí
+[2017-07-11 16:45:31] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803113496_89010.jpg
+[2017-07-11 16:46:38] como eu removo o comando 
+
+sudo echo "nameserver 8.8.8.8" > /etc/resolv.conf
+[2017-07-11 16:47:13] não remove... rs
+[2017-07-11 16:47:30] ferrou.
+[2017-07-11 16:47:31] kk
+[2017-07-11 16:47:37] kkkk
+[2017-07-11 16:47:41] vai ter que pegar a saida do "cat /etc/resolv.conf" e colocar na mão
+[2017-07-11 16:47:48] nada roda o mesmo comando da mesma forma
+[2017-07-11 16:48:01] Agora ja era
+[2017-07-11 16:48:03] dei clear
+[2017-07-11 16:48:03] troca o 8.8.8.8 por 187.36.192.33 que era o seu dns de antes
+[2017-07-11 16:48:09] ok
+[2017-07-11 16:48:13] veja foro que vc mesmo mandou
+[2017-07-11 16:48:19] imagem
+[2017-07-11 16:48:57] > e >>, trolhando os iniciantes... rs
+[2017-07-11 16:49:00] mais se vc reiniciar o linux ele volta tambem
+[2017-07-11 16:49:16] ja que vc ta usando dhcp
+[2017-07-11 16:49:25] sempre
+[2017-07-11 16:49:34] > é pra macho
+[2017-07-11 16:49:39] kkk
+[2017-07-11 16:49:45] fdm kk me trolando
+[2017-07-11 16:49:57] suporte vivo boa tarde
+[2017-07-11 16:50:11] Vou reiniciar minha maquina ja volto.
+[2017-07-11 16:50:17] "sudo rm -rf /" que é de macho!
+[2017-07-11 16:50:31] quais luzes estão acesas?
+[2017-07-11 16:50:35] mais assim que arrumar isso veja guia foca linux
+[2017-07-11 16:50:41] TA doido
+[2017-07-11 16:50:45] isso eu sei oq faz kk
+[2017-07-11 16:52:44] Seguinte, @Zer0LasT
+[2017-07-11 16:53:02] quando tu dá um echo "alguma coisa" > "algum lugar"
+[2017-07-11 16:53:15] esse ">" sobrescreve TUDO que tiver no arquivo
+[2017-07-11 16:53:20] sudo  > /boot/grub/grub.conf
+[2017-07-11 16:53:27] se vc usar ">>" ele add no fim do arquivo
+[2017-07-11 16:54:05] Esses arquivos de conf, Eu prefiro editar na mão
+[2017-07-11 16:54:29] entendi
+[2017-07-11 16:54:39] Obrigado ❤️
+[2017-07-11 17:05:43] reiniciei o pc
+[2017-07-11 17:05:49] e ta entrando tranquilo por enquanto
+[2017-07-11 17:06:35] echo "vai que da" | sudo tee /etc/resolv.conf
+[2017-07-11 17:19:46] ksoaskpoaska
+[2017-07-11 17:23:15] Vaga Desenvolvedor PHP Sênior em #SP #PJ
+https://trampos.co/oportunidades/132718-desenvolvedor-back-end?locale=pt-BR
+[2017-07-11 17:31:48] ja passei pra um cara bom
+[2017-07-11 17:40:24] www.fiesp.com.br/mobile/agenda/?id=234023
+[2017-07-11 17:40:43] debate sobre a lei das telecomunicações
+[2017-07-11 17:40:58] que completa 20 anos
+[2017-07-11 17:41:17] dia 21
+[2017-07-11 17:41:27] o dia todo na fiesp
+[2017-07-11 18:09:18] MUITO OBRIGADO!
+[2017-07-11 19:04:18] creio que a fiesp na verdade representa as empresas
+[2017-07-11 19:04:44] ou seja, esses eventos são para ajudar empresas
+[2017-07-11 19:05:31] Luís Gomes joined
+[2017-07-11 19:05:31] Hi Luís !
+[2017-07-11 19:31:23] https://www.battleforthenet.com/
+[2017-07-11 19:31:34] de novo toda hora
+[2017-07-11 20:47:46] E eu prefiro fazer uma cópia antes de editar 😁
+[2017-07-11 20:51:01] Dumont Hackercamp na V SteamCon… Hackers e engrenagens? – Hacker Culture
+http://hackerculture.com.br/2017/07/dumont-hackercamp-na-v-steamcon-hackers-e-engrenagens/
+[2017-07-11 20:54:54] Página no site do Garoa:
+https://garoa.net.br/wiki/Dumont_Hackercamp
+[2017-07-11 22:36:45] Sábia escolha...
+[2017-07-11 22:43:26] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803117877_89535.jpg
+[2017-07-11 22:44:14] Terça 25/7, o Leandro Velloso vai contar um pouco do doutorado dele na Noite de Processing
+[2017-07-11 22:44:20] Vai ser bem legal...
+[2017-07-11 22:45:04] https://garoa.net.br/wiki/Noite_de_Processing
+[2017-07-11 23:06:07] Pra quem usa, ou usava, o Franz para usar Telegram, Slack, WhatsApp e outros mensageiros instantaneos, que há muito deixou de ser open source, segue uma alternativa: Rambox
+[2017-07-11 23:06:09] https://github.com/saenzramiro/rambox
+[2017-07-11 23:06:10] saenzramiro | rambox
+
+Free and Open Source messaging and emailing app that combines common web applications into one.
+
+Language: JavaScript
+Forks: 220
+Stars: 2150
+Issues: 297

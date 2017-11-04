@@ -1,0 +1,225 @@
+[2017-09-12 00:58:20] pumping station one hackerspace, chicago - https://www.youtube.com/watch?v=P_bvq10VYRA
+[2017-09-12 03:30:55] Fiz um playlist mostrando vários hackerspaces.  https://www.youtube.com/playlist?list=PL_V6eO96VH3jtT3sNH7Mk3QqUV89xuzY1
+[2017-09-12 11:07:43] Fala galera, tudo beleza?
+Não sei se aqui é o lugar correto, mas estou precisando de uma ajuda de vocês que são programadores veteranos
+[2017-09-12 11:08:01] Não sou veterano, mas bora lá hahah
+[2017-09-12 11:08:04] Estou aprendendo (reaprendendo, pois havia abandonado) a programar em python
+[2017-09-12 11:08:12] já passei por udX
+[2017-09-12 11:08:15] codeacademy, etc
+[2017-09-12 11:08:28] mas eu acabo sempre com o mesmo problema
+[2017-09-12 11:08:36] tudo bagunçado!
+[2017-09-12 11:09:10] não digo em relação a melhores práticas durante o desenvolvimento do código
+[2017-09-12 11:09:13] mas por exemplo
+[2017-09-12 11:09:39] não acho nada na internet que seja explicativo os porques
+[2017-09-12 11:09:48] pra não prolongar muito
+[2017-09-12 11:10:05] queria saber se existe algo assim
+[2017-09-12 11:10:33] Instale a IDE "X" (seja ela texto, gui, etc), porque ela tem "X" recursos que facilitam a vida
+[2017-09-12 11:10:46] Depois instale o virtualenv
+[2017-09-12 11:10:52] ai usa o git pra isso
+[2017-09-12 11:11:05] baixa tal coisa que fará x coisa
+[2017-09-12 11:11:14] toda vez que eu troco de exemplo, ou curso
+[2017-09-12 11:11:22] meus diretórios estão todos bagunçados
+[2017-09-12 11:12:03] algumas vezes fiz modificações que inviabilizam a utilização do python e tendo que reinstalar tudo de novo (aprendi o porque não usar root do pior jeito possível)
+[2017-09-12 11:12:12] queria saber como vocês fazem
+[2017-09-12 11:12:17] Brother, posso te chamar no privado?
+[2017-09-12 11:12:18] para evitar desorganização
+[2017-09-12 11:12:21] claro
+[2017-09-12 11:21:11] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_5890998703929426445
+[2017-09-12 11:23:37] Estou usando o ubuntu 17.04 e o firefox consegue consumir mais de 30% da memória ram...
+[2017-09-12 11:26:41] =D Entao o meu script ajudou?
+[2017-09-12 11:27:51] Sim, gostei das informações
+[2017-09-12 11:28:08] não é tão fácil conseguir essas info sem conhecimento (meu caso)
+[2017-09-12 11:28:40] Eu pus tudo num script
+[2017-09-12 11:28:54] estou pondo tudo num script
+[2017-09-12 11:29:00] aprendendo a programar ^^
+[2017-09-12 11:29:16] Bash é bem útil
+[2017-09-12 11:29:20] ss
+[2017-09-12 11:29:33] E ainda estou utilizando linux
+[2017-09-12 11:29:36] e 10x mais util
+[2017-09-12 11:29:53] estou migrando forçadamente
+[2017-09-12 11:30:06] Porque?
+[2017-09-12 11:30:49] a interface do windows não está ficando nada prática
+[2017-09-12 11:31:17] parece a época do orkut com gif de bom dia do gatinho brilhanndo 😂
+[2017-09-12 11:32:14] windows pra mim é só pra jogar
+[2017-09-12 11:32:21] Além de que..
+[2017-09-12 11:32:24] Sabe né..
+[2017-09-12 11:32:28] NSA + Windows
+[2017-09-12 11:32:51] lógico que tem outras milhares de funções e várias coisas interessantes, mas para meu uso, é só jogos
+[2017-09-12 11:33:19] Olha, entendo 5% de segurança da informação ou até menos
+[2017-09-12 11:33:21] Linux te dá coisas que o windows não dá, liberdade...
+[2017-09-12 11:33:28] mas realmente o que você falou é fato mesmo
+[2017-09-12 11:33:44] O windows ta cheio de vuln
+[2017-09-12 11:34:06] falo por ja ter entrado em vários windows com vulns
+[2017-09-12 11:34:20] O windows 10 mais atualizado ta vulneravel
+[2017-09-12 11:34:39] a NSA e a Microsoft tem parceria, e as falhas sao deixadas de proposito
+[2017-09-12 11:34:59] Imagino
+[2017-09-12 11:35:02] Para que ela possa espiar, acho que o Snowden deixou isso claro.
+[2017-09-12 11:35:49] Você leu aqueles arquivos do wikileaks que falam sobre o framework que a NSA usa para fazer as invasões e monitoramento?
+[2017-09-12 11:35:54] Acho que é Cherry Blossom
+[2017-09-12 11:36:20] Já ouvi falar, mas o que mais me chamou a atenção foi o Vault7
+[2017-09-12 11:36:23] ja ouviu falar?
+[2017-09-12 11:36:48] protego
+[2017-09-12 11:36:55] angelfire
+[2017-09-12 11:38:18] vault7 já li alguma coisa, mas não me recordo
+[2017-09-12 11:38:24] protego nunca ouvi falar
+[2017-09-12 11:38:32] e angelfire pra mim é internet década de 90
+[2017-09-12 11:38:33] ahahaha
+[2017-09-12 11:39:09] 😆
+[2017-09-12 11:39:16] Mas a protego
+[2017-09-12 11:39:25] foi o que mais me chamou a atenção
+[2017-09-12 11:39:36] quem programou aquilo..
+[2017-09-12 11:39:39] e um génio
+[2017-09-12 11:41:20] vou pesquisar isso
+[2017-09-12 11:45:09] The Protego project is a PIC-based missile control system that was developed by Raytheon.
+[2017-09-12 11:45:43] ahaha
+[2017-09-12 11:45:45] outro nível
+[2017-09-12 11:57:42] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804723473_24593.jpg
+[2017-09-12 11:57:50] Projeto finalizado
+[2017-09-12 11:58:30] esse e de que ano?
+[2017-09-12 11:58:38] Mortal Kombat?
+[2017-09-12 11:59:32] Sensacional! Ainda vou fazer um pra mim, quero deixar na sala de casa ahahaha
+[2017-09-12 12:00:25] CentOS
+[2017-09-12 12:00:27] e massa
+[2017-09-12 12:02:01] Esse é Injustice
+[2017-09-12 12:02:10] Ah..
+[2017-09-12 12:05:08] derivado do red hat, né?
+[2017-09-12 12:05:14] Exato
+[2017-09-12 12:06:11] não gosto muito, sempre bati muita cabeça com o red hat
+[2017-09-12 12:06:19] Eu adoro
+[2017-09-12 12:06:23] mano, sudo apt-get install
+[2017-09-12 12:06:26] nao e para mim
+[2017-09-12 12:06:37] hoje eu brinco de administrar 1 servidor pessoal de proxy
+[2017-09-12 12:06:38] yum me agrada, so nao gosto dos repositorios.
+[2017-09-12 12:06:42] AHAHAHA
+[2017-09-12 12:06:46] yum não me agrada
+[2017-09-12 12:06:51] Administra?
+[2017-09-12 12:06:52] aprendi no debian
+[2017-09-12 12:06:53] ^^
+[2017-09-12 12:07:34] sim, criei um servidor proxy pra mim
+[2017-09-12 12:07:53] Hmm, usa o CentOS como OS?
+[2017-09-12 12:08:09] utilizo tunelação http transparente e com cache
+[2017-09-12 12:08:23] uso o debian server
+[2017-09-12 12:08:26] bash total ahahha
+[2017-09-12 12:08:38] aff, pelo o menos as especificações
+[2017-09-12 12:08:41] sao boas certo?
+[2017-09-12 12:08:53] que nada... estou aprendendo
+[2017-09-12 12:09:01] peguei um monte de máquinas velhas
+[2017-09-12 12:09:10] e montei meu frankeinstein
+[2017-09-12 12:09:11] ahaha
+[2017-09-12 12:09:19] eu digo as especificações do servidor ^^
+[2017-09-12 12:09:31] São boas certo?
+[2017-09-12 12:09:37] não ahahha
+[2017-09-12 12:09:38] brb
+[2017-09-12 12:09:41] vou almoçar
+[2017-09-12 12:09:47] ate
+[2017-09-12 12:15:32] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804723057_24809.jpg
+[2017-09-12 12:15:41] SEUS HASKERS CORPORATIVOS!!!11!
+[2017-09-12 12:19:10] Hacker e corporativo na mesma sentença, meus olhos sangraram
+[2017-09-12 12:21:12] xd
+[2017-09-12 13:06:12] Se clicar em "junte-se a nós", pedem meu cartão de crédito?
+[2017-09-12 13:06:19] agora, não desmerecendo
+[2017-09-12 13:06:24] Qual é a ideia desse curso?
+[2017-09-12 13:09:15] Que Curso?
+[2017-09-12 13:09:40] esse print ai que você mandou
+[2017-09-12 13:09:46] deduzo que seja um curso
+[2017-09-12 13:10:05] é um Meetup
+[2017-09-12 13:12:05] ah tá
+[2017-09-12 13:12:06] ahahhaa
+[2017-09-12 13:26:52] Tô quase concordando com o área 31 kkkkkkk
+[2017-09-12 13:38:51] Hauahhaauhaha
+[2017-09-12 13:43:54] coachting hacker? rsrsrs
+[2017-09-12 13:53:07] o graffiti sofreu coisa similar. pegou moda, muitos artistas das ruas começaram a ser contratados, expor em museus, etc
+[2017-09-12 13:53:44] creio que só não acabou porque nas ruas sempre aparecem outros
+[2017-09-12 14:25:32] Que nada, @michaelhoward9 , o pixo/grafite é um movimente bem interessante
+[2017-09-12 14:26:18] quem nunca pixou a sua escola..
+[2017-09-12 14:26:27] nunca ahahha
+[2017-09-12 14:26:45] eu ja, nao me importo
+[2017-09-12 14:27:00] ahahah
+[2017-09-12 14:27:03] Curto de violar as regras rs, black hat hacking forever
+[2017-09-12 14:27:14] é interessante como o movimentou surgiu
+[2017-09-12 14:27:18] e voluiu ao que é hoje
+[2017-09-12 14:27:33] ss.
+[2017-09-12 14:27:34] eu conheço o pessoal do bakira graf
+[2017-09-12 14:27:49] hoje o graf é visto como obra de arte
+[2017-09-12 14:27:57] essa galera do bakira já ganharam prêmios
+[2017-09-12 14:28:00] Hoje em dia sao quase artistas reais, aqui em Portugal, as pessoas podem grafitar alguns sitios, e e patrimonio nacional
+[2017-09-12 14:28:17] inclusive alguns editais pra grafitar as áreas mais abastadas da zona leste de SP
+[2017-09-12 14:28:29] Eu sou da parte do grafite que so quer fuder com as pessoas donas do espaço hehe
+[2017-09-12 14:28:31] legal
+[2017-09-12 14:28:46] ^^ e bem
+[2017-09-12 14:34:23] Delta joined
+[2017-09-12 14:34:24] Hi Delta !
+[2017-09-12 14:34:49] 😊
+[2017-09-12 15:27:29] Isso é Arte Plástica.
+[2017-09-12 15:27:33] http://t.me/IdleTownBot?start=uid59a4e874d
+[2017-09-12 15:27:54] 'Artistas Reais'? Não entendi... Pq não está em uma moldura não é Pintura?
+[2017-09-12 15:27:59] Viram esse jogo do Telegram? ...Coisa fina
+[2017-09-12 15:28:02] Graffiti é como Banda de Rock: se não for pra Agredir a Sociedade, nem começa que tu já tá errado na essência...
+[2017-09-12 15:28:11] Hauahhaauhaha
+[2017-09-12 15:28:44] exatamente
+[2017-09-12 15:28:57] estou vendo agora
+[2017-09-12 15:48:59] Nem tudo o que é artista tem uma pintura ou moldura
+[2017-09-12 15:49:37] Se acha que Banda de rock é para agredir a sociedade entao nao conhece..
+[2017-09-12 15:50:57] Porra tiago tu ta fazendo um testamento?
+[2017-09-12 15:51:23] Grafitti é um movimento de transgressão, mas os caras se adaptaram às galerias, é uma expressão cultural genuina, hacker tbm não deixa de ser transgressor, mas com a diferenças dos hats
+[2017-09-12 15:51:39] Exatamente.
+[2017-09-12 15:52:13] Gemeos hj tem telas de 50k mas continuam fazendo grafittis no minhocão por exemplo
+[2017-09-12 15:52:30] Mas são artistas
+[2017-09-12 15:52:46] Continuam, ser sempre artistas, agora depende do ponto de vista
+[2017-09-12 15:54:58] Sim, a partir do momento que desenvolveram uma tecnica e criaram uma identidade, o trampo transcendeu as ruas
+[2017-09-12 15:59:17] https://www.facebook.com/events/117626082163401/?ti=cl
+[2017-09-12 16:14:43] achei que tinha caído em algum grupo da faculdade agora
+[2017-09-12 16:15:15] esse campeonato é só pra calouros do meu curso.. que tá fazendo aqui no garoa? :p
+[2017-09-12 16:16:41] Resolvi divulgar caso alguém tenha interesse em acompanhar
+[2017-09-12 16:16:53] é fechado pro curso...
+[2017-09-12 16:18:20] Recebi o convite para acompanhar e não tenho nenhuma ligação com a Usp
+[2017-09-12 16:18:35] onde?
+[2017-09-12 16:19:00] Convite do grupo no face
+[2017-09-12 16:19:09] acompanhar como?
+[2017-09-12 16:19:26] ver quem vai ganhar?
+[2017-09-12 16:19:39] eles nem divulgam os desafios
+[2017-09-12 16:21:07] postei caso alguém queira ir, se não houver interesse, só seguir com o grupo e se tiverem interesse entrar na página da organização
+[2017-09-12 16:21:17] não tem como ir amigo
+[2017-09-12 16:21:24] é fechado pra calouros
+[2017-09-12 16:22:01] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804721428_48302.jpg
+[2017-09-12 16:24:39] Show
+[2017-09-12 16:24:44] Parabéns pelo segundo lugar
+[2017-09-12 16:26:06] e isso porque eu perdi metade das etapas por causa de uma cirurgia que eu fiz na época!
+[2017-09-12 16:28:10] Legal
+[2017-09-12 16:28:26] Como são os desafios@
+[2017-09-12 16:28:31] ?
+[2017-09-12 16:34:37] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804740581_122814.jpg
+[2017-09-12 16:37:43] https://www.hackersportugal.com/nsa-disponibiliza-ao-publico-ferramentas-que-eram-secretas/
+[2017-09-12 16:48:01] você tem um enunciado de um problema tipo de matemática da quinta série, pra resolver com Java, e envia o código por um portal web na rede local que eles dão, esse código vai pra um sistema que checa se o resultado que o código cospe com a entrada secreta que ele tem é correto, e a pontuação de cada time é atualizada na página
+[2017-09-12 16:48:39] Algo parecido com a ideia do desafio sebrae
+[2017-09-12 16:49:09] pode ser, não conheço
+[2017-09-12 16:50:23] Bem parecido. é legal assim
+[2017-09-12 16:50:35] Você só descobre o resultado no final da rodada
+[2017-09-12 16:50:38] Correto?
+[2017-09-12 16:53:00] não
+[2017-09-12 16:53:19] a pontuação de todos os times fica visível na página de submissão
+[2017-09-12 17:00:06] Legal
+[2017-09-12 17:00:18] Uma boa ideia pra desenvolver algo assim pro garoa
+[2017-09-12 17:00:26] Aí daria para fazer campeonato s sempre
+[2017-09-12 17:03:05] Só usar o sistema BOCA
+[2017-09-12 17:03:41] Já está jogando?
+[2017-09-12 17:27:01] Resolvi. Tive que transformar o pendrive em uma unidade MBR ao invés de GPT
+[2017-09-12 17:38:58] 🤙🤙🤙
+[2017-09-12 17:46:09] Ficando famoso! Hauahhaauhaha
+[2017-09-12 18:02:01] Se tiver clã, bora jogar junto
+[2017-09-12 18:07:11] Já tô no SOCIALISM 😎😎
+[2017-09-12 18:08:43] Leprechau
+[2017-09-12 18:32:02] https://www.paperspace.com
+[2017-09-12 18:32:13] Alguem ja usou essa parada aqui?
+[2017-09-12 18:34:05] e free?
+[2017-09-12 18:34:27] interessante
+[2017-09-12 18:35:17] 0.07$ a hora
+[2017-09-12 18:35:23] 24 horas, nao e caro
+[2017-09-12 18:35:46] pior que e um bocado engenharia social
+[2017-09-12 19:37:12] Gente, encontrei um vendedor na vila Madalena que vende motores e sensores pra arduino num ótimo preço. Dá pra pegar direto com ele, então não tem frete. Vende pelo mercado livre
+[2017-09-12 19:50:36] Manda pa noix
+[2017-09-12 20:38:11] https://perfil.mercadolivre.com.br/MATTARIAN
+[2017-09-12 22:10:06] Sucesso Teste da SpaceX
+[2017-09-12 22:10:42] Estágio 2 a caminho da estação especial
+[2017-09-12 22:10:44] Espacial
+[2017-09-12 22:11:15] Nice :)

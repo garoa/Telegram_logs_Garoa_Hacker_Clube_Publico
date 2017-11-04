@@ -1,0 +1,493 @@
+[2016-06-06 17:44:13] 'tétano encantador'
+[2016-06-06 17:44:40] python3, quem quiser brincar
+[2016-06-06 17:44:44] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_118535303458718188.zip
+[2016-06-06 17:44:56] Soube que o ex-guitarrista do Bolso Licitador é o novo baixista do Rombo Inquietador... e o vocalista do Rugido Esplênico será substituído pelo Axl Rose na próxima turne mundial... 😜
+[2016-06-06 17:45:04] bem rudimentar, é pra um trabalho de faculdade (geração de tuplas de BD)
+[2016-06-06 17:45:55] Limo Satânico
+[2016-06-06 17:45:58] Com gpg sim
+[2016-06-06 17:47:03] 'vermelho corriqueiro'
+[2016-06-06 17:47:15] não consigo parar de procrastinar com isso pra terminar o trabalho
+[2016-06-06 17:47:28] Ou fazer igual a Erin falou, criptografar com ROT13 duas vezes para garantir... 😂
+[2016-06-06 17:47:44] extraí substantivos e adjetivos daqui https://github.com/pmarkun/api-dicionariolivre
+[2016-06-06 17:48:02] Não conheço isso
+[2016-06-06 17:48:13] bem seguro
+[2016-06-06 17:48:20] ainda mais quando você faz um 2-pass
+[2016-06-06 17:54:26] alguém sabe onde consigo uma lista/dicionário limpa de nomes e sobrenomes?
+[2016-06-06 17:55:21] mais próximo que encontrei foi a página de lista de nomes portugueses, que preciso fazer um parsing primeiro
+[2016-06-06 17:55:24] Confira o Tweet de @MasterCardInfo: https://twitter.com/MasterCardInfo/status/739788980015616000?s=09
+[2016-06-06 17:57:33] @corvolino o conteudo pode ate ser criptografado, mas, memso que a outra parte use criptografia, os headers sao plain text, nao? de uma procurada por ai o quanto esse tipo de metadado conta sobre vc
+[2016-06-06 17:59:18] O e-mail e assunto não são criptografados
+[2016-06-06 17:59:38] Isso é relativo, depende do que eu vá mandar um e-mail
+[2016-06-06 18:00:19] Posso criar um sem vínculo algum a mim e enviar sem deixar rastro do q se trata
+[2016-06-06 18:01:28] basta 1 conhecido na rede que uma observacao dos fluxoa de msg permitem identificar muita coisa
+[2016-06-06 18:02:00] crie um sem vinculo a vc e use via uma rede de anonimado
+[2016-06-06 18:02:10] Aí se usa VPN, tor
+[2016-06-06 18:02:13] mande uns par de email para o snowden e espere
+[2016-06-06 18:02:16] kkkk
+[2016-06-06 18:02:19] hehehehe!
+[2016-06-06 18:02:21] E por aí vai
+[2016-06-06 18:02:33] Eu não tenho nada para falar com ele :P
+[2016-06-06 18:02:34] entao, cara, realmente nao adianta
+[2016-06-06 18:02:43] Adianta sim
+[2016-06-06 18:02:44] eh uma pena, mas nao adianta
+[2016-06-06 18:03:07] a pior falha de seguranca eh essa sensacao de seguranca
+[2016-06-06 18:03:24] Eu não estou falando em algo 100% seguro
+[2016-06-06 18:03:43] Se criptografia não adiantasse o fbi não estava chorando em apresentações reclamando do uso
+[2016-06-06 18:03:54] Eu acredito na criptografia
+[2016-06-06 18:04:16] eh, so acreditando mesmo, pq nao existe prova formal de que ela funcione
+[2016-06-06 18:04:28] mas eu to com vc nessa parte da crenca!
+[2016-06-06 18:04:35] Claro q existe cara
+[2016-06-06 18:04:43] apesar de que no fundo ainda acho que P=NP
+[2016-06-06 18:04:57] kkkk
+[2016-06-06 18:05:00] O que não existe é uma ferramenta que te dê segurança
+[2016-06-06 18:05:01] cara de fe
+[2016-06-06 18:05:06] São um conjunto de medidas
+[2016-06-06 18:05:10] Eu penso assim
+[2016-06-06 18:05:35] nao existe uma prova matematica de que a fatoracao de primos nao pode acontecer em tempo polinomial
+[2016-06-06 18:06:07] o que a gente sabe eh que ninguem publicou um modo de fazer isso
+[2016-06-06 18:06:10] y
+[2016-06-06 18:06:31] apertei Yes no lugar errado kkk
+[2016-06-06 18:06:36] Já não era para terem publicado?
+[2016-06-06 18:06:37] era no meu terminal aquji kkk[
+[2016-06-06 18:07:04] mas ok, criptografia eh legal, por enquanto, pode crer qeu se criptografar eh bem dificil de alguem acessar
+[2016-06-06 18:07:43] mas analises de meta dados nao croptografados sao bem intrusivos e um risco, talvez nao pessoal, mas social
+[2016-06-06 18:07:53] Sim
+[2016-06-06 18:07:59] Curto Python, valew aí.
+[2016-06-06 18:08:15] Existe formas de barrar os metadados, só não tenho conhecimento nisso
+[2016-06-06 18:08:19] Também nunca pesquisei
+[2016-06-06 18:08:36] em email, so se vc se limitar a emviar para alguns servidores
+[2016-06-06 18:08:39] Via navegador tem como
+[2016-06-06 18:08:51] mas nao adianta usar nada disso e mandar email para gmail kkk
+[2016-06-06 18:09:07] 😂
+[2016-06-06 18:09:08] consegui primeiros nomes da wikipedia com uns regexes doidos a partir do html.. agora o de sobrenomes vai ser um pouco mais difícil porque tá tudo em tabela :P
+[2016-06-06 18:09:12] Não vai pegar a msg
+[2016-06-06 18:09:14] https://pt.wikipedia.org/wiki/Lista_de_apelidos_de_fam%C3%ADlia_da_l%C3%ADngua_portuguesa
+[2016-06-06 18:09:23] É o que gera as propagandas direcionadas
+[2016-06-06 18:09:31] O contato tanto faz, digamos assim
+[2016-06-06 18:09:38] pera, vou te mandar uma coisa engracada
+[2016-06-06 18:09:50] Eu só tem gmail locado no celular por causa do YouTube
+[2016-06-06 18:10:20] antes de mais nada, vc quer ligar o modo paranoid?
+[2016-06-06 18:10:49] Já sou chamado de paranoico
+[2016-06-06 18:11:43] olha... acho que nao kkkk
+[2016-06-06 18:11:44] nem teve tanta graça
+[2016-06-06 18:12:31] Paranoid ligado.
+[2016-06-06 18:12:54] Não conhecemos as mesmas pessoas né? :)
+[2016-06-06 18:20:16] Um astronauta na ISS entrou hoje pela primeira vez em um módulo espacial inflável: http://spaceflightnow.com/2016/06/06/video-beam-welcomes-first-astronaut/
+[2016-06-06 18:21:13] Módulo especial inflável parece um eufemismo para outra coisa
+[2016-06-06 18:21:32] haha
+[2016-06-06 18:21:35] espacial!
+[2016-06-06 18:21:44] é especial também, por ser inflável, LOL
+[2016-06-06 18:27:16] 'Umbelina Carvalhal'
+'Dinamene Póvoas'
+'Ária Colaço'
+'Tabita Batista'
+'Jerónimo Castro'
+'Erméria Nolasco'
+'Tamara Pinhal'
+'Aquilino Barroqueiro'
+'Durbalino Palhares'
+'Levina Saldanha'
+'Dulce Piteira'
+'Helga Prado'
+[2016-06-06 18:27:27] gerador de nomes tá rolando também, tudo raspado da wikipedia
+[2016-06-06 18:28:59] document
+[2016-06-06 18:29:03] aí tudo bunitinho procês brincarem, que agora eu vou continuar meu trabalho com isso
+[2016-06-06 18:29:17] Só eu que li "Inquilino Barraqueiro"... 😂
+[2016-06-06 18:29:31] outro nome de banda
+[2016-06-06 18:29:54] Hahahaha... verdade...
+[2016-06-06 18:30:54] Muito legal
+[2016-06-06 18:31:26] hahahaahaah
+[2016-06-06 18:31:34] brinquei denovo com o gerador de bandas
+[2016-06-06 18:31:35] 'mínimo cuidado'
+[2016-06-06 18:32:03] Rsrs
+[2016-06-06 18:34:29] @mynameiserin irei compartilhar com vocês um script em Python bem interessante.
+[2016-06-06 18:35:02] Só não consigo fazer isso hoje
+[2016-06-06 18:35:12] @corvolino https://www.ted.com/talks/malte_spitz_your_phone_company_is_watching?language=en#
+[2016-06-06 18:35:45] note que nao tem o conteudo das ligacoes
+[2016-06-06 18:37:34] To ligado, saiu o texto no el país falando de metadados no celular :P
+[2016-06-06 18:37:40] Celular tem nada de seguro
+[2016-06-06 18:37:45] http://www.labic.net/
+[2016-06-06 18:37:52] Conheço
+[2016-06-06 18:37:58] procura ai por umas visualizacoes que usam do metadado de republicacoes
+[2016-06-06 18:38:21] eh possivel ideitificar fontes e influenciadores bem facil
+[2016-06-06 18:38:32] To vendo uns vídeos, assim q terminar vejo isso
+[2016-06-06 18:39:32] estava procurando um bem legal das manifestacoes de 2013, mostrava que a maioria das coisas que viamos como producao independente de informacao, na verdade vinha das mesmas grandes midias
+[2016-06-06 18:39:44] Eu vi isso
+[2016-06-06 18:39:50] enfim, so metadado que protonmail e afins nao criptografam
+[2016-06-06 18:40:12] Eu me referi a conteúdo né :P
+[2016-06-06 18:40:31] como eu posso fazer isso em meu pc? Tipo criptografar meus metadados?
+[2016-06-06 18:40:32] sim, mas para vc ver que isso nao basta
+[2016-06-06 18:40:41] nao pode kkkk
+[2016-06-06 18:40:43] hihihi...
+[2016-06-06 18:40:55] os mais paranoicos desconfiam do hardware
+[2016-06-06 18:41:07] bom, nao tem pq confiar
+[2016-06-06 18:41:18] Ainda mais se for de rede e fabricado no EUA
+[2016-06-06 18:41:20] Hahaha
+[2016-06-06 18:41:21] a recomendacao basica eh so usar coisa de quem nao tem nada contra vc
+[2016-06-06 18:41:25] Todos têm backdoor
+[2016-06-06 18:41:29] pois eh...
+[2016-06-06 18:41:59] mas indo mais longe, pq confiar no seu processador?
+[2016-06-06 18:42:18] Vinicius, o lance eh criptografar o maximo possivel
+[2016-06-06 18:42:27] não confio, infelizmente só tenho 2 opções de mercado q são boas
+[2016-06-06 18:42:34] mas vc vai ver que sua vida se transforma num inferno em 5 min
+[2016-06-06 18:42:39] ss
+[2016-06-06 18:42:42] já percebi
+[2016-06-06 18:42:48] só usando VPN já é assi,
+[2016-06-06 18:44:17] Stallman está certo tá vendo? Hahaha
+[2016-06-06 18:44:18] :-)
+[2016-06-06 18:44:23] não sei se to entendendo, mas se criptografar o seu HD, já criptografa tudo, incluindo os metadados, o que não garante proteção aos metadados que estão no servidor... ou não?
+[2016-06-06 18:44:41] entao bota isso num cloud e ve se da para confiar kkk
+[2016-06-06 18:44:51] *vps
+[2016-06-06 18:44:55] Bota criptografado
+[2016-06-06 18:44:57] então eu confio no meu cloud pq eu sou o provider
+[2016-06-06 18:44:57] Não Eduardodo
+[2016-06-06 18:44:59] :P
+[2016-06-06 18:45:00] nao adianta...
+[2016-06-06 18:45:12] Como não?
+[2016-06-06 18:45:16] meu pai tem empresa de hosting, aqui eu confio alguma coisa
+[2016-06-06 18:45:18] mas não totalmente
+[2016-06-06 18:45:21] os metadados são as informações sobre as mensagens
+[2016-06-06 18:45:21] enfim, suponha que vc pode confiar no seu hardware
+[2016-06-06 18:45:34] destinatário/remetente, horário por exemplo
+[2016-06-06 18:45:34] Tá meio fantasioso isso
+[2016-06-06 18:45:45] o que?
+[2016-06-06 18:45:46] Eu não uso mais serviço de cloud, então..
+[2016-06-06 18:46:15] enfim, voltando...
+[2016-06-06 18:46:21] e email por princípio vaza esses metadados, que podem ser tão comprometedores da sua privacidade quanto o conteúdo
+[2016-06-06 18:46:35] 'We kill people based on metadata'
+[2016-06-06 18:46:40] Não vejo assim
+[2016-06-06 18:46:43] estou convencido de algumas coisas:
+1. precisa descentralizar, de verdade (por isso ajudo com o hubzilla)
+2. (essa parte eh engracada) precisa ter uma legislacao que limite certas praticas
+[2016-06-06 18:47:27] cara, nao uma questao de semiotica kkk metadado tem informacao muito relevante :D
+[2016-06-06 18:47:35] Vai acabar resultado em dividir a internet em mais bolhas
+[2016-06-06 18:47:39] eu to tentando entender quais são as reais dificuldades de se constituir um server de email P2P
+[2016-06-06 18:47:52] https://www.techdirt.com/articles/20140511/06390427191/michael-hayden-gleefully-admits-we-kill-people-based-metadata.shtml
+[2016-06-06 18:48:02] Eu não acredito q pegar metadado saiba o conteúdo de uma msg
+[2016-06-06 18:48:06] corvolino, hoje a internet eh umas 3 ou 4 grandes bolhas
+[2016-06-06 18:48:09] Isso é suposição
+[2016-06-06 18:48:25] distribuicao, federacao e identidade nomade eh mais o caminho
+[2016-06-06 18:48:32] Você deve está contando que o assunto tenha relação com a msg
+[2016-06-06 18:48:33] cara vc consegue saber muito mais q isso, vc sabe o horario da pessoa, com quem ela fala, como ela fala, por quanto tempo ela fala
+[2016-06-06 18:48:37] assunto do q ela fala
+[2016-06-06 18:48:51] Eu não estou falando disso
+[2016-06-06 18:49:07] Eu falei do conteúdo
+[2016-06-06 18:49:09] ninguem sabe o que esta no conteudo de uma msg criptografada, nao eh isso
+[2016-06-06 18:49:15] ninguem esta discutindo esse ponto com vc
+[2016-06-06 18:49:22] so estamos dizendo que nao eh suficiente
+[2016-06-06 18:49:25] Saber a hora/data eu já sei q pegam
+[2016-06-06 18:49:32] Eu sei que não é
+[2016-06-06 18:49:34] Já falei isso
+[2016-06-06 18:49:41] entao, qual o ponto estamos discutindo?
+[2016-06-06 18:49:51] isso eu entendo. o que quero dizer é que você pode criptografar o seu computador protegendo até os metadados dos e-mails baixados no thunderbird, por exemplo. mas a vulnerabilidade do que passou pela rede e servidor continua existindo. Aquela coisa, aumenta um ponto na segurança, mas continua inseguro. Viajei?
+[2016-06-06 18:49:52] essa era a pergunta q eu ia fazer Oda
+[2016-06-06 18:50:12] Tem como saber pelo messenger se você está dormindo ou não :)
+[2016-06-06 18:50:14] não
+[2016-06-06 18:50:17] 1 cara fez isso
+[2016-06-06 18:50:48] Eu sei que metadados diz muito
+[2016-06-06 18:51:04] Eu não. Nem eu sei quando estou dormindo
+[2016-06-06 18:51:06] Só q usar isso para falar q usar criptografia não adianta é sacanagem
+[2016-06-06 18:51:25] Tu trabalha pra abin ou alguma inteligência de polícia civil? :P
+[2016-06-06 18:51:31] corvolino, vc escolheu entender assim, desculpe, nao posso te ajudar com isso :D
+[2016-06-06 18:51:43] Você está me falando assim
+[2016-06-06 18:51:55] nao, nao disse isso
+[2016-06-06 18:51:58] Talvez eu seja burra e não consiga entender mesmo
+[2016-06-06 18:52:01] def geraData(yearStart, yearEnd):
+  return "-".join([str(random.randint(yearStart, yearEnd)), str(random.randint(1,12)), str(random.randint(1,28))])
+[2016-06-06 18:52:01] Preciso ler mais
+[2016-06-06 18:52:07] nao vou explicar de novo, vai la e le mais uma vez
+[2016-06-06 18:52:07] preguiça de fazer direito :)
+[2016-06-06 18:52:24] Burro*
+[2016-06-06 18:52:52] beleza
+[2016-06-06 18:53:39] @dudedias supondo que vc confia no hardware e no software que esta instalado nele, guardar a coisa criptografada ajuda e muito, mas se vc trocou um dado passando por outros servidores nao confiaveis sem criptografia, ai fudeu, esse dado esta comprometido
+[2016-06-06 18:55:17] Aí sim
+[2016-06-06 18:56:09] vamos supor um caso ficticio bizarro que nao acontece em nenhum lugar: eu sou um espiao infiltrado, preciso te mandar uma informacao, com garantia de quem ninguem vai ler, com garantia que vc saiba que eu que mandei
+[2016-06-06 18:56:25] vc criptografa em rot 13
+[2016-06-06 18:56:27] SAUHUSAHUHSAHUSAHU
+[2016-06-06 18:57:20] marca um encontro presencial. hehehe
+[2016-06-06 18:57:26] podemos trocar chaves publicas e combinar previamente um lugar (pastebin? kkk) para colocar a info criptografada
+[2016-06-06 18:58:17] mas ai ainda podem saber que esta rolando uma troca de msg, se quiser fazer sem ninguem saber que esta rolando um troca de info, ai vc pode usar algo como esteganofrafia
+[2016-06-06 18:58:29] adoro essa ;)
+[2016-06-06 18:58:56] »> pprint(vars(gerainserts.Banda(1)))
+{'codigo_banda': 1,
+ 'data_adicao_banda': '2015-5-18',
+ 'data_de_fundacao': '1991-2-27',
+ 'nome_banda': 'ostrogodo disjuntivo',
+ 'origem': 'Tocantins'}
+»> pprint(vars(gerainserts.Banda(1)))
+{'codigo_banda': 1,
+ 'data_adicao_banda': '2015-12-9',
+ 'data_de_fundacao': '2006-11-24',
+ 'nome_banda': 'raça kariri-xocó',
+ 'origem': 'Rondônia'}
+»> pprint(vars(gerainserts.Banda(1)))
+{'codigo_banda': 1,
+ 'data_adicao_banda': '2016-11-9',
+ 'data_de_fundacao': '1985-11-15',
+ 'nome_banda': 'gaguejo pútrido',
+ 'origem': 'Pernambuco'}
+[2016-06-06 18:59:00] Não né
+[2016-06-06 18:59:06] dsclp parei com spam
+[2016-06-06 18:59:12] só tô muito feliz que tá rolando
+[2016-06-06 18:38:21] eh possivel ideitificar fontes e influenciadores bem facil
+[2016-06-06 18:38:32] To vendo uns vídeos, assim q terminar vejo isso
+[2016-06-06 18:39:32] estava procurando um bem legal das manifestacoes de 2013, mostrava que a maioria das coisas que viamos como producao independente de informacao, na verdade vinha das mesmas grandes midias
+[2016-06-06 18:39:44] Eu vi isso
+[2016-06-06 18:39:50] enfim, so metadado que protonmail e afins nao criptografam
+[2016-06-06 18:40:12] Eu me referi a conteúdo né :P
+[2016-06-06 18:40:31] como eu posso fazer isso em meu pc? Tipo criptografar meus metadados?
+[2016-06-06 18:40:32] sim, mas para vc ver que isso nao basta
+[2016-06-06 18:40:41] nao pode kkkk
+[2016-06-06 18:40:43] hihihi...
+[2016-06-06 18:40:55] os mais paranoicos desconfiam do hardware
+[2016-06-06 18:41:07] bom, nao tem pq confiar
+[2016-06-06 18:41:18] Ainda mais se for de rede e fabricado no EUA
+[2016-06-06 18:41:20] Hahaha
+[2016-06-06 18:41:21] a recomendacao basica eh so usar coisa de quem nao tem nada contra vc
+[2016-06-06 18:41:25] Todos têm backdoor
+[2016-06-06 18:41:29] pois eh...
+[2016-06-06 18:41:59] mas indo mais longe, pq confiar no seu processador?
+[2016-06-06 18:42:18] Vinicius, o lance eh criptografar o maximo possivel
+[2016-06-06 18:42:27] não confio, infelizmente só tenho 2 opções de mercado q são boas
+[2016-06-06 18:42:34] mas vc vai ver que sua vida se transforma num inferno em 5 min
+[2016-06-06 18:42:39] ss
+[2016-06-06 18:42:42] já percebi
+[2016-06-06 18:42:48] só usando VPN já é assi,
+[2016-06-06 18:44:17] Stallman está certo tá vendo? Hahaha
+[2016-06-06 18:44:18] :-)
+[2016-06-06 18:44:23] não sei se to entendendo, mas se criptografar o seu HD, já criptografa tudo, incluindo os metadados, o que não garante proteção aos metadados que estão no servidor... ou não?
+[2016-06-06 18:44:41] entao bota isso num cloud e ve se da para confiar kkk
+[2016-06-06 18:44:51] *vps
+[2016-06-06 18:44:55] Bota criptografado
+[2016-06-06 18:44:57] então eu confio no meu cloud pq eu sou o provider
+[2016-06-06 18:44:57] Não Eduardodo
+[2016-06-06 18:44:59] :P
+[2016-06-06 18:45:00] nao adianta...
+[2016-06-06 18:45:12] Como não?
+[2016-06-06 18:45:16] meu pai tem empresa de hosting, aqui eu confio alguma coisa
+[2016-06-06 18:45:18] mas não totalmente
+[2016-06-06 18:45:21] os metadados são as informações sobre as mensagens
+[2016-06-06 18:45:21] enfim, suponha que vc pode confiar no seu hardware
+[2016-06-06 18:45:34] destinatário/remetente, horário por exemplo
+[2016-06-06 18:45:34] Tá meio fantasioso isso
+[2016-06-06 18:45:45] o que?
+[2016-06-06 18:45:46] Eu não uso mais serviço de cloud, então..
+[2016-06-06 18:46:15] enfim, voltando...
+[2016-06-06 18:46:21] e email por princípio vaza esses metadados, que podem ser tão comprometedores da sua privacidade quanto o conteúdo
+[2016-06-06 18:46:35] 'We kill people based on metadata'
+[2016-06-06 18:46:40] Não vejo assim
+[2016-06-06 18:46:43] estou convencido de algumas coisas:
+1. precisa descentralizar, de verdade (por isso ajudo com o hubzilla)
+2. (essa parte eh engracada) precisa ter uma legislacao que limite certas praticas
+[2016-06-06 18:47:27] cara, nao uma questao de semiotica kkk metadado tem informacao muito relevante :D
+[2016-06-06 18:47:35] Vai acabar resultado em dividir a internet em mais bolhas
+[2016-06-06 18:47:39] eu to tentando entender quais são as reais dificuldades de se constituir um server de email P2P
+[2016-06-06 18:47:52] https://www.techdirt.com/articles/20140511/06390427191/michael-hayden-gleefully-admits-we-kill-people-based-metadata.shtml
+[2016-06-06 18:48:02] Eu não acredito q pegar metadado saiba o conteúdo de uma msg
+[2016-06-06 18:48:06] corvolino, hoje a internet eh umas 3 ou 4 grandes bolhas
+[2016-06-06 18:48:09] Isso é suposição
+[2016-06-06 18:48:25] distribuicao, federacao e identidade nomade eh mais o caminho
+[2016-06-06 18:48:32] Você deve está contando que o assunto tenha relação com a msg
+[2016-06-06 18:48:33] cara vc consegue saber muito mais q isso, vc sabe o horario da pessoa, com quem ela fala, como ela fala, por quanto tempo ela fala
+[2016-06-06 18:48:37] assunto do q ela fala
+[2016-06-06 18:48:51] Eu não estou falando disso
+[2016-06-06 18:49:07] Eu falei do conteúdo
+[2016-06-06 18:49:09] ninguem sabe o que esta no conteudo de uma msg criptografada, nao eh isso
+[2016-06-06 18:49:15] ninguem esta discutindo esse ponto com vc
+[2016-06-06 18:49:22] so estamos dizendo que nao eh suficiente
+[2016-06-06 18:49:25] Saber a hora/data eu já sei q pegam
+[2016-06-06 18:49:32] Eu sei que não é
+[2016-06-06 18:49:34] Já falei isso
+[2016-06-06 18:49:41] entao, qual o ponto estamos discutindo?
+[2016-06-06 18:49:51] isso eu entendo. o que quero dizer é que você pode criptografar o seu computador protegendo até os metadados dos e-mails baixados no thunderbird, por exemplo. mas a vulnerabilidade do que passou pela rede e servidor continua existindo. Aquela coisa, aumenta um ponto na segurança, mas continua inseguro. Viajei?
+[2016-06-06 18:49:52] essa era a pergunta q eu ia fazer Oda
+[2016-06-06 18:50:12] Tem como saber pelo messenger se você está dormindo ou não :)
+[2016-06-06 18:50:14] não
+[2016-06-06 18:50:17] 1 cara fez isso
+[2016-06-06 18:50:48] Eu sei que metadados diz muito
+[2016-06-06 18:51:04] Eu não. Nem eu sei quando estou dormindo
+[2016-06-06 18:51:06] Só q usar isso para falar q usar criptografia não adianta é sacanagem
+[2016-06-06 18:51:25] Tu trabalha pra abin ou alguma inteligência de polícia civil? :P
+[2016-06-06 18:51:31] corvolino, vc escolheu entender assim, desculpe, nao posso te ajudar com isso :D
+[2016-06-06 18:51:43] Você está me falando assim
+[2016-06-06 18:51:55] nao, nao disse isso
+[2016-06-06 18:51:58] Talvez eu seja burra e não consiga entender mesmo
+[2016-06-06 18:52:01] def geraData(yearStart, yearEnd):
+  return "-".join([str(random.randint(yearStart, yearEnd)), str(random.randint(1,12)), str(random.randint(1,28))])
+[2016-06-06 18:52:01] Preciso ler mais
+[2016-06-06 18:52:07] nao vou explicar de novo, vai la e le mais uma vez
+[2016-06-06 18:52:07] preguiça de fazer direito :)
+[2016-06-06 18:52:24] Burro*
+[2016-06-06 18:52:52] beleza
+[2016-06-06 18:53:39] @dudedias supondo que vc confia no hardware e no software que esta instalado nele, guardar a coisa criptografada ajuda e muito, mas se vc trocou um dado passando por outros servidores nao confiaveis sem criptografia, ai fudeu, esse dado esta comprometido
+[2016-06-06 18:55:17] Aí sim
+[2016-06-06 18:56:09] vamos supor um caso ficticio bizarro que nao acontece em nenhum lugar: eu sou um espiao infiltrado, preciso te mandar uma informacao, com garantia de quem ninguem vai ler, com garantia que vc saiba que eu que mandei
+[2016-06-06 18:56:25] vc criptografa em rot 13
+[2016-06-06 18:56:27] SAUHUSAHUHSAHUSAHU
+[2016-06-06 18:57:20] marca um encontro presencial. hehehe
+[2016-06-06 18:57:26] podemos trocar chaves publicas e combinar previamente um lugar (pastebin? kkk) para colocar a info criptografada
+[2016-06-06 18:58:17] mas ai ainda podem saber que esta rolando uma troca de msg, se quiser fazer sem ninguem saber que esta rolando um troca de info, ai vc pode usar algo como esteganofrafia
+[2016-06-06 18:58:29] adoro essa ;)
+[2016-06-06 18:58:56] »> pprint(vars(gerainserts.Banda(1)))
+{'codigo_banda': 1,
+ 'data_adicao_banda': '2015-5-18',
+ 'data_de_fundacao': '1991-2-27',
+ 'nome_banda': 'ostrogodo disjuntivo',
+ 'origem': 'Tocantins'}
+»> pprint(vars(gerainserts.Banda(1)))
+{'codigo_banda': 1,
+ 'data_adicao_banda': '2015-12-9',
+ 'data_de_fundacao': '2006-11-24',
+ 'nome_banda': 'raça kariri-xocó',
+ 'origem': 'Rondônia'}
+»> pprint(vars(gerainserts.Banda(1)))
+{'codigo_banda': 1,
+ 'data_adicao_banda': '2016-11-9',
+ 'data_de_fundacao': '1985-11-15',
+ 'nome_banda': 'gaguejo pútrido',
+ 'origem': 'Pernambuco'}
+[2016-06-06 18:59:00] Não né
+[2016-06-06 18:59:06] dsclp parei com spam
+[2016-06-06 18:59:12] só tô muito feliz que tá rolando
+[2016-06-06 18:59:28] @mynameiserin hauhauahuah
+[2016-06-06 18:59:38] gaguejo pútrido, pô
+[2016-06-06 18:59:41] melhor nome de banda
+[2016-06-06 18:59:54] corvolino, sua chave publica nao esta no seu site, perfil do facebook, cartao de visitas, etc?
+[2016-06-06 18:59:54] Usa ghostbin :P
+[2016-06-06 18:59:55] hauhauhahau
+[2016-06-06 18:59:59] como riem!
+[2016-06-06 19:00:02] Esta não
+[2016-06-06 19:00:10] entao faca isso logo :)
+[2016-06-06 19:00:35] Vou colocar no tuiter depois, q mais uso.
+[2016-06-06 19:01:29] @dudedias @vmesel mas isso tudo que falei eh muito dificil e tal, o que a gente quer eh usar algo tipo facebook e manter a privacidade
+[2016-06-06 19:01:44] hahaha. banda punk
+[2016-06-06 19:02:21] aí fica difícil
+[2016-06-06 19:02:23] hehe
+[2016-06-06 19:02:42] entao vc pode ter sua instalacao de um facebook, dentro dela vc tem alguma seguranca, pode dar permissoes granulares e tal
+[2016-06-06 19:03:03] mas vc nao pode ficar isolado nessa instalacao (vou chamar de hub daqui para frente)
+[2016-06-06 19:03:14] entao vc precisa de algo chamado federacao
+[2016-06-06 19:03:27] que eh o que email e tal tem: cada um tem seu servidor e eles se falam
+[2016-06-06 19:03:58] viajando aqui, alguém já pensou em outros protocolos de troca de mensagem? pensei num lance tipo um monte de informação  criptografada na nuvem (bit torrent?), e vc teria uma chave privada que diria qual daquelas informações é sua.
+[2016-06-06 19:04:24] tor message
+[2016-06-06 19:05:33] mas em algum momento vc pode passar a nao confiar mais nesse hub ou simplesmente querer ir embora, sei la... mas sem perder seus contatos e dados, para isso vc pode querer uma identidade nomade e ferramentas de exportacao/importacao
+[2016-06-06 19:05:44] ai vc percebe que vc quer o hubzilla!
+[2016-06-06 19:06:07] inclusive para essas trocas de msg  que vc falou :)
+[2016-06-06 19:07:15] Oda eu ainda sinto necessidade de termos um tipo de email assim
+[2016-06-06 19:07:27] vc e a torcida do timao
+[2016-06-06 19:07:34] mas nao vai rolar kkkk
+[2016-06-06 19:07:36] AHASUUAHSUHSA
+[2016-06-06 19:07:41] pq n?
+[2016-06-06 19:07:46] o q vc vê de complicado nisso?
+[2016-06-06 19:07:55] email nasceu errado, mano
+[2016-06-06 19:08:27] a gente remenda criptografando e assinando msg mas nao adianta
+[2016-06-06 19:08:53] tá bom, mas qual seria a solução disso?
+[2016-06-06 19:09:24] criar um outro protocolo mais seguro e convencer todo mundo a usar. hehehe
+[2016-06-06 19:09:25] hubzilla
+[2016-06-06 19:09:40] @dudedias bem por ai kkkk
+[2016-06-06 19:10:02] teve uma epoca que acreditava nos home servers
+[2016-06-06 19:10:43] mas ja vi que nao rola mesmo, a gente precisa aceitar que o ninguem quer enteder de tecnologia e suas peculiaridades
+[2016-06-06 19:10:57] eh preciso tb um aparato legal
+[2016-06-06 19:11:28] hubzilla a solução de tudo?
+[2016-06-06 19:11:38] uma tentativa...
+[2016-06-06 19:11:57] mas por hora eh a que acho a mais indicada
+[2016-06-06 19:13:25] email ainda vai ter sua utilidade...
+[2016-06-06 19:13:30] sim, existem várias
+[2016-06-06 19:13:39] as pessoas não querem saber disso
+[2016-06-06 19:14:02] não foi a toa que o app do brokep morreu
+[2016-06-06 19:14:05] antes de nascer
+[2016-06-06 19:14:16] uma coisa que acho que nao tem escapatoria eh descentralizar
+[2016-06-06 19:14:23] sem isso ha pouca esperanca de realmente funcionar
+[2016-06-06 19:14:51] aqui tem um apanhad de iniciativas interessantes: http://redecentralize.org/
+[2016-06-06 19:14:56] tem que começar agora para daqui a 10 anos começarem a falar
+[2016-06-06 19:15:09] sou um pouco mais otimista...
+[2016-06-06 19:15:49] ja existe uma demanda por alguma privacidade, fomentada pela sacanagem, claro: jovens preferem usar redes onde nao estao sendo vigiados pelos pais
+[2016-06-06 19:16:10] entao pode ser que demandas desse tipo ajudem uma migracao
+[2016-06-06 19:16:11] ai @eduoda não recebi o email do meu cadastro no garoa.club e nem um email de reset de senha
+[2016-06-06 19:16:17] o site do prism tem coisas bacanas tb
+[2016-06-06 19:16:34] sim, faz tempo que nao visito ele
+[2016-06-06 19:16:57] @vmesel eita porra... sei la...
+[2016-06-06 19:17:08] faz quanto tempo isso?
+[2016-06-06 19:17:16] 5 min
+[2016-06-06 19:18:34] email do protonmail?
+[2016-06-06 19:18:39] yep
+[2016-06-06 19:19:03] pode ser que ele esteja rejeitando as msgs, confesso que o servidor de email nao esta aquele primor
+[2016-06-06 19:19:14] da um olhada em spam
+[2016-06-06 19:20:01] nem lá
+[2016-06-06 19:20:51] "Helo command rejected: need fully-qualified hostname"
+[2016-06-06 19:20:57] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_58023844232824106.webp
+[2016-06-06 19:21:55] tenta logar...
+[2016-06-06 19:22:36] no fununcia
+[2016-06-06 19:26:59] acho que eh pau no dns reverso...
+[2016-06-06 19:27:15] mudei ele ontem, ainda deve ter uns caches zuados por au
+[2016-06-06 19:27:21] deixa ver se libero na mao
+[2016-06-06 19:36:45] vou apagar sua conta e vc se cadastra de novo
+[2016-06-06 19:36:51] desabilitei a verificacao por email
+[2016-06-06 19:37:09] nao gosto dela mesmo :)
+[2016-06-06 19:37:31] pronto
+[2016-06-06 19:37:34] cria de novo ai
+[2016-06-06 19:40:19] posso te perguntar uma coisa na boa oda?
+[2016-06-06 19:40:31] hum
+[2016-06-06 19:40:43] na maldade tb
+[2016-06-06 19:40:57] se eu n devo confiar aonde eu conecto, por q eu devo confiar no Hubzilla?
+[2016-06-06 19:40:58] SAUUHSAHUAHUASUH
+[2016-06-06 19:41:05] boa
+[2016-06-06 19:41:20] se vc nao confia nesse hub em particular, instale o seu
+[2016-06-06 19:41:25] Hehehe
+[2016-06-06 19:41:26] hehe...
+[2016-06-06 19:41:33] se ja tiver uma conta, migre seus dados e tudo mais
+[2016-06-06 19:41:50] n tou falando disso, tou falando do codigo
+[2016-06-06 19:41:50] eh justamente o ponto da coisa ser distribuida
+[2016-06-06 19:41:59] porra, mas ai vc ta falando merda
+[2016-06-06 19:42:07] o codigo eh livre, vai la e estuda, porra
+[2016-06-06 19:43:04] então mas ai vc entendeu tbm o q eu quis dizer
+[2016-06-06 19:43:11] tem diversos servers de email q são open source
+[2016-06-06 19:43:16] e tem vulnerabilidades
+[2016-06-06 19:43:23] o q me garante de no hubzilla estar seguro>
+[2016-06-06 19:43:24] ?
+[2016-06-06 19:43:27] todo software tem vulnerabilidade
+[2016-06-06 19:44:09] ser distribuido ajuda bastante, eh a ideia do cardume
+[2016-06-06 19:45:55] o que vc escreveu pode passar uma leve impressao de open source associado com  vulnerabilidade,
+[2016-06-06 19:46:33] nao acho que tenha pensando isso, mas so para reforcar, acho que o caso eh open source ser mais facil de encontrar a vulnerabilidade
+[2016-06-06 19:47:05] gerei um plaintext com inserts SQL de 6 MB... e não é nem metade do DB ainda
+[2016-06-06 20:26:20] bacana o vídeo, já to sabendo daquele papo =p
+[2016-06-06 20:28:38] Envie sua palestra para o TDC 2016, até amanhã 07/06 https://docs.google.com/forms/d/1-cezjiXFfRR743fBjC9vJvC6DzVnSede2JWyqCS2eTA/viewform
+Palestras de 15, 30 ou 50 minutos de todos os assuntos, precisamos de conteúdo para iniciantes!! IoT, DS, web, games etc...
+[2016-06-06 20:39:32] Poxa é pouco perto do corpora q eu to trabalhando do Machado de Assis
+[2016-06-06 21:19:26] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_702415689_99306.jpg
+[2016-06-06 21:19:26] dia 15/06 na Maloca Libertária, vai teremos o documentário FREENET.
+
+A privacidade, como a liberdade e como a vida, é um direito e não uma mercadoria
+− Catalina Botero −
+[2016-06-06 21:21:09] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803705794_44411.jpg
+[2016-06-06 21:26:19] não tem aonde baixar esse doc?
+[2016-06-06 21:26:56] não sei, deve ser pra quem faz exibição
+[2016-06-06 21:33:08] Eduardo Gonçalves Freiras joined
+[2016-06-06 21:38:17] Não pode ser dos dois jeitos?
+[2016-06-06 21:38:28] pode, claro
+[2016-06-06 22:41:09] Gente... É a Yumi no celular do Fábio
+[2016-06-06 22:41:35] diz aê
+[2016-06-06 22:42:14] O Gubi, mágico e professor do IME adoraria conhecer o Garoa e ficou mega feliz com a ideia de dar uma palestra de matemática e mágica. Vocês se animam?
+[2016-06-06 22:42:20] Cartões Perfurados na Poli em 1974: https://github.com/felipesanches/PatinhoFeio/blob/master/cartoes_perfurados/IBM_FelizNatal.pdf
+[2016-06-06 22:42:36] eu iria
+[2016-06-06 22:42:40] dependendo do dia é logico
+[2016-06-06 22:46:13] Vou combinar com ele
+[2016-06-06 22:54:07] Faz num sábado para eu ir.
+[2016-06-06 22:54:42] eu animo sim!
+[2016-06-06 22:54:43] Bruno Rocha joined
+[2016-06-06 22:54:46] é só marcar!
+[2016-06-06 22:55:01] Sim... sim... muito... pode marcar...
+[2016-06-06 22:56:02] @fsanches e demais: eu estava pensando em fazer um aplicativo que geraria SVGs, mas também usaria alguns arquivos SVG como "sprites". Recomendam alguma biblioteca, de preferência em Python? A libcairo não parece ser o ideal para isto.
+[2016-06-06 23:10:34] eu sempre faço meus SVGs na mão usando o Inkscape
+[2016-06-06 23:10:51] cheguei a fazer algumas coisas com javascript no passado, mas hoje em dia não faço mais
+[2016-06-06 23:11:15] Achei interessante o DrawSVG, mas parece que o desenvolvimento está parado há alguns anos...
+https://github.com/petercollingridge/DrawSVG/wiki
+http://petercollingridge.co.uk/blog/python-svg-writer
+[2016-06-06 23:12:31] A intenção é um programa relativamente simples, mais pela diversão: pegar a especificação de uma montagem de rack de um arquivo-texto e montar uma imagem ilustrativa.
+[2016-06-06 23:14:56] A ideia é que cada equipamento no rack tenha uma imagem do painel frontal feita a mão e o programa desenhe o rack, colocando as coisas no lugar, e gere uma imagem, em SVG para ficar fácil de embutir em aplicativos e converter para outros formatos.
+[2016-06-06 23:15:43] Gostei. Estava vendo o svgwrite, que parece eestar vivo ainda, mas parece que ele não tem nada para manipular imagens que já existem.
+[2016-06-06 23:15:48] https://pypi.python.org/pypi/svgwrite/
+[2016-06-06 23:18:05] Este também parece estar ativo:
+https://pypi.python.org/pypi/svg.path
+https://github.com/regebro/svg.path
+[2016-06-06 23:22:43] PlotDevice?
+[2016-06-06 23:39:33] Achei massa tb

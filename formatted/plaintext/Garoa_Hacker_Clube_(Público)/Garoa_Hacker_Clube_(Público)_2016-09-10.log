@@ -1,0 +1,86 @@
+[2016-09-10 00:21:20] meus ilustre colegas.....sucesso com o thc-hydra....contra routers......agora so falta contra o meu email.....alguem ja usou o thc-hydra.......help me please
+[2016-09-10 00:27:50] quero chegar na parte de http  e https web form post e get
+[2016-09-10 01:11:03] sudo make install
+[2016-09-10 01:11:33] lembro que o @pitaPitanga tem uma dica melhor que essa, mas não me lembro exatamente qual foi a solução que ele achou.
+[2016-09-10 01:11:38] hahaha
+[2016-09-10 01:11:46] pitapitanga, não! @pitanga !
+[2016-09-10 02:14:09] photo
+[2016-09-10 02:21:43] Deve ser o chuveiro. Quando liga no "inverno", ele puxa a energia do modem e a conexão cai.
+[2016-09-10 02:22:35] o pior eh que ja vi muita interferencia vinda de lampadas
+[2016-09-10 02:22:58] uma vez coloquei um elwire numa cnc que estavamos montando, ela parou de funcionar
+[2016-09-10 02:23:09] tiramos o elwire, tudo voltou ao normal...
+[2016-09-10 02:28:27] Bem, disso aí não tenho como comentar, nunca fiz a experiência.
+[2016-09-10 02:42:45] LOL
+[2016-09-10 02:43:02] to me cagando aqui de rir
+[2016-09-10 02:43:49] isso me lembra da piada da coca-cola com whisky
+[2016-09-10 02:45:24] Essa aqui
+[2016-09-10 02:45:24] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803711112_92237.jpg
+[2016-09-10 04:04:36] ɌϕdɌΐgϕ ϻϵlϕ joined
+[2016-09-10 04:04:37] Hi ɌϕdɌΐgϕ ϻϵlϕ !
+[2016-09-10 08:05:12] se abrir qualquer lâmpada dessas "econômicas", "compactas fluorescentes" vai notar que no esquemático do reator tem um capacitor de filtro, C1 ou C2 com um espaço vazio, pois economizam, o mesmo tem nos reatores de calha, por isso essas lâmpadas causam tanta interferência.
+
+se em equipamentos de RF ele já causa interferência, imagina em rádio, essas lâmpadas tem matado AM e OC
+[2016-09-10 09:55:21] Sim, tem o equivalente a um hub. Este texto está desatualizado, mas o principio é o mesmo nos modelos mais novos: https://www.raspberrypi.org/documentation/hardware/raspberrypi/usb/README.md
+[2016-09-10 09:59:56] Veja também aqui: https://www.raspberrypi.org/magpi/raspberry-pi-3-specs-benchmarks/
+[2016-09-10 10:00:35] O datasheet do usb hub: http://ww1.microchip.com/downloads/en/DeviceDoc/9514.pdf
+[2016-09-10 10:25:45] Daria então pra diminuir a interferência colocando o capacitor que economizaram na montagem?
+[2016-09-10 10:28:59] As in, apenas um componente e pronto.
+[2016-09-10 10:50:16] "The OTG hardware on Raspberry Pi has a simpler level of support for certain devices, which may present a higher software processing overhead. The Raspberry Pi also has only one root USB port: all traffic from all connected devices is funnelled down this bus, which operates at a maximum speed of 480mbps."
+
+Valeu DQ.
+[2016-09-10 10:51:18] Transmissão ao vivo do Guru-SP:
+https://www.youtube.com/watch?v=hmjg29D6RLU
+[2016-09-10 10:54:09] Acho que vale mais a pena comprar uma de melhor qualidade de uma vez. LED, na verdade.
+[2016-09-10 11:17:53] Alterei o prefixo do cmake, fiz um make install e foi. Não queria instalar por cima da versão estável
+[2016-09-10 11:23:23] Show a palestra do Diogo Benica, utilizando OpenCV e Distância de Hamming, para reconhecimento de cartas de Pokemón...
+[2016-09-10 11:23:57] sim, achei legal tb.
+[2016-09-10 11:24:24] Quando rolar uma palestra legal de OpenCV no Garoa ou no Grupy eu vou assistir. Se alguém manjar do assunto tb :)
+[2016-09-10 11:47:11]  joined
+[2016-09-10 11:47:11] Hi Henrique !
+[2016-09-10 13:45:41] Verdade né. E LED não emite essa interferência. Correto?
+[2016-09-10 13:47:35] Não sei como é a lâmpada LED por dentro, não abri ainda. Mas é o mesmo preço praticamente, consome 3 vezes menos e dura umas 3 vezes mais. Não vejo porquê ainda usar fluorescente compacta.
+[2016-09-10 13:48:56] Nice
+[2016-09-10 14:09:36] Cores. Mas uma lâmpada LED de qualidade ainda é mais cara que a uma compacta razoável.
+[2016-09-10 14:10:22] O LED não, mas a eletrônica que alimenta ele pode emitir bastante interferência. Vai da qualidade da fabricação. É melhor que uma fluorescente, porém, cujo funcionamento do circuito é inerentemente ruidoso.
+[2016-09-10 14:17:43] Cores? Explique.
+[2016-09-10 14:19:27] O espectro da emissão de uma lâmpada LED ebem raiado, e isto vai alterar as cores dos objetos iluminados por eles. As fluorescentes, embora também tenha um espectro raiado, representam um compromisso entre eficiência e cor que vai agradar mais algumas pessoas, em algumas circunstâncias.
+[2016-09-10 14:21:08] Espectro de uma fluorescente (não são todas iguais): http://www.bealecorner.org/best/measure/cf-spectrum/
+[2016-09-10 14:22:15] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_34999035660075039.gif
+[2016-09-10 14:22:51] Melhor ainda, mas tem fluorescentes diferentes desssas.
+[2016-09-10 14:42:37] Como isso se relaciona com a temperatura de cor?
+[2016-09-10 14:47:07] Tem a ver com radiação de corpo negro.
+[2016-09-10 14:47:40] Quanto mais alta a temperatura de um corpo negro (uma lampada incandenscente é basicamente um corpo negro), mais azul fica a cor.
+[2016-09-10 14:47:43] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803730449_54921.jpg
+[2016-09-10 14:49:16] A temperatura da cor de uma lampada fluorescente basicamente diz como percebemos a luz dela, em comparacao com um corpo negro. A temperatura da cor é a temperatura do corpo negro que se parece com aquela lampada, do nosso ponto de vista.
+[2016-09-10 15:14:35] As a led usam uv e converterem pra branco com um pó, como a fluorescente
+[2016-09-10 15:15:39] Led é a coisa que menos da interferência, mas os circuitos que convertem ac pra dc 3.7v não se garante nada
+[2016-09-10 15:24:34] Não, LED não funciona assim. A não ser que tenha algo novo no mercado que eu não conheça.
+[2016-09-10 15:25:22] Esses brancos, a maioria são camadas de filtro
+[2016-09-10 15:25:41] Originalmente led tem uma frequência fixa
+[2016-09-10 15:26:17] Branco mesmo é a soma de várias frequências
+[2016-09-10 15:27:55] aylons, eu entendi errado ou por esse grafico led eh melhor?
+[2016-09-10 15:28:17] pq pela sua fala antes achei que vc tinha dito que essas compactas tem mais cor
+[2016-09-10 15:28:22] Led por ser melhor, depende do que você quer. E da fluorescente contra a qual está comparando.
+[2016-09-10 15:29:13] Eu disse que alguém pode escolher por causa da cor, não que "tem mais cor".
+[2016-09-10 15:29:21] ok
+[2016-09-10 15:29:49] no grafico que vc mandou, por exemplo, que eu quiser so RGB pego a CFL
+[2016-09-10 15:29:53] :D
+[2016-09-10 15:34:09] LEDs geralmente tem muito azul (sei que existem outros, mas não é o que mais tem no mercado). Eu tenho uma florescente compacta na cabeceira da cama com baixa temperatura da cor, porque acho mais confortável.
+[2016-09-10 15:34:10] http://www.topbulb.com/color-rendering-index
+[2016-09-10 15:35:28] Sim, no fim, led branco é uma fluorescente cuja fonte de luz está em estado sólido, e não um gás ionizado.
+[2016-09-10 15:39:09] Também tenho, fui estudar isso quando vi as empresas daqui colocando luz azul na frente quando a prefeitura impediu grades pra afastar moradores de rua
+[2016-09-10 16:06:10] Baixa temperatura de cor = mais amarelo... Você está dizendo que tens em sua cabeceira uma fluorescente mais amarela que a do led amarelo?
+[2016-09-10 16:07:16] Baixa temperatura da cor tem mais a ver com a proporção das cores. Um Led só amarelo não é confortável como uma lâmpada com baixa temperatura da cor.
+[2016-09-10 16:07:57] Mas sim, a lâmpada aqui tem mais vermelho em proporção ao azul do que a típica lâmpada Led que eu consigo comprar por um preço razoável.
+[2016-09-10 16:08:17] E não tem o espectro raiado das lâmpadas coloridas da Philips
+[2016-09-10 16:26:36] Garoa aberto?
+[2016-09-10 17:06:12] https://www.youtube.com/watch?v=NtVEvFsT46I&t=3m07s
+[2016-09-10 17:10:08] Adorei o tutorial e o aparato dele.
+[2016-09-10 17:37:17] muito bom, né?
+[2016-09-10 17:37:41] Sim
+[2016-09-10 17:38:07] às vezes eu tenho vergonha de não termos um setup desses no garoa...
+[2016-09-10 18:52:57] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803711333_92076.jpg
+[2016-09-10 18:53:00] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803701235_92253.jpg
+[2016-09-10 18:54:03] Vitor representou bem o Garoa no FABLEARN 2016, que terminou com uma bonita homenagem ao Papert.
+[2016-09-10 21:29:18] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_532577787244980706.mp3
+[2016-09-10 21:58:12] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_425808582_54452.jpg

@@ -1,0 +1,235 @@
+[2017-10-04 01:14:22] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_805514435_11766.jpg
+[2017-10-04 01:15:52] Calango Hacker Clube
+[2017-10-04 01:15:52] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804728160_15573.jpg
+[2017-10-04 01:21:36] https://www.instagram.com/p/BZzchfKg07f/?taken-by=elonmusk
+[2017-10-04 01:22:51] Desrespeito
+[2017-10-04 01:25:23] Estou esperando o Musk largar satelite no mundo todo com 6G de internet pro povo todo, ai tiro o chapeu
+[2017-10-04 01:40:20] http://www.floridatoday.com/story/tech/science/space/2017/09/19/spacex-files-trademark-starlink-satellite-broadband-internet-constellation-elon-musk/680714001/
+[2017-10-04 02:28:17] Alessandro joined
+[2017-10-04 02:28:18] Hi Alessandro !
+[2017-10-04 02:44:36] Bom dia a todos!
+[2017-10-04 06:10:04] Bom dia!
+[2017-10-04 08:11:28] Bom dia !
+[2017-10-04 09:18:50] Bom Dia
+[2017-10-04 09:21:27] /stat@combot
+[2017-10-04 09:21:28] combot.org/chat/-1001050919227
+[2017-10-04 10:13:34] @hacker_ferox uq seria um especialista em tecnologia open source?
+[2017-10-04 10:38:48] alguém quer me ajudar a tentar debugar uma fonte? não vou poder ir no garoa essa semana pra levar ela mas tenho o esquema dela e queria idéias.
+[2017-10-04 10:39:01] https://dl.dropboxusercontent.com/s/4zs496ktolhx0va/boardG.png este é o esquema
+[2017-10-04 10:39:53] a saída -15V mede -17V sem puxar corrente dela, quando ligada ao circuito e "usada" ela começa a medir até uns -22V
+[2017-10-04 10:40:00] e isso causa falha no circuito
+[2017-10-04 10:40:18] (o "circuito" fora essa fonte é um monitor de tubo)
+[2017-10-04 10:41:20] as outras saídas estão normais. já troquei quase todos os passivos da parte de -15v (que estão entre o IC601 e o transformador T603)
+[2017-10-04 10:41:47] nada mudou, apesar de descobrir que alguns resistores trocados estavam ruins (medidos fora do circuito)
+[2017-10-04 11:39:55] Me parece que é das 2 uma: ou o circuito de feedback (R608, D607 e os outros da malha até chegar no CI IC601) o então
+[2017-10-04 11:42:34] o próprio circuito de saída trafo, D615, C629, ... está com problema, o ruim de dar manutenção neste tipo de fonte é que circuito em malha/ com feedback qualquer um na linha com problema afeta tudo.
+[2017-10-04 11:46:36] Seria um cara que tem Latu Sensu (Especialização) em Software Livre - Implantação e Gestão de Projetos por uma instituição renomada no país. Só isso!!! Além de ser engajado na comunidade, ter aberto uma empresa focada em consultoria de implantação de tecnologia Open Source. Ter sido presidente da SOLISC - Associação Software Livre Santa Catarina e ser Embaixador do Projeto Fedora.
+[2017-10-04 11:50:22] Tendeu, to longe de chegar nesse nivel
+[2017-10-04 11:52:57] 👍
+[2017-10-04 11:55:25] entendi.. esses do feedback acho que troquei todos (devia ter feito uma lista), que foram os primeiros que eu suspeitei. diodos não achei equivalentes mas levantando uma das pernas e testando porcamente com um multímetro todos parecem ok.
+
+vou ver a saída do trafo, não sei porque ainda não troquei esse C629
+[2017-10-04 11:55:36] valeu pelas ideias :)
+[2017-10-04 12:51:56] Anne Parrish joined
+[2017-10-04 12:51:57] Hi Anne !
+[2017-10-04 13:24:01] photo
+[2017-10-04 13:24:20] to querendo um palpite
+[2017-10-04 13:25:35] na epoca, essa solucao ai, hacky pra carai, era feia mas fiquei satisfeito
+[2017-10-04 13:26:11] hoje, com transporte, etc, ja arrebentou tudo.
+[2017-10-04 13:26:55] e agora, como reformar?
+[2017-10-04 13:28:41] pensei em produzir uma plaquinha de circuito impresso com as dimensoes exatas, tal que de pra soldar os meus cabos de um lado, e encaixar a plaquinha do teclado com parafusos no outro, fazendo um contato fisico mesmo.
+eh viavel?
+[2017-10-04 13:29:30] alguma ideia melhor?
+[2017-10-04 13:34:12] vc pode prender a fiação na placa usando aqueles terminais de aparafusar
+[2017-10-04 13:34:32] https://a.pololu-files.com/picture/0J3614.1200.jpg?7c8cd9186ed12b602be8aa2d3204108f
+[2017-10-04 13:35:11] eh, pode ser melhor q a solda
+[2017-10-04 13:35:39] mas na real o maior problema mesmo eh o metodo de conectar na placa de teclado
+[2017-10-04 14:08:01] minha sugestão é usar controles usb so invés de teclados
+[2017-10-04 14:08:21] evita n-key rollover e a placa é mais fácil de soldar
+[2017-10-04 14:08:47] e depois de feita a solda, cola quente para segurar os cabos e dar resistência mecânica
+[2017-10-04 14:10:16] mais especificamente, evita a necessidade de ter n-key rollover no teclado, disse errado
+[2017-10-04 14:18:45] #apple #pr1v8 #opensource #kernel #kopimi
+
+Apple deixa código de todos os kernels do iOS e macOS open source
+
+
+https://opensource.apple.com/
+
+
+🌐 @PR1V8
+[2017-10-04 14:19:15] muito bom! Só falta todo resto :-P
+[2017-10-04 15:28:19] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804729692_15683.jpg
+[2017-10-04 15:28:19] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804724425_38243.jpg
+[2017-10-04 15:28:20] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_768994957837995657.webp
+[2017-10-04 15:36:09] serasa experian está buscando idiotas para o idiotathon?
+[2017-10-04 15:37:24] como se diz "venha trabalhar nos nossos produtos em troca de pizza?"
+[2017-10-04 15:38:06] E esse oferecendo a fortuna de 3k de premio
+[2017-10-04 15:38:48] Desenvolva de graça e quem sabe
+[2017-10-04 15:40:11] E chamam isso de investimento em tecnologia
+[2017-10-04 15:56:23] Em São Carlos isso é comum. A oferta de programadores é alta, com duas faculdades públicas de peso e outras faculdades particulares formando anualmente dezenas de alunos em cursos de TI, sempre tem um monte de gente desesperada por algum trampo/estágio. E as empresas aproveitam. Fazer estágio na região é praticamente sinônimo de ser mal pago.
+[2017-10-04 15:59:45] Trouxathon hahaha
+[2017-10-04 16:23:57] o rollover nao era problema na epoca que funcionava o arcade, os jogos rodavam tranquilo com dois jogadores, tudo.
+
+Mas recomenda alguma produto em especifico?
+[2017-10-04 16:24:29] não, só um controle usb qualquer
+[2017-10-04 16:29:26] Se for para colocar conexão USB, recomendo essa daqui: https://produto.mercadolivre.com.br/MLB-917199190-placa-usb-arcade-pc-ps3-controle-jogos-hyperspin-emuladores-_JM
+[2017-10-04 16:31:58] valeu, bacana isso ai, nunca tinha visto. 
+Nao daria pra esse projeto, por ser dois players, tem 28 inputs
+[2017-10-04 16:33:13] É, infelizmente essa solução é só para um jogador e no máximo 10 botões....
+[2017-10-04 16:34:02] Para dois jogadores, tem que ser 2 placas dessas, dando 20 botões
+[2017-10-04 16:34:47] Como é um ATMega, creio que não seja dificil de fazer para 28 inputs
+[2017-10-04 16:37:18] pois eh, parece que tenho que manter a placa de teclado mesmo
+[2017-10-04 16:38:50] sim, montar um próprio desses com atmega é fácil e até mais barato. nunca pagaria R$65 por isso. existem projetos open source pra isso. http://www.hexagons.de/index.php/USB_Joystickadapter
+[2017-10-04 16:38:58] Tem esse outro para 12 botões, mas só para um jogadorL https://produto.mercadolivre.com.br/MLB-831172650-placa-zero-delay-para-arcade-sanwaeletromatic-consulte-_JM#reco_item_pos=0&reco_backend=v2p-csc-i2i-ngrams&reco_backend_type=low_level&reco_client=vip-v2p&reco_id=bfb5b0c1-4ed8-4ba5-aed9-c627299fc506
+[2017-10-04 16:40:45] essa última placa parece que vai um blob idêntico a um gamepad de 10 reais, mas com conectores pra quem não quer soldar. você economiza 30 reais soldando.
+[2017-10-04 16:42:21] 😂😂😂
+[2017-10-04 16:43:33] mas o problema que o john apresentou foi que a solda dele se rompeu. por isso recomendei a placa de gamepad, ela tem pads maiores para ser soldados  do que uma pcb de teclado. em qualquer uma das duas opções (teclado ou gamepad de R$10) recomendo só prender os cabos com cola quente para que a resistência mecânica não fique toda nessa placa.
+[2017-10-04 16:43:57] pagar R$40, R$60 por jogador em controle de arcade é besteira.
+[2017-10-04 16:46:33] Bom, eu não acho, tenho controles arcades aqui de mais de R$300, profissionais. Agora se quiser montar vc mesmo, ai a coisa é diferente, eu já montei para um cliente um de arcade que saiu por volta de R$250, é o valor nominal de um joystick de arcade no mercado....
+[2017-10-04 16:48:22] que bom que você tem esse dinheiro, sergio
+[2017-10-04 16:49:59] quem quer ter algo bom, não necessária mente tem que ser muito caro, mas também não comprou coisa barata para durar 6 meses e depois jogar fora
+[2017-10-04 16:50:39] cartão de crédito tá ai pra isso! 12x sem juros e bora jogar! rsss
+[2017-10-04 16:50:45] quando eu quero algo bom eu mesma faço por metade do preço ^^
+[2017-10-04 16:50:54] não compro pronto dos outros.
+[2017-10-04 16:51:03] 👍
+[2017-10-04 16:51:23] cada um, cada um
+[2017-10-04 16:51:46] quero um desses aqui: https://produto.mercadolivre.com.br/MLB-835504233-volante-logitech-g29-driving-force-_JM#D[S:ADV,L:HOME_RECOMMENDED,V:1,I:Nlcy1kaXNwYXRjaGVyLTE1fDc3MTM5Mjg2MjYyODU3MDc2NjY=,C:0.440000]
+[2017-10-04 16:51:52] isso não tem como montar! rsss
+[2017-10-04 16:52:19] que bom que você tem esse dinheiro, sergio
+[2017-10-04 16:53:17] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804726002_16123.jpg
+[2017-10-04 16:55:38] Ella Sergio! Aparentemente um grego ahaha
+[2017-10-04 16:55:52] Eu quero montar um cockpit para flightsimulator e o X-11
+[2017-10-04 16:56:49] quando vou brincar com aviões bi-motor, mono ou planadores, teclado e o joystick que eu tenho vão fácil, mas quando se trata de jatos, turbo-hélices ou algum avião com IFR, fica difícil no teclado, faltam tecla
+[2017-10-04 16:56:51] teclas*
+[2017-10-04 16:57:53] Tem uns de tudo que são baba de montar, dá pra tirar os modelos dos que tem a venda no ML
+[2017-10-04 16:58:33] O problemas são os instrumentos!
+[2017-10-04 16:58:44] Dá pra pegar aqueles joysticks antigos de PC e colocar adaptador USB, vai de boa
+[2017-10-04 16:59:14] Tudo muito caro! Um IFR da garmin é mais de 5k
+[2017-10-04 16:59:18] Ai tem que colocar mais monitores, o pessoal do Flight Simulator que o diga!
+[2017-10-04 16:59:44] Infelizmente, tudo que é retro e de jogos inflacionou absurdamente
+[2017-10-04 17:01:30] Tem uns aqui realmente ignorantes: http://www.realgame.com.br/pt_BR mas devem ser o preço de um carro zero...
+[2017-10-04 17:03:00] Tem um camarada de BH que só vive disso, fabricação de maquinas de arcade e cockpit
+[2017-10-04 17:03:09] Que nada, a vantagem de comprar equipamentos de verdade, é que se um dia você tiver dinheiro pra comprar um brinquedo destes: https://www.wired.com/2010/12/new-diy-electric-airplane-takes-flight/
+[2017-10-04 17:03:24] Você pode montar o cockpit no avião
+[2017-10-04 17:03:31] quase plug-n-play
+[2017-10-04 17:04:09] uhauahuah, ai já é outro patamar que eu nunca chegue...
+[2017-10-04 17:05:09] http://realgame.com.br/pt_BR/produtos/16/83/simulador-de-muquinas-leves-e-pesadas-estauuo-completa
+[2017-10-04 17:05:19] um desses já estaria bom demais
+[2017-10-04 17:05:34] Eu sou aficcionado por aviação
+[2017-10-04 17:05:54] o esquema é comprar um audi velho e montar o simulador dentro
+[2017-10-04 17:06:43] uai, comprar um carro sem motor, não precisa ser um audi, pode ser até um fusca! uhauahauha
+[2017-10-04 17:07:09] AHAHHAHAHAHA sensacional!
+[2017-10-04 17:07:28] Mais uma ideia aqui pra realizar
+[2017-10-04 17:07:57] mas o audi é bacana
+[2017-10-04 17:07:59] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804726433_16228.jpg
+[2017-10-04 17:08:03] por dentro
+[2017-10-04 17:09:26] Eu tenho um logitech! É show, mas o problema é igual eu te falei, se for pra brincar com aviões simples e voos controlados, é sensacional, mas caso você queira utilizar em modo real, instrumentações, piloto automático, etc, fica difícil
+[2017-10-04 17:09:52] eu tenho um logitech 3d pro
+[2017-10-04 17:10:09] http://m.olx.com.br/anuncio?ad_id=389780145
+[2017-10-04 17:10:25] Sim, é bem legal, mas para simulação mais real, tem outros mais ferrados que esse...
+[2017-10-04 17:10:31] vende as peças que não for usar e ja era
+[2017-10-04 17:10:33] rsrsrs
+[2017-10-04 17:10:51] Qualquer desmanche vc acha um...rsss
+[2017-10-04 17:11:21] Esse é show!
+[2017-10-04 17:11:24] Sodré Santoro. Você consegue comprar uma sucata sem motor. Vai pagar no máximo 5 mil reais.
+[2017-10-04 17:11:41] Melhor de tudo é que não é de origem duvidosa ahahha
+[2017-10-04 17:11:48] então, o preço desses bancos gamers
+[2017-10-04 17:12:06] e vem volante, acelerador, câmbio etc...
+[2017-10-04 17:12:14] rsrsrs
+[2017-10-04 17:12:21] só ter espaço
+[2017-10-04 17:12:55] Ele vem quase penado, né! sem motor, sem câmbio ou quais quer partes elétricas
+[2017-10-04 17:13:14] Praticamente lataria, banco, volante, forração interna e com sorte, alguns pneus ahaha
+[2017-10-04 17:13:18] O suficiente pra rebocar
+[2017-10-04 17:14:18] Já me contento com um desses: https://produto.mercadolivre.com.br/MLB-716047409-exr-s-xt-cockpit-simulador-suporte-para-volante-g27t500ps3-_JM
+[2017-10-04 17:14:51] reclinável, cabe até na sala...
+[2017-10-04 17:16:15] caraca! ahahha estava vendo que é reclinável
+[2017-10-04 17:16:54] É tem um preço humanamente possivel de pagar 👍🏾
+[2017-10-04 17:17:20] Concordo!
+[2017-10-04 17:18:59] Dá pra fazer de tubo, mas ai tem que manjar de serralheria, coisa que já não tenho tanta habilidade. Ficar velho tem algumas desvantagens...
+[2017-10-04 17:19:59] Sonho de consumo.
+
+https://www.vansaircraft.com/public/rv14.htm
+[2017-10-04 17:20:40] Acompanhei a montagem de um RV-7 aqui no Brasil
+[2017-10-04 17:20:56] Vem um manual de instruções, as ferramentas e todas as peças desmontadas em uma caixa
+[2017-10-04 17:21:18] Ai é diversão para meses!
+[2017-10-04 17:21:43] Quebra-cabeça de milhões de peças...rsss
+[2017-10-04 17:22:07] Foram 2 meses de preparação e mais 6 para montar
+[2017-10-04 17:22:44] Demorou quase mais 1 ano pra conseguir regularizar ele aqui
+[2017-10-04 17:24:15] O que mais demora é a burrocracia deste país...
+[2017-10-04 17:26:22] ehhehe certamente
+[2017-10-04 17:43:44] Falando em simulador...
+[2017-10-04 17:43:49] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_805512263_12404.jpg
+[2017-10-04 17:57:26] Daniela Morais added Juliana
+[2017-10-04 17:57:26] Hi Juliana !
+[2017-10-04 18:00:05] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804730852_15966.jpg
+[2017-10-04 18:00:55] Oi pessoal!
+[2017-10-04 18:01:38] Meu nome é Juliana. Tô mexendo com raspberry pi. Estou fazendo game nele mas tô sofrendo com.questao de desempenho. Mesmo programando pra rodar na GPU
+[2017-10-04 18:01:46] Alguém já mexeu com isso aqui ?
+[2017-10-04 18:04:06] ó a chipeira :P
+[2017-10-04 18:04:19] bacana... ainda nao... mas to querendo compra um desse pra testar
+[2017-10-04 18:04:27] hoje usamos os modens da hauwei
+[2017-10-04 18:04:41] Q modelo?
+[2017-10-04 18:04:46] De usb?
+[2017-10-04 18:05:48] Está usando o driver proprietário da GPU? Se não estiver, infelizmente tenho uma péssima noticia para vc....
+[2017-10-04 18:06:37] Não consegui baixar o driver do proprietário.
+[2017-10-04 18:06:46] Não consegui atualizar nem nada
+[2017-10-04 18:06:56] Encontrei muitas limitações no pi.
+[2017-10-04 18:07:57] Exemplo coloquei uma animação simples pra rodar na CPU ficou entre 20 e 25% de uso. Coloquei a mesma , usando OpenGL, shader, na GPU, ficou em 5% de uso da CPU
+[2017-10-04 18:08:19] o rpi não suporta OpenGL, apenas OpenGL ES
+[2017-10-04 18:08:23] está usando isso?
+[2017-10-04 18:08:25] Mas conforme aumento o número de animações a taxa de uso da CPU sobe significativamente
+[2017-10-04 18:08:46] Acho q não. Estou usando OpenGl mesmo
+[2017-10-04 18:08:54] então este pode ser seu problema
+[2017-10-04 18:09:35] OpenGL ES é a mesma biblioteca de GPUs de celular, que é similar ao que o pi usa
+[2017-10-04 18:09:44] Não sabia desse opengl ES. Obrigada @mynameiserin  vou ver aqui
+[2017-10-04 18:12:45] existe um jeito de rodar opengl no pi 2/3 mas é experimental: http://linuxgizmos.com/opengl-accelerated-games-come-to-raspberry-pi/
+[2017-10-04 18:17:06] esse jeito acima é o emulado, descobri que tem um driver nativo experimental também: http://www.geeks3d.com/20160209/raspberry-pi-new-version-of-raspbian-jessie-with-opengl-2-1-support/
+[2017-10-04 18:23:28] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804727309_16165.jpg
+[2017-10-04 18:43:18] Sim
+[2017-10-04 18:43:53] 3131 senao me engano
+[2017-10-04 18:45:07] nice!
+[2017-10-04 18:54:19] @mynameiserin com o driver nativo experimental foi oq tentei. Usando PyOpenGL. O desempenho é até  bom quando coloco um único sprite pra rodar. Quando aumento o número de sprites animados na tela o desempenho cai muito rápido. Tornando inviável para o desenvolvimento de uma cena de game. Até o próprio exemplo do gl gears do link que vc deu apresenta problemas quando tem mais de um item na tela.
+[2017-10-04 18:55:45] acredito então que algo esteja errado, desde configuração até otimização do seu próprio código. o pi tem processamento até de sobra pra mostrar mais de 1 sprite na tela
+[2017-10-04 18:56:13] retrace seus passos e veja se o suporte a opengl está correto
+[2017-10-04 18:56:39] Vc usa q comandos AT pra se conectar na tim?
+[2017-10-04 18:56:42] Veja se não está tendo fallback para renderização por software.
+[2017-10-04 18:57:11] @evandrodp estes?
+
+AT+CGDCONT=1,"IP","tim.br"
+ATD*99***1#
+[2017-10-04 18:59:28] https://yro.slashdot.org/story/17/10/04/1950248/us-senate-panel-approves-self-driving-car-legislation
+[2017-10-04 19:05:43] uso o wvdial
+[2017-10-04 19:06:01] isso... só se certifica que a apn é só tim.br mesmo
+[2017-10-04 19:09:19] Obrigada! Vou verificar.
+[2017-10-04 19:11:31] Vc nunca usou tim?
+[2017-10-04 19:12:22] a gente usa tim, claro, algar, vivo e oi
+[2017-10-04 19:12:36] mas depende.. alguns contratos tem apn especifica
+[2017-10-04 19:18:29] Consegue me passar a string de apn da tim q vc usa?
+[2017-10-04 19:21:36] é contrato com a empresa, não adianta
+[2017-10-04 19:26:18] Entao nao funciona se eu comprar um chip tim na barraquinha do metro, espetar la e usar tim.br? Tem q primeiro fazer um contrato com a tim?
+[2017-10-04 19:26:55] uai... o chip tem que estar ativo
+[2017-10-04 19:27:10] se voce compra na barraquinha.. coloca num celuar, habilitar ele, colocar credito
+[2017-10-04 19:27:15] sim, ele funciona normalmente
+[2017-10-04 19:27:36] é que chip de empresa voce não tem esse passo ai, ele vem pronto, só desbloqueia pelo sistema deles
+[2017-10-04 19:27:59] Ta muito confuso pra mim fazer sozinho
+[2017-10-04 19:28:13] Quem te ensinou a fazer isso? A tim da suporte nisso?
+[2017-10-04 19:28:36] primeiro, o chip tem que estar funcionando, testa em um celular, deixa ele funcional. É o passo normal pra qualquer aquisição de chip.
+[2017-10-04 19:28:51] Coloca o chip em um celular e liga pra qualquer numero, ele vai cair na central pra registro
+[2017-10-04 19:29:50] Essa parte eu fiz
+[2017-10-04 19:30:01] Garanto q o chip funciona quando uso ele no meu celular
+[2017-10-04 19:30:10] Minha duvida eh no shield da adafruit
+[2017-10-04 19:30:42] La eu tenho q setar a APN correta mas nao encontro isso oficialmente no site da tim
+[2017-10-04 19:32:53] http://www.tim.com.br/sp/para-empresas/pequenas-e-medias-empresas/cobertura-e-roaming/internacional/uso-de-dados-no-exterior/ipad
+[2017-10-04 19:33:03] 3º APN Settings -> APN: timbrasil.br -> Username: tim e Password: tim
+[2017-10-04 19:33:07] ai de acordo com o site deles
+[2017-10-04 19:34:52] Vou testar
+[2017-10-04 21:56:52] Elis Frizzoni joined
+[2017-10-04 21:56:53] Hi Elis !
+[2017-10-04 21:57:02] :)
+[2017-10-04 22:10:42] Olá! Eu estou pesquisando espaços hackers e quero conversar com alguém atuante no garoa. Alguém pode me enviar um e-mail de contato? Já mandei pro e-mail do garoa e não me responderam 😯
+[2017-10-04 22:55:06] alguem "atuante" é BEM genérico... Se não for mais especifico, provavelmente ninguem vai se pronunciar.
+[2017-10-04 23:35:41] Para que email você enviou mensagem? Eu dei uma olhada no email do garoa no último mês e não tem nada seu. Também procurei pelo seu nome e sobrenome e não achei nada
+[2017-10-04 23:57:22] Mandei pra cs@garoa.net.br
+[2017-10-04 23:57:58] Não achei
+[2017-10-04 23:58:36] Foi ainda em agosto. Mas tudo bem
+[2017-10-04 23:58:43] Posso reenviar

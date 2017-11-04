@@ -1,0 +1,73 @@
+[2016-09-04 00:43:39] hoho ficou legal :D
+[2016-09-04 00:44:01] pena que eh para essas coisas da apple...
+[2016-09-04 00:44:14] ja viram aquele u8?
+[2016-09-04 00:44:34] tenho muita vontade de tentar dar uma subvertida nele...
+[2016-09-04 10:42:26] Gente, que loja da china vocês recomendam para comprar servo motores?
+
+Eu sempre comprei em loja especifica de aeromodelismo, mas o frete deles é bem salgado....
+[2016-09-04 10:43:05] Ali Express e banggood são bons? Acho que já ouvi gente comentando de servos virem sem funcionar...
+[2016-09-04 10:55:47] O Aliexpress seria minha primeira opção...
+[2016-09-04 11:11:45] aliexpress...
+[2016-09-04 11:11:58] Da outra vez comprei pelo DX
+[2016-09-04 11:12:24] É que o Ali tem vários vendendores. Então vc tem que escolher um vendedor com boa reputação. Já banggood e DX não tem isso.
+[2016-09-04 11:13:48] DX demorou seis meses
+[2016-09-04 11:19:09] No começo eu achava que o Aliexpress fosse como o MercadoLivre ou o eBay, mas vi que os vendedores lá são empresas, não pessoas, então costuma ser confiável... nunca tive problemas... compro lá desse 2011, quando fui banido do DX (que comprava desde 2008)...
+[2016-09-04 11:20:49] Como assim banido?
+[2016-09-04 11:38:42] Como assim banido? [2]
+[2016-09-04 11:39:15] eu fui banido pelos precos
+[2016-09-04 11:56:12] https://computinged.wordpress.com/2016/08/22/c-p-snow-keeps-getting-more-right-why-everyone-needs-to-learn-about-algorithms-cs4all/
+[2016-09-04 11:56:21] Comprei dois fones de ouvido na Nokia, chegou no Brasil, foi encaminhado para "autenticação de produto" ou "de marca", não lembro bem, ficou parado mais de um ano, um profissonal da Nokia foi lá e identificou que o produto era pirata, aí me perguntaram se eu queria contestar o laudo, neste caso se o novo laudo constasse que o produto era pirata eu seria responsável, então não quis, aí a DX foi responsabilizada e me puniu...
+No fim, recebi os outros produtos, menos os fones de ouvido, quase três anos depois...
+[2016-09-04 11:57:37] nossa, que história!
+[2016-09-04 11:58:15] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_413438718758617126.webp
+[2016-09-04 11:58:47] grupo errado, desculpe-me. 😅
+[2016-09-04 12:00:58] Caramba.... Que história....
+[2016-09-04 12:01:47] Vlw gente, vou comprar pelo ali express mesmo. Se alguém tiver algum vendedor que sempre  compra servos para recomendar... eu agradeço ;)
+[2016-09-04 12:05:54] Sobre Aliexpress e Ali Baba. Os vendedores são empresas e são bem confiáveis. Tenho clientes que ja fizeram compras de mais de US$20mil lá. É o contato direto com a fábrica
+[2016-09-04 13:08:17] Só tenta configurar para usar o Aliexpress em inglês, porque a tradução é muito ruim...
+Tipo "professional, not home made chips", traduziram como "profissional, não é batata frita feita em casa"... 😂
+[2016-09-04 13:18:56] Isso eu sempre faço, não suporto esses sites em português ou mostrando o preço em reais
+[2016-09-04 13:19:41] Mas a tradução não deixou de ser verdadeira, kkkkk. Chips profissionais não são batatas fritas feitas em casa, kkkkj
+[2016-09-04 13:20:03] Hahahahaha...
+[2016-09-04 13:32:29] Alguém aqui já usou o TCS3200 (sensor de reconhecimento de cores)?
+Estou querendo comprar um para uns experimentos...
+[2016-09-04 13:37:05] alguem tem dicad e truques no shodan
+[2016-09-04 13:38:27] ???
+[2016-09-04 15:54:44] boa tarde,
+@Biazzotto e quem mais manjar, preciso de uma ajuda com beacons
+[2016-09-04 15:55:36] Manda aí... quem sabe eu possa ajudar...
+[2016-09-04 15:56:44] @Biazzotto Precisava saber em relação a custo pra implementar um sistema na faculdade,pra OPE
+[2016-09-04 15:58:00] porque na vdd eu tô com 2 projetos na cabeça, e aí vou ver qual é o mais viável
+[2016-09-04 16:01:08] Você precisaria de Physical Web (protocolo Eddystone) ou utilizaria somente como o iBeacon?
+[2016-09-04 16:03:48] Eu acho que precisa de Physical,porque assim que ele fizer o reconhecimento ele teria que disparar a sala que ele teria aula,e nas salas ele faria mais coisa
+[2016-09-04 16:04:07] Sria talvez iBeacon na entrada e PW nas salas
+[2016-09-04 16:12:53] Neste caso poderia ser utilizado o iBeacon, como cada um possui um identificador único, é possível saber em qual sala a pessoa está, e essa informação poderia ser gerenciada através de um aplicativo, que faria o link entre o ID e a sala que a pessoa está...
+[2016-09-04 16:13:50] Aí na sala ele teria que disparar o material do dia,e ao mesmo tempo responder a chamada. Seria iBeacon tb?
+[2016-09-04 16:19:49] Sim... dá pra fazer usando só iBeacon... mas, como falei, dependeria de um aplicativo para isso, o aluno iria efetuar o login neste aplicativo que identifica o iBeacon mais próximo, identificando a sala que o aluno está, aí ele já pode responder à chamada e puxar o material da aula... esse aplicativo poderia rodar em segundo plano e ser disparado automaticamente quando o aluno se aproximar de um beacon...
+[2016-09-04 16:25:40] Os iBeacons mais baratos que encontrei são baseados no CC2541... não sei porque os compatíveis com Physical Web são muito mais caros, pois a tecnologia é a mesma...
+https://www.aliexpress.com/wholesale?SearchText=cc2541+beacon
+[2016-09-04 16:28:47] vou me aprofundar nesse assunto essa semana. Vou mandar um e-mail pro Jeff,que tava ontem no evento na Locaweb e eu nem vi ir embora
+[2016-09-04 16:36:55] O que teve ontem na Locaweb?
+[2016-09-04 16:37:14] SouJava
+[2016-09-04 16:37:22] Fui por causa da facul
+[2016-09-04 16:37:33] Ah... é que eu não sou Java... hahaha...
+[2016-09-04 16:37:54] eu tb não,mas como é matéria obrigatória tem que ir
+[2016-09-04 16:38:02] Entendi...
+[2016-09-04 16:38:17] Vi o Jeff segunda-feira, na IBM ...
+[2016-09-04 16:40:16] Pra mim de semana tá complicado
+[2016-09-04 16:41:28] Vou no Garoa só no evento depois do Grupy
+[2016-09-04 18:14:52] Quem tem interesse em aprender pure data ou supercollider vai ter um curso agora
+[2016-09-04 18:14:57] https://www.facebook.com/events/142514492865377/
+[2016-09-04 20:13:15] Isso me inspira pra largar esse país
+[2016-09-04 20:43:48] A DX sacaneia o cara e o problema é o Brasil?
+[2016-09-04 20:58:48] largo da batata fica perto do garoa não é?
+[2016-09-04 20:59:05] Sim...
+[2016-09-04 20:59:28] tá movimentado ai hoje..
+[2016-09-04 21:00:38] Hoje não fui no Garoa, mas sexta-feira teve manifestação lá... o pessoal ficou preso no trânsito...
+[2016-09-04 21:07:12] Quando tiver pronto lembra de mostrar como q é, achei legal a ideia e adoro beacons
+[2016-09-04 21:07:38] Live electronics e super collider são duas coisas que parecem ter super a ver comigo... Mas não é o caso.
+[2016-09-04 21:28:55] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_156473097476637379.webp
+[2016-09-04 23:19:13] #Grupy-SP Encontro mensal dos Pythonistas de São Paulo e Região
+Dia 17/09 Sábado no CT Novatec
+https://www.meetup.com/Grupy-SP/events/233795546/
+por favor submetam suas palestras.

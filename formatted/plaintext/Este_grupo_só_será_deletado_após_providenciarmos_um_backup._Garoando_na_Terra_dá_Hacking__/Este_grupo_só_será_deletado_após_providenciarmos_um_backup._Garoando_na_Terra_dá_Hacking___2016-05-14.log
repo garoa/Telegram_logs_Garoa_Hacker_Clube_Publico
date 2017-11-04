@@ -1,0 +1,24 @@
+[2016-05-14 00:48:16] Alexandre Villares sent document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Este_grupo_só_será_deletado_após_providenciarmos_um_backup._Garoando_na_Terra_dá_Hacking__/download_114573964927303758.webp
+[2016-05-14 09:08:45] Erin Pinheiro sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Este_grupo_só_será_deletado_após_providenciarmos_um_backup._Garoando_na_Terra_dá_Hacking__/download_803721765_36422.jpg
+[2016-05-14 09:08:47] Erin Pinheiro sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Este_grupo_só_será_deletado_após_providenciarmos_um_backup._Garoando_na_Terra_dá_Hacking__/download_702415166_92495.jpg
+[2016-05-14 09:09:42] Erin Pinheiro: teclado de cp500 sendo lido por Arduino mega
+[2016-05-14 09:52:52] Alexandre Villares: 😆
+[2016-05-14 09:58:00] Tobias Sette (in reply to Fabio Hirano): Como é o nome do homem a esquerda no topo da foto?
+[2016-05-14 09:58:12] Tobias Sette: Acho que devo um led pra ele 😅
+[2016-05-14 10:32:05] Belasco: o pixel
+[2016-05-14 10:47:49] Tobias Sette: Bregado
+[2016-05-14 10:48:21] Carril Fernando sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Este_grupo_só_será_deletado_após_providenciarmos_um_backup._Garoando_na_Terra_dá_Hacking__/download_802232337_88460.jpg
+[2016-05-14 10:49:45] Carril Fernando: Claro, tem muita coisa interessante... mas "nerd" é  "hype of the day" no "business" :-D
+[2016-05-14 13:38:29] Alexandre Villares sent document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Este_grupo_só_será_deletado_após_providenciarmos_um_backup._Garoando_na_Terra_dá_Hacking__/download_307667641491783812.webp
+[2016-05-14 13:40:05] Oda sent document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Este_grupo_só_será_deletado_após_providenciarmos_um_backup._Garoando_na_Terra_dá_Hacking__/download_147119960081039417.webp
+[2016-05-14 13:40:19] Oda: (esse eh de longe meu sticker mais util)
+[2016-05-14 14:10:59] Alexandre Villares: Rsrsrs
+[2016-05-14 14:56:24] Carril Fernando: Boas ideias também ("Lowsumerism", "Gentileza Urbana", "Wearables"). Para inovar, circular. Ou não.
+[2016-05-14 15:07:59] Yumi: as moças dos wearables vieram ao Garoa ontem
+[2016-05-14 22:26:13] Felipe "Juca" Sanches (in reply to Erin Pinheiro): MUITO BOMM!!!! Pequei o teclado lá hoje pra mostrar pro povo do Apple2 as partes do CP500 e notei que "algo" havia acontecido alí...
+[2016-05-14 22:26:56] Felipe "Juca" Sanches (in reply to Carril Fernando): Bullshit !
+[2016-05-14 22:27:36] Erin Pinheiro: também dei uma reformada com a ajuda do gabriel
+[2016-05-14 22:27:46] Erin Pinheiro: o teclado usa reed switches e algumas estavam quebradas
+[2016-05-14 22:28:16] Erin Pinheiro: troquei com as do numpad (que são só copias, a matriz não diferencia)
+[2016-05-14 22:28:51] Erin Pinheiro: os pinos da matriz de cada tecla está no verso da pcb, cortesia dos desenvolvedores da prológica 30 anos atrás
+[2016-05-14 22:30:36] Erin Pinheiro: https://gist.github.com/Lana-chan/065eb6829311e6660fdff7ce2d5030cd

@@ -1,0 +1,118 @@
+[2015-09-07 01:24:36] Felipe "Juca" Sanches: Esse arcade usa uma placa JAMMA original de máquinas de fliperama
+[2015-09-07 01:24:48] Felipe "Juca" Sanches: Não é um emulador
+[2015-09-07 01:24:56] Felipe "Juca" Sanches: É a coisa de verdade
+[2015-09-07 01:25:00] 153: LoL
+[2015-09-07 01:25:12] Felipe "Juca" Sanches: HARDWARE!
+[2015-09-07 01:25:28] 153: KEEP THE HARDWARE ALIVE \o/
+[2015-09-07 01:25:36] 153: só adaptou as saídas rgb pro monitor?
+[2015-09-07 01:25:40] Felipe "Juca" Sanches: Hardware is hard!
+[2015-09-07 01:25:48] 153: como fez com a questão da frequência em 15KHz?
+[2015-09-07 01:25:56] Felipe "Juca" Sanches: Sim. Usando uma placa conversora
+[2015-09-07 01:26:12] Felipe "Juca" Sanches: Entra RGB+Sync
+[2015-09-07 01:26:16] Felipe "Juca" Sanches: Sai VGA
+[2015-09-07 01:27:00] 153: Ele já converte pra 50~60Hz de buenas?
+[2015-09-07 01:27:44] Felipe "Juca" Sanches: A placa conversora amostra e interpreta o sinal original RGB+Sync 15Hz e gera um sinal completamente novo no padrão VGA 50/60Hz
+[2015-09-07 01:27:52] 153: LoL
+[2015-09-07 01:28:00] 153: Que massa!
+[2015-09-07 01:28:06] Felipe "Juca" Sanches: ;-)
+[2015-09-07 01:28:26] Felipe "Juca" Sanches: Não é a solução ideal
+[2015-09-07 01:28:42] Felipe "Juca" Sanches: Mas é o melhor que temos no momento
+[2015-09-07 01:28:54] 153: montaram o conversor ou compraram já?
+[2015-09-07 01:29:35] Felipe "Juca" Sanches: Comprei dum cara da lista brasileira de discussão sobre computadores MSX
+[2015-09-07 01:29:47] Felipe "Juca" Sanches: Paguei 170 reais
+[2015-09-07 01:30:32] 153: Ver a máquina rodando...
+Não tem preço
+[2015-09-07 01:30:52] Felipe "Juca" Sanches: ;-)
+[2015-09-07 01:31:32] 153: Tem tempos que to cogitando a idéia de fazer uma reversa em ROMs de cartuchos de SNES e começar gravar neles,
+Será que com essas máquinas rola?
+[2015-09-07 01:31:48] Felipe "Juca" Sanches: Vc é fã de retrocomputação também?
+[2015-09-07 01:31:48] Felipe "Juca" Sanches: Sim, rola
+[2015-09-07 01:31:52] Felipe "Juca" Sanches: E eu já foz
+[2015-09-07 01:31:56] Felipe "Juca" Sanches: Fiz
+[2015-09-07 01:32:08] 153: LoL
+sou também hahahahaha
+[2015-09-07 01:32:16] Felipe "Juca" Sanches: Tenho um joguinho homebrew pela metade
+[2015-09-07 01:32:25] 153: Caraca, conseguiu gravar a rom do snes?
+[2015-09-07 01:32:29] Felipe "Juca" Sanches: Nao
+[2015-09-07 01:32:37] Felipe "Juca" Sanches: O meu é pra essa placa
+[2015-09-07 01:32:45] Felipe "Juca" Sanches: Do Gunsmoke
+[2015-09-07 01:32:49] 153: aaah saquei
+[2015-09-07 01:33:00] Felipe "Juca" Sanches: Nunca lidei com código de nintendo
+[2015-09-07 01:33:16] Felipe "Juca" Sanches: Ta no github o código fonte
+[2015-09-07 01:33:20] Felipe "Juca" Sanches: Do meu joguinho
+[2015-09-07 01:33:28] Felipe "Juca" Sanches: Eh simples
+[2015-09-07 01:33:36] Felipe "Juca" Sanches: Eh mais prova de conceito mesmo
+[2015-09-07 01:33:40] 153: teve uma época que comecei analisar os pinouts, como eram feita as comunicações com a interface do snes, onde os savegames eram salvos.
+[2015-09-07 01:33:56] Felipe "Juca" Sanches: Fiz o desenvolvimento testando no MAME
+[2015-09-07 01:34:04] 153: manda o github ae
+[2015-09-07 01:34:16] Felipe "Juca" Sanches: Felipesanches
+[2015-09-07 01:34:40] Felipe "Juca" Sanches: Talvez esteja na conta do garoa entretanto
+[2015-09-07 01:34:52] Felipe "Juca" Sanches: O repositório chama gunsmoke
+[2015-09-07 01:35:08] Felipe "Juca" Sanches: Peraí que já te passo a URL certa
+[2015-09-07 01:35:20] Erin Pinheiro: https://github.com/garoa/GunSmoke
+[2015-09-07 01:35:24] 153: LOL
+[2015-09-07 01:35:28] 153: Vlw Erin
+[2015-09-07 01:36:16] Felipe "Juca" Sanches: http://m.youtube.com/?#/watch?v=jGZchmwxTrA
+[2015-09-07 01:37:44] 153: USOHAUOSHUAOHSAUOUSAO que massa
+[2015-09-07 01:38:16] 153: testou na máquina já?
+[2015-09-07 01:38:44] Felipe "Juca" Sanches: Ainda não
+[2015-09-07 01:38:56] Felipe "Juca" Sanches: Mas é um próximo passo natural
+[2015-09-07 01:39:08] Erin Pinheiro: sobre retroprogramação, tem meu inacabado snake de master system https://github.com/Lana-chan/sms-snake
+[2015-09-07 01:39:40] Felipe "Juca" Sanches: Snakes inacabados... TSC TSC TSC ...
+[2015-09-07 01:39:56] Erin Pinheiro: ygor, já montei um flashcart de master system
+[2015-09-07 01:40:08] Erin Pinheiro: de snes é mais difícil por causa dos vários mappers diferentes
+[2015-09-07 01:40:16] 153: O.O
+[2015-09-07 01:40:31] 153: Oloco
+[2015-09-07 01:40:47] Erin Pinheiro: http://mynameiser.in/post/94106321451/i-figured-the-eeprom-burner-deserved-a-proper
+[2015-09-07 01:40:59] 153: Será que daqueles 8bits dá pra mexer mais facilmente?
+nintendinho generico
+[2015-09-07 01:41:40] Erin Pinheiro: NES também sofre de mappers, mas deve ser mais fácil que snes, não tenho experiência própria
+[2015-09-07 01:41:52] Erin Pinheiro: a arquitetura do SMS é bem mais simples, bem parecida com a do MSX
+[2015-09-07 01:42:12] Erin Pinheiro: a grande grande maioria dos jogos todos usam um único mapper, o da sega
+[2015-09-07 01:42:28] Erin Pinheiro: o único que conheço que usa mapper próprio é o micro machines da codemasters
+[2015-09-07 01:43:36] 153: caraca, O.O
+[2015-09-07 01:44:32] 153: tenho alguns cards de snes aqui e tem uns que são meio diferentes mesmo
+[2015-09-07 01:46:12] 153: Penso em montar um desses
+[2015-09-07 01:46:12] 153: https://github.com/mrehkopf/sd2snes/tree/develop/pcb
+[2015-09-07 01:46:32] Erin Pinheiro: então, o sd2snes usa um FPGA pra emular vários mappers
+[2015-09-07 01:46:36] Erin Pinheiro: por isso tem boa compatibilidade
+[2015-09-07 01:47:44] Felipe "Juca" Sanches: A pessoa que me auxiliou no garoa durante o setup da placa conversora RGBS->VGA no arcade se cham Igor
+[2015-09-07 01:48:12] Felipe "Juca" Sanches: E teve um Igor no Garoa um tipo atrás que era totalmente pancado da cabeça
+[2015-09-07 01:48:24] Felipe "Juca" Sanches: Imagino que vc seja um terceiro
+[2015-09-07 01:48:36] Felipe "Juca" Sanches: E com Y! ;-)
+[2015-09-07 01:48:51] 153: já ia perguntar se era o das válvulas kkkk
+[2015-09-07 01:49:25] 153: Ia bastante lá no garoa, em 2013, 2014
+[2015-09-07 01:49:41] Felipe "Juca" Sanches: E agora náo tem ido mais?
+[2015-09-07 01:49:49] 153: Tem um tempinho que não vou mais lá
+[2015-09-07 01:50:04] Mike Howard: Como é o nome daquele jogo?
+[2015-09-07 01:50:12] Felipe "Juca" Sanches: Vc eh o Igor doidinho? Hahaha
+[2015-09-07 01:50:20] 153: Eu não man OUAHEUOAEHUAEO
+[2015-09-07 01:50:24] Felipe "Juca" Sanches: Hahaha
+[2015-09-07 01:50:40] 153: Eu sou normal (acho)
+[2015-09-07 01:50:48] Felipe "Juca" Sanches: Vc náo abriu seu próprio hackerspace?
+[2015-09-07 01:50:52] 153: AOUHUAEOHAEUOHAEUOAEUAEOUAEOHAEUOHAEUOAEHUOAEHUAEOHAEUOHAEUOHAEUOHAEUOHAEUOAEHUOAEH
+[2015-09-07 01:51:00] 153: puts, lembro dessa pira dele
+[2015-09-07 01:51:00] Felipe "Juca" Sanches: O V de Vingança?
+[2015-09-07 01:51:04] Felipe "Juca" Sanches: Hahahahaha
+[2015-09-07 01:51:08] 153: Aberto 24H, pode fazer o que quiser
+[2015-09-07 01:51:20] Felipe "Juca" Sanches: LOL
+[2015-09-07 01:52:00] 153: queria ter um ponto da TOR em casa tbm
+[2015-09-07 01:52:12] Felipe "Juca" Sanches: Mika, de qual jogo vc pergunta?
+[2015-09-07 01:52:36] Mike Howard: Juca, o Ygor estuda na ETEC perto do Garoa
+[2015-09-07 01:52:36] Felipe "Juca" Sanches: *Mike
+[2015-09-07 01:52:40] Felipe "Juca" Sanches: Legal
+[2015-09-07 01:52:48] Mike Howard: Este que mexemos hj
+[2015-09-07 01:53:04] Felipe "Juca" Sanches: O original SA CAPCOM se chama GunSmoke
+[2015-09-07 01:53:20] Felipe "Juca" Sanches: *da CAPCOM
+[2015-09-07 01:53:44] Felipe "Juca" Sanches: O meu, que roda na mesma placa, náo tem nome oficial
+[2015-09-07 01:53:56] Felipe "Juca" Sanches: Eu chamo de joguinho do pixotosco
+[2015-09-07 01:54:12] Felipe "Juca" Sanches: Por causa do personagem dos grafites do tony
+[2015-09-07 01:58:20] Felipe "Juca" Sanches: Ygor... Vc é programador?
+[2015-09-07 01:58:40] Felipe "Juca" Sanches: Dá uma lida no código fonte lá
+[2015-09-07 01:58:56] Felipe "Juca" Sanches: Quem sabe vc náo ajuda a terminar o game...
+[2015-09-07 01:59:16] Felipe "Juca" Sanches: Ou fazer um.outro game novo para rodar nessa mesma placa
+[2015-09-07 01:59:16] 153: Ainda não me considero um kkkkkk
+mas vamos dar uma olhada
+[2015-09-07 01:59:28] Felipe "Juca" Sanches: ;-)
+[2015-09-07 01:59:40] 153: scripteiro ainda kkkkkkkk
+[2015-09-07 19:54:48] (Unknown): Se tiver alguém no Garoa, por favor, tire a maquina de gelo da tomada 220 e ligue o frigobar que desligamos para fazer gelo.

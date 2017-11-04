@@ -1,0 +1,76 @@
+[2017-01-29 01:22:14] @manoelt Também tentei o bypass... vou ver o vídeo quando chegar em casa...
+[2017-01-29 01:22:26] 👍
+[2017-01-29 02:02:10] Crl, tão facinho depois de ver kkk
+[2017-01-29 08:02:10] Não estava terminada qdo vi mas segundo o dono é com fio quente mesmo
+[2017-01-29 09:17:07] 338033...primo! bom domingo!
+[2017-01-29 11:25:54] Mas não eh palíndromo...
+[2017-01-29 11:44:39] primos palíndromos FTW
+[2017-01-29 12:08:54] 2, 3, 5, 7, 11, 101, 131, 151, 181, 191, 313, 353, 373, 383, 727, 757, 
+787, 797, 919, 929, 10301, 10501, 10601, 11311, 11411, 12421, 12721, 
+12821, 13331, 13831, 13931, 14341, 14741, 15451, 15551, 16061, 16361, 
+16561, 16661, 17471, 17971, 18181, 18481, 19391, 19891, 19991, ...
+[2017-01-29 12:09:57] https://twitter.com/Hyperloop/status/825204857975894017
+[2017-01-29 12:10:15] https://twitter.com/SpaceX/status/825497252747628544
+[2017-01-29 12:10:45] Qual o nome da linguagem de programação do crachá da BSides??
+[2017-01-29 12:17:00] Brainfuck acho
+[2017-01-29 12:17:17] lol
+[2017-01-29 12:17:20] SÉRIO?!
+[2017-01-29 12:17:31] brainfuck é divertido :-)
+[2017-01-29 12:17:55] https://en.m.wikipedia.org/wiki/Brainfuck
+[2017-01-29 12:18:32] Trocaria o esotérico por sadomasoca
+[2017-01-29 12:18:34] 👍👍👍
+[2017-01-29 12:20:31] se não me engano o programa pra receber 2 números de input, calcular a soma e imprimir o resultado é algo assim: ,>,[<+>-]<.
+[2017-01-29 12:21:02] Acho q tá MT fácil pra ser kkk
+[2017-01-29 12:21:27] ué... interpreta aí o código que eu escrevi e verifica o funcionamento
+[2017-01-29 12:21:35] Vamo ver
+[2017-01-29 12:21:38] eu já verifiquei mentalmente e acho que está certo
+[2017-01-29 12:21:43] salvo engano
+[2017-01-29 12:22:07] o complicado é fazer multiplicação :-P
+[2017-01-29 12:24:30] O garoa já teve uma luta de robôs ?
+[2017-01-29 12:24:31] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_175980787395461149.webp
+[2017-01-29 12:25:06] Seria legal fazer umas oficinas com carrinhos e depois colocar eles pra competir
+[2017-01-29 12:25:17] Não necessariamente uma luta
+[2017-01-29 12:32:28] Tentei em editor online e não rolou não, mas tb nem sei como funciona
+[2017-01-29 12:38:28] ,>,[<+>-]<.
+[2017-01-29 12:38:39] , lê um dado e armazena na fita
+[2017-01-29 12:38:49] > avança para a próxima posição da fita
+[2017-01-29 12:39:03] , lê o segundo dado (os dados são os 2 números que queremos somar)
+[2017-01-29 12:39:24] [ abre o loop (o loop termina alguns caracteres adiante no ])
+[2017-01-29 12:39:30] o loop consiste em:
+[2017-01-29 12:39:39] < voltar pro primeiro dado
+[2017-01-29 12:39:45] + incrementá-lo
+[2017-01-29 12:39:52] > ir para o segundo dado
+[2017-01-29 12:39:58] - e decrementá-lo
+[2017-01-29 12:40:23] ] (fim do loop. Se o dado apontado na fita for zero, pula fora, senão repete o loop)
+[2017-01-29 12:41:16] como o dado apontado na fita é o segundo número, e ele é decrementado a cada execução do loop, o efeito colateral é que o loop vai parar de terminar quando o primeiro dado tiver sido incrementado N vezes onde N é o valor do primeiro número
+[2017-01-29 12:41:41] assim, o primeiro número conterá o resultado da soma
+[2017-01-29 12:41:57] após o fim do loop, o programa:
+[2017-01-29 12:42:07] < volta para o primeiro dado
+[2017-01-29 12:42:13] . e imprime o resultado
+[2017-01-29 12:42:38] Show, workshop de brainfuck em 5 min
+[2017-01-29 12:42:39] Hehe
+[2017-01-29 12:43:00] :-)
+[2017-01-29 12:47:19] Show!!
+[2017-01-29 12:50:10] fica de lição de casa implementar uma unidade de controle para uma CPU cujo intruction set sejam as 8 operações do brainfuck :-)
+[2017-01-29 12:50:41] dica: o barramento de dados para a ROM de código pode ter 3 bits de largura
+[2017-01-29 12:59:11] Pessoal hoje os DJs do Garoa vai fazer um som lá as 15h até fim da tarde, quem quiser conhecer, beber, trocar ideia sobre é só chegar
+[2017-01-29 14:28:27] Boa tarde, gostaria de agradecer por obtém e foi muito bom estar voltando ao Garoa, peguei o final do QoC que me deu outra visão para alguns testes com o Maltego e parabéns ao Emerson pela primeira aula de servidor Linux 👏👏👏👏
+[2017-01-29 14:34:39] Algum outro fã do TASbot aqui no grupo?
+[2017-01-29 14:34:49] #agdq2017
+[2017-01-29 14:57:10] 😊
+[2017-01-29 14:57:10] \o/
+[2017-01-29 14:57:10] 👆rrrrrrecomendo
+[2017-01-29 18:53:55] #DICA
+Para quem estava perguntando sobre o uso do Arduino com o Blynk e Bluetooth:
+https://www.hackster.io/nhuberfeely/arduino-101-blynk-bluetooth-tutorial-cb4c5d
+[2017-01-29 20:52:52] http://www.spacex.com/hyperloop
+[2017-01-29 21:40:16] LEGO Robots Cover Kraftwerk | Synthtopia
+http://www.synthtopia.com/content/2017/01/29/lego-robots-cover-kraftwerk/
+[2017-01-29 21:49:02] Já havia saído no Hackaday um jogador automático de Genius. 
+E o cara filmou o que acontece no final do jogo 😃
+
+http://hackaday.com/2014/06/09/beating-simon/
+[2017-01-29 22:23:50] tá rolando ainda
+[2017-01-29 22:23:51] http://www.spacex.com/hyperloop
+[2017-01-29 22:36:32] (Unknown) added Paulo
+[2017-01-29 22:36:33] Hi Paulo !

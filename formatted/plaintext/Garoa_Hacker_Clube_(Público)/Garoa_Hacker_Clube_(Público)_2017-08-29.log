@@ -1,0 +1,67 @@
+[2017-08-29 08:15:17] Hoje:
+[2017-08-29 08:15:20] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804722916_1752.jpg
+[2017-08-29 10:33:40] Queria ir, mas tenho aula :((
+[2017-08-29 10:35:06] Mata a aula
+[2017-08-29 10:38:21] Ela tá me matando primeiro shshshshh
+[2017-08-29 10:38:33] Rindo de nervous
+[2017-08-29 10:42:52] Existe forma eu acho kk
+[2017-08-29 10:43:06] So q no seu caso sera um pouco complicado
+[2017-08-29 13:08:02] Queria ir, mas tenho aula :((²
+[2017-08-29 14:33:01] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804723524_7670.jpg
+[2017-08-29 14:33:07] RPI Killer?
+[2017-08-29 14:34:27] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803119876_130646.jpg
+[2017-08-29 14:34:32] Eu tenho um...
+[2017-08-29 14:34:54] E ai? Vale a pena?
+[2017-08-29 14:35:20] pelo preço 9$ penso que sim
+[2017-08-29 14:36:54] Depende do uso, mas acho que vale.
+[2017-08-29 14:38:31] Só a plaquinha é meio inútil, teria que comprar um dock, e ficaria mais caro.
+[2017-08-29 14:52:23] É vi que tem dock para arduino
+[2017-08-29 15:24:26] http://blog.ptsecurity.com/2017/08/disabling-intel-me.html
+[2017-08-29 15:44:27] Boa tarde Pessoal. Tenho um problema pitoresco muito complicado para minha limitada mente.  Eu tenho um dispositivo de rede que tem um IP desconhecido. Eu estou conectando um computador direto ao dispositivo usando um cabo cross e preciso descobrir o IP da interface para poder setar o meu ip para o mesmo segmento para poder acessa-lo e reconfigurar a rede, ja que este nao tem botao de reset de parametros
+[2017-08-29 15:44:39] o arp -a lista os devices proximos
+[2017-08-29 15:44:52] mas nao acha o ip da placa de rede deste device
+[2017-08-29 15:45:01] que tenho um mac adress.
+[2017-08-29 15:45:17] tentei o arp -s ip mac da placa  mas nao obtive sucesso. alguma dica?
+[2017-08-29 16:06:09] Pessoal
+[2017-08-29 16:06:28] http://www.avr-asm-download.de/beginner_pt.pdf
+[2017-08-29 16:07:04] Alguem pode me indicar um notebook bom pra hacking e q seja no preço de mil ou um pouco menos
+[2017-08-29 16:07:58] ?
+[2017-08-29 16:08:35] x200 ?
+[2017-08-29 16:10:31] tipo esse aqui: https://produto.mercadolivre.com.br/MLB-726182305-notebook-lenovo-x200-4gb-160gb-core-2-duo-frete-gratis-_JM
+[2017-08-29 16:12:19] se bem que comparando os preços tavez vc queira o x201 com um processsador mais moderno
+[2017-08-29 16:12:20] https://produto.mercadolivre.com.br/MLB-696471559-notebook-lenovo-thinkpad-x201-core-i5-4gb-ram-hd-250-_JM
+[2017-08-29 16:12:41] aliás, eu posso compartilhar links do mercado livre aqui ?
+[2017-08-29 16:15:54] aliás, @Thack2017 o que seria hacking pra você ?
+[2017-08-29 17:23:23] adoro fazer hacking
+[2017-08-29 17:23:41] uso hackings todo dia
+[2017-08-29 17:24:51] Exatemente, algo que é tudo e nada não seria a melhor forma de definir como você vai usar uma máquina.
+[2017-08-29 17:25:00] pra hacking
+[2017-08-29 17:25:03] lógico
+[2017-08-29 17:29:44] Já tentou ligá-lo com um cabo direto, em vez de usar um cabo crossover?
+[2017-08-29 17:30:04] tambem, sem sucesso
+[2017-08-29 17:33:30] a questao maior e que o nao tenho a menor ideia do ip que esta configurado la, que pode nem ser da rede que temos ou sequer imagino que enderco ou classe IP tem.
+[2017-08-29 17:38:27] Tem uma ferramenta, se não engano se chama Angry IP, que pinga uma faixa de IPs, tipo 0.0.0.0 a 255.255.255.255, mas acho que vai levar uma eternidade... não lembro de cabeça uma solução melhor...
+[2017-08-29 17:40:44] o problema do angry e roteamento.
+[2017-08-29 17:40:49] mesmo com cabo direto
+[2017-08-29 17:42:01] Nmap não resolve o problema ?
+[2017-08-29 17:42:33] nmap -sP
+[2017-08-29 17:49:17] o -sP e um scan Ping, e o mesmo de fazer um laço for para pingar os enderecos de um segmento
+[2017-08-29 17:49:35] mas se vc nao tem a minima ideia do endereco da rede na placa remota, tipo
+[2017-08-29 17:50:38] se seu pc tem o ip 192.168.0.x  e a placa remota nao usa um ip 192.168.0.x que seja 192.168.1.x por exemplo ou 10.0.0.x o nmap -sP ou AngryScan nao vao surtir efeito.
+[2017-08-29 17:50:50] acho que uma chamada arp poderia ser mais efetiva
+[2017-08-29 17:54:03] Obrigado Wagner
+[2017-08-29 18:10:29] Desculpa o chute, mas ja pesquisou se o device não tem um IP padrão? Vai que ele ainda pode ser o mesmo...
+[2017-08-29 18:31:56] Outra ideia que me passou aqui seria usar o Wireshark, out ferramenta similar, e analisar o tráfico da rede...
+[2017-08-29 18:39:33] Se achar, avisa...
+[2017-08-29 18:40:34] ué, os x200/201 não são bons? eu uso um apesar de estar em um macbook agora
+[2017-08-29 20:47:45] Ia sugerir algo parecido. Esse dispositivo não tem algum hard reset pros padrões de fabrica que você possa dar e voltar a interface ao IP default?
+[2017-08-29 21:36:39] que equipamento é?
+[2017-08-29 21:38:08] industrial? Uma sugestão, ligue-o com crossover.. abra o WireShark, inicie o rastreio e depois ligue o equipamento... conte até 10.. e pare o scan. Entao analise os ips que aparecem.
+[2017-08-29 21:51:18] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804725912_6784.jpg
+[2017-08-29 21:51:32] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804721930_31537.jpg
+[2017-08-29 21:51:47] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804721947_31107.jpg
+[2017-08-29 23:06:47] procura a ajuda do google
+[2017-08-29 23:10:03] Usuário @Kaue1213 removido do grupo. Leia nosso FAQ: https://garoa.net.br/wiki/FAQ#Hackers
+[2017-08-29 23:31:54] Mais um com a mesma questão...
+[2017-08-29 23:32:00] Boa, moderação.
+[2017-08-29 23:57:17] Boa!!

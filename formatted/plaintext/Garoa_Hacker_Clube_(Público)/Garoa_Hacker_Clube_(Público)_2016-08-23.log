@@ -1,0 +1,354 @@
+[2016-08-23 00:28:24] pixie dust
+[2016-08-23 00:28:28] não é falha
+[2016-08-23 00:28:30] to tentando achar os slides e a palestra......
+[2016-08-23 00:28:30] é funcionalidade
+[2016-08-23 00:28:36] resumindo pixie dust
+[2016-08-23 00:28:42] passsou a ser
+[2016-08-23 00:28:50] funcionalidade
+[2016-08-23 00:28:50] imagina que tu trabalhe numa empresa gigantesca
+[2016-08-23 00:28:57] de roteadores wireless
+[2016-08-23 00:28:58] sim
+[2016-08-23 00:29:16] mas eu tentei nao é todo roteador q funciona
+[2016-08-23 00:29:16] vão produzir 100.000.000 de modens wireless
+[2016-08-23 00:29:29] e a gvt vai instalar em todo o brasil pros seus "felizes" clientes
+[2016-08-23 00:29:56] todos sabemos que, o ESSID das redes da gvt são GVT-XXXX
+[2016-08-23 00:30:04] onde XXXX é um numero hexadecimal
+[2016-08-23 00:30:20] que coincidentemente pode ser:
+- ultimos 4 hexa do MAC address, ou seja, do BSSID
+[2016-08-23 00:30:22] ou,
+[2016-08-23 00:30:29] - ultimos 4 hexa do MAC + 4
+[2016-08-23 00:30:40] Interessante
+[2016-08-23 00:30:42] a senha também não é aleatória
+[2016-08-23 00:30:48] eles não tem como gravar um a um em cada modem
+[2016-08-23 00:31:03] então colocam uma função matemática que cria uma senha, previsível
+[2016-08-23 00:31:20] que um outro programa prevê e cola em cima de cada modem que sai da fábrica
+[2016-08-23 00:31:45] Geralmente as senhas dos "netvirtuas" são o código do cliente pelo q me lembro
+[2016-08-23 00:31:53] eu gosto disso
+[2016-08-23 00:32:02] é só criar uma wordlist e aircrack neles
+[2016-08-23 00:32:13] aqui a oi usava o telefone com ddd
+[2016-08-23 00:32:21] então era 513xxxxxxx
+[2016-08-23 00:32:29] 7 dígitos = 1h
+[2016-08-23 00:32:56] Eu tenho visto alguns roteadores da marca Humax acho que é da NET e eles possuem os mesmos codigos de WPS
+[2016-08-23 00:33:03] word list demora muito.....pixie dust é quase intantaneo
+[2016-08-23 00:33:10] 12345670
+[2016-08-23 00:33:18] EXATO HAHAHA
+[2016-08-23 00:33:31] isso mesmo breno
+[2016-08-23 00:33:44] pixie dust "adivinha" o wps, usa o reaver pra enviar os pacotes e confirmar a senha
+[2016-08-23 00:33:46] humax o q mais tem
+[2016-08-23 00:34:26] alguns modens tem 2 pins wps
+[2016-08-23 00:34:43] eu mudei o meu  e mesmo assim ainda foi instantaneo
+[2016-08-23 00:34:49] quando eu comecei a ver essas coisas, há anos atrás
+[2016-08-23 00:35:08] no meu imaginário, eles gravavam um a um, o firmware, atribuíam uma senha e imprimiam no modem
+[2016-08-23 00:35:17] no maximo 3 !anos
+[2016-08-23 00:35:33] realidade: gravam o mesmo firmware, que no boot, define a senha com base no MAC e no serial number
+[2016-08-23 00:35:49] o pixie dust consegue obter o serial number pois alguns modens o expõem no handshake eapol]
+[2016-08-23 00:35:57] os 8 pacotes de autenticação
+[2016-08-23 00:36:11] num deles, o modem envia o serial number, interno
+[2016-08-23 00:37:28] vai fala serio..vcs viram a palestra kkkkkk
+[2016-08-23 00:38:20] eu tinha visto, ele usa o kali
+[2016-08-23 00:38:26] sim
+[2016-08-23 00:38:43] antes tinha o backtrack
+[2016-08-23 00:38:48] eu usava o gentoo
+[2016-08-23 00:39:08] essas ferramentas tinham nele, pra compilar, antes de ter pacote pras distros
+[2016-08-23 00:39:31] backtrack so tinha o reaver depois foi integrado ao kali junto ao  reaver com a funcao K1
+[2016-08-23 00:39:33] tinha uns rituais, instalar patch pro kernel pra suportar "packet injection"
+[2016-08-23 00:39:38] -K1
+[2016-08-23 00:39:44] o debian até hoje não tem esse
+[2016-08-23 00:39:51] aí tive que baixar os pacotes -dev e compilar tudo
+[2016-08-23 00:40:44] hoje é so apt-get install
+[2016-08-23 00:40:47] user@pc1:~$ reaver
+reaver     reaver1.3  reaver1.4  
+user@pc1:~$ reaver
+[2016-08-23 00:41:07] e o pixie dust vem junto
+[2016-08-23 00:41:35] eu uso debian testing e nele ainda não tem o pixie dust
+[2016-08-23 00:41:45] aí tem que compilar aparte, só tem no kali
+[2016-08-23 00:41:56] kali na ultima versao nem isso....so da boot
+[2016-08-23 00:42:03] exato hahaha
+[2016-08-23 00:42:11] que funciona
+[2016-08-23 00:42:42] já usou aquelas placas com antena?
+[2016-08-23 00:43:37] ja sim
+[2016-08-23 00:44:19] no dia que uma lan house funcionava na casa da minha namorada sem ela saber ela ficou pasma como ninguen resolvia isso
+[2016-08-23 00:46:01] placas com antena o livro steel networking....o jeff moss deu uma maozinha no livro
+[2016-08-23 00:46:20] tem muita coisa de wardrinvig nessse livro
+[2016-08-23 00:46:45] photo
+[2016-08-23 00:47:22] que ignorancia
+[2016-08-23 00:47:25] kkkkk
+[2016-08-23 00:48:03] tem o MDK pra outro tipo de ataque de rede
+[2016-08-23 00:48:16] mdk eu nao entendi direito
+[2016-08-23 00:49:00] o mdk é pra torturar
+[2016-08-23 00:49:07] e aquele negocio de wps 60 segundos eu nao entendi como contorna isso
+[2016-08-23 00:49:08] psicologia, behaviorismo
+[2016-08-23 00:49:17] imagina que tu tenha uma rede
+[2016-08-23 00:49:20] e ela pare de funcionar
+[2016-08-23 00:49:25] aí tu começa a fazer testes no modem
+[2016-08-23 00:49:27] reinicia ele e nada
+[2016-08-23 00:49:34] aí tu descobre que se tirar a criptografia ele funciona
+[2016-08-23 00:49:49] o mdk fica dando deauth em qualquer coisa que se conecte num router
+[2016-08-23 00:49:56] até a pessoa reconfigurar pra wep ou sem senha
+[2016-08-23 00:50:11] o mdk também pode simular outros accesspoints
+[2016-08-23 00:50:47] evil twin???
+[2016-08-23 00:51:03] pode ser, mas pode fazer qualquer coisa com ele
+[2016-08-23 00:51:09] por exemplo, flood de beacons
+[2016-08-23 00:51:45] nossa
+[2016-08-23 00:51:59] e como contorna os 60 segundos de wps
+[2016-08-23 00:52:13] não tem como
+[2016-08-23 00:52:18] que impede as tentativas
+[2016-08-23 00:52:22] e não é 60
+[2016-08-23 00:52:29] 60 o reaver usa como parâmetro
+[2016-08-23 00:52:31] é exponencial
+[2016-08-23 00:52:34] primeira vez é 60
+[2016-08-23 00:52:36] depois aumenta
+[2016-08-23 00:52:46] até como um que tentei quebrar auqi perto que ficou eternamente no locked
+[2016-08-23 00:52:53] b   - Beacon Flood Mode
+      Sends beacon frames to show fake APs at clients.
+[2016-08-23 00:53:18] hummm
+[2016-08-23 00:28:24] pixie dust
+[2016-08-23 00:28:28] não é falha
+[2016-08-23 00:28:30] to tentando achar os slides e a palestra......
+[2016-08-23 00:28:30] é funcionalidade
+[2016-08-23 00:28:36] resumindo pixie dust
+[2016-08-23 00:28:42] passsou a ser
+[2016-08-23 00:28:50] funcionalidade
+[2016-08-23 00:28:50] imagina que tu trabalhe numa empresa gigantesca
+[2016-08-23 00:28:57] de roteadores wireless
+[2016-08-23 00:28:58] sim
+[2016-08-23 00:29:16] mas eu tentei nao é todo roteador q funciona
+[2016-08-23 00:29:16] vão produzir 100.000.000 de modens wireless
+[2016-08-23 00:29:29] e a gvt vai instalar em todo o brasil pros seus "felizes" clientes
+[2016-08-23 00:29:56] todos sabemos que, o ESSID das redes da gvt são GVT-XXXX
+[2016-08-23 00:30:04] onde XXXX é um numero hexadecimal
+[2016-08-23 00:30:20] que coincidentemente pode ser:
+- ultimos 4 hexa do MAC address, ou seja, do BSSID
+[2016-08-23 00:30:22] ou,
+[2016-08-23 00:30:29] - ultimos 4 hexa do MAC + 4
+[2016-08-23 00:30:40] Interessante
+[2016-08-23 00:30:42] a senha também não é aleatória
+[2016-08-23 00:30:48] eles não tem como gravar um a um em cada modem
+[2016-08-23 00:31:03] então colocam uma função matemática que cria uma senha, previsível
+[2016-08-23 00:31:20] que um outro programa prevê e cola em cima de cada modem que sai da fábrica
+[2016-08-23 00:31:45] Geralmente as senhas dos "netvirtuas" são o código do cliente pelo q me lembro
+[2016-08-23 00:31:53] eu gosto disso
+[2016-08-23 00:32:02] é só criar uma wordlist e aircrack neles
+[2016-08-23 00:32:13] aqui a oi usava o telefone com ddd
+[2016-08-23 00:32:21] então era 513xxxxxxx
+[2016-08-23 00:32:29] 7 dígitos = 1h
+[2016-08-23 00:32:56] Eu tenho visto alguns roteadores da marca Humax acho que é da NET e eles possuem os mesmos codigos de WPS
+[2016-08-23 00:33:03] word list demora muito.....pixie dust é quase intantaneo
+[2016-08-23 00:33:10] 12345670
+[2016-08-23 00:33:18] EXATO HAHAHA
+[2016-08-23 00:33:31] isso mesmo breno
+[2016-08-23 00:33:44] pixie dust "adivinha" o wps, usa o reaver pra enviar os pacotes e confirmar a senha
+[2016-08-23 00:33:46] humax o q mais tem
+[2016-08-23 00:34:26] alguns modens tem 2 pins wps
+[2016-08-23 00:34:43] eu mudei o meu  e mesmo assim ainda foi instantaneo
+[2016-08-23 00:34:49] quando eu comecei a ver essas coisas, há anos atrás
+[2016-08-23 00:35:08] no meu imaginário, eles gravavam um a um, o firmware, atribuíam uma senha e imprimiam no modem
+[2016-08-23 00:35:17] no maximo 3 !anos
+[2016-08-23 00:35:33] realidade: gravam o mesmo firmware, que no boot, define a senha com base no MAC e no serial number
+[2016-08-23 00:35:49] o pixie dust consegue obter o serial number pois alguns modens o expõem no handshake eapol]
+[2016-08-23 00:35:57] os 8 pacotes de autenticação
+[2016-08-23 00:36:11] num deles, o modem envia o serial number, interno
+[2016-08-23 00:37:28] vai fala serio..vcs viram a palestra kkkkkk
+[2016-08-23 00:38:20] eu tinha visto, ele usa o kali
+[2016-08-23 00:38:26] sim
+[2016-08-23 00:38:43] antes tinha o backtrack
+[2016-08-23 00:38:48] eu usava o gentoo
+[2016-08-23 00:39:08] essas ferramentas tinham nele, pra compilar, antes de ter pacote pras distros
+[2016-08-23 00:39:31] backtrack so tinha o reaver depois foi integrado ao kali junto ao  reaver com a funcao K1
+[2016-08-23 00:39:33] tinha uns rituais, instalar patch pro kernel pra suportar "packet injection"
+[2016-08-23 00:39:38] -K1
+[2016-08-23 00:39:44] o debian até hoje não tem esse
+[2016-08-23 00:39:51] aí tive que baixar os pacotes -dev e compilar tudo
+[2016-08-23 00:40:44] hoje é so apt-get install
+[2016-08-23 00:40:47] user@pc1:~$ reaver
+reaver     reaver1.3  reaver1.4  
+user@pc1:~$ reaver
+[2016-08-23 00:41:07] e o pixie dust vem junto
+[2016-08-23 00:41:35] eu uso debian testing e nele ainda não tem o pixie dust
+[2016-08-23 00:41:45] aí tem que compilar aparte, só tem no kali
+[2016-08-23 00:41:56] kali na ultima versao nem isso....so da boot
+[2016-08-23 00:42:03] exato hahaha
+[2016-08-23 00:42:11] que funciona
+[2016-08-23 00:42:42] já usou aquelas placas com antena?
+[2016-08-23 00:43:37] ja sim
+[2016-08-23 00:44:19] no dia que uma lan house funcionava na casa da minha namorada sem ela saber ela ficou pasma como ninguen resolvia isso
+[2016-08-23 00:46:01] placas com antena o livro steel networking....o jeff moss deu uma maozinha no livro
+[2016-08-23 00:46:20] tem muita coisa de wardrinvig nessse livro
+[2016-08-23 00:46:45] photo
+[2016-08-23 00:47:22] que ignorancia
+[2016-08-23 00:47:25] kkkkk
+[2016-08-23 00:48:03] tem o MDK pra outro tipo de ataque de rede
+[2016-08-23 00:48:16] mdk eu nao entendi direito
+[2016-08-23 00:49:00] o mdk é pra torturar
+[2016-08-23 00:49:07] e aquele negocio de wps 60 segundos eu nao entendi como contorna isso
+[2016-08-23 00:49:08] psicologia, behaviorismo
+[2016-08-23 00:49:17] imagina que tu tenha uma rede
+[2016-08-23 00:49:20] e ela pare de funcionar
+[2016-08-23 00:49:25] aí tu começa a fazer testes no modem
+[2016-08-23 00:49:27] reinicia ele e nada
+[2016-08-23 00:49:34] aí tu descobre que se tirar a criptografia ele funciona
+[2016-08-23 00:49:49] o mdk fica dando deauth em qualquer coisa que se conecte num router
+[2016-08-23 00:49:56] até a pessoa reconfigurar pra wep ou sem senha
+[2016-08-23 00:50:11] o mdk também pode simular outros accesspoints
+[2016-08-23 00:50:47] evil twin???
+[2016-08-23 00:51:03] pode ser, mas pode fazer qualquer coisa com ele
+[2016-08-23 00:51:09] por exemplo, flood de beacons
+[2016-08-23 00:51:45] nossa
+[2016-08-23 00:51:59] e como contorna os 60 segundos de wps
+[2016-08-23 00:52:13] não tem como
+[2016-08-23 00:52:18] que impede as tentativas
+[2016-08-23 00:52:22] e não é 60
+[2016-08-23 00:52:29] 60 o reaver usa como parâmetro
+[2016-08-23 00:52:31] é exponencial
+[2016-08-23 00:52:34] primeira vez é 60
+[2016-08-23 00:52:36] depois aumenta
+[2016-08-23 00:52:46] até como um que tentei quebrar auqi perto que ficou eternamente no locked
+[2016-08-23 00:52:53] b   - Beacon Flood Mode
+      Sends beacon frames to show fake APs at clients.
+[2016-08-23 00:53:18] hummm
+[2016-08-23 00:53:19] a   - Authentication DoS mode
+      Sends authentication frames to all APs found in range
+
+eu já tentei essa, isso trava os APs, só vê o tráfego dos arredores reduzindo
+[2016-08-23 00:53:53] g   - WPA Downgrade test
+      deauthenticates Stations and APs sending WPA encrypted packets.
+      With this test you can check if the sysadmin will try setting his
+      network to WEP or disable encryption.
+
+
+esse é aquele que eu disse, tortura até a pessoa desabilitar a criptografia
+[2016-08-23 00:54:22] d   - Deauthentication / Disassociation Amok Mode
+      Kicks everybody found from AP
+m   - Michael shutdown exploitation (TKIP)
+      Cancels all traffic continuously
+
+
+esses são pra derrubar tudo
+[2016-08-23 00:54:52] eu tinha visto uma ferramenta q trava o modem e forca ele reiniciar ai ele perde o locked
+[2016-08-23 00:55:06] eu játentei isso, mas ele não reiniciou
+[2016-08-23 00:55:10] esse flood pode travar o modem
+[2016-08-23 00:55:25] e os 60 segundos para  de  gtaca
+[2016-08-23 00:55:30] graca o modem
+[2016-08-23 00:55:33] eu cheguei ao cúmulo de descobrir onde era, desligar a luz da pessoa, esperar 30 segundos, ligar novamente, ou seja, uma reinicialização física, não deu certo
+[2016-08-23 00:56:28] mas é um único modem, de uma empresa
+[2016-08-23 00:56:42] devem ter investido num modem mais caro, mais protegido, não é desses alugados de operadora
+[2016-08-23 00:56:59] eu sou da época em que a gente comprava o modem, tinha liberdade
+[2016-08-23 00:57:04] hoje as pessoas tem que usar equipamento da operadora
+[2016-08-23 00:57:42] até nos restaurantes, bares, "qual nome da rede?"
+- GVT-XXXX
+[2016-08-23 00:58:12] era o mdk que estou confundindo sera..... como disse nao entendi o esquema dos 60 segundos.....mas sera que nao da pra parar de alguma forma os 60 segundos
+[2016-08-23 00:58:28] já tentei reset, alguns funcionam, alguns não
+[2016-08-23 00:58:36] com mdk, só consegui resetar alguns raros modens
+[2016-08-23 00:58:44] geralmente eles ficam lentos, quase trava, mas não reinicia
+[2016-08-23 00:59:11] vc é de onde breno
+[2016-08-23 00:59:18] esse flood de autenticações, mata mesmo, mas hoje em dia os que são baseados em linux só reinicia o processo hostapd
+[2016-08-23 00:59:20] desculpa a pergunta
+[2016-08-23 00:59:22] porto alegre haha
+[2016-08-23 01:00:17] eu sou de mogi
+[2016-08-23 01:00:34] prazer em falar com vc
+[2016-08-23 01:00:46] mora em lugar central? muita rede? muito movimento?
+[2016-08-23 01:00:50] eu também!
+[2016-08-23 01:02:02] rede é uma coisa que me diverte
+[2016-08-23 01:02:15] eu coloco meu equipamento e dou uma volta num fusca do meu tio so pra ver o q acho por ao
+[2016-08-23 01:02:45] eu tambem
+[2016-08-23 01:02:49] tem uns apps pra celular
+[2016-08-23 01:02:54] tem mapas
+[2016-08-23 01:02:55] aaaaaaaa
+[2016-08-23 01:03:06] já fiz teletransporte de WPS usando mdk
+[2016-08-23 01:03:21] WPS não o wps aquele, mas o outro wps
+[2016-08-23 01:03:24] wireless positionig system
+[2016-08-23 01:03:44] tem GPS, LPS(?) e WPS
+[2016-08-23 01:04:05] GPS, usa satélites
+[2016-08-23 01:04:11] LPS, usa as torres de celular
+[2016-08-23 01:04:16] e WPS usa as redes de celular
+[2016-08-23 01:04:18] o android tem isso
+[2016-08-23 01:04:39] ele envia pro google quais redes wireless tem ao teu redor e o google retorna a localização que tu está, com base na lista de redes
+[2016-08-23 01:04:51] eu vi........pra cellular estao rodando o pixie dust em gs2 1 e nexus one e 7
+[2016-08-23 01:04:55] agora imagina que use um banco de dados aberto, como wigle
+[2016-08-23 01:05:08] que simula todos os access points de outro lugar
+[2016-08-23 01:05:21] nossa de mais
+[2016-08-23 01:05:52] esses celulares com processador ARM, podem rodar qualquer programa desses, os da linha nexus tem chips wireless mais abertos
+[2016-08-23 01:05:52] quero tirar minha certificacao em cyber seguranca...ceh
+[2016-08-23 01:05:57] o meu é samsung aí é meio complicado
+[2016-08-23 01:06:41] pra isso modo monitor...driver ainda nao tem muito pra celular
+[2016-08-23 01:06:57] depende só do chip, alguns usam chips comuns
+[2016-08-23 01:06:57] bcmon é o canal
+[2016-08-23 01:07:08] e reaver ja roda
+[2016-08-23 01:07:10] outros usam chips proprietários
+[2016-08-23 01:07:18] broadcom
+[2016-08-23 01:07:40] aircrack vi em celular
+[2016-08-23 01:07:58] em celular wep até vai, wpa é bom pra capturar, pra quebrar tem que ser pc
+[2016-08-23 01:08:24] verdade
+[2016-08-23 01:08:54] concordo
+[2016-08-23 01:09:08] a não ser que usem telefone, ou data de nascimento
+[2016-08-23 01:09:13] olha o pixie dust pra android ....tem no youtube
+[2016-08-23 01:09:14] ou 12345670
+[2016-08-23 01:09:57] posso te adicionar no privado
+[2016-08-23 01:09:57] uma vez fiz um gerador de wordlist em python
+[2016-08-23 01:10:01] pode sim
+[2016-08-23 09:33:11] gente, me pediram aqui no escritório uma oficina de app inventor
+[2016-08-23 09:33:31] eu queria preparar algo que seja legal pro segmento, que é decoração e design
+[2016-08-23 09:33:43] o que dá pra fazer com ele?
+[2016-08-23 09:33:57] ie, @AlexandreVillares
+[2016-08-23 09:48:42] 😊
+[2016-08-23 09:50:07] Adaptação do 'paint' pra anotar problemas em obra
+[2016-08-23 09:50:42] Ou para colecionar 'referencias' indicação de produtos
+[2016-08-23 09:51:15] pinterest, para decoradores
+[2016-08-23 10:10:12] Essa ideia da erin é muito boa
+[2016-08-23 11:30:48] Doug Cunha joined
+[2016-08-23 11:30:49] Hi Doug !
+[2016-08-23 14:30:53] Vivaldo Junior joined
+[2016-08-23 14:30:54] Hi Vivaldo !
+[2016-08-23 15:26:53] Alguem aqui já usou ou usa o programa CAD BricsCad no Linux? Estou citando justamente pq a revenda disse q trabalha normal no Linux.
+[2016-08-23 15:33:27] @fsanches vc conhece disso, certo?
+[2016-08-23 15:55:53] BricsCad não conheço... é software livre?
+[2016-08-23 16:34:05] Não eh livre , o preço que eh bom, menos de 2 mil reais e roda em Linux ( ainda preciso comprovar isso)
+[2016-08-23 16:40:05] 2 mil reais o.O
+[2016-08-23 16:41:23] Melhor q o AutoCAD kkk e ainda quero comprovar se posso mesmo instalar no Linux
+[2016-08-23 16:51:46] #DICA
+Curso iniciante de programação em Python para mulheres (gratuito):
+http://meetu.ps/2ZG56r
+[2016-08-23 17:44:28] Alguém chegou a ver isso aqui mais a fundo? 
+http://www.dailymail.co.uk/news/article-3754183/Private-lives-exposed-WikiLeaks-spills-secrets.html
+Só consegui pesquisar superficialmente isso e caso alguém tenha qualquer outra informação relevante sobre o caso, tô aceitando.
+[2016-08-23 19:34:15] Hoje vai ao Garoa um dos desenvolvedores do FreeCAD
+[2016-08-23 19:34:15] Que é livre e toda em Linux
+[2016-08-23 19:34:50] (e eu tb tô atrasado, mas ele disse que vai perto das 20h...)
+[2016-08-23 19:39:06] Muito bom, preciso por no Twitter do Garoa isso!
+[2016-08-23 19:49:51] Alguém no Garoa?
+[2016-08-23 19:50:17] Tem gente na porta esperando alguém abrir
+[2016-08-23 19:53:55] Status do Garoa tá aberto  VISH
+[2016-08-23 20:00:58] Acabei de entrar com o Tiago
+[2016-08-23 20:09:45] O status do Garoa ficou como aberto o dia todo...
+[2016-08-23 20:40:39] https://twitter.com/lana_chan_/status/768225470185955328
+[2016-08-23 21:12:28] Electroacoustic Synthesizer From A Single Stepper Motor – Synthtopia
+http://www.synthtopia.com/content/2016/08/23/electroacoustic-synthesizer-from-a-single-stepper-motor/amp/
+[2016-08-23 21:13:46] interessante
+[2016-08-23 21:13:46] Alguem aqui já usou ou usa o programa CAD BricsCad no Linux? Estou citando justamente pq a revenda disse q trabalha normal no Linux.
+[2016-08-23 21:14:18] A empresa onde trabalho está procurando alternativa para o AutoCad
+[2016-08-23 21:14:38] Lá o pessoal parece estar mais inclinado pelo Corel
+[2016-08-23 21:15:04] QCAD
+[2016-08-23 21:15:11] Já testei
+[2016-08-23 21:15:29] Mas para usar formato dwg tem que pagar
+[2016-08-23 21:16:18] Se eu tiver tempo vou tentar escrever um módulo que faça a conversão
+[2016-08-23 21:27:15] #DICA
+Bot para o Telegram, feito em Python, para o OctoPrint:
+http://plugins.octoprint.org/plugins/telegram/
+https://github.com/fabianonline/OctoPrint-Telegram
+[2016-08-23 21:27:17] fabianonline | OctoPrint-Telegram
+
+
+
+Language: Python
+Forks: 2
+Stars: 20
+Issues: 14
+[2016-08-23 21:32:57] Existe algum perigo do ponto de vista legal de você fazer um artefato assim?
+[2016-08-23 21:33:20] (Em países onde a lei é respeitada, claro. Aqui no Brasil é palhaçada)
+[2016-08-23 21:33:31] Então
+[2016-08-23 21:33:33] (No México também, antes de mais nada)
+[2016-08-23 21:36:01] Tem um programa de conversão   com uma licença mais amigável
+[2016-08-23 21:36:45] Não me lembro de cabeça qual mas se não me engano posso usar na empresa sem problema
+[2016-08-23 21:37:09] Digo por engenharia reversa do formato
+[2016-08-23 21:37:09] OpenDWG Teigha file converter
+[2016-08-23 21:38:57] Eu só vou direcionar a conversão do arquivo

@@ -1,0 +1,64 @@
+[2017-05-20 00:24:26] Comprou? O $ ta aprovado já
+[2017-05-20 00:48:49] Eu acho que posso!
+[2017-05-20 00:50:58] Obrigado :D, mas já consegui! (faz bem pouco
+[2017-05-20 00:51:00] )
+[2017-05-20 02:00:27] Desculpa desenterrar o assunto. Vale a pena dar uma olhada no Ethereum, é com placa de vídeo e não é viável asic. Cada GTX1060 tem o payback em 4 meses. E é atualmente a segunda maior criptomoeda.
+[2017-05-20 02:01:25] Além do fato que ela quadse sempre fica em contramão do bitcoin, quando o bitcoin dá umas quedas absurdas geralmente ela tem uma picos interessantes ds preço.
+[2017-05-20 02:04:02] inclusive hoje que chegou a .0658, eu vendi um monte e vou pagar as contas de março
+[2017-05-20 02:08:55] Tenho um amigo que em um mês com o meu acompanhamento fez quase 40% de lucro no BTC
+[2017-05-20 02:09:42] Mas também ultimamente não tem nem como errar... tá igual foguete
+[2017-05-20 02:48:14] menos de 100% é prejuízo
+[2017-05-20 09:05:45] Batedor de panela automatizado com Arduino http://www.musiconerd.com/single-post/2017/05/19/Batedor-de-panela-automatizado-com-Arduino
+[2017-05-20 09:24:40] Já começou a BSides? Tem a buscar alguma coisa no Garoa? Cadê o horários dos kids? @anchisesbr @Yumizinha
+[2017-05-20 09:30:24] Guisso... vc vai dar atividade né?
+[2017-05-20 09:30:39] Não recebi seu horário
+[2017-05-20 09:31:25] Ah, sei lá, eu tô q nem garoto de programa, podem usar e abusar de mim
+[2017-05-20 09:35:57] Deleta que da tempo
+[2017-05-20 09:44:33] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_930838074399655034.webp
+[2017-05-20 10:24:14] Vi  valor
+[2017-05-20 11:04:47] Cuidado
+[2017-05-20 11:04:54] :)
+[2017-05-20 11:06:08] Pessoal! Ta rolando palestra ao vivo do Agile Testers Recife : https://www.facebook.com/pg/agiletesters/videos/?ref=page_internal
+[2017-05-20 11:44:07] Alguém por acaso já conseguiu ligar um Nano em um ESP8266 e se conectgar em alguma rede wirelless?
+
+
+Achei diversos exemplos na net. Alguns somente pedindo para ligar o VCC, GND, RX e TX. Dessa forma não consigo conectar a nenhuma rede e nem ver os resultador no monitor de serial do Arduino.
+
+
+Achei outros exemplos onde, além dos 4 conectores, tenho que ligar o CH_PD. Tudo devidamente ligado com alguns resistores. O problema é que nessa configuração, a porta serial simplesmente fica desativada no programa do Arduino.
+[2017-05-20 12:42:54] Tem como usar outro pinos pra fazer a comunicação serial
+[2017-05-20 12:43:50] Pois se usar os pinos 0 e 1 não vai conseguir usar o arduino via seria ao pc
+[2017-05-20 12:45:23] Sei que da pra usar SoftSerial no Arduino, talvez seja a solução... outra coisa, não esquecer que o ESP8266 funciona com 3.3 volts...
+[2017-05-20 12:46:07] #include <SoftwareSerial.h>
+SoftwareSerial monitorSerial(9, 8); // aqui 9 eh RX, 8 eh TX
+
+void setup() {
+  monitorSerial.begin(9600);
+  monitorSerial.println("Teste de mensagem");
+}
+
+void loop() {
+}
+[2017-05-20 12:47:02] No exemplo acima, você conectaria o pino 9 ao RX do Arduino intermediário, e o 8 ao TX dele.
+[2017-05-20 13:21:02] hey brasilenos, donde sacar buenos proxy?
+[2017-05-20 13:26:23] Rafael, estou testando dessa forma e não vai, principalmente na hora de conectar na rede wifi. Não estou usando as portas 0 e 1. Sabe se usar as portas 0 e 1 não conseguirei usar o monitor par pode verificar a comunicação? Como estou com uma tela lcd conectada, posso colocar a resposta da comunição da placa na tela e nao precisar usar o monitor do software do arduino
+[2017-05-20 13:29:54] Eu to querendo saber se dar para torrar café nesse treco
+[2017-05-20 13:30:08] Parece ser interessante
+[2017-05-20 13:37:59] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803120905_56771.jpg
+[2017-05-20 13:39:14] uma pechincha!
+[2017-05-20 13:50:10] 5995 dolares ?? Cacete
+[2017-05-20 14:26:46] Procura o blog do Pedro Minatel. Tem inclusive informações lá de como usar o ESP sem Arduino (o processador é bem melhor que os Atmega de 8bit)
+[2017-05-20 14:29:57] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803734221_105719.jpg
+[2017-05-20 14:30:18] Partiu implantar chip NFC amanhã...
+[2017-05-20 14:34:59] O @PedroMinatel também mantém um grupo no Telegram, mas não tenho o link de convite...
+[2017-05-20 14:35:51] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_826459275206328386.webp
+[2017-05-20 14:52:09] promoção!
+[2017-05-20 14:54:38] É noixxxxx
+[2017-05-20 19:43:38] https://guiadobitcoin.com.br/altcoin-nem-dispara-250-em-07-dias-e-alcanca-marketcap-de-us25bilhoes/
+[2017-05-20 20:00:56] Os dois
+[2017-05-20 20:01:10] Sim, tô usando o terno até hj
+[2017-05-20 20:24:00] Já foi dito aqui que o garoa tá de suplente no cgi?
+[2017-05-20 20:25:13] Já foi dito q a Yumi ganhou, server?
+[2017-05-20 20:26:14] Alguém q venha na BSides poderia emprestar um NodeMCU, ou vender?
+[2017-05-20 20:56:55] O @tilt4 deve ter...
+[2017-05-20 21:14:27] Realmente, roubei o dele

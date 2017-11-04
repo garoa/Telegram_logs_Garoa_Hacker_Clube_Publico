@@ -1,0 +1,32 @@
+[2015-12-17 00:53:25] Anchises (Garoa): Parabéns Juca !!!
+[2015-12-17 00:58:48] Yumi sent document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Este_grupo_só_será_deletado_após_providenciarmos_um_backup._Garoando_na_Terra_dá_Hacking__/download_413438718758617120.webp
+[2015-12-17 01:00:19] Yumi: Parabéns!
+[2015-12-17 01:02:34] Erick Emiliano: Parabéns juca
+[2015-12-17 01:02:53] Erick Emiliano: Depois que assistir star wars vou pro garoa
+[2015-12-17 04:06:24] Erick Emiliano: 70% dos meus contatos estão no Telegram agora
+[2015-12-17 04:08:47] Tobias Sette (forwarded from Gilberto Sudre) sent document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Este_grupo_só_será_deletado_após_providenciarmos_um_backup._Garoando_na_Terra_dá_Hacking__/download_13186773664399369.jpeg
+[2015-12-17 08:48:22] Mike Howard: Aparece um monte de gente no telegram o tempo todo agora
+[2015-12-17 08:56:35] G4b1s: apenas que:
+
+https://twitter.com/telegram/status/677313217866125314
+[2015-12-17 09:01:40] Mike Howard: O certo seria haver um protocolo e todos usarem
+[2015-12-17 09:03:43] Mike Howard: Ridículo isso de ter mil aplicativos mas não haver protocolo estabelecido para transmitir uma linha de texto
+[2015-12-17 11:40:50] Erin Pinheiro: irc tá aí desde 1988
+[2015-12-17 11:41:56] Erin Pinheiro: se quiser segurança tem o OTR, plugin pra vários clientes irc de criptografia ponta a ponta
+[2015-12-17 11:42:17] Felipe "Juca" Sanches: IRC é um protocolo que faz isso já tem décadas!
+[2015-12-17 11:42:30] Felipe "Juca" Sanches: XMPP é outro
+[2015-12-17 11:43:13] Felipe "Juca" Sanches: eu pensei em fazer um pull-request pro Telegram adicionar suporte a IRC
+[2015-12-17 11:43:25] Felipe "Juca" Sanches: assim a gente pode usar a interface bacaninha de mobile
+[2015-12-17 11:43:35] Felipe "Juca" Sanches: que tá todo mundo acostumado a usar
+[2015-12-17 11:43:53] Felipe "Juca" Sanches: e podemos acessar nossos canais prediletos, como o #garoa na freenode
+[2015-12-17 11:44:22] Erin Pinheiro: existem bots que fazem bridge já
+[2015-12-17 14:30:28] Felipe "Juca" Sanches: suporte nativo pode ser melhor
+[2015-12-17 14:31:12] Felipe "Juca" Sanches: por poder ter recursos na interface do programa especificamente criados para dar apoio a funções específicas do protocolo
+[2015-12-17 14:31:54] Felipe "Juca" Sanches: e também por que se a questão é ter um protocolo menos vulneravel a take-down, uma ponte para um serviço centralizado não ajuda muito
+[2015-12-17 14:32:46] Felipe "Juca" Sanches: o que eu estava pensando em fazer era realmente tratar o Telegram como um cliente genérico de chat livre que suporta seu próprio protocolo, mas pode também suportar outros protocolos, como o IRC, por exemplo
+[2015-12-17 14:32:52] Felipe "Juca" Sanches: algo no estilo do Pidgin
+[2015-12-17 14:33:49] Felipe "Juca" Sanches: tá aí... misturar o código de protocolos do Pidgin com o código de interface de usuário mobile do Telegram pode ser uma boa forma de se conseguir um cliente "killer app" de instantmessager para mobile
+[2015-12-17 14:35:06] Erin Pinheiro: acho que foge da premissa do que o telegram é, pra isso já existem outros clientes, mas você quem sabe
+[2015-12-17 14:35:15] Felipe "Juca" Sanches: parece que alguém já fez o caminho oposto: http://www.webupd8.org/2014/11/add-telegram-support-to-pidgin-with.html
+[2015-12-17 14:39:18] Felipe "Juca" Sanches: Bem... dado que o Pidgin já suporta o protocolo do Telegram, o caminho natural é o de portar o Pidgin pra Android...
+[2015-12-17 14:39:20] Felipe "Juca" Sanches: https://pidgin.im/pipermail/support/2012-May/025332.html

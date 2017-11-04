@@ -1,0 +1,132 @@
+[2017-01-09 06:42:46] Oi Vinicius, tudo bem? Você está mais preocupado com a escalabilidade e desempenho da aplicação ou da infraestrutura?
+[2017-01-09 06:56:49] vrdd
+[2017-01-09 06:57:06] quero testar se o load balancer tá funcionando corretamente!
+[2017-01-09 07:00:35] Nesse caso acho que o LoadImpact seria realmente uma boa porque o tráfego vem distribuido de vários lugares. Dá pra fazer com JMeter também, mas aí tem que ter mais cuidado pra ter certeza que vc desenhou o teste certinho - de acordo com a política de session stickness do LB. Se ele balancear por IP, por exemplo, vc vai ter dificuldade de fazer um teste com JMeter e poucas máquinas gerando carga. Se balancear por SESSION_ID, dá pra ir com o Jmeter na boa.
+[2017-01-09 13:17:30] Aquela fita de cobre adesiva, alguém sabe onde conseguir por um preço bom? Rodei a Sta Ifigênia e poucos lugares tem. Na Multi é $39, comprei por $26 na Dabi mas era a última...
+[2017-01-09 14:12:08] Pandeon joined
+[2017-01-09 14:12:09] Hi Pandeon !
+[2017-01-09 14:13:18] Hands On With The First Open Source Microcontroller | Hackaday
+http://hackaday.com/2017/01/05/hands-on-with-the-first-open-source-microcontroller/?utm_content=buffere0da1&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer
+[2017-01-09 14:47:52] O aliexpress alterou as opções de envio quase todos os produtos estão cobrando expedição
+[2017-01-09 14:54:34] eu acabei de comprar aqui... frete grátis
+[2017-01-09 14:54:44] os que vi cobrando eram 1-2 dólares
+[2017-01-09 14:55:14] (não comprei esse risv-v não, comprei um nrf5822 da Nordic)
+[2017-01-09 17:04:39] Yuri Kevin joined
+[2017-01-09 17:04:39] Hi Yuri !
+[2017-01-09 17:15:42] @Biazzotto qual o email mesmo ? Financeiro@garoa.net.br ?
+[2017-01-09 17:16:07] @Biazzotto obrigado
+[2017-01-09 17:39:29] Quem sabe fazer pizza?
+[2017-01-09 17:51:47] Só sei comer :(
+[2017-01-09 17:54:56] Eu sei daquelas da Sadia. Vem escrito atrás e tal
+[2017-01-09 17:54:59] :)
+[2017-01-09 17:58:11] tesoureiro@garoa.net.br
+[2017-01-09 18:20:11] Por que não ajudar as pessoas a fazerem sua própria? #maker
+[2017-01-09 18:26:15] Eu sei ...
+[2017-01-09 18:26:49] Mas se for sábado vou ter que levar a minha família rsrs
+[2017-01-09 18:27:06] Posso ensinar
+[2017-01-09 18:28:31] Sábado ? Que horas?
+[2017-01-09 18:28:34] Provavelmente sim, o julgamento das horas complementares, pelo menos na ufscar, é bem de boas
+[2017-01-09 18:30:13] Top
+[2017-01-09 18:30:35] Qual horário sugerido? Só posso de dia.
+[2017-01-09 19:19:14] Também sei. É bem fácil. Principalmente se ainda tiver aquele processador na cozinha.
+[2017-01-09 19:19:33] Senão é só arregaçar as mangas.
+[2017-01-09 19:20:44] Mas não sei se terei disponibilidade no sábado.
+[2017-01-09 19:21:04] Vou colocar a receita que eu uso na Wiki.
+[2017-01-09 19:26:50] Tem alguém no garoa ou indo ? ☔
+[2017-01-09 19:31:52] Estou na IBM... não tem nada agendado para hoje, mas sempre há chance de aparecer alguém...
+[2017-01-09 19:37:23] 👍
+[2017-01-09 19:56:25] Os gatos tb?
+[2017-01-09 20:17:32] Acho que não
+[2017-01-09 20:25:53] Pessoal, to em duvida se vou na CryptoraRave ou na BsidesSP, recomendam alguma??
+[2017-01-09 20:26:18] Ambas
+[2017-01-09 20:26:32] Bsides não fui mas só escuto coisa bacana
+[2017-01-09 20:26:59] Vai nas duas
+[2017-01-09 20:27:43] sou do Paraná, interior do Paraná...se o chefe deixar o dinheiro der eu vou kkkk. Mas soh queria uma opiniao mesmo, se compensa ir nas duas como tinha lido num site
+[2017-01-09 20:28:30] Tem o roadsec tb que roda o país, acho q vai ter no Paraná
+[2017-01-09 20:28:43] sim, vai ter em Curitiba axo que no mes 09
+[2017-01-09 20:29:26] Alguém no garoa ou indo?
+Preciso dar uma passada lá e to sem chave... :(
+[2017-01-09 20:30:44] Mas porque tá sem chave?
+[2017-01-09 20:33:01] Ficou em casa... Não ia passar lá hoje, mas aí lembrei que precisaria
+[2017-01-09 20:33:09] Meii mundo morrendo de vontade de ter chave e ser associado, e aí o cara consegue, e... deixa a chave em casa
+[2017-01-09 20:33:19] Hauhauhau
+[2017-01-09 20:33:29] Acontece... Hehehe
+[2017-01-09 20:34:46] Precisamos mais associados... com chave
+[2017-01-09 20:35:24] Exato kkk
+[2017-01-09 20:35:29] Fato!
+[2017-01-09 20:35:53] Várias vezes associados passam por perto e falam, "ei, alguém tem chave"
+[2017-01-09 20:36:43] Devíamos é colocar uma forma de abertura "biométrica"
+[2017-01-09 20:37:01] Tem uns vídeos na internet do Mitch Altman distribuindo chave do noisebridge, no mundo todo
+[2017-01-09 20:37:15] Abertura por SMS, por exemplo
+[2017-01-09 20:37:53] Manter uma chave reserva "escondida"
+[2017-01-09 20:42:52] Exatamente o que eu pensei, mas falei com algumas.pessoas é já falaram q tinham alguns problemas
+[2017-01-09 20:44:12] Acho mudar uma fechadura dá.cozinha seria.mehor
+[2017-01-09 20:44:40] Tem o portão antes... Hehehe
+[2017-01-09 20:45:37] Exato, o portão é só controlar um relezinho e já era
+[2017-01-09 21:00:22] Qualé as das pizza?
+[2017-01-09 21:04:28] Sabe fazer pizza?
+[2017-01-09 21:17:26] @michaelhoward9 Completa lá: https://garoa.net.br/wiki/Oficina_de_Pizza
+[2017-01-09 21:18:10] 🙄
+[2017-01-09 21:24:52] Haha, parece q alguem sentiu a indireta direta kkk
+[2017-01-09 21:37:37] Direta né gatenho?
+[2017-01-09 21:44:08] De gancho ainda kkk
+[2017-01-09 22:21:14] De preferência associadas, esse clube tem Cebolinha demais, falta mais Mônica
+[2017-01-09 22:29:48] Sou totalmente a favor!! 👏👏👏👏
+[2017-01-09 22:44:57] Vdd
+[2017-01-09 22:45:33] Mostrar q o garoa é um ambiente legal
+[2017-01-09 22:45:56] Eu não reclamaria... Pelo contrário!
+[2017-01-09 22:46:15] Aliás, to fazendo minha parte e tentando levar umas amigas pra lá... Vamos ver.
+[2017-01-09 22:47:27] ae simm! 👏👏👏👏
+[2017-01-09 22:50:27] GNT só não me associei ainda pq a verba num tá dando e eu moro do outro lado da pqp...
+[2017-01-09 22:50:56] Vi q vai ter um encontro do grupy sp q vai ser aí
+[2017-01-09 22:53:52] Distancia ñ é problema, eu moro exatamente a 261Km do Garoa
+[2017-01-09 22:54:30] Vem @jtemporal ! Tô cansado de ficar olhando pras caras feias do @tilt4, @erickemi e até do @fernandoGuisso, que não mora, se esconde...
+[2017-01-09 22:58:01] Olhar, falar q não é agradável olhar pra sua cara tb não, mas vc troca umas ideias legais pelo menos kkk
+[2017-01-09 22:58:37] Tamo tudo no mesmo barco...
+[2017-01-09 23:01:15] Kkk
+[2017-01-09 23:21:15] Por falar nisso, preciso entregar a chave do @rodzil...
+[2017-01-09 23:23:58] Vou levar um amigo meu do Rio de Janeiro, para conhecer o Garoa...
+[2017-01-09 23:24:06] Vou fazer um esforço  assim q a vida regularizar pra começar a ir aí galera :)
+[2017-01-09 23:24:51] Nossa esse título de se esconder sempre foi meu já vi q tem gnt pior hahah261km deve ser algum recorde
+[2017-01-09 23:27:41] Hauahau
+[2017-01-09 23:28:35] vem pra campus, né?
+[2017-01-09 23:31:45] Leve! Vai ficar tão animado quanto eu.
+[2017-01-09 23:37:34] É o Filipe Dornelas... ele estava no PythonRio, lá na InfNet...
+[2017-01-09 23:40:01] Desconheço por nome.
+Sou péssima nisso :B
+[2017-01-09 23:40:43] Tudo bem, também sou... hahahaha...
+[2017-01-09 23:43:10] Tem uns exercícios por aí pra ajudar a memorizar coisas
+[2017-01-09 23:43:17] Nomes etc
+[2017-01-09 23:43:39] Funciona
+[2017-01-09 23:43:45] Como?
+[2017-01-09 23:44:47] isso que eu nem sou associado ainda, imagina quando for :D
+[2017-01-09 23:45:08] Nunca serão! Jamais serão!
+[2017-01-09 23:45:38] Técnicas de memorização... Vc liga uma informação a outra, aparentemente sem ligação, mas que faz sentido pra vc
+[2017-01-09 23:45:58] Pelo menos é assim que aprendi e vem dando certo há uns anos
+[2017-01-09 23:46:31] Principalmente quando precisava decorar uma série grande de numeros
+[2017-01-09 23:47:57] Verdade, melhor não colocar na ata do CMC, pq ai a gente vai só pra recusar sua associação kk
+[2017-01-09 23:48:31] Vou tentar
+[2017-01-09 23:48:36] Sou muito esquecido
+[2017-01-09 23:48:39] Precisamos uma brincadeira pra fazer pizza geek
+[2017-01-09 23:49:00] vai me trolar tb caipira?
+[2017-01-09 23:49:02] Fazer um Pizza Pokébola? rs
+[2017-01-09 23:49:03] Talvez fazer dessas pizza de memorizar
+[2017-01-09 23:49:20] Valores de PI?
+[2017-01-09 23:49:32] Pizza math
+[2017-01-09 23:49:33] já pegou sua chave flnd nisso?
+[2017-01-09 23:49:48] Com certeza, trolar td q vc me trola :P
+[2017-01-09 23:50:06] 3.14159265358979... Só lembro até aí!
+[2017-01-09 23:50:30] Receita de pizza cifrada
+[2017-01-09 23:53:09] Mudando de assunto, alguém sabe algum lugar perto do Garoa q tenha um espaço legal para fazer palestras?
+[2017-01-09 23:53:24] Tecnicas para cortar a pizza em 7 ou 9 pedaços
+[2017-01-09 23:53:44] Fnav
+[2017-01-09 23:53:47] Fnac
+[2017-01-09 23:54:00] google
+[2017-01-09 23:54:02] tem alguns workspaces com auditório na Pedroso
+[2017-01-09 23:55:47] perto?
+[2017-01-09 23:56:10] tem o house of alguma coisa lá na fradique
+[2017-01-09 23:56:24] o toba dele
+[2017-01-09 23:56:31] Praça Victor Civita
+[2017-01-09 23:56:40] da pra ir a pé até o toba?
+[2017-01-09 23:56:44] kk
+[2017-01-09 23:57:17] inbox hehehe

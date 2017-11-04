@@ -1,0 +1,256 @@
+[2017-08-01 10:15:02] Pessoal, alguém pretende ir no garoa hoje à noite?
+[2017-08-01 10:25:51] Este ano, a PythonBrasil[13] conta com 16 palestras ministradas por mulheres. Destas, 13 ministradas por PyLadies ativas em suas comunidades locais. E este número ainda pode aumentar já que a conferência ainda está confirmando a sua grade do evento! Como no ano passado, estamos lançando uma campanha de apoio financeiro para ajudar as PyLadies que de outra maneira não poderiam comparecer ao evento. Qualquer ajuda é muito bem vinda ❤️ Se não puder ajudar financeiramente, ajude compartilhando essa mensagem ❤️ Vamos ajudar a aumentar a visibilidade das mulheres na tecnologia! https://www.catarse.me/pyladies_na_pythonbrasil_13
+[2017-08-01 10:26:08] tlg q tem uma galera chegada no py aqui rs
+[2017-08-01 10:46:48] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_285892071401719735.webp
+[2017-08-01 10:47:16] Eu!
+[2017-08-01 10:50:13] Eu também
+[2017-08-01 10:50:38] Veri nice :)
+[2017-08-01 10:50:44] Boa!
+[2017-08-01 11:00:05] Rafael Muller joined
+[2017-08-01 11:00:05] Hi Rafael !
+[2017-08-01 11:02:21] Opa! Desculpa a intromissão e aparecer de enxerido aqui. Felipe Sanches, vi o trabalho que você fez no VDP do MdPlay, e ele compartilha o mesmo GoaC do novo Mega. Tava curioso em dar uma olhada no dump do DCAT16, mas não localizei ele. Cê tem isso à mão ainda?
+[2017-08-01 11:25:52] GoaC == Genesis on a Chip ? :-)
+[2017-08-01 11:27:09] a rom do DCAT16 eu achei num site
+[2017-08-01 11:27:17] alguém fez o dump e disponibilizou muito tempo atrás
+[2017-08-01 11:27:46] inclusive já deve até mesmo ser parte do romset de alguma versão recente do MAME
+[2017-08-01 11:30:20] Isso, Genesis on a Chip! Eu cheguei a achar o site, mas o link quebrou. Obrigado pela ajuda :)
+[2017-08-01 11:37:51] O desafio tá sendo descobrir se esse GoaC roda travado sempre em 320x240 ou se tem milagre pra fazer ele responder às setagens de resolução em C00004
+[2017-08-01 11:37:51] Obrigado pelo auxílio e presteza
+[2017-08-01 11:37:51] cara... aparece no Garoa algum dia (e me avisa) que a gente bate um papo pessoalmente sobre esse tema que é muito legal
+[2017-08-01 11:39:09] Felipe Augusto added Hatsumi Hashi
+[2017-08-01 11:39:09] Hi Hatsumi !
+[2017-08-01 11:39:52] Você é daqui de São Paulo, Rafael ?
+[2017-08-01 11:43:15] Já visitou o Garoa Hacker Clube alguma vez?
+[2017-08-01 11:44:28] Sou de Bento Gonçalves, no RS. Não tive oportunidade ainda de visitar, mas dando um pulo em SP e tendo tempo, com certeza visito.
+[2017-08-01 11:44:46] ah! Legal
+[2017-08-01 11:44:56] bom... por aí tem o MateHackers, em Porto Alegre
+[2017-08-01 11:45:05] e o FISL...
+[2017-08-01 11:45:28] Como falei no reservado, é muito curioso o funcionamento do RedKid usado nesses aparelhos. Mudaram algumas coisas sei lá pq, e outras deixaram aberto sem documentar.
+[2017-08-01 11:46:02] Ele era famoso por ter som zoado, mas era só setar as flags corretas que ninguém tinha em lugar algum
+[2017-08-01 11:46:56] o que é RedKit ?
+[2017-08-01 11:47:32] RedKid é o nome oficial do GoaC usado no MdPlay, nos Genesis da AtGames e o novo Mega Drive da Tectoy
+[2017-08-01 11:47:47] ah!!!!
+[2017-08-01 11:47:51] Dessa eu não sabia!
+[2017-08-01 11:47:56] É uma implementação licenciada porém não tão fiel, e nele que tem o VDP que você pesquisou.
+[2017-08-01 11:48:09] saquei
+[2017-08-01 11:48:24] Que eles aprimoraram pra suportar as tiles que você devassou, mas quebraram outras coisas
+[2017-08-01 11:48:27] Foi desenvolvido pela AtGames mesmo?
+[2017-08-01 11:48:45] O novo Mega? Foi pela Tectoy.
+[2017-08-01 11:49:14] Mas o GoaC é da DMC, que não faço ideia de que empresa é. Acho que é um braço da AtGames.
+[2017-08-01 11:49:14] não... me refiro a esse redkit. O RedKit foi originalmente feito pela AtGames ?
+[2017-08-01 11:49:31] ah, ok. Então ainda é um pouco nebuloso...
+[2017-08-01 11:49:45] Exatamente. Não tem datasheet desse cara em lugar algum.
+[2017-08-01 11:50:16] tem que arrancar as informações dele na unha. Na força bruta mesmo!
+[2017-08-01 11:50:26] E ele responde a uma penca de comandos sempre nos endereços 0xB00000 a 0xB01????
+[2017-08-01 11:50:50] Exatamente. Eu como não manjo de ASM faço em rom hack mesmo, testando na paciência.
+[2017-08-01 11:51:11] você já tinha conhecimentos sobre programação assembly de motorola 68000 pro MegaDrive antes? Ou aprendeu só agora para essa pesquisa sobre o MDPLAY?
+[2017-08-01 11:51:17] Já o Esrael Neto tem uma versão debug do sistema da Tectoy e brinca à vontade. Ele mesmo desenvolveu.
+[2017-08-01 11:51:42] Sempre programei em alto nível. Tive que mergulhar a fundo em ASM e ainda do 68k
+[2017-08-01 11:51:43] o Neto, sei
+[2017-08-01 11:51:49] ouvi falar desse cara ultimamente
+[2017-08-01 11:52:52] cara... assembly só tem um jeito: coragem, paciência e atenção que no fim tudo dá certo
+[2017-08-01 11:53:08] É o que tô aprendendo hahahaha
+[2017-08-01 11:53:15] :-)
+[2017-08-01 11:53:43] Decompilar as ROMs é de menos, a questão é ter as ferramentas pra compilar. Enquanto isso, decompilo pra aprender e edito na mão mesmo, com hex editor.
+[2017-08-01 11:53:58] ah! E tem que ter muita curiosidade sobre chips e seus datasheets também :-)
+[2017-08-01 11:54:06] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_231345707569643818.webp
+[2017-08-01 11:54:28] Muito mesmo, isso que é o divertido
+[2017-08-01 11:54:54] eu andei programando umas ferramentas pra me auxiliar em disassembly e re-assembly
+[2017-08-01 11:55:12] Mas não serve pro motorola 68000 (ainda)
+[2017-08-01 11:55:37] São ferramentas específicas para análise de bytecode da VM de um outro jogo:
+[2017-08-01 11:55:39] https://github.com/felipesanches/AnotherWorld_VMTools/
+[2017-08-01 11:56:13] mas os conceitos usados alí podem talvez ser generalizados para suportar outras arquiteturas
+[2017-08-01 11:56:31] uma vez feito o disasm correto, fica muito mais fácil alterar o binário
+[2017-08-01 11:57:13] Eu sei que o Neto tem ferramentas pra isso pro hack dele de Sonic 2, mas não tive tempo pra entender bem como tudo funciona
+[2017-08-01 11:57:44] Pra disasm usei o Ida Pro com alguns plugins de debug que não lembro agora, preciso ver no meu PC de casa
+[2017-08-01 11:58:13] E também tem uma ferramenta de DOS, das antigas, que faz disasm bom o bastante só pra ler o código
+[2017-08-01 11:58:24] eu não uso ferramentas proprietárias
+[2017-08-01 11:58:39] pra disasm eu crio as minhas próprias ferramentas
+[2017-08-01 11:58:41] ou uso o MAME
+[2017-08-01 11:58:43] Só existem proprietárias pro Mega
+[2017-08-01 11:58:49] :(
+[2017-08-01 11:59:01] Ida Pro é um exemplo de ferramenta proprietária que eu não uso
+[2017-08-01 11:59:12] o debugger do MAME é fantástico!
+[2017-08-01 11:59:15] Eu não gostei, usei por falta de opção mesmo
+[2017-08-01 12:00:03] Será que ele não precisaria alterações pra rodar essas ROMs de menu do novo Mega? Sei que em emulador ela trava
+[2017-08-01 12:00:29] Tenta chamar os endereços específicos do RedKid, não consegue e morre
+[2017-08-01 12:00:35] bem... uma coisa eu preciso concordar: tem algumas features que fazem falta. Mas a parte fantástica dele é outra. É o fato de que qualquer arquitetura de CPU que eu tiver, basta eu escrever um módulo de emulação (uma descrição do instruction set) e ganho de brinde o debugger
+[2017-08-01 12:01:15] Ah sim, essa versatilidade é muito boa mesmo
+[2017-08-01 12:01:37] por exemplo essa máquina virtual do jogo Another World. Eu escrevi a descrição da VM e ganhei um debugger de brinde no MAME: https://twitter.com/juca_gnu/status/686597622417719296
+[2017-08-01 12:02:29] Precisa escrever a emulação do chip de vídeo
+[2017-08-01 12:02:38] o MAME só suporta o VDP original da SEGA
+[2017-08-01 12:03:03] Na real pro MDI.BIN da Tectoy o VDP original dá conta
+[2017-08-01 12:03:07] https://www.youtube.com/watch?v=snLWzKMR0UsEu fiz alguns patches pra renderizar o VDP customizado da AtGames, como dá pra ver naquele vídeo lá
+[2017-08-01 12:03:20] Mas claro, não implementa tudo que o VDP novo tem
+[2017-08-01 12:03:29] mas tem o mecanismo de carga de rom do sdcard que eu não tenho idéia de como funciona
+[2017-08-01 12:03:49] teria que adicionar isso ao MAME
+[2017-08-01 12:04:02] Esse mecanismo é um dos que ficam nos endereços 0xB?????
+[2017-08-01 12:04:17] sim, talvez (não tenho certeza)
+[2017-08-01 12:04:29] mas é bem provavel que seja isso mesmo
+[2017-08-01 12:04:43] teria que detalhar melhor como funciona, pra gente poder implementar no MAME
+[2017-08-01 12:04:51] aí vai mais um pouco de investigação...
+[2017-08-01 12:05:16] Tanto que no RedKid você seta comportamento (velocidade) do 68k escrevendo em B0001A, e do Z80 em B00012
+[2017-08-01 12:05:26] você tem um MDPLAY aí em mãos ?
+[2017-08-01 12:05:36] Não, só o novo Mega mesmo
+[2017-08-01 12:05:46] ah legal!
+[2017-08-01 12:05:49] Parece que o mecanismo de SD dele é diferente
+[2017-08-01 12:05:50] eu só tenho o MDPLAY
+[2017-08-01 12:06:10] ei! essa informação é importante!
+[2017-08-01 12:06:10] Tudo o que não envolve SD dá pra testar igual em ambos
+[2017-08-01 12:06:39] Tem algum lugar (um wiki talvez) onde essas informações estejam sendo compiladas ?
+[2017-08-01 12:06:49] se não tem, podemos botar no wiki do Garoa
+[2017-08-01 12:07:03] Ainda não, mas eu sugiro fortemente você conversar com o próprio Neto
+[2017-08-01 12:07:13] Ele tá muito na minha frente em destrinchar esses endereços
+[2017-08-01 12:07:42] A coisa tá ficando divertida...
+[2017-08-01 12:07:47] :-)
+[2017-08-01 12:08:18] O que você pode sair na frente é em melhorar o som do MdPlay
+[2017-08-01 12:08:37] é... tô ligado
+[2017-08-01 12:08:42] se tiver solução...
+[2017-08-01 12:08:57] 33FC000300B0001A, 33FC060700B00012, 33FC007700B00018
+[2017-08-01 12:08:58] eu penso nisso há muito tempo já
+[2017-08-01 12:09:12] Cheguei nesses valores e larguei pro mundo já
+[2017-08-01 12:09:13] oi?
+[2017-08-01 12:09:26] São os comandos em binário pra resolver o som
+[2017-08-01 12:09:36] eita!
+[2017-08-01 12:09:38] Escreve 0003 em B0001A
+[2017-08-01 12:09:44] 0607 em B00012
+[2017-08-01 12:09:50] 0077 em B00018
+[2017-08-01 12:10:01] Respectivamente 68k, z80 e psg
+[2017-08-01 12:10:25] Não fica 100% pq tem coisa em hardware pra otimizar
+[2017-08-01 12:10:36] Mas o RedKid finalmente fica no tom certo
+[2017-08-01 12:10:56] uia!
+[2017-08-01 12:11:06] que loucura!
+[2017-08-01 12:11:23] isso altera as frequencias de clock de cada parte do chip ?
+[2017-08-01 12:11:30] Foi muito teste editando em editor hexadecimal pra chegar nisso, sem datasheet
+[2017-08-01 12:11:40] De certa forma altera
+[2017-08-01 12:11:47] Mas não acho que seja mudança literal de clock
+[2017-08-01 12:12:09] essa descoberta é incrível! Parabéns :-D
+[2017-08-01 12:12:10] Ele deve mais é setar velocidade de comportamento, pq não vi nada de tão modular em clock na placa
+[2017-08-01 12:12:31] Obrigado :)
+[2017-08-01 12:12:40] Como disse, a coisa tá ficando interessante
+[2017-08-01 12:12:45] Acho que é só o começo
+[2017-08-01 12:12:59] hoje em dia é comum SoCs possuirem PLLs internos para ajuste programático de clock
+[2017-08-01 12:13:35] Se for esse o caso do RedKid, então é o que descobrimos :)
+[2017-08-01 12:15:37] Os desafios agora são: OutRun tem slowdown no som, não se sabe pq. O VDP não se comporta como deveria e vários jogos bugam. E, o prêmio de ouro, é saber escrever e ler do SD e fazer ROMs que se aproveitem disso.
+[2017-08-01 12:16:42] Aí você tem basicamente um computadorzinho que roda a partir de binários de Mega Drive
+[2017-08-01 12:17:19] oh yeah!
+[2017-08-01 12:17:34] aí vai ter patch de save states pra um monte de jogos
+[2017-08-01 12:17:51] que loucura
+[2017-08-01 12:18:22] e player de VGM a partir de arquivos .vgm do SD
+[2017-08-01 12:18:31] Exatamente
+[2017-08-01 12:18:59] e talvez até mesmo multiplayer usando cartões SD-Wifi ?!
+[2017-08-01 12:19:00] LOL
+[2017-08-01 12:19:14] LOL
+[2017-08-01 12:19:16] Browser no Genesis !
+[2017-08-01 12:19:25] Cara, se der pra fazer isso, o mundo todo pira
+[2017-08-01 12:19:29] Aí acabou o mundo!
+[2017-08-01 12:19:46] O bom é que qualquer ROM tem acesso direto ao metal
+[2017-08-01 12:19:57] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_240639613071261718.webp
+[2017-08-01 12:20:53] Até pode rolar um sim pra "But does it run Linux?" eventualmente
+[2017-08-01 12:21:06] nhé...
+[2017-08-01 12:21:14] acho que não é pra tanto
+[2017-08-01 12:21:36] Ah, do branch atual com certeza não
+[2017-08-01 12:21:48] O sistema é fraco demais pra isso
+[2017-08-01 12:21:56] exato
+[2017-08-01 13:03:38] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_240639613071261793.webp
+[2017-08-01 17:06:11] http://blogtectoy.com.br/hackers-do-bem-como-dois-fas-do-mega-conseguiram-melhorar-o-som-do-console/
+[2017-08-01 17:08:03] Achei interessante a Tectoy estar dando visibilidade para quem está ajudando dar essa tunada no "Novo" Mega Drive .
+[2017-08-01 17:24:30] Esse mega drive novo aceita cartucho ou é fechado como o nes ?
+[2017-08-01 17:26:31] Rafael, Pergunte pro Neto se ele já viu meu vídeo sobre o MDPLAY, o que ele acha e se ele tem interesse em se unir a nós para juntar as informações necessárias para a implementação de um driver de emulação do MDPLAY e do novo Mega Drive no MAME. Eu tenho esse trabalho pela metade e adoraria dar continuidade ao projeto.
+[2017-08-01 18:40:43] Pessoal estou com vontade de conhecer o garoa agora em Agosto
+[2017-08-01 18:40:52] Sou do sul de minas
+[2017-08-01 18:41:22] http://garoa.net.br
+[2017-08-01 18:41:23] Tem hotéis mais em conta em São Paulo?
+[2017-08-01 18:41:29] hostel
+[2017-08-01 18:41:31] tem varios
+[2017-08-01 18:41:32] Alguem indo pro garoa agora?
+[2017-08-01 18:41:32] barato
+[2017-08-01 18:42:01] Quero tipo ir uns 2 dias no garoa
+[2017-08-01 18:42:45] Dá pra fazer bate e volta.
+[2017-08-01 18:43:12] tem hostel que eh 40 reais o dia
+[2017-08-01 18:43:15] o valor de uma pizza
+[2017-08-01 18:43:34] e ainda tem baladinha
+[2017-08-01 18:47:43] Tem razão.
+[2017-08-01 18:47:50] Na região do Garoa tem vários.
+[2017-08-01 18:48:23] https://www.google.com.br/maps/place/CityLights+Hostel/@-23.5629544,-46.694721,16.25z/data=!4m8!1m2!2m1!1shostel+pinheiros!3m4!1s0x0:0xf5b9cbb89d09015e!8m2!3d-23.5619846!4d-46.6931874 Esse, por exemplo, tem diárias a 65 reais e fica a dez minutos de caminhada do Garoa.
+[2017-08-01 18:50:36] Aceita Sd e cartucho
+[2017-08-01 18:56:41] esse aqui tem vagas aparti de 45 reais http://www.garoahostel.com/ e fica entre o garoa e o metro faria lima, da 10min tb caminhando e na rua dele tem um monte de bar
+[2017-08-01 18:57:13] ps.: nam tem nada a ver com garoa hc
+[2017-08-01 18:57:14] aeuahe
+[2017-08-01 19:02:53] https://healthchecks.io/docs/cron/
+[2017-08-01 19:04:35] tem gente interessada em algo tipo "robótica para programadores" ?
+[2017-08-01 19:04:52] se a gente iniciar uma atividade assim?
+[2017-08-01 19:06:29] tudo é divulgacao
+[2017-08-01 19:07:08] e pras pessoas continuarem indo e virar associado
+[2017-08-01 19:07:15] ter uma certa organizacao
+[2017-08-01 19:07:16] ajuda
+[2017-08-01 19:07:33] pq tipo so fazer o povo chegar e falar, te vira ai nao rola mais
+[2017-08-01 19:07:45] tem que ter um horario e especifico o que vai rolar
+[2017-08-01 19:07:53] tipo os quebrando o cerco do gutem
+[2017-08-01 19:07:58] ele coloca Qoc
+[2017-08-01 19:08:05] qoc: testando botnets
+[2017-08-01 19:11:54] Sim =D
+[2017-08-01 19:18:37] Ngm indo pro garoa?
+[2017-08-01 19:19:54] Pessoal vou dar uma olhada
+[2017-08-01 19:20:07] Eu estava indo, mas descobri que a minha chave ficou, por descuido, dentro da bolsa da minha esposa :-P
+[2017-08-01 19:20:16] Brigadao pela as dicas de hotel
+[2017-08-01 19:20:18] Então não tenho como abrir. Se alguém abrir eu apareço.
+[2017-08-01 19:24:56] Opa
+[2017-08-01 19:25:17] Então encontro do processador de 8 bits fica adiado também!
+[2017-08-01 19:26:25] Belez
+[2017-08-01 19:29:23] Um bom motivo para vocês virarem associados: contribuir mensalmente com o Garoa (85 reais mensais) e terem a autonomia (terem uma cópia da chave) para irem lá fazer atividades a qualquer hora, sem ficar dependendo de um associado abrir a porta.
+[2017-08-01 19:30:17] Interesse eu tenho, eventualmente ia conversar contigo e com o Adriano sobre o assunto
+[2017-08-01 19:30:42] :-)
+[2017-08-01 19:30:52] É só falar :-D
+[2017-08-01 19:31:50] O procedimento é simples: anuncia o interesse, na reunião seguinte do conselho é registrado esse interesse e um mês depois é decidido pela reunião seguinte do conselho se sua associação é aprovada.
+[2017-08-01 19:32:11] Já pra pagar, não tem segredo, não precisa ser associado para doar para o clube.
+[2017-08-01 19:35:24] Boa, obrigado!
+[2017-08-01 19:36:30] Eu tô de olho no site. Se o ícone ficar verde eu corro pra lá
+[2017-08-01 19:38:07] Pô! Acabei de pensar em um bot legal aqui pro Telegram... Onde associados possam indicar sua intenção de ida ao Garoa (com uma previsão do horário que pretendem chegar).
+[2017-08-01 19:38:31] E com isso gerar algum tipo de visualização preditiva no site sobre que horas é mais provavel que abra no dia.
+[2017-08-01 19:39:05] Isso só valeria para o próprio dia, pra evitar estimativas erradas com base em planejamento furado de longo prazo.
+[2017-08-01 19:39:53] tipo alguém dizer: "pretendo ir na 4a feira que vem" e aí chegar na 4a feira e a pessoa nem sequer se lembrar e acabar não indo por outros motivos.
+[2017-08-01 19:40:07] previsão no próprio dia tem mais chance de ser realista.
+[2017-08-01 19:40:38] E essa declaração de intenção precisaria ser restrita a quem tem chave (ou seja associados).
+[2017-08-01 19:40:47] Enquanto nao sai o bot o que acha de um grupo so para anunciar se vai estar aberto ou nao?
+[2017-08-01 19:41:21] Acho zoado abrir um grupo novo
+[2017-08-01 19:41:40] E um grupo só de associados já existe
+[2017-08-01 19:42:06] quem topa escrever esse bot ?
+[2017-08-01 19:42:35] jogo pra galera como desafio de programação. Quem assume o trampo ?
+[2017-08-01 19:42:47] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804740207_80584.jpg
+[2017-08-01 19:43:11] Soluçao paleativa . . . O fluxo de msg aqui eh muito grande, as vezes algo de interesse assim some
+[2017-08-01 19:43:42] se for aberto outro grupo, naturalmente teremos 2 grupos com trocentas pessoas. Isso já aconteceu no passado.
+[2017-08-01 19:44:10] Foi uma dor de cabeça unificar os grupos. Eu não gostaria de ver uma separação acontecer de novo
+[2017-08-01 19:51:15] Quem estiver interessado em falar sobre umas atividades de "robotica para programadores" pode falar comigo, com o Marcelo Campos, ou aparecer no Garoa na Sexta à noite, na atividade "Nós Robos" - mik.howard@gmail.com
+[2017-08-01 20:45:29] com certeza
+[2017-08-01 21:01:31] bem rudimentar... acabei de estudar pela primeira vez como se faz um bot e criei esse aqui: https://web.telegram.org/#/im?p=@ChuviscoBot
+[2017-08-01 21:02:46] Falando qualquer bobagem com ele diz se o Garoa tá aberto ou fechado.
+[2017-08-01 21:03:05] Quero implementar mais coisas nele, mas por enquanto não é muito útil. É só um teste mesmo.
+[2017-08-01 21:04:27] Seria legal adicionar comandos específicos. Por enquanto ele é burrão e só faz uma coisa.
+[2017-08-01 21:21:09] Pessoal entre o hotel CityLights e Garoa Hotel, qual é o melhor?
+[2017-08-01 21:21:57] Não achei a diferença de preço tão grande ao comparar os quartos mais baratos
+[2017-08-01 21:24:36] Galera alguém sabe de alguma vaga aí pra developer c++, c# ou até java ?
+[2017-08-01 21:25:34] Tô meio já no desespero aqui. Tá foda, não sei o que acontece
+[2017-08-01 21:26:01] Garoa Hostel! Só pelo folclore!
+[2017-08-01 21:26:02] Dizem que falta gente qualificada e outra que o país tá em crise
+[2017-08-01 21:27:15] Eu sempre passo na frente do Garoa Hostel e sempre acho que seria idiota eu me hospedar lá. É bonitinho por fora. Mas não faz o menos sentido pra mim conhecê-lo, dado que eu moro aqui em SP.
+[2017-08-01 21:27:51] Hahaha! Seria engraçado fazer um GHCamp no Garoa Hostel hahahaha Só pela zoeira.
+[2017-08-01 21:28:59] Pessoal, apenas p lembrar, nesse final de semana agora vai ter a SteamCon, em Paranapiacaba. O Garoa tem 2 trilhas de atividades no evento:
+https://garoa.net.br/wiki/Dumont_Hackercamp
+Apareçam!
+[2017-08-01 21:30:08] E, se alguém aqui estiver indo para o SHA 2017 Hacker Camp nesse final de semana, me dá um toque!
+[2017-08-01 21:31:08] No Garoa Hacker Clube consigo comprar o passaporte hacker ainda?
+[2017-08-01 21:33:49] Não, os passaportes acabaram :(
+[2017-08-01 21:34:22] Traz uns gringos, kiki !
+[2017-08-01 21:37:30] Ou refazemos os nossos! O difícil é conseguir gente interessado p fazer um lote grande e diminuir o custo unitário
+[2017-08-01 21:43:07] você viaja bastante, né? Já carimbou muito o seu ?
+[2017-08-01 21:43:41] Eu fiz o meu rolê por 15 hackerspaces na Europa antes de inventarem essa brincadeira do passaporte, então fiquei só na vontade... quem sabe algum dia eu repita o rolê...
+[2017-08-01 21:51:18] Que pena
+[2017-08-01 21:51:36] ☹️
+[2017-08-01 21:51:45] Que acabou
+[2017-08-01 21:52:09] Meu novo sonho, conhecer alguns hackerspaces na Europa...
+[2017-08-01 22:03:14] Hoje foi meu primeiro dia de aula na FATEC, e uma grata surpresa, o @Sickeira será meu colega de turma...
+[2017-08-01 22:04:16] Que honra hein,sickeira é fantástico kk
+[2017-08-01 22:15:10] Sim, é show...
+[2017-08-01 22:32:56] Aceita cartuchos sim, só alguns que precisam de bank switch dão pau
+[2017-08-01 22:33:22] Vou falar com ele!

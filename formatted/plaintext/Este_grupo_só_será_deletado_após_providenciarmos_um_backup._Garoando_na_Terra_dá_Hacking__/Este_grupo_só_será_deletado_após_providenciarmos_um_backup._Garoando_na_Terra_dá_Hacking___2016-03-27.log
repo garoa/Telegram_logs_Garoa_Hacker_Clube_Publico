@@ -1,0 +1,45 @@
+[2016-03-27 00:29:10] Yumi: juntae conosco
+[2016-03-27 08:13:19] Yumi: Kiki, resolve unzinho aqui?
+[2016-03-27 11:44:38] Yumi: Alguém acordado aí?
+[2016-03-27 11:44:52] Erin Pinheiro: oi
+[2016-03-27 11:44:53] Aurium's Bot: Olá!
+[2016-03-27 11:44:59] Erin Pinheiro: bom dia bot
+[2016-03-27 11:45:12] Yumi: tem um tempinho até o final... se alguém quiser respoder algum de Arduino, ou rev tem uns bem fáceis que não conseguimos fazer
+[2016-03-27 11:49:53] Yumi: Posso mandar os arquivos por email pra facilitar
+[2016-03-27 11:54:08] Erin Pinheiro: o que é o de arduino?
+[2016-03-27 11:54:10] Aurium's Bot: Achei isso na wikipedia: "NB1A, Inclui uma bateria reserva para relógio de tempo real e quatro canais DAC, sendo que a maioria dos clones de Arduino precisam de um shield para ..." 
+Saiba mais sobre Arduino
+[2016-03-27 11:54:24] Erin Pinheiro: mega útil, valeuzão bot
+[2016-03-27 11:54:34] Erin Pinheiro: pelo menos não é nazista igual a tay da microsoft :P
+[2016-03-27 11:55:02] Yumi: o de arduino tem que achar o erro pra encontrar a flag
+[2016-03-27 11:55:28] Erin Pinheiro: hum... posso tentar
+[2016-03-27 11:55:39] Yumi: IRC
+[2016-03-27 11:55:56] Yumi: quer logar no CTF ou quer que te passe por email o zip?
+[2016-03-27 11:56:22] Erin Pinheiro: consegue mandar pelo telegram? acho mas fácil
+[2016-03-27 11:56:57] Yumi: Um membro do Project SKY se infiltrou em uma base do Clube e conseguiu um dos primeiros protótipos do que viria a ser as urnas eletrônicas posteriormente (sim, tudo nasceu com influência deles). Sabemos que esse protótipo pode revelar o verdadeiro funcionamento por trás dos votos, então nos ajude a desvendá-lo. Adicione CTF-BR{} na hora da submissão.
+
+
+Link: https://static.pwn2win.party/da7e0f8883ee0c2f65936f1c79715cb3.tar.gz
+[2016-03-27 11:59:05] Erin Pinheiro: if (i == 10){  
+    if ((numUm == '1') && (numDois == '3')){
+      voto('pt');  
+    }
+    if ((numUm == '1') && (numDois == '6')){
+      voto('pstu');
+    }
+[2016-03-27 11:59:06] Erin Pinheiro: cruzes
+[2016-03-27 12:00:50] Yumi: é uma urna eletrônica, você queria algo sério?
+[2016-03-27 12:02:12] Erin Pinheiro: não entendi o que é pra eu procurar aqui
+[2016-03-27 12:02:14] Aurium's Bot: Achei isso no google: "26 set. 2015 ... Parabéns seu Sérgio muito legal. Podia falar o nome da empresa onde faz a caneca pra eu procurar aqui, sou de Blumenau! Hahahahaha!! ;) ." 
+Visite Diário do Loop #25 - Um passeio pela Blizzard! (@BlizzardCS_PT ...
+[2016-03-27 12:03:16] Yumi: tem quatro desenhos
+[2016-03-27 12:03:38] Erin Pinheiro: é a mesma folha vista de 4 ângulos
+[2016-03-27 12:03:39] Yumi: e isso dá num erro... o código tem um comentário falando da flag, mas não sei onde ele aparece
+[2016-03-27 12:04:22] Erin Pinheiro: quando você dá um voto ele faz uma saída las linhas digitais e depois lê de outras, e esse sinal é resultante dessa maçaroca de TTL aí
+[2016-03-27 12:05:14] Yumi: tem que ver se está computando certo
+[2016-03-27 12:06:32] Erin Pinheiro: e pra isso precisa seguir esse TTL todo
+[2016-03-27 12:18:44] Yumi: você conseque? Nós olhamos, não entendemos direito e estamos programando outro
+[2016-03-27 12:20:16] Erin Pinheiro: não sei
+[2016-03-27 12:20:29] Erin Pinheiro: mas tô tentando recriar o circuito pra ver qual o resultado
+[2016-03-27 12:45:39] Erin Pinheiro: acho que não consigo desvendar isso
+[2016-03-27 12:50:35] Yumi: Fa tb não conseguiu

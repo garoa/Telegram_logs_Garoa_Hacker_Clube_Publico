@@ -1,0 +1,179 @@
+[2017-07-18 04:23:03] Warlinux joined
+[2017-07-18 04:23:03] Hi Warlinux !
+[2017-07-18 08:09:25] ∆ joined
+[2017-07-18 08:09:26] Hi ∆ !
+[2017-07-18 08:11:50] Dan Alec added Gabriela
+[2017-07-18 08:11:51] Hi Gabriela !
+[2017-07-18 08:35:33] Dausacker joined
+[2017-07-18 08:35:34] Hi Dausacker !
+[2017-07-18 08:44:22] @Dausacker Bom te ver por aqui!
+[2017-07-18 08:45:18] Bom dia.
+[2017-07-18 08:45:46] Estamos com um grupo sobre Software Livre na rede Matrix pelo cliente Riot. Riot é 100% Software Livre.
+
+Acesse https://riot.im/app/#/room/#ultraGNU:matrix.org
+[2017-07-18 10:25:46] Lucas Andrade joined
+[2017-07-18 10:25:46] Hi Lucas !
+[2017-07-18 10:36:30] Alguém esta por dentro dos últimos ataques a e-commerce no Brasil?
+[2017-07-18 10:37:03] https://tecnoblog.net/219168/vazamento-fake-senhas-e-commerce-brasil/
+[2017-07-18 10:37:12] 👆🏾esses?
+[2017-07-18 10:37:19] Isso
+[2017-07-18 10:37:47] Então esta tudo de boa?
+[2017-07-18 10:38:14] Aparentemente sim
+[2017-07-18 10:39:04] Vamos ver
+[2017-07-18 10:39:06] Valeu
+[2017-07-18 12:33:52] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_225539119_105887.jpg
+[2017-07-18 13:58:18] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803116891_93783.jpg
+[2017-07-18 14:22:09] Circuitos eletrônicos com Massinha e Papelão? o.O
+[2017-07-18 14:30:44] Da hora kkkkk
+[2017-07-18 14:31:06] Boa tarde alguém tem conhecimento 
+Sobre distro criptografada?
+[2017-07-18 14:31:06] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803113403_91190.jpg
+[2017-07-18 15:02:51] na verdade não é a distro haha
+[2017-07-18 15:02:52] é o filesystem
+[2017-07-18 15:02:54] https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup
+[2017-07-18 15:17:44] ;lembrando que vc tem que criptografar a swap tb.
+[2017-07-18 15:19:17] Na verdade preciso descriptografar para ter acesso ao conteúdo
+[2017-07-18 15:23:54] Falando em Linux, qual a melhor forma de instalar o Mint no PC do lado do Windows 10? Cada vídeo que eu vejo tem uma forma diferente mandando instalar programas obscuros.
+[2017-07-18 15:33:58] Você podia utilizar um medidor de corrente não invasivo: http://www.filipeflop.com/pd-18b9da-sensor-de-corrente-nao-invasivo-20a-sct-013.html
+[2017-07-18 15:37:10] A melhor maneira é primeiro instala o windows usando e depois instala o linux. O mint automaticamente vai detectar a presentação do windows e vai criar uma menu na hora do boot com a opção de escolha
+[2017-07-18 15:37:45] se você não reservou uma partição para o  mint ele pode fazer isto automaticamente
+[2017-07-18 15:48:01] @NavarroFelipe talvez tu tenha EFI nem sempre reconhece, pra fazer dual boot com Windows 10 que tem windows boot manager, precisa desabilidade o secure boot na bios, depois da resize no hd pra ficar com 3 particoes, 1 eh o windows e 2 uma fica o linux e outro eh o swap(4gb só). ai instala o linux com grub na efi e e coloca o windows boot manager no grub, ai na bios coloca pra iniciar o grub em vez do wbm
+[2017-07-18 15:48:17] resumindo eh o jeito que menos buga e tem mais liberdade
+[2017-07-18 15:50:14] É
+[2017-07-18 15:50:46] Vou deixar para instalar depois da viagem
+[2017-07-18 15:51:20] Esse note ainda tem placa de vídeo dedicada, então é mais uma dor de cabeça para rolar na hora da instalação.
+[2017-07-18 15:52:47] eh de boa
+[2017-07-18 15:53:01] pq pra instalar e usar tu vai usar a onboard do processador
+[2017-07-18 15:53:22] ai a dedicada tu usa bumblebee ou algo do tipo pra fazer a gestao de ativar e desativar
+[2017-07-18 15:54:35] faz tempo que nao instalo linux usando um wizard tipo do ubuntu ou mint, mas acho que eles ja vem uma opcao pra verificar essas coisas.. talvez se tu so der boot com o mint ele ja faça esse processo todo que te falei
+[2017-07-18 15:55:33] mas o esquema da bios tem que fazer na mao.. pq secure boot é só pra windows
+[2017-07-18 16:02:20] Tem algumas distros que funcionam com secure boot
+[2017-07-18 16:02:42] o meu rodava suave o windows e ubuntu com secure boot
+[2017-07-18 16:05:50] As efi vem com suporte a bios habilitado de fabrica
+[2017-07-18 16:08:03] Se você perdeu a sua chave privada, sinto muito, dançou. Se você nunca teve a chave privada... bem... é pra isso mesmo que serve criptografia. Alguém não queria que você acessasse os dados e parece que conseguiu o que queria :-D
+[2017-07-18 16:56:43] Sim a intenção de quem fez era essa proteger os dados para ninguém ter acesso conheço uma pessoa que consegue fazer a extração do conteúdo porém ele não vende não dá é nem ensina kkkkk
+[2017-07-18 16:59:28] A única coisa que consegui foi pegar tudo que está aberto na RAM mais para eu conseguir o conteúdo é necessário alguém que também entenda do assunto é conseguir desmembrar
+[2017-07-18 17:00:15] E por que raios você acha que nós iríamos te ajudar a acessar o que não é legítimo que você acesse ?!
+[2017-07-18 17:04:29] Eu só preciso dos Pack de imagens e sons contidos no sistema pois tenho o meu próprio é ainda estou com dificuldade nas imagens pois o processo de fazer captura e depois o designer fazer todos os recortes é muito demorado e esse sistema criptografado pode adiantar o processo
+[2017-07-18 17:05:40] Já tentou falar com o dono do HD ?
+[2017-07-18 17:06:16] ou o dono continua não querendo que você acesse os arquivos ?
+[2017-07-18 17:08:41] .
+[2017-07-18 17:10:57] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803111896_117893.jpg
+[2017-07-18 17:11:43] Rsrsrsrs
+[2017-07-18 17:39:31] 😎
+[2017-07-18 18:04:06] E quem garante que é exatamente essa a sua intenção ?? Se fosse apenas essa a tua intenção, por que não pede ao dono do HD criptografado para lhe dar a senha ?
+[2017-07-18 18:09:04] O sistema dele roda em uma distribuição linux customizada 
+Eu estou fazendo o meu para rodar em iOS e Android .
+Os eu ia tentar explicar para o Felipe é sobre o software  mais vou tentar explicar aqui é esclarecer que não estou tentando furtar a ideia dessa pessoa.
+[2017-07-18 18:10:11] E por que precisa descriptografar o HD da pessoa ?
+[2017-07-18 18:10:35] Só por causa de um pack de imagens e sons no sistema da pessoa ?
+[2017-07-18 18:12:21] Caso tenha força de vontade, Vagner, tu pode aplicar um BruteForce para ir tentando as possíveis senhas do HD
+[2017-07-18 18:12:32] Talvez daqui a alguns milhões de anos tu consiga
+[2017-07-18 18:18:25] Eu estou em um projeto com um programador onde estamos fazendo games de vídeos bingo.
+Onde está sendo feito em aplicativos para ser baixados em Android e iOS 
+Eu já estou á 5 meses no desenvolvimento do mesmo eu estou fazendo captura de imagens de uma placa dedicada  e depois o designer tem q fazer todos os recortes é transparências de cada frames nesse período de 5 meses apareceu esse sistema com o mesmo produto que roda no linux e minha intenção é abrir as imagens para poder agilizar meu projeto.
+Para não ficar dúvidas que estou apenas tentando clonar o sistema dessa pessoa posso mandar video com meu aplicativo já rodando no Android mais como disse ainda falta imagens para a finalização e esse sistema contém elas
+[2017-07-18 18:18:48] Desculpe o tamanho do texto é sem ,
+[2017-07-18 18:19:39] Entendo... Por que você não pede ao dono do HD as imagens e etc ?
+[2017-07-18 18:20:02] Se ele lhe cedeu o HD (acho), ele pode lhe ceder essas imagens que você deseja...
+[2017-07-18 18:20:10] Já tentei comprar dele
+[2017-07-18 18:20:23] E ele vendeu ?
+[2017-07-18 18:22:14] Sem chance
+[2017-07-18 18:22:26] Então ele não deseja que tu tenha as imagens...
+[2017-07-18 18:22:42] Então, se você tenta tira-las a força dele, tentando quebrar a criptografia do HD, será roubo...
+[2017-07-18 18:22:49] E como sabemos, roubo é crime...
+[2017-07-18 18:22:54] As imagens não são dele foram retiradas de u.a placa dedicada importada
+[2017-07-18 18:23:19] Se as imagens não são dele, por que estão no HD dele ?
+[2017-07-18 18:23:26] Se estão no HD dele, logo é dele
+[2017-07-18 18:23:52] Pois ele fez um plágio do game igualmente eu quero fazer mais cada um tem sua finalidade comercial
+[2017-07-18 18:24:46] Então tu quer plagiar do plágio ?
+[2017-07-18 18:25:15] Você quer fazer plágio e quer ajuda??? Tá maluco?
+[2017-07-18 18:25:18] Vagner Se ele não quer lhe ceder as imagens, é direito dele...
+[2017-07-18 18:25:29] Não tem o que você fazer...
+[2017-07-18 18:26:06] Mas como eu disse, tu pode tentar um brute force, daqui a alguns milhões de anos (literalmente) tu pode conseguir a senha e obter os arquivos
+[2017-07-18 18:26:32] Eu sou a favor do plágio...
+[2017-07-18 18:27:06] Mas também sou a favor da privacidade... Se o cara criptografou o HD, não queria que as pessoas tenham acesso aos arquivos
+[2017-07-18 18:27:07] Eu li alguns artigos a respeito quando conseguir isso o designer já vai terminado a anos o restante do serviço
+[2017-07-18 18:27:17] há... então tá. se vira com os advogados depois...
+[2017-07-18 18:27:32] Sim claro o mesmo vou fazer no meu sistema
+[2017-07-18 18:28:28] Então faça você mesmo... Tu escolhe... Tu pode ficar durante milhões de anos tentando achar a senha correta ou criar o sistema
+[2017-07-18 18:30:51] Esse sistema dele é da empresa dona das imagens operam em cassinos clandestinos inclusive no Brasil onde o jogo de casar não é permitido 
+Pq eu quero é fazer para aplicativo de celular e futuramente lucrar com o mesmo mais não com aposta real e sim posso lucrar fé várias outras formas
+[2017-07-18 18:31:42] Qualquer pessoa vai poder baixar meus aplicativos e jogar de forma gratuita
+[2017-07-18 18:32:01] Só estou dizendo a finalidade do meu projeto
+[2017-07-18 18:32:19] "gratuita"... Aham, sei...
+[2017-07-18 18:32:28] Certeza que vai vender os dados...
+[2017-07-18 18:32:32] Eu escolhi esse projeto pois é um dos mais badalados no meio dos games
+[2017-07-18 18:32:56] Já tenho mais de 50% pronto
+[2017-07-18 18:33:10] Vagner Seus pedidos não estão de acordo com a política deste grupo. Peço que pare, ou será banido.
+[2017-07-18 18:33:40] Irmão, ninguem vai te ajudar...
+Se alguem quisesse te ajudar, já teria te chamado em PVT.
+Não é porque tem "Hacker" no nome do Grupo que é desculpa para ilegalidade
+[2017-07-18 18:35:00] Pessoal, não dêem corda. Vamos apenas esperar que o Vagner tome consciência do significado do que estamos tentando explicar. Fica a dica pro Vagner dar uma lida no nosso FAQ, no wiki, para conhecer melhor os valores de Ética Hacker sob o qual opera o Garoa Hacker Clube: https://garoa.net.br/wiki/FAQ#Hackers
+[2017-07-18 18:35:25] Exato... Mas certeza que alguns aqui curte umas traquinagens... HEUHEU
+[2017-07-18 18:36:27] Opa! Discrição é uma Virtude... ehehheeh
+[2017-07-18 18:36:35] EHEHEHHE
+[2017-07-18 18:36:41] Não dêem corda, galera. Por favor. Prefiro que o Vagner fique e aprenda conosco, do que ter que baní-lo.
+[2017-07-18 18:37:30] (apesar de já ter motivos suficientes para tal)
+[2017-07-18 18:41:57] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804206634_95740.jpg
+[2017-07-18 18:42:38] Pessoal obrigado pela compreensão vou me desligar do grupo para não causar nenhum mal estar mais só vou mandar um vídeo para só mostrar que realmente tenho o projeto bem avançado obrigado
+[2017-07-18 19:55:35] Mas eita
+[2017-07-18 19:56:40] Gabriel, dei uma inspecionada no seu cartucho de SNES e a solta parece estar perfeita. Mandou bem!
+[2017-07-18 19:56:47] Deve ser algum problema de software...
+[2017-07-18 19:58:16] Poxa, sério? Eu andei dando uma olhada lá no fórum de repros
+[2017-07-18 19:58:30] Eu fiz os passos direitinho
+[2017-07-18 19:59:02] A gente pode tentar gravar uma rom não modificação e ver se é esse o problema, ambas as roms que a gente tentou gravar são modificadas de alguma forma
+[2017-07-18 20:03:31] exato
+[2017-07-18 20:03:40] talvez seja problema naquele software embaralhador
+[2017-07-18 20:03:52] eu verificaria o código fonte dele pra ver se ele está realmente fazendo a coisa certa
+[2017-07-18 20:04:19] Rapaz o fórum todo usa ele, por isso eu não vi problema
+[2017-07-18 20:05:33] mas se os problemas apareceram, é bom verificar. Podemos estar tropeçando em algum bug específico que não afeta todas as ROMs
+[2017-07-18 20:05:44] me passa o código fonte que a gente verifica junto
+[2017-07-18 20:06:13] Vou ver se esse programa tem código aberto
+[2017-07-18 20:06:26] eita
+[2017-07-18 20:06:35] Alguns jogos checam o tamanho da SRAM como anti piracy
+[2017-07-18 20:06:47] Mas super mario world não faz isso, então não seria um problema
+[2017-07-18 20:06:51] se não tiver, pare de usá-lo e escreva o seu!
+[2017-07-18 20:07:11] Smw tem 16kbit, essa placa que a gente tá usando tem 256
+[2017-07-18 20:07:16] a gente senta junto lá no garoa algum dia e escreve do zero um programinha embaralhador, beleza?
+[2017-07-18 20:07:53] Pode ser, mas além disso a gente teria de ver como tirar um cabeçalho que as roms tem
+[2017-07-18 20:08:50] Tem uma coisa que as roms de snes tem chamada copier header, que os emuladores leem por um motivo específico que eu esqueci. Se a rom tiver esse cabeçalho, não boota no snes. O embaralhado que eu usei também tem uma função de tirar esse cabeçalho
+[2017-07-18 20:10:03] Será aquele slot que eu coloquei pra poder encaixar o eeprom não tá zoado?
+[2017-07-18 20:11:38] eu verifiquei todos os pinos do soquete e ele parece estar com solda boa nos 32 pinos.
+[2017-07-18 20:11:45] posso verificar novamente depois
+[2017-07-18 20:13:03] quando a gente se encontrar novamente no Garoa eu quero estudar junto com você o que exatamente significa esse "copier header", entender o formato dele e sua função. E aí se for necessário fazer um parsing dele pra extrair informações e usá-las para qualquer propósito na geração da ROM limpa pro SNES, a gente senta a bunda na cadeira e programa isso também :-D
+[2017-07-18 20:14:08] Veja isso como uma grande oportunidade de aprendizado. Se você conseguir fazer do zero, desenvolvendo suas próprias ferramentas, os bugs provavelmente terão todos se tornados evidentes, o que significa que você terá aprendido um monte de coisas novas, em vez de ficar assim com dúvidas obscuras...
+[2017-07-18 20:15:14] Sim sim, é que eu não sou muito bom na coisa toda. Por enquanto o que eu sei de programação é o que eu preciso pra trabalhar direito no estágio
+[2017-07-18 20:16:51] O interesse que você demonstrou ter por esses assuntos no dia que você foi lá no Garoa é fora do normal. Com essa curiosidade toda você tem total condição de aprender o que ainda não sabe. É assim que nascem os bons programadores.
+[2017-07-18 20:18:10] Obrigado, tô trabalhando nisso djdjjdhdj
+[2017-07-18 20:22:41] github dando 500
+[2017-07-18 20:22:45] e o desespero agora?
+[2017-07-18 20:23:08] vlw
+[2017-07-18 20:23:11] alguem fez voltar
+[2017-07-18 20:38:03] Ei Felipe, você vai no garoa algum dia essa semana?
+[2017-07-18 20:43:42] vou amanhã, mas o tema da atividade é o PICO-8, então não sei se terei muito tempo para lidar com o cartucho de SNES
+[2017-07-18 20:44:06] dependendo do público que vier para a atividade é provavel que eu fique exclusivamente em função do PICO-8
+[2017-07-18 20:44:49] talvez role eu ir lá conversar sobre o cartucho de SNES no sábado ou no domingo. Mais próximo do final de semana a gente combina isso, ok?
+[2017-07-18 21:22:05] Beleza rapaz, sem problemas!
+[2017-07-18 21:24:19] Alguém tem servos sobrando para vender?
+[2017-07-18 21:24:32] Ou motor de passo
+[2017-07-18 21:24:46] Pequenos
+[2017-07-18 21:49:04] @Blade_Ander joined
+[2017-07-18 21:49:05] Hi @Blade_Ander !
+[2017-07-18 22:59:05] Pessoal,
+
+Eu estou tentando refazer o mapa das impressoras 3D no Brasil:
+
+https://goo.gl/Y09LLr
+
+Mas como ocorreu das outras vezes alguém foi lá e bagunçou algumas localizações, para evitar este problema limitei o acesso de todos apenas para visualização, os que tiverem interesse de se cadastrar devem preencher esta  planilha:
+
+https://goo.gl/HfWxV9
+
+
+Se alguém se voluntariar para ajudar no cadastramento eu agradeço.
+[2017-07-18 23:33:21] Jhefferson joined
+[2017-07-18 23:33:22] Hi Jhefferson !
+[2017-07-18 23:34:04] Hello ✌️🏻
+[2017-07-18 23:38:12] Galera,
+[2017-07-18 23:38:33] alguém manja alguma api de roteirização do google/waze para python?

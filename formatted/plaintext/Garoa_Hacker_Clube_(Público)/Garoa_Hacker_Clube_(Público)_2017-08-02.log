@@ -1,0 +1,81 @@
+[2017-08-02 00:49:03] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_38846012097298894.webp
+[2017-08-02 01:00:30] Nem sei do que se trata
+[2017-08-02 01:08:59] http://bfy.tw/DA4v
+[2017-08-02 08:43:55] Ahauhauahauahauah
+[2017-08-02 09:20:37] http://www.astro.iag.usp.br/~gastao/anima/mov/Orion_3D.mp4
+[2017-08-02 10:03:57] Eu estou mais pra Pânico,  rsrs
+[2017-08-02 10:07:52] Estava torcendo pra ter alguém conhecido, na turma pra me incentivar, muito bom encontrar o @Biazzotto
+[2017-08-02 12:24:13] Ou, para quem não sabe usar o google, pode ir direto no site do evento: http://www.sha2017.org
+[2017-08-02 12:29:49] Ou, pra quem não sabe usar DNS, pode tentar acessar o IP do webserver diretamente: 213.136.11.146
+[2017-08-02 12:30:29] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804206650_107375.jpg
+[2017-08-02 12:30:57] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803111679_133916.jpg
+[2017-08-02 12:31:58] (provavelmente o webserver distingue qual website servir com base no nome de domínio utilizado na requisição ao DNS, por meio de configuração de VirtualHosts)
+[2017-08-02 12:38:11] Sim. HTTP 1.1 em diante requer o cabeçalho de Host
+[2017-08-02 12:38:12] OK, abobrinhas à parte, o site do evento é esse que o Anchises apontou, e se trata de um acampamento hacker que acontece na Europa nesse final de semana agora:  http://www.sha2017.org
+[2017-08-02 12:39:04] E é similar ao Chaos Communication Camp: https://en.wikipedia.org/wiki/Chaos_Communication_Camp
+[2017-08-02 12:40:03] O evento muda de nome todo ano. O anterior era chamado OHM
+[2017-08-02 12:45:53] Observe Hack Make
+[2017-08-02 12:46:06] (evento de "maker"! LOL)
+[2017-08-02 13:07:52] Still Hacking Anyway :) nome massa
+[2017-08-02 13:35:17] E o evento acontece apenas 1x a cada 4 anos
+[2017-08-02 13:35:42] O alemão e o holandês são defasados de 2 anos
+[2017-08-02 13:46:06] E no Brasil nada parecido ?
+[2017-08-02 13:47:08] alguém aqui tem doutorado ou mestrado ?
+[2017-08-02 14:16:21] https://garoa.net.br/wiki/Garoa_Hacker_Camp_2017
+[2017-08-02 14:23:24] Serve em economia?
+[2017-08-02 14:28:35] github.io 'renderiza', transforma, markdown em html (internamente usa Jekyll)
+[2017-08-02 14:29:19] tem algum jeito realmente simples de fazer isso num servidor compartilhado tosco (tipo dreamhost)?
+[2017-08-02 14:29:39] tipo, queria subir markdown numa pasta e servir html
+[2017-08-02 14:30:41] topo até um JavaScript renderizador de markdown que eu possa 'incluir' em todas as páginas...
+[2017-08-02 14:31:58] mestrado
+[2017-08-02 14:32:23] quero ir, tá mais pra TENHO que ir, não se esqueçam de mim
+[2017-08-02 14:32:41] aconselho 👌🏻
+[2017-08-02 14:35:09] De uma olhada no módulo markdown2 de Python
+[2017-08-02 14:37:14] há muitos anos atras, fiz um gerador de blog estático a partir de arquivos texto em markdown usando Python 2, segue código se ajudar em alguma coisa (é bem simples e bem tosco): https://github.com/gustavopr/blog
+[2017-08-02 14:37:16] gustavopr | blog
+
+userdata: (nil)
+
+Language: Python
+Forks: 0
+Stars: 3
+Issues: 0
+[2017-08-02 14:44:13] o Jekyll
+[2017-08-02 14:44:27] vc instala o jekyll e ele faz a conversão
+[2017-08-02 14:44:30] ou o Octopress
+[2017-08-02 14:48:37] Então, mas instalar no dreamhost tá zoado
+[2017-08-02 14:48:37] A real é que eu sou ruim de deploy
+[2017-08-02 14:56:43] então, compartilhado só vai rolar se tiver a opção de instalar via Cpanel da vida
+[2017-08-02 14:56:55] o ideal seria VPS que vc vai lá e instala via CLI
+[2017-08-02 14:57:14] instala o ruby, clona o repo no Github e sobe o stack
+[2017-08-02 14:57:36] vou tentar ver se tem alguma outra opção
+[2017-08-02 16:27:17] Até tem SSH no dreamhost, mas tem que ver o que dá para instalar. Preguiça do Jekyll
+[2017-08-02 16:39:26] https://www.staticgen.com/
+[2017-08-02 16:41:12] Vários desses aí suportam markdown. Escolha seu favorito
+[2017-08-02 16:53:06] Valeu! Vou pesquisar mais um pouco.
+[2017-08-02 16:53:06] Você já viu que meigo o Typora? (um editor de markdown desktop minimalista)
+[2017-08-02 16:54:56] Da para instalar modulos Python via pip no dreamhost. O módulo markdown2 tem writer HTML. Acho que seria a solução mais simples
+[2017-08-02 17:02:34] Então... é bem isso que eu queria fazer. Mas eu sou bem mirim ainda :D
+[2017-08-02 17:04:13] Tipo um app mínimo que lesse o request e entregasse o render de um .md com o mesmo nome do final da URL.
+[2017-08-02 17:05:43] Não sou muito mais que motim também, mas, se precisar de ajuda, posso tentar ajudar. No meu caso, o site não era dinâmico, eu rodava o "renderer" toda vez que criava um .md, e ele cuspia um html estático.
+[2017-08-02 17:06:29] Motim = mirim
+[2017-08-02 17:06:50] Ah, melhor, sobe o .md acessa uma URL de update
+[2017-08-02 17:07:08] E o site cospe os HTML estáticos
+[2017-08-02 17:14:39] Vou dar uma olhada em como eu fazia. Se quiser depois me chama em privado e a gente combina alguma coisa
+[2017-08-02 17:33:23] 👍👍
+[2017-08-02 21:19:01] está em qual curso, mano?
+faço microeletrônica lá.
+[2017-08-02 22:03:17] Nos motores de drones de 4 hélices 2 motores giram para um lado e os outros 2 giram para o outro lado. Eles inclusive tem a inscrição CW e CCW.
+Os motores foram desenvolvidos para girar para um único lado ou seria necessário somente necessário inverter os fios que o liga para ele virar para o outro lado? Pergunto isso pois ganhei 4 motores (2 CW e 2 CCW) e vou dar outro destino a eles e eles terão que girar para o mesmo lado.
+[2017-08-02 22:07:39] Inverte os fios que ele giram para o outro lado
+[2017-08-02 22:08:50] o unico ponto é, se vc ligar um motor CW para girar CCW, o parafuso que segura a helice pode soltar e a helice voar fora
+[2017-08-02 22:09:01] se for usar em um drone, seu drone va icair
+[2017-08-02 22:09:16] para outros usos, não deve ser relevante
+[2017-08-02 22:15:23] Que tipo de motor? Euxo parafuso? Se nao for, nao tem o que se preocupar, só inverter os fios pro esc e pronto
+[2017-08-02 22:17:32] Mestrado
+[2017-08-02 22:19:48] Planetary Protection Officer wanted - https://www.usajobs.gov/GetJob/ViewDetails/474414000
+[2017-08-02 23:40:17] Evandro, é esse motor aqui!!! Vou colocar os 4 para virarem no mesmo sentido
+[2017-08-02 23:40:18] https://www.aliexpress.com/item/New-Arrival-4pcs-Racerstar-2205-BR2205-2300KV-2-4S-Brushless-Motor-2-CW-2-CCW-For/32711696841.html?spm=a2g0s.8937460.0.0.2aPt0R
+[2017-08-02 23:50:55] Esse eh bom voce toma cuidado, a helice solta em sentido oposto
+[2017-08-02 23:51:10] Ele eh eixo de rosca
+[2017-08-02 23:51:29] Ah nao ser que voce consiga um trava helice pra ele

@@ -1,0 +1,109 @@
+[2017-09-28 00:08:09] https://twitter.com/jfagone/status/912361182098542592
+[2017-09-28 01:53:36] https://twitter.com/juca_gnu/status/913264930006163456
+[2017-09-28 03:10:05] Saudações fudebas...
+[2017-09-28 03:10:55] 👍
+[2017-09-28 10:10:13] Pessoal, estamos com vagas no Garoa Hacker Camp, quem mais quer ir?
+[2017-09-28 10:10:33] https://garoa.net.br/wiki/Garoa_Hackercamp_2017_v2.0
+[2017-09-28 15:36:49] Galera, preciso de ajuda, alguém aí usa arch Linux ou algum flavor dele?
+[2017-09-28 15:37:03] Não estou conseguindo instalar o manjaro
+[2017-09-28 15:37:51] Consigo instalar tudo no Notebook, Debian, centos, fedora, Ubuntu, xubuntu, mas o arch ou o manjaro, eu não consigo
+[2017-09-28 15:37:59] O erro é este aqui
+[2017-09-28 15:38:00] vesh, só de arch mano, qual a treta ai?
+[2017-09-28 15:38:38] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804724748_35269.jpg
+[2017-09-28 15:39:01] Este erro da tela
+[2017-09-28 15:39:19] Assim de primeira não sei não mano
+[2017-09-28 15:39:26] depois das 6 eu tento ver
+[2017-09-28 15:39:36] Obrigado
+[2017-09-28 15:40:30] Tudo deu certo, os checksums, a assinatura digital
+[2017-09-28 15:40:45] O pendrive funciona normalmente
+[2017-09-28 15:40:58] Inclusive funciona em outros computadores
+[2017-09-28 15:41:04] estranho
+[2017-09-28 15:41:25] quanto de memory q tem esse pc ai?
+[2017-09-28 15:41:29] Inclusive já tentei como MBR ou GPT
+[2017-09-28 15:41:34] 4gb
+[2017-09-28 15:42:57] 64 bits?
+[2017-09-28 15:43:39] Troca a memória da sua máquina, foi encontrado problema nela. (Verifique também se o seu processador suporta 64 bits).
+[2017-09-28 15:43:56] Aconteceu isso comigo a solução foi substituir a memória.
+[2017-09-28 15:44:00] Não sei no seu caso
+[2017-09-28 15:44:03] Sim
+[2017-09-28 15:44:10] Já substitui
+[2017-09-28 15:44:18] Não subiu ?
+[2017-09-28 15:44:27] Dá o mesmo erro com memória nova
+[2017-09-28 15:44:36] Tirei uma do blister agora a pouco
+[2017-09-28 15:44:56] No bendito Sony Vaio que eu tenho
+[2017-09-28 15:45:05] Dá esse problema de memória
+[2017-09-28 15:45:21] Já até troquei a placa mãe dele por uma nova
+[2017-09-28 15:45:29] Tentei utilizar em outro Notebook
+[2017-09-28 15:45:34] No meu não vai
+[2017-09-28 15:45:37] 😂
+[2017-09-28 15:46:08] Qual é o modelo do seu Notebook ?
+[2017-09-28 15:46:45] Sony Vaio VGB-FW300
+[2017-09-28 15:46:53] Vgn
+[2017-09-28 15:47:49] Parece que o problema é na leitura da imagem, ja tive caso que nao consegui subir uma distro em pendrive, mas consegui em cd
+[2017-09-28 15:48:45] Tirou as palavras da minha boca RS...
+[2017-09-28 15:50:55] Já tentei até gravar CD, DVD e blue-ray com uma unidade externa
+[2017-09-28 15:51:27] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_805512638_8015.jpg
+[2017-09-28 15:51:29] Não fiz nasa
+[2017-09-28 15:51:31] Nada
+[2017-09-28 15:51:49] Bootou como live USB
+[2017-09-28 15:54:09] Kkkk reiciou e ficou de braço cruzado
+[2017-09-28 15:54:12] Kkkk
+[2017-09-28 15:54:41] Sim
+[2017-09-28 15:54:49] Exatamente
+[2017-09-28 15:55:05] Eu estou a umas 6 horas tentando instalar isso
+[2017-09-28 15:55:08] Nem almocei
+[2017-09-28 15:58:24] Tentou outras versoes?
+[2017-09-28 15:58:45] Todas
+[2017-09-28 15:59:03] Até as community Editions
+[2017-09-28 15:59:29] Isso sempre acontece kkk
+[2017-09-28 15:59:51] Não faço ideia do que foi mudado
+[2017-09-28 15:59:57] No apice da experimentação, vc poderia plugar o hd em outra maquina :)
+[2017-09-28 16:00:14] Ou porque o computador rebootou sozinho como live cd
+[2017-09-28 16:00:31] Não tentei isso
+[2017-09-28 16:01:15] Vou tentar.
+[2017-09-28 16:01:29] Isso é coisa bem de micreiro mas vale como experimento
+[2017-09-28 16:02:16] Pode ser algo no firmware do setup mas eu não tenho como me aprofundar
+[2017-09-28 16:04:00] O Notebook usa GPU AMD
+[2017-09-28 16:04:21] Será que tem alguma coisa relacionada com os drivers de vídeo?
+[2017-09-28 16:04:33] Visto que os drivers da AMD são proprietários
+[2017-09-28 16:05:00] E a ideia do arch e do manjaro são exatamente o oposto a isso.
+[2017-09-28 16:07:14] Acho que ainda é mais ligado a leitura, alguem aqui postou um grupo de linux, de repente por la o pessoal tenha alguma solucao, soh sei que nao sao muito solicitos
+[2017-09-28 16:11:14] Vou dar uma busca no grupo, obrigado.
+[2017-09-28 16:12:08] https://t.me/linuxbrgroup
+[2017-09-28 16:14:17] Valeu
+[2017-09-28 16:30:24] Por curiosidade, como vocês gerenciam pacotes instalados no linux com dependências necessárias em alguns programas?
+[2017-09-28 16:30:39] Por exemplo, tenho alguns programas que funcionam com o python 2.7 e outros no 3.x
+[2017-09-28 16:31:00] queria instalar os 2, mas não quero que entrem em conflito
+[2017-09-28 16:31:11] existem alguma espécie de virtualenv para o linux?
+[2017-09-28 16:31:34] eu uso o virtualenv para o python, o RVM para ruby
+[2017-09-28 17:19:25] Garoa está aberto!
+[2017-09-28 17:53:35] hoje de madrugada vai ter anúncio dos planos atualizados do Elon Musk para a colonização de Marte! http://www.spacex.com/mars
+[2017-09-28 18:15:42] tem especulações rolando aqui: https://www.reddit.com/r/spacex/comments/72x2pu/rspacex_iac_2017_prediction_survey/
+[2017-09-28 18:23:58] Já tive bastante esse erro ao bootar arch ao fazer pen drive do de boot do jeito errado. Basicamente tem que montar na mão o device nessa pasta onde ele tenta ler. To fora de casa, não lembro os detalhes
+[2017-09-28 18:24:12] https://out.reddit.com/t3_72ylqs?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dq8G2fWprwyo&token=AQAAwHXNWSXk_vjpryMo2gwGOQL3EbYZ1ecs8g4gPYC3uAWO4Nvq&app_name=reddit.com
+[2017-09-28 18:24:35] Quando terminar o processador de 8 bits, esse aí parece um segundo projeto legal hahaha
+[2017-09-28 18:44:11] Isso já ajuda e esclarece bastante. Preciso aprender direito porque eu mal consegui montar o pendrive na pasta
+[2017-09-28 18:44:45] Você escreveu a ISO em Windows? Usou qual programa?
+[2017-09-28 18:45:45] https://twitter.com/yisucrist/status/913403248425488384
+[2017-09-28 18:47:04] Procurando no Google aqui esse erro com o arch: I got this error using an ISO to USB program on Windows.
+
+The problem was that the filesystem label did not change to 'ARCH_201306' when the program formatted the USB drive. In my case, it was still labelled 'PENDRIVE'.
+
+This is why '/dev/disk/by-label/ARCH_201306' never shows up. The USB drive has the wrong name.
+
+Solution is to rename the USB drive to 'ARCH_201306' (or similar name based on the release date).
+[2017-09-28 18:47:18] https://superuser.com/questions/519784/error-installing-arch-linux
+[2017-09-28 18:47:50] Fiz usando o dd
+[2017-09-28 18:48:51] Em outro PC com manjaro
+[2017-09-28 18:49:27] Da para descobrir qual é o device e montar naquela pasta onde ele reclama que não apareceu no boot por aquela tela mesmo, ou mudando o nome do fs do pendrive. Tenta aí depois e vê se vai :)
+[2017-09-28 18:54:34] Eu gostava mais da época em que gravávamos ISO em CDs. Tinha torres de CDs de várias distros, várias versões. Com pendrive, fica totalmente descartável. Em parte, claro, é consequência das velocidades de conexão muito superiores hoje, antes demorávamos algumas horas para baixar uma ISO de CD, nos incentivando a guardar em uma mídia permanente, hoje baixamos ISO de dvd em alguns minutos.
+[2017-09-28 19:11:52] Esse é o problema, não consigo descobrir o device, ele simplesmente não lista
+[2017-09-28 19:21:37] Descobri a bizarrice que acontece. Se eu plugar o pendrive em qualquer USB sem ser a primeira disponível pela ordem, ele reconhece o pendrive como sdc ou nem reconhecer ele reconhece. Se plugar diretamente na primeira, ele entra como sdb e reinicia sozinho. Mas ele não boota direto, tenho que deixar dar o erro, desplugar, plugar novamente o pendrive e esperar, assim reinicia e entra como live USB.
+[2017-09-28 19:22:42] Alguém no Garoa hj?
+[2017-09-28 19:26:09] Que bizarro
+[2017-09-28 19:28:08] Tamo aí
+[2017-09-28 19:28:40] https://hacktoberfest.digitalocean.com
+[2017-09-28 20:01:13] https://twitter.com/ricbit/status/727201610515013632
+[2017-09-28 20:39:09] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804724336_34253.jpg
+[2017-09-28 20:44:58] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_511189687629523122.webp
+[2017-09-28 23:34:58] Ficou bom demais isso aí hehe

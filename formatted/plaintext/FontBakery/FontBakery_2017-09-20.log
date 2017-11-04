@@ -1,0 +1,50 @@
+[2017-09-20 21:10:59] Group "FontBakery" created
+[2017-09-20 21:11:06] Felipe "Juca" Sanches: Olá!
+[2017-09-20 21:11:13] Cesar Scavone: Opa!
+[2017-09-20 21:11:54] Felipe "Juca" Sanches (forwarded from Anderson Reis): Salve Felipe. Como eu posso contribuir no projeto FontBakery?
+[2017-09-20 21:12:26] Felipe "Juca" Sanches: Acho que o primeiro passo é dar uma olhadinha no repositório do projeto e ver a descrição e um pouco do código
+[2017-09-20 21:12:37] Felipe "Juca" Sanches: https://github.com/googlefonts/fontbakery/
+[2017-09-20 21:13:06] Felipe "Juca" Sanches: Essa ferramenta é uma suite de testes para fontes
+[2017-09-20 21:13:15] Cesar Scavone: Felipe, você vai orientar os iniciantes em programação? Minha experiência é pouca.
+[2017-09-20 21:13:39] Felipe "Juca" Sanches: a função da ferramenta é gerar um relatório de problemas em arquivos de fontes
+[2017-09-20 21:14:40] Felipe "Juca" Sanches: ou em famílias tipográficas (família = conjunto de fontes que compartilham um mesmo aspecto visual, mas com pesos/estilos diferentes, por exemplo, Regular, Bold, Italics, etc...)
+[2017-09-20 21:18:08] Felipe "Juca" Sanches added Jeferson
+[2017-09-20 21:18:23] Felipe "Juca" Sanches: O projeto é todo escrito em python
+[2017-09-20 21:18:48] Felipe "Juca" Sanches: se vocês quiserem eu posso fazer um evento no Garoa algum dia pra dar uma visão geral do projeto
+[2017-09-20 21:19:10] Cesar Scavone: Pode marcar, eu vou.
+[2017-09-20 21:19:24] Jeferson (in reply to Felipe "Juca" Sanches): Opa, eu topo
+[2017-09-20 21:19:30] Felipe "Juca" Sanches: legal
+[2017-09-20 21:19:46] Felipe "Juca" Sanches: vou tentar ver uma data boa aqui na minha agenda e eu aviso aqui
+[2017-09-20 21:20:08] Felipe "Juca" Sanches: por enquanto podemos ir conversando por aqui mesmo
+[2017-09-20 21:20:27] Felipe "Juca" Sanches: vocês conhecem o projeto Google Fonts ?
+[2017-09-20 21:27:09] Jeferson (in reply to Felipe "Juca" Sanches): Css?
+[2017-09-20 21:30:37] Felipe "Juca" Sanches: o Google Fonts é um acervo de tipografias livres
+[2017-09-20 21:30:41] Felipe "Juca" Sanches: mantigo pelo Google
+[2017-09-20 21:31:13] Felipe "Juca" Sanches: tem 800 e poucas famílias tipográficas disponíveis (o que significa um total de cerca de 3 mil fontes livres)
+[2017-09-20 21:32:17] Jeferson: Vou dar um google mais fundo no assunto
+[2017-09-20 21:41:15] Felipe "Juca" Sanches: Os designers de páginas web podem usar essas fontes em seus sites
+[2017-09-20 21:42:03] Felipe "Juca" Sanches: entrando no site google.com/fonts dá pra navegar no acervo e escolher as fontes desejadas e o site informa qual o trecho de HTML/CSS que precisa ser adicionado a um site para usar aquelas fontes escolhidas
+[2017-09-20 21:42:57] Felipe "Juca" Sanches: O FontBakery é uma suíte de testes que ajuda os designers a corrigirem todos os problemas que possam existir nas fontes antes delas serem disponibilizadas no site do Google
+[2017-09-20 21:43:34] Felipe "Juca" Sanches: Esse é o principal objetivo do FontBakery: Controle de qualidade para o acervo do projeto Google Fonts.
+[2017-09-20 21:43:58] Felipe "Juca" Sanches: Mas também é útil como ferramenta genérica para controle de qualidade de qualquer fonte tipográfica
+[2017-09-20 21:44:07] Felipe "Juca" Sanches: todo o código é escrito em python
+[2017-09-20 21:45:28] Felipe "Juca" Sanches: e a principal parte são os testes em si, que estão implementados aqui: https://github.com/googlefonts/fontbakery/blob/master/Lib/fontbakery/specifications/googlefonts.py
+[2017-09-20 21:46:14] Felipe "Juca" Sanches: Dá também pra instalar o FontBakery a partir do PyPI: https://pypi.python.org/pypi/fontbakery/
+[2017-09-20 21:46:47] Felipe "Juca" Sanches: De tempos em tempos eu faço um release novo. No momento estou trabalhando no desenvolvimento do que será em breve a versão 0.3.2
+[2017-09-20 21:47:31] Felipe "Juca" Sanches: Os bugs que falta resolver antes de lançar a versão 0.3.2 são esses aqui: https://github.com/googlefonts/fontbakery/milestone/57
+[2017-09-20 21:48:39] Felipe "Juca" Sanches: Se vocês quiserem dar uma lida no código e talvez também em alguns dos bugs do nosso bug-tracker, eu posso tirar dúvidas pra esclarecer o que eles significam. É só perguntar aqui que eu tento esclarecer.
+[2017-09-20 21:52:00] Felipe "Juca" Sanches changed group photo
+[2017-09-20 22:01:25] Jeferson: Amanha eu consigo olhar o repo
+[2017-09-20 22:01:37] Felipe "Juca" Sanches: ;-)
+[2017-09-20 22:01:38] Jeferson: E me familiarizar com os codigos
+[2017-09-20 22:01:59] Jeferson: Consigo separar um tempo no trampo msm pra ler
+[2017-09-20 22:02:32] Felipe "Juca" Sanches: cada um no seu rítmo. Ficarei feliz se eu coneguir ajudar alguns de vocês a conhecerem de perto como funciona um projeto de software livre (caso já não conheçam, claro)
+[2017-09-20 22:10:39] Jeferson: Eu ainda nao conheco,  mas to imteressado
+[2017-09-20 22:10:59] Jeferson: E no processo de engenharia de software na pratica tbm
+[2017-09-20 22:27:15] Felipe "Juca" Sanches: haha
+[2017-09-20 22:27:28] Felipe "Juca" Sanches: eu não faço engenharia de software. Eu faço software. :-D
+[2017-09-20 22:28:04] Felipe "Juca" Sanches: Tem um alemão no time que ajuda a dar umas reorganizadas gerais no projeto. Mas em geral a coisa é feita no dia-a-dia aos pouquinhos
+[2017-09-20 22:28:07] Felipe "Juca" Sanches: adaptando
+[2017-09-20 22:28:12] Felipe "Juca" Sanches: e melhorando graduamente
+[2017-09-20 22:33:14] Jeferson: Rsrsrs...de boa
+[2017-09-20 22:33:41] Jeferson: Seria um "continuous delivery"?

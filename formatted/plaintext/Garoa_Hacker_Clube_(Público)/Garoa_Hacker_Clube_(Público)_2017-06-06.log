@@ -1,0 +1,101 @@
+[2017-06-06 02:09:04] E ae, galera. Tô criando um chatbot em flask seguindo um tutorial. Os arquivos de Procfile, runtime e requirements devem ficar no gitignore ou não?
+[2017-06-06 08:29:06] fiquei, mas n defini ainda hihi a vdd eh q to vendo aqui pq talvez tenha que desmarcar =/
+[2017-06-06 09:44:41] depende, vc quer que esses arquivos sejam versionados?
+[2017-06-06 09:44:53] se sim, não podem estar
+se não, você deve coloca-los nessa lista
+[2017-06-06 09:47:21] Nao sei... O heroku vai reconhecê-los se eu colocar no gitignore?
+[2017-06-06 09:48:03] o deploy do heroku é pelo git?
+[2017-06-06 09:48:23] To integrando ao git
+[2017-06-06 09:50:35] então precisam estar fora do gitignore se não os requerimentos e etc não vão instalar
+[2017-06-06 10:21:07] O que estiver no .gitignore não será deployado
+[2017-06-06 10:21:17] Ficará localmente na sua máquina
+[2017-06-06 10:21:49] Então, não, você não deve colocar o Procfile no .gitignore
+[2017-06-06 10:30:40] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803111477_85033.jpg
+[2017-06-06 10:30:45] vamo que vamo, né
+[2017-06-06 10:30:47] =/
+[2017-06-06 10:44:52] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_328774854541050478.webp
+[2017-06-06 11:21:43] Alguém tem o link ai daquela lista de grupos do telegram
+[2017-06-06 11:21:49] mais especificamente a de Ruby
+[2017-06-06 11:27:13] Opa, qual sua dúvida? posta na lista do Guru-SP:
+https://groups.google.com/forum/#!forum/ruby-sp
+[2017-06-06 11:29:08] Pra fazer microservices com Ruby precisa do Rails?
+[2017-06-06 11:29:13] ou tem outro jeito?
+[2017-06-06 12:12:50] Geraldo Barros joined
+[2017-06-06 12:12:51] Hi Geraldo !
+[2017-06-06 12:13:00] Hi
+[2017-06-06 12:37:14] Boa tarde, pessoal
+[2017-06-06 12:37:28] Queria convidar a todos pro nosso primeiro MeetUp da comunidade KDE aqui em sampa
+[2017-06-06 12:37:30] https://www.meetup.com/pt-BR/Kafe-com-Qt-Sao-Paulo/events/240478445/
+[2017-06-06 12:39:03] vai rolar uma apresentacao sobre a comunidade KDE, como contribuir (com ou sem codigo), uma breve introdução ao Qt direcionado ao KDE
+[2017-06-06 12:39:56] e tb vai rolar uma apresentação do pessoal da Stone sobre como eles estão utilizando Qt
+[2017-06-06 12:40:03] espero todos lá :)
+[2017-06-06 13:19:54] Ué, microserviços pode user qualquer framework q vc quiser. Ou até nenhum :) 
+"Rails apps tend to be monolothic, but there's no reason you can't architect them as microservices. ""
+[2017-06-06 13:24:49] Eu iria de Ruby puro...
+[2017-06-06 13:24:55] Rack, talvez
+[2017-06-06 13:46:28] Allan BSV joined
+[2017-06-06 13:46:28] Hi Allan BSV !
+[2017-06-06 13:47:42] Obrigado, Gutem e Vinicius
+[2017-06-06 13:58:05] Foi o q tinha ouvido falar, mas ai se for no puro, como vc expõe um microservice desse? na vale falar apiRest, ah não ser q for a melhor forma
+[2017-06-06 14:33:56] Calma, Jovem...
+Uma Boa Prática é NUNCA expor o Serviço... Por isso existem APIs Publicas e Privadas
+[2017-06-06 14:34:38] Vc faz uma API Publica (SOAP, REST, GraphQL) e essa API conversa com o Serviço
+[2017-06-06 14:35:29] Caso seja um Serviço que dependa do DB, faça um "Notifier" que faça "Fila" no Serviço
+[2017-06-06 14:36:26] Isso, claro, se vc quiser seguir um Startup-Cloud-Hipster-Stack da vida...
+[2017-06-06 14:39:21] RabbitMQ? é Hipster?
+[2017-06-06 14:40:56] Não sei... Vai usar ele pra o que Ele foi feito para ser usado ou vai inventar?
+[2017-06-06 14:42:41] Tava pensando em usar pra fazer um Rest
+[2017-06-06 14:42:43] -_-
+[2017-06-06 14:44:07] ¬¬
+[2017-06-06 14:44:31] :*
+[2017-06-06 14:44:38] S2
+[2017-06-06 14:44:43] <3
+[2017-06-06 14:54:37] mas pq a pergunta? acho que nesse mes ele já será aprovado.
+[2017-06-06 14:55:16] @grupos_ti »»>
+[2017-06-06 14:56:14] https://telegram.me/rubybrasil
+[2017-06-06 14:58:11] meio tarde, já tinha achado, mas vlw
+[2017-06-06 15:28:08] Fotos da gravação do filme Dragon Ball.
+[2017-06-06 15:30:17] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803114507_67294.jpg
+[2017-06-06 15:41:18] Alguem aqui é SysAdmin?
+[2017-06-06 15:42:38] Eu :)
+[2017-06-06 15:42:42] Ao menos eu era :)
+[2017-06-06 15:43:00] Era? Mudou de Vida? rs
+[2017-06-06 15:43:16] Tenho feito mais trabalho de automação de infra e apoio a deploy
+[2017-06-06 15:48:09] @georgessilva mas ele já é meu, sai fora kkk
+[2017-06-06 15:51:57] ai deh devops auheau
+[2017-06-06 15:55:04] Isso é treta :)
+[2017-06-06 15:55:10] DevOps não é função :)
+[2017-06-06 16:05:35] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_1527281080443338828.webp
+[2017-06-06 16:07:59] Now we're talking!
+[2017-06-06 16:10:09] Opa!
+[2017-06-06 16:10:25] Essa treta vai longe…
+[2017-06-06 16:13:08] Eu acho que tenho trabalhando demais, porque tem tanta mensagem não lida nesse telegram…. tem grupo com mais de 2.000 mensagens não lidas (wft!). Parece que eu dormi e acordei no ano 2097.
+[2017-06-06 16:14:48] @Gomex Me perguntaram esses dias se será possível comprar o seu livro impresso, mesmo depois da campanha.
+[2017-06-06 16:19:41] A 9Bravos terá alguns poucos exemplares :)
+[2017-06-06 16:20:40] Show.
+[2017-06-06 16:21:14] Neste próximo Meetup na thoughtworks você estará presente ?
+[2017-06-06 16:26:07] Do Docker?
+[2017-06-06 16:26:09] Com certeza :)
+[2017-06-06 16:26:11] Dia 14
+[2017-06-06 16:26:28] Gutem o que precisa ? posso ajudar ?
+[2017-06-06 16:28:06] Isso. Legal.
+[2017-06-06 16:28:51] Olás
+[2017-06-06 16:30:35] olas
+[2017-06-06 17:34:02] Oi more..
+[2017-06-06 18:52:24] Sobre KDE??? Opa, interessante..
+[2017-06-06 20:31:53] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803721918_136496.jpg
+[2017-06-06 20:31:53] Isso são 4 kits de 65 jumper wires cada. Custou 78 reais e estou doando pro lab de eletrônica do Garoa. Custou 30 centavos cada fiozinho, então cuidem bem, por favor.
+[2017-06-06 20:47:18] Ae galera, tem previsão para a volta do grupo de estudos de python no garoa?
+[2017-06-06 20:48:24] Teve ontem, segunda
+[2017-06-06 21:10:53] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_135158025190114360.webp
+[2017-06-06 21:37:10] Pergunta de noob: Há algum problema/desempenho zuado se eu usar uma distro Linux x64 em um PC com menos de 4gb de RAM?
+[2017-06-06 21:38:17] Depende da distro, depende do q tu vai ter nela, tem q especificar mais a pergubta
+[2017-06-06 21:41:42] Quero montar um live USB para usar em PCs públicos, vejo a galera fazendo isso nos PCs da federal do ABC, especificamente: Usar a net, algum office e programar em python usando bicliotecas científicas/data science. 
+
+Sei que os PCs da ufabc tem pelo 4gb de RAM, mas vou começar a Tb a colar em bibliotecas públicas de São Paulo e tals, aí não manjo do PCs desses lugares
+[2017-06-06 21:45:45] Já fiz isso de ter um live USB. Não percebi nenhuma piora significativa no desempenho usando uma distro x64 mesmo em computadores mais antigos
+[2017-06-06 21:45:48] Devo colocar a distro Linux Lite ou Puppy
+[2017-06-06 21:46:13] Usava Debian com Mate, que não é a coisa mais leve do mundo
+[2017-06-06 21:46:25] Até o Tails, que usa GNOME, dá pra usar
+[2017-06-06 21:46:56] Daora
+[2017-06-06 21:50:23] Inclusive a partir de julho (não lembro o mês exato) o Tails não terá mais suporte a computadores 32 bits

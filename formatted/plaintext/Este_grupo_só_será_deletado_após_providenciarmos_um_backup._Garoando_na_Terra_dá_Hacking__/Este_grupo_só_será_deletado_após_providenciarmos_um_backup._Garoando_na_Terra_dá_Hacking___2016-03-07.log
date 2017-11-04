@@ -1,0 +1,97 @@
+[2016-03-07 12:09:40] Felipe "Juca" Sanches: https://twitter.com/juca_gnu/status/706855007967174657
+[2016-03-07 13:37:11] Alexandre Villares: Juca, legal! Quando você vai continuar?
+[2016-03-07 14:03:27] Felipe "Juca" Sanches: Algum dia dessa semana. Ou talvez no final de semana. Não sei ainda.
+[2016-03-07 14:04:18] Alexandre Villares: 👍👍
+[2016-03-07 14:13:11] Luiz "LG" Martinez: Pessoal, alguém vai no InfoSec amanhã?
+[2016-03-07 14:13:34] Luiz "LG" Martinez: Vamos falar um pouco sobre CTF e futuros encontros.
+[2016-03-07 14:14:21] Luiz "LG" Martinez: Btw... Alguém quer apresentar algum assunto em um dos encontros??
+[2016-03-07 14:16:40] Erick Emiliano (in reply to Luiz "LG" Martinez): Eu
+[2016-03-07 14:16:55] Erick Emiliano: Quem vai abrir amanhã?
+[2016-03-07 14:17:01] Erick Emiliano: Isso é bem importante
+[2016-03-07 14:34:57] Luiz "LG" Martinez: Boa pergunta. rsrs
+[2016-03-07 16:56:25] Aurium's Bot: Twitter Search / juca_gnu  — 7 de março, 11:52
+[2016-03-07 17:00:06] Felipe "Juca" Sanches: o bot do aurium ficou doidão
+[2016-03-07 17:00:08] Felipe "Juca" Sanches: hahaha
+[2016-03-07 17:00:34] Felipe "Juca" Sanches: deletei os 20 posts que ele acabou de vomitar automaticamente
+[2016-03-07 17:05:32] Erin Pinheiro: deletar no telegram é só clientside acho
+[2016-03-07 17:05:36] Erin Pinheiro: ainda estão aqui
+[2016-03-07 17:05:53] Aurelio Heckert: Ele não ficou doidão. vc tinha cadastrado o RSS do spaceX. O problema é que ele ficou fora do ar e agora ele mandou tudo o que não pode mandar nas ultimas 48 horas :-p
+[2016-03-07 17:05:54] Aurium's Bot: Eu sei ler RSS. :-)
+ Se quiser que eu anuncie as novidades aqui, mas não sabe como, diga "@AuriumBot feed help"
+[2016-03-07 17:06:16] Aurelio Heckert: feed ls
+[2016-03-07 17:06:22] Felipe "Juca" Sanches: saquei
+[2016-03-07 17:07:34] Felipe "Juca" Sanches: eu tentei descadastrar o feed da SpaceX mas não consegui
+[2016-03-07 17:07:49] Felipe "Juca" Sanches: aliás... foi parecido com o que você acabou de fazer
+[2016-03-07 17:07:57] Felipe "Juca" Sanches: tentei dar um ls e o bot não respondeu mais
+[2016-03-07 17:08:08] Felipe "Juca" Sanches: isso tá com cara de bug no teu código de listagem de feeds no bot
+[2016-03-07 17:09:05] Aurelio Heckert: eu saquei. Vou corrigir um bug de formatação de markdown agora. Ele tá mandando, mas o telegram tá bloqueando. Pq na url tem _ e ele tá entendendo que é parte do markdown.
+[2016-03-07 17:10:53] Felipe "Juca" Sanches: sugiro desabilitar ele desse canal enquanto vc debuga, pra evitar de encher o saco dos humanos que conversam por aqui.
+[2016-03-07 18:31:01] Caio: Pessoal alguem conhece alguma solução para EAD que "evite" o máximo a cópia dos vídeos etc ??
+[2016-03-07 18:37:35] Aurelio Heckert: que feio... Aprender é Remixar. :-)
+[2016-03-07 18:39:31] Felipe "Juca" Sanches: Concordo com o Aurélio.
+[2016-03-07 18:43:56] Oda: Caio, DRM eh em outro canal :D
+[2016-03-07 18:52:22] Caio (in reply to Oda): Ok
+[2016-03-07 18:53:25] Felipe "Juca" Sanches: Não é OK. É Feio.
+[2016-03-07 18:53:28] Felipe "Juca" Sanches: Feio feio feio!
+[2016-03-07 18:55:58] Caio left
+[2016-03-07 18:56:19] Felipe "Juca" Sanches: xiii...
+[2016-03-07 18:56:42] Aurelio Heckert: To de saque que todo mundo sabe bloquear usuário mediano com uma linha de JS, mas ninguém vai dizer, pq é tipo dizer pra polícia onde mora o brodi que grafita o muro da prefeitura. 😜
+[2016-03-07 18:57:18] Felipe "Juca" Sanches: err... não é bem esse o meu ponto de vista
+[2016-03-07 18:58:38] Aurelio Heckert: Eu considero certos pixes educativos. Mas inúmeras analogias se encaixariam aqui...
+[2016-03-07 18:59:07] Oda: de que p. vcs tao falando?
+[2016-03-07 18:59:52] Felipe "Juca" Sanches: estamos falando sobre "Pessoal alguem conhece alguma solução para EAD que "evite" o máximo a cópia dos vídeos etc ??"
+[2016-03-07 19:00:21] Oda: eo que tem usuario mediano, js, policia e pixe a ver?
+[2016-03-07 19:00:31] Felipe "Juca" Sanches: isso é com o Heckert
+[2016-03-07 19:00:54] Felipe "Juca" Sanches: mas me parece que js tem a ver com EAD baseado em tecnologias web
+[2016-03-07 19:01:19] Aurelio Heckert: analogias man...
+[2016-03-07 19:01:22] Felipe "Juca" Sanches: o famoso bloquear clique com botão direito
+[2016-03-07 19:01:28] Oda: pqp, serio?
+[2016-03-07 19:01:30] Aurelio Heckert: yeah
+[2016-03-07 19:01:52] Felipe "Juca" Sanches: eu conheço uma outra forma mais efetiva de bloquear download de vídeo. Se chama "video player implementado em flash"
+[2016-03-07 19:02:02] Felipe "Juca" Sanches: e é uma droga!
+[2016-03-07 19:02:05] Felipe "Juca" Sanches: por N motivos
+[2016-03-07 19:02:17] Aurelio Heckert: doi só de ler
+[2016-03-07 19:02:23] Oda: serio que vcs acham que isso bloqueia algo?
+[2016-03-07 19:02:41] Oda: bom, volto quando o assunto recuperar o sentido
+[2016-03-07 19:02:44] Felipe "Juca" Sanches: o bloqueio não é 100% efetivo, mas dificulta com certeza
+[2016-03-07 19:03:00] Aurelio Heckert: faz tempo que só assisto coisas em player html5 ou faço download SE der muita vontade de ver
+[2016-03-07 19:03:20] Oda: https://addons.mozilla.org/en-US/firefox/addon/download-flash-and-video/
+[2016-03-07 19:03:22] Felipe "Juca" Sanches: Oda, usa seus neurônios aí. O papo aqui não tá tão complicado quanto você parece achar
+[2016-03-07 19:03:50] Aurelio Heckert:  @eduoda estamos falando de usuário médio... A galera não se vira não.
+[2016-03-07 19:03:56] Oda: pelo visto, na verdade preciso assassinar uns neuronios para entender o que vcs falam
+[2016-03-07 19:03:57] Felipe "Juca" Sanches: pois é... existem formas de burlar
+[2016-03-07 19:04:13] Oda: nao eh mediano que se bloquei, eh retardado
+[2016-03-07 19:04:18] Felipe "Juca" Sanches: Bom, depois dessa, eu fico feliz se você realmente se retirar da conversa
+[2016-03-07 19:04:42] Oda: boa
+[2016-03-07 19:05:48] Aurelio Heckert (in reply to Oda): hehehehe... pois é... se, na sua escala, quem não sabe dar a volta num js que bloqueia right click é retardado, então a grande maioria é retardada mesmo. 😜
+[2016-03-07 19:05:49] Aurium's Bot: hehe...
+[2016-03-07 19:05:49] Felipe "Juca" Sanches: Ou melhor ainda... O Zé que tava aqui querendo ajuda pra implementar DRM já foi passear por outros cantos da internet e a gente aqui continua discutindo. Acho que o assunto já deu hahaha
+[2016-03-07 19:06:52] Oda: na real, perdemos a chance de explicar nosso ponto de vista para o sujeito
+[2016-03-07 19:07:09] Felipe "Juca" Sanches: ele que saiu correndo
+[2016-03-07 19:07:16] Oda: nos batemos, ele correu
+[2016-03-07 19:07:18] Aurelio Heckert: ele não perguntou um simples "PQ tio?"
+[2016-03-07 19:07:19] Felipe "Juca" Sanches: nem perguntou "feio por que?"
+[2016-03-07 19:07:29] Oda: a estrategia melhor eh: acolher e depois bater
+[2016-03-07 19:07:47] Felipe "Juca" Sanches: bom... a estratégia fica pro pŕoximo então
+[2016-03-07 19:07:55] Aurelio Heckert: a gente nem bateu de verdade :-/
+[2016-03-07 19:07:58] Felipe "Juca" Sanches: haverá um próximo com certeza
+[2016-03-07 19:08:09] Oda: sempre tem um proximo
+[2016-03-07 19:08:31] Oda sent document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Este_grupo_só_será_deletado_após_providenciarmos_um_backup._Garoando_na_Terra_dá_Hacking__/download_285892071401720405.webp
+[2016-03-07 19:08:31] Felipe "Juca" Sanches: igual o IRC #garoa na freenode. Galerinha já chega lá pedindo pra roubar senha do facebook na maior cara dura
+[2016-03-07 19:08:41] Oda: esse pode bater de cara
+[2016-03-07 19:08:44] Oda: nao tem o que explicar
+[2016-03-07 19:09:13] Oda: copyright e afins eh mais complicado
+[2016-03-07 19:09:23] Felipe "Juca" Sanches: são tons de cinza de intensidades diferentes, mas ambos passam por questões de ética
+[2016-03-07 19:09:45] Felipe "Juca" Sanches: e de leis também
+[2016-03-07 19:10:02] Aurelio Heckert sent document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Este_grupo_só_será_deletado_após_providenciarmos_um_backup._Garoando_na_Terra_dá_Hacking__/download_454761153164214512.webp
+[2016-03-07 19:10:05] Felipe "Juca" Sanches: lei e ética... costumam sempre se cruzar, náo é mesmo?
+[2016-03-07 19:10:18] Aurelio Heckert: #SQN
+[2016-03-07 19:10:44] Felipe "Juca" Sanches: "cruzar" pode significar um atropelando o outro
+[2016-03-07 19:11:28] Oda: acho que elas nao se falam mesmo
+[2016-03-07 19:11:28] Aurelio Heckert sent document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Este_grupo_só_será_deletado_após_providenciarmos_um_backup._Garoando_na_Terra_dá_Hacking__/download_454761153164214425.webp
+[2016-03-07 19:11:34] Oda: estao brigadas ha tempos
+[2016-03-07 19:11:37] Oda: tipo uns 10mil anos
+[2016-03-07 19:11:43] Felipe "Juca" Sanches: hehe
+[2016-03-07 19:11:45] Aurium's Bot: Tá tá...
+[2016-03-07 19:11:53] Felipe "Juca" Sanches: pois é...
+[2016-03-07 19:12:17] Aurelio Heckert: Hamurabi manda lembrança

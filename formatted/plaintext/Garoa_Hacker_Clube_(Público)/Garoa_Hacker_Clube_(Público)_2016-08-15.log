@@ -1,0 +1,44 @@
+[2016-08-15 00:07:31] yay, min/max implementado!
+[2016-08-15 00:07:45] agora posso checar extremidades horizontais do espaço mais facilmente
+[2016-08-15 00:08:03] acho que ainda dá pra fazer uns tweaks na rotação pra deixar ela mais "forgiving"
+[2016-08-15 00:08:19] estudar um pouco como a rotação do tetris DS funciona..
+[2016-08-15 00:08:43] ela dá um tempo extra pra poder fazer coisas como t-spin, etc
+[2016-08-15 00:08:56] mas por hora.. está jogável :P https://github.com/Lana-chan/brochehacker/blob/singlesided/brochehacker/tetris.cpp
+[2016-08-15 00:25:34] Aeeee!! :)
+[2016-08-15 00:27:21] Código mais limpo que o de muitos colegas de profissão 😁😁
+[2016-08-15 00:29:04] :)
+[2016-08-15 10:01:41] @mynameiserin Veja a implementação de rotação do Megatris para Uzebox: https://github.com/Uzebox/uzebox/blob/master/demos/Megatris/Megatris.c#L1567
+[2016-08-15 10:35:31] Ainda acho a modelagem matemática em matrizes e convolutions a forma mais limpa e fácil de implementar tetris.
+[2016-08-15 10:35:51] Matemática: simplificando código desde a época do ábaco!
+[2016-08-15 10:36:49] @fsanches @mynameiserin Campeonato de tetris hein.
+[2016-08-15 10:37:03] :-)
+[2016-08-15 10:37:12] desafio aceito!
+[2016-08-15 10:37:35] (apesar de ter sido um desafio recebido por proxy ilegítimo)
+[2016-08-15 10:39:05] se a Erin confirmar que está me desafiando, eu apareço algum dia no Garoa com o Uzebox e toco o terror nos bloquinhos :-)
+[2016-08-15 10:39:33] é só combinar a data
+[2016-08-15 10:39:38] Acho que a nossa luta será pelo segundo lugar mesmo.
+[2016-08-15 10:40:03] Enquanto Erin da risada malévola do topo do trono
+[2016-08-15 10:40:15] Mas o segundo lugar é meu!!
+[2016-08-15 10:40:22] HAHAHAHHAHA
+[2016-08-15 10:40:30] vai sonhando
+[2016-08-15 10:40:49] Kkkkkkkkk
+[2016-08-15 14:09:42] Lembrete: amanhã tem reunião do CMC: 
+https://garoa.net.br/wiki/Reuni%C3%A3o_de_16/08/2016
+[2016-08-15 16:08:19] https://ostif.org/ostif-quarklab-and-veracrypt-e-mails-are-being-intercepted/
+[2016-08-15 16:17:48] deu ruim
+[2016-08-15 17:24:18] ar, ssd de 120gb por 188 no balao da informatica
+[2016-08-15 17:29:27] realmente é verdade Oda, estarei bem fudido se é somente linear! Bom, a questão era para rodar mesmo o SVM
+[2016-08-15 21:13:59] http://spaceflightnow.com/2016/08/14/falcon-9-rocket-launches-japanese-satellite-then-nails-bullseye-landing/
+[2016-08-15 21:14:39] alguém se interessa em assistir no Garoa os episódios dessa série? https://en.wikipedia.org/wiki/Halt_and_Catch_Fire_(TV_series)
+[2016-08-15 21:14:56] vai começar temporada nova semana que vem
+[2016-08-15 21:18:26] Que dia seria?
+[2016-08-15 21:27:46] acho que vai sair toda 3a feira
+[2016-08-15 21:27:53] aí rolaria assistir às 4as de noite
+[2016-08-15 21:28:11] 24h tá mais que suficiente pra galera que prepara as legendas né? hehe
+[2016-08-15 21:28:43] ou, se for melhor, pode ser sempre no sábado seguinte
+[2016-08-15 21:28:47] sei lá
+[2016-08-15 21:29:08] acho que o tema da série tem muito a ver com a turma que frequenta o Garoa
+[2016-08-15 21:29:14] ainda não comecei a segunda temporada
+[2016-08-15 21:29:40] mas a série é boa
+[2016-08-15 21:29:43] vc tem uma semana pra assistir tudo então
+[2016-08-15 21:38:02] De semana tenho facul. Sem chance pra mim. :/

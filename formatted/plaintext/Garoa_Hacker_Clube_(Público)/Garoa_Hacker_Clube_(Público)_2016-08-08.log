@@ -1,0 +1,141 @@
+[2016-08-08 07:08:29] http://thehackernews.com/2016/08/hack-telegram-account.html
+[2016-08-08 09:54:13] Pessoal o 1º Coding Dojo do Grupy-SP é amanhã. Favor confirmarem presença pra não deixar a galera na lista de espera. http://wp-a.co/u/6VTa
+[2016-08-08 09:54:48] qual exercício irão resolver?
+[2016-08-08 09:58:25] Vamos escolher na hora, democraticamente.
+[2016-08-08 09:59:59] Usando o DojoPuzzles.com, como base...
+[2016-08-08 10:42:45] O dojo não poderia começar escrevendo um script que escolhe aleatoriamente um exercício? =)
+[2016-08-08 10:43:19] http://dojopuzzles.com/problemas/
+[2016-08-08 10:43:43] Pronto, implementei. Tem um link lá no dojopuzzles 'Problema Aleatório'
+[2016-08-08 11:16:47] Hahahaha...
+[2016-08-08 11:27:21] Acharam a bomba do Dojo?
+[2016-08-08 11:29:58] Não...
+[2016-08-08 11:30:27] Alguém viu essa bomba depois do TDC?
+[2016-08-08 11:47:43] @fsanches Parece que o Marcelo deixou um clip junto com o buspirate ... vou checar da próxima vez que for ao garoa. (ou seja amanhã)
+[2016-08-08 11:47:57] beleza
+[2016-08-08 13:45:05] Kabloc Vacavoa joined
+[2016-08-08 13:45:06] Hi Kabloc !
+[2016-08-08 15:14:09] https://twitter.com/juca_gnu/status/762712729601843200
+[2016-08-08 16:52:34] Acabei de pegar 1TB de memória RAM no almoxarifado. 2000 chips de 512 megas
+[2016-08-08 16:55:59] Caralho
+[2016-08-08 17:02:41] Infelizmente está na proteção antiestática e antiumidade, então não rola tirar uma foto.
+[2016-08-08 17:06:17] @aylons mas isso vai pra onde?
+[2016-08-08 17:09:50] Diversas placas do SIrius, principalmente placas com FPGAs
+[2016-08-08 17:09:51] Sirius
+[2016-08-08 18:06:03] Aylons, que projeto é esse? Achei interessante.
+[2016-08-08 18:09:37] LNLS
+[2016-08-08 18:11:17] http://arstechnica.com/security/2016/08/qualcomm-chip-flaws-expose-900-million-android-devices/
+[2016-08-08 18:20:39] https://www.flickr.com/photos/travisgoodspeed/9196360803/
+[2016-08-08 18:23:42] cazzo... alguém aí já conseguiu programar um atmega328 direto na breadboard? não consigo nem gravar o bootloader nem subir sketch pra um 328 com bootloader arduino
+[2016-08-08 18:24:00] subir pra um attiny85 usando o mesmo arduinoisp funciona normal..
+[2016-08-08 18:24:29] já chequei tudo que posso imaginar, fiquei o dia todo nisso
+[2016-08-08 18:28:40] Sirius?
+[2016-08-08 18:29:09] Ou a placa em si?
+[2016-08-08 18:30:16] Rodrigo Almeida joined
+[2016-08-08 18:30:16] Hi Rodrigo !
+[2016-08-08 18:31:30]  joined
+[2016-08-08 18:31:31] Hi RatoZumbi !
+[2016-08-08 18:31:36] O projeto todo. Você usou 2TB pra uma FPGA, seria isso? É a aplicação com FPGA mais graúda que já vi
+[2016-08-08 18:32:45] Hahah. Não, são 2TB para centenas de FPGAs.
+[2016-08-08 18:33:25] Cada uma tem míseros 2GB. acho que nem tem tanta interface de DDR numa fpga assim.
+[2016-08-08 18:34:51] Ah tahhh. Rs
+[2016-08-08 18:34:59] Mesmo assim, achei interessante!
+[2016-08-08 18:35:13] Seria para o LNLS que Oda comentou?
+[2016-08-08 18:36:11] Isso, para o SIrius
+[2016-08-08 18:36:21] Sirius
+[2016-08-08 18:36:26] O que seria o Sirius?
+[2016-08-08 18:36:44] Não achei no spygoogle.com
+[2016-08-08 18:37:21] *google.com
+[2016-08-08 18:38:13] http://g1.globo.com/sp/campinas-regiao/noticia/2016/05/superlaboratorio-sirius-esta-no-limite-do-que-fisica-permite-afirma-diretor.html
+[2016-08-08 18:39:29] Sensacional!!
+[2016-08-08 19:06:49] nossa que megaultrafoda
+[2016-08-08 19:10:03] Foda a matéria
+[2016-08-08 19:56:51] Se quiserem ver as eletrônicas de que eu estou falando, apareçam na e-hal!
+[2016-08-08 20:20:54] Adoraria, mas não consigo levar a sério. 😒 
+Porque:
+http://meiobit.com/318397/foguete-brasileiro-vls-em-vias-de-cancelamento-foco-estaria-no-vlm/
+http://oglobo.globo.com/opiniao/programa-espacial-brasileiro-volta-estaca-zero-17049882
+[2016-08-08 20:36:34] Azar o seu
+[2016-08-08 20:59:57] eu comecei a ensaiar uma resposta, mas o aylons foi mais eloquente do que eu jamais seria, como de costume kkkk
+[2016-08-08 21:00:32] O Cardoso, que escreveu essa reportagem do VLS, já falou sobre o Sirius:
+"O Sirius será um equipamento aberto a cientistas do Brasil e do Mundo, e pela romipeige do LNLS dá pra ver que o que não falta é pesquisa. Os caras trabalham e muito. Apesar de parecer a sede nova da Apple ou um estádio, o Sirius será tudo menos um elefante branco."
+http://meiobit.com/305869/lnls-sirius-maior-acelerador-de-particulas-da-america-latina-construcao-e-aprovada-pelo-governo-brasileiro/
+http://meiobit.com/115657/maior-acelerador-de-partculas-da-amrica-latina-sendo-construdo-no-brasil/
+É trabalho sério.
+[2016-08-08 22:42:11] Tomara! 😘
+[2016-08-08 22:48:13] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803718503_71167.jpg
+[2016-08-08 22:58:44] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803718033_72458.jpg
+[2016-08-08 22:59:25] e aí @fsanches, rate my board!
+[2016-08-08 23:34:22] I hate it !
+[2016-08-08 23:34:24] LOL
+[2016-08-08 23:34:46] ah! Era "rate"... ! :-P
+[2016-08-08 23:35:18] comediante nato
+[2016-08-08 23:35:38] o que é aquele pequeno plano de terra no topo ?
+[2016-08-08 23:35:52] espaço para soldar um alfinete
+[2016-08-08 23:36:06] uia!
+[2016-08-08 23:36:11] Alguém ai manja de .NET?
+[2016-08-08 23:36:13] divertido :-)
+[2016-08-08 23:36:26] não, dot-net não é divertido
+[2016-08-08 23:36:35] divertido é o espaço pra soldar alfinete na PCB da Erin
+[2016-08-08 23:37:26] tem um protótipo da idéia com alfinete e tudo no lab, mas com um tiny85 e um MAX7219 dirigindo a matriz 8x8
+[2016-08-08 23:37:36] esqueci de tirar fotos.. amanhã se lembrar posto aqui
+[2016-08-08 23:38:10] com o mega328 dá pra fazer  em camada simples e ainda adicionar 4 botões
+[2016-08-08 23:40:03] Vai soldar com ferro?
+[2016-08-08 23:40:31] ferro de solda, estanho, normal
+[2016-08-08 23:40:45] já fiz a experiência com outra placa
+[2016-08-08 23:41:01] Eu faria aquele plano mais fino, com thermal relief. A solda fica mais fácil e mais confiável.
+[2016-08-08 23:41:39] mais fino? eu tenho medo de não ter espaço pro alfinete
+[2016-08-08 23:42:18] Digo, faz o contorno do alfinete, como meio "oco". 1mm para cada lado já dá espaço suficiente para solda e vai facilitar bastante.
+[2016-08-08 23:42:40] ah, entendi.. hm.
+[2016-08-08 23:43:49] Talvez, inclusive, fazer algo intermitente, tipo um tracejado. Solda é algo bem forte e não precisa soldar uma linha muito longa para dar a força que o broche precisa.
+[2016-08-08 23:44:19] hmm. o problema é que eu não tenho certeza do tamanho do alfinete que vamos usar
+[2016-08-08 23:44:27] temos alguns tamanhos diferentes
+[2016-08-08 23:44:51] Faz uns padrões em que caibam vários, deixa só as ilhas isoladas uma das outras. ASsim, a que for ser soldada vai ser sempre pequena e mais ou menos isolada.
+[2016-08-08 23:45:03] você pode me mostrar como você faria?
+[2016-08-08 23:45:10] https://github.com/Lana-chan/brochehacker
+[2016-08-08 23:45:11] Lana-chan | brochehacker
+
+Design de um broche animado com LEDs
+
+Language: KiCad
+Forks: 1
+Stars: 0
+Issues: 0
+[2016-08-08 23:45:35] Eita, posso, mas não agora. Preciso dormir porque 7am dou ração para o kit. Posso fazer um rascunho rapidinho?
+[2016-08-08 23:45:44] s/ração/remédio
+[2016-08-08 23:45:56] não precisa, se preferir fazer amanhã com calma eu posso esperar :)
+[2016-08-08 23:47:56] Ok, então. Me manda uns modelos de alfinete para eu ter como referencia? Pode ser pelo telegram ou para aylons@aylons.com.br
+[2016-08-08 23:48:38] posso te mandar amanhã, que estão no lab. são todos praticamente iguais mas de tamanhos diferentes, são alfinetes de segurança
+[2016-08-08 23:48:49] eu tô em casa no momento :p
+[2016-08-08 23:49:43] Tudo bem, só para eu já fazer direitinho. Faço inclusive um footprint já para poder usar em qualquer projeto.
+[2016-08-08 23:49:54] nice! obrigada!
+[2016-08-08 23:50:10] Como eles ficam, aliás? Deitados na placa ou na transversal?
+[2016-08-08 23:50:36] transversal, pra ter espaço pra ponta do alfinete atravessar a roupa
+[2016-08-08 23:50:45] igual um bóton
+[2016-08-08 23:50:57] Tá, então ficam soldados só por uma linha, certo?
+[2016-08-08 23:51:13] uma linha reta
+[2016-08-08 23:51:17] eu soldo pelas pontas, que são um pouco maiores
+[2016-08-08 23:51:36] @aylons como ta o bichano?
+[2016-08-08 23:51:46] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803717665_71401.jpg
+[2016-08-08 23:51:51] Entendi. ENtão ficam soldados em dois pontos, um é sempre o mesmo e o outro depende do modelo do alfinete
+[2016-08-08 23:52:08] é, por aí
+[2016-08-08 23:52:37] pesei minha gata hoje, 3.6kg
+[2016-08-08 23:52:40] a parte onde tem a ponta fica pra fora, saindo da placa
+[2016-08-08 23:52:49] castraram ela filhote, ficou miniatura para sempre...
+[2016-08-08 23:52:58] vixe
+[2016-08-08 23:53:17] a minha foi castrada quando filhote também, mas tá bem gordinha, tem uns 12 anos já
+[2016-08-08 23:53:26] não sei o peso exato
+[2016-08-08 23:53:28] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803701365_71827.jpg
+[2016-08-08 23:53:43] Ele está bem melhor
+[2016-08-08 23:53:49] sei la, o gato que aparentemente eh irmao dela aqui na vizinhanca eh grande, ela eh bem pequena e apanha de todos os outros gatos kkkk
+[2016-08-08 23:53:59] ainda bem que tenho uma cachorra corintiana
+[2016-08-08 23:54:05] haha
+[2016-08-08 23:54:30] Comendo, bebendo água e cagando. MAs ainda não temos um diagnóstico, e estamos tentando descobrir. Estamos medicando para várias hipóteses enquanto esperamos o resultado dos exames
+[2016-08-08 23:55:01] Quais você pretende usar?
+[2016-08-08 23:55:02] entendi, melhoras e boa sorte no diagnostico
+[2016-08-08 23:55:30] não sei de cabeça, mas eu posso te dizer amanhã quando tiver eles em mão
+[2016-08-08 23:55:57] Ok dokie
+[2016-08-08 23:56:29] Só vou poder mexer à noite, ok?
+[2016-08-08 23:56:36] sem problemas!
+[2016-08-08 23:58:04] OK, boa noite aí, não deixe de me mandar. Beijos e abraços à todos.
+[2016-08-08 23:58:17] boa noite aylons, melhoras pro seu gato!
+[2016-08-08 23:59:52] valeu!

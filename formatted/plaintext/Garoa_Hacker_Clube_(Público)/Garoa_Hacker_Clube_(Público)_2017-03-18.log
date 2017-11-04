@@ -1,0 +1,86 @@
+[2017-03-18 00:11:28] Sério hein.  Que placa/notebook você tem?
+[2017-03-18 00:17:17] Pelo menos nesse caso vc ainda pode jogar... Esse Jeep ai da for mal pode andar no asfalto sem  rasgar o pneu
+[2017-03-18 00:19:37] Também gostaria de fazer isso mas e tempo? unffff
+[2017-03-18 00:31:50] T400
+[2017-03-18 01:30:58] "Any 60 kWh Model S will have the ability to upgrade their battery to 75 kWh via an over the air update." <== sounds like bullshit!
+[2017-03-18 09:25:21] Recomendam algum material para introdução a hardware/eletrônica? Quero entender os componentes de um computador.
+[2017-03-18 10:37:03] Acho que o livro Hardware II, do Carlos Morimoto (GDH Press) é uma excelente introdução... há um tempo ficou disponível no site do Guia do Hardware (www.hardware.com.br), mas não sei se ainda estão.
+É antigo, mas vale muito a pena.
+[2017-03-18 10:40:12] Acabei de ver que a versão de 2007 continua online para consulta:
+http://www.hardware.com.br/livros/hardware/
+[2017-03-18 11:16:28] https://backchannel.com/isro-scientists-5ad220d6f38c#.pj1e0kxko
+[2017-03-18 11:54:16] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803119897_21451.jpg
+[2017-03-18 11:57:24] Provavelmente é só uma soft feature
+[2017-03-18 11:58:10] A bateria física deve alcançar 75kwh, mas deve ter algum bloqueio de software pra promover esse tipo de publicidade
+[2017-03-18 12:07:13] ahem... anti-feature
+[2017-03-18 12:07:40] ou seja... bullshit!
+[2017-03-18 12:08:56] Ou isso
+[2017-03-18 13:07:33] Alguém no garoa agora?
+[2017-03-18 13:09:33] Estou na rua e queria saber se volto mais tarde
+[2017-03-18 13:15:26] eu vou pra lá daqui a pouco
+[2017-03-18 13:15:41] ouvi dizer que tá sem luz e que só vai voltar depois das 14h30
+[2017-03-18 13:20:05] Opa vou também então
+[2017-03-18 13:20:25] :-)
+[2017-03-18 13:28:02] Sim, que está sem luz é verdade
+[2017-03-18 13:34:19] Alguém conhece uma alternativa diy/open-source ao iridium rockblock?
+[2017-03-18 13:34:22] https://www.sparkfun.com/products/13745
+[2017-03-18 13:45:28] Que doido! Eu vi ao vivo um lançamento de um novo satélite da constelação Iridium em Janeiro em um Falcon 9 da SpaceX
+[2017-03-18 13:49:54] upsat cubesat
+[2017-03-18 13:53:21] São coisas distintas
+[2017-03-18 13:53:32] Cubesat são mini satélites
+[2017-03-18 13:54:17] Rockblock é um módulo de comunicação que transmite informações por satélite pela rede de satélites da Iridium
+[2017-03-18 13:56:52] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803111859_39298.jpg
+[2017-03-18 13:57:27] Exemplo de projeto feito com rockblock, de um colega montanhista
+[2017-03-18 13:57:53] ah tah, vc nao manda ele pro espaço
+[2017-03-18 13:58:38] Isso
+[2017-03-18 13:59:16] Só que um módulo rockblock custa 200~250 dólares
+[2017-03-18 14:01:19] um modem deve da pra fazer opensource nao sei se free
+[2017-03-18 14:02:41] Com uma quantidade (possivelmente colossal) de trabalho deve dar pra implementar o protocolo de comunicação com alguma placa de desenvolvimento de software defined radio (SDR). Entretanto, a mensalidade de 12 dólares pelo serviço não tem como escapar.
+[2017-03-18 14:03:14] E é bem provável que o módulo contenha alguma chave criptográfica secreta necessária para estabelecer comunicação com os satélites
+[2017-03-18 14:03:34] o que dificulta muito (ou até mesmo pode impossibilitar) uma implementação alternativa.
+[2017-03-18 14:04:10] dito isso... http://cdn.media.ccc.de/congress/2015/h264-hd-web/32c3-7154-en-Iridium_Update.mp4
+[2017-03-18 14:04:26] então precisamos de alternativas livres/abertas lá em cima mesmo
+[2017-03-18 14:10:36] ...e quem paga a conta do combustível pra subir a serra ?
+[2017-03-18 14:11:36] lança na rabeira com projetos capetalistas com cota social
+[2017-03-18 14:13:48] ITA em SJCampos lança cubeSats assim
+[2017-03-18 14:14:59] e qual tipo de funcionalidade vocês gostariam de hospedar em um satétile próprio ?
+[2017-03-18 14:17:35] eu teria interesse em sincronizar leituras de sensores ambientais tbm de código aberto
+[2017-03-18 14:18:23] alguns podem ficam a deriva em alto mar ou no meio da amazonia sem contato nem com gsm em alguns casos
+[2017-03-18 14:19:02] Cubes não tem poder pra comunicação em larga escala
+[2017-03-18 14:22:48] Se alguém chegar em 30 minutos no garoa, me avise
+[2017-03-18 14:22:57] Ai eu espero na rua
+[2017-03-18 14:23:09] e qual seria a pequena escala? conseguindo cobrir o estado de sp por exemplo, recebendo  100 requests de 160 caracteres acho suficinte pra lançar uma rede de sensoriamento cidadão, queremos faz isso nesse projeto > https://publiclab.org/notes/neblinalab/11-26-2015/hiperguardioes
+[2017-03-18 14:25:36] O capitalismo em breve apresenta solução pra isso sem necessidade de cotas sociais
+[2017-03-18 14:25:36] Já há previsão de Internet interplanetária pra facilitar a comunicação das missões espaciais
+[2017-03-18 14:29:02] e pra já? acho q tem isso só, como possiblidade de pavimentar um espaço aéreo com projetos opensource, capetalista ou não
+[2017-03-18 14:31:52] o garoa não estaria afim de montar um constelaçãozinha livre com mash de upsat? :)
+[2017-03-18 14:34:33] cota de hackeativismo social
+[2017-03-18 14:35:27] poem na conta do ita pra fazer rede livres pra pesquisa aberta, acho justo
+[2017-03-18 15:02:25] Já conseguiu entrar no Garoa?
+[2017-03-18 15:03:05] Fui embora
+[2017-03-18 15:03:11] Ninguém se pronunciou
+[2017-03-18 15:03:44] Na rua de trás, ainda tavam trocando o cabeamento
+[2017-03-18 15:03:56] o vido falou na lista que chegaria umas 15hs
+[2017-03-18 15:04:09] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_193628056395448992.webp
+[2017-03-18 15:10:41] Ahahahahha paciência
+[2017-03-18 15:10:58] Talves eu vá mais tarde
+[2017-03-18 16:35:36] Estamos aqui
+[2017-03-18 16:35:55] voltou a energia elétrica
+[2017-03-18 17:22:45] Cristina a caminho do curso de servidores, eu estou de plantão...:/
+[2017-03-18 17:23:45] Alguém aqui usa Sublime Text?
+[2017-03-18 17:24:09] Não rola gravar uma Macro de uma sequência de Find e Replace?
+[2017-03-18 17:25:23] CTRL+H não é o suficiente?
+[2017-03-18 17:28:13] o que é CTRL+H?
+[2017-03-18 17:42:00] https://superuser.com/questions/605861/how-do-i-record-and-run-multiple-find-replace-with-sublime-text-2#730274
+[2017-03-18 18:00:23] (mas tou sofrendo... instalei o Package Control, pra instalar esse treco, agora tentando lembrar os meus parcos poderes de Regex, quase nulos... kkkk)
+[2017-03-18 18:30:35] Pessoal, ia dar continuidade no desenvolvimento que estou fazendo e na primeira vez que fui subir o software para o arduino, ele tinha perdido todas as bibliotecas dos sensores. Reinstalei-as e consegui subir. Depois de uma meia hora fazendo alterações, o programa nao sobe mais para o arduino. Alguma dica? Tem hora que ele diz que a COM4 está ocupada...
+[2017-03-18 20:16:37] Você está usando as portas tx e rx?
+[2017-03-18 20:16:56] Tem que desconectar tudo delas, pra fazer upload
+[2017-03-18 20:17:10] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_858174108288942870.webp
+[2017-03-18 20:21:29] ó aí pra quem (ainda!!!) não sabe o que é um arduino, um bom vídeo de resumo https://www.youtube.com/watch?v=nL34zDTPkcs
+[2017-03-18 20:38:07] https://twitter.com/daisyowl/status/841802094361235456
+[2017-03-18 20:40:48] RX  e TX não estão sendo utilizados. Quando estava com os sensores BMP180, DHT22 e MQ2 estava tudo funcionando, ai fui meter o ESP8266 parou de funcionar tudo
+[2017-03-18 21:07:30] quando tiro o ESP8266 do arduino e ligo no notebook, me aparece a porta COM. Aí se ligo o ESP8266, ele some a porta
+[2017-03-18 22:54:55] Vixe
+[2017-03-18 22:55:01] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_476026781787226364.webp
+[2017-03-18 23:54:23] Alguém lembra qual era aquele Bot que fazia um gif de uma foto mexendo o olho da pessoa da foto?

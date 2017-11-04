@@ -1,0 +1,119 @@
+[2017-01-15 00:15:32] Fabricio Biazzotto ☂:
+Se for proposto em um CMC, talvez concordem se for opcional, ou seja, se não tirar a possibilidade de continuarem utilizando chaves.
+[2017-01-15 00:48:53] Me parece muito perigoso usar apenas número de série de cartões mifare para segurança. Foi o primeiro ataque que conheci sobre a tecnologia. Foi numa universidade da Holanda, se lembro bem.
+[2017-01-15 00:49:42] Pra mim segurança de cartões com contato (e sem) apenas com criptografia usando chaves e computo dentro do cartão.
+[2017-01-15 01:21:14] @drmadera Correto, mais no momento usamos um chave fisico, custa R$ 5,00 para copiar um deles aqui na esquina. Quem QUER "hackear" o sistema, vai hackear, fisico ou digital. Neste caso acho e mais esforco do que 5 conta, nao?
+[2017-01-15 01:22:02] @drmadera acima disso tem Lockpicking tambem...
+[2017-01-15 01:35:29] Talvez. Mas o argumento (popular, diga-se de passagem) que diz "ninguém está interessado" me parece muito perigoso.
+[2017-01-15 01:36:07] Se não subirmos a barra ao mudar para outro controle de acesso, então qual a motivação?
+[2017-01-15 01:36:25] Apenas pensando alto, viu. Não defendo nenhum dos dois.
+[2017-01-15 01:37:58] em cima gente reclamou que muita gente mesmo sendo socios, eles tambem esquecem o chave em casa etc. Bilhete Unico a maioridade tem na carteira e nunca esquecem
+[2017-01-15 01:39:21] Praticidade. Motivo justo.
+[2017-01-15 01:39:50] Mas como segurança é uma prioridade pra mim, me soa mal e perigoso. Mas realmente muito pratico.
+[2017-01-15 01:40:05] caso tem briga com um socio, e mais fácil tirar acesso tambem. "Por favor devolve a chave" no outro lado apaga uma linha da base
+[2017-01-15 01:40:37] pode ate automatizar com sistema de cobranca caso alguem gosta mexer nisso
+[2017-01-15 01:40:44] Com um celular da pra emular mifare
+[2017-01-15 01:40:50] Que medo
+[2017-01-15 01:41:01] Mas você está com um argumento de praticidade fortíssimo.
+[2017-01-15 01:41:19] E convenhamos: praticidade mata segurança desde os primórdios.
+[2017-01-15 01:41:32] Triste mas verdadeiro.
+[2017-01-15 01:42:15] "I work for a large agency and this same question was proposed. In summary, I was able to successfully emulate a mifare classic chip (our id card) and gain access to all facilities as if I was using my id card (lenel access control). However, in the end the solution was a hack and a half. Only devices with NXP NFC controllers could this be possible on. Further, I had to modify the nfc_access.xml (remount the file system to rw) system file and include the signature of the application. Then using reflection, enable mifare emulation. Then using a mifare reader/writer (hid 6055b), I encode the data (sectors and blocks, in my case sector 1) onto the phone. In essence, I treat the phone as a mifare ID card. That is, i copied my id card to the phone. You can't programmatically set this.
+
+NXP owns mifare. Mifare sits above the iso14443 part 3 specs and implements a proprietary communications protocol. This protocol is only implemented in the secure element which is also owned by NXP. This is why devices equipped with broadcomm chipsets can't read mifare (e.g. nexus 5).
+
+Although I proved it possible, it is not feasible for production."
+
+Eu acho que e mais facil pegar um chave, dar 5 conta para chaveiro e fazer uma copia, nao?
+[2017-01-15 01:44:18] um sistema seguro simplesmente nao existe. Sempre e um compromisso de ser simples e seguro. Se voce e administrador e voce coloca no dominio uma regra de cadames tem que trocas a senha, e tem que ter numero, simbolo, minusculo e maiusculo, em tres meses voce tem adhesivos com a senha em baixo do teclado....
+[2017-01-15 01:44:44] Trabalhei num projeto licitado pela SPTrans. Meu trabalho era implementar transações do zero usando apenas um micro controlador Arm 7 e o controller mifare proprietário nosso.
+[2017-01-15 01:45:09] Se eu que fiz isso para uns projetos em pouco tempo, imagina pessoas motivadas em acessar lugares que usam mifare classic.
+[2017-01-15 01:45:41] Mesmo celulares travando o número de série (um pedido para homologacao do fabricante) tem N jeitos de circumvent isso
+[2017-01-15 01:46:00] Completamente de acordo.
+[2017-01-15 01:46:21] como falei, chave fisico, 5 conta. Caso alguem realmente e motivado ele vai quebrar qualquer sistema.
+[2017-01-15 01:46:47] Pode tambem alguem programar um sistema de MiFare+Google Authenticator
+[2017-01-15 01:46:53] Two way auth
+[2017-01-15 01:46:57] Agora, um sistema de controle com smartcards implementando rsa será bastante interessante. Mas dai entra a necessidade de outros cartões fora o BU
+[2017-01-15 01:47:25] Tem cartões bons. Mifare classic apenas não é um deles.
+[2017-01-15 01:47:45] Mas como você disse muito corretamente, viola a praticidade proposta.
+[2017-01-15 01:48:24] porque? BU cada pessoa tem, celular tambem. Voce conhece alguem que deixa celular e carteira em casa?
+[2017-01-15 01:48:46] Concordo. Mas repito meu modo de pensar pra ficar claro: Trocar de sistema para um com segurança igual ou inferior me parece, do ponto de vista da segurança, perigoso é inútil. Mas isso é: do ponto de vista da segurança.
+[2017-01-15 01:49:04] Verdade. Pode usar celular NFC.
+[2017-01-15 01:49:10] isso, concordo
+[2017-01-15 01:49:17] NFC nao e mais complicado implementar?
+[2017-01-15 01:49:22] Estou apenas pensando em cartões. Mas celular serve perfeitamente caso tenha o NFC.
+[2017-01-15 01:49:39] Tem coisa pronta pra emular números de série
+[2017-01-15 01:49:50] e nem cada celular tem NFC, só os melhores novos
+[2017-01-15 01:49:59] Exato
+[2017-01-15 01:50:09] Por isso penso tanto em cartões físicos
+[2017-01-15 01:50:29] tem tipo adhesivos pequenos NFC tambem, nao?
+[2017-01-15 01:51:06] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803721327_53561.jpg
+[2017-01-15 01:51:51] Sim
+[2017-01-15 01:51:55] tipo isso, colar em qualquer lugar dentro da carteira e pronto? para usuarios sem NFC no celular?
+[2017-01-15 01:52:06] Funciona também
+[2017-01-15 01:52:07] isso pode ser uma opcao legal tambem...
+[2017-01-15 01:52:45] Sugiro então, se forem fazer o projeto, usar cartões com rsa. Não sei se tem desses pequenos com processamento, mas se tiver, seria o melhor.
+[2017-01-15 01:53:23] Tem outros com variantes challenge response. Com processamento interno (que é o que importa). Mas faz tempo que não brinco com isso.
+[2017-01-15 01:53:32] Nove anos, pra ser exato.
+[2017-01-15 01:53:44] e o custo? Bilhete Unico e gratuito quanto sao os tags de NFC este tipo, tem uma idea?
+[2017-01-15 01:54:15] Não faço mais ideia. Mas pela segurança vale a pena.
+[2017-01-15 01:54:33] Dito isso, tivemos clonagem de chaves de cartões bancários de algumas marcas há um ano e meio.
+[2017-01-15 01:54:39] Mas cartões de contato
+[2017-01-15 01:54:49] Vale a pena se atualizar BEM antes de qualquer coisa.
+[2017-01-15 02:00:14] olha que eu achei aparentemente e bem fácil clonar NFC , na verdade funciona com meu cartao de credito e meu celular tabem...http://security.stackexchange.com/questions/63483/how-do-nfc-tags-prevent-copying
+[2017-01-15 02:00:39] (muito facil ler Cartao de Credito NFC com um Celular...)
+[2017-01-15 02:05:30] Por isso temos que usar os que têm processamento.
+[2017-01-15 02:05:52] Pra chave secreta nunca ser transmitida, apenas resultados de operações com ela.
+[2017-01-15 02:10:48] entao os melhores MIFare, mais neste caso precisa mais um cartao na carteira que já esta explodindo...
+[2017-01-15 02:11:35] nao e melhor um Keypad? 4 numeros como UID que o usuario escolhe e Token do Google Authenticator?
+[2017-01-15 02:11:50] mais fácil, cada pessoa tem celular
+[2017-01-15 02:12:31] Keypad da problemas mecânicos
+[2017-01-15 02:12:33] e criar tipo uma senha mais longe de emergencia caso celular morreu
+[2017-01-15 02:12:47] Não sei se tem versões mifare melhores. Parei no 4K.
+[2017-01-15 02:13:08] como assim problema mecanico?
+[2017-01-15 02:21:05] Chuva pode enferrujar teclas
+[2017-01-15 02:21:23] Se estivermos falando de controle lá fora na porta antes do corredor
+[2017-01-15 08:29:59] Teclado de membrana barateou bastante
+[2017-01-15 08:30:12] Pode ser uma opção
+[2017-01-15 08:31:43] Quanto a segurança: o cara que estiver motivado a entrar vai aprender clonar o NFC tanto quanto aprender lock picking. Sendo que lock picking, acredito eu, sairia mais barato
+[2017-01-15 08:33:06] Uma vez dentro do corredor, na porta da cozinha ele poderia fazer lock picking novamente ou, caso se sinta 'aventureiro', uma pesada, nem precisa ser 'bem dada', arromba a porta...
+[2017-01-15 08:33:30] *pesada === pezada
+[2017-01-15 08:39:26] Essa era minha ideia inicial, mas legal, tô gostando dá conversa, vou tentar criar um doc com cada sugestão
+[2017-01-15 10:44:40] Biometria está fora de cogitação?
+[2017-01-15 10:45:25] https://youtu.be/1JDU_J2Lx4I
+[2017-01-15 10:45:49] É bem preciso
+[2017-01-15 11:14:41] Certos assuntos mais complexos, profundos e específicos não ficariam melhores numa thread no grupo de email?
+[2017-01-15 11:15:06] SIM!!!!
+[2017-01-15 12:28:34] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_50945793963590126.webp
+[2017-01-15 12:28:34] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_505010926202650851.webp
+[2017-01-15 12:28:40] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_505010926202650851.webp
+[2017-01-15 12:28:53] :)
+[2017-01-15 12:32:01] 👍
+[2017-01-15 12:33:25] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_38846012097298894.webp
+[2017-01-15 14:33:59] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_38846012097298886.webp
+[2017-01-15 14:34:11] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_38846012097298920.webp
+[2017-01-15 14:34:21] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_38846012097298947.webp
+[2017-01-15 14:43:18] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_38846012097298898.webp
+[2017-01-15 15:11:16] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_136966399695259002.webp
+[2017-01-15 16:17:03] Boa tarde pessoal, sei que não é o foco aqui mas alguém sabe como assistir o filme do Snowden online? Já passei minutos no youtube e nada.
+[2017-01-15 17:38:23] Esse é o logotipo do Kernel que eu uso já faz mais de 5 anos
+[2017-01-15 17:38:40] (Calma! Eu não uso a versão de 5 anos atrás!)
+[2017-01-15 17:46:40] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_136966399695259004.webp
+[2017-01-15 18:05:07] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_136966399695257771.webp
+[2017-01-15 18:29:40] Samuka [SMk] joined
+[2017-01-15 18:29:40] Hi Samuka !
+[2017-01-15 19:19:00] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_40214259828786500.webp
+[2017-01-15 19:28:27] https://www.gnu.org/distros/free-distros.pt-br.html
+[2017-01-15 19:31:36] 333533 …
+[2017-01-15 19:32:26] oi?
+[2017-01-15 19:49:03] … é primo! :)
+[2017-01-15 20:03:29] Primo de quem?😂😂😂
+[2017-01-15 20:04:42] 😂
+[2017-01-15 20:07:10] Mudando de assunto, uma notícia importante:
+[2017-01-15 20:07:37] Coding Rainbow agora vai se chamar
+[2017-01-15 20:07:45] Coding Train
+[2017-01-15 20:07:53] Take a look at The Coding Train (@thecodingtrain): https://twitter.com/thecodingtrain?s=09
+[2017-01-15 20:31:48] ué pq mudou?
+[2017-01-15 21:18:41] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803721428_53666.jpg
+[2017-01-15 21:18:45] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803111322_1704.jpg
+[2017-01-15 21:18:49] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803734765_32986.jpg
+[2017-01-15 21:55:19] Advogados... Era uma homenagem a um programa chamado reading rainbow. Os advogados reclamaram...

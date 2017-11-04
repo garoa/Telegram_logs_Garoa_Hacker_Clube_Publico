@@ -1,0 +1,8 @@
+[2016-04-22 08:40:15] Felipe "Juca" Sanches: FBI director James Corney has revealed that the FBI gave "more than I will make in the remainder of this job" – estimated to be over $1.2 million (£836,760) – to the unnamed "outside party" that provided the exploit used to unlock San Bernardino shooter Syed Farook's encrypted work iPhone (Motherboard). Unfortunately, investigators failed to obtain any new information from the phone, although Corney said that "it was in my view worth it, because it's a tool that will help us with a 5c with iOS9, which is a bit of a corner case." Farook's iPhone was at the heart of a major legal battle and public debate in which Apple maintained that it would not compromise the security of its entire iPhone range by creating a backdoor for the law enforcement agency.
+[2016-04-22 12:17:50] Carril Fernando: Oi Pessoal. Mandei na lista proposta para associados participarem do Redes e Ruas. Se interessar, respondam até terca 26/4. 🚲👼
+[2016-04-22 12:17:50] Aurium's Bot: 26/4 = 6.5
+[2016-04-22 12:22:39] Carril Fernando: Seis de maio será tarde demais... ;-)
+[2016-04-22 13:34:12] Yumi: O bot poderia falar o dia da semana ao invés de calcular
+[2016-04-22 13:34:38] Felipe "Juca" Sanches: dá pra mandar um pull request...
+[2016-04-22 13:35:47] Felipe "Juca" Sanches: Acho que o bot poderia detectar mensagens do formato "o bot poderia <fazer algo>" e responder automaticamente com: "Mande um pull request para https://gitlab.com/raulhc/telegram-bot/blob/master/telegram-bot"
+[2016-04-22 13:36:32] Yumi: Boa

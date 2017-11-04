@@ -1,0 +1,96 @@
+[2016-10-20 01:31:48] Bruno Atos joined
+[2016-10-20 01:31:48] Hi Bruno !
+[2016-10-20 01:31:59] Hello
+[2016-10-20 02:35:05] Hello, how are you?
+[2016-10-20 09:11:00] Alguém ligou na Tim? (2)
+[2016-10-20 09:14:36] Sabem se o garoa continua sem internet?
+[2016-10-20 09:19:25] O que precisa para ligar na Tim? O número do CNPJ?
+[2016-10-20 09:21:19] E o Garoa continua "Aberto"... o servidor não está permitindo atualização manual via REST...
+[2016-10-20 09:29:08] Pergunta na associados, acho que está no nome de uma PF
+[2016-10-20 09:48:10] se estamos sem internet, não acho que o problema esteja no rasp, né?
+[2016-10-20 10:04:28] Não, o Raspberry Pi envia para o servidor uma instrução para mudar o status, essa instrução poderia ser enviada manualmente, em caso de falha, mas o servidor não está aceitando esse envio manual.
+[2016-10-20 10:18:59] Está no nome do subnet
+[2016-10-20 10:19:26] pois é, eu sugeri assinar uma outra net pro Garoa no CMC, mas ninguém aprovou. Acho que no Garoa a internet precisa de redundância :)
+[2016-10-20 10:26:18] Eu acho a internet via fibra bem estável
+[2016-10-20 10:26:27] ele usa uma chave ou algo assim.. estão replicando isso? da pra ver no código
+[2016-10-20 10:27:21] sim, é estável. Mas nunca é bom ficar na mão de um provedor só :)
+[2016-10-20 10:38:35] Sim, utiliza um token... não tive acesso ao código fonte do servidor, somente ao código do Raspberry Pi.
+[2016-10-20 13:02:45] Quem vem?
+[2016-10-20 13:02:46] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803711584_117355.jpg
+[2016-10-20 13:09:59] Rodrigo Madera added Gustavo Péres
+[2016-10-20 13:10:00] Hi Gustavo !
+[2016-10-20 13:10:50] Hi
+[2016-10-20 13:14:23] Hello, how are you?
+[2016-10-20 13:45:39] E pagar duas internets, e se as duas falalharem contratamos uma 3a, pq é mais fácil contratar outra internet do que ligar para a tim e reclamar do problema
+[2016-10-20 13:47:21] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_1842540969984029.webp
+[2016-10-20 13:54:18] Se não damos conta de uma conta de internet e esquecemos de pagar, contratar duas não seria pior?
+[2016-10-20 14:03:29] Algo contra o débito automático?
+[2016-10-20 14:03:48] Já está em débito automático agora
+[2016-10-20 14:04:04] Não sei pq não estava antes, mas o Gabs já colocou :)
+[2016-10-20 14:05:50] Não pode esquecer de deixar dinheiro na conta agora 😁
+[2016-10-20 14:06:26] A chance das duas internets falharem ao mesmo tempo é bem menor. :)
+[2016-10-20 14:18:01] boa tarde, tem algo hoje no garoa?
+[2016-10-20 14:18:10] quero visitar, conhecer
+[2016-10-20 14:20:14] Boa tarde André, toda quinta-feira tem a "Noite do Arduino".
+[2016-10-20 14:22:23] obrigado
+[2016-10-20 14:24:07] Só não digo para olhar o status no site do Garoa antes de ir pois está "bugado".
+[2016-10-20 14:26:04] Eu🙋
+[2016-10-20 14:26:58] 😊😊😊
+[2016-10-20 14:42:46] Quem vai ser o primeiro a inscrever um relâmpago? http://speakerfight.com/events/noite-de-processing-relampagos
+[2016-10-20 15:04:32] Pensando numa brincadeira legal pra mostrar nesse dia :)
+[2016-10-20 16:06:47] 😊
+[2016-10-20 17:59:03] Alguém para abrir o Garoa hoje... faria isso, mas tive que desistir...
+[2016-10-20 18:01:38] Sem luz
+[2016-10-20 18:02:33] Vou na padoca tomar umas
+[2016-10-20 18:04:40] Garoa sem luz e sem internet?
+[2016-10-20 18:05:20] Garoa sem luz. Logo pode estar com ou sem Internet ;)
+[2016-10-20 18:06:08] Semana passada estava assim, depois a luz voltou...
+[2016-10-20 18:06:20] Puta caos
+[2016-10-20 18:06:29] A cidade toda
+[2016-10-20 18:06:30] Aqui na Pompéia todas as lojas sem luz ou fechadas, tempestade de granizo derrubou árvores, sinaleiros em pane, etc
+[2016-10-20 18:06:49] Idem
+[2016-10-20 18:07:06] Vou tomar uma cerveja vendo os caras se fudendo na rua
+[2016-10-20 18:07:47] Precisamos um gerador e um rádio amador pra se preparar para o fim do mundo
+[2016-10-20 18:08:51] Bateria do celular aqui vai acabar e vou voltar pra 1990 daqui a pouco
+[2016-10-20 18:09:32] Deu alguma zica naquele restaurante do lado
+[2016-10-20 18:09:48] Vazando um monte de água de dentro
+[2016-10-20 18:10:09] 😂
+[2016-10-20 18:10:29] https://en.wikipedia.org/wiki/Doomsday_Preppers
+[2016-10-20 18:15:25] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_532578968360982267.mp4
+[2016-10-20 18:15:25] Sobrou tomar uma e observar o caos
+[2016-10-20 18:16:57] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803703399_116434.jpg
+[2016-10-20 18:17:08] Cerveja e vitamina c
+[2016-10-20 18:17:20] Fica interessante
+[2016-10-20 18:17:34] 😁
+[2016-10-20 18:19:01] Joga o tubo de vitamina C no vazamento de água e bate uma foto?
+Curiosidade
+[2016-10-20 18:24:06] Esgoto?
+[2016-10-20 18:31:41] Não, limpa
+[2016-10-20 18:39:34] Desculpa bancar o cara mau
+[2016-10-20 18:41:48] Que bom
+[2016-10-20 18:41:59] Eu trabalho em perdizes e sempre tive dois ou TRÊS links de Internet. Vivo, Virtua e liveTim.  Em 60% das vezes que caia net, caia tudo. E tenho nobreak em tudo. Manter a empresa por horas
+[2016-10-20 18:41:59] E bota povo chato em perdizes
+[2016-10-20 18:49:10] Q bom nada. Muito mal. A
+ Sabesp eh Perto do garoa. A não ser q seja água pluvial
+[2016-10-20 18:52:50] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_999077034489544863.webp
+[2016-10-20 18:55:27] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803707379_116887.jpg
+[2016-10-20 19:12:39] Silicon Valley ❤️
+[2016-10-20 20:43:21] Qual o status do garoa agora? Tem luz? Tem internet? Tem jeito?
+[2016-10-20 20:44:08] Fiquei na padoca até a pouco
+[2016-10-20 20:44:43] Passei no garoa depois, sem luz
+[2016-10-20 20:45:07] Blz
+[2016-10-20 21:04:09] haha, fui la, mas nao tinha ngm
+[2016-10-20 21:04:35] nao dei sorte hj
+[2016-10-20 21:04:53] A chuva mano
+[2016-10-20 21:05:02] haha
+[2016-10-20 21:05:04] sem problemas
+[2016-10-20 21:05:11] Hackers não gostam rsrsrs
+[2016-10-20 21:05:20] kkk
+[2016-10-20 21:05:25] na proxima acerto
+[2016-10-20 21:05:31] se tiver algo amanha
+[2016-10-20 21:05:32] irei
+[2016-10-20 21:05:39] Eu tbm
+[2016-10-20 21:30:39] Olá André, estava sem eletricidade na região, e a chuva estava tão forte que nem consegui sair da estação de Pinheiros.
+Mesmo se tivesse alguém lá, a campainha não teria funcionado.
+[2016-10-20 21:31:26] Tranquilo Fabricio, imprevistos acontecem! :)
+[2016-10-20 23:30:35] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_532578367065568232.mp4

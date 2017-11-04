@@ -1,0 +1,60 @@
+[2017-07-21 00:04:45] asterisk***
+[2017-07-21 00:05:03] cara vai de freepbx, eh facil de subir um server com ele
+[2017-07-21 00:05:20] soh n sei sobre compatibilidade com placas da digium/digivoice
+[2017-07-21 11:40:03] aqui usamos zoiper
+[2017-07-21 11:40:40] asterisk
+[2017-07-21 11:47:12] Pergunta pro povo do Python:
+[2017-07-21 11:47:44] Quem já usou Django + Celery + RabbitMQ?
+[2017-07-21 11:48:22] (Em prod, naturalmente kkk)
+[2017-07-21 11:49:40] Usamos Python + RabbitMQ aqui no Hosp, mas iremos migrar.
+Trampei em um lugar que eles usavam Django + Celery.
+Por motivos de Higiene, não coloquei a mão em nenhum dos casos... rs
+[2017-07-21 11:50:24] Então. Estou com um problema.
+[2017-07-21 11:50:50] Os workres do celery não morrem, as vezes
+[2017-07-21 11:51:38] Daí as vezes isso pendura o worker do  uwsgi. e cpu fica em 100%
+[2017-07-21 11:51:56] Esse eu só rola em produção
+[2017-07-21 12:13:16] Conhece o Flower?
+[2017-07-21 12:13:26] é um framework para monitorar o Celery
+[2017-07-21 12:13:27] https://pypi.python.org/pypi/flower
+[2017-07-21 12:21:01] Mas qual o problema do pythin com rabbit?
+[2017-07-21 12:46:05] Nenhum, desde que você saiba o que está fazendo... O que aqui não é esse o caso.
+[2017-07-21 12:57:40] Conheci hoje de manhã​ kkkk
+[2017-07-21 13:00:13] Eu acho que deve ser pau em alguma config. Tem muitos parametros uwsgi+rabbit+celery
+[2017-07-21 14:04:15] E não vale a pena tentar entender o que já tem ao invés de reescrever? Ou está tão ruim assim? :)
+[2017-07-21 14:51:05] https://www.embarcados.com.br/linguagens-de-programacao-2017-ieee-spectrum
+[2017-07-21 14:57:08] faz um 1 ano e meio que tá ruim e foram empurrando
+[2017-07-21 14:57:17] chegou em um momento que nào escala mais
+[2017-07-21 14:57:27] por falha no Design da Arquitetura
+[2017-07-21 15:35:12] https://science.slashdot.org/story/17/07/21/1639249/nasa-uploads-hundreds-of-rare-aircraft-films-to-youtube
+[2017-07-21 15:35:42] A parte mais importante é: "And I'd advise you to stop reading if you want to get any work done today."
+[2017-07-21 15:43:26] To de férias, vou ler :D
+[2017-07-21 15:47:44] hahha
+[2017-07-21 17:59:43] "There's a lot of risk associated with Falcon Heavy," said SpaceX CEO Elon Musk, speaking at the International Space Station Research and Development Conference this Wednesday. Musk also said there was a "real good chance" the demo flight wouldn't make it to orbit.
+
+"I want to make sure to set expectations accordingly. I hope it makes it far enough away from the pad that it does not cause pad damage," he said. "I would consider even that a win."
+[2017-07-21 18:01:34] Parece que o Pitanga voltou para a escola hahaha
+[2017-07-21 18:01:53] Férias de Julho...
+[2017-07-21 19:11:35] 34C3? Alguem anima?
+[2017-07-21 19:19:55] vixxx... quanto custa a rolê?
+[2017-07-21 19:20:33] São Paulo > Leipzig, 3k5
+[2017-07-21 19:20:55] Mais o que vai gastar lá.
+[2017-07-21 19:21:20] de lá to querendo ir pra reykjavik, islandia
+[2017-07-21 19:44:28] LOL. Exótico.
+[2017-07-21 19:50:12] é... o povo de lá deve achar exótico vir pra São Paulo, Brasil (tipo por causa do til em cima do "são" e também por causa da selva e dos macacos, etc...)
+[2017-07-21 19:54:39] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803118423_97328.jpg
+[2017-07-21 19:59:48] Só se tu pedir pro meu chefe uns dias kkk
+[2017-07-21 20:06:23] Hauhauhauhau
+[2017-07-21 20:06:29] Vou conversar com ele
+[2017-07-21 20:06:34] Capaz dele vir junto
+[2017-07-21 20:20:57] Show
+[2017-07-21 20:21:25] Pessoal boa noite tudo bem ? estou interessado em conhecer o Garoa e pergunto a voces, qual melhor dia pra um newbie colar por lá ?
+[2017-07-21 20:27:48] Hj, amanhã, domingo, seg, terça, quarta, quinta
+[2017-07-21 20:28:10] rá ! todo dia
+[2017-07-21 20:35:34] Literalmente, de certo modo haha
+[2017-07-21 20:35:45] Cogitando
+[2017-07-21 20:36:09] Foi justamente essa a minha intenção ao fazer o comentário bem-humorado :-D
+[2017-07-21 20:36:55] Exato, jovem Padawan
+[2017-07-21 22:24:59] Vixi, vou fritar as férias assistindo isso! 😂
+[2017-07-21 22:25:49] Boa!
+[2017-07-21 22:26:46] É na semana entre natal e ano novo. Fácil do chefe dispensar, com a vantagem de fugir da ceia de natal em família!
+[2017-07-21 22:33:17] Kiki vc já foi? Tá mto caro mesmo esse ano ou a passagem nessa época costuma ser esse preço?

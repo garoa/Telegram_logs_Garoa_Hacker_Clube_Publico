@@ -1,0 +1,216 @@
+[2017-03-08 00:00:46] Noise indoor pode ser uma caminho(des) de interrupção do mic :)
+[2017-03-08 00:01:25] Fato
+[2017-03-08 00:05:42] Eu tenho Net, mas como eu não quis o combo (não assisto TV), não me forneceram o roteador wireless... estou usando um TP-Link TL-WR1043ND, e funciona muito bem...
+[2017-03-08 00:08:17] tem telefone Android? Procura Wifi Analyzer no Play Store
+[2017-03-08 00:08:47] da uma olhada quais canais tem menos barulho, e configura seu roteador para usar este canal
+[2017-03-08 00:10:45] quando o sinal do Wifi e ruim geralmente a culpa do SNR (Signal To Noise Ratio). Imagina falando com amigo no quarto silencio do mesmo jeito do que seu quarto cheio de pessoas+musica
+[2017-03-08 00:41:13] Cable Modem Motorola sbv5121 e estou tentando rotear wifi com tplink mr3020
+[2017-03-08 00:42:08] Qual seu modem?
+[2017-03-08 00:43:26] Eu consigo rotear funciona perfeito para 2 aparelhos o terceiro encherga a rede mas não conecta acho que é o dhcp do modem
+[2017-03-08 00:44:55] Na verdade a única maneira que isso rolou é quando aparentemente o modem assume e configura uma range de ip tipo 100.77.x.x
+[2017-03-08 00:45:36] Quando ligo o modem depois o roteador na sequencia
+[2017-03-08 00:46:22] Se alguém souber me chama no privado para não floda aki
+[2017-03-08 00:46:32] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_58023844232823441.webp
+[2017-03-08 00:47:56] quando eu morava em sp eu tinha o mesmo modelo e fazia a mesma coisa, configurava em bridge e fazia o roteador gerenciar o dhcp
+[2017-03-08 01:02:55] Vou pesquisar como altera para bridge
+[2017-03-08 01:11:19] E ai, apareceu alguém do Raul aí?
+[2017-03-08 01:26:58] Mac é um dos melhores mic internos, na minha opinião, inclusive já vi um projeto que simula o touch so com o ruido do mic do mac
+[2017-03-08 01:37:22] que tal um gerador de ruído colocado na entrada do mic?
+[2017-03-08 01:46:19] Imagino que não todos os modelos, né? Tb tem entrada pra mic+p2 num jack só. Como funciona nesse caso? Teoricamente, ele deveria reconhecer quando o fone tem microfone tb, ou não?
+[2017-03-08 01:49:28] Voltamos à ideia do Kenny G :)
+[2017-03-08 06:12:38] Acho q eu gosto dessa solução pelo quesito facilidade de re/aplicação
+[2017-03-08 06:35:03] Vou ver como faz isso
+[2017-03-08 06:36:05] Será que um desses não resolveria?
+http://s.aliexpress.com/zaaaMNNf
+[2017-03-08 06:43:53] Ou melhor, só o plug... sairia bem mais barato...
+[2017-03-08 06:56:59] Isso é legal, um resistor já serviria
+[2017-03-08 07:59:26] Nvidia oferece US$ 30.000 para criação de aplicações VR - Allan Brito
+https://www.allanbrito.com/2017/03/07/nvidia-oferece-us-30-000-para-criacao-de-aplicacoes-vr/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+AllanBrito+%28Allan+Brito%29
+[2017-03-08 09:12:38] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803114374_15428.jpg
+[2017-03-08 09:27:40] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803114873_15517.jpg
+[2017-03-08 09:48:32] Não é verdade que ela criou o termo bug, este termo é muito mais antigo.
+[2017-03-08 09:48:44] https://wikileaks.org/ciav7p1/
+[2017-03-08 09:49:46] Eu vi isso ontem, bizarro
+[2017-03-08 09:52:12] proceed with caution
+[2017-03-08 11:27:50] Não sabia, qual a origem original?
+[2017-03-08 11:28:58] Difícil dizer, mas é bem mais antiga que ela. No século 19 já era usado com esse significado.
+[2017-03-08 11:30:40] Lovelace & Babbage, debugging since ever 😛
+[2017-03-08 11:39:05] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803116522_15436.jpg
+[2017-03-08 11:47:32] 👏
+[2017-03-08 11:48:38] https://vimeo.com/125746164
+[2017-03-08 12:56:39] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804206780_16929.jpg
+[2017-03-08 13:04:03] 😝
+[2017-03-08 13:19:52] ainda sobre fone, lembrei de uma coisa. tenho um fone de celular que tem 4 contatos que acredito ser 2 pro audio em estéreo, pro microfone e pra um botão. esse fone, quando ligo no note, funciona, mas o notebook não desliga o speaker, como se o fone não estivesse conectado
+[2017-03-08 13:20:47] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803112267_15986.jpg
+[2017-03-08 13:22:27] depende do plug femea
+[2017-03-08 13:25:57] engraçado que com outro fone que tem as mesmas funções isso não acontece. não estou com ele aqui mas vou checar como é o plug depois.
+[2017-03-08 13:29:55] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803721171_85388.jpg
+[2017-03-08 13:30:43] Sobre o Arcade do Felipe (Juca) que está no Garoa: o mesmo está "jucado"...
+Controles com mal contato, Tela "flicando", e jogo fica lento quando tem muito sprite na tela... @mynameiserin está de prova!
+[2017-03-08 13:31:03] se eh do juca
+[2017-03-08 13:31:07] ta jucado
+[2017-03-08 13:31:29] Pré Req, né? rs
+[2017-03-08 13:31:56] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_276846938995818598.webp
+[2017-03-08 13:34:42] O slowdown é da programação do jogo em si. Quanto aos controles, sim é verdade. Ainda preciso fazer uma revisão geral nos contatos de todos os botões. A tela com flicker eu não tinha visto. Mas notei que a tela balança um pouco na vertical. Deve estar com um sinal de sync meio fraco. Talvez seja resultado de algum capacitor ruim. É algo a se investigar com mais calma.
+[2017-03-08 13:35:53] Me falaram que você é contra, mas porque não micro switch?
+[2017-03-08 13:35:53] o flicker na verdade acontece qnd tem explosao ai trava e fixa pra sempre
+[2017-03-08 13:36:09] pelo foi assim que rolou
+[2017-03-08 13:36:43] Sim. O flicker começou após derrotar o primeiro bosd
+[2017-03-08 13:36:47] De início eu até achei que fosse efeito do jogo balançar a tela quando a metralhadora está sendo usada pelo jogador. Mas depois notei que treme também na tela de introdução, então é ruído mesmo
+[2017-03-08 13:36:47] Boss
+[2017-03-08 13:36:58] hmmm....
+[2017-03-08 13:37:15] é... pode ser bug de sw, mas acho pouco provável
+[2017-03-08 13:37:43] talvez o cartucho esteja ligeiramente mal-conectado na placa MVS. Posso dar uma apertadinha amanhã
+[2017-03-08 13:37:53] esses tipos de bug em cartucho seria como?
+[2017-03-08 13:38:05] da uns slowdown feroz também
+[2017-03-08 13:38:15] mas se tiver mal conectado funcionaria o jogo?
+[2017-03-08 13:38:15] o slowdown é bug mesmo
+[2017-03-08 13:38:17] como se fosse emulador em hardware pouco capaz
+[2017-03-08 13:38:34] emulator bom replica o slowdown do jogo real
+[2017-03-08 13:38:40] Sim, que não deu no emulador depois no note do Tiago
+[2017-03-08 13:38:57] ah, interessante isso
+[2017-03-08 13:39:05] então o mame é melhor que neo geo hardware
+[2017-03-08 13:39:18] hm
+[2017-03-08 13:39:21] LOL
+[2017-03-08 13:39:32] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_276846938995818598.webp
+[2017-03-08 13:39:36] o correto é o MAME emular inclusive as falhas de programação
+[2017-03-08 13:41:25] Existem versões de MVS? Tipo, um mais atual mais potente que os antigos? Tipo o RPi...
+[2017-03-08 13:42:13] sim, tem, mas não sei exatamente qual é a diferença entre as placas
+[2017-03-08 13:42:20] é um assunto relativamente novo pra mim
+[2017-03-08 13:42:24] mas eu duvido MUITO que esse slowdown esteja certo, queria ver a mesma fita rodando em outro mvs
+[2017-03-08 13:43:05] atualizei a página no wiki, vejam lá: https://garoa.net.br/wiki/Arcade
+[2017-03-08 13:49:47] A minha placa NeoGeo é a MVS-1B. Mas existem outras variantes, como descrito nesse site: http://wiki.arcadeotaku.com/w/Beginners_Guide_To_SNK_Neo_Geo_MVS
+[2017-03-08 13:53:35] L/R/Mic/terra
+[2017-03-08 13:54:33] A ordem da conexao pode variar, procure pelos esquemas de montagem TRRS no google
+[2017-03-08 13:55:56] Legal! Tava procurando por esse circuitinho 🙂
+[2017-03-08 14:10:49] hm, que massa. então os comandos se dão pela interação do terra com os outros 'canais', é isso? sou meio tosco de eletrônica.
+[2017-03-08 14:11:12] não tinha associado Gnd com terra. :)
+[2017-03-08 14:12:40] esse tipo de circuito é o mesmo usado em controle de volante de carro
+[2017-03-08 14:12:49] cada um dos botões aplica uma impedância (resistência) diferente no circuito do jack de áudio
+[2017-03-08 14:13:30] E a placa de som reconhece essa mudança de impedância e emite um evento de pressionamento de botões pro software tratar
+[2017-03-08 14:14:23] (o driver faz esse gerenciamento)
+[2017-03-08 14:17:21] uma coisa que eu queria era simular essa impedancia com arduino por exemplo
+[2017-03-08 14:17:58] Só uma observação, ao contrário do que possa parecer, o RT é ligado diretamente no + do speaker direito, mas não há ligação com o GND.
+[2017-03-08 14:18:00] tive a ideia agora e nao sei como seria hehe
+[2017-03-08 14:18:47] Acho que rola chavear a impedância com um transistor controlado por um pino de GPIO de algum microcontrolador (como o Arduino, por exemplo)
+[2017-03-08 14:19:41] não existe uma especificação de p2? pois os mais antigos eram só o RT e LT, né? ou tinha terra tb?
+[2017-03-08 14:20:30] nao tem padrao explicito pelo que vi só tem convensoes
+[2017-03-08 14:24:34] Os mais antigos eram somente SPEAKER e GND, pois não eram em estéreo...
+[2017-03-08 14:30:40] vdd, hehe
+[2017-03-08 15:09:32] Resolvam este caso: 
+Pai e filho sofrem um acidente terrível de carro. Alguém chama a ambulância, mas o pai não resiste e morre no local. O filho é socorrido e levado ao hospital às pressas. Ao chegar no hospital, a pessoa mais competente do centro cirúrgico vê o menino e diz: Não posso operar esse menino! Ele é meu filho!
+[2017-03-08 15:10:39] O corno morreu...
+[2017-03-08 15:10:46] É a mae
+[2017-03-08 15:11:10] Tem razão....rsss
+[2017-03-08 15:11:40] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_826459275206328386.webp
+[2017-03-08 15:12:14] Ou o outro pai 💁
+[2017-03-08 15:13:46] Neste caso era a mãe dele, recebi em um grupo do WhatsApp e a primeira coisa que pensei foi na mãe dele, mas como estava no ônibus não pude responder.
+[2017-03-08 15:14:45] Bom, também faria sentido caso o filho tivesse dois pais
+[2017-03-08 15:16:24] Quando cheguei no trabalho tinha todo tipo de teoria, o amante dá mãe dele, o pai biológico, que era um casal gay, mas em nenhuma das respostas dizia que era a mãe, que neste caso era a resposta certa de quem propôs o desafio.
+[2017-03-08 15:18:10] A ideia era mostrar que a maioria das hipóteses supunha que a pessoa mais competente do centro cirúrgico seria um homem, o que não era o caso.
+[2017-03-08 15:27:22] 'Caí' nisso aí tbm, minha primeira reação foi de ser um casal gay. Não sei se por machismo enraizado ou por tudo estar conjugado no sexo masculino na frase.
+[2017-03-08 15:29:10] Eu acho que só não cai porque eu tinha acabado de falar com a minha mãe (pelo WhatsApp), então essa ideia estava na minha cabeça no momento que vi a mensagem. Não sei se seria diferente em outra situação.
+[2017-03-08 15:29:14] "a pessoa mais compentente vê" está conjugado no feminino (mas pessoa é sempre feminino em português)
+[2017-03-08 15:31:05] Já que o assunto é machismo (e feminismo), vale divulgar aqui o hackathon que a Carine Roos (minha esposa) está organizando no Clube Hebraica: http://womenshackweekend.org/
+[2017-03-08 15:35:15] Sim mas 'pessoa' é feminino no papel, na semântica pode ter qualquer sexo. Aí a interpretação que depende de fatores como: machismo.
+[2017-03-08 15:36:00] Ou heteronormatividade
+[2017-03-08 15:37:23] Yep, e a minha interpretação de "ah, é uma pegadinha pra ver se é homofóbico" vem do fato se eu ver mais a causa anti-homofobia nas mídias do que feminismo.
+[2017-03-08 15:37:26] Mas eu diria que poderia ser machismo no sentido de nós associarmos "a pessoa mais competente" a um homem... Infelizmente é um comportamento comum. A gente associa homens a posições de poder. Mas isso é um problema.
+[2017-03-08 15:40:55] A pessoa que propôs o desafio já tinha pré-estabelecido a resposta, "mãe", e uma das primeiras sugestões de resposta foi a de que seria um casal gay, então não descartaram a possibilidade de um homem gay ser a pessoa mais competente do centro cirúrgico...
+[2017-03-08 15:41:45] Ah, não gosto dessa lógica de uma resposta pré-estabelecida ser a única correta =P
+[2017-03-08 15:46:55] É a única alternativa correta para este caso específico, pois trata-se de uma história já criada previamente, com personagens já definidos.
+[2017-03-08 15:47:17] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_694481660414001213.webp
+[2017-03-08 15:47:46] Ninguém disse que não poderia ser um casal gay, apenas que nesta história específica, esse não era o caso.
+[2017-03-08 15:48:25] e quem disse que o pai é homem?
+[2017-03-08 15:49:18] nao existe resposta certa
+[2017-03-08 15:49:25] cada um consegue achar pelo no ovo que quer
+[2017-03-08 15:53:04] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_5044411090260197384
+[2017-03-08 16:10:01] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803117999_15851.jpg
+[2017-03-08 16:10:37] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_532578839511984275.mp4
+[2017-03-08 16:15:05] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803110388_34290.jpg
+[2017-03-08 16:17:09] Vamos respeitar as mulheres do grupo, ok?
+[2017-03-08 16:18:14] na epoca do auge do irc era legal os botzin
+[2017-03-08 16:18:24] colocava /ban user
+[2017-03-08 16:18:34] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_272479773299572978.webp
+[2017-03-08 16:18:35] ele avisava o cara mandava textao bania
+[2017-03-08 16:18:37] e tudo mais
+[2017-03-08 16:18:49] agora esses bot do telegram td inutil
+[2017-03-08 16:18:53] so dá Hi, fulando
+[2017-03-08 16:19:46] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_694481660414001179.webp
+[2017-03-08 16:20:37] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_15405485050037417.webp
+[2017-03-08 16:22:20] WTF!
+[2017-03-08 16:34:07] Que simbolo diferente esse o teu da foto, o que representa?
+[2017-03-08 16:34:55] Seja lá quem é a pessoa, porque não pode operar o filho em estado de emergência?
+[2017-03-08 16:40:01] P2 (ou minijack) TRS (tip, ring, sleeve) segue esse padrão da figura. TRRS pode aparecer com o ground invertido com o mic. O padrão usado pelos p2 na apple é esse... acho que a nokia inverte, enfim, tem que ter certeza para qual equipamento vc vai montar o cabo para ver qual a ordem que o fabricante convencionou
+[2017-03-08 16:40:50] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804206306_18205.jpg
+[2017-03-08 16:41:03] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803118382_16130.jpg
+[2017-03-08 16:41:04] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803119187_16050.jpg
+[2017-03-08 16:41:04] Se não me engano existem umas normas quanto a isso mesmo, baseadas em pessoas não conseguirem exercer essa função tão bem quando se trata de alguém com quem têm uma relação emocional
+[2017-03-08 16:42:19] entao eu nao vou mais consertar o pc da minha mae, parentes diversos /o/ #zueraneverends
+[2017-03-08 16:42:37] de fato existe mesmo, o mesmo acontece pra parceiro de trabalho
+[2017-03-08 16:43:29] Muitas temporadas de Grey's Anatomy pra embasar isso
+[2017-03-08 16:43:59] Então o problema não foi resolvido, né? O filho operou com quem?
+[2017-03-08 16:44:16] eu sei pq fui casado anos com uma enfermeira do hospital das clinicas
+[2017-03-08 16:44:39] Aí a gente vai ter de perguntar pra pessoa que o Fabrício conhece, porque só ela tem as alternativas corretas.
+[2017-03-08 16:44:47] Só zoando, eu não entendi o problema quando li, imaginei que era a mãe logo de cara e fiquei pensando no problema como o filho a ser operado às pressas
+[2017-03-08 16:44:48] esquece esse problema so besteira
+[2017-03-08 16:44:52] Acho que o @mattatabot faz isso...
+[2017-03-08 16:45:02] esse teste ai é tao antigo qnt z80
+[2017-03-08 16:45:11] ate perdeu metade do texto
+[2017-03-08 16:47:01] A gente tá numa época em que as pessoas chamam parágrafos de 5 linhas de textões... (não que eu ache isso correto, definitivamente)
+[2017-03-08 16:57:00] Em nenhum momento eu disse que conhecia a pessoa que criou esse desafio...
+[2017-03-08 16:58:06] Não perdeu, era para ter enviado depois, para não influenciar as respostas, e me esqueci...
+[2017-03-08 16:58:23] kkkkk entao perdeu
+[2017-03-08 16:59:56] Resposta:
+Ao ler este texto, a maioria das pessoas fica com ar de questionamento. Como é que o menino pode ser filho da pessoa mais competente do centro cirúrgico se o pai morreu no acidente? Diversas teorias e hipóteses são levantadas sobre o caso: a mãe tinha um caso extraconjugal? Era um casal gay? O pai era adotivo? Ou qualquer coisa que possa dar sentido ao texto. O que muitos não pensam de imediato é que a pessoa mais competente do centro cirúrgico é a mãe do menino, pois mulheres não são usualmente associadas a essas atividades. 
+
+Exatamente por grande parte das pessoas não conseguirem perceber rapidamente a resposta desta simples situação hipotética é que o dia de hoje ainda deve ser um importante dia de luta em busca de igualdade. 
+
+Feliz Dia Internacional da Mulher!!!
+[2017-03-08 17:00:42] Nokia e Android usam o mesmo, a Apple quem inverte
+[2017-03-08 17:00:59] pc trrs (laptops) mesmo que Android
+[2017-03-08 17:01:06] Apple é a exceção
+[2017-03-08 17:01:19] apple é diferenciado
+[2017-03-08 17:03:25] Apple é caro
+[2017-03-08 17:03:52] ora temos aqui um xeroque rolmes
+[2017-03-08 17:04:17] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_15405485050037481.webp
+[2017-03-08 17:11:44] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_135158025190114302.webp
+[2017-03-08 18:07:29] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_335903228942090312.webp
+[2017-03-08 18:35:18] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803113091_16351.jpg
+[2017-03-08 18:49:43] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_167294778680018962.webp
+[2017-03-08 18:50:10] se liga na relacao base/altura dessa peça
+[2017-03-08 19:35:17] 😂😂😂
+[2017-03-08 19:53:10] 😳
+[2017-03-08 20:05:16] Tá certo isso? Tu que criou a peça?
+[2017-03-08 20:15:25] sim, eh um eixo para um treco aqui
+[2017-03-08 20:15:34] o legal eh ter conseguido imprimir de boa
+[2017-03-08 20:15:45] essa impressora foi a que o garoa dispensou
+[2017-03-08 20:15:47] huahauhuaauha
+[2017-03-08 20:28:20] Dispensou não é o termo aqui. Seria mais para "não adquiriu"
+[2017-03-08 20:33:32] Boa para mostrar o quanto somos machistas
+[2017-03-08 20:39:07] Fale por vc...
+[2017-03-08 20:39:56] Sim
+[2017-03-08 20:40:02] Obg por esclarecer
+[2017-03-08 20:42:04] Não me orgulho ...tenho total consciência e trabalho a acada oprtunidade para mudar...mas é algo que vem do sistema de coisas que somos criados...queria ter sido criado em uma família menos machista e menos preconceituosa no geral...mas não...e temos que fazer uma reflexão constante sobre isso.
+[2017-03-08 20:42:34] Passar bem
+[2017-03-08 20:42:48] Não se deve usar "somos" pra qualificar todos aqui...
+[2017-03-08 20:50:59] O "somos" não necessariamente inclui "todos", senão "somos todos" seria pleonasmo...
+[2017-03-08 20:54:18] A sociedade é machista é diferente de somos
+[2017-03-08 20:57:25] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_999077034489544754.webp
+[2017-03-08 21:58:38] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_694481660414001223.webp
+[2017-03-08 21:59:44] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_1244824411647770785.webp
+[2017-03-08 22:22:18] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_545011116271468641.webp
+[2017-03-08 22:39:51] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_328774854541050152.webp
+[2017-03-08 22:42:28] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_505010926202650827.webp
+[2017-03-08 22:42:36] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_246108729936707752.webp
+[2017-03-08 22:42:55] #notallmen
+[2017-03-08 23:02:34] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_71790434187216355.webp
+[2017-03-08 23:06:07] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_532577873144324326.mp4
+[2017-03-08 23:11:27] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803734853_65163.jpg
+[2017-03-08 23:11:55] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_71790434187216357.webp
+[2017-03-08 23:46:33] Vi que ninguém respondeu a dúvida do cara la em cima sobre o P2 de 4 pinos não desligar o falante interno
+[2017-03-08 23:47:06] Isso se dá porque ele é desligado por um switch interno do p2  do notebook
+[2017-03-08 23:47:22] Como o lado do terra dele é menor para suportar o mic
+[2017-03-08 23:47:47] Esse switch não é fechado pelo contato do conector
+[2017-03-08 23:48:44] Acredito que o mesmo contato faça a questão do conectado ou não na placa mãe, aí já não tenho 100% de certeza para afirmar
+[2017-03-08 23:49:28] Até porque ele reconhece tanto alta impedância (um amplificador por ex) ou um fone (baixa impedancia)

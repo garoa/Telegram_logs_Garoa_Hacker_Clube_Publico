@@ -1,0 +1,130 @@
+[2017-05-26 01:29:55] Zé added Daniel Moretti
+[2017-05-26 01:29:56] Hi Daniel !
+[2017-05-26 02:36:09] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803115266_60212.jpg
+[2017-05-26 03:36:42] #Evolução
+
+https://www.youtube.com/watch?v=opMgrJyHP9k
+
+@pr1v8
+[2017-05-26 07:32:18] Professor Pier... saudodo mestre...
+[2017-05-26 07:35:49] https://youtu.be/VyTeemidgcA
+[2017-05-26 07:46:41] 🔝🔝🔝🔝🔝🔝🔝🔝🔝🔝
+[2017-05-26 08:13:13] o pessoal ta de apropriação cultural:
+[2017-05-26 08:13:51] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_1842540969984027.webp
+[2017-05-26 08:23:38] photo
+[2017-05-26 08:29:26] document
+[2017-05-26 09:41:25] Já é consenso entre os teólogos mais conservadores inclusive, que Jesus não nasceu em dezembro. Essa data se refere à outra festa Romana, e foi estabelecida após o ano 300
+[2017-05-26 12:51:27] Ola a todos, estou tendo problemas com o meu meArm
+[2017-05-26 12:51:52] nao consigo fazer o movimento dos servos como eu gostaria. nao sei se os servos estao bons ou se e meu arduino
+[2017-05-26 12:52:05] o o codigo de exemplo que estou usando esta abaixo:
+[2017-05-26 13:01:58] #include<Servo.h>
+Servo servoX;
+Servo servoY;
+Servo servoV;
+Servo servoH;
+
+void setup(){
+  servoX.attach(3);
+  servoY.attach(5);
+  servoV.attach(6);
+  servoH.attach(9);
+  }
+
+void loop(){
+  servoH.write(55);
+  servoX.write(70);
+  servoY.write(100);
+  servoV.write(30);
+delay(2000);
+  servoH.write(20);
+delay(2000);
+  servoH.write(20);
+  servoX.write(90);
+  servoY.write(90);
+  servoV.write(90);
+delay(2000);
+  servoH.write(40);
+delay(2000);
+}
+[2017-05-26 13:02:12] mas os servos nao giram para os angulos
+[2017-05-26 13:14:47] na verdade nem giram... ligacoes ok e mensuradas
+[2017-05-26 13:15:00] teremos hoje Nos robos?
+[2017-05-26 13:23:41] Alguém no Garoa hj durante o dia?
+[2017-05-26 13:26:59] Q precisa?
+[2017-05-26 13:51:47] @fernandoGuisso e aiiiiiii chipado
+Como foi o encontro de quarta-feira no Garoa
+[2017-05-26 13:59:10] Foi legal, poça gente, mas a galera trocou várias idéias, inclusive, falando em bitcoin, ontem coloquei minha pubkey no chip
+[2017-05-26 14:01:29] Da horasssaa
+[2017-05-26 14:01:40] Eu vou comprar o gravador essa semana
+[2017-05-26 14:01:46] E mais uns acessórios
+[2017-05-26 14:52:53] Fernando aciona um n ao sei nome e diz que é herdeiro do império das facas guinso
+[2017-05-26 15:24:48] esses bichinhos são frágeis, tem que dar uma olhada se estão iniciando direitinho
+[2017-05-26 15:29:23] Eu tenho! Vamos marcar que deixo com você emprestado
+[2017-05-26 15:30:33] Fechouuuuuuu
+[2017-05-26 15:54:03] Galera, vcs lembram do simetbox? medidor de internet?
+[2017-05-26 15:54:13] o nic.br soltou o codigo fonte dele na internet
+[2017-05-26 15:54:16] http://idgnow.com.br/internet/2017/05/26/nic-br-solta-codigo-fonte-de-sistema-que-mede-qualidade-da-internet/
+[2017-05-26 15:54:21] Liberaram o código.
+[2017-05-26 16:00:42] Já instalei em um roteador
+[2017-05-26 16:00:58] Interface é nada amigável
+[2017-05-26 17:33:07] Eu to aprendendo horrores com o codigo
+[2017-05-26 17:33:26] Como o simetbox acha sua localizacao geografica
+[2017-05-26 17:33:53] Usando as redes wifi proximas
+[2017-05-26 17:34:16] Olha só
+[2017-05-26 17:34:35] Eu não preenchi com nada e nem tive tempo de vasculhar o código
+[2017-05-26 17:34:54] Eu nao resisti
+[2017-05-26 17:35:43] Coisas interessantes para levar pra raspi e similares
+[2017-05-26 17:38:26] https://twitter.com/SpaceX/status/867568781928701954
+[2017-05-26 17:41:02] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_240639613071261711.webp
+[2017-05-26 17:49:04] Não vejo a hora... em que vão juntar esses boosters com o core central e testar tudo de uma vez só (e depois voar, é claro!)
+[2017-05-26 17:49:43] É para a missão para marte?
+[2017-05-26 17:49:54] Esse aí da foto é um dos 2 boosters laterais. Veja que ele tem uma calota aerodinâmica no topo
+[2017-05-26 17:50:27] Sim
+[2017-05-26 17:50:51] não... o Falcon Heavy só vai levar satélites pesados para órbitas ao redor da Terra e astronautas-amadores para um rolê ao redor da Lua
+[2017-05-26 17:51:23] astronautas serão levados para a Estação Espacial Internacional em cima de um Falcon 9 (e não no Heavy)
+[2017-05-26 17:51:40] e para Marte o foguete vai ser BEEEMMM MAIOR !
+[2017-05-26 17:52:15] https://upload.wikimedia.org/wikipedia/commons/4/4f/SpaceX_Interplanetary_Transport_System%2C_Size_Comparison.svg
+[2017-05-26 17:52:21] Tendi...
+[2017-05-26 17:53:00] Vai começar os roles fora do planeta...rsss
+[2017-05-26 17:58:15] rolezinho ostentação :-)
+[2017-05-26 17:58:50] sim, vai ser muito caro!
+[2017-05-26 17:59:42] Tem duas pessoas que já pagaram a passagem para a SpaceX e estão agendando a viagem privada para a Lua com fins de turismo pro ano que vem
+[2017-05-26 18:00:39] https://www.nytimes.com/2017/02/27/science/spacex-moon-tourists.html
+[2017-05-26 18:02:29] $90 milhões!
+[2017-05-26 18:05:04] há quem possa... :-P
+[2017-05-26 18:05:42] E há quem queira também!
+[2017-05-26 18:05:56] A grade questão é achar a interseção entre os que querem e os que podem.
+[2017-05-26 18:06:54] Fazer um abaixo assinado para o Elon para fazer uma lotação espacial... 😝
+[2017-05-26 18:07:34] Falcon 747...😁
+[2017-05-26 18:17:10] Galera, como que eu faço para imprimir uma coisa no impressora 3D do garoa?
+[2017-05-26 18:19:57] Configura o CUPS e depois dá um CTRL+P ;-)
+[2017-05-26 18:20:23] Esqueci de colocar impressora 3d
+[2017-05-26 18:20:27] A SpaceX jamais usaria o número 747, pois é nomenclatura da Boeing (sua concorrente)
+[2017-05-26 18:20:50] esqueci de mencionar que era zoeira :-P
+[2017-05-26 18:21:20] Eu não sei operar a 3D. Mas acho que tem bastante gente que sabe. Cola lá e bate um papo com a galera
+[2017-05-26 18:21:50] Me disseram que precisa fazer um curso
+[2017-05-26 18:21:58] Para poder operar
+[2017-05-26 18:22:17] Mas se tivesse como alguém imprimir para mim e eu pagasse o material de extrusão seria ótimo
+[2017-05-26 18:23:07] Eu sei, to zoando!
+[2017-05-26 18:25:28] Mas o foguetão do Interplanetary Transport System vai ser um tipo de "lotação espacial" já que vai poder levar até 100 astronautas de uma vez só...
+[2017-05-26 18:26:22] É um começo, vamos ver se chega na lotação de 200 ou mais...rsss
+[2017-05-26 18:27:13] se bobear até cabe, se for fazer uma viagem turística de 1 semana até a Lua. Mas pra ir pra Marte precisa de espaço pra levar o rango da galera
+[2017-05-26 18:27:53] rango pra 6 meses...
+[2017-05-26 18:29:11] ele disse que vai lançar uns foguetes antes levando suprimentos antes de levar os astronautas, já até passou um documentário na NetGeo sobre isso
+[2017-05-26 18:32:49] O @Belimawr tinha combinado com alguém uma impressão 3D... dá uma pesquisada no grupo, talvez consiga aproveitar a oportunidade...
+[2017-05-26 18:33:15] grupo do google?
+[2017-05-26 18:34:18] Sim, claro. Mas a galera precisa comer durante a viagem. Não só quando chegar lá.
+[2017-05-26 18:35:04] Também, são 6 meses para chegar lá né?
+[2017-05-26 18:41:05] Cervejeiros de plantão http://www.infomoney.com.br/minhas-financas/consumo/noticia/6566848/maquina-cerveja-caseira-com-wifi-pode-ser-encomendada-pela-internet
+[2017-05-26 18:41:59] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_24991512752292796.webp
+[2017-05-26 19:03:56] Não, aqui mesmo.... grupo do Telegram...
+[2017-05-26 19:18:32] Ronie Oliveira joined
+[2017-05-26 19:18:32] Hi Ronie !
+[2017-05-26 19:26:54] Boa noite pessoal.
+[2017-05-26 19:27:38] Boa noite
+[2017-05-26 19:32:43] Em breve irei visitar o clube.
+[2017-05-26 19:34:22] Ei caras alguém manja uns artigos bons sobre ICMP tunneling para pentesters? Vi uma palestra na cryptorave mas foi de madrugada não lembro de nada Hahaha
+[2017-05-26 21:54:44] Rogerio Fox - www.foxlab.com.br joined
+[2017-05-26 21:54:45] Hi Rogerio Fox - !
+[2017-05-26 21:55:25] Na área. Boa noite galera. Sou do Calango de Brasília e agora em Sampa.
+[2017-05-26 21:56:48] @Latex_lin blz?

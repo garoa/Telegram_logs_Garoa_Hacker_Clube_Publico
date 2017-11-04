@@ -1,0 +1,143 @@
+[2016-10-19 01:47:14] Temos que imprimir um e colocar no Garoa!!! (Me perdoem se já tiver e eu que não vi...)
+[2016-10-19 07:46:24] O Garoa está aberto?
+O status indica que sim...
+[2016-10-19 08:46:33] eita, ontem a tarde também estava assim... deu pau no rasp de novo
+[2016-10-19 09:56:50] O indicador funciona por sensor de movimento ou por detecção de trava na porta?
+[2016-10-19 10:00:39] É um sensor magnético... deve estar desalinhado...
+[2016-10-19 10:28:42]  joined
+[2016-10-19 10:28:43] Hi Ricardo !
+[2016-10-19 10:29:12] /regras
+[2016-10-19 10:36:54] Olá! Posso divulgar um grupo de criptografia?
+[2016-10-19 10:37:38] Se não puder, pelo menos pra mim em pvt pfv!! <3 Crypto
+[2016-10-19 10:38:02] Seria interessante fazer algo com detectores de movimento em T período
+[2016-10-19 10:38:34] Desde que conheço o garoa tem problemas com o detector de aberto/fechado
+[2016-10-19 10:38:35] .:.Criptografia.:.
+
+https://telegram.me/joinchat/C6OPnkBYGLK8ulgTmlUB5g
+
+Grupo destinado à discussão de temas que envolvam criptografia teórica e aplicada de modo geral: sistemas criptográficos, assinaturas digitais, autenticação, protocolos em geral, etc.
+[2016-10-19 10:43:54] Detetores de movimento não seria o ideal, pois detectaria quando a faxineira estivesse lá, ou quando algum dos membros só estivesse de passagem, tipo, para receber uma entrega.
+
+Nestas situações o status deve permanecer "Fechado".
+
+Mas poderiam complementar o sensor da porta, tipo, se o status está "Aberto" mas não tem ninguém presente, poderia mudar para "Fechado".
+
+É algo para se pensar...
+[2016-10-19 10:44:54] Mas seriam necessários detectores em todos os cômodos?
+[2016-10-19 10:50:35] Sim, seriam... por isso que é algo pra se pensar, teria um certo custo e mão-de-obra envolvidos...
+[2016-10-19 11:38:19] Apenas no corredor. Se detecta movimento de N kilogramas indica aberto, a não ser que o membro aperte um botão dentro do cômodo (ou por aplicativo) para sinalizar que deve-se forçar como fechado.
+[2016-10-19 11:38:53] O fato é que a solução atual só traz problemas. Mas isso não é mais do que um incômodo menor, claro.
+[2016-10-19 11:46:59] Por que apenas no corredor? Se uma pessoa estiver há horas na sala, o detector iria dar o Garoa como fechado, imagino. 
+Ou eu entendi errado.
+[2016-10-19 12:22:48] Nesse caso o ideal seria sensor de calor ... Porque sensor de movimento iria servir somente para manter um status normalmente fechado
+[2016-10-19 12:31:32] Na verdade, acredito que toda essa discussão já tenha sido feita na época em que o sensor foi instalado.
+
+Sinceramente, acho sensato do jeito que está, só trocaria o sensor por um mais eficiente, e pronto, afinal, a porta nunca estará aberta (ou pelo menos não deveria estar) se não tiver ninguém no Garoa.
+[2016-10-19 12:32:51] Poderia ser considerado como ímpar a referência pra aberto. Ou colocar mais sensores.
+[2016-10-19 12:33:06] Continuará dando pau. Aposto. Mas por mim, sem problema.
+[2016-10-19 12:46:33] Ah, então é assim? Que da hora!
+[2016-10-19 13:41:11] Grupo de criptografia divulgado em pvt chega a ser metalinguistico 😝
+[2016-10-19 14:26:28] Cai de janelinha aqui e me assustei com essa ideia maluca de sensores pelo Garoa. Não dei like não.
+[2016-10-19 14:28:13] Acho q perdi o usb do meu mouse sem fio no Garoa, se alguém ver da um toque -.-
+[2016-10-19 14:28:50] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803729961_79339.jpg
+[2016-10-19 14:55:23] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803712960_117651.jpg
+[2016-10-19 14:55:25] Quem quiser FTDI, tá tendo
+[2016-10-19 14:55:54] eu quero
+[2016-10-19 15:02:21] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_1842540969984018.webp
+[2016-10-19 15:02:40] quero tbm
+[2016-10-19 15:06:56] Ostentação
+[2016-10-19 15:32:12] https://twitter.com/vmesel/status/788698668920606721
+[2016-10-19 15:36:33] @aylons  ta na area?
+[2016-10-19 15:37:11] Roger
+[2016-10-19 15:37:32] seguinte, comprei uns witty
+[2016-10-19 15:37:42] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803718641_117802.jpg
+[2016-10-19 15:37:53] Não conheço.
+[2016-10-19 15:38:09] mas eles vieram com o led rgb errado (catodo comum e nao anodo, acho(=)
+[2016-10-19 15:38:20] Hum...
+[2016-10-19 15:38:25] ai fiz essa gambi:
+[2016-10-19 15:39:16] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803705963_116813.jpg
+[2016-10-19 15:39:42] 'taporra
+[2016-10-19 15:40:21] Poderia ter usado um fio mais fino, mas isso é uma gambi de primeira linha
+[2016-10-19 15:40:34] ate ai, ok, mas o pino do led vermelho (d8, ou gpio15) acaba sendo levado para HIGH quando ligo o treco
+[2016-10-19 15:40:48] e precisava estar em low...
+[2016-10-19 15:41:06] era o fio que tinha :D cabo de rede
+[2016-10-19 15:41:30] mas entao, o problema eh esse ai, o bicho liga no modo errado...
+[2016-10-19 15:41:47] alguma sugestao?
+[2016-10-19 15:42:01] alias, ele ja liga com o led vermelho aceso..
+[2016-10-19 15:43:27] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_675972967003324417
+[2016-10-19 15:43:38] Estes sensores de pH são razoáveis para algo, alguém sabe a tolerância? O pessoal aqui está dizendo que não prestam
+[2016-10-19 15:43:50] http://produto.mercadolivre.com.br/MLB-764313145-sensor-temperaturasonda-arduino-phtermo-prova-dagua-_JM
+[2016-10-19 15:46:25] humm tem um pull down nesse pino...
+[2016-10-19 15:52:35] photo
+[2016-10-19 15:54:24] olha, ta tipo isso, e a droga eh que precisa estar LOW quando liga... sera que se eu diminuir bem o resistor do pull down resolve?
+[2016-10-19 16:02:13] Esse aí é só para Temperatura
+[2016-10-19 16:03:21] Creio que tenho um desse em algum lugar aqui
+[2016-10-19 16:03:31] Se quiser emprestado para ver se te atende
+[2016-10-19 16:04:57] Olá! Gostaria de saber se vcs ainda promovem o grupo de estudos em criptografia e quando e onde é?
+[2016-10-19 16:05:41] Hackathon LADY Problems https://www.facebook.com/events/1783022165312616/
+[2016-10-19 16:06:17] Cara, rola esperar até à noite?demandas do trampo
+[2016-10-19 16:06:20] Último sábado do mês, no Garoa Hacker Clube...
+https://garoa.net.br/wiki/Quebrando_o_Cerco
+[2016-10-19 16:07:15] É aberto?
+[2016-10-19 16:07:49] Sim, não precisa de inscrição, é só chegar.
+[2016-10-19 16:09:24] Valeu!
+[2016-10-19 16:30:05] $ livestreamer http://original.livestream.com/spaceflightnow best
+[2016-10-19 16:30:24] missão de Marte da ESA rolando hoje com streaming ao vivo
+[2016-10-19 16:30:31] pouso em Marte
+[2016-10-19 16:38:04] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_151353307481244892.webp
+[2016-10-19 16:39:24] Parece que dessa vez temos mais um caso de "pouso de Schroedinger". Já aconteceu, mas ninguém sabe dizer ainda se deu certo ou não.
+[2016-10-19 16:40:02] Os sinais de comunicação foram capturados durante a entrada na atmosfera até certo ponto e depois o sinal sumiu.
+[2016-10-19 16:40:20] capturaram esse sinal experimentalmente a partir daqui da Terra
+[2016-10-19 16:40:41] também capturaram o mesmo sinal usando alguns satélites que estão em órbita ao redor de Marte
+[2016-10-19 16:40:54] É, a apresentadora falou para não tirar conclusões precipitadas, que é preciso esperar a conclusão dos especialistas, e não perder a comitiva de imprensa amanhã 10AM.
+[2016-10-19 16:41:39] e a captura feita pelos satélites mostrou a mesma coisa: interrupção do sinal a partir de um certo ponto na entrada da sonda na atmosfera
+[2016-10-19 16:42:23] um dos satélites capturou não apenas o sinal de rádio, mas também o stream de telemetria, o que será analisado minuciosamente hoje de madrugada
+[2016-10-19 16:42:40] e os especialistas darão um depoimento amanhã em uma coletiva de imprensa às 10h da manhã
+[2016-10-19 16:43:26] essa é uma missão da ESA, a Agência Espacial Européia, em parceria com os russos da agência ROSCOSMOS
+[2016-10-19 16:43:54] A última tentativa de pouso em Marte feita pela ESA tinha sido 13 anos atrás e falhou.
+[2016-10-19 16:44:21] https://pt.wikipedia.org/wiki/Beagle_2
+[2016-10-19 16:45:36] A missão primária de hoje foi um sucesso: colocaram um satélite em órbita ao redor de Marte (sexto satélite operacional orbitando Marte, sendo o segundo da ESA)
+[2016-10-19 16:45:53] os outros 4 satélites são 3 da NASA e 1 da China
+[2016-10-19 16:46:59] a tentativa de pouso de hoje também é um objetivo secundário da missão e, mesmo que tenha tido sucesso, a sonda pousada só irá operar por uma semana antes da bateria não-recarregável acabar.
+[2016-10-19 16:49:43] Cara estou me aventurando um pouco a estudar esses trecos...veja se o link aqui ajuda http://internetofhomethings.com/homethings/?tag=esp8266-adapter
+[2016-10-19 16:51:10] O cara cita um erro de desing
+[2016-10-19 16:51:18] Design
+[2016-10-19 16:52:46] opa, legal o link
+[2016-10-19 16:53:01] a minha placa eh diferente dessa breakout ai
+[2016-10-19 16:53:21] tb tenho delas, realmente tem umas bobagens nela
+[2016-10-19 16:54:03] esse witty eh mais bem feito, mas acho que a fabrica que fez os meus reduziu a racao de arroz e os caras fizeram a cagada de usar o led errado
+[2016-10-19 16:55:13] Hue pode ser
+[2016-10-19 17:11:03] Ah, por isso aquele sotaque!
+[2016-10-19 17:11:32] Eles não pararam de colocar cachorros nessas coisas não?
+[2016-10-19 17:51:45] Quebrando o Cerco é sobre Segurança da Informação, não sobre Criptografia.
+[2016-10-19 17:52:10] Falaremos sobre Criptografia e hashes no futuro, mas sem aprofundar
+[2016-10-19 17:54:13] Vou fazer mais um hoje, voltado ao pessoal menos técnico, com a imagem de um Lilypad ou outra plaquinha bacana.
+[2016-10-19 17:54:41] http://spaceflightnow.com/2016/10/19/exomars-mission-status-center/
+[2016-10-19 17:56:34] Verdade... nem me dei conta que ele tinha perguntado sobre criptografia... na pressa associei a ideia com segurança da informação...
+[2016-10-19 18:04:29] Esse não tem mais?https://garoa.net.br/wiki/Grupo_de_Estudos_Criptografia
+[2016-10-19 18:31:49] Criptografia seria então uma ferramenta englobada pelos assuntos segurança da informação?
+[2016-10-19 18:35:32] É. Segurança da informação envolve não só evitar violação da comunicação, mas destruição física dos dados, por exemplo. "Se o Tietê transbordar, nosso datacenter corre risco?" "Onde fazer backup para que, no caso de cair um meteoro, nossa empresa não ser aniquilada?" "Essa fechadura da porta está segura?" "Essa fábrica de fogos de artifício na vizinhança, se explodir, vai nos acertar?" "O que acontece se alguém der um ataque de ondas no prédio, as máquinas pifam?"
+[2016-10-19 18:37:09] Esses temas são um pedaço da segurança da informação também que eu costumo me referir como contingência ou estratégia para continuidade de ti
+[2016-10-19 18:38:56] Isso é só uma das área de SI, mas é muito abrangente e tem muito conteúdo pra se estudar.
+[2016-10-19 18:53:10] Sim. É muito amplo. Nesse primeiro encontro falaremos sobre as principais Normas de SegInfo
+[2016-10-19 18:53:47] BS/ISO 27K, PCI e Basiléia
+[2016-10-19 18:54:24] Assim como a legislação sobre invasão de computadores
+[2016-10-19 18:55:34] E as etapas para um ataque bem sucedido, do ponto de vista do atacante, e como minimizar, do ponto de vista do defensor
+[2016-10-19 19:18:48] https://www.youtube.com/watch?v=lBSA0T2HeEg&feature=youtu.be
+[2016-10-19 19:20:19] Legal!
+[2016-10-19 20:00:39] Alguém quer vir no Garoa quebrar a wpa do vizinho?  Atrasados a conta, e desligaram?
+[2016-10-19 20:01:43] Isso parece bem interessante. Quando são as reuniões?
+[2016-10-19 20:03:42] A primeira vai ser agora dia 29
+[2016-10-19 20:04:02] A ideia é ser uma por mês, pensei no último sábado de cada mês
+[2016-10-19 20:14:02] Legal, sábado é mais fácil de ir
+Já tem horário definido?
+[2016-10-19 20:14:47] Alguém ligou na Tim?
+[2016-10-19 20:27:38] As 15h
+[2016-10-19 20:30:58] Valeu!
+[2016-10-19 21:02:10] Gilmar Leite joined
+[2016-10-19 21:02:11] Hi Gilmar !
+[2016-10-19 21:26:16] Quanto?
+[2016-10-19 22:29:55] Quem vai estar amanhã no Garoa? @eduoda? Outrem?
+[2016-10-19 22:31:52] Márcio G. joined
+[2016-10-19 22:31:53] Hi Márciø Ghrøll !
+[2016-10-19 22:39:52] Eu

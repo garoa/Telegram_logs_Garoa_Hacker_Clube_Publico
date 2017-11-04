@@ -1,0 +1,124 @@
+[2016-10-18 00:11:45] Discussão vai rolar na EHAL
+[2016-10-18 00:22:50] alguém pode me explicar porque a parte de submissão do ehal é em us?
+[2016-10-18 01:14:23] Acho q faz https://m.youtube.com/watch?v=SNBMdDaYhZA
+[2016-10-18 05:43:00] Tudo tem que ser patenteado mesmo, tudo, 100%, pra que se faça algo livre, necessariamente tem que ter uma patente, então o dono da patente libera sob uma licença livre
+[2016-10-18 05:43:37] Senão alguém pega o livre e patenteia e acaba com tudo, alguém lembra do cedega?
+[2016-10-18 06:58:59] Que parte?
+[2016-10-18 08:36:25] Patenteado no sentido de patente proprietária, em nome de uma empresa ou alguém, apenas.
+[2016-10-18 08:50:37] Claro que não, nem todo projeto pode ser objeto de patente (a maioria não é), e nem por isso deixa de ser livre.
+[2016-10-18 08:51:10] Não me lembro quem estava itneressado em FPGA em servidores: https://www.microsoft.com/en-us/research/publication/configurable-cloud-acceleration/
+[2016-10-18 08:52:10] Eu
+[2016-10-18 08:52:15] Valeu!
+[2016-10-18 08:55:27] Cloud architecture places a layer of reconfigurable logic (FPGAs) between the network switches and the servers, enabling network flows to be programmably transformed at line rate, enabling acceleration of local applications running on the server, and enabling the FPGAs to communicate directly, at datacenter scale, to harvest remote FPGAs unused by their local servers.
+[2016-10-18 08:55:57] Algo meio parecido com o que eu imaginava: uma mistura de SDN com acelerador.
+[2016-10-18 08:58:17] Tu me convenceu que eu tenho muito o que aprender antes. Comprei Arduino e uns componentes para relembrar lógica digital da faculdade e achei um guia de como escrever drivers PCI pra QEMU. Vou começar programando nesse nível e tentando me desafiar antes de partir pra uma FPGA básica. :)
+[2016-10-18 09:02:03] Meu roteador velho tem um rt5350, que tem um datasheet beeeeeem completo. Vou tentar algumas coisas nele e aproveitar para contribuir no openwrt criando a página na Wiki para esse roteador.
+Ele é bem barato e tem bastante usado, mas é bem legal de hackear. RT5350 é também a base do VoCore, uma placa de desenvolvimento. O roteador novo custa 60, quase o preço de um esp8266.
+[2016-10-18 09:02:57] Eu tô bem animado com isso. Quero que parem de jogar roteador fora e vejam como é legal mexer nele. Acho que dá para fazer vários projetos de hobby.
+[2016-10-18 09:05:38] Estou disposto a me aventurar para tentar trocar a EEPROM e a RAM dele. Na placa tem a trilha para USB também, mas sem o conector. Perdi um bom tempo lendo sobre USB host para ver o que fazer ali, agora é esquentar a solda e tentar.
+[2016-10-18 10:07:31] Galera, eu não queria incomoda-los, atualmente sou um dos criadores de um dos únicos encurtadores de URL open source e totalmente gratuito para ser utilizado! Mas eu preciso de uma ajuda de vocês, atualmente eu preciso pagar o servidor do WP-A.co na Digital Ocean e não tenho saldo o suficiente. A conta mensal é de 15 dólares! Como critério de demonstrar meu agradecimento, eu criarei uma página de doadores no projeto. Para poder ajudar, basta mandar uma doação por paypal para Vinicius@galaxianerd.com.br!
+
+Agradeço muitíssimo!
+[2016-10-18 10:33:23] Divulguei o ehal no tuiter ontem
+[2016-10-18 11:19:47] Jeff Stachelski joined
+[2016-10-18 11:19:48] Hi Jeff !
+[2016-10-18 11:23:17] eae galera, blz?
+Eu vim pra SP para o H2HC e gostaria de aproveitar que estou aqui e conhecer o garoa
+[2016-10-18 11:23:31] eu sou do Matehackers de Porto Alegre
+[2016-10-18 11:23:41] como funciona os horários do garoa?
+[2016-10-18 11:31:39] http://status.garoa.net.br
+[2016-10-18 11:33:13] Olá Jeff, parece que está aberto agora. Geralmente tem gente depois das 19hs. É só chegar chegando, o pessoal é super receptivo.
+[2016-10-18 11:36:29] massa, vou aparecer lá, valeu!
+[2016-10-18 11:37:38] Na página do Garoa tem os eventos que acontecem no dia, com os devidos horários. Welcome!
+[2016-10-18 11:41:51] Hoje especificamente tem reunião do CMC
+[2016-10-18 11:42:03] Então certamente vai ter gente de noite no Garoa =)
+[2016-10-18 11:47:10] Hoje é noite de processing
+[2016-10-18 11:47:14] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803717982_115950.jpg
+[2016-10-18 11:51:30] Processing ou Synths, Drums and Hack?
+[2016-10-18 11:52:14] https://twitter.com/villares/status/787958096761131008
+[2016-10-18 11:52:28] Falha nossa
+[2016-10-18 11:52:59] E na próxima terça
+[2016-10-18 11:57:58] Incorreto. Basta tornar pública a idéia que torna inválido qualquer pedido de patente posterior. Leia sobre "prior art": https://en.wikipedia.org/wiki/Prior_art
+[2016-10-18 12:09:51] com todo respeito... mas eu acho péssima a expressão "um dos únicos". Se é plural, é mais de um e portanto não é único! :-P
+[2016-10-18 12:30:52] Allyson Allyson Allyson joined
+[2016-10-18 12:30:53] Hi Thales. !
+[2016-10-18 12:39:44] Pessoal, bem lembrado, hoje é dia de reuniao do CMC
+[2016-10-18 12:40:49] Jeff, os dias para visitar o garoa essa semana são  hoje, quinta-feira, sexta-feira
+[2016-10-18 13:01:33] hoje não posso ir no CMC, preciso muito correr com trabalho da faculdade, desculpa gente
+[2016-10-18 13:06:21] 💔
+[2016-10-18 13:06:41] O que é CMC?
+[2016-10-18 13:11:15] conselho manda chuva
+[2016-10-18 13:11:39] uma reunião mensal sobre a administração do garoa
+[2016-10-18 14:08:02] Tendeu, vlw
+[2016-10-18 14:11:46] Marco joined
+[2016-10-18 14:11:47] Hi Marco Aurélio !
+[2016-10-18 14:14:41] tô vendo essas mensagens apagando
+[2016-10-18 14:14:46] essa zoeira
+[2016-10-18 14:16:59] Minha mensagem apagou-se, mas não é zoeira.
+[2016-10-18 14:17:23] é só parafraseando "tô de olho nessa zoeira"
+[2016-10-18 14:17:32] não é proibido apagar mensagem não, relaxa
+[2016-10-18 14:31:32] pensei que aqui so podia mensagens de zoeira
+[2016-10-18 14:31:40] tem gente falando coisa seria?
+[2016-10-18 14:40:20] Aqui a zoeira é seria, já na lista...
+[2016-10-18 15:41:16] @Gutemhc , que dia você vai pegar as camisetas do garoa na galeria?
+[2016-10-18 15:41:37] A @Yumizinha que vai. Sábado, creio
+[2016-10-18 16:42:00] Sim. A @Yumizinha vai no sábado antes de ir pra H2HC
+[2016-10-18 16:42:28] Gutem, eu preciso das guias com o "PAGO" pra poder retirar, né?
+[2016-10-18 16:43:26] Tão aqui comigo... Vem pro CMC?
+[2016-10-18 16:43:35] sim!
+[2016-10-18 17:51:56] https://github.com/mxgmn/WaveFunctionCollapse/blob/master/README.md
+[2016-10-18 18:06:08] @Ma_burn Se ainda tiver interesse acho que consigo ingresso para o Intercon!
+[2016-10-18 18:15:10] Consegui com o Afonso, mas se tiver um sobrando e conseguir gostaria para um amigo que infelizmente não conseguiu
+[2016-10-18 18:15:29] Opa eu gostaria de um tb, se possível
+[2016-10-18 18:16:45] Ok, manda o email dele para mim em pvt que eu preciso que ele envie alguns dados pessoais.
+[2016-10-18 18:55:36] Ainda tem ingressos sobrando pra comprar pro evento?
+[2016-10-18 19:36:38] galerinha do garoa, me permitam a divulgação, festa da Sacicon \o/
+[2016-10-18 19:36:46] https://www.facebook.com/events/210938675995402/
+[2016-10-18 19:36:57] open bar até a morte 50 conto, mulher na faixa
+[2016-10-18 19:42:36] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_505010926202650760.webp
+[2016-10-18 19:44:41] 😭😆😆😆
+[2016-10-18 19:47:15] quem quiser vip para intercon me mande em pvt, tenho 2, dou por ordem de chegada, mas nao seja cuzao e peça sem ter certeza que vai:
+Nome
+E-mail
+Empresa
+Cargo
+Celular
+CPF
+[2016-10-18 20:00:06] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803711069_116439.jpg
+[2016-10-18 20:00:07] Morrem de inveja
+[2016-10-18 20:03:22] 😱
+[2016-10-18 20:06:15] HUAHUAHUAHUAHUHAUHHAUHAUHAHUHA
+[2016-10-18 20:07:17] MELHOR ERIN
+[2016-10-18 20:10:08] nao vo pro CMC, tenho prova amanha.
+[2016-10-18 20:26:51] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_505010926202650744.webp
+[2016-10-18 22:13:33] Afonso, depois veja msg que mandei no seu FB. Abs!
+[2016-10-18 22:29:30] PEssoa, a e-HAL vai fechar as inscrições antecipadas (R$30,00, com kit completo) na sexta agora, e precisamos divulgar o máximo! QUem pode compartilhar no Facebook os posts, já ajudaria bastante!
+[2016-10-18 22:29:39] E pode espalhar em grupos aqui de Telegram e Whatsapp também.
+[2016-10-18 22:41:09] http://ehal.org.br/inscricao
+[2016-10-18 22:41:36] Temos quantos inscritos até agora?
+[2016-10-18 22:42:34] Pelo eventick, 38. TEm mais uns 40 vindos do Rio Grande do Sul, que não pagaram pelo eventick.
+[2016-10-18 22:43:29] Legal. fecha em quantas pessoas 150? Tem algum banner de divultgação (seria legal ter isso nas universidades)?
+[2016-10-18 22:43:44] Posso imprimir para colocar lá na UFABC
+[2016-10-18 22:44:15] Temos banner sim
+[2016-10-18 22:44:34] Ajuda a promover lá na UFABC!
+[2016-10-18 22:45:13] blza. Qual o link pro banner?
+[2016-10-18 22:47:13] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803730509_79856.jpg
+[2016-10-18 22:48:18] Peraí, aqui deve ter comprimido
+[2016-10-18 22:53:03] 👍👍
+[2016-10-18 22:54:13] Vou mandar um link sem compressao
+[2016-10-18 22:54:56] Link bacana para o poster: http://ehal.org.br/sites/default/files/poster_ehal_2.png
+[2016-10-18 23:08:05] Pessoal, o André Garzia, da Mozilla, também estará na InterCon, foi ele quem criou o app do Garoa Hacker Clube para o Pebble.
+https://github.com/soapdog/pebble-garoa-hacker-clube-status
+[2016-10-18 23:08:06] soapdog | pebble-garoa-hacker-clube-status
+
+Um simples app para o Pebble para informar o status do Garoa Hacker Clube
+
+Language: JavaScript
+Forks: 2
+Stars: 2
+Issues: 0
+[2016-10-18 23:09:10] Gostei!  Também compartilhei com o Facebook
+[2016-10-18 23:36:50] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803717606_115504.jpg
+[2016-10-18 23:36:52] Tem esse aqui tambem
+[2016-10-18 23:37:52] O Kit completo inclui uma credencial especial com o nome da pessoa que vamos mandar fazer antes do evento. Nao tem jeito, e a ultima chance.
+[2016-10-18 23:43:29] Quem puder encaminhar para outros hackerspaces o convite, aliás, seria legal. Eu estou meio por fora, com poucos contatos.

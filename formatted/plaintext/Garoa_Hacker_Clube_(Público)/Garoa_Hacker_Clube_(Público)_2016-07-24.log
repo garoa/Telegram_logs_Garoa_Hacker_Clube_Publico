@@ -1,0 +1,27 @@
+[2016-07-24 12:27:00] https://twitter.com/k_firsov/status/756875611872821248
+[2016-07-24 12:38:33] O código fonte está aberto, em pouco tempo alguém irá descobrir:
+https://github.com/telegramdesktop/tdesktop
+
+Não cheguei a olhar a fundo o código fonte (não conheço C++), mas aparentemente o código possui portabilidade para rodar em diversas plataformas, utilizando QT.
+[2016-07-24 12:53:05] O Linux não parece possuir este problema:
+tail -f /var/log/syslog|grep Telegram
+
+O 'pasted messages' significa que são 'mensagens coladas', certo?
+
+A pessoa copiou e colou a mensagem em um chat secreto do Telegram e o Mac OS registrou no system log, então me parece mais uma falha no Mac OS do que no Telegram... se for isso mesmo que entendi, então a única forma de contornar esse problema seria impedir copiar e colar no Telegram...
+[2016-07-24 12:54:50] é
+[2016-07-24 12:56:11] quando você muda de canal ele notifica também no log
+[2016-07-24 12:56:15] e quando manda msg
+[2016-07-24 13:00:06] Vi a resposta do @durov:
+(1) This applies only to texts that were copy-pasted from clipboard, and such texts are open to all other Mac apps anyway.
+(2) AppStore apps can NOT access syslog (starting 10.12 also true for unsigned apps). But ANY app can read your clipboard.
+(3) AppStore apps are sandboxed and can only WRITE to syslog, not READ it.
+(4) Malware apps are unsigned/not from AppStore and so, of course, are not sandboxed. But it'd be a game over scenario.
+(5) So while copy-paste can not be secure anyway, I see such logging in the stable release redundant and will see it gone.
+(6) However, if you find anything really serious, let us know at security@telegram.org to claim your potential bounty. Thanks.
+[2016-07-24 13:35:13] ach oque no linux nao tem chat secreto
+[2016-07-24 13:35:30] e o cara podia ter parado aqui: "(1) This applies only to texts that were copy-pasted from clipboard, and such texts are open to all other Mac apps anyway."
+[2016-07-24 13:38:14] Bacana ele ter respondido
+[2016-07-24 13:38:18] Quem deveria ter parado era eu, hahahaha... as outras foram somente tréplicas...
+Mas realmente, o Linux ainda não possui chat secreto, mas como ele disse "logs every message" eu testei com mensagens comuns...
+[2016-07-24 15:22:16] https://www.reddit.com/r/Futurology/comments/4uckzo/19yearold_robot_wars_star_picked_up_all_his/

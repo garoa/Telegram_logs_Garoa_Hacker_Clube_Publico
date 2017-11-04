@@ -1,0 +1,132 @@
+[2016-12-05 00:20:39] O suporte e a imagem já estavam lá, mas eu fazia o flash e dava brick ou erro de jffs2. Mudei o .dts do dir-610 a1 pra especificar o chip do flash e resolveu.
+Foi a primeira vez na vida que compilei um firmware e acho que foi uma cagada imensa, mas vou mostrar aos devs do openwrt pra ver se faz sentido.
+De qualquer forma, ao menos me familiarizei com o sistema de build e vou tentar modificar mais.
+[2016-12-05 03:32:04] Eu trabalho com o hardware. Estou para começar em VHDL ano que vem. É a meta para 2017. Os FPGAs pequenos da Lattice não valem muito a pena, não tem multiplicador interno é quase um CPLD (lógica digital descrita). Acho que ainda vai demorar para aparecer boas e que sejam usadas ( ferramentas open source ) porque Boa parte do mercado de FPGAs corresponde a propriedade intelectual.
+[2016-12-05 07:19:02] Tooling para FPGA vai além de sintetizador, tem bibliotecas, controle de projeto e outras coisas, muitas já tem versões abertas. Vai ter bastante disso no evento
+[2016-12-05 08:11:42] Aí minha nossa senhora do prompt...
+[2016-12-05 09:05:47] https://github.com/garoa/GunSmoke/tree/master/homebrew/Pixo
+[2016-12-05 10:11:08] garoa ta aberto hoje
+[2016-12-05 10:11:30] ?
+[2016-12-05 10:59:50] Bom dia, alguém conhece alguma ferramenta de recuperação de pen drive fora o recuva?
+[2016-12-05 11:17:17] Já usei o TestDisk:
+http://www.cgsecurity.org/wiki/TestDisk_PT
+[2016-12-05 11:19:05] daqui a pouco vai rolar um lançamento de foguete a partir da base de Kourou, na Guiana Francesa
+[2016-12-05 11:19:54] O streaming ao vivo começa daqui uns 10 minutos no link: http://original.livestream.com/spaceflightnow
+[2016-12-05 11:21:38] A European Vega rocket, designated VV08, will launch with the Gokturk 1 reconnaissance satellite for the Turkish military.
+[2016-12-05 11:22:05] Missão meio sinistra... :-P
+[2016-12-05 11:24:15] Se não me engano, o comando é esse, para quem usa o MPV:
+$ livestreamer http://original.livestream.com/spaceflightnow best -p mpv\ -fs
+[2016-12-05 11:25:14] Tem de ver pela página: https://garoa.net.br/wiki/Status
+No momento tá fechado e não vi nenhuma atividade marcada pra hoje à noite. Mas talvez alguém avise por aqui caso esteja indo pra lá.
+[2016-12-05 11:26:37] o que é MPV ?
+[2016-12-05 11:29:48] Fork do mplayer e do mplayer2.
+Tipo, uma continuação do projeto.
+[2016-12-05 11:31:41] Legal, como faz para assistir?
+[2016-12-05 11:31:42] ah, legal!
+[2016-12-05 11:31:51] vai começar! :-D
+[2016-12-05 11:49:42] Lançamento em 3 minutos.
+[2016-12-05 11:59:29] caraca, o foguete deu um giro muito louco
+[2016-12-05 11:59:33] acho que tem algo errado
+[2016-12-05 12:01:06] na transmissão ninguém mencionou nada
+[2016-12-05 12:01:26] estou na dúvida se aquilo foi um glitch na renderização
+[2016-12-05 12:01:41] ou se foi uma manobra bizarra feita de propósito (nunca vi nada assim)
+[2016-12-05 12:01:57] ou se foi uma ilusão de ótica
+[2016-12-05 12:13:52] Gente, estou com um vídeo mas não quero as imagens, quero somente o audio
+[2016-12-05 12:16:21] salvo engano, acho que dá pra separar em editores de vídeo
+[2016-12-05 12:22:51] https://www.youtube.com/watch?v=WIsrZK8uzrQ
+[2016-12-05 12:23:37] Load the video into avi demux, then click on Audio->Save to save the audio stream.
+[2016-12-05 12:24:11] fonte: http://forum.videohelp.com/threads/321238-Avidemux-How-to-separate-Video-from-Audio
+[2016-12-05 12:26:36] Obrigada,
+[2016-12-05 12:27:08] Em breve publico pra vocês
+[2016-12-05 12:27:39] Audio do Michael temer com o skaf aqui do evento
+[2016-12-05 12:31:52] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_413438718758617154.webp
+[2016-12-05 12:35:51] audacity faz rápidão
+[2016-12-05 12:53:09] Converte em mp3 :)
+[2016-12-05 12:53:26] Pelo atube catcher ou format factory
+[2016-12-05 12:56:16] Boa... Vocês nunca me decepcionam... Vou ver se converto ainda hoje
+[2016-12-05 13:08:07] solução web requer fazer o upload do video (que pode ser grandão - e talvez até mesmo ser essa a razão de se querer manter só a faixa de áudio)
+[2016-12-05 13:09:47] E além disso, tipicamente requer delegar o conhecimento a um terceiro, em vez de ter autonomia no uso da tecnologia <inserir aqui todo o pensamento do software livre>
+[2016-12-05 13:11:01] Os dois que citei são programas para conversão de arquivos mesmo
+[2016-12-05 13:16:28] 😱💥
+[2016-12-05 13:19:24] perdão. Eu não pesquisei. Mas o nome "atube catcher" me induziu a acreditar que seja um extrator do canal de áudio de vídeos publicados no youtube. Pra estar no youtube tem que fazer o upload. Mas eu consigo entender que u m extrator desses possa ser um programa a ser instalado localmente (só ufi induzido a acreditar ser um aplicativo web, por que é o que a gente mais vê por aí pra esse tipo de coisa hoje em dia)
+[2016-12-05 13:20:58] hmmm... vendo aqui o site do atube catcher eu re-coloco as minhas observações :-P
+[2016-12-05 13:22:45] @Yumizinha, vai de audacity mesmo, ou de avidemux que é mais jogo :-D
+[2016-12-05 13:22:51] Para Android tem essa opção:
+http://dentex.github.io/apps/youtubedownloader/
+É só compartilhar o vídeo e selecionar esse programa, que permite baixar em diversos formatos, incluindo somente o áudio...
+[2016-12-05 13:27:18] Melhor opção, envia o link do vídeo para este bot:
+
+@YTAudioBot
+
+Ele te responde com um anexo, com o arquivo de áudio...
+[2016-12-05 13:29:26] @YTAudioBot help!
+[2016-12-05 13:29:47] @YTAudioBot
+[2016-12-05 13:30:02] O bot não dá um olá com instruções de uso ?
+[2016-12-05 13:30:34] talvez o bot não esteja no grupo...
+[2016-12-05 13:58:12] interessante esse bot. Mas ainda prefiro usar ferramentas livres
+[2016-12-05 13:59:00] já que cedo ou tarde o bot sai do ar e se a gente não tem nossas próprias ferramentas, perde-se a habilidade de executar a tarefa
+[2016-12-05 14:00:32] Ainda não achei um bot livre com essa funcionalidade...
+[2016-12-05 14:21:28] mas eu já achei duas aplicações livres (que rodam localmente em meu próprio computador) com essa funcionalidade...
+[2016-12-05 14:32:11] Uso o youtube-dl, mas não consegui uma forma de usá-lo de forma tão prática quanto um bot...
+[2016-12-05 16:58:45] Cuducos no Twitter: "É oficial: #SerenataDeAmor JÁ fez dinheiro retornar aos cofres públicos. R$ 727,78 relativos a 13 almoço no mesmo dia. Contamos mais já já…"
+https://mobile.twitter.com/cuducos/status/805818825807712256
+[2016-12-05 17:45:12] =)
+[2016-12-05 17:45:12] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_532583349227625178.mp4
+[2016-12-05 17:45:33] Adoro juris relevantes
+[2016-12-05 17:54:15] Que M
+[2016-12-05 17:56:26] hahahaha
+[2016-12-05 17:58:46] HAHAHA
+[2016-12-05 18:02:12] Vamos hackear essa bagaça?
+[2016-12-05 18:02:39] Entrar, ganhar e jogar gatorade na cara do Luciano Huck?
+[2016-12-05 18:03:14] Só hackerzao
+[2016-12-05 18:03:22] Só os hackudo
+[2016-12-05 18:03:44] Quero. Gosto.
+[2016-12-05 18:04:20] Hacker igual o Erick
+[2016-12-05 18:05:36] Pô, pegou pesado, Bruno Luiz
+[2016-12-05 18:05:37] Hehehe
+[2016-12-05 18:07:36] Sem violencia
+[2016-12-05 18:08:18] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_50945793963590110.webp
+[2016-12-05 18:08:21] Uahauaja
+[2016-12-05 18:08:28] #pas
+[2016-12-05 18:32:38] "2016: Luciano Hacker". 
+"2017: Luciano Maker."
+[2016-12-05 18:41:51] patrocinio banco itau?
+[2016-12-05 18:41:52] :P
+[2016-12-05 18:42:45] isso está bem hackaton
+[2016-12-05 19:14:47] CI/AI http://lambdamaphone.blogspot.com.br/2016/12/why-i-dont-like-term-ai.html?spref=tw&m=1
+[2016-12-05 19:57:57] Boa noite, posso compartilhar aqui no grupo 4 vagas para trabalhar com Segurança da Informação, em Alphaville?
+[2016-12-05 19:59:38] Sabe se pessoas de outros estados podem participar? =)
+[2016-12-05 20:00:54] Não sei, mas tudo é válido
+[2016-12-05 20:01:59] Massa.. se nao puder jogar ai no aberto, me manda no pv =)
+[2016-12-05 20:02:09] Oloco
+[2016-12-05 20:02:14] Atacando de graça
+[2016-12-05 20:02:52] Nessas horas eu gostaria de ter experiencia :/
+[2016-12-05 20:04:05] ✌️
+[2016-12-05 20:04:05] ✌️
+[2016-12-05 20:10:37] Pode. E não precisava pedir permissão :-) Sinta-se à vontade.
+[2016-12-05 20:15:07] Obrigado 😉
+[2016-12-05 20:15:07] Ma:
+Boa noite!
+
+Tenho 4 vagas urgente caso tenha interesse ou alguns contatos para encaminhar agradeço.
+
+Analista de Segurança Pleno e Sênior
+
+Atuar na operação de SI, operando as ferramentas tecnológicas de segurança.
+
+
+- Fornecer suporte para as ferramentas de segurança, interagindo com as áreas, visando o alinhamento da empresa com as boas práticas de mercado e o atendimento às demandas do negócio - Conhecimentos avançados de Ferramentas symantec endpoint protection, Websence, Anti DDOs, AntiSpam, VPN - Conhecimentos de Ferramentas de segurança Firewall, IPS - Conhecimentos de sistemas operacionais (Windows e Linux) - Conhecimentos avançados de TCP/IP - Treinamento e conscientização de segurança.
+
+
+Contratação CLT full + VT, VA, Fretado, Convenio Médico e Odontológico.
+
+Local de trabalho: Alphaville – SP Interessados enviar currículo para marina.lima@hprojekt.com.br
+[2016-12-05 20:15:07] Boa sorte à quem tentar.
+[2016-12-05 20:23:09] Curti
+[2016-12-05 20:57:57] Fiz algumas atualizações no fórum sobre o meu emulador de megadrive portátil: https://forum.fiozera.com.br/t/engenharia-reversa-do-mega-drive-portatil-da-tectoy/38/7
+[2016-12-05 21:08:19] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_295658809852952641.webp
+[2016-12-05 21:14:19] Eu tive um Sega Genesis. Excelentes lembranças.
+[2016-12-05 22:28:31] Enxergar AI do ponto de vista da criatividade e da parceria com humanos é uma mudança no imaginário da coisa, acho 😉
+[2016-12-05 22:30:37] Vocês leram este? https://www.theguardian.com/technology/2016/dec/04/google-democracy-truth-internet-search-facebook
+[2016-12-05 22:38:50] Assustador! 😞
+[2016-12-05 22:39:21] terrível :(

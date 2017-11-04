@@ -1,0 +1,34 @@
+[2017-07-31 01:22:54] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803115484_106034.jpg
+[2017-07-31 01:22:57] Boa noite galera!
+Uma dúvida pra quem curte de assembly (x86).
+Tô no linux, usando FASM, gerando um binário de 16 bits para modo real e debugando via turbo assembler rodando no dosbox (ufff)!, rs
+Alguém sabe se dá pra gerar, com o fasm, símbloos de debug compatível do turbo assembler?
+[2017-07-31 01:23:43] Meu google-fu hoje está fraco. Não achei nada... 
+:(
+[2017-07-31 07:18:14] FASM é software livre ?
+[2017-07-31 07:19:33] Eu também estou escrevendo um pong em assembly! https://forum.fiozera.com.br/t/estudando-a-maquina-virtual-do-jogo-another-world/127
+[2017-07-31 07:19:49] Só que eu escrevi o meu próprio assembler.
+[2017-07-31 07:33:27] https://hardware.slashdot.org/story/17/07/31/0011223/a-robot-at-defcon-cracked-a-safe-within-30-minutes
+[2017-07-31 09:27:51] Bom dia, alguém aqui já "brincou" com rádio definido por software (SDR)?
+[2017-07-31 09:46:23] Eu não. Mas o tema me interessa. Acho que o @aylons manja disso
+[2017-07-31 09:47:00] Já brinquei bastante
+[2017-07-31 11:13:47] É sim. 
+https://flatassembler.net
+[2017-07-31 11:19:00] Cara, que projeto animal! Parabéns.
+[2017-07-31 11:25:59] No meu caso @fsanches , a idéia é ter pegar uns jogos simples e fazer com que eles rodem a partir de uma imagem bootável. Mas estou tendo problemas em manter tudo dentro dos 512 bytes exigidos pela aquitetura, por isto queria usar o turbo debuger (já que estou meio perdido com a dupla qemu + gdb).
+O código está no github
+https://github.com/fabianosalles/asm-games-8086
+[2017-07-31 11:26:00] fabianosalles | asm-games-8086
+
+Little Assembler Games for 8086 processor
+
+Language: Assembly
+Forks: 0
+Stars: 0
+Issues: 0
+[2017-07-31 12:08:21] Brinquei um pouco com o RTL2832U
+[2017-07-31 12:08:30] recentemente peguei uma LimeSDR
+[2017-07-31 21:59:01] Boa noite pessoal. 
+
+Nessa quarta terá o grupo de estudos de data science?
+[2017-07-31 22:04:23] Vi no site aqui já. 🤙

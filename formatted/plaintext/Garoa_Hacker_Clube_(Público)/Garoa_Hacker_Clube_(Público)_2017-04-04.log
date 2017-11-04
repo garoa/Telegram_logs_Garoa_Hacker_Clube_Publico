@@ -1,0 +1,79 @@
+[2017-04-04 00:04:16] arrumei o servidor do garoa
+[2017-04-04 00:04:23] o mysql tinha caido
+[2017-04-04 00:04:39] vou tentar baixar o syslog para poder analizar com calma depois
+[2017-04-04 00:04:47] por enquanto só reiniciei os serviços
+[2017-04-04 00:10:14] Não tem um cron de watchdog?
+[2017-04-04 00:26:16] nem olhei...
+[2017-04-04 00:27:27] dei uma olhada rapida agora e não tem
+[2017-04-04 00:27:38] a verdade não deveeria precisar ter...
+[2017-04-04 00:28:08] A não ser que não queira que o serviço rode sempre...
+[2017-04-04 00:28:21] Do contrário, não vejo porque não
+[2017-04-04 00:59:54] Queria mudar canon model id sem da corromper o raw. Posso mudar qulquer coisa mas model id se eu mudo corrompe. Não identifiquei porque.. Acho que deve ter alguma assinatura em algum lugar que valida.. Sei la. Eh muito especifico
+[2017-04-04 07:23:01] checksum
+[2017-04-04 07:24:03] vê se os logs não lotaram o disco
+[2017-04-04 11:19:11] http://www.inovacaotecnologica.com.br/noticias/noticia.php?artigo=brasileiros-constroem-computador-bordo-nanossatelites-codigo-aberto
+[2017-04-04 11:41:48] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_712233365838759600.webp
+[2017-04-04 12:47:30] Para que não sabe, o garoa tem uma lista de emails.  https://groups.google.com/forum/m/#!forum/hackerspacesp
+[2017-04-04 13:03:11] Galera, para quem estiver interessado em aprender Lógica de Programação, haverá um evento do Grupy-SP no próximo sábado, dia 08 de Abril, das 10:00 às 14:00.
+
+Inscrição no evento: http://meetu.ps/38tVkZ
+Formulário para liberação da portaria: https://goo.gl/forms/YZFNaYW6b9SIyp622
+
+Estão todos convidados.
+[2017-04-04 13:41:26] Verifiquei o checksum e ele se mantem igual
+[2017-04-04 13:42:48] então vc achou uma colisão 😁
+[2017-04-04 13:43:06] Wtf
+[2017-04-04 13:45:10] o dado que eu mudo é um numero long, se eu pegar o arquivo e extrair o jpg e tiff as imagens vem normais, pacote raw que fica quebrado.. to pensando se consigo criar um raw usado jpg kkk
+[2017-04-04 13:46:19] não consegue
+[2017-04-04 13:46:36] o RAW é BEM mais informação que o JPEG suporta
+[2017-04-04 13:47:32] temperatura de cor, intensidade de luz, saturação, contrate e mais um monte
+[2017-04-04 13:48:04] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803110398_48577.jpg
+[2017-04-04 16:37:09] Para quem tem iOS (iPhone, iPad), favor atualizar seus aparelhos, saiu patch importante ontem.
+[2017-04-04 17:30:54] Alguém ai pode me ajudar? Tava com o linux no meu SSD e troquei por um HD pra instalar o windows nele, dai dei boot pelo pendrive e tals... Mas qnd voltei pro meu SSD não reconhecia mais o boot, ficava falando que não tinha sistema operacional. Dai eu vi f9:optimrz defaults, cliquei e agr não tem mais nenhuma opção de boot hahaha nao reconhece o sistema nem no pendrive, pesquisei mas não achei solução 😕
+[2017-04-04 17:31:14] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803117198_30908.jpg
+[2017-04-04 17:31:32] Ta assim agr, ;p
+[2017-04-04 17:31:38] o bug começou quando você decidiu instalar Windows :-D
+[2017-04-04 17:31:52] Era pra um amigo do meu irmão hahahaha
+[2017-04-04 17:31:56] Perdão
+[2017-04-04 17:32:04] Não se faz uma coisa dessas com um amigo!!!
+[2017-04-04 17:32:18] coitado...
+[2017-04-04 17:32:53] Vou instalar o mint pra ele, mas voltando ao problema tu sabe que que houve?
+[2017-04-04 17:33:03] não
+[2017-04-04 17:33:18] Oh shit hahaha, OK, obgd
+[2017-04-04 19:25:41] Talita Rodrigues joined
+[2017-04-04 19:25:42] Hi Talita !
+[2017-04-04 19:43:37] Entreguei as chaves do cyber e fui embora.  Bye bye encerrou, vai ser um bar.
+[2017-04-04 19:44:52] Vou buscar outras coisas para fazer agora
+[2017-04-04 19:44:55] Passa mais detalhes, só essa tela de setup fica difícil... qual marca/modelo do Notebook... tomara que não seja um Samsung Ultra e o erro irreversível...
+[2017-04-04 19:46:35] Opa Fabrycio, agradeço a boa vontade, mas já resolvi com o super grub
+[2017-04-04 19:47:20] ??
+[2017-04-04 19:47:26] Eu não entendi que aconteceu ao certo, mas parece que o windows deletou alguns arquivos do grub
+[2017-04-04 19:47:30] Algo assim
+[2017-04-04 19:47:49] Nunca mais nem chego perto de windows, so zikado
+[2017-04-04 19:48:45] Para instalar em dual boot deve primeiro instalar o Windows e depois o Linux, pois o Grub irá detectar o Windows posteriormente.
+[2017-04-04 20:31:57] https://www.wired.com/2017/04/hackers-hijacked-banks-entire-online-operation/?mbid=nl_4417_p3&CNDID=1337559
+[2017-04-04 20:34:27] acabei de saber desse projeto: https://serenatadeamor.org 👌🏻
+[2017-04-04 20:42:16] Se não me engano esse projeto foi apadrinhado pela okbr, não sei exatamente qual a relação, mas consideraria isso na minha função utilidade
+[2017-04-04 20:44:27] bem legal!
+[2017-04-04 21:08:57] Algum dia a gente consegue marcar a palestra hands-on deles no garoa né @Biazzotto  @rg3915
+[2017-04-04 21:13:31] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_246108729936707764.webp
+[2017-04-04 21:14:11] Estamos para marcar um curso de introdução do Jupyter Notebooks, com nossa amiga @jtemporal, que trabalha no Serenata de Amor... ela poderia fazer uma breve apresentação do projeto no mesmo dia...
+[2017-04-04 21:14:40] ✨🍀🍀🍀✨
+[2017-04-04 21:25:23] opa. vamos conversando.
+[2017-04-04 21:48:34] Um dia precisa se por para outro nascer. Mike, boa sorte na nova etapa, pode vir coisa boa ao abrir espaço e energia vital. Abracao.
+[2017-04-04 21:49:55] Posso ;)
+[2017-04-04 22:07:24] 🙋🏼‍♂️
+[2017-04-04 22:14:07] Inclusive eu vou organizar a dinâmica essa semana já me organizo melhor
+[2017-04-04 22:17:50] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_694481660414001332.webp
+[2017-04-04 22:59:31] 👍👍👍👍 vai ser sábado 15/4
+[2017-04-04 23:00:23] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_5127466965966782481.pdf
+[2017-04-04 23:07:40] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803119630_30981.jpg
+[2017-04-04 23:07:47] RPi 3? Alguém?
+[2017-04-04 23:14:37] tá vendendo? Por quanto?
+[2017-04-04 23:16:19] Aeeeee 💖😎 minha nova amiga de recreio #arrasamuito
+[2017-04-04 23:19:53] +1
+[2017-04-04 23:30:06] +2
+[2017-04-04 23:30:23] Se for pra doar eu quero 😋
+[2017-04-04 23:30:33] Uhuulll adooorooo
+[2017-04-04 23:32:46] fila.add - tb quero
+[2017-04-04 23:33:04] ☄️💥🌈🌈🌈💖💜

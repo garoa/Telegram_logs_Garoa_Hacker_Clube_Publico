@@ -1,0 +1,99 @@
+[2017-10-03 07:14:41] https://twitter.com/ESP8266/status/915153747281678337
+[2017-10-03 08:43:09] photo
+[2017-10-03 09:23:17] Isso mesmo
+[2017-10-03 09:36:17] hahahaha
+[2017-10-03 09:40:37] Renata Marques Fabro added Rodolfo Xavier
+[2017-10-03 09:40:38] Hi Rodolfo !
+[2017-10-03 10:12:08] Hola, amigos!
+[2017-10-03 10:26:37] Pessoal alguém já precisou criar campo sexo em uma tabela somente a partir do nome? Não é para fins de atualização cadastral é somente para identificar aproximadamente o volume de comprar de cada sexo. Uso SQL
+[2017-10-03 10:27:02] Bacana
+[2017-10-03 10:30:11] Eu eu eu
+[2017-10-03 10:30:33] usei dicionário com o termo
+[2017-10-03 10:35:59] acho que tem que pensar naqueles bonecos articulados por manivela( substituir as manivelas por motores) e um trilho para movimentar os personagens
+[2017-10-03 10:36:22] numa visão bem genérica
+[2017-10-03 10:55:58] Legal você achou o dicionário? Na Net?
+[2017-10-03 10:56:42] Ou criou a partir de um banco de dados público?
+[2017-10-03 11:11:39] isso foi em 2011, eu peguei num fórum tipo stack overflow... retornava 3 opções: Masc, Fem e Indef (nomes unisex)
+[2017-10-03 11:29:01] Entendi legal vou caçar
+[2017-10-03 11:54:46] Baixa o banco de dados do babynames
+[2017-10-03 11:58:27] Como exercício comecei a classificação na mão
+[2017-10-03 11:58:51] 74.000 registros sendo 10.000
+[2017-10-03 11:59:00] Primeiros nomes
+[2017-10-03 11:59:02] Unicos
+[2017-10-03 11:59:57] Já classifique facilmente todos com terminação a
+[2017-10-03 12:00:08] Agora estou na consoantes
+[2017-10-03 12:01:17] Salvo nos do tipo Sued Osson Lino
+[2017-10-03 12:01:29] Acho que vou ter uma boa margem de acerto
+[2017-10-03 12:01:32] Kkkkk
+[2017-10-03 15:08:16] @rodzil acho q vc poderia criar um classificador bayesiano bem simples pra isso
+[2017-10-03 15:08:24] dá uma olhada nesse código em go:
+[2017-10-03 15:08:25] https://github.com/hstove/gender
+[2017-10-03 15:08:26] hstove | gender
+
+Gender classification by first name in Go.
+
+Language: Go
+Forks: 5
+Stars: 76
+Issues: 1
+[2017-10-03 15:09:09] aí vc usa uma lista de treinamento de algum dado que achar na web, que tenha a classificação
+[2017-10-03 15:23:56] ISC Survey: https://ftp.isc.org/www/survey/reports/current/bynum.txt
+[2017-10-03 16:03:59] ah mano de novo essa história de adivinhar gênero por nome 😂
+[2017-10-03 16:10:44] Duvido acerteram o meu
+[2017-10-03 16:36:25] me incomoda também aquele papo de adivinhar traços comportamentais pela data do nascimento e posicionamento dos corpos celestes...
+[2017-10-03 17:07:24] típico de alguém de touro...
+[2017-10-03 17:07:30] (sarcasmo)
+[2017-10-03 17:07:47] ;-)
+[2017-10-03 17:08:06] Mas as pessoas do pensamento-mágico me rotulam de sagitário, se não me falha a memória...
+[2017-10-03 17:10:40] deve ser o ascendente
+[2017-10-03 17:10:40] Isso parece papo de Virgem.
+[2017-10-03 17:10:45] (sarcasmo)
+[2017-10-03 17:28:30] Ou o meio do céu
+[2017-10-03 17:29:35] o éter ?
+[2017-10-03 17:35:25] Isso parece zoeira com a experiência sexual do Guisso 😁
+[2017-10-03 17:36:53] A msg do guisso pulou antes da minha kkkk
+[2017-10-03 17:36:56] Ser de sagitário apenas é ter nascido numa data onde esta constelação, dentre 12 selecionadas, pois por elas passa a eclíptica, estava mais Apina durante o anoitecer. 
+Ou algo assim.
+[2017-10-03 17:39:50] Não, mas pode ser.
+[2017-10-03 17:40:48] .globo é um domínio?
+[2017-10-03 17:41:01] Sei, certeza q tu viu eu digitando e esperou pra dar uma indireta, deixa vc
+[2017-10-03 17:44:50] @fernandoGuisso Assunto sério. Falei com o João Canhada, da Foxbit. Falei do Garoa e etc... Ele falou que tem interesse tem organizar alguma coisa.
+[2017-10-03 17:47:26] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_1045404939746018565.webp
+[2017-10-03 17:58:54] iihhh, coisa antiga migão, procura la na wiki
+[2017-10-03 17:59:38] mas eles ja ajudaram nos q eu fiz
+[2017-10-03 17:59:52] lembra q teve gifts em um encontro?
+[2017-10-03 18:00:57] Foi no Carnahacking 2016
+[2017-10-03 18:01:24] Mas é questão de agitar o grupo de BTC
+[2017-10-03 18:07:57] Vou voltar com o BlackBlockChain, tu vai ficar feliz?
+[2017-10-03 18:11:50] Fico
+[2017-10-03 19:50:58] Cerveja do Garoa: Cerveja de trigo: Ficou notas cítricas, bastante gás, não muito encorpada não, está bem levinha.
+[2017-10-03 20:02:44] Gosto com um ibu mais acentuado mas o que vier se for bem feito, mandemos pra dentro
+[2017-10-03 20:06:07] Qual a temperatura que vcs deixaram com o fogo desligado?
+[2017-10-03 20:19:52] Gente, quando tem evento no garoa?
+[2017-10-03 20:20:05] Comecei um curso no Senai que é a noite, mas queria ir no garoa novamente
+[2017-10-03 20:20:14] Fui só uma vez
+[2017-10-03 20:22:43] Não lembro direito. A rampa foi em tipo 70o direito, depois fervura.
+[2017-10-03 20:24:11] Saquei, por isso que ficou menos encorpada . . . O mais comum e deixar uma hora em 66, mais que isso da caracteristicas mais secas, menos que isso mais encorpada
+[2017-10-03 20:24:24] Vo tenta achar algum material sobre isso
+[2017-10-03 20:30:59] Sim, a rampa em temperatura mais baixa, liberdade mais açúcar (que dá mais corpo)
+[2017-10-03 20:33:28] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_458190109024468329.webp
+[2017-10-03 20:34:43] Na verdade é o contrário. Misturar em temperatura mais alta vai deixar seu mosto com açúcares menos fermentaveis, deixando o corpo mais alto.
+[2017-10-03 20:35:20] Os açúcares de um temperatura mais baixa são mais fermentaveis. A cerveja vai ficar mais seca e com menos corpo.
+[2017-10-03 20:36:30] A diferença de temperatura não indica se vai liberar mais ou menos açúcar. Vai fazer com que enzimas diferentes atuem, quebrando o amido em açúcares mais ou menos fermentaveis.
+[2017-10-03 20:39:29] 60-65 é faixa de atuação da enzima (que existe no malte) beta-amilase que quebra o amido em açúcares de cadeia menores, que são mais fáceis de ser consumidos pelas leveduras, portanto a cerveja vai ficar mais seca.
+[2017-10-03 20:39:54] @rennerocha Aparece na proxima brassagem
+[2017-10-03 20:40:35] Quem irá?
+https://www.facebook.com/events/1869979316651855/?ti=as
+[2017-10-03 20:40:36] 65-70 é a faixa da alfa-amilase que quebra o amido em cadeias de açúcares maiores (não necessariamente doce) que as leveduras não consomem tão fácil, deixando a cerveja com mais corpo
+[2017-10-03 20:41:26] Quando vai ser? Vai rolar a primeira aqui no LHC assim que eu voltar da PythonBrasil
+[2017-10-03 20:42:22] Procura o livro How-to-brew do John Palmer. Tem uma edição antiga que ele liberou na internet, mas dá para começar a estudar.
+[2017-10-03 20:46:31] Sim, muito massa
+[2017-10-03 20:48:07] Por Isso gosto de ir direto na fonte
+[2017-10-03 20:55:13] Olha ai, eu jurava que era o contrario . . . Viveno e aprendeno
+[2017-10-03 20:55:30] Eu peguei o homebrew for dummies
+[2017-10-03 20:55:43] Mas nao gostei muito nao, vou seguir sua dica de libro
+[2017-10-03 20:58:02] Eu tenho o for Dummies... É mais ou menos mesmo
+[2017-10-03 20:58:29] Tem esse gratuito, mas se puder, compre a última edição desse livro, está excelente e não é tão caro
+[2017-10-03 20:58:59] John Palmer é referência para cervejeiro caseiro
+[2017-10-03 21:00:42] Bueno, vlw =D
+[2017-10-03 23:16:40] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804723733_38832.jpg

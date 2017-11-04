@@ -1,0 +1,361 @@
+[2016-08-14 00:05:42] Eu li no site que tem uma versão RF
+[2016-08-14 00:05:52] Interessante também
+[2016-08-14 00:06:16] Faz um tempo que quero brincar com RF também
+[2016-08-14 00:06:48] Comprei um par de emissor receptor RF para o Arduino
+[2016-08-14 00:39:23] Eu comprei alguns receptores de SDR USB pra ouvir banda especial, como aeroportos e bombeiros, mas sem antena especial acho que não rola. Só estática.
+[2016-08-14 01:42:01] Bombeiros são da PM e desconfio que usem rádio digital hoje em dia. Avião eu já consegui ouvir, mas é bem chato, porque você só ouve metade da conversa e tem que caçar as frequências.
+[2016-08-14 01:46:35] Mas o do aeroporto é da pm? Não tem bombeiro civil lá?
+[2016-08-14 01:47:23] Ahn?
+[2016-08-14 01:48:03] Ouvir avião é a mesma coisa que aeroporto, só mudam as frequências. Bombeiros é outra história.
+[2016-08-14 01:48:54] Mas enfim, já consegui ouvir frequência de avião e de torre usando RTL SDR, num prédio perto do conjunto nacional
+[2016-08-14 01:50:56] em uberaba eu morava do lado do aeroporto, dava pra ouvir a torre com o rádio mesmo, 88mhz
+[2016-08-14 02:02:49] Bombeiro não precisa ser necessariamente bombeiro militar
+[2016-08-14 02:03:41] O corpo de bombeiros (cujo rádio estamos falando) é da polícia militar
+[2016-08-14 03:27:14] Avião usa faixa dos 118.000 a 136.000khz com modulação dsb, dual side band
+[2016-08-14 03:27:14] Em voos internacionais usa modulação ssb/lsb/usb em ondas curtas
+[2016-08-14 03:27:14] Ssb não tem portadora
+[2016-08-14 03:32:10] Algumas polícias usam radio px, são 40 canais, de 26.945 até 27 mil e pouco
+[2016-08-14 07:20:14] This Is Why There Are So Many Ties In Swimming
+http://regressing.deadspin.com/this-is-why-there-are-so-many-ties-in-swimming-1785234795?utm_campaign=socialflow_deadspin_twitter&utm_source=deadspin_twitter&utm_medium=socialflow
+[2016-08-14 11:37:50] Então preciso de uma antena melhor? Lembro que tentei de tudo na época e até estava com o mapa de frequências e canais certinhos.
+[2016-08-14 11:38:21] Fiz curso de piloto privado no Campo de Marte, então tinha todas as frequências certinhas. Só não consegui ouvir nada.
+[2016-08-14 11:38:35] Pra mim, falou antena.
+[2016-08-14 11:38:40] (Acho)
+[2016-08-14 12:31:30] É possível que precise de uma antena melhor que a que veio no RTL SDR, sim. Mas qual canal específico vocÊ está tentando sintonizar? O principal da torre?
+[2016-08-14 12:32:39] O mais simplao. ATIS.
+[2016-08-14 12:32:55] Faz tempo que guardei os receptores e abandonei. Mas posso levar no garoa pra brincar.
+[2016-08-14 12:33:36] O ATIS, pra quem não conhece, é uma transmissão em loop informando dados importantes do aeródromo para naves interessadas.
+[2016-08-14 12:40:15] Eu conheço pouco, mas numa olhada rápida, posso confirmar que eu peguei o ATIS de Congonhas em 2013, da avenida paulista. Onde você está?
+[2016-08-14 12:40:24] (Na real, da alameda santos)
+[2016-08-14 12:42:03] Mas uma antena melhor ajuda muito, sem dúvida, principalmente a transmissão das aeronaves.
+[2016-08-14 12:42:21] Antena melhor pode ser uma de VHF normal de tv, viu?
+[2016-08-14 12:42:48] Eu tentei quando morava na frente do campo de marte, em Sabtana
+[2016-08-14 12:43:00] Hoje eu moro no Higienopolis. Mas ainda não tentei.
+[2016-08-14 12:43:14] Eu não manjo NADA de antenas.
+[2016-08-14 12:43:18] Absolutamente nada
+[2016-08-14 12:43:28] Cara, qualqur fio é uma antena, alguns são melhores que os outros
+[2016-08-14 12:44:08] Pega uma dessas internas de tv e vc já deve conseguir ver as transmissões usando o espectro no Gqrx
+[2016-08-14 12:44:48] Vou ver se faço isso hoje então. Deu curiosidade.
+[2016-08-14 12:45:13] Lembro que tentei com o cabo da TV a cabo também, só pra ver oq acontecia.
+[2016-08-14 12:45:15] Mas nada
+[2016-08-14 12:45:22] Gutem, olha esse projeto do @gutomaia:
+http://gutomaia.net/pyNES/
+[2016-08-14 12:47:31] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_156473097476637466.webp
+[2016-08-14 12:47:55] 👍
+[2016-08-14 12:53:53] O que fiz, de usar o cabo net como antena, faz sentido?
+[2016-08-14 12:54:11] Meu pai sempre me disse que qualquer fio age como antena. Dai a ideia.
+[2016-08-14 12:55:11] Talvez, se você tivesse ligado a malha, mas não o núcleo, dos dois lados. Se o cabo da net estava ligado, não vai funcionar - o cabo é feito para não irradiar.
+[2016-08-14 12:56:12] Puuuuuuuuuttttzzz
+[2016-08-14 12:56:15] Opa, deixando mais claro: Talvez, se você tivesse ligado a malha no seu rádio, deixado ela desligada do outro, e não ligado nada no condutor central dos dois lados. Um fio de 1m teria funcionado melhor.
+[2016-08-14 12:56:39] É... Preciso de uma antena velha de TV
+[2016-08-14 12:57:03] Falando em antenas, vi uma no YouTube que preciso fazer. Promete WiFi a 800 metros.
+[2016-08-14 12:57:22] Da pra testar com internet de lugares públicos.
+[2016-08-14 13:00:33] Uma antena de pringles?
+[2016-08-14 13:01:15] Assim, com antena, não tem mistério: você ganha distância se aumentar a direcionalidade dela. Mas tem um limte quando um dos lados é direcional e outro não.
+[2016-08-14 13:03:11] Pior que não era pringles. Essa pringles já vi pra quando o pessoal ia de carro procurar redes free. Mas esta que estou falando eh uma modificação numa antena da sky.
+[2016-08-14 13:03:47] E tive essa mesma preocupação que você comentou: como o outro lado vai conseguir ter a mesma qualidade com apenas uma antena?
+[2016-08-14 13:04:10] Porque tudo em antena é reversível: o que vai de um lado para o outro vai do outro para um.
+[2016-08-14 13:04:38] Nesse caso então funcionária perfeitamente até uma lata pringles, certo?
+[2016-08-14 13:05:05] Com uma antena mais direcional, você capta menos ruído vindo de outros lugares que não a antena, e você desperdiça menos sinal enviando para longe da antena para a qual você quer enviar.
+[2016-08-14 13:05:22] Sensacional...
+[2016-08-14 13:05:25] Funcionaria perfeitamente para o que?
+[2016-08-14 13:05:39] Wifi
+[2016-08-14 13:07:08] Ah, sim, mas talvez a outra seja melhor. Não sei. O número que mede a "direcionalidade" da antena é o seu ganho. A que tiver ganho maior vai ter uma distância maior, mas vai precisar de um alinhamento cada vez melhor.
+[2016-08-14 13:07:37] Preciso de uma antena velha da sky pra tentar
+[2016-08-14 13:07:52] Está aí um projeto interessante pra levar pro garoa
+[2016-08-14 13:09:36] Sim, parece legal
+[2016-08-14 13:11:00] Povo: Alguém tem uma antena velha da Sky pra vender?
+[2016-08-14 13:27:26] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803718979_74451.jpg
+[2016-08-14 13:46:33] Eu já usei py pra captar pm. Mas isso tem uns 20 anos e eu fiquei de castigo.
+[2016-08-14 13:48:47] Hahahaha... menina terrível... bebê prodígio...
+[2016-08-14 13:52:46] Obviamente eu não tinha licença. Meu irmão e eu mexemos nas frequências de um aparelho antigo que achamos do meu avô, que era da marinha holandesa
+[2016-08-14 14:03:46] Sensacional!! Kkkkkk
+[2016-08-14 14:58:32] E o seu irmão está de castigo até hoje?
+[2016-08-14 15:18:16] Foi um castigo engraçado. Minha mãe gritando que não era pra falar pra polícia onde morava quando achasse a frequência e meu pai depois de canto perguntando como arrumamos o aparelho
+[2016-08-14 18:04:49] Olá. Alguém pode me ajudar a configurar meu arduino mega no windows?
+[2016-08-14 18:06:26] Basta tirar essa peça chamado Windows
+[2016-08-14 18:06:37] qual o problema?
+[2016-08-14 18:07:32] Quando vou fazer upload do codigo ele fica carregando pra sempre
+[2016-08-14 18:08:21] Depois da stk500_getsync not in sync
+[2016-08-14 18:08:59] stk500_getsync not responding
+[2016-08-14 18:09:29] IDE configurada pra 2560?
+[2016-08-14 18:09:36] No ubuntu funciona. Mas a placa que eu seleciono la nao tem no windos
+[2016-08-14 18:09:57] copia a pasta hardware do ubuntu pro windows
+[2016-08-14 18:10:08] baixe a ide mais atual
+[2016-08-14 18:10:09] etc
+[2016-08-14 18:13:04] Qual a versão do Windows que você usa?
+O Arduino Mega não vem com FTDI e já vi relatos de pessoas que não conseguiram instalar o driver no Windows 7 64 Bits...
+O driver foi instalado corretamente, e a porta serial (COMx:) aparece na IDE?
+[2016-08-14 18:13:34] se chega no getsync a porta tá enumerando
+[2016-08-14 18:13:48] o problema é que o sync não tá sendo correspondido
+[2016-08-14 18:14:03] isso pode significar a IDE procurando um uC diferente
+[2016-08-14 18:14:23] evidenciado pelo fato de que ele tá usando placas alvo diferentes no ubuntu e no windows
+[2016-08-14 18:16:17] Win 7 64bits. Na instalação da ide veio vários drivers. Acho que  instalou  certo
+[2016-08-14 18:16:57] e a placa alvo?
+[2016-08-14 18:17:03] qual tá usando no ubuntu e  qual no windows?
+[2016-08-14 18:18:02] Verdade... a IDE do Linux e do Windows não devem estar na mesma versão... a última verão do IDE (1.6.10) deve vir como "Arduino/Genuino Mega ou Mega 2560"
+[2016-08-14 18:18:11] também
+[2016-08-14 18:18:15] por isso eu disse
+[2016-08-14 18:18:17] atualiza a ide..
+[2016-08-14 18:18:17] Ubuntu eh arduino mega (atmega1280)
+[2016-08-14 18:18:50] A ide windows eh mais nova que a do ubuntu
+[2016-08-14 18:19:10] então baixe uma mais antiga
+[2016-08-14 18:19:18] downgrade as vezes é necessário
+[2016-08-14 18:20:14] No windows nao tem a mesma opcao. Eu uso arduino mega 2560 e em processador atmega1280
+[2016-08-14 18:20:42] baixa a mesma versão da ide que você tem no ubuntu.
+[2016-08-14 18:20:48] tenta outra porta usb também.
+[2016-08-14 18:21:01] Eu queria tentar copiar a pasta hardware como vc falou.  Parece boa ideia. Mas nao sei onde está
+[2016-08-14 18:23:36] google!!!!!!!
+[2016-08-14 18:26:27] Eu sei que a diferença entre ATmega 2560 e ATmega 1280 é somente a memória flash (256 KB x 128 KB)... tirando essa diferença, são compatíveis...
+[2016-08-14 18:40:31] Copiei a hardware do ubuntu para a versão mais próxima que tinha do arduino para windows
+[2016-08-14 18:41:06] Nao funciona.  Mas eu vi que o erro eh o mesmo que se eu estiver com o arduino desconectado
+[2016-08-14 18:41:20] reiniciou depois de instalar os drivers?
+[2016-08-14 18:41:23] Tentei várias portas usb
+[2016-08-14 18:41:35] Sim.  Instalei ontem
+[2016-08-14 18:59:59] Será que funcionária em uma vm no ubuntu?
+[2016-08-14 19:00:12] Vi esse passo-a-passo, veja se funciona:
+1 - Pressione as teclas "windows" e "R" simultâneamente.
+2 - Copie e cole o seguinte comando:
+    shutdown.exe /r /o /f /t 00 
+3 - Selecione "Troubleshoot"
+4 - Selecione "Startup Settings"
+5 - Selecione "Disable Driver Signature Enforcement" 
+6 - Instale novamente o driver do Arduino.
+[2016-08-14 19:01:31] ...
+[2016-08-14 19:02:31] As opções "Troubleshoot", "Startup Settings" e "Disable Driver Signature Enforcement" devem estar em português...
+[2016-08-14 19:03:27] Ok
+[2016-08-14 19:06:47] Essa treta toda eh pq eu estou tentando usar o arduino como ftdi/uart para fazer upload de uma firmware para um rádio controle
+[2016-08-14 19:07:09] Mas o programa de upload eh para windows
+[2016-08-14 19:07:36] E pelo wine eu tento todas as portas com e não vai
+[2016-08-14 19:09:04] Tenta colocar sua dúvida também neste grupo:
+https://telegram.me/joinchat/BQwnFTxx069EQRiYyIiLJw
+Pode ser que consigam resolver...
+[2016-08-14 19:20:07] Indo por partes.. confira no Gerenciador de dispositivos que está com a porta correta.
+[2016-08-14 19:25:28] Como eu sei se está correta? So tem a com 1 aqui
+[2016-08-14 19:26:08] COM1 provavelmente não está correta...
+[2016-08-14 19:26:15] Quando você desligar o Arduino essa COM1: deve desaparecer, e só reaparecer quando ele estiver ligado...
+[2016-08-14 19:26:27] Estou ligando o meu Arduino Mega e já te digo o que aparece...
+[2016-08-14 19:27:17] serial enumerada por USB em Windows geralmente é de COM12 pra cima
+[2016-08-14 19:27:36] Está errado
+[2016-08-14 19:27:49] Desliguei e continua 1 la
+[2016-08-14 19:29:29] Tenho certerza que é problema com os drivers no Windows...
+[2016-08-14 19:30:13] Vou tentar desinstalar a ide e ver se ele romove os drivers
+[2016-08-14 19:32:16] humm... nao manjo nada de windows, mas imagino que nao tenha nada a ver
+[2016-08-14 19:35:37] Vamos lá... No Device Manager, em Ports (COM & LPT) aparece uma USB Serial Port. O driver é FTDI (o que vem com a IDE do Arduino).
+[2016-08-14 19:36:33] Eu testei com a IDE 1.6.0. Nela tem três configurações, Board, Processor e Port. Board é Mega, Processor é 1280 e port é o que eu vi no Device Mangeger.
+[2016-08-14 19:36:54] A primeira vez deu erros no upload, porque eu não tinha selecionado o Processor.
+[2016-08-14 19:38:26] Não precisa desinstalar a IDE. Com o Device Manager aberto, desconecte e reconecte a placa e veja o que aparece.
+[2016-08-14 19:38:50] Nada aparece
+[2016-08-14 19:40:30] Nem em USB Serial Bus Controllers? Não tem nada marcado com uma exclamação?
+[2016-08-14 19:40:45] hummm esse cabo....
+[2016-08-14 19:42:07] Tô baixando a versão atual da IDE. Como este treco aumentou de tamanho!
+[2016-08-14 19:42:19] Ele disse que funciona bem no Linux, deve estar usando o mesmo cabo...
+[2016-08-14 19:42:39] Funciona no ubuntu
+[2016-08-14 19:43:24] Mas foi no mesmo micro?
+[2016-08-14 19:48:58] Nao.  Mas mesmo cabo
+[2016-08-14 19:49:03] com ou sem driver instalado direito, acho que aparecia algo no gerenciador de hardware ai, se nao tem nem sinal de vida la, comecaria a suspeitar de outras coisas
+[2016-08-14 19:49:44] Tenta espetar outra coisa nesta porta USB. Ou ligar o Arduino em outra porta.
+[2016-08-14 19:50:25] enfim, manjo nada de windows... no linux se nao der sinal de vida no dmesg, eh zica
+[2016-08-14 19:50:26] Ele aparece como outro dispositivo
+[2016-08-14 19:50:43] Bom, aparece como o que?
+[2016-08-14 19:50:54] Ft232r usb uart
+[2016-08-14 19:50:59] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_753733448681652839.webp
+[2016-08-14 19:51:49] Até aí tudo bem... Tem um COM associado?
+[2016-08-14 19:52:14] Nas com só continua com a 1 de sempre
+[2016-08-14 19:53:28] Tenta o seguinte: abre o Properties do dispositivo, selecione a aba Driver e Update Driver.
+[2016-08-14 19:54:13] Pela Internet ou local?
+[2016-08-14 19:54:13] Escolha Browse my Computer e escolha a Pasta drivers de onde você instalou a IDE.
+[2016-08-14 19:54:56] Properties do FT232r usb uart
+[2016-08-14 19:56:27] Aqui aparecem duas opções, search automatically e Browse my computer. Escolha a segunda.
+[2016-08-14 20:02:50] Windows nao pode localizar
+[2016-08-14 20:03:18] Opa
+[2016-08-14 20:03:21] Foi
+[2016-08-14 20:03:51] Agora ele aparece como usb serial converter
+[2016-08-14 20:04:01] Mas a  com continua uma so
+[2016-08-14 20:04:37] Desconecta e conecta de novo.
+[2016-08-14 20:05:34] Mesma coisa
+[2016-08-14 20:06:26] Dá uma olhada no Properties do dispositivo, aba Port Settings, botão Advanced
+[2016-08-14 20:09:58] Port serttings eh uma aba das portas COM somente. So tem a porta com1 aqui. Essa com1 continua aparecendo depois que removo o arduino.  Devo seguir seu procedimento nessa porta?
+[2016-08-14 20:10:17] Dê uma olhada no Properties da COM1, veja qual o Location.
+[2016-08-14 20:11:35] Tenta instalar os drivers atualizados do FT232R USB UART, que estão no seguinte link:
+http://www.ftdichip.com/Drivers/CDM/CDM%20v2.12.18%20WHQL%20Certified.zip
+
+As instruções de instalação (em inglês):
+http://www.ftdichip.com/Support/Documents/AppNotes/AN_119_FTDI_Drivers_Installation_Guide_for_Windows7.pdf
+[2016-08-14 20:11:42] Em pci standard isa bridge
+[2016-08-14 20:13:05] Por algum motivo não está criando a COM...
+[2016-08-14 20:14:24] Será que eh alguma configuração da bios?
+[2016-08-14 20:16:02] Não... a não ser que queira desativar a porta COM1: já existente...
+[2016-08-14 20:16:19] serial por USB é gerenciada pelo SO...
+[2016-08-14 20:17:54] Essa placa não eh original. Tem algo haver?
+[2016-08-14 20:18:53] Dá uma olhada no Properties do USB Serial Converter
+[2016-08-14 20:19:20] Em Advanced, está marcado Load VCP?
+[2016-08-14 20:25:27] Sim
+[2016-08-14 20:26:10] Então acabaram as minhas ideias...
+[2016-08-14 20:26:34] document
+[2016-08-14 20:28:11] Faça isso...
+[2016-08-14 20:29:26] Farei
+[2016-08-14 20:42:53] fiz
+[2016-08-14 20:43:08] uma ideia eh vc fazer um pendrive com u mlinux
+[2016-08-14 20:43:16] e usa-lo para brincar com o arduino
+[2016-08-14 20:43:26] quem sabe vc nao pega gosto :)
+[2016-08-14 20:43:37] não apreceu nenhuma COM, mas apareceu USB serial Port com uma exclamaçao amarela
+[2016-08-14 20:44:26] Eu já atingi meu objetivo usando Ubuntu e wine. Só quero configurar meu windows agora.
+[2016-08-14 20:46:22] apareceu uma com 5 aqui
+[2016-08-14 20:46:43] acho que deu certo
+[2016-08-14 20:49:04] funciona
+[2016-08-14 20:49:08] Obrigado
+[2016-08-14 22:01:13] 👌
+[2016-08-14 22:32:52] coisas que ninguém nunca te avisou na vida: implementar tetris do zero em programação de baixo nível é difícil
+[2016-08-14 22:33:40] https://github.com/Lana-chan/brochehacker/tree/ss-refactor/brochehacker/tetris.cpp
+[2016-08-14 22:34:19] acho que a única coisa que falta é checar se a peça vai bater nas laterais se for rotacionada
+[2016-08-14 22:34:36] e depois, um jeito de exibir o placar (que também ainda não é calculado)
+[2016-08-14 22:34:47] mas fora isso.. parece que tá funcionando
+[2016-08-14 22:48:11] (sei que C não é o baixíssimo nível, mas eu digo usando operações de bit, sem usar coisas como objetos, etc...)
+[2016-08-14 22:58:05] Se abstrair em função de pontos será mais tranquilo de implementar.
+[2016-08-14 22:58:34] E o compilador poderá otimizar pra você o que parecia excesso de chamadas e abstrações.
+[2016-08-14 22:59:05] o jogo já tá lá.. é só essa última checagem de rotação que eu preciso pensar como implementar
+[2016-08-14 22:59:06] (Não olhei teu código)
+[2016-08-14 22:59:19] Quer dicas?
+[2016-08-14 22:59:32] sure
+[2016-08-14 23:00:19] Usa papel e caneta. Works every time! Rs
+[2016-08-14 23:00:26] heh
+[2016-08-14 23:00:45] meu problema é que se eu faço a rotação, parte do bloco cai fora da lateral
+[2016-08-14 23:00:46] Tem que ver como você abordou o espaço
+[2016-08-14 23:00:57] Então proíbe a rotação
+[2016-08-14 23:01:02] isso
+[2016-08-14 23:01:10] mas eu não tenho bem como checar
+[2016-08-14 23:01:20] Você precisa pensar no teu bloco em MxN de todas as possíveis posições
+[2016-08-14 23:01:43] Ou seja, a matrix do bloco de linha seria 4x4
+[2016-08-14 23:01:53] (Difícil explicar aqui)
+[2016-08-14 23:02:09] o espaço é em bytes, onde cada byte é uma linha da tela (output final em matriz de led 8x8)
+[2016-08-14 23:02:33] Ou seja: peça MxN --> matrix max(M, N)^2
+[2016-08-14 23:02:49] mas conceitualmente o espaço tem 12 bytes, com uma folga em cima que não é visualizada
+[2016-08-14 23:03:06] Não importa a representação final em bits. Importa a abstração matemática em pontos de matriz. Por último você passa pra bits.
+[2016-08-14 23:03:11] os blocos estão em nibbles (meio-byte, ou 4 bits), definidos no tetris.h
+[2016-08-14 23:03:48] Uma dica que te dou: separa a lógica da representação.
+[2016-08-14 23:04:15] Se trabalhar diretamente na massa representativa (como os bits da matriz) você irá deixar teu código absurdamente complexo.
+[2016-08-14 23:04:23] o problema com isso é que aí eu tenho que refazer a representação :P
+[2016-08-14 23:04:33] dá uma olhada no código depois
+[2016-08-14 23:04:59] Uma função irá transformar a matriz em nibbles ou seja lá o que decidir usar amanhã no teu projeto
+[2016-08-14 23:05:03] Sure.
+[2016-08-14 23:05:08] Dai fica mais fácil
+[2016-08-14 23:05:31] não entendi
+[2016-08-14 23:05:40] não tem nenhuma função de transformação de matriz
+[2016-08-14 23:06:33] TL;DR: centraliza teu código todo em torno da função: int is_dot_set(x, y) e void set_dot(x, y)
+[2016-08-14 23:06:51] (Assumindo apenas monocromático)
+[2016-08-14 23:07:15] o problema é que não há dots nos lados do espaço pra checar se uma rotação escapa pela esquerda ou pela direita...
+[2016-08-14 23:07:37] Cada peça tem propriedades
+[2016-08-14 23:07:46] M, N, centro
+[2016-08-14 23:07:53] MinLeft, MinRight
+[2016-08-14 23:08:00] ah
+[2016-08-14 23:08:02] eu não fiz assim
+[2016-08-14 23:08:48] talvez fosse uma boa idéia.. pra limitar movimento horizontal eu estava usando colisão por pixel nos extremos
+[2016-08-14 23:08:51] If current_x < MinLeft && key_press_left {
+    Printf("fuck you, user!");
+}
+[2016-08-14 23:08:59] isso, isso eu já faço
+[2016-08-14 23:09:13] MinLeft <-- espaço mínimo para rotação
+[2016-08-14 23:09:16] mas checando se o plano de sprite já tem um pixel em coluna 0 ou coluna 7
+[2016-08-14 23:09:35] o problema não é o movimento horizontal, é a rotação
+[2016-08-14 23:09:38] Vide centralizar em is_dot..
+[2016-08-14 23:09:59] pra mim is_dot é o que eu já estou usando, não estou entendendo sua abstração :)
+[2016-08-14 23:10:01] Sim Erin. Estamos testando se podemos rotacionar pela borda esquerda.
+[2016-08-14 23:10:07] checar se existe pixel = is_dot
+[2016-08-14 23:10:11] ou seja, o que eu estou usando...
+[2016-08-14 23:10:23] Agora vem outra abstração:
+[2016-08-14 23:10:33] Matriz binária de dots usados para rotação
+[2016-08-14 23:10:45] não entendi
+[2016-08-14 23:11:42] mas, guardar mínimo e máximo x pra cada rotação de cada peça já me basta na verdade
+[2016-08-14 23:11:46] assim eu só comparo X
+[2016-08-14 23:11:49] Imagina uma matriz de peça. Rotacionar para cada posição. Essa matriz precisa estar limpa para poder rotacionar.
+[2016-08-14 23:11:57] Então suave
+[2016-08-14 23:12:10] comparar com as peças fixas eu já faço..
+[2016-08-14 23:12:17] o problema era só as extremidades da tela
+[2016-08-14 23:12:23] Suave então. Você está no finalzinho então.
+[2016-08-14 23:12:28] Tá muito suave então
+[2016-08-14 23:12:28] isso
+[2016-08-14 23:12:47] Acho que tua solução eh minleftrequired
+[2016-08-14 23:12:50] Idem pra right
+[2016-08-14 23:12:53] isso
+[2016-08-14 23:12:58] na rotação,
+[2016-08-14 23:13:08] if x < minleft then x = minleft
+[2016-08-14 23:13:09] etc..
+[2016-08-14 23:13:10] Você tem o conceito de centro da peça já?
+[2016-08-14 23:13:32] não usei esse método
+[2016-08-14 23:13:59] Sem problema. Se entendeu o conceito de comparar por espaço livre já será tranquilo você adaptar a ideia.
+[2016-08-14 23:14:11] a rotação acontece num "centro", mas isso foi apenas conceito para definir a rotação de cada peça, que já é guardado na forma da imagem da peça
+[2016-08-14 23:14:26] as constantes guardam todas as rotações, eu não calculo isso na hora
+[2016-08-14 23:14:44] aí a rotação é só trocar o offset de memória pra outra rotação
+[2016-08-14 23:14:46] Ele é interessante para ter testes de tamanho mínimo para rotação, no caso.
+[2016-08-14 23:15:00] Tranquilo então
+[2016-08-14 23:15:35] Eu doei vários livros de programação de Games pro garoa. Estão na biblioteca. Um deles, se mal não lembro, aborda o assunto e suas estratégias.
+[2016-08-14 23:16:15] eu tô fazendo de cabeça, partindo de anos ganhando em tetris competitivo :p até que não me saí tão mal
+[2016-08-14 23:16:26] Muito bom
+[2016-08-14 23:16:38] Vou treinar e te desafiar!!
+[2016-08-14 23:16:40] o alvo é um atmega328 com display 8x8 e 4 botões
+[2016-08-14 23:16:42] Amo tetris
+[2016-08-14 23:16:56] todos amam teteia
+[2016-08-14 23:17:02] Kkkkkkkkkk
+[2016-08-14 23:17:28] Teteia foi trolada do corretor. Nem sei se existe essa palavra.
+[2016-08-14 23:17:32] se você tiver kicad (ou um visualizador de gerbers), o projeto tem uma placa naquele mesmo repositório
+[2016-08-14 23:17:48] Sou analfabeto em eletrônica :(
+[2016-08-14 23:18:02] Acabei upando meu Lvl só no software
+[2016-08-14 23:18:04] a idéia é ser um broche com uma animação, de lambuja é interativo por meio dos botões
+[2016-08-14 23:18:15] então um dos modos que eu posso implementar é tetris..
+[2016-08-14 23:18:32] Vai ficar louco isso
+[2016-08-14 23:19:00] Mas o povo vai querer que as pessoas fiquem paradas pra ficar brincando no button da jaqueta
+[2016-08-14 23:19:05] hehehehe
+[2016-08-14 23:19:59] daqui umas semanas deve estar pronto.. mandei fabricar algumas placas
+[2016-08-14 23:20:19] o atmega tem bootloader de lilypad, pra poder usar ele sem componentes externos
+[2016-08-14 23:20:40] Vai usar apenas o uC? Tem mais componentes?
+[2016-08-14 23:21:55] o BOM pra uma placa é:
+1x atmega328
+1x matriz LED 8x8
+2x conector 2 pinos (1 força, 1 jumper do reset)
+1x conector 3 pinos (programação serial)
+1x resistor 10k (pullup reset quando jumper fechado)
+[2016-08-14 23:21:58] só
+[2016-08-14 23:22:15] e placa de camada simples perfeita pra fabricação caseira
+[2016-08-14 23:22:28] Parabéns. Ficou bem mínimo.
+[2016-08-14 23:22:39] :)
+[2016-08-14 23:22:49] dá pra rodar numa pilha de relógio.
+[2016-08-14 23:22:51] Vai fazer sucesso nas noites do garoa
+[2016-08-14 23:23:07] vai ser o sucessor espiritual do meu pingente, hehehe
+[2016-08-14 23:23:34] Que pingente?
+[2016-08-14 23:24:16] http://mynameiser.in/post/104463518201/pics-of-the-assembled-rgb-pendant-success
+[2016-08-14 23:24:25] http://mynameiser.in/post/99760295116/its-not-as-bright-as-i-hoped-it-would-be-but-the
+[2016-08-14 23:24:37] 👍
+[2016-08-14 23:24:43] Uia
+[2016-08-14 23:25:06] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_156473097476637466.webp
+[2016-08-14 23:25:12] o segundo link veio antes, é um protótipo em perfboard
+[2016-08-14 23:25:31] o primeiro é o projeto final em pcb de camada dupla feita pelo curta circuitos
+[2016-08-14 23:25:51] oshw, lógico https://github.com/Lana-chan/rgb-pendant
+[2016-08-14 23:25:53] Lana-chan | rgb-pendant
+
+ATtiny85-powered color-changing pendant
+
+Language: Eagle
+Forks: 0
+Stars: 0
+Issues: 0
+[2016-08-14 23:27:06] Já vai pensando no terceiro
+[2016-08-14 23:27:24] Chuto que sera um drone que vai seguindo a pessoa e piscando
+[2016-08-14 23:27:28] nah
+[2016-08-14 23:27:41] seguindo o tema de wearables, devia ser uma saia com leds...
+[2016-08-14 23:28:05] ou brincos RGB
+[2016-08-14 23:28:06] Pessoal que gosta de raves pagaria caro por isso
+[2016-08-14 23:28:45] quando eu fiz o pingente 2 anos atrás eu já queria fazer, mas pingente é o menor formfactor que eu consigo sem partir pra SMD..
+[2016-08-14 23:29:06] brinco fica meio difícil, ainda mais se quiser deixar reprogramável
+[2016-08-14 23:29:39] Especialmente pela pilha né. Dai sem ser smd acho bem complicado mesmo.
+[2016-08-14 23:30:15] pilha deve dar pra usar 1x button cell
+[2016-08-14 23:30:31] 3v, avr fica feliz com isso já
+[2016-08-14 23:30:57] talvez usando o attiny85 tsop8 (smd), e usando um clip pra reprogramar..
+[2016-08-14 23:31:10] Sensacional
+[2016-08-14 23:31:24] Vou querer ver quando ficar pronto esse tetris!!
+[2016-08-14 23:31:29] hehe
+[2016-08-14 23:31:34] Buenas noches
+[2016-08-14 23:31:41] Hora da série
+[2016-08-14 23:31:43] o protótipo tá aqui rolando do meu lado.. falta só as placas :P
+[2016-08-14 23:31:46] boa noite
+[2016-08-14 23:31:53] :)

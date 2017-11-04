@@ -1,0 +1,152 @@
+[2017-02-20 00:35:23] Mano, Eu ri alto agora (sim, só to vendo agora)
+[2017-02-20 00:35:54] E ri mais ainda com o sticker do Fábio
+[2017-02-20 07:05:05] Pode usar o Linset ou Aircrack.
+[2017-02-20 08:15:46] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_1244824411647770775.webp
+[2017-02-20 09:23:31] QUE STICKERZÃO DA PORRA!
+[2017-02-20 09:41:43] Mas atenção! Esses não são comandos entendidos diretamente pelo kernel. Não são "Linux commands". Isso aí são comandos de shells como o bash, por exemplo.
+[2017-02-20 09:58:19] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_58023844232823439.webp
+[2017-02-20 10:25:07] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_446404499720896615.webp
+[2017-02-20 10:53:59] O Noisebridge fez um mini-reboot este fim de semana. https://www.noisebridge.net/wiki/Noisebridge_Mini-Reboot_2017
+[2017-02-20 11:02:20] Tem garoa esse fds?
+[2017-02-20 11:02:48] Ou vão pular carnaval nos bloco de notas?
+[2017-02-20 11:16:26] https://garoa.net.br/wiki/Carnahacking_2017
+[2017-02-20 11:54:11] Fui baixar um crackeador pra autenticar meu windows e veio junto um trojan, o cara no meio da madrugada gritou "Hoje é noite de maldade, de invadir um banco" quase empelotei. Hahahahah, ainda bem que eu tinha executado na minha vm
+[2017-02-20 12:32:53] pra qual windows vc precisa?
+[2017-02-20 12:58:56] 8.1
+[2017-02-20 12:59:24] eu uso linux, mas tô fazendo um jogo em batch (sim, .bat hahahah) daí preciso do windows pelo menos emulado
+[2017-02-20 13:00:28] Pessoal, divido aqui o RELATÓRIO FINAL - ARTE E MÍDIAS INDEPENDENTES da pesquisadora Victória Gomes de Oliveira, da ECA/USP. No relátorio ela apresenta rapidamente o Garoa e fala sobre algumas atividades!! Também fala da atividade que desenvolvemos junto com o grupo Realidades na Noite de Processing!
+[2017-02-20 13:00:30] :)
+[2017-02-20 13:00:45] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_570680894554666.webp
+[2017-02-20 13:09:25] Não precisa do Windows, deve rodar no Dosbox, ou em uma VM com FreeDOS...
+[2017-02-20 13:10:19] Show!
+[2017-02-20 13:11:45] Nunca tinha ouvido falar, mas muito obrigado cara, to googlando isso aqui!
+[2017-02-20 13:33:08] :))
+[2017-02-20 13:33:13] Lembretes...
+
+Hoje é a data limite para manifestar interesse em participar do Garoa Hacker Camp. Tem que colocar o nome na pagina na Wiki
+
+Amanhã (21/2) tem reunião do CMC
+
+Este é o mês em que os associados podem pagar anuidade (em vez de mensalidade). Além de sair mais barato, evita ter que lembrar de pagar todo mês  e não tem risco de ficar inadiplente
+[2017-02-20 13:39:53] Eu abri o dosBox, mas não sei como passar meu arquivo.bat pra ele. Além disso teclei help e me parece que há poucos comandos se comparados ao windows, é isso mesmo?
+[2017-02-20 13:42:36] você pode montar um diretório do seu GNU/Linux como sendo o C: do dosbox
+[2017-02-20 13:43:04] é só passar o nome do diretório como parâmetro da linha de comando de execução do dosbox
+[2017-02-20 13:43:09] to indo almoçar agora, volto mais tarde
+[2017-02-20 13:50:59] Opa, brigadão, bom rango ai
+[2017-02-20 14:28:25] mount C /home/user/diretorio/
+C:
+[2017-02-20 14:28:46] tu pode botar isto no arquivo de inicialização do dosbox que ele faz automático
+[2017-02-20 14:29:47] uma vez montado o drive virtual C: (ou qualquer outra letra sem ser Z), tu pode usar os comandos básicos do windows:
+
+dir
+arquivo.bat
+[2017-02-20 14:30:08] alias, do DOS
+[2017-02-20 14:30:50] Se for pra montar no Linux, uma dica também é colocar o comando de montagem no fstab pra que ele monte automaticamente.
+[2017-02-20 14:31:46] o diretório virtual não é montado no linux, só dentro da lógica do dosbox mesmo
+[2017-02-20 14:31:53] Ahh
+[2017-02-20 14:32:38] mas a tua dica é válida na eventualidade de tu rodar o dosbox como um usuário que não tem acesso ao sistema de arquivos onde estão os arquivos que deveriam ser acessados "dentro" do dosbox
+[2017-02-20 14:33:11] Sim
+[2017-02-20 14:33:12] digamos que tu monte um pendrive como root e rode dosbox com um usuário normal ou coisa parecida
+[2017-02-20 15:11:24] WOW, isso está sensacional!!!
+[2017-02-20 16:35:11] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_4996923363445178371
+[2017-02-20 16:37:38] Owooo, robo jackson
+[2017-02-20 16:38:15] Take a look at @Senficon's Tweet: https://twitter.com/Senficon/status/833672263408967680?s=09
+[2017-02-20 16:41:06] algo com GNU radio? temos uns rad1o por aí...
+[2017-02-20 16:41:52] alias, dentro de alguns dias o sinal analógico de TV sera desligado em SP. seria legal "ver" o sinal sendo de fato desligado (ou não)
+[2017-02-20 17:21:12] hoje eu acordei troll LOL
+[2017-02-20 17:21:17] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_328774854541050158.webp
+[2017-02-20 17:25:25] Precisamos de Armazenamento na Garoa? Tenho um Servidor em casa com um pouco de espaco, Garoa pode usar
+[2017-02-20 17:25:41] ta conectado com 50MBit de Upload sem franquia
+[2017-02-20 17:39:47] podemos usar para colocar coisas no nosso wiki etc.
+[2017-02-20 18:29:20] Opa, fiz aqui, funfou, tks!
+[2017-02-20 18:43:42] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_285892071401719727.webp
+[2017-02-20 18:47:24] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_156473097476637643.webp
+[2017-02-20 18:48:54] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_175980787395461171.webp
+[2017-02-20 18:51:03] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_169467267627617412.webp
+[2017-02-20 18:54:12] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_4997151963079507973.txt
+[2017-02-20 19:41:50] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_240639613071261720.webp
+[2017-02-20 19:42:07] Glra eu fiz um script em batch
+[2017-02-20 19:42:11] document
+[2017-02-20 19:42:26] Alguém pode executar aí? E depois me falar o modelo do processador e a pontuação?
+[2017-02-20 19:43:44] explica o algoritmo por favor
+[2017-02-20 19:43:49] Ok
+[2017-02-20 19:44:03] Ele é bem simples: Durante um minuto vai ficar fazendo um somatório
+[2017-02-20 19:44:29] A=+1 durante um minuto, daí qnd acabar ele exibi na tela uma msg com sua pontuação
+[2017-02-20 19:45:07] Eu tô querendo fazer um ranking com os pontos, daí preciso dos valores e seus respectivos hardwares
+[2017-02-20 19:45:22] A maior pontuação até agora foi de um amd
+[2017-02-20 19:45:44] Fx 6300 overlocked de 4,2 ghz
+[2017-02-20 19:46:38] Ah pontuação é o valor que ele alcançou durante esse minuto que ele ficou executando o somatório
+[2017-02-20 19:46:47] Dhr?
+[2017-02-20 19:47:37] me parece uma forma muito tosca de se fazer um benchmark de performance
+[2017-02-20 19:47:47] :C
+[2017-02-20 19:47:53] isso deve dar resultados variáveis em um mesmo computador
+[2017-02-20 19:48:03] Não tinha muito o que fazer usando Batch, foi o melhor que consegui
+[2017-02-20 19:48:17] Sim Felipe dá, mas é coisa de 50 pontos, não interfere
+[2017-02-20 19:48:20] dependendo de arbitrariedades do sistema operacional durante o momento da captura dessa pontuação
+[2017-02-20 19:48:37] Que arbitrariedades por exemplo?
+[2017-02-20 19:48:51] outros processos que podem estar rodando simultaneamente
+[2017-02-20 19:49:07] Sim, por isso que eu peço que rode só ele
+[2017-02-20 19:49:14] Vou até botar um aviso, bem lembrado
+[2017-02-20 19:49:58] me diz uma coisa... você está fazendo isso por interesse em benchmarking ou por interesse em escrita de rotinas em arquivos de lote (.BAT) ?
+[2017-02-20 19:50:22] qual é o seu principal interesse / motivação ?
+[2017-02-20 19:50:25] Arquivos de lote
+[2017-02-20 19:50:29] Eu amo .bat
+[2017-02-20 19:50:46] e por que raios você está interessado em arquivos de lote em pleno 1997 ?!
+[2017-02-20 19:50:51] ooops! 2017!
+[2017-02-20 19:51:56] Escreve um jogo da velha aí em .BAT então
+[2017-02-20 19:52:14] Questão da minha história, eu "aprendi programar" em arquivos de lote
+[2017-02-20 19:52:19] Foi meu primeiro contato
+[2017-02-20 19:52:20] saquei
+[2017-02-20 19:52:24] eu também
+[2017-02-20 19:52:30] mas rapidamente parti pro QBASIC
+[2017-02-20 19:52:41] e depois assembly (e disassembly) de x86
+[2017-02-20 19:52:47] e depois C
+[2017-02-20 19:52:50] Eu tinha sido hackeado num joguinho e tava procurando como hackear de volta, daí cheguei ao famigerado comando
+[2017-02-20 19:52:53] e então C++ e python
+[2017-02-20 19:52:59] shutdown -r -t "30" -c "Bye"
+[2017-02-20 19:53:14] Crl logo baixo nível —-'
+[2017-02-20 19:53:23] em que ano foi isso ?
+[2017-02-20 19:53:37] Hm... 2011
+[2017-02-20 19:53:57] ok.... qual é a sua idade hoje ?
+[2017-02-20 19:54:21] 17
+[2017-02-20 19:54:28] ah ok, perfeito
+[2017-02-20 19:54:41] dica: pula direto pro python
+[2017-02-20 19:54:50] Eu programo já Felipe
+[2017-02-20 19:54:56] Em python, java, c
+[2017-02-20 19:54:59] ah ok
+[2017-02-20 19:55:02] maravilha
+[2017-02-20 19:55:11] Fiz um aplicativo em java Ü
+[2017-02-20 19:55:18] Eu quero msm é programar em assembly
+[2017-02-20 19:55:21] tem alguma dica?
+[2017-02-20 19:55:26] várias 😊
+[2017-02-20 19:55:41] mas eu sou tendencioso
+[2017-02-20 19:55:47] minha dica é: Projeto MAME
+[2017-02-20 19:55:57] Hahahahaha
+[2017-02-20 19:56:00] Vou googlar isso
+[2017-02-20 19:56:10] Eu tenho um raspberry, isso pode ajudar hahahaw
+[2017-02-20 19:56:11] ?
+[2017-02-20 19:56:15] tem algumas coisas de assembly nesse post meu aqui: https://forum.fiozera.com.br/t/engenharia-reversa-do-mega-drive-portatil-da-tectoy/38
+[2017-02-20 19:56:32] Opa, era isso msm
+[2017-02-20 19:59:32] Felipe, tem como tu executar meu programa lá e me falar a pontuação? hahahahahaha
+[2017-02-20 19:59:36] Eu preciso anotar os dados
+[2017-02-20 20:06:18] nah... não to afim não
+[2017-02-20 20:06:27] quem sabe outro dia
+[2017-02-20 20:42:40] https://www.instagram.com/p/BQtNTk4Brqp/
+[2017-02-20 20:43:11] Que pouso perfeito
+[2017-02-20 20:43:57] é uma belíssima aplicação do problema do pêndulo invertido 😊
+[2017-02-20 20:46:46] https://www.instagram.com/p/BQspL7Qhv1v/
+[2017-02-20 20:50:29] https://www.flickr.com/photos/spacex/32153433074/in/photostream/
+[2017-02-20 21:25:32] De boa
+[2017-02-20 21:25:42] Ow, legal teu artigo mano
+[2017-02-20 21:25:57] Fazia tempo que não lia algo descente
+[2017-02-20 22:19:10] 🙃
+[2017-02-20 22:54:06] so pra confirmar, Carnahacking é do meio dia do sabado ao meio dia do domingo?
+[2017-02-20 23:09:19] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_285892071401719755.webp
+[2017-02-20 23:28:22] Carbahacking e o carnaval todo. Mas a Hackathon sim , sábado pra domingo
+[2017-02-20 23:28:52] a partir do meio dia mesmo?
+[2017-02-20 23:29:03] Isso
+[2017-02-20 23:29:14] beleza, valeu!
+[2017-02-20 23:30:11] Novo #evento no #Meetup:
+FS2W #4 Introdução ao Vim
+[2017-02-20 23:44:06] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_104205188025286967.webp
+[2017-02-20 23:44:16] Que satisfação aspira

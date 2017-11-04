@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<title>Chat: Arqueologia Digital e Preservação Histórica por meio da Emulação de Dispositivos Eletrônicos</title>
+  	<link rel=stylesheet href="telegram-history-dump.css">
+  </head>
+  <body>
+  	<div class='navigation-top'><a href="index.html">Back to index</a> | <a href='Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos-0.html'>Previous</a> | Page 2 | </div>
+  	<h1>Group chat: Arqueologia Digital e Preservação Histórica por meio da Emulação de Dispositivos Eletrônicos - page 2</h1>
+<div class='msg-service' title='2017-11-01 15:04:04 -0200'><div class=inner>Wed 2017-11-01, 15:03</div></div>
+<div class='msg out' title='2017-11-01 15:04:04 -0200'>a terceira ROM (segunda extra) dei um pouco de dor de cabeça, mas finalmente achei um dump que ocorreu diversas vezes e que faz sentido: tem valores não nulos até certo ponto e dali em diante só zeros</div>
+<div class='msg out' title='2017-11-01 15:04:53 -0200'>isso faz sentido por que ess era a ROM que antes eu tava lendo inteiramente cheia de zeros (por que eu só tava lendo a segunda metade dela)</div>
+<div class='msg in' title='2017-11-01 15:05:05 -0200'><div class="author">Werner Eck:</div> então faz sentido, são 3 de 4K e a do 150 é de 2K</div>
+<div class='msg in' title='2017-11-01 15:05:59 -0200'><div class="author">Werner Eck:</div> Qual endereço começam os zeros na terceira ROM?</div>
+<div class='msg in' title='2017-11-01 15:06:12 -0200'><div class="author">Werner Eck:</div> Só pra ter uma idéia de quanto espaço eles realmente utilizaram nessa</div>
+<div class='msg in' title='2017-11-01 15:06:32 -0200'><div class="author">Werner Eck:</div> 2K?</div>
+<div class='msg in' title='2017-11-01 15:06:55 -0200'><div class="author">Werner Eck:</div> Vai ver estava faltando 2716 e botaram essa</div>
+<div class='msg out' title='2017-11-01 15:07:35 -0200'>0x0459</div>
+<div class='msg in' title='2017-11-01 15:08:05 -0200'><div class="author">Werner Eck:</div> é, pouco mais q 1K...</div>
+<div class='msg out' title='2017-11-01 15:08:13 -0200'>é</div>
+<div class='msg out' title='2017-11-01 15:08:29 -0200'>de uma ROM de 4k usaram um pouco menos de 1K e largaram zeros no resto</div>
+<div class='msg in' title='2017-11-01 15:08:30 -0200'><div class="author">Werner Eck:</div> 1113B</div>
+<div class='msg in' title='2017-11-01 15:08:57 -0200'><div class="author">Werner Eck:</div> às vezes é q nem a história do Spectrum 48K...</div>
+<div class='msg in' title='2017-11-01 15:09:11 -0200'><div class="author">Werner Eck:</div> aliás, 16k</div>
+<div class='msg in' title='2017-11-01 15:09:37 -0200'><div class="author">Werner Eck:</div> usaram RAMs 48K defeituosas, q só os primeiros 16K eram confiáveis</div>
+<div class='msg in' title='2017-11-01 15:09:48 -0200'><div class="author">Werner Eck:</div> pagaram barato pelo lote</div>
+<div class='msg in' title='2017-11-01 15:10:25 -0200'><div class="author">Werner Eck:</div> Vai ver algum fornecedor ofertou EPROMs 4K baratas</div>
+<div class='msg in' title='2017-11-01 15:10:53 -0200'><div class="author">Werner Eck:</div> Td isso é especulação. Faz parte do processo de escavação...</div>
+<div class='msg in' title='2017-11-01 15:10:58 -0200'><div class="author">Werner Eck:</div> ;-)</div>
+<div class='msg out' title='2017-11-01 15:14:38 -0200'>você não vai acreditar o que tem escrito no comecinho da última ROM (aquela que diz 180_0 na etiqueta)</div>
+<div class='msg out' title='2017-11-01 15:14:59 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804726373_35242.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804726373_35242.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 15:16:19 -0200'>a ultima ROM fica depois do bloco de zeros da penúltima</div>
+<div class='msg out' title='2017-11-01 15:16:28 -0200'>e ela tem cara de primeira rom do modelo 180</div>
+<div class='msg in' title='2017-11-01 15:16:29 -0200'><div class="author">Werner Eck:</div> Engraçado, será q eles projetaram o sistema pra usar o mesmo bootloader do 150, mas a partir de um certo ponto ele acessa essa ROM pra dar a tela de boot?</div>
+<div class='msg out' title='2017-11-01 15:16:45 -0200'>enquanto a primeira de fato se auto-intitula de modelo 150</div>
+<div class='msg in' title='2017-11-01 15:16:51 -0200'><div class="author">Werner Eck:</div> Isso aí tem gato pra todo lado</div>
+<div class='msg out' title='2017-11-01 15:16:56 -0200'>pode ser</div>
+<div class='msg in' title='2017-11-01 15:16:59 -0200'><div class="author">Werner Eck:</div> é gato de engenharia</div>
+<div class='msg out' title='2017-11-01 15:17:19 -0200'>vou ter que puxar as orelhas do Edson Fregni</div>
+<div class='msg in' title='2017-11-01 15:17:27 -0200'><div class="author">Werner Eck:</div> háháháhá</div>
+<div class='msg in' title='2017-11-01 15:17:35 -0200'><div class="author">Werner Eck:</div> ele é o fundador da Scopus?</div>
+<div class='msg out' title='2017-11-01 15:17:38 -0200'>sim</div>
+<div class='msg out' title='2017-11-01 15:17:50 -0200'>e também é o projetista da unidade de controle do Patinho Feio</div>
+<div class='msg in' title='2017-11-01 15:18:08 -0200'><div class="author">Werner Eck:</div> sim, deve ter mais gente envolvida no PF q entrou pra scopus com ele</div>
+<div class='msg in' title='2017-11-01 15:18:49 -0200'><div class="author">Werner Eck:</div> Pega leve, rsss</div>
+<div class='msg out' title='2017-11-01 15:28:37 -0200'>;-)</div>
+<div class='msg out' title='2017-11-01 15:30:56 -0200'>ele tem 8 pastilhas de RAM dinâmica com 16k posições de 1 bit cada</div>
+<div class='msg out' title='2017-11-01 15:31:06 -0200'>então acho que as 8 pastilhas ficam em paralelo pra formar um byte</div>
+<div class='msg out' title='2017-11-01 15:31:15 -0200'>num total de 16kbytes de RAM</div>
+<div class='msg out' title='2017-11-01 15:32:00 -0200'>pastilhas MM5290</div>
+<div class='msg in' title='2017-11-01 15:33:35 -0200'><div class="author">Werner Eck:</div> Isso: <a target='_blank' href='http://matthieu.benoit.free.fr/cross/data_sheets/MM5290.pdf'>http://matthieu.benoit.free.fr/cross/data_sheets/MM5290.pdf</a></div>
+<div class='msg out' title='2017-11-01 15:34:05 -0200'>isso</div>
+<div class='msg in' title='2017-11-01 15:34:06 -0200'><div class="author">Werner Eck:</div> Através de lógica de acesso RAS/CAS</div>
+<div class='msg in' title='2017-11-01 15:34:20 -0200'><div class="author">Werner Eck:</div> Igual no D8002 da Dismac...</div>
+<div class='msg out' title='2017-11-01 15:34:21 -0200'>que o Intel 8080 deve fazer por conta própria</div>
+<div class='msg in' title='2017-11-01 15:34:29 -0200'><div class="author">Werner Eck:</div> isso era padrão</div>
+<div class='msg out' title='2017-11-01 15:35:17 -0200'>Também tem um soquete não populado, mas cujo silk indica que seria usado para um chip TBP18S030 <a target='_blank' href='http://www.datasheetcatalog.com/info_redirect/datasheets/320/502478_DS.pdf.shtml'>http://www.datasheetcatalog.com/info_redirect/datasheets/320/502478_DS.pdf.shtml</a></div>
+<div class='msg out' title='2017-11-01 15:35:25 -0200'>que é uma PROM de 32bytes</div>
+<div class='msg out' title='2017-11-01 15:36:09 -0200'>olhei aqui e o sagitta 150 tem uma PROM dessas lá nesse soquete. O 180 não tem</div>
+<div class='msg out' title='2017-11-01 15:36:23 -0200'>preciso fazer odump desses 32 bytes também</div>
+<div class='msg-service' title='2017-11-01 15:37:01 -0200'><div class=inner>Wed 2017-11-01, 15:03</div></div>
+<div class='msg in' title='2017-11-01 15:37:01 -0200'><div class="author">Werner Eck:</div> cara, desejo sorte</div>
+<div class='msg in' title='2017-11-01 15:37:09 -0200'><div class="author">Werner Eck:</div> a ver pelo que houve com a ROM dele...</div>
+<div class='msg in' title='2017-11-01 15:37:27 -0200'><div class="author">Werner Eck:</div> Agora, fiquei curioso pra saber sobre essa PROM</div>
+<div class='msg out' title='2017-11-01 15:38:21 -0200'>fico pensando se não foi aquele capacitor de 160 volts gambiarrado próximo à EPROM que possa ter causado danos ao chip</div>
+<div class='msg out' title='2017-11-01 15:38:41 -0200'>não sei por que zoaria</div>
+<div class='msg out' title='2017-11-01 15:38:44 -0200'>mas fico pensando</div>
+<div class='msg out' title='2017-11-01 15:38:46 -0200'>...</div>
+<div class='msg in' title='2017-11-01 15:39:11 -0200'><div class="author">Werner Eck:</div> Acho q não, apostaria minhas fichas no tempo</div>
+<div class='msg in' title='2017-11-01 15:39:19 -0200'><div class="author">Werner Eck:</div> ou corrosão, se vc tiver sorte</div>
+<div class='msg out' title='2017-11-01 15:39:21 -0200'>ok</div>
+<div class='msg in' title='2017-11-01 15:39:31 -0200'><div class="author">Werner Eck:</div> pode tentar ainda voltar pra limpar os pinos</div>
+<div class='msg in' title='2017-11-01 15:39:47 -0200'><div class="author">Werner Eck:</div> ou tenta achar um bombrilzinho por aí...</div>
+<div class='msg in' title='2017-11-01 15:39:58 -0200'><div class="author">Werner Eck:</div> na copa, sei lá.</div>
+<div class='msg out' title='2017-11-01 15:42:48 -0200'>os outros 2 chips diferentões são ICL1489 e MC1488</div>
+<div class='msg out' title='2017-11-01 15:42:54 -0200'>o resto é tudo TTL</div>
+<div class='msg out' title='2017-11-01 15:43:01 -0200'>aliás... tem muito chip TTL nisso</div>
+<div class='msg in' title='2017-11-01 15:43:15 -0200'><div class="author">Werner Eck:</div> nem um pouco surpreso com isso</div>
+<div class='msg in' title='2017-11-01 15:44:38 -0200'><div class="author">Werner Eck:</div> esse dois CIs são complementares</div>
+<div class='msg in' title='2017-11-01 15:44:52 -0200'><div class="author">Werner Eck:</div> São a interface serial RS232</div>
+<div class='msg in' title='2017-11-01 15:46:01 -0200'><div class="author">Werner Eck:</div> o primeiro é o receiver, o segundo é o driver</div>
+<div class='msg out' title='2017-11-01 15:49:33 -0200'>é, faz sentido</div>
+<div class='msg out' title='2017-11-01 15:50:01 -0200'>e tem também um chip de UART da Intel na placa</div>
+<div class='msg in' title='2017-11-01 15:52:03 -0200'><div class="author">Werner Eck:</div> o 8251</div>
+<div class='msg in' title='2017-11-01 15:52:32 -0200'><div class="author">Werner Eck:</div> ele pega os dados desses dois chips, depois de converter os níveis de tensão</div>
+<div class='msg in' title='2017-11-01 15:52:59 -0200'><div class="author">Werner Eck:</div> ele faz a transmissão/recepção da comunicação entre o equipamento externo e o processador, e vice versa</div>
+<div class='msg in' title='2017-11-01 15:54:02 -0200'><div class="author">Werner Eck:</div> só q ele precisa dos dois chips q formam o hardware da norma EIA 232</div>
+<div class='msg in' title='2017-11-01 15:54:21 -0200'><div class="author">Werner Eck:</div> basicamente são conversores de nível de tensão baixa-alta</div>
+<div class='msg in' title='2017-11-01 15:54:51 -0200'><div class="author">Werner Eck:</div> e sinalização</div>
+<div class='msg in' title='2017-11-01 15:55:28 -0200'><div class="author">Werner Eck:</div> 8251 = conversor paralelo/serial</div>
+<div class='msg in' title='2017-11-01 15:55:53 -0200'><div class="author">Werner Eck:</div> MC1489/1488 = norma EIA 232</div>
+<div class='msg in' title='2017-11-01 16:00:05 -0200'><div class="author">Werner Eck:</div> vc podia perguntar pro Fregni se ele teria acesso ao esquema...</div>
+<div class='msg in' title='2017-11-01 16:00:35 -0200'><div class="author">Werner Eck:</div> Pra gente tentar achar sentido nessa PROM TBP18S030</div>
+<div class='msg out' title='2017-11-01 16:14:47 -0200'>vou mandar agora aqui uma sequencia de fotos de coisas que tem por aqui</div>
+<div class='msg out' title='2017-11-01 16:15:48 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804722855_60972.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804722855_60972.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:15:52 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804729156_37225.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804729156_37225.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:15:57 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804721838_80178.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804721838_80178.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:16:00 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804723069_57407.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804723069_57407.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:16:04 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804728979_36734.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804728979_36734.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:16:08 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805514714_30012.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805514714_30012.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:16:11 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804730982_36320.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804730982_36320.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:16:15 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804721291_79193.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804721291_79193.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:16:18 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805514468_29394.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805514468_29394.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:16:21 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805513669_29305.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805513669_29305.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:16:24 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804728272_37648.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804728272_37648.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:16:29 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805511368_51465.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805511368_51465.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:16:32 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805514288_29506.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805514288_29506.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:16:34 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804727370_35564.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804727370_35564.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:16:39 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805510041_51558.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805510041_51558.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:16:42 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804724243_55517.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804724243_55517.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:16:45 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804725007_56032.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804725007_56032.jpg'></a><br></div>
+<div class='msg-service' title='2017-11-01 16:16:48 -0200'><div class=inner>Wed 2017-11-01, 16:04</div></div>
+<div class='msg out' title='2017-11-01 16:16:48 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804723061_57276.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804723061_57276.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:16:51 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805511109_48497.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805511109_48497.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:16:54 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805511503_50826.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805511503_50826.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:16:59 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805511163_51225.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805511163_51225.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:17:02 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805513159_29662.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805513159_29662.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:17:05 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805510614_48113.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805510614_48113.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:17:10 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804721042_80005.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804721042_80005.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:17:14 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804728787_35410.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804728787_35410.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:17:17 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804729826_35801.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804729826_35801.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:17:19 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805509193_51050.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805509193_51050.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:17:22 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804726387_37055.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804726387_37055.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:17:27 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805512561_29085.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805512561_29085.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:17:30 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805513433_29745.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805513433_29745.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:17:35 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805513366_28478.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805513366_28478.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:17:38 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804722552_59896.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804722552_59896.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:17:43 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804730523_38030.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804730523_38030.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:17:45 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805509296_52168.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805509296_52168.jpg'></a><br></div>
+<div class='msg in' title='2017-11-01 16:19:58 -0200'><div class="author">Werner Eck:</div> nossa quanta coisa - esse tk3000 tá uma tetéia...</div>
+<div class='msg in' title='2017-11-01 16:20:10 -0200'><div class="author">Werner Eck:</div> agora eu acho q vi em alguma foto um tk3000 compact</div>
+<div class='msg in' title='2017-11-01 16:21:01 -0200'><div class="author">Werner Eck:</div> do lado do msx, o q é aquilo?</div>
+<div class='msg out' title='2017-11-01 16:29:01 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804728896_35176.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804728896_35176.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:29:02 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804730654_35851.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804730654_35851.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:29:05 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804728540_35913.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804728540_35913.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:29:07 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804721232_80245.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804721232_80245.jpg'></a><br></div>
+<div class='msg out' title='2017-11-01 16:29:08 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804722532_60416.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804722532_60416.jpg'></a><br></div>
+<div class='msg in' title='2017-11-01 16:31:56 -0200'><div class="author">Werner Eck:</div> meeeeu q raridaaaaaaadeeeeeeeeeeeeee</div>
+<div class='msg in' title='2017-11-01 16:32:08 -0200'><div class="author">Werner Eck:</div> pega isso e bota no bolso, rapidinho</div>
+<div class='msg in' title='2017-11-01 16:32:30 -0200'><div class="author">Werner Eck:</div> É um clone chinês do Apple //c com recursos a mais...</div>
+<div class='msg in' title='2017-11-01 16:33:12 -0200'><div class="author">Werner Eck:</div> <a target='_blank' href='http://www.old-computers.com/museum/computer.asp?c=13'>http://www.old-computers.com/museum/computer.asp?c=13</a></div>
+<div class='msg in' title='2017-11-01 16:34:38 -0200'><div class="author">Werner Eck:</div> Eu quero ele.</div>
+<div class='msg in' title='2017-11-01 16:35:01 -0200'><div class="author">Werner Eck:</div> ele tem uma porta para conectar um monitor cga além da porta analógica</div>
+<div class='msg in' title='2017-11-01 16:35:09 -0200'><div class="author">Werner Eck:</div> tem som interno, com saída pra fone</div>
+<div class='msg in' title='2017-11-01 16:36:24 -0200'><div class="author">Werner Eck:</div> drive de disco compatível com apple //e //c, macintosh, apple //gs</div>
+<div class='msg in' title='2017-11-01 16:36:52 -0200'><div class="author">Werner Eck:</div> a ROM foi reescrita por eles, não é cópia descarada da Apple - mas mantém compatibilidade com ela</div>
+<div class='msg in' title='2017-11-01 16:37:17 -0200'><div class="author">Werner Eck:</div> *brincando quanto a botar no bolso</div>
+<div class='msg out' title='2017-11-01 16:41:49 -0200'>Hehehe eu sei ;-)</div>
+<div class='msg out' title='2017-11-01 16:42:00 -0200'>To indo pra casa</div>
+<div class='msg out' title='2017-11-01 16:42:11 -0200'>Té mais</div>
+<div class='msg in' title='2017-11-01 16:42:15 -0200'><div class="author">Werner Eck:</div> falow</div>
+<div class='msg out' title='2017-11-01 18:36:52 -0200'>Isso aqui é uma unidade de disco de 8 polegadas. New Old Stock ! Lacrada e com manual.</div>
+<div class='msg out' title='2017-11-01 18:37:49 -0200'>E isso aí no meio é um disquete de 8 polegadas com a etiqueta &quot;Sistema Operacional COBRA&quot; ! :-O</div>
+<div class='msg out' title='2017-11-01 18:38:19 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_480193393985586949.webp'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_480193393985586949.webp'></a></div>
+<div class='msg out' title='2017-11-01 18:39:28 -0200'>hmmm... não tenho certeza sobre o &quot;com manual&quot;. Talvez eu tenha me enganado quanto a isso. Mas mesmo assim! É um unidade de disco rara e NOVÍSSIMA !</div>
+<div class='msg out' title='2017-11-01 18:39:44 -0200'>E um disco importante para ser lido nela.</div>
+<div class='msg out' title='2017-11-01 18:39:58 -0200'>Ambos na mesma sala, no meio de um monte de bagulho nada ver.</div>
+<div class='msg out' title='2017-11-01 18:40:07 -0200'>E algumas outras coisas incríveis no meio.</div>
+<div class='msg in' title='2017-11-01 18:49:18 -0200'><div class="author">Werner Eck:</div> Pode ser interessante usar a unidade conectada de algum modo a um pc moderno, pra ler e extrair os binários do disco</div>
+<div class='msg in' title='2017-11-01 18:49:57 -0200'><div class="author">Werner Eck:</div> Aparte, rapidinho: Eu vi isso aqui e talvez vc já conheça, talvez não (http://rc2014.co.uk/)<div class="webpage"><b>RC2014 - Homebrew Z80 Computer</b><br><br>RC2014 is a simple 8 bit Z80 based modular computer originally built to run Microsoft BASIC. It is inspired by the home built computers of the late 70s and computer revolution of the early 80s. It is not a clone of anything specific, but there are suggestions of the ZX81, UK101, S100, Superboard II and…</div></div>
+<div class='msg in' title='2017-11-01 18:53:14 -0200'><div class="author">Werner Eck:</div> Voltando ao floppy</div>
+<div class='msg in' title='2017-11-01 18:53:20 -0200'><div class="author">Werner Eck:</div> <a target='_blank' href='http://www.dbit.com/fdadap.html'>http://www.dbit.com/fdadap.html</a></div>
+<div class='msg-service' title='2017-11-01 18:53:34 -0200'><div class=inner>Wed 2017-11-01, 18:06</div></div>
+<div class='msg in' title='2017-11-01 18:53:34 -0200'><div class="author">Werner Eck:</div> <a target='_blank' href='https://www.ebay.com/itm/34pin-1-44mb-floppy-connecter-to-USB-adapter-cable-34-pin-/292281078596'>https://www.ebay.com/itm/34pin-1-44mb-floppy-connecter-to-USB-adapter-cable-34-pin-/292281078596</a><div class="webpage"><b>34pin 1.44mb floppy connecter to USB adapter cable (34 pin)</b><br><br>Floppy drive model Read Test Write Test. FOR 1.44MB FLOPPY DRIVE ONLY. Exactly as the 1st picture. USB cable color is gray. This cable has been tested with 6 different drives and work as follows OUR E100S emulator PASS FAIL(file corrupted),OUR E100S emulator does not work with this cable but it works fine in many other devices. | eBay!</div></div>
+<div class='msg out' title='2017-11-01 19:47:12 -0200'>Vai rolar atividade amanhã no Garoa ?</div>
+<div class='msg in' title='2017-11-01 19:47:38 -0200'><div class="author">Werner Eck:</div> ia te perguntar a mesma coisa. Por mim, estarei lá.</div>
+<div class='msg out' title='2017-11-01 19:47:41 -0200'>Pra emular o Zé ?</div>
+<div class='msg out' title='2017-11-01 19:48:09 -0200'>Eu tô confirmadíssimo nesse esquema.</div>
+<div class='msg out' title='2017-11-01 19:48:20 -0200'>eu tenho 5a e 6a disponível pra isso</div>
+<div class='msg in' title='2017-11-01 19:48:28 -0200'><div class="author">Werner Eck:</div> tem um horário específico?</div>
+<div class='msg in' title='2017-11-01 19:48:30 -0200'><div class="author">Werner Eck:</div> eu idem</div>
+<div class='msg out' title='2017-11-01 19:48:31 -0200'>sábado e domingo vai ser mais difícil mas talvez role também...</div>
+<div class='msg in' title='2017-11-01 19:48:46 -0200'><div class="author">Werner Eck:</div> sábado vou ficar por aqui pra dar uma estudada</div>
+<div class='msg in' title='2017-11-01 19:48:58 -0200'><div class="author">Werner Eck:</div> tenho vestibular dia 7</div>
+<div class='msg in' title='2017-11-01 19:49:19 -0200'><div class="author">Werner Eck:</div> não vejo álgebra faz uns 20 anos</div>
+<div class='msg in' title='2017-11-01 19:50:02 -0200'><div class="author">Werner Eck:</div> q horário vc prefere chegar?</div>
+<div class='msg out' title='2017-11-01 19:56:44 -0200'>por mim pode ser super cedo</div>
+<div class='msg out' title='2017-11-01 19:56:52 -0200'>tipo 10h da manhã</div>
+<div class='msg out' title='2017-11-01 19:57:10 -0200'>daria pra talvez ser 9h, mas aí pode ser que seja cedo demais</div>
+<div class='msg out' title='2017-11-01 19:57:27 -0200'>e a idéia é passar o dia todo lá</div>
+<div class='msg out' title='2017-11-01 19:57:30 -0200'>até de noite</div>
+<div class='msg in' title='2017-11-01 19:57:36 -0200'><div class="author">Werner Eck:</div> 9 é cedo demais pra mim.</div>
+<div class='msg in' title='2017-11-01 19:57:41 -0200'><div class="author">Werner Eck:</div> eu moro meio longe</div>
+<div class='msg out' title='2017-11-01 19:58:04 -0200'>10h é bom?</div>
+<div class='msg out' title='2017-11-01 19:58:11 -0200'>se quiser chegar um pouco mais tarde não tem problema</div>
+<div class='msg in' title='2017-11-01 19:58:40 -0200'><div class="author">Werner Eck:</div> blz, 10 tá de bom tamanho. Se eu atrasar um pouco não vai descontar do salário..</div>
+<div class='msg in' title='2017-11-01 19:58:59 -0200'><div class="author">Werner Eck:</div> Eu até fico mais confortável sabendo q vc já está lá</div>
+<div class='msg in' title='2017-11-01 19:59:20 -0200'><div class="author">Werner Eck:</div> sem correr o risco de a porta estar fechada</div>
+<div class='msg out' title='2017-11-01 20:06:30 -0200'>beleza</div>
+<div class='msg out' title='2017-11-01 20:06:32 -0200'>combinado</div>
+<div class='msg in' title='2017-11-01 20:06:57 -0200'><div class="author">Werner Eck:</div> 👍</div>
+<div class='msg in' title='2017-11-01 20:09:47 -0200'><div class="author">Werner Eck:</div> Vou participar no RoadSec como Roadie</div>
+<div class='msg in' title='2017-11-01 20:09:54 -0200'><div class="author">Werner Eck:</div> confirmado.</div>
+<div class='msg out' title='2017-11-01 20:24:35 -0200'>O que é isso? Voluntário pra ajudar na organização ?</div>
+<div class='msg in' title='2017-11-01 20:24:49 -0200'><div class="author">Werner Eck:</div> sim</div>
+<div class='msg in' title='2017-11-01 20:25:07 -0200'><div class="author">Werner Eck:</div> me candidatei lá</div>
+<div class='msg out' title='2017-11-01 20:25:19 -0200'>Cara... você vai me matar, mas eu ganhei semana passada o direito de trazer alguém. E pensei em te chamar, mas acabei esquecendo</div>
+<div class='msg out' title='2017-11-01 20:25:35 -0200'>eu ainda tenho o direito de levar alguém</div>
+<div class='msg in' title='2017-11-01 20:25:51 -0200'><div class="author">Werner Eck:</div> então escolhe alguém que tenha interesse ué</div>
+<div class='msg out' title='2017-11-01 20:25:55 -0200'>vou ver se acho alguém relacionado a emulação que queira</div>
+<div class='msg in' title='2017-11-01 20:26:03 -0200'><div class="author">Werner Eck:</div> eu já dei meus pulos</div>
+<div class='msg in' title='2017-11-01 20:26:16 -0200'><div class="author">Werner Eck:</div> isso</div>
+<div class='msg in' title='2017-11-01 20:26:24 -0200'><div class="author">Werner Eck:</div> deve ter mais gente interessada</div>
+<div class='msg out' title='2017-11-02 06:55:49 -0200'>Olá, <a target='_blank' href='https://telegram.im/wmoecke'>@wmoecke</a></div>
+<div class='msg out' title='2017-11-02 06:55:57 -0200'>Já está acordado ?</div>
+<div class='msg out' title='2017-11-02 06:56:29 -0200'>Acho melhor deixarmos pro período da tarde a atividade de hoje lá no Garoa</div>
+<div class='msg out' title='2017-11-02 06:56:51 -0200'>eu to muito cansado aqui. Só dormi 3 horas nessa noite.</div>
+<div class='msg out' title='2017-11-02 06:57:26 -0200'>Vou precisar descansar mais. Vai ficar muito puxado pra mim ir às 10h da manhã pra lá</div>
+<div class='msg out' title='2017-11-02 07:00:03 -0200'>Pretendo ir pra lá por volta das 16h</div>
+<div class='msg in' title='2017-11-02 10:05:22 -0200'><div class="author">Mike Howard:</div> Vou está lá às 13h</div>
+<div class='msg in' title='2017-11-02 14:17:16 -0200'><div class="author">Alexandre Villares:</div> <a target='_blank' href='https://twitter.com/gravislizard/status/925826943689175040'>https://twitter.com/gravislizard/status/925826943689175040</a><div class="webpage"><b>Graviscera!</b><br><br>hi, this is a hardware JPEG compression board. $1495 in &#39;87</div></div>
+<div class='msg in' title='2017-11-02 16:35:37 -0200'><div class="author">Ismael Luceno:</div> <a target='_blank' href='https://telegram.im/villares'>@villares</a> legal!!</div>
+<div class='msg-service' title='2017-11-02 16:36:22 -0200'><div class=inner>Vinicius Mesel left</div></div>
+<div class='msg-service' title='2017-11-02 16:37:07 -0200'><div class=inner>Thu 2017-11-02, 16:04</div></div>
+<div class='msg in' title='2017-11-02 16:37:07 -0200'><div class="author">Ismael Luceno:</div> <a target='_blank' href='https://telegram.im/villares'>@villares</a> eu tenho algumas placas para compressão MPEG4, estive trabalhando nisso faz alguns anos</div>
+<div class='msg in' title='2017-11-02 16:37:28 -0200'><div class="author">Alexandre Villares:</div> que interessante</div>
+<div class='msg in' title='2017-11-02 16:40:52 -0200'><div class="author">Ismael Luceno:</div> <a target='_blank' href='https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fstore.bluecherry.net%2Fwp-content%2Fuploads%2F2011%2F05%2Fp-18051-DSC_0202__82814.jpg&amp;f=1'>https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fstore.bluecherry.net%2Fwp-content%2Fuploads%2F2011%2F05%2Fp-18051-DSC_0202__82814.jpg&amp;f=1</a></div>
+<div class='msg in' title='2017-11-02 16:41:33 -0200'><div class="author">Ismael Luceno:</div> <a target='_blank' href='https://store.bluecherry.net/wp-content/uploads/2011/05/p-18051-BC-H16480A-Front__17122-450x382.png'>https://store.bluecherry.net/wp-content/uploads/2011/05/p-18051-BC-H16480A-Front__17122-450x382.png</a></div>
+<div class='msg out' title='2017-11-03 06:23:39 -0200'><div class="author">Forwarded message from <span class="fwd-name">Felipe &quot;Juca&quot; Sanches</span>:</div><br><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804725230_56988.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804725230_56988.jpg'></a><br></div>
+<div class='msg out' title='2017-11-03 06:23:39 -0200'><div class="author">Forwarded message from <span class="fwd-name">Felipe &quot;Juca&quot; Sanches</span>:</div><br><a target='_blank' href='https://github.com/mamedev/mame/pull/2771/files'>https://github.com/mamedev/mame/pull/2771/files</a><div class="webpage"><b>New Non-working: Zezinho / ITA-II (Brazil, 1961/62) by felipesanches · Pull Request #2771 · mamedev/mame</b><br><br>mame - MAME</div></div>
+<div class='msg out' title='2017-11-03 06:23:39 -0200'><div class="author">Forwarded message from <span class="fwd-name">Felipe &quot;Juca&quot; Sanches</span>:</div><br><a target='_blank' href='https://github.com/felipesanches/PatinhoFeio/blob/master/Zezinho%20-%20ITA/000437641.pdf'>https://github.com/felipesanches/PatinhoFeio/blob/master/Zezinho%20-%20ITA/000437641.pdf</a><div class="webpage"><b>felipesanches/PatinhoFeio</b><br><br>PatinhoFeio - Repositório contendo documentação técnica sobre o Patinho Feio, primeiro computador brasileiro (Escola Politécnica da USP - 1971)</div></div>
+<div class='msg out' title='2017-11-03 06:23:39 -0200'><div class="author">Forwarded message from <span class="fwd-name">Felipe &quot;Juca&quot; Sanches</span>:</div><br><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804722857_60968.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804722857_60968.jpg'></a><br></div>
+<div class='msg out' title='2017-11-03 06:46:30 -0200'>Tenho que corrigir a descrição do repositorio do Patinho Feio no GitHub</div>
+<div class='msg out' title='2017-11-03 06:47:20 -0200'>Pra tirar aquele &quot;primeiro&quot; e substituir por &quot;um computador pioneiro&quot;</div>
+<div class='msg in' title='2017-11-03 13:36:15 -0200'><div class="author">Werner Eck:</div> &quot;Brazil&#39;s pioneering computer, designed &amp; built by engineering graduates&quot;</div>
+<div class='msg in' title='2017-11-03 13:36:21 -0200'><div class="author">Werner Eck:</div> 😊</div>
+<div class='msg in' title='2017-11-03 14:32:34 -0200'><div class="author">Aylons Hazzud:</div> Undergraduates, não?</div>
+<div class='msg in' title='2017-11-03 14:33:10 -0200'><div class="author">Werner Eck:</div> Foi projeto d formatura...</div>
+<div class='msg in' title='2017-11-03 14:33:27 -0200'><div class="author">Aylons Hazzud:</div> Então, undergraduate</div>
+<div class='msg out' title='2017-11-03 15:39:26 -0200'>Zezinho foi trabalho de graduação. Patinho foram teses de mestrado e doutorado mas tambem teve ajuda de alunos de graduacao</div>
+<div class='msg out' title='2017-11-03 18:11:58 -0200'><div class="author">Forwarded message from <span class="fwd-name">Armando Neto</span>:</div><br>escutei um podcast com um professor de ciencia da computação da usp que trabalhou no unix cobra hehehe</div>
+<div class='msg out' title='2017-11-03 18:11:58 -0200'><div class="author">Forwarded message from <span class="fwd-name">Armando Neto</span>:</div><br>o podcast é sobre nada a ver.. mas o professor é velho então já fez um monte de coisas né</div>
+<div class='msg out' title='2017-11-03 18:11:58 -0200'><div class="author">Forwarded message from <span class="fwd-name">Armando Neto</span>:</div><br><a target='_blank' href='https://hipsters.tech/faculdades-ciencia-da-computacao-e-sistemas-de-informacao-hipsters-47/'>https://hipsters.tech/faculdades-ciencia-da-computacao-e-sistemas-de-informacao-hipsters-47/</a><div class="webpage"><b>Faculdades: Ciência da Computação e Sistemas de Informação - Hipsters #47</b><br><br>O que a gente aprende em uma faculdade de computação? E qual é a diferença entre as várias opções e currículos? E será que eu preciso mesmo de um diploma de ensino superior para trabalhar nessa área? 
+ 
+Participantes: 
+ 
+ 
+Paulo Silveira, host do Hipsters, bacharel em computação! 
+ 
+Mauricio Linhare</div></div>
+<div class='msg out' title='2017-11-03 18:12:22 -0200'>Tem bastante sobre como era a computação na USP nas décadas de 60/70</div>
+<div class='msg out' title='2017-11-03 18:12:45 -0200'>fala inclusive que a USP comprou 90 terminais para o computador Burroughs no segundo semestre de 1982</div>
+<div class='msg out' title='2017-11-03 18:14:16 -0200'>se bobear aqueles 2 terminais da Scopus que eu estava inspecionando lá na poli semana passada podem ser dessa leva...</div>
+<div class='msg out' title='2017-11-03 18:15:09 -0200'>já que vi em um site uma descrição de que o modelo Sagitta 180 era compatível com computadores Burroughs</div>
+<div class='msg in' title='2017-11-03 19:00:13 -0200'><div class="author">Ismael Luceno:</div> Eu adoraria ter acesso a um desses computadores</div>
+<div class='msg out' title='2017-11-03 19:02:50 -0200'>:-)</div>
+<div class='msg in' title='2017-11-03 19:07:05 -0200'><div class="author">Werner Eck:</div> <a target='_blank' href='https://telegram.im/fsanches'>@fsanches</a> vc acha q teria possibilidade de eu conseguir um exemplar desse livro q a Profa. Edith te deu?</div>
+<div class='msg out' title='2017-11-03 19:07:46 -0200'>posso pedir pra ela</div>
+<div class='msg in' title='2017-11-03 19:08:04 -0200'><div class="author">Werner Eck:</div> 😊</div>
+<div class='msg in' title='2017-11-03 19:09:09 -0200'><div class="author">Werner Eck:</div> Nossa, hj acordei podre. Mas feliz com a atividade d ontem. Vc ficou até d manhã implementando o ITA-II?</div>
+<div class='msg out' title='2017-11-03 19:09:28 -0200'>Não. Não mexi muito mais</div>
+<div class='msg out' title='2017-11-03 19:09:56 -0200'>fiz alguns pequenos ajustes e os adicionei ao pull request, mas fora isso só assisti um pouco daquele filme que você sugeriu e depois fui dormir</div>
+<div class='msg in' title='2017-11-03 19:10:17 -0200'><div class="author">Werner Eck:</div> 😁 gostou do q viu?</div>
+<div class='msg out' title='2017-11-03 19:10:25 -0200'>sim, é bacana</div>
+<div class='msg out' title='2017-11-03 19:10:31 -0200'>mas não vi tudo</div>
+<div class='msg out' title='2017-11-03 19:10:42 -0200'>vi só a primeira meia hora</div>
+<div class='msg in' title='2017-11-03 19:10:53 -0200'><div class="author">Werner Eck:</div> Agora já sabe quem é Chuck Yeager... ☺️</div>
+<div class='msg out' title='2017-11-03 19:11:01 -0200'>;-)</div>
+<div class='msg in' title='2017-11-03 19:11:24 -0200'><div class="author">Werner Eck:</div> E ele faz uma ponta no filme.</div>
+  	<div class='navigation-bottom'><a href="index.html">Back to index</a> | <a href='Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos-0.html'>Previous</a> | Page 2 | </div>
+  </body>
+</html>

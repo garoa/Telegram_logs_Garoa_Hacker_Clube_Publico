@@ -1,0 +1,65 @@
+[2017-07-16 00:14:43] @fernandoGuisso  salva de palmas.
+[2017-07-16 00:45:59] /me
+[2017-07-16 00:46:41] /me
+[2017-07-16 01:02:53] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_61206384934388105.webp
+[2017-07-16 03:39:36] /me
+[2017-07-16 03:39:40] /me@jackbot
+[2017-07-16 08:41:32] /me
+[2017-07-16 08:41:33] X
+You've sent 2 (0%) messages and this group has 33830 messages.
+[2017-07-16 11:11:50] Estou no garoa, está o status aberto, mas só vou ficar pouco tempo. Temos uma atividade na biblioteca Villa lobos estamos saindo para lá.
+
+http://www.bvl.org.br/evento/automacao-residencial-de-casinha-de-boneca/
+
+É uma atividade um pouco bobona para crianças, mas é o que foi parar na agenda
+[2017-07-16 11:20:16] 👏👏👏
+[2017-07-16 12:35:00] Ajude o Garoa, e de quebra compre uma incrível impressora multifuncional: http://produto.mercadolivre.com.br/MLB-889754110-multifuncional-laser-brother-dcp-8157dn-melhor-preco-_JM
+[2017-07-16 12:36:56] https://yro.slashdot.org/story/17/07/16/0024244/elon-musk-warns-governors-regulate-ai-before-its-too-late
+[2017-07-16 14:29:28] Não consigo entender como alguem pode ter medo de IA
+[2017-07-16 15:09:28] Com um pouquinho de imaginação dá pra entender.
+[2017-07-16 15:09:46] Não necessariamente concordar. Mas entender, com certeza.
+[2017-07-16 15:11:03] Eu entendo. E, apesar da coisa toda soar um tanto alarmista, eu tenho a tendência a concordar com os receios que ele apresenta para o médio/longo prazo.
+[2017-07-16 15:38:21] Mesmo que a IA tenha consciência, pq necessariamente ela seria agressiva. Ela não teria motivos para lutar contra seres corporeos
+[2017-07-16 16:02:15] Nós, seres humanos, temos notória capacidade de fazer merda. Se a tecnologia de inteligencia artifical superar a inteligencia natural humana, acredito que o potencial de fazer merda também será maior. Nem precisa ser racional ou ter algum objetivo claro por trás. Agora, uma questão legítima é se a inteligencia artificial irá algum dia superar a inteligencia natural. E eu acredito que em médio/longo prazo isso é absolutamente inevitável...
+[2017-07-16 16:32:19] Ao analisar todos os conflitos humanos fica claro que a único motivo para conflitos e a busca por recursos. Um computador precisa de pouquíssimos recursos. Em termos de recursos não biológicos que é oque as maquinas precisam a lua tem bem mais recursos que a terra. Amplos depósitos de titânio, é muito helio-3 para geração de energia.
+[2017-07-16 18:49:29] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_4945389575573864480.pdf
+[2017-07-16 18:52:35] mandando um artigo sobre... acho legal contextualizar. quem controla o sistema financeiro/político, e se empolgava com a IA simplesmente pela ótica de ter mais controle, agora também vê ameaça, risco, etc porque transpassa classes e se houver risco eles também estão vulneráveis
+[2017-07-16 18:54:25] esse é do ano passado de um cara bem legal que começou trabalhando com sistemas complexos aplicados à ecologia e depois aprofundou integrando econofísica, decrescimento e chegou nesse trabalho
+[2017-07-16 20:11:17] Fabiano Silos joined
+[2017-07-16 20:11:18] Hi Fabiano !
+[2017-07-16 20:12:21] Boa noite pessoal, estou com grana curta. Algum lugar pra comprar nodemcu com wifi e sensor de presenca bem baratinho ? 😄
+[2017-07-16 21:03:42] No instituto digital ta 34 se nao me engano, so o frete que e um pouco salgado
+[2017-07-16 21:03:44] Mas ainda fica abaixo de outros sites
+[2017-07-16 22:06:44] @tilt4 ?
+[2017-07-16 22:15:13] já temos muitos robôs armados. são pilotados à distância.  estão faltando muitos pilotos.  estão fazendo os pilotos manejar vários ao mesmo tempo.  próximo passo?  automatizar
+[2017-07-16 22:25:10] https://tecnoblog.net/219018/radiohead-zx-spectrum/
+[2017-07-16 22:46:00] Escrevi um código de exemplo para rodar na VM do Another World. É uma animação bem simples de uma imagem zigue-zagueando na tela (rebatendo nos cantos da tela). Algo parecido com um jogo de PONG, que aliás seria uma ótima opção apra um segundo exemplo de código um pouco mais complexo.
+[2017-07-16 22:46:16] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_5143517688248664149.mp4
+[2017-07-16 22:46:47] No gif acima eu mostro o programinha rodando na VM dentro do MAME.
+[2017-07-16 22:46:51] legal
+[2017-07-16 22:47:22] E o código de exemplo (escrito em assembly da VM) está disponível no github aqui: https://github.com/felipesanches/AnotherWorld_VMTools/blob/master/example/bounce.asm
+[2017-07-16 22:49:03] Como eu ainda não tenho um assembler, eu tive que gerar o bytecode montando o código manualmente. Fui olhando a tabela de opcodes e transcrevendo a representação binária. Tem um outro arquivo no mesmo repo chamado bounce.asm.manual que tem a transcrição dos opcodes e operandos.
+[2017-07-16 22:49:19] aqui: https://github.com/felipesanches/AnotherWorld_VMTools/blob/master/example/bounce.asm.manual
+[2017-07-16 22:51:02] É meio chato de fazer isso manualmente, mas como o programa era pequeno, eu concluí que seria mais rápido do que escrever um assembler. Para programas maiores eu com certeza precisarei implementar o assembler. Como a linguagem é relativamente simples, estou ainda na dúvida se faço em python mesmo, ou se emprego lex e yacc...
+[2017-07-16 22:52:49] depois de transcritos todos os valores numéricos das instruções (inclusive com o cálculo manual dos endereços de memória), usei um editor hexadecimal (eu uso o hexcurse) pra inserir os bytes em um arquivo binário que é carregado pela VM no MAME.
+[2017-07-16 22:53:00] são só as 51 linhas por isso?
+[2017-07-16 22:53:15] O desenho foi reutilizado do banco de polígonos do jogo
+[2017-07-16 22:53:45] a, saquei
+[2017-07-16 22:54:02] é daquele inicio para usar o disco de senhas... né?
+[2017-07-16 22:54:18] tive só que descobrir qual o endereço de memória onde a estrutura de dados desse símbolo fica armazenada. Descobri esse endereço vendo a pasta de SVGs geradas pelo extrator e depois consultando o header gerado automaticamente pelo disassembler
+[2017-07-16 22:54:27] sim, exatamente!
+[2017-07-16 22:54:34] bacana
+[2017-07-16 22:55:55] conseguiu entender o código aí?
+[2017-07-16 22:56:53] toskamente sim
+[2017-07-16 22:57:05] :-)
+[2017-07-16 22:57:51] ele fica trocando x y da imagem no loop
+[2017-07-16 22:57:58] deu 108 bytes esse programinha
+[2017-07-16 22:57:58] e tem uns comandos de video antes
+[2017-07-16 22:59:04] é... preenche com uma cor de fundo, desenha a arte poligonal e atualiza a tela
+[2017-07-16 22:59:44] bem legal, deve ter sido dificil chegar nesses comandos
+[2017-07-16 23:00:42] foi relativamente rápido por que eu já tava acostumado. Eu estudo essa VM por hobby desde 2014. Mas eu nunca tinha escrito um programa pra rodar nela.
+[2017-07-16 23:00:54] pr que não existem ferramentas para tal
+[2017-07-16 23:01:23] saquei
+[2017-07-16 23:01:28] a única ferramenta pra isso é privada do próprio autor. Ele já mostrou alguns screenshots do toolchain dele, mas nunca publicou
+[2017-07-16 23:02:16] certo
+[2017-07-16 23:45:09] @fsanches ovu tentar levar o CHIP na quarta, tenho o módulo HDMI

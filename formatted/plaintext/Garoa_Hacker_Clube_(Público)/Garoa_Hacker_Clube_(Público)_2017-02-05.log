@@ -1,0 +1,140 @@
+[2017-02-05 00:01:44] Boa noite
+[2017-02-05 00:23:50] Endereço do site da Dani:
+http://danielammorais.com/
+[2017-02-05 00:34:57] É possível achar empresas que fazem o trabalho de vaccum forming sob encomenda. Precisa levar o molde já esculpido.
+[2017-02-05 00:49:42] Xiiiii, eu fiquei o dia todo sem ver o telegram e não vi a sua msg :(
+[2017-02-05 01:03:50] Uma opção seria fazer em papel encolado (papietagem). Depois com massa e lixando e envernizando, fica liso  e leve tb. 
+O molde pode fazer em torno de argila, daqueles a pedal. muito mais suave e barato que torno de madeira :D
+[2017-02-05 01:04:15] taí, gostei dessa idéia
+[2017-02-05 01:04:44] esqueci de papel machê, e não pensei em argila pro molde
+[2017-02-05 01:05:11] Tripofobia... 😰
+[2017-02-05 01:11:26] ++
+[2017-02-05 01:17:44] Droga, vcs me fizeram pesquisar o que é tripofobia. Tinha esquecido 😱
+[2017-02-05 01:37:13] poxa vida... como eu queria que fosse o KiCAD... :-(
+[2017-02-05 01:38:01] Não rola, ainda. Mas o projeto em aí é livre, e essas alterações que eu estava fazendo já estão no github.
+[2017-02-05 01:39:37] https://github.com/lnls-dig/utca-rtm-8-sfp-hw
+[2017-02-05 01:39:38] lnls-dig | utca-rtm-8-sfp-hw
+
+RTM utca standard board with 8 sfp slots. 
+
+Language: userdata: (nil)
+Forks: 0
+Stars: 0
+Issues: 0
+[2017-02-05 01:40:04] vocês têm uma noção objetiva do por que do "ainda" não poder ser feito com KiCAD ?
+[2017-02-05 01:40:41] (ou só têm um "feeling" ?)
+[2017-02-05 01:52:13] Vocês quem? Não posso responder por todos os desenvolvedores do Kicad, mas posso falar que eu tenho uma lista objetiva de funcionalidades que impedem determinados projetos de serem feitos.
+[2017-02-05 01:52:48] Eu quero implementar, mas tenho pouco tempo para dedicar. Nesse momento estou ainda terminando feature da ehal.
+[2017-02-05 01:53:53] por "vocês" eu me referia aos projetistas desse projeto de hw livre que você mencionou que ainda não usa o KiCAD
+[2017-02-05 01:55:05] essa lista de coisas que são barreira para a migração está sistematizada em algum lugar acessível ao público? Ou é uma lista pessoal sua (guarada na cabeça e/ou anotações privadas) ?
+[2017-02-05 01:56:47] Ah, nesse projeto especificamente a limitação não é na parte de layout. O Kicad daria conta aí. Mas o gerenciamento de BOM, e de bibliotecas,  precisa melhorar para começar a integrá-lo no esquema de trabalho do laboratório. É algo que pretendo acabar quando terminar a importação de dwg
+[2017-02-05 01:56:55] sugiro publicar em algum lugar esses insights (caso já não estejam públicos, pois podem surtir um efeito positivo em prol da implementação dessas features (ou podem ser solenemente ignorados também :-P)
+[2017-02-05 01:57:23] Há um roadmap e discussões estratégicas do Kicad, mas a minha lista está só na minha cabeça por enquanto
+[2017-02-05 01:57:29] importação de dwg! Que curioso :-)
+[2017-02-05 01:58:12] Eu já conversei com alguns desenvolvedores sobre isso em privado. Ninguém discorda muito, mas tem muito trabalho a ser feito
+[2017-02-05 01:58:34] É legal para layers mecânicas e tal.
+[2017-02-05 01:58:55] ei, @aylons, olha isso aqui: https://forum.fiozera.com.br/uploads/default/optimized/1X/959f06b883988199764fab91fb2369653a522816_1_690x367.png
+[2017-02-05 01:59:17] Muito legal!
+[2017-02-05 02:00:16] Eu estava estudando, bonitinha em casa até a pessoa me dar ideias pra usar lápis de cor. Probabilidade 1 de ficar uma merda, mas ainda assim a ideia é boa
+[2017-02-05 02:01:23] Essa placa faz a decodificação dos valores numéricos dos opcodes e operandos e resulta em um sinal booleano para cada instrução do processador. E eu lembro quando eu era um pirralho adolescente e ficava ponderando "ok, determinada intrução tem o opcode 0xBA, mas porque? E, mais importante: COMO?"
+[2017-02-05 02:02:28] Como é mais importante, mas eu entendo mais fácil. Porque parece mais interessante, imagino que a escolha do opcode não seja arbitrária
+[2017-02-05 02:03:34] A maioria das CPUs aloca valores de opcodes por blocos de instruções similares, como forma de aproveitar bitfields para habilitar/desabilitar variações de comportamento das instruções
+[2017-02-05 02:04:24] E também pra simplificar a árvire booleana que implementa o decodificador (ou seja, fazer essa placa aí não ficar gigantesca)
+[2017-02-05 02:04:34] Tá, esperava algo mais engenhoso
+[2017-02-05 02:05:04] Bem... de certo modo é "engenhoso", dado que é engenharia :-)
+[2017-02-05 02:05:28] Claro, mas pode ser mais ou menos engenhoso
+[2017-02-05 02:05:55] pois é... a boa engenharia tende a preferir soluções mais enxutas :-D
+[2017-02-05 02:07:09] Mas tem aqueles saltos de engenhosidade que fazem a diferença
+[2017-02-05 02:07:32] aliás... tá cheio de porta NOT implementada usando porta NAND ou NOR com todos inputs em curto. (pra não precisar adicionar uma pastilha extra de NOTs na PCB e, assim, reduzir a quantidade de componentes) Isso sim é um pouco mais engenhoso :-)
+[2017-02-05 02:08:16] dificulta a legibilidade dos esquemáticos, mas reduz o custo e complexidade da PCB
+[2017-02-05 02:09:21] Tipo, usar o motor para rodar o ventilador que refrigera ele mesmo é engenhoso. Usar a água do frost free para refrigerar o motor, que por sua vez evapora a água e elimina a necessidade de escoar é mais engenhoso
+[2017-02-05 02:09:37] tá repleto de Lei de deMorgan também. Já tô me acostumando a interpretar de cabeça sequencias concatenadas de 2 ou 3 níveis de deMorgan alternando entre lógica booleana positiva e negativa...
+[2017-02-05 02:10:17] Eu conseguia fazer isso no curso técnico. Engraçado que no curso de engenharia nem rolou tanto.
+[2017-02-05 02:10:21] dá uns nós na cabeça de vez em quando...
+[2017-02-05 02:11:23] Estou agora projetando uma plaquinha auxiliar para debugging da placa de decodificação de instruções
+[2017-02-05 02:11:41] Chegou a usar pin swapping do Kicad?
+[2017-02-05 02:12:01] ela vai ter um LED pra cada sinal booleano resultante (e vou botar no silk os nomes das instruções do lado de cada um dos LEDs)
+[2017-02-05 02:12:40] e vai ter também 2 pares de displays de 7 segmentos com drivers bcd, pra exibir em hexadecimal o opcode e o operando
+[2017-02-05 02:13:29] acho que vou botar também um pull-up em cada sinal de entrada e um jumper pro terra, assim dá pra inserir manualmente os opcodes na placa de debugging por meio da instalação dos jumpers.
+[2017-02-05 02:13:40] Bacana
+[2017-02-05 02:13:59] Tem debugado como antes de fazer essa placa? Bus pirate ?
+[2017-02-05 02:14:26] bus pirate?! não vejo como ele poderia ser útil nesse caso.
+[2017-02-05 02:14:49] a unica coisa que eu tenho é o esquemático do livro e da tese de mestrado do edson fregni
+[2017-02-05 02:14:51] Liga direto nas entradas e saídas e faz o debug por software
+[2017-02-05 02:15:05] É bom que dá para automatizar os testes
+[2017-02-05 02:15:05] eu ão tenho a placa ainda
+[2017-02-05 02:15:20] sim, eu to pensando em automatizar sim
+[2017-02-05 02:15:41] Eu gostei da sua placa de debugging porque ela é uma demonstração bacana, mas algo que mande para um PC é mais prático
+[2017-02-05 02:16:20] eu vou botar 2 conectores na placa de debugging, pra ela poder ficar no meio do caminho entra a placa testada e o back-plane
+[2017-02-05 02:16:36] assim eu posso montar o computador inteiro com as placas espalhadas num painel didático
+[2017-02-05 02:16:55] mais ou menos no estilo daquele projeto Megaprocessor, conhece ?
+[2017-02-05 02:17:07] http://megaprocessor.com/
+[2017-02-05 02:17:29] Conheço
+[2017-02-05 02:19:14] como o meu é uma réplica, não faz muito sentido eu querer botar ele encaixotado num gabinete do menor volume possível. No meu caso de uso, o ideal é ficar com as entranhas expostas, para cumprir a função didática
+[2017-02-05 02:19:40] então, exatamente como você já disse, a placa de debugging na verdade é uma ótima demonstração também
+[2017-02-05 02:20:18] se bobear, então, o "backplane" será só um monte de cabo flat
+[2017-02-05 02:59:50] Acabei de tropeçar num problema clássico! A falta de um chip driver de 7segmentos que codifique corretamente os algarismos hexadecimais de A a F :-P
+[2017-02-05 03:00:41] Os únicos que achei foram esses dois: http://pdf.datasheetcatalog.com/datasheet/fairchild/DM9370.pdf
+[2017-02-05 03:00:50] e http://www.futurlec.com/Motorola/MC14495P1pr.shtml
+[2017-02-05 03:01:20] Mas é meio difícil comprar. Tem lugar cobrando 45 reais cada um...
+[2017-02-05 03:05:48] Filipe Lopes joined
+[2017-02-05 03:05:49] Hi Filipe !
+[2017-02-05 08:29:54] bom dia a todos
+[2017-02-05 08:30:03] o Garoa vende algumas peças de IoT?
+[2017-02-05 08:30:15] to precisando comprar umas coisas
+[2017-02-05 08:31:11] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803119923_2388.jpg
+[2017-02-05 08:31:21] O Dumont foi um sucesso na CPBR! Obrigado pessoal! Garoa, LHC, ABC Makerspace, Xap, Madeira, Carioca, e todos os demais que colaboraram, deram palestra ou oficina, frequentaram o nosso pedaço de bancada, ou nos visitaram.
+Parabéns @fernandoGuisso e @thalisantunes por fazerem isso acontecer!
+Constantemente recebemos visitas de pessoas interessadas em conhecer os hackerspaces ou montar um em suas cidades. Nossas atividades encheram os palcos.
+Parabéns a todos os envolvidos!
+[2017-02-05 08:49:46] 😁
+[2017-02-05 09:07:32] Lindooooos! Esse ano complicou pra mim mas no próximo vou com tudo mesmo. Parabéns mocinhos e mocinhas envolvidos.
+[2017-02-05 09:43:09] 👏
+[2017-02-05 09:43:31] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803110645_20274.jpg
+[2017-02-05 09:55:07] É mais barato usar um pic/avr da vida
+[2017-02-05 10:06:08] Não tenho coragem de construir uma CPU TTL discreta da década de 70 e ao mesmo tempo usar um micro-controlador pra acender um displayzinho 7seg auxiliar...
+[2017-02-05 10:07:16] O Garoa não é loja :-)
+[2017-02-05 10:07:42] Pois é, tempos modernos xD
+[2017-02-05 10:33:01] vou projetar a placa com 4 displays 7seg usando o chip MC14495, mas vou botar 16 LEDs pra exibir os bits caso eu não consiga arranjar o CI. Aí os displays ficam opcionais, bastando popular a PCB caso os componentes estejam disponíveis http://www.ebay.com/itm/1PCS-IC-MOTOROLA-DIP-16-MC14495P1-MC14495PI-/272041198625?hash=item3f56eb4421:g:HgkAAOSwu-BWPekf
+[2017-02-05 10:48:31] Terry Pratchett docudrama cc @Yumizinha 
+
+https://www.theguardian.com/books/2017/feb/03/terry-pratchett-docudrama-author-dead-alzheimers?CMP=Share_AndroidApp_Telegram
+[2017-02-05 10:52:20] Bom dia, venho agradecer à todos que estavam ontem no Garoa na aula de servidor Linux e dizer que é muito bom estar de volta... Obrigado Emerson show de bola as aulas 👏👏😄
+[2017-02-05 11:13:21] Nesse caso, talvez valha a pena usar um cpld.
+[2017-02-05 11:14:13] Por coincidência tinha alguém falando em display 7 segto na lista do RC2014. Ele pretende usar PROMs como um compromisso entre o preço do MC14495 e apelar para um microcontrolador.
+[2017-02-05 11:15:35] Isso, uma LUT.
+[2017-02-05 11:15:43] Mas é uma solução meio complexa, pois não dá para ligar os displays direto na PROM.
+[2017-02-05 11:18:06] tem que botar uns resistores na via de dados da PROM que liga no 7seg, é isso ?
+[2017-02-05 11:18:55] alguém no fórum do EEVBlog sugeriu inclusive programar a PROM pra apagar zeros à esquerda :-) (mas eu não ligo pra isso e, inclusive, acho que pode atrapalhar o debugging. Prefiro ver todos os zeros)
+[2017-02-05 11:41:26] Kkkk vc q pensa, já comprei várias coisas aí
+[2017-02-05 11:42:03] Mesmo assim, o Garoa não é loja ;-)
+[2017-02-05 13:19:04] E hoje vai rolar atividade sobre bitcoin no Garoa a partir das 18:00!
+[2017-02-05 13:21:50] Tecnicamente você não comprou. Você fez uma doação para o espaço e como agradecimento ganhou XPTO
+[2017-02-05 13:22:11] Pode ser
+[2017-02-05 13:22:45] Nosso CNPJ nem permite vender coisas.
+[2017-02-05 13:52:18] Estou compartilhando o link do meu ebook, só está semana de graça, baixa lá 
+https://www.amazon.com.br/gp/aw/d/B01MSC9PFI/ref=mp_s_a_1_1?ie=UTF8&qid=1486309604&sr=1-1&pi=SY200_QL40&keywords=edney+rossi
+[2017-02-05 14:09:49] "Amplificador valvulado" e "controlado por smartphone" são termos que não parecem combinar numa única frase :-P
+[2017-02-05 14:13:02] A brincadeira é essa mesmo, contar um pouco da história da eletrônica, desde as válvulas, até os dias de hoje com microcontroladores, em um projeto
+[2017-02-05 14:31:56] Parece a proposta que ouvi a pouco sobre usar um microcontrolador para acender um display 7 segmentos numa placa auxiliar de uma das PCBs de uma réplica duma CPU discreta TTL da década de 70... :-D
+[2017-02-05 14:35:20] Ah sim. Em um resgate histórico usaria inclusive válvulas diodos na fonte.
+[2017-02-05 14:37:26] Já pensou em usar portas lógicas para implementação do decodificador 7 segmentos?
+[2017-02-05 14:38:50] Ou então, usar um demux, e implementar via software?
+[2017-02-05 14:51:57] Vlw pelo aviso, dormi até agora kk
+[2017-02-05 14:55:38] no-way! É uma placa para depuração. Tem que ser simples. Acho que vou deixar só com LEDs mesmo e decodificar os valores binários mentalmente hahaha
+[2017-02-05 14:56:12] ou talvez adotar a abordagem da PROM que é uma sacada genial (e clássica!)
+[2017-02-05 15:02:15] Genial, minimalista é sempre a melhor solução
+[2017-02-05 15:25:33] quem vai falar das moedas de bits hoje ?
+[2017-02-05 15:55:51] Bom, convidei alguns especialistas no assunto incluindo o Gutem, mas não tô muito confiante que apareçam todos, mas certeza q o Gutem e eu vamos falar algumas bobeiras úteis hehe
+[2017-02-05 16:02:09] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803709269_39738.jpg
+[2017-02-05 18:06:19] Daqui a pouco chego para aprender sobre bitcoin
+[2017-02-05 18:32:04] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_658074485366195130.webp
+[2017-02-05 18:46:50] Perdi o evento, cheguei em casa às 15:00, decidi tirar um cochilo, mas hibernei até agora...
+[2017-02-05 18:47:35] Ainda nao começamos
+[2017-02-05 18:48:53] É que estou a uma hora e meia de distância.
+[2017-02-05 18:49:54] Game over
+[2017-02-05 18:49:58] Tsc tsc tsc
+[2017-02-05 22:05:54] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803119727_2430.jpg
+[2017-02-05 22:06:00] O que acham sobre? Hahaha
+[2017-02-05 22:06:49] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804202456_15175.jpg
+[2017-02-05 22:07:40] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803735417_51661.jpg

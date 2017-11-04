@@ -1,0 +1,97 @@
+[2016-08-01 01:08:59] oi! O grupo de alunos que foi pra BSides e graças ao apoio nosso foram pra regional da Olimpíada Brasileira de Robótica... um dos únicos times a usar hardware livre e únicos de escola pública de periferia. Ganharam OURO e agora estão arrecadando pra ir pra nacional https://www.vakinha.com.br/vaquinha/final-da-olimpiada-brasileira-de-robotica-2016 Valeu @Biazzotto
+[2016-08-01 06:36:18] Uau
+[2016-08-01 12:41:36] :-)
+[2016-08-01 12:41:56] estou aqui quebrando a cabeça com o esquemático da CPU do Patinho Feio...
+[2016-08-01 12:42:25] É bem divertido, mas também dá uns nós na cabeça de vez em quando hahaha
+[2016-08-01 13:34:26] Alguém aí conhece o pessoal do Code for São Paulo?
+[2016-08-01 13:43:50] Eles querem fazer um encontro no Garoa, não tou sacando muito, mas eles querem conhecer gente do Garoa acho...
+[2016-08-01 13:49:35] Não conheço
+[2016-08-01 13:49:59] Eu faço parte do Code for São Paulo, e o André, que estava na reunião do Garoa na quarta-feira, também...
+[2016-08-01 13:51:18] Então, ele tá falando de ir ao Garoa amanhã
+[2016-08-01 13:51:37] (o Meetup tá marcado em outro lugar, não tou entendendo patavinas)
+[2016-08-01 13:52:09] (não sei se ele quer migrar pro Garoa o encontro de amanhã)
+[2016-08-01 13:52:42] Amanhã tem uma reunião marcada na Sprinklr...
+[2016-08-01 13:53:00] exato
+[2016-08-01 13:53:58] Estranho, não me falaram nada, sabem que sou do Garoa...
+[2016-08-01 13:54:08] mega confuso
+[2016-08-01 13:54:33] vai ver eu que entendi tudo errado
+[2016-08-01 13:57:43] Vou tentar entrar em contato com eles... lembra com quem falou?
+[2016-08-01 14:41:57] .
+[2016-08-01 15:24:10] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803703793_66732.jpg
+[2016-08-01 15:26:08] Oi! Visitei o hackerspace Noisebridge e agora convido tod@s a saber como foi e conhecer o "reboot 2.0" que eles fizeram. (Será nesta terça, 2/agosto/2016, 19h30-22h30)
+Abraços!
+[2016-08-01 15:38:18] Com André
+[2016-08-01 15:43:12] alguém aí conseguindo acessar autoatendimento do banco do brasil? aqui dá SSL_ERROR_NO_CYPHER_OVERLAP
+[2016-08-01 15:44:13] I'm in!
+[2016-08-01 15:44:31] weird. parece que todo mundo aqui no lab tá tendo isso
+[2016-08-01 15:46:01] o roteador (openwrt) faz algum cache zoado de certificados que pode acarretar isso?
+[2016-08-01 15:46:02] aqui deu problema de segurança no módulo W01
+[2016-08-01 15:46:28] gerenciador financeiro (pessoa jurídica) carrega
+[2016-08-01 15:46:34] mas autoatendimento físico não
+[2016-08-01 15:46:39] pessoa física, digo
+[2016-08-01 15:46:48] tem um site que sugere um procedimento mas não explica o que os ajustes de fato significam: http://linuxdicasesuporte.blogspot.com.br/2015/04/firefox-e-iceweasel-erro.html
+[2016-08-01 15:47:12] sei que dá pra fazer bypass usando uma cripto mais antiga
+[2016-08-01 15:47:22] meu firefox deu essa opção
+[2016-08-01 15:47:26] mas isso é seguro?
+[2016-08-01 15:48:03] a pergunta importante é: por que, antes de mais nada, isso começou a acontecer "do nada" ?
+[2016-08-01 15:48:15] shrug
+[2016-08-01 15:48:55] ou o bb atualizou algo errado, ou algum certificado atualizou e o bb ficou pra trás?
+[2016-08-01 15:51:52] hum. ok
+[2016-08-01 15:52:07] fecha firefox, sudo apt-get update, sudo apt-get upgrade, abre firefox
+[2016-08-01 15:52:11] erro sumiu
+[2016-08-01 15:52:13] valeu gente
+[2016-08-01 15:52:30] Já tentou ligar e desligar o computador? :)
+[2016-08-01 15:52:57] If you ain't fixed it, it's still broken.
+[2016-08-01 15:54:04] nvm, não tá funcionando porque o icedtea não tá dando o prompt pra rodar
+[2016-08-01 15:54:08] yay
+[2016-08-01 15:54:46] ??? meu openjdk sumiu haha
+[2016-08-01 15:55:02] pronto! eu disse
+[2016-08-01 15:55:11] se não consertou, ainda tá quebrado hahaha
+[2016-08-01 15:55:59] não sei porque, os alternatives tão apontando pro openjdk, mas o pacote não tava instalado. acho que alguma coisa tirou ele em algum momento
+[2016-08-01 15:58:18] mas isso não resolveu
+[2016-08-01 15:58:26] oh well
+[2016-08-01 16:04:47] eu acho que o firefox não deixa o icedtea rodar por achar que a conexão não é segura
+[2016-08-01 16:04:58] porque applets de outros sites rodam normal
+[2016-08-01 16:11:10] André Pinto joined
+[2016-08-01 16:11:10] Hi André !
+[2016-08-01 16:12:45] @Biazzotto você ou alguém do Garoa interessado em hackativismo poderia ir amanhã ao MeetUp do Code For São Paulo
+[2016-08-01 16:13:29] Fiquei encarregado de fazer essa ponte entre os grupos pelo Code
+[2016-08-01 16:13:43] E levar alguém presencialmente
+[2016-08-01 16:14:17] http://meetu.ps/e/BSlhS/wrLsQ/a
+[2016-08-01 16:19:49] Olá André, não sabia que estava responsável por essa ponte entre os grupos, estou participando de todas as reuniões de quarta-feira do Code for São Paulo...
+[2016-08-01 16:20:17] 👏
+[2016-08-01 16:20:26] O Marcos me pediu
+[2016-08-01 16:20:44] Você esteve na Sprinklr semana passada?
+[2016-08-01 16:20:53] Sim, estive.
+[2016-08-01 16:21:24] Ah sim, verdade! Vou avisá-lo então
+[2016-08-01 16:32:48] Essa semana, como mudou para terça-feira, não poderei participar, já tenho um compromisso marcado...
+[2016-08-01 16:34:53] Semana que vem, dia 09, teremos um Coding Dojo no Garoa, junto com o Grupy-SP, então se for na terça-feira novamente, não poderei participar.
+[2016-08-01 18:03:31] Take a look at @medialab's Tweet: https://twitter.com/medialab/status/760187770585374720?s=09
+[2016-08-01 19:22:11] @fsanches rate my board :) https://github.com/Lana-chan/brochehacker
+[2016-08-01 19:22:12] Lana-chan | brochehacker
+
+Design de um broche animado com LEDs
+
+Language: KiCad
+Forks: 1
+Stars: 0
+Issues: 0
+[2016-08-01 19:24:14] antes dizia 0 forks, agora diz 1, mas o network só mostra o meu..
+[2016-08-01 19:26:46] Hoje parece que vou conhecer o Luis Leão...
+[2016-08-01 19:27:20] Onde está o Leão? preciso devolver umas coisas que peguei emprestado heeh
+[2016-08-01 19:28:16] Falo pra ele quando chegar... estou na IBM...
+[2016-08-01 19:28:28] ah tá É encontro do GDG
+[2016-08-01 19:29:26] Isso... mas tem pouca gente... dos 95 RSVP vieram uns 20...
+[2016-08-01 19:30:14] é que mudou a data né? Era pra ser quinta passada, não?
+[2016-08-01 19:33:51] Não sei se mudou, quando me inscrevi já era na data de hoje mesmo.
+[2016-08-01 19:41:14] Transmissão ao vivo:
+https://youtu.be/-vwolcOvZPA
+[2016-08-01 19:42:57] Blza, valeu.
+[2016-08-01 19:54:02] https://youtu.be/-vwolcOvZPA
+[2016-08-01 19:54:16] Agora, ao vivo, sobre beacons
+[2016-08-01 20:11:40] BACON!!! :-D
+[2016-08-01 20:11:47] LOL... to zuando
+[2016-08-01 20:14:53] http://www.nbcnews.com/news/us-news/fix-out-product-repairs-get-tougher-new-age-obsolescence-n614916?utm_content=bufferc56a1&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+[2016-08-01 20:17:05] tentei enviar comprovante pro email do tesoureiro e voltou....
+[2016-08-01 20:17:19] enfim, já paguei minha mensalidade, o servidor que não me deixou comprovar :P
+[2016-08-01 23:20:27] [OT] De 4/8 a 21/10, quintas 19h–21h30 no SESC Sorocaba, curso de programação criativa, grátis (tem algum amigo em Sorocaba?) https://www.facebook.com/mrizzolli/posts/10154365625539872?pnref=story

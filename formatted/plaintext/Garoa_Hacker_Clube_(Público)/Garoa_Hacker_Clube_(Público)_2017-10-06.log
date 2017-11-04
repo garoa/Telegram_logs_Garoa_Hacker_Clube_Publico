@@ -1,0 +1,210 @@
+[2017-10-06 01:33:29] Pessoal, alguém já conseguiu conectar um Raspberry a um Lapdock?
+[2017-10-06 01:33:51] Estou com alguns problemas e acredito que pode ser o cabeamento.
+[2017-10-06 01:34:08] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_805513302_12963.jpg
+[2017-10-06 01:36:18] Este cabo que "fiz" foi seguindo um tutorial. Tem conexões para parte elétrica/alimentação e outra para dados, que teoricamente serviria para o teclado e o mouse.
+
+Porém sem sucesso!
+
+Poderiam me ajudar nesta empreitada?
+
+Valeu!
+[2017-10-06 08:02:21] Bom dia, galera, tudo beleza?
+[2017-10-06 08:02:38] Estou aprendendo HTML e CSS e terminei o meu projeto seguindo o projeto Odin
+[2017-10-06 08:03:23] O que vocês acham? Minha primeira tentativa.
+[2017-10-06 08:03:25] https://thelolbr.github.io/google-homepage/src/
+[2017-10-06 09:26:21] nossa está bem legal @thelol_br! É uma tarefa bem difícil replicar coisas que estamos muito acostumados. O shadow effect tanto dos botões quanto do search form estão um pouco diferentes
+[2017-10-06 09:31:59] Eu sei 😕 difícil demais fazer isso. Não consegui replicar exatamente, mesmo as cores ficaram diferentes (mesmo que pouco; o hexadecimal das cores não é o mesmo usado).
+
+Fui vendo os detalhes do source code da página, mas o google usa uma técnica de minimização do código html/css, fora que as variáveis não são lógicas, então é bem difícil ler e rastrear o que cada coisa faz, mesmo você fique habilitando e desabilitando o código no dev tools do browser.
+
+Você tem alguma ideia de como eles fazem esse efeito dos botões? Tenho outro problema com o meu código do CSS, não estou conseguindo formatar corretamente o sublogo que está escrito BRASIL, ele não acompanha o logo do GOOGLE no meio da página, então se você der resize na página do browser, ele "desaparece" ahahaha.
+[2017-10-06 09:34:00] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804727558_17736.jpg
+[2017-10-06 09:34:02] tem isso também olha como está a margem
+[2017-10-06 09:34:17] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804729619_17247.jpg
+[2017-10-06 09:36:43] cara tem uns sites que geram o shadow ai você pode ir testando... eu sinceramente não sei estudei muito pouco html/css estou dando mais opinião de consumidor mesmo haha
+[2017-10-06 09:41:41] Já é muito bom isso, me facilita bastante.
+[2017-10-06 10:06:07] http://conferencia.anjosdobrasil.net/apoios.html
+[2017-10-06 10:41:05] Fabio Souza joined
+[2017-10-06 10:41:07] Hi Fabio !
+[2017-10-06 11:04:20] Herbert Moreno joined
+[2017-10-06 11:04:21] Hi Herbert !
+[2017-10-06 11:04:32] Olá
+[2017-10-06 11:06:17] oi @Herbertmoreno
+[2017-10-06 11:06:42] Lucas olá
+[2017-10-06 11:20:39] Sou Frontend há quase 10 anos. My 2 cents:
+Tá bem bom.
+Pontos de melhoria:
+Nunca coloque texto direto em divs, existem elementos semanticos para isso (h1-6, p, li, small, span)
+utilizando esses elementos, vai facilitar o alinhamento vertical dos elementos nos elementos pai
+[2017-10-06 11:21:36] Ah, não use esse conhecimento para fazer phishing, porque, provavelmente, Eu serei uma das pessoas que vai te caçar se o fizer! hehehe
+[2017-10-06 11:23:14] Olá pessoal, primeiramente boa tarde. Eu gostaria de saber se alguém tem um super método pra remover um parafuso torx ( sem pino ) quando não se tem a chave em mãos. ;-;
+[2017-10-06 11:29:25] vc vai precisar desse farafuso depois?
+[2017-10-06 11:32:35] Sim
+[2017-10-06 11:32:47] Moises Barbosa joined
+[2017-10-06 11:32:48] Hi Moises !
+[2017-10-06 11:35:07] vc pode usar uma chave de fenda com super bonder na ponta. uma vez resolvi dessa forma. e depois vc consegue retirar o super bonder.
+[2017-10-06 11:36:14] Esse tipo de informação no project odin não fala! É de grande ajuda.
+[2017-10-06 11:36:25] Ahh sim
+[2017-10-06 11:36:27] Vlw
+[2017-10-06 11:36:51] Como assim? Pergunto porque não faço ideia de como funciona phishing.
+[2017-10-06 11:37:20] Conversamos outra hora sobre, então... rs
+[2017-10-06 11:37:20] Depois pra remover você pode realizar um banho maria nas peças que o superbonder sai.
+[2017-10-06 11:39:03] Beleza.
+
+Se possível, o que exatamente um frontend dev faz? Minha curiosidade é em relação a como faz. Eu gastei mais de 10horas ininterruptas para chegar nessa réplica (a qual não me satisfez nenhum pouco, perfeccionismo é fogo)
+[2017-10-06 11:42:35] Hj, o Frontend "moderno" faz o HTML + CSS, geralmente como componentes reutilizaveis para bibliotecas JS como Angular, React e Vue
+[2017-10-06 11:43:03] E faz a ligação com o backend, via API REST por AJAX
+[2017-10-06 11:43:19] Tudo o que vc vê, é frontend
+[2017-10-06 11:43:41] Backend estão as regras de negocios e banco de dados
+[2017-10-06 11:44:14] @thelol_br eu já vi comentários no sentido de que quando você tenta replicar uma coisa dificilmente você consegue chegar próximo. coisas como o look and feel do android/ios são bem difíceis de se aproximar. acho que a "carinha" do google entra nessa também
+[2017-10-06 11:44:53] Agora bagunçou. Meu conhecimento é muito baixo para conseguir compreender tudo isso de primeira! Vou anotar e ir pesquisando cada coisa separadamente, mas comecei a achar bem interessante essa parte de frontend. Ainda não cheguei na parte de backend.
+[2017-10-06 11:44:54] pq o usuário vai sentir diferença ao menos a maioria deles
+[2017-10-06 11:46:25] Então, Lucas, senti exatamente essa diferença. A diferença é mínima, mas para mim, fica até estranho olhar a página. Réplicas ainda são réplicas! ahahaha
+[2017-10-06 11:54:11] https://material.io/components/
+[2017-10-06 12:04:18] pessoal pra quem gosta de MUD acabei de descobrir esse: https://www.hackmud.com/#download
+[2017-10-06 12:04:23] parece ser bem legal
+[2017-10-06 12:05:29] https://en.wikipedia.org/wiki/Realms_of_Despair
+[2017-10-06 12:17:21] Boa tarde a todos.
+Gutem vc tem previsão de quando voltará o QoC?
+[2017-10-06 12:22:40] Compre um jogo o chaves. Vai ser mais faćil e mais barato
+[2017-10-06 12:32:55] Dia 28
+[2017-10-06 12:58:08] Boa Tarde!
+[2017-10-06 12:58:19] hoje tem Garoa no Senac Tatuapé
+[2017-10-06 12:58:41] https://www.facebook.com/aulasprofessorramos/photos/a.128597183950794.35981.119503368193509/1177843069026195/?type=3&theater
+[2017-10-06 13:06:12] Alguém?
+[2017-10-06 13:08:34] Eu nao
+[2017-10-06 13:09:02] O q vc espera ganhar de funcionalidades conectando o rasp no dock?
+[2017-10-06 13:10:43] Somente dar uma tela, um teclado e um touchpad
+[2017-10-06 13:10:48] A tela tudo OK
+[2017-10-06 13:10:59] Mas o teclado e o touchpad sem chance
+[2017-10-06 13:11:10] Acredito que pode ser o cabo.
+[2017-10-06 13:12:32] O dock de laptop serve pra dar mais conforto, ir carregando a bateria, aumentar o numero de portas usb.
+[2017-10-06 13:12:48] Nao entendi seu ponto. Vc quer isso no raspberry?
+[2017-10-06 13:14:53] dock que ele se refere é a lapdock, uma espécie de terminal/notebook burro para celulares atrix
+[2017-10-06 13:15:20] Então, eu quero conectar o Raspberry no Lapdock pra utilizar como se fosse um "notebook"
+[2017-10-06 13:15:32] Isso!
+[2017-10-06 13:15:54] Esse é o Lapdock
+[2017-10-06 13:15:56] @marcelocamposs conseguiu fazer o cabo?
+[2017-10-06 13:16:04] Hmmm nao conhecia isso
+[2017-10-06 13:16:17] Pensei q fosse uma dock de laptop
+[2017-10-06 13:16:42] teve uma época que estava 79 no mercado livre
+[2017-10-06 13:17:03] me arrependo de ter comprado só um
+[2017-10-06 13:18:10] Pode crer... tem ate bastante coisa quando digita "lapdock raspberry" no google
+[2017-10-06 13:18:13] http://www.instructables.com/id/The-Raspberry-Pi-Lapdock-Connection/
+[2017-10-06 13:19:21] ele serve por exemplo como segunda tela de notebook tb
+[2017-10-06 13:20:44] Saquei
+[2017-10-06 13:20:50] Lcd e teclado
+[2017-10-06 13:20:58] Lcd teclado e mouse
+[2017-10-06 13:21:02] Bacana isso ae
+[2017-10-06 13:21:48] Pra quem estava acompanhando...
+[2017-10-06 13:21:48] http://cgi.br/esclarecimento/nota-publica-sobre-a-aprovacao-do-plc-110-2017-na-camara-dos-deputados-e-no-senado-federal/
+[2017-10-06 13:21:51] Vai ser vetado
+[2017-10-06 13:22:03] Comprei 1 por R$50 E também me arrependo de ter comprado um só kkkkk
+[2017-10-06 13:22:09] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804728981_16933.jpg
+[2017-10-06 13:22:58] Vou ler Fabiano. Obrigado.
+[2017-10-06 13:23:03] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_805511569_21516.jpg
+[2017-10-06 13:23:12] Moh bica
+[2017-10-06 13:23:36] Então. Hoje parece que está de volta porque alguns aparelhos atuais funcionam com ele
+[2017-10-06 13:23:43] Mas quando comprei paguei 50 lacrado
+[2017-10-06 13:24:04] Comprou na fase de teste de mercado
+[2017-10-06 13:24:25] Ai viram q tem saida e tamos ai vendo ele por 490
+[2017-10-06 13:24:31] nossa eu tive o Atrix
+[2017-10-06 13:24:33] 🤣
+[2017-10-06 13:31:03] Hilton Fernandes joined
+[2017-10-06 13:31:05] Hi Hilton !
+[2017-10-06 13:37:37] M2F0 joined
+[2017-10-06 13:37:39] Hi M2F0 !
+[2017-10-06 13:40:10] Olá a todos! 😊
+[2017-10-06 13:44:20] Verdade kkkkkk
+[2017-10-06 13:54:31] Tem uma entrada na wiki doo garoa sobre
+[2017-10-06 13:54:47] Pelo menos uma thread na lista de email, tem
+[2017-10-06 13:55:02] Com esquemas dos cabos
+[2017-10-06 13:55:33] Nossa. Vou procurar agora mesmo. Obrigado.
+[2017-10-06 14:05:41] Sugiro a todos contatar o deputado Áureo Ribeiro indo contra a emenda dele e celebrando o veto.
+[2017-10-06 14:08:49] Tenho a impressão de que você interpretou errado o texto (ou eu interpretei diferente de você)
+[2017-10-06 14:09:19] Não me expliquei
+[2017-10-06 14:09:25] O que eu entendi é que o deputado pediu pra vetar. Não é?
+[2017-10-06 14:10:35] https://garoa.net.br/wiki/Lapdock
+
+Aqui está 👆🏼
+[2017-10-06 14:10:46] O Áureo Ribeiro colocou a emenda lá. Foi criticado por todo mundo. Voltou atrás, pediu o veto, mas veio a público falar que não entendeu a controvérsia e que o objetivo da emenda continua válido, lutar contra bots e fake news. Dado que a intenção da emenda ainda existe dentro do deputado e que ele ainda não entendeu o motivo do backfire, sugiro a todos entrar em contato com ele
+[2017-10-06 14:11:42] Mesmo tendo outro modelo de RPI vou tentar.
+[2017-10-06 14:27:20] ja liguei ate um Xbox one
+[2017-10-06 14:31:06] Talvez num mundo ideal, a tentativa do decreto seria de barrar os bots, mas pela superficialidade do texto, abre margem pra qualquer tipo de censura a quais eles possam alegar
+[2017-10-06 14:40:03] Pessoas sem conhecimento técnico legislando a favor próprio.
+[2017-10-06 14:47:03] Caramba hahahaha
+[2017-10-06 14:57:40] Exemplo: Gilberto Kassabi como ministro da ciência e tecnologia 🤦🏻‍♂
+[2017-10-06 14:58:30] document
+[2017-10-06 15:12:11] Esse gif resume tudo
+[2017-10-06 15:16:33] 😂😂😂😂
+[2017-10-06 16:50:42] compra o pi-top
+[2017-10-06 16:51:15] https://pi-top.com/
+[2017-10-06 16:51:48] Então como estou com um Lapdock por aqui gostaria de usá-lo. Mas vou ler o que mandou a respeito. Não o conhecia 😃👍🏼
+[2017-10-06 16:52:34] eu vi esses dias sobre isso que vc quer fazer.. olha o modelo do monitor... e procura no aliexpress uma placa de controle pra ela... com isso vc consegue um HDMI.. ai é só ajeitar um case bacana e pronto
+[2017-10-06 16:54:39] Então, o HDMI eu consigo utilizar. Comprei um adaptador e funciona bacana.
+
+Somente o teclado e o touchpad que não.
+
+Vou buscar na Sta o material como indica no wiki do garoa. Vamos ver se dá certo. Acho que o problema aqui foram as emendas dos cabos rs
+[2017-10-06 16:55:13] vixi,.. boa sorte... se der certo posta ai a foto rs
+[2017-10-06 16:55:31] Pode deixar kkkk valeu
+[2017-10-06 16:56:05] Cara tem um pi top no ML 2,8k
+[2017-10-06 17:14:13] meu deus
+[2017-10-06 17:14:18] fui ver e tem mesmo
+[2017-10-06 17:14:20] caraio
+[2017-10-06 17:23:24] Mark Zuckerberg joined
+[2017-10-06 17:23:24] Hi Baned !
+[2017-10-06 17:36:00] Hahahahahahaha
+[2017-10-06 17:39:14] wtf !?
+[2017-10-06 17:39:37] LOL
+[2017-10-06 17:41:07] O jack é tão educado que cumprimenta até banido?
+[2017-10-06 17:41:32] 😂😂😂😂😂
+[2017-10-06 17:47:36] um grande OLA para todo(a)s :D
+[2017-10-06 17:48:16] fico feliz de não ser um bot (aparentemente)
+[2017-10-06 17:50:16] Baned, leia atentamente as regras do grupo para que o seu apelido não seja provado como uma profecia... :-P
+[2017-10-06 17:53:11] photo
+[2017-10-06 17:53:12] no, no bot. um bot nao tem senso de humor
+[2017-10-06 17:54:03] Nao vou quebrar as regras. Vou ler.
+[2017-10-06 17:54:49] /regras
+[2017-10-06 17:56:25] 😂😂😂😂😂
+[2017-10-06 17:56:30] tudo ok.
+[2017-10-06 17:58:12] Brasilis joined
+[2017-10-06 17:58:13] Hi Brasilis !
+[2017-10-06 17:58:39] Esse grupo e de estudos? ou??
+[2017-10-06 17:59:02] tem biblioteca?
+[2017-10-06 18:02:40] https://garoa.net.br/wiki/P%C3%A1gina_principal
+[2017-10-06 18:05:11] Retornando ao assunto do Áureo Ribeiro
+
+https://m.tecmundo.com.br/seguranca/122785-anonymous-derruba-site-expoe-dados-deputado-censura-internet.htm
+[2017-10-06 18:07:15] Voce e o admin. esse grupo tem biblioteca?
+[2017-10-06 18:07:15] sim, sou. Que tipo de biblioteca você procura ?
+[2017-10-06 18:07:15] de arquivos : pdfs, video aulas, tutoriais em ti, projetos... e etc
+[2017-10-06 18:07:15] sim, coisas desse tipo rolam no grupo. Fique a vontade para bater papo com a galera sobre temas de tecnologia, eletrônica, software livre, etc...
+[2017-10-06 18:08:18] mas evite PVT, por favor
+[2017-10-06 18:08:18] pode falar direto no grupo, é melhor
+[2017-10-06 18:09:37] no Telegram nao tem? achei que tinham ua biblioteca no T.G . desculpe e que e PVT?
+[2017-10-06 18:09:56] PVT = mensagem particular (do inglês "private")
+[2017-10-06 18:10:49] Banner, pergunte sobre algum tema e pode ser que outras pessoas aqui tenham interesses alinhados com o seu para bater papo.
+[2017-10-06 18:11:33] ok.
+[2017-10-06 18:11:45] Somos um clube. Um lugar (tanto físico quanto online) para as pessoas se conhecerem e compartilharem conhecimentos de diversas áreas, mas com enfoque em especial na área de tecnologia.
+[2017-10-06 18:12:49] Se você estiver em São Paulo, pode ir conhecer o espaço físico. Senão pode bater um papo com a galera por aqui mesmo.
+[2017-10-06 18:14:33] ja estivem em SP, mas nunca tinha ouvido falar desse espaço.  bom, algum dia quem sabe.
+[2017-10-06 18:18:24] Pessoas, boa tarde. Lembro que há algum tempo atrás na lista surgiu uma assunto sobre teorias de rede, esse assunto saiu do papel? Pergunto porque tenho interesse em contribuir com o assunto. Abs!
+[2017-10-06 19:33:30] Vazaram dumps do Bit.ly e Kickstarter. Troquem seus passwords.
+[2017-10-06 19:42:32] Eita preula
+[2017-10-06 21:11:34] https://hackaday.com/2017/10/05/a-3d-printer-alone-doesnt-make-a-hackspace/
+[2017-10-06 22:12:11] Boa noite.
+Gostaria de confirmar se haverá mesmo o meet up amanhã de Servidor Linux?
+[2017-10-06 22:44:52] Se rolar eu vou ver se apareço, preciso instalar o debian
+[2017-10-06 23:08:31] Pessoal, Boa noite.
+
+Alguém aqui entende de OpenStack?
+
+Meu TCC está sendo feito em cima deste "orquestrador" e estamos tendo alguns problemas com instalação.
+
+Alguém indicaria algo?
+[2017-10-06 23:12:26] canal de irc da red hat sempre me salva
+[2017-10-06 23:13:06] #openstack no freenode
+[2017-10-06 23:42:15] Julio Della Flora joined
+[2017-10-06 23:42:16] Hi Julio !
+[2017-10-06 23:59:48] https://science.slashdot.org/story/17/10/06/2314228/massive-70-mile-wide-butterfly-swarm-shows-up-on-denver-radar-system

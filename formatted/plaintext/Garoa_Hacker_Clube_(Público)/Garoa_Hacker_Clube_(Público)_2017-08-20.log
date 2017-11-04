@@ -1,0 +1,29 @@
+[2017-08-20 00:26:36] "E vai rolar a festa! Vai rolar!"
+[2017-08-20 00:32:18] https://twitter.com/elonmusk/status/899075756508065793
+[2017-08-20 00:42:30] Nossa free pascal ?
+[2017-08-20 00:43:07] Faz décadas desde a ultima vez que mexi no delphi profissionalmente
+[2017-08-20 06:20:13] Odyssey² feelings...
+[2017-08-20 10:11:19] Você tava numa Campus Party fazendo uns demos há alguns anos atrás? Lembro dum cara bombando Pascal lá, fazendo uns demos com rotozoom, etc.
+[2017-08-20 11:53:09] Pessoal, estou precisando comprar conectores P4 de 1,7mm. Alguém sabe onde posso comprar? Estou precisando de 4 unidades e não pdoeriam ser de 90º
+[2017-08-20 12:16:05] O pascal demomou ,mas evoluiu um bocado cara. O dialeto do freepascal, por exemplo, tem generics, métodos anônimos e sobrecarga de opoeradores. Sem falar que compila pra um monte de arquitetura...
+Tem uns russos que escrevem demos para o gameboy usando fpc. Muito massa
+[2017-08-20 12:22:12] Bombando?  Kkkk
+Não exatamente... Ou o pessoal achava que era um tipode jogo antigo ou um vídeo de baixa resolução. Não fui muito feliz em explicar o que é um demo, mas foi uma experiência legal
+[2017-08-20 12:41:08] https://youtu.be/aXMT0NLHHA0
+[2017-08-20 14:11:41] http://forumdainternet.cgi.br/chamada/
+[2017-08-20 18:03:18] Acabei de escrever um driver de emulação para um display de cristal líquido monocromático de 128x64 pixels que ainda não era suportado pelo MAME.
+[2017-08-20 18:03:18] Display modelo dmg12864j4 usando um chip controlador modelo NT7534.
+[2017-08-20 18:03:18] Aliás... sendo mais preciso na afirmação, a emulação que eu acabei de implementar é na verdade pro chip controlador NT7534.
+[2017-08-20 18:03:18] (que pode ser usado com displays de até 132x65 pixels de resolução)
+[2017-08-20 18:03:18] Tive que adicionar suporte a esse chip pois eu estava escrevendo um driver para emular um aparelho leitor de impressão digital (um relógio de ponto) que usa esse LCD+controlador.
+[2017-08-20 18:03:18] O aparelho se chama "Control ID 628", mas na internet só achei referências a um outro modelo (muito parecido) chamado 629: https://produto.mercadolivre.com.br/MLB-709799428-relogio-de-ponto-biometrico-id-629-_JM
+[2017-08-20 18:04:47] Ridículo um negócio desses supostamente custar 1700 reais !
+[2017-08-20 18:06:14] Dentro dele tem 2 computadores: Um 8051 que gerencia o display e o teclado. E um sistema embarcado rodando um kernel Linux e interfaceando com o leitor de impressão digital
+[2017-08-20 18:06:57] Emulei no MAME só o 8051 com o display. Não sei ainda como fazer o dump dos 32Mbytes da FLASH onde está o kernel e o resto das aplicações.
+[2017-08-20 18:29:57] https://web.archive.org/web/20170820212111/https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-koppe.pdf
+[2017-08-20 18:30:31] Paper fresquinho, publicado essa semana: "Reverse Engineering x86 Processor Microcode"
+[2017-08-20 21:27:36] https://twitter.com/justinhendrix/status/898887548730130432
+[2017-08-20 23:23:57] Cara, se você tivesse 1% da noção das legislações e normas envolvidas nisso, não falaria isso.
+[2017-08-20 23:29:40] E não... duvido muito que o REP da ControlID use 8051
+[2017-08-20 23:30:09] eu não duvido. Tenho certeza
+[2017-08-20 23:30:38] Então isso aí é modelo antigo

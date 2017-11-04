@@ -1,0 +1,58 @@
+[2016-07-02 00:55:11] Áquila joined
+[2016-07-02 01:04:15] Olá,
+Meu nome é Áquila, soube do Garoa há poucos dias. Estou começando no arduino e depois de passar alguns dias lendo, fiquei com algumas dúvidas.
+
+Fiz algumas buscas na lista do Google também. 
+
+Alguém poderia me ajudar? Gostaria de ouvir a opinião dos colegas.
+
+1) Vale a pena comprar o arduino original da Itália?
+
+2) Vale a pena comprar um kit? Tipo o starter kit ou Kit Iniciante V7 para Arduino da robocore por exemplo
+
+3) Vou pela versão Uno mesmo ou melhor já comprar um mais avançado?
+[2016-07-02 01:07:17] 1) não 2) sim mas um chines barato 3) depende do que você quer fazer
+[2016-07-02 01:07:53] http://pt.aliexpress.com/store/product/Electronic-Project-Starter-Kit-Uno-Crazy-kit-RFID-i2c-lcd-SD-RTC-1307-EEPROM-IR-Matrix/707291_556568319.html
+[2016-07-02 01:07:56] esse é o que eu tenho
+[2016-07-02 01:08:05] recomendo se quiser um uno
+[2016-07-02 01:11:26] 3) a princípio "brincar" de automação residencial
+[2016-07-02 01:12:24] um mega pode ser melhor por ter mais portas i/o
+[2016-07-02 01:12:54] você vai precisar de relés
+[2016-07-02 01:12:59] Amanhã cedo vamos visitar o fablab na galeria Olido, se alguém quiser ir
+[2016-07-02 01:13:30] http://pt.aliexpress.com/item/Starter-Kit-for-arduino-Uno-R3-mega-2560-Servo-1602-LCD-jumper-Wire-HC-04-SR501/32373168891.html?ws_ab_test=searchweb201556_0,searchweb201602_5_10017_405_507_406,searchweb201603_2&btsid=9ffd8344-63b9-4c16-a97f-5f462c759052
+[2016-07-02 01:14:02] http://pt.aliexpress.com/item/100-new-mega-2560-r3-starter-kit-motor-servo-RFID-Ultrasonic-Ranging-relay-LCD-for-arduino/32246633822.html?ws_ab_test=searchweb201556_0,searchweb201602_5_10017_405_507_406,searchweb201603_2&btsid=9ffd8344-63b9-4c16-a97f-5f462c759052
+[2016-07-02 01:14:13] se joga migo
+[2016-07-02 01:15:10] Opa, obrigado 👍🏽
+[2016-07-02 01:16:31] http://pt.aliexpress.com/item/4pcs-lot-1-channel-relay-modules-2-channel-relay-modules-relay-kit-control-panel-PLC-5V/32653102436.html?ws_ab_test=searchweb201556_0,searchweb201602_5_10017_405_507_406,searchweb201603_2&btsid=a8665e90-1690-40d9-a837-1296bc0fd9ef
+[2016-07-02 01:16:37] módulos relês pra automação
+[2016-07-02 01:17:01] você usa o arduino pra controlar eles, eles ligam/desligam coisas que vão na tomada
+[2016-07-02 01:17:55] O segundo link vem com uno + mega? 😳
+[2016-07-02 01:18:08] não
+[2016-07-02 01:18:11] só um mega
+[2016-07-02 01:18:33] e já vem com um módulo relê
+[2016-07-02 01:18:35] mas só um
+[2016-07-02 01:18:46] parece um kit muito bom  na real
+[2016-07-02 01:18:49] melhor que o meu
+[2016-07-02 01:19:03] mas quando comprei só tinha aquele, que  ainda tá vendendo
+[2016-07-02 01:19:35] O primeiro link?
+[2016-07-02 01:19:42] o segundo kit
+[2016-07-02 01:20:16] Ah tá
+[2016-07-02 01:24:45] Vem com shield para conexão Internet também?
+[2016-07-02 01:25:25] E para fazer um app Android para desligar a lâmpada wireless? Rs
+[2016-07-02 01:25:39] Obrigado pela ajuda Erin
+[2016-07-02 01:26:05] olha na descrição o que vem
+[2016-07-02 01:26:12] shield internet é mais caro
+[2016-07-02 01:41:15] Queria fazer algumas oficinas, só que é quase impossível se inscrever
+[2016-07-02 09:13:43] Vamos fazer umas oficinas de programação e eletrônica em Fablabs e telecentros, quem quiser ir ajudar só falar
+[2016-07-02 09:46:18] Já está aberto
+[2016-07-02 09:46:18] Tem uma oficina de marcenaria hoje
+[2016-07-02 10:12:00] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_802232136_105641.jpg
+[2016-07-02 10:12:14] Release party do fedora 24 na redhat
+[2016-07-02 12:50:47] Pessoal do KiCAD não cancelou, né? É que eu moro em outra cidade, ia ficar um pouco triste se estivesse fechado.
+[2016-07-02 12:51:39] a 1h atrás:
+[2016-07-02 12:51:40] Hoje às 15:00hrs nossa 4a Aula, completando todos os passos: do esquema ao Layout pronto
+
+espero vocês no Garoa
+[2016-07-02 12:51:47] vai na fé
+[2016-07-02 12:51:58] marcelo é ponta firme
+[2016-07-02 12:54:12] Obrigada, Afonso.

@@ -1,0 +1,143 @@
+[2016-10-04 00:10:50] O @eduoda e o @tilt4 estarão lá também, no Auditório Maker...
+[2016-10-04 00:34:41] A matéria poderia ter mostrado visualmente a placa re-feita, não?
+[2016-10-04 01:04:09] A placa re-feita é a placa da foto!!!!
+[2016-10-04 01:05:06] Eu só consigo ver isto:
+https://hackadaycom.files.wordpress.com/2016/09/adlibheader.jpg
+[2016-10-04 01:05:19] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803712161_105645.jpg
+[2016-10-04 01:05:24] placa recriada
+[2016-10-04 01:05:31] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803718956_107337.jpg
+[2016-10-04 01:05:33] placa original
+[2016-10-04 01:05:35] perguntas?
+[2016-10-04 01:05:49] Valeu! Deve ser porquê não tenho nem cookies nem scripts habilitados.
+[2016-10-04 01:06:29] não acho que tenha a ver. só segui links
+[2016-10-04 01:06:47] hackaday não é de colocar imagens inline em posts pequenos
+[2016-10-04 01:06:51] ("tips")
+[2016-10-04 01:06:58] só em estórias maiores
+[2016-10-04 01:07:15] OK.
+[2016-10-04 01:07:19] normalmente tem só o header mesmo
+[2016-10-04 01:11:06] legal que a placa foi projetada no kicad e publicada no github!
+[2016-10-04 01:11:14] com uma licença livre
+[2016-10-04 01:15:55] Sim! No meu roteador, eu verifiquei que WEP e WPS estavam desativados, e desativei WPA e TKIP. Ou seja, agora tem WPA2-PSK com "AES". Também troquei a senha ridiculamente curta e tão-provisória-quanto-a-CPMF por uma gerada aleatoriamente e de tamanho máximo. Deixei faltar alguma coisa?
+[2016-10-04 01:16:27] ┐(´～`； )┌
+[2016-10-04 01:16:38] :(
+[2016-10-04 08:06:29] https://www.facebook.com/gizmodo/posts/10154567604588967
+[2016-10-04 08:06:55] @fsanches Se liga
+[2016-10-04 15:00:13] Filtragem por mac address
+[2016-10-04 15:00:24] ;)
+[2016-10-04 15:32:32] Genial o nome do evento haha
+[2016-10-04 16:07:04] Gutem, desativar o broadcast aumentaria a segurança?
+[2016-10-04 16:08:37] Também. Mas alguns sistemas podem não achar a rede, como o PS3, por exemplo.
+[2016-10-04 16:12:14] caro tesoureiro do garoa: seu email ainda está quebrado. já enviei comprovante de outubro/2016
+[2016-10-04 16:14:38] Neste caso eu faria igual no PSP (que só aceita WEP), eu colocaria um intermediário, com duplo bloqueio de MAC Address (1 do PSP, o outro do roteador intermediário).
+[2016-10-04 16:16:15] Sub redes é um formato interessante, mas só se for cabeada, pois, do contrário, vc ainda tera um router fazendo broadcast...
+[2016-10-04 16:56:42] Não tem como desabilitar hdcp?
+[2016-10-04 16:56:45] Dhcp
+[2016-10-04 16:57:00] E usar ips fixos?
+[2016-10-04 17:22:29] @Fabiohirano rolou retirar a doação de livros e revistas do HeDC ?
+[2016-10-04 17:24:34] Tem sim, e esse roteador intermediário poderia ser utilizado somente quando necessário, e configurado para aceitar somente uma conexão...
+[2016-10-04 19:17:27] Fábio joined
+[2016-10-04 19:17:28] Hi Fábio !
+[2016-10-04 19:58:32] Para quem ainda não está sabendo: Bruce Perens confirmado para a e-HAL
+[2016-10-04 19:58:43] https://en.wikipedia.org/wiki/Bruce_Perens
+[2016-10-04 20:17:35] @aylons consegui cotação da FPGA com a Macnica do Brasil, conforme você indicou. Valeu! Eles me mandaram mais links com outras placas disponíveis e acabei descobrindo alguns cursos de graça na internet. Tem até alguns livros.
+[2016-10-04 20:18:09] Vou falar com o pessoal do Raul Hacker Clube na Bahia para ver se formo um grupo de estudos
+[2016-10-04 20:18:31] Legal :c)
+[2016-10-04 20:19:04] Só se lembre que eles são reprentantes da Altera. Nada contra Altera, mas saiba que a Xilinx existe e que é bacana conhecer os dois.
+[2016-10-04 20:20:12] Descobri também um tal de CPLD que é bem próximo do que quero. Eu não quero aprender o design de hardware com toda a complexidade, mas a criar lógicas digitais simples e integrar com uma CPU. Por isso que ainda insisto com SoC. Eu acho que a Intel vai revolucionar essa área em alguns anos se o Xeon vier com FPGA
+[2016-10-04 20:22:08] Isso. Acho que vou acabar importando um Zynq mesmo. Lançaram livros específicos para ele e o Parallela acabou criando uma comunidade em volta do Zynq que soa bem amigável a hobby.
+[2016-10-04 20:22:54] CPLD é muito limitado, mesmo, e não vai ajudar você a entender como programar em FPGA.
+[2016-10-04 20:25:30] Sobre a Intel com Xeon, FPGAs integradas com processadores já são realidade há algum tempo, inclusive Xeons com FPGA já existem (ou existiram). Há dificuldades específicas em integrar isto com um ambiente de computação que ainda não foram resolvidos.
+[2016-10-04 20:26:03] Eu estava digitando bem essa pergunta. Hehe
+[2016-10-04 20:26:54] Qual a dificuldade em integrar CPU e FPGA? É possível fazer isso com uma FPGA simples em PCIe? Exige algum tipo de barramento especial? Qual o padrão hoje?
+[2016-10-04 20:27:12] O problema não é esse. É mais conceitual.
+[2016-10-04 20:29:15] Você acha que o Cyclone V ou Zynq entregam algo novo nessa falta de um ambiente?
+[2016-10-04 20:29:24] Ainda não... vou tentar essa semana, está meio foda ... =(
+[2016-10-04 20:29:48] Se você tem um problema computacional (um algoritmo ou um protocolo, ou talvez mesmo) que é paralelizável e eficiente de resolver com uma implementação direta em hardware, e ele aparece o suficiente para você dedicar o esforço nisso, ele vai ser sempre melhor resolvido com a implementação deste hardware em um circuito integrado dedicado.
+[2016-10-04 20:31:08] Como síntese de FPGA é algo demorado e caro computacionalmente, e mesmo a programação da FPGA é relativamente demorada (vários segundos, mesmo para reconfiguração parcial), raramente vale mais a implementar coisas conforme a demanda ou dinamicamente.
+[2016-10-04 20:32:01] Claro que existem os usos e eu acho que é uma área que vai crescer e tudo, mas num ambiente de computação genérica, implementar hardware de computação específica sempre vai ser um nicho.
+[2016-10-04 20:32:36] Mas tem seus usos, como memória associativa, que salvo engano, a Microsoft está implementando no Azure. Mas veja que aí, são placas aceleradoras e não FPGAs integradas no CI.
+[2016-10-04 20:33:04] (o talvez mesmo ali em cima é "talvez mesmo acesso a dados")
+[2016-10-04 20:36:12] Eu acho que Cyclone V e Zynq entregam muita coisa legal, sim, mesmo num ambiente de servidor e processamento de dados. Hoje em dia, empresas como Facebook e Microsoft já encomendam hard-cores específicos para a Intel, que coloca estes cores nos seus processadores só para estas empresas. Com FPGAs integradas, isto vai estar à disposição de todo o mundo.
+[2016-10-04 20:38:56] Por outro lado, se você pretende fazer algo como simular uma rede neural, usar a FPGA "pura" como acelerador é muito bacana (existem placas PCIe com FPGAs - eu inclusive participo do projeto de uma!) , mas aí não tem porque usar uma FPGA com hard-core integrado, usa uma puro-sangue e ganhe mais lógica para programar.
+[2016-10-04 20:39:00] Eu não penso em reconfigurar conforme a aplicação, desencanei quando vi que isso ainda é bem dependente de fabricante e bem instável e demorado.
+O que queria aprender são as aplicações em escalabilidade vertical.
+Por exemplo, se a gente consegue tirar a pilha tcp/ip usada em servidores HTTP do Kernel para a FPGA. Talvez conseguíssemos lidar com milhões de conexões simultâneas sem ocupar tanto ciclo de CPU.
+Eu queria tentar alguns designs para casos específicos de uso de servidores, como web ou API (http/ssl/json) e ver se é possível aumentar a capacidade de um servidor de uso específico, como servidores web.
+Eu sei que se conseguir (duvido que consiga) isso deve virar um ASIC, mas só de inventar algo e disponibilizar já seria muito legal
+[2016-10-04 20:40:41] tcp/ip é o pior exemplo :cP FPGAs são péssimas para lidar com a flexibilidade desta pilha (por causa das filas do TCP, principalmente), normalmente a gente implementa um soft-core e instancia o TCP nele.
+[2016-10-04 20:41:33] Outro uso do meu interesse é em privacidade e segurança. Imagina conseguir deixar a criptografia acelerada por hardware, mas com implementação aberta. Onde você pode confiar no que está na FPGA.
+[2016-10-04 20:41:52] Mas se você quer implementar algo assim, veja que a FPGA não precisa estar no mesmo CI que o processador. Basta estar numa placa aceleradora.
+[2016-10-04 20:41:58] (volto logo)
+[2016-10-04 20:54:16] Exato, o problema que eu vejo na pilha tcp/ip que o Linux oferece é exatamente esse. A implementação é genérica. Se eu consigo fazer o parse apenas do que me interessa e entrego uma representação binária dos cabeçalhos do HTTP para a aplicação, isso pularia várias etapas. Claro que teria que fazer correção de erro e contagem de syn/ack manualmente, mas ainda eliminaria cópias entre placa de rede, memória e CPU.
+Antes de cair em FPGA eu estava vendo o problema do c10k e c10m onde algumas pessoas defendem o uso de dpdk ou pf_ring para aceleração de casos específicos (Kernel bypass).
+Esses projetos controlam a placa de rede diretamente, permitindo que você lide com os pacotes em baixo nível. Ainda assim, eles precisam de placas especiais da Intel para aceitar o dpdk ou virtualização. Talvez a FPGA conseguisse fornecer um meio termo mais acessível e até mais rápido para implementações específicas.
+Uma bem clássica é o long polling de vários usuários em um chat. Segurar uma conexão ociosa talvez não seja tão difícil de ser implementado em hardware, enquanto que a mesma implementação em software apresenta alguns gargalos hoje. O recorde atual que conheço é do Whatsapp com 1.6 milhões de conexões. Talvez dê para ir mais longe com a FPGA segurando a conexão e interrompendo a CPU quando surge algo novo.
+Enfim, ainda acho muita maluquice até na teoria, mas acredito que exista algo a ser explorado onde qualquer passo a frente poderia trazer uma economia de energia e dinheiro imensa para aplicações específicas em rede.
+Outro caso bom que juntei com um amigo para explorar é aceleração de Software Defined Network com FPGA, mas aí é mais viagem ainda.
+[2016-10-04 21:03:07] photo
+[2016-10-04 21:03:13] O que seria uma placa aceleradora? Uma com PCIe ou um tipo específico de placa?
+No meu caso dessas experiências em rede, será que não valeria mais comprar um modelo antigo com PCIe e Ethernet?
+(Volto logo tbm)
+[2016-10-04 21:17:08] Repassando mensagem...
+[2016-10-04 21:17:08] Senhores: vendo Python Fluente e Django Essencial. Estou me mudando e preciso aliviar a mudança.
+[2016-10-04 21:29:47] Vamos lá: o problema de TCP em hardware são as pilhas dinâmicas, as exceções e a diversidade de memória que é preciso para isso. É ruim de implementar em hardware e pouco eficiente.
+[2016-10-04 21:30:56] Sobre SDN em FPGA, isto é o mais corrente na verdade. Só que não chega na camada de aplicação, justo porque manter vários sockets e ter ordenamento é ruim em hardware. Possível, claro, mas não tem muita vantagem. De resto (IP, outros procotolos de ede, etc), FPGA é super bacana e prático.
+[2016-10-04 21:31:22] Isso, geralmente uma aceleradora é uma placa PCIe, mas pode ser outro protocolo.
+[2016-10-04 21:32:41] Valeu! :D
+Tô começando a entender melhor o que eu mesmo quero com isso.
+[2016-10-04 21:35:29] A motivação do hobby é que eu adoro otimizar código. FPGA vai ser uma ótima ferramenta para manter a disposição quando achar um cenário aplicável. Mas é bem nessa linha de aceleração. Vou procurar as placas PCIe baratas.
+[2016-10-04 21:46:24] Hum, se achar uma PCIe barata, me avisa :cP
+[2016-10-04 21:47:08] As FPGAs que tem transceiver capazes de PCIe (ou mesmo hard cores PCIe) são meio caras. Eu acho mais prático começar com uma placa simples, e fazer comunicação por ethernet ou serial.
+[2016-10-04 21:47:19] Cheap FPGA Development Boards | Joel's Compendium of Total Knowledge
+https://joelw.id.au/FPGA/CheapFPGADevelopmentBoards
+[2016-10-04 21:48:13] Ah, tem uma com Spartan 6!
+[2016-10-04 21:48:45] Mas a placa é meio mé... acho que ganha mais pegando uma placa mais legal fora da caixa, e passar para isso depois.
+[2016-10-04 21:49:36] O que pensei do SoC era acelerar o sistema que dá para rodar nela. Dá para rodar um Linux básico nela já e o Zynq tem bastante livro na internet
+[2016-10-04 21:50:15] Deixa eu tentar explicar de outra maneira:
+[2016-10-04 21:50:27] O Linux não roda na FPGA, roda num processador que por acaso está no mesmo chip.
+[2016-10-04 21:50:59] Isso, mas a Xilinx provê ferramenta para integrar eles.
+[2016-10-04 21:51:05] Você ainda precisa implementar um protocolo de comunicação entre os dois. É um barramento bem rápido e rola uns DMAs sinistros, mas não é algo que você vai sentir falta num primeiro momento.
+[2016-10-04 21:52:03] E dá um trabalho bem chato de implementar. É bem mais fácil aprender a fazer isso usando ethernet ou serial para a  CPU  se comunicar com o chip.
+[2016-10-04 21:53:00] Eu estou com uma Zybo aqui do meu lado, eu curto a parada e fico super feliz que você curta. Mas não faça disso sua prioridade agora - o bagulho é chato.
+[2016-10-04 21:53:56] Eu tava lendo o datasheet e entre os núcleos ARM e a FPGA eles colocaram alguns barramentos e fornecem ferramentas para integrar. A própria comunidade do Parallela criou o "oh" que é tipo um hello world entre CPU e FPGA
+[2016-10-04 21:54:07] Sim, tem ferramentas
+[2016-10-04 21:54:11] Estou mexendo nelas agora.
+[2016-10-04 21:54:15] São um saco, juro para você.
+[2016-10-04 21:55:04] Na minha opinião, vale a pena aprender a mexer na FPGA antes de mexer com uma forma específica de integração dela com a CPU.
+[2016-10-04 21:55:38] No pior caso dá para usar a Ethernet e falar com o FPGA do Zynq no começo usando a rede né? Sem precisar trocar de placa depois
+[2016-10-04 21:57:01] Acho que dá, se você gravar na flash e rebootar.
+[2016-10-04 21:58:50] Talvez um kit do Zynq bem barato da própria Xilinx seja o ideal. O que gostei do DE0 da Altera é que ele é usado em cursos de FPGA e vi uma galera falando bem do curso que acompanha a placa.
+[2016-10-04 22:00:16] Acho que tem como usar só a FPGA. Se você ligar a placa no kit de VHDL deles é pedir para gravar não deve depender da parte "PS" (como eles chamam
+[2016-10-04 22:10:03] /me@imandabot
+[2016-10-04 22:10:04] Victor
+You've sent 31 (0%) messages and this group has 7374 messages.
+[2016-10-04 22:10:25] /me@imandabot
+[2016-10-04 22:10:25] Sara
+You've sent 12 (0%) messages and this group has 7375 messages.
+[2016-10-04 22:13:32] /me@imandabot
+[2016-10-04 22:13:32] Fernando
+You've sent 37 (0%) messages and this group has 7376 messages.
+[2016-10-04 22:28:26] /me@imandabot
+[2016-10-04 22:28:26] Erin
+You've sent 780 (10%) messages and this group has 7377 messages.
+[2016-10-04 22:28:31] ganhei
+[2016-10-04 22:55:38] #ErinFaladora
+[2016-10-04 22:55:40] perdi o jogo
+[2016-10-04 22:55:47] perdi o jogo
+[2016-10-04 22:59:05] Alguém aí gosta de mídias sociais e quer ajudar na promoção da e-HAL?
+[2016-10-04 23:11:22] alguem ja brincou com BLE?
+[2016-10-04 23:19:11] O que tem pra fazer?
+[2016-10-04 23:19:20] To começando
+[2016-10-04 23:20:12] Ajudar a postar e responder no FB e Twitter, essencialmente.
+[2016-10-04 23:20:51] 👍
+[2016-10-04 23:21:08] Já divulguei para uns amigos que já tinha "pré divulgado"
+[2016-10-04 23:21:26] logo mais baixo uma das imagens e faço um post
+[2016-10-04 23:22:13] Quer ser administrador da página no Facebook?
+[2016-10-04 23:22:24] posso estar sendo!
+[2016-10-04 23:23:42] tem uns ai? eu estou procurando um e tentando entender se da para mesclar o nodo ibeacon com o uso dos PIO
+[2016-10-04 23:24:13] To trazendo uns da CN
+[2016-10-04 23:24:21] para algo parecido
+[2016-10-04 23:25:56] um conhecido tava com um kit da Estimote
+[2016-10-04 23:26:02] mexi BEM pouco com eles
+[2016-10-04 23:27:20] Beatriz joined
+[2016-10-04 23:27:21] Hi Beatriz !

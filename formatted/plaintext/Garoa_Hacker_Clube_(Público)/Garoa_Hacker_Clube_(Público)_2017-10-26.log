@@ -1,0 +1,138 @@
+[2017-10-26 00:53:52] Verdade hahahahaha
+[2017-10-26 01:33:08] https://defdist.org
+[2017-10-26 01:38:40] essa arma ai
+[2017-10-26 01:38:42] ghost
+[2017-10-26 01:38:44] eh massa
+[2017-10-26 01:38:47] da vontade de fazer umas
+[2017-10-26 01:38:54] so pra estudo ;)
+[2017-10-26 01:38:58] cclaro
+[2017-10-26 01:39:16] ate pq sem o disparador nao funciona
+[2017-10-26 01:39:21] que eh a unica coisa de metal que precisa
+[2017-10-26 01:39:27] e eh onde tem o codigo de serie
+[2017-10-26 01:40:52] aposto que o valor vai continuar diminuindo pelo menos por um ano
+[2017-10-26 01:41:39] bitcoin é deflacionária, o preço vai aumentar pra sempre
+[2017-10-26 01:42:11] corrigido: preço e valor são coisas distintas
+[2017-10-26 02:13:55] Não sei. Posso estar errado. Mas na minha percepção é complicado afirmar que "sempre" pra muitas coisas. Principalmente "dinheiro"
+[2017-10-26 02:14:45] é uma das poucas coisas da economia que é mais exatas do que ciências sociais
+[2017-10-26 02:15:02] a diferença entre moeda inflacionária e deflacionária
+[2017-10-26 02:15:20] e eu falei errado, é o valor que aumenta pra sempre
+[2017-10-26 02:15:33] eu sou meio burro pra economia
+[2017-10-26 02:16:26] Tudo bem... Mas o "sempre" tem muitas relatividades possíveis pra poder afirmar
+[2017-10-26 02:17:08] Que nada poxa. Não pense assim.
+[2017-10-26 02:17:22] nesse caso a única coisa que pode acontecer é forçarem remover o limite de mineração
+[2017-10-26 02:17:58] o que é altamente improvável, a menos que tenha um plano bem estabelecido que resulte em ganhos ainda maiores pra quem tem altas quantias guardadas hoje
+[2017-10-26 02:19:48] quando terminar a mineração, as transações vão ter que usar cada vez mais casas decimais, e portanto, sempre que tu for fazer relação entre uma moeda inflacionária qualquer (real, dolar, etc.), a unidade de valor (é assim que se diz?) vai mudando
+[2017-10-26 02:20:09] sempre a moeda inflacionária perdendo valor e a deflacionária ganhando valor na hora da troca
+[2017-10-26 02:20:52] tentando partir deste ponto de vista, o uso mais comum de bitcoins hoje é conversão direta pra dolar americano
+[2017-10-26 02:21:17] ou seja, o que a pessoa realmente faz é enviar a quantidade de bitcoins equivalente a um número suficientemente fixo em dolares americanos
+[2017-10-26 02:21:35] por exemplo, tu vai comprar um colchão num site e paga em bitcoins
+[2017-10-26 02:22:18] tu vai enviar reais brasileiros na verdade, porque tu vai enviar a quantidade equivalente em bitcoins, observada a taxa de conversão real/bitcoin do momento do pagamento
+[2017-10-26 02:23:36] então o valor que as pessoas dão é pra forma peculiar de fazer uma transação financeira
+[2017-10-26 02:24:31] neste caso é seguro afirmar que o valor de uma moeda desta natureza vai continuar aumentando por muito tempo em relação ao dinheiro ortodoxo
+[2017-10-26 07:19:30] /hash sha384 Garoa Hacker Clube
+[2017-10-26 07:19:31] hash sha384 de 'Garoa Hacker Clube':
+
+612014158270d2a911aff63de16c99b69742dac7db7db66c05ec73fdd9b53d71723783320a7a8b54ca18ae392f94d587
+[2017-10-26 07:19:40] /hash sha224 Garoa Hacker Clube
+[2017-10-26 07:19:41] hash sha224 de 'Garoa Hacker Clube':
+
+44bb0ef7101837f18d9db542d1fa9b0c33083d2229ed389f1205f6bf
+[2017-10-26 07:20:04] melhor ainda seria fazer um /sha1 texto
+[2017-10-26 07:21:06] vai aumentar o código do bot
+alguém mais acha melhor fazer um comando pra cada hash?
+[2017-10-26 07:21:20] /sha1
+[2017-10-26 07:21:58] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_20578987906433367.webp
+[2017-10-26 07:22:20] /hash sha1 João Vitor
+[2017-10-26 07:22:39] /hash sha1 João Vitor
+[2017-10-26 07:23:12] agora sim travou de verdade
+[2017-10-26 07:23:42] /hash@mate_obot sha1 João Vitor
+[2017-10-26 07:24:37] /hash sha1 Joao Vitor
+[2017-10-26 07:24:38] hash sha1 de 'Joao Vitor':
+
+7a07cd339511387f2309f920296e7c27e65af413
+[2017-10-26 07:24:51] unicode de novo
+[2017-10-26 07:24:59] de volta ao vim
+[2017-10-26 07:29:53] /hash sha1 João Vitor
+[2017-10-26 07:32:27] hash sha1 de 'João Vitor':
+
+f775e57982c6a70e436641d2730ba20868268f4e
+[2017-10-26 07:32:36] document
+[2017-10-26 08:04:00] Sobre deflação e inflação tudo dependerá na verdade do volume de cada moeda utilizado para comprar commodities Como petróleo por exemplo. O dia que vc pagar o café na padaria com bitcoin aí pode ter um viés de queda.
+[2017-10-26 08:04:12] É isso?
+[2017-10-26 08:17:56] Galera uma coisa é base monetária e outra coisa é nível de preços.
+[2017-10-26 08:19:08] O BTC, hoje, a cada 10min apx são criados 12.5 BTC
+[2017-10-26 08:19:42] portanto a base monetária está aumentando (nesse momento)
+[2017-10-26 08:22:04] Porém o fluxo de capital no sistema está em um nível que ultrapassa essa a oferta de BTC. Por isso vemos o preço subir.
+[2017-10-26 08:25:57] https://medium.freecodecamp.org/lets-enhance-how-we-found-rogerkver-s-1000-wallet-obfuscated-private-key-8514e74a5433
+[2017-10-26 09:12:27] Roz' added italo js
+[2017-10-26 09:12:28] Hi italo !
+[2017-10-26 09:24:47] Hey, what's up jack!
+[2017-10-26 12:06:33] Não, inflação tem a ver com escassez da moeda... quanto mais tem, menos vale... é isso que acontece quando o governo manda imprimir dinheiro...
+[2017-10-26 12:19:11] Peço licença para acrescentar outro fator muito importante, os bancos, que também são agentes multiplicadores monetários. Tem algumas exceções, mas geralmente são grupos que atendem demandas internas do grupo a qual pertence, tipo um banco corporativo
+[2017-10-26 12:21:56] E o multiplicador monetário é uma das variáveis que geram inflação
+[2017-10-26 12:28:48] http://people.ischool.berkeley.edu/~nick/aaronson-oracle/index.html
+[2017-10-26 13:39:31] Também peço licença para passar outro ponto de vista. Quantidade de moeda, seja por emissão, seja por multiplicador bancário, é meio, não causa, de inflação. Inflação se da por varios motivos, sendo talvez os mais importantes (i) nível de utilização dos meios de produção em uma economia (quanto menor a taxa de desemprego, mais se paga por esse fator adicional de produção, por exemplo) frente ao seu potencial e (ii) expectativas junto com inércia. Inflação subiu 10% ano passado. No meu dissídio, vou querer reposição disso
+[2017-10-26 13:40:28] Exemplo disso é que os mercados financeiros mundiais estão abarrotados de moeda e não há inflação. No Brasil, mesma coisa. Há dinheiro sobrando, parado no BC como operações compromissadas, sem gerar inflação
+[2017-10-26 13:42:57] Passamos nos últimos anos, na minha opinião, por um “Minsk moment”. Período de rápida correção de preços após prolongado período no qual a convergência de varios fatores cíclicos permitiram alavancagem excessiva dos agentes. Ainda acho que isso pode acontecer com BT em algum momento
+[2017-10-26 13:46:50] Por tudo isso que já há algumas décadas os economistas não dão mais tanta importância para agregados monetários (quantidade de moeda)
+[2017-10-26 14:09:43] Entendi
+[2017-10-26 14:13:18] Será que em algum momento teremos que corrigir as vírgulas do BTC? Ao contrário do que ocorreu nos planos cruzeiro e cruzado para facilitar o volume de dinheiro carregado sem valor? Aqui seria um questão de limite de casas dos sistemas computacionais
+[2017-10-26 14:16:02] Porque quanto mais reais ele vale mais a direita depois da vírgula o dinheiro novo que entra no sistema vai estar sendo assim um dia 1000 teias pode ser 0,00000000001 BT
+[2017-10-26 14:18:20] Valeu, vou ler sobre esse termo minsk ai 👍
+[2017-10-26 14:20:17] Se alguém algum dia quiser bater um papo sobre economia, só me chamar em private. Sou suspeito, mas gosto do assunto
+[2017-10-26 14:23:35] Já são usadas unidades melhores tipo 0.001 BTC = 1.0 mBTC ~ R$19.00
+[2017-10-26 14:30:27] Quem quiser mandar BTC pro garoa:
+1GHCmeB21BTVQ1W4YwrwrvrgXLjrWiTewP
+[2017-10-26 14:48:09] ai galera
+[2017-10-26 14:48:21] alguem conhece uma forma de quebrar o desafio do recaptcha?
+[2017-10-26 15:12:19] Não tem jeito, pelo que vi os melhores recaptchas solvers ainda precisam de intervenção humana...
+http://scraping.pro/8-best-captcha-solving-services-and-tools/
+[2017-10-26 15:13:24] É um jogo de gato e rato.
+[2017-10-26 15:16:23] Além dos que estão citados no site, também já vi em palestra o Anti-Captcha: https://anti-captcha.com (também com intervenção humana)
+[2017-10-26 15:41:45] Boa tarde , estou com um atrix mb860 , alguém conhece alguma alternativa ao android 2.3 que vem nele ? nem precisa funcionar tudo , só atualizar para android 6 para funcionar telegram por wifi , já estava ótimo.
+[2017-10-26 16:41:59] https://m.tecmundo.com.br/internet/123525-programadores-burlam-recaptcha-armas-propria-google.htm
+[2017-10-26 17:12:03] Eu tinha visto um Paper da black hat de uns pesquisadores em seguranca. Mas, provavelmente o Google ja deu update no reCaptcha pra fechar as brechas
+[2017-10-26 17:14:04] https://www.blackhat.com/docs/asia-16/materials/asia-16-Sivakorn-Im-Not-a-Human-Breaking-the-Google-reCAPTCHA-wp.pdf
+[2017-10-26 17:14:25] Taí o White Paper
+[2017-10-26 17:14:55] https://www.google.com/recaptcha/api2/demo
+[2017-10-26 18:36:49] Quem vai pro garoa hoje ?
+[2017-10-26 18:47:09] Android 6 vai ser dificil, deve ter no maximo o 4.4 ou 5
+[2017-10-26 20:33:29] Acho que se juntar uma galera legal da pra fazer um grupo de iniciante em programação Alessandro tem vontade?
+[2017-10-26 20:35:09] Lembro de você ter comentado que gostaria de estudar mais programação
+[2017-10-26 20:36:45] Opa. Eu topo Lucas. Numa boa.
+[2017-10-26 20:37:50] Eu ainda não pude comparecer no garoa por conta da correria com o término da faculdade. Ainda não tô conseguindo definir bem meus horários. Mas isto é questão de tempo. Eu topo com toda certeza.
+[2017-10-26 20:38:50] Pois é pra mim tá foda também. Tento ir lá ao menos sexta mas o único dia que consigo mesmo é sábado. Daí fica difícil.
+[2017-10-26 20:39:49] Mas vamos manter essa ideia em debate vai que tem mais alguém interessado. Um amigo de fora do garoa está doido pra começar
+[2017-10-26 20:42:00] Combinado então Lucas. Vamos sim. Eu tô dentro.
+[2017-10-26 21:17:20] Funfact: sabia que os humanos no matrix originalmenteneram pra serem processadores
+[2017-10-26 21:17:58] Nas a produçã achou q ia confundir demais os leigoa
+[2017-10-26 21:21:26] Se for para começar do zero e, a depender da linguagem, tenho interesse!
+[2017-10-26 21:24:09] Sim pra começar bem do início Leonel. Eu comecei a estudar a uns 6 meses então estou no começo também.
+[2017-10-26 21:25:21] To aqui me organizando pra enfiar as caras nos estudos de python
+[2017-10-26 21:26:20] Legal. Eu fiz técnico em Processamento de Dados na época do Clipper. Quero aprender Python também.
+[2017-10-26 21:27:19] Uma outra comumente pedida é c#
+[2017-10-26 21:29:20] python pls
+[2017-10-26 21:30:03] Eu estou quebrando a cabeça com o C. Tem seus lados bons e ruins começar em baixo nível.
+[2017-10-26 21:30:21] c/c++ eh bom tb
+[2017-10-26 21:33:34] Sinceramente esse comecinho em que estou (estrutura de dados lineares e ponteiros) acho difícil ter outra lingua na qual fique fácil a visualização desses conceitos fundamentais . Além do que fica mais fácil perceber os paradigmas das outras linguagens de programação
+[2017-10-26 21:34:45] estou convidando gente para a noite do arduino, mas o garoa ocasionalmente está fechado na noite do arduino.  sugestões? nem sempre posso vir abrir.
+[2017-10-26 21:34:55] Mas se todos forem de python beleza vamos juntos. No final das contas é tudo 1 e 0
+[2017-10-26 21:37:01] Eu também, deixei um projetinho com o @fsanches tem quase seis meses
+[2017-10-26 21:37:02] C ou Python. Eu dou um suporte pro grupo
+[2017-10-26 21:38:04] tá comigo. Assim que você quiser pegar de volta, me avisa que eu levo lá pro Garoa
+[2017-10-26 21:38:51] Cara queria terminar, tanto o meu cartucho quanto o seu. Mas tô no último semestre, fazendo TCC, e ainda comecei um curso de back end no Senai
+[2017-10-26 21:39:15] beleza. É só avisar que a gente combina
+[2017-10-26 21:39:48] Nessa de sair de casa as 6:25 e chegar às 23:30 realmente falta tempo pra ir no garoa.
+
+Mas aquele dia que eu fui me deu uma inspirada. Meu TCC usa arduino
+[2017-10-26 21:41:17] Se rolar esse projeto de final de semana, para mim seria uma boa, moro meio longe, mas me organizo
+[2017-10-26 21:42:18] Começar por baixo ? Então vão ser aulas de assembly! Badum tsssss
+[2017-10-26 21:44:23] boa @fourteen14uu
+[2017-10-26 21:45:27] o @michaelhoward9 me deu uma boa dica nessa parada de baixo nível... "seu tempo de vida é finito"
+[2017-10-26 22:16:58] Sobre encontro de programação, topo abrir o Garoa, também gosto de final de semana. Tenho um sobrinho de 14 anos que adoraria participar :)
+[2017-10-26 22:17:32] Pessoal, aproveitando, terça da semana que vem vou retomar o projeto de CPU do zero. Se alguém tiver interesse, bora lá :)
+[2017-10-26 22:22:26] @gustavo_ribeiro show!
+[2017-10-26 22:23:53] E nesse próximo final de semana (o do feriadão) vai ter estudo do circuito da CPU do Zezinho, do ITA, o primeiro computador brasileiro (11 anos antes do Patinho Feio, da Poli)
+[2017-10-26 22:24:38] Tentarei comparecer :)
+[2017-10-26 22:35:17] Pedro joined
+[2017-10-26 22:35:17] Hi Pedro !

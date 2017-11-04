@@ -1,0 +1,51 @@
+[2017-09-04 07:33:26] aliás, qual computador escolheu ?
+[2017-09-04 08:24:22] https://github.com/Cisco-Talos/pyrebox
+[2017-09-04 08:24:27] Cisco-Talos | pyrebox
+
+Python scriptable Reverse Engineering Sandbox, a Virtual Machine instrumentation and inspection framework based on QEMU
+
+Language: Python
+Forks: 100
+Stars: 672
+Issues: 5
+[2017-09-04 09:00:29] Interessante :-) Você está usando isso em algum projeto ?
+[2017-09-04 09:01:14] Ainda não kk, achei interessante por ser python, tava usando o radare2
+[2017-09-04 09:11:38] parabens pela iniciativa
+[2017-09-04 10:38:48] Quem vai no garoa hacker camp?  é 29 de setembro -- https://garoa.net.br/wiki/Garoa_Hackercamp_2017_v2.0
+[2017-09-04 12:05:18] Conheça o laboratório caseiro que restaura e atualiza videogames antigos em SP
+
+http://flip.it/3ZbZ3M
+[2017-09-04 12:11:15] "As resoluções das telas de hoje em dia são muito maiores e deixam os 8 ou 16 bits dos consoles antigos completamente distorcidos." HAHAHHA
+[2017-09-04 12:11:36] Distorcer bits é um conceito um tanto surreal...
+[2017-09-04 12:15:16] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803114442_94295.jpg
+[2017-09-04 15:01:05] Não sabia que o telegram tinha cliente alternativo , boa idéia !
+[2017-09-04 15:21:27] Ola a todos, estava eu pensando na ideia de criar um bot Telegram
+[2017-09-04 15:21:57] minha duvida e o seguinte, com o bot criado, eu poderia enviar mensagens para a lista por uma chamada http?
+[2017-09-04 15:59:53] tipo:  enviar de um script bash: $ curl -i -X GET https://api.telegram.org/bot<apikey>/sendMessage?chat_id=<chatId>&text=<Alerta qualquer do sistema>   ??
+[2017-09-04 16:12:39] Sim, funciona... inclusive tenho um bot assim...
+[2017-09-04 16:58:07] grupy?
+[2017-09-04 16:59:17] Bits quanticos
+[2017-09-04 17:04:10] Sim, para enviar mensagens sempre que surge um novo evento...
+[2017-09-04 20:06:45] .
+[2017-09-04 20:06:51] .
+[2017-09-04 20:06:56] ta no github, gurizada
+[2017-09-04 20:07:02] não tenho tido tempo pra meter a mão nisto
+[2017-09-04 20:07:40] quem quiser ver o bot funcionando me avisa que tem um canal no telegram onde ele fica arquivando esse grupo aqui em modo DEBUG
+[2017-09-04 20:08:10] mas na verdade basta ler a documentação da API de bots do telegram pra pensar em como e onde botar isto
+[2017-09-04 20:08:44] alias, essa pensada tem que ser coletiva porque precisa de um servidor de armazenamento que custa dinheiro
+[2017-09-04 20:09:05] ou então alguém que tenha uma ideia de como extorquir o github ou outro site de armazenamento de sites desse
+[2017-09-04 22:28:15] Social network to practice languages with people around the world
+http://get.speaky.com/JwBt/KUzUaiTfbG
+[2017-09-04 22:37:55] Gente, alguém sabe algum lugar bom pra comprar componentes pra projetos com arduino? Tipo servos, jumpers e essas coisas
+[2017-09-04 22:38:08] Na Internet tem mas o frete mata o propósito
+[2017-09-04 22:38:13] Tinha uma lista de lojas na Wiki do Garoa
+[2017-09-04 22:40:07] Mamute é cara mas tinha uma variedade legal de sensores, jumpers tava ok o preço acho
+[2017-09-04 22:40:29] Multcomercial, sempre lotada...
+[2017-09-04 22:40:51] Dabi ao lado da Mult
+[2017-09-04 22:41:20] Eu não sou bom nisso, não sei pq tou falando aqui...
+[2017-09-04 22:43:14] Eu só conheço umas lojas na Santa efigenia onde comprei uns eeproms
+[2017-09-04 22:44:49] Mamute e cara bagarai
+[2017-09-04 22:45:03] Mas na regiao da santa tem varias baratas
+[2017-09-04 22:45:51] No wiki do Garoa tem uma boa lista de lojas (online e fisicas): https://garoa.net.br/wiki/Lojas
+[2017-09-04 22:46:42] ainda tem espaço para o garoa hacker camp https://garoa.net.br/wiki/Garoa_Hackercamp_2017_v2.0
+[2017-09-04 22:52:07] Ooo vou olhar

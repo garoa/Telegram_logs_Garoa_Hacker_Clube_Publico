@@ -1,0 +1,86 @@
+[2017-04-12 00:00:59] Que isso, já chega compartilhando conhecimento e tralha, os nerd pira :P
+[2017-04-12 00:01:10] huauahuahau
+[2017-04-12 00:34:09] 🙌🏻
+[2017-04-12 02:32:54] http://hackaday.com/2017/04/02/vcf-3d-printing-in-the-80s/
+[2017-04-12 02:33:19] Impressora 3D não é novidade! 😝
+[2017-04-12 04:14:22] Andre joined
+[2017-04-12 04:14:23] Hi Andre !
+[2017-04-12 07:56:52] Bom dia pessoaALL!
+[2017-04-12 08:03:04] Bom dia pessoas ráquers
+[2017-04-12 08:03:32] Estou querendo fazer um treco com arduino
+[2017-04-12 08:03:47] Um contador de movimentos
+[2017-04-12 08:05:15] Por exemplo, coloco um bracelete com um sensor no braço do indivíduo, este faz um movimento (com uma "amplitude" de uns 30/40 cm)
+[2017-04-12 08:06:12] E qdo a pessoa repetir o movimento o arduino registra e vai acumulando as vezes
+[2017-04-12 08:06:37] Que tipo de sensor seria mais adequado?
+[2017-04-12 08:26:45] Depende um pouco. O Arduino vai ficar na pessoa e a pessoa tem que poder se mover ou é um ambiente mais controlado?
+[2017-04-12 08:27:32] O arduino vai ficar na pessoa e ela se move
+[2017-04-12 08:30:38] Uma opção é descobrir qual  seção do braço se estica e usar um Strain Gauge. Ele contaria de uma forma meio "entendeu", "relaxou" com limiares reguláveis.
+[2017-04-12 08:31:37] Pensei tbm em ultrassom, mas acho que ficaria muito chatinha a mecânica pra alinhar e manter certinho.
+[2017-04-12 08:31:59] Entendi a ideia
+[2017-04-12 08:32:23] "estendeu"
+[2017-04-12 08:35:58] Fernando, nunchuck do wii
+[2017-04-12 08:36:27] Legal Oda
+[2017-04-12 10:33:02] ta marcado galerinha: https://www.meetup.com/Grupy-SP/events/239155548/
+[2017-04-12 11:12:37] @od
+[2017-04-12 11:13:04] @eduoda Atualiza a MediaWiki, pr fvr... saiu uns patchs de correção de vuln
+[2017-04-12 11:39:19] Isso não eh comigo
+[2017-04-12 11:39:34] Eu male e male cuido do so
+[2017-04-12 11:44:59] como esta Brasil?
+[2017-04-12 11:47:16] https://www.climatempo.com.br/brasil
+[2017-04-12 13:12:52] Gurulhu joined
+[2017-04-12 13:12:53] Hi Guru !
+[2017-04-12 13:48:42] olha que viagem: http://sudoscript.com/reddit-place/
+[2017-04-12 15:06:14] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803111548_54036.jpg
+[2017-04-12 15:06:14] Iniciativa de governo aberto na educação! http://patiodigital.prefeitura.sp.gov.br/
+[2017-04-12 15:09:44] Estamos perto de 40% da meta para imprimir o livro "Docker Para Desenvolvedores" e 38 dias para o fim da campanha. Quem Não participou! Essa é hora https://www.youtube.com/watch?v=ZXfv5zuQxXg
+[2017-04-12 15:45:56] Felipe estou fazendo um curso que deveria de ter acabado ontem.
+Como a CPTM não ajudou na segunda-feira tudo começou atrasado. Dependendo da hora que acabar aqui acho que não vou chegar a tempo de pegar alguma coisa sobre CoreBoot...
+[2017-04-12 15:53:55] pessoinhas, bora ajudar o calango: https://twitter.com/jesstemporal/status/852232746130866177 quem no poder doar dinheiras manda aquele rt do amor =)
+[2017-04-12 16:13:47] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803119575_35011.jpg
+[2017-04-12 16:14:03] Pessoal,
+
+No sábado 6/5 será comemorado mundialmente o Scratch Day, evento para apoiar e conhecer esta linguagem de programação (https://scratch.mit.edu/).
+
+Visual e gratuita, oferece mais de 21 milhões de projetos de histórias, jogos e animações para crianças e jovens criarem ou remixarem.
+
+Nossa amiga Verônica, mestre e doutoranda em Ensino de Ciências, precisa de voluntários para oferecer oficinas, vivências ou contato com este sistema em São Bernardo entre 10h e 16h. 🙂
+
+Quem puder, por favor entre em contato direto <gsantos.veronica@gmail.com> ou <11 9.5306-4350> até esta sexta-feira santa!
+
+Abração
+Carril
+[2017-04-12 16:25:26] Estamos perto de 40% da meta para imprimir o livro "Docker Para Desenvolvedores" e 38 dias para o fim da campanha. Quem Não participou! Essa é hora https://www.youtube.com/watch?v=ZXfv5zuQxXg
+[2017-04-12 16:35:56] https://www.catarse.me/versao_impressa_do_livro_docker_para_desenvolvedores_c403?ref=ctrse_explore_pgsearch&project_id=52865&project_user_id=80372
+[2017-04-12 17:17:20] Pessoal, alguém tem contato na ROBOCORE? Pensamos em fazer uma promoção no Scratch Day igual aquela da BSides. 😻
+[2017-04-12 17:29:03] Garoa está aberto?
+[2017-04-12 17:30:56] sim
+[2017-04-12 17:31:16] eu e o hugo estamos aqui
+[2017-04-12 17:32:01] ...e, portanto, o sensor da porta indica no site: "Garoa Aberto"
+[2017-04-12 17:32:24] Não tem bot de Garoa aberto?
+[2017-04-12 17:35:12] Toc toc
+[2017-04-12 17:45:10] ronilson, você tá aqui na porta?
+[2017-04-12 17:45:16] fui lá ver e não tinha ninguém
+[2017-04-12 17:45:20] mas estamos aqui
+[2017-04-12 17:45:41] e a campainha está ligada
+[2017-04-12 18:11:01] https://www.youtube.com/watch?v=leFuF-zoVzA
+[2017-04-12 18:11:20] shenzen parece um lugar maravilhoso
+[2017-04-12 18:12:38] ahyahahahah muito bom
+[2017-04-12 19:41:33] Muito legallllllllllllllllllllll
+[2017-04-12 20:25:23] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803113074_35022.jpg
+[2017-04-12 20:28:29] OIA!!!!
+[2017-04-12 20:40:02] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_826459275206328386.webp
+[2017-04-12 20:40:33] Show... meu primeiro computador foi um HotBit...
+[2017-04-12 21:29:03] Studart joined
+[2017-04-12 21:29:04] Hi $tudart !
+[2017-04-12 21:53:57] Classic!
+[2017-04-12 22:10:27] Bom...estive em visita  ao garoa...que experiência incrível..fui bem recebido e aprendi coisas em 3 horas que me farão um cara melhor valew!
+[2017-04-12 22:16:06] HotBit MSX é de 1985 né? por acaso nasceu nesse ano também?
+[2017-04-12 22:16:49] o hotbit é, eu cheguei só uns 9 anos depois
+[2017-04-12 22:17:04] o primeiro msx mesmo é de 83
+[2017-04-12 22:19:14] hum
+[2017-04-12 22:20:45] recomenda algum emulador z80? tava lendo um livro ontem sobre ele
+[2017-04-12 22:20:56] não
+[2017-04-12 22:47:23] Feliz em ouvi (ler) isso! Acho que essa é uma das funções de um hackerspace...
+[2017-04-12 22:50:48] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_50379188993000682.webp
+[2017-04-12 23:03:34] Pq o scratch deixou de ser livre?
+[2017-04-12 23:12:57] @fsanches como foi o CoreBoot!?

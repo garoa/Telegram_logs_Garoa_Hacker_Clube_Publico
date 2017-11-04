@@ -1,0 +1,22 @@
+#!/bin/bash
+
+echo "Forma de utilização"
+echo "./Script.sh Seu nome"
+
+echo "Olá $1, quer saber suas informações? Dê apenas um Enter"
+
+read
+
+whoami
+ifconfig
+pwd
+netstat
+history
+last
+date
+uptime
+whois
+who
+top
+jobs
+

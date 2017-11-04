@@ -1,0 +1,167 @@
+[2016-09-19 01:39:14] achamos!
+[2016-09-19 08:35:42] Rafael Carreiro joined
+[2016-09-19 08:35:46] Hi Rafael !
+[2016-09-19 08:40:07] Bom dia galera!
+[2016-09-19 11:00:46] Não entendi bem a ideia... Seria montar portas usando transistores ou simplesmente ter uma placa com um integrado padrão do tipo 74xxx / 40xx identificando entradas e saídas? O primeiro é um pouco trabalhoso e talvez complicado demais para quem está começando. O segundo poderia ser feito de forma simples colocando os integrados em uma protoboard e colando no CI um etiqueta com a pinagem.
+[2016-09-19 11:02:20] https://www.google.com.br/search?q=74xx+pinouts+labels&tbm=isch
+[2016-09-19 12:19:39] https://libreboot.org/gnu/
+[2016-09-19 12:21:01] Estou acompanhando essa questão. É um tema importante e delicado. Mas acho que evoluiu de uma forma cheia de vícios nesse caso em particular.
+[2016-09-19 12:22:22] eu não acho nem um pouco unreasonable a fsf devolver o dinheiro pra garota.
+[2016-09-19 12:23:02] pessoalmente concordo 100% com o posicionamento da libreboot
+[2016-09-19 12:31:20] Ederson Badeca joined
+[2016-09-19 12:31:21] Hi Ederson Badeca !
+[2016-09-19 12:57:09] Devolver doação? Nunca vi uma demanda tão bizarra.
+[2016-09-19 13:00:57] http://www.rlsystem.com.br/curso-android-gratis/
+[2016-09-19 13:03:36] se pensar como indenização, acho que faz sentido.
+[2016-09-19 13:04:49] Mas para isso precisaria ir para a disputa na justiça e não por esse caminho da acusação em público sem nem sequer apresentar provas/evidencias
+[2016-09-19 13:05:29] Não estou dizendo que não aconteceu nada. Só estou dizendo que nós, observadores externos, não temos como comprovar ou refutar as acusações feitas
+[2016-09-19 13:06:26] Eu pensei na ideia de fazer 3 placas básicas de portas básicas, AND, OR, NOT usando a menor qtd de componentes. Baseado na logica DiodeLogic  https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Diode_AND2_Ideal_Diode.jpg/400px-Diode_AND2_Ideal_Diode.jpg
+[2016-09-19 13:06:58] eu não to acompanhando e nem sabia da história, tô lendo agora. mas de forma geral, sempre tem o caminho dos tribunais e do acordo entre as partes pra evitar a dispouta na justiça. então acho que ela já pediu o que acha justo receber.
+[2016-09-19 13:07:47] Claro. Faz sentido. Mas não tá escrito nesses termos.
+[2016-09-19 13:09:25] Até mesmo por que esse tipo de coisa se faz entre as partes e não em público. Essa postagem está mais pra publich-shaming do que pra uma etapa de negociação extra-judicial.
+[2016-09-19 13:09:39] *public
+[2016-09-19 13:09:47] é uma proposta de acordo, mesmo que unilateral. eles podem aceitar ou não. enfim.
+[2016-09-19 13:11:27] Se a intenção fosse propor negociação não teria sido feito em público como foi feito. A intenção aparenta ser causar o maior dano possível à imagem da organização.
+[2016-09-19 13:11:43] essas placas, teriam o mesmo tamanho, conectores de entrada e padronizadas para permitir vc trocar uma funcao por outra facilmente. usando aquele conector que usamos nas portas do arduino. a ideia seria as portas AND e OR terem somente duas variaveis
+[2016-09-19 13:12:07] Inclusive, ela afirma nessa mesma postagem que não há intenção de levar o caso para a justiça.
+[2016-09-19 13:12:49] mais para exemplificar como seria uma porta logica internamente de forma mais simples possível. contudo. a porta NOT precisa de um transistor.
+[2016-09-19 13:13:13] eh legal usar CIs de porta logica, eh mais legal usar as portas logicas no sw do arduino
+[2016-09-19 13:13:21] oh! Esqueci de mencionar que eu conheço a Leah Rowe pessoalmente. Eu a conheci na LibrePlanet em Boston no começo do ano, durante os workshops de Libreboot.
+[2016-09-19 13:13:50] mas acho que a ideia de ter uma placa simples com leds mostrando as duas entradas e uma saida
+[2016-09-19 13:14:07] padronizada
+[2016-09-19 13:15:14] permite que até crianças possam montar e com um estoque de placas montadas, pode se montar num quadro na parede uma funcao de portas logicas não tao discretas assim.
+[2016-09-19 13:15:39] ela faz oposição à FSF? tipo, vc acha previsível isso? Eu não sou da área e não conheço ninguém, só pra entender o que tem a ver.
+[2016-09-19 13:15:56] a outra ideia seria montar placas acessorias para arduino, placa de saida de led, entrada por ldr,
+[2016-09-19 13:16:06] sensor controle remoto
+[2016-09-19 13:17:55] Quando tem acordo por fora do tribunal, tem um mediador designado pra isso, não? Galera raivosa com tochas na mão não media nada. Chamar público que está por fora pra tomar partido não leva a acordos mútuos.
+[2016-09-19 13:19:20] @dudedias A Leah é mantenedora do projeto Libreboot, que recentemente foi incorporado ao Projeto GNU. Ou seja, ela até então teve um forte alinhamento com o Projeto GNU e também com a FSF. Mas por conta da demissão de uma pessoa não identificada, a Leah assumiu publicamente essa postura. E está xingando não só a FSF (ONG onde ocorreu a demissão) assim como o Projeto GNU como um todo.
+[2016-09-19 13:21:11] Existe sim uma forte relação política entre a FSF e o Projeto GNU. A história de ambos é extremamente entrelaçada. Entretanto, não dá pra soltar um "Fuck GNU" em resposta à suposta atitude de um funcionário da FSF. É um exagero e é uma violência gratuita.
+[2016-09-19 13:22:02] bom, vou almoçar e pensar nisso.
+[2016-09-19 13:22:56] Vamos supor que de fato tenha ocorrido um caso de discriminação de gênero. Seria o caso de culpar a organização como um todo (FSF) ou a maça-podre (funcionário que supostamente tomou atitude discriminatória) ?
+[2016-09-19 13:23:29] Essa é uma pergunta difícil de se responder, claro. Agora e o Projeto GNU, o que tem a ver com isso tudo ?!?!?!
+[2016-09-19 13:25:38] Vai saber o que rolou até chegar a esse ponto. Pra gente pode parecer desproporcional, mas pode ter sido algo bem sério. Não vou medir a reação, mas acho que a FSF também poderia buscar conciliação e não dizer "tem nada a ver, gente".
+[2016-09-19 13:26:12] (esperando o elevador :P)
+[2016-09-19 13:26:24] basicamente isso.
+[2016-09-19 13:27:16] bom... em OFF a gente não sabe o que está rolando
+[2016-09-19 13:27:25] se a fsf tivesse explicado e se desculpado ao invés de querer empurrar tudo pra debaixo do tapete e fingir que nada aconteceu, não teria gerado esse efeito barbara streissand
+[2016-09-19 13:27:26] a gente só sabe o que aparece aos olhos do úblico
+[2016-09-19 13:28:49] bem... podem estar (a) fingindo que nada aconteceu ou (b) constatando que nada aconteceu. Aos olhos de quem vê daqui de fora distinguir entre (a) e (b) é praticamente impossível
+[2016-09-19 13:30:22] veja como esse statement pode ser interpretado tanto como (a) ou (b) dependendo de como a gente tiver vontade de interpretá-lo: http://www.fsf.org/news/free-software-foundation-statement
+[2016-09-19 13:39:18] o jeito que eu vejo é que a fsf fez 0 de esforço pra provar o que aconteceu, e sim apenas pra tirar o seu da reta
+[2016-09-19 13:39:31] mas né, é só minha interpretação
+[2016-09-19 13:42:38] bem... esforço pra provar foi zero por ambas as partes.
+[2016-09-19 13:44:23] Eu não tenho informação suficiente para ter uma opinião tão forte. Questões trabalhistas dos EUA não podem ser divulgadas pelo empregador, sob um risco jurídico forte, então só dá para ouvir um lado. E o discurso do libreboot mudou entre o primeiro email (ela foi demitida por ser trans e a FSF considerou isto um risco) para os outros mais tarde (a FSF foi conivente com assédio).
+
+Especificamente com doação, independentemente do argumento, acho que a FSF não está sob obrigação nenhuma de devolver. Doações são coisas definitivas, e se não tinham condições definidas na época, não dá para criar depois. Não é uma conta corrente.
+[2016-09-19 13:44:47] Como a Libreboot provaria algo sem expor nomes de pessoas?
+Até há nomes, mas dos responsáveis em ambas as partes, que nesse caso são pessoas públicas.
+[2016-09-19 13:44:48] se um lado (FSF) fez o mínimo necessário pra, nas suas palavras, "tirar o seu da reta", pode-se ver também que o outro lado (um anônimo by proxy por meio da Leah Rowe) fez de tudo pra botar na reta da FSF... mas também não provou nada
+[2016-09-19 13:46:30] ou seja... até agora é só "diz-que-diz"
+[2016-09-19 13:46:50] dificil opinar
+[2016-09-19 13:50:38] Se o fato alegado ocorreu, que seja tomada a devida ação judicial. Todo o resto assumi esse tom de public-shaming sem nenhuma chance de surtir qualquer tipo de efeito positivo.  Inclusive, por conta desses exageros nas táticas usadas, pode inclusive
+ causar efeitos colaterais negativos para a defesa da igualdade/pluralidade 
+de gênero nas empresas/organizações de tecnologia.
+[2016-09-19 13:50:55] *assume
+[2016-09-19 13:52:34] por que abre precedente pros machistas e transfóbicos usarem a tática suja de desqualificar como louca.
+[2016-09-19 14:07:33] @mynameiserin , em geral quem acusa é que tem o ônus da prova.
+[2016-09-19 14:17:36] Alguém indica um gerenciador de download para OS X?
+[2016-09-19 14:20:24] Costumo usar o DownloadThemAll para algumas coisas, mas não todas
+[2016-09-19 14:21:12] Beleza
+[2016-09-19 14:52:27] Por outro lado, a Leah está defendendo alguém que não é ela. Ela provavelmente só tem um lado da história. Se os motivos que a FSF teve para demitir forem sérios, eu prefiro que a FSF trate a ex funcionária com respeito e discrição do que iniciar uma inquisição. Demissão em lugares que não estão passando por redução sistemática não costumam ser coisas simples nem fáceis, mesmo nos EUA e principalmente em ONGs
+[2016-09-19 14:56:35] Chamei a Erin, mas acho que vocês também gostariam... http://www.falandodevarejo.com/2016/09/shopping-sp-market-recebe-o-museu-do.html?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+falandodevarejo+%28Falando+de+Varejo%29
+[2016-09-19 19:03:25] pra quem for bom de javascript:
+console.log(array) mostra uma array com objetos dentro
+JSON.stringify(array) retorna "[]"
+array é uma variável que não (deveria) muda(r) entre as duas chamadas
+explique.
+[2016-09-19 19:35:06] Pessoal, apenas um lembrete: amanhã tem reunião do CMC.
+[2016-09-19 19:44:14] Verdade... tinha até esquecido!
+[2016-09-19 20:15:21] Agora estou curioso pela resposta...
+[2016-09-19 20:15:56] sim, eu também :) hora que descobrir me avisa?
+[2016-09-19 20:16:30] Apostaria a necessidade de casta estilo toObject e cia.
+[2016-09-19 20:16:38] Não tenho como testar
+[2016-09-19 20:17:03] Qual Engine? Node? Browser?
+[2016-09-19 20:17:40] browser/webview android
+[2016-09-19 20:18:27] Peço ajuda pros universitários
+[2016-09-19 20:18:34] com a descricao passada nao da para falar nada
+[2016-09-19 20:18:34] mas se quiser dar risada:
+https://www.destroyallsoftware.com/talks/wat
+[2016-09-19 20:18:41] Manda a saída do console.log
+[2016-09-19 20:18:53] adoro essa apresentação
+[2016-09-19 20:19:31] @drmadera te faço melhor, mostro o source https://github.com/LabHackerSP/agendapublica/blob/master/client/www/js/agenda.js
+[2016-09-19 20:19:48] Falando em universitários, desfiguraram o site do Mackenzie hj
+[2016-09-19 20:19:54] mas precisa compilar com o cordova e rodar em android (device ou emulador) pra ter acesso às notificações
+[2016-09-19 20:20:14] Vejamos
+[2016-09-19 20:20:21] tem foto ai?
+[2016-09-19 20:20:33] point in question começa na linha 120
+[2016-09-19 20:21:03] Consegue mandar a saída do teu console.log?
+[2016-09-19 20:21:32] só pegando meu laptop, a sdk tá lá, pera..
+[2016-09-19 20:21:35] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803707467_98494.jpg
+[2016-09-19 20:21:36] (acabei de chegar em casa)
+[2016-09-19 20:21:37] Tá
+[2016-09-19 20:21:50] isso q é faculdade boa
+[2016-09-19 20:22:16] Fala assim não. Os professores são top.
+[2016-09-19 20:22:32] Mas os estags do site são nubas...
+[2016-09-19 20:23:34] O homem mais inteligente que já conheci na minha vida eh professor aqui. Luciano Silva. Deve ter QI de 420-450
+[2016-09-19 20:23:39] Facil rs
+[2016-09-19 20:24:28] Procurem o currículo do indivíduo. Mas só se tiverem bastante ram pra carregar a página lattes dele.
+[2016-09-19 20:27:21] Object
+> scheduled: Array[0]
+> triggered: Array[1]
+> __proto__: Object
+[2016-09-19 20:27:32] essa é a saída do console.log(lembretes)
+[2016-09-19 20:27:42] dentro do array triggered tem 1 objeto esperado
+[2016-09-19 20:28:22] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803716045_97756.jpg
+[2016-09-19 20:28:33] essa é a saída do stringify dessa mesma variável
+[2016-09-19 20:31:39] Meu subconsciente está gritando lá no fundo dos corredores dos neurônios que eu já tive esse problema. Só não estou lembrando o que foi que fiz. Mas se for o que estou pensando, se trata de um problema bastante comum!
+[2016-09-19 20:31:54] Pena que não serei de maior ajuda neste caso :(
+[2016-09-19 20:32:53] <captain>StackOverflow talvez ajude</captain>
+[2016-09-19 20:37:03] vale lembrar que o console.log eh assincrono
+[2016-09-19 20:37:35] ou seja, a coisa pode ter sido settada depois de vc ver ela ali no console
+[2016-09-19 20:37:54] hum, but how
+[2016-09-19 20:38:07] coloquei log antes do stringify e depois, ambos são iguais
+[2016-09-19 20:38:16] mano
+[2016-09-19 20:38:23] assincrono
+[2016-09-19 20:38:27] antes e depois nao tem sentido
+[2016-09-19 20:41:23] da uma olhada em console.log(json.stringify(lembretes)), ou console.log(lembretes.triggered.toString())
+[2016-09-19 20:41:29] nao abri o codigo, preguica..
+[2016-09-19 20:43:44] console.log lembrete mostra 1 objeto na array triggered, console.log stringify mostra arrays vazios
+[2016-09-19 20:43:57] o terceiro mostra Uncaught ReferenceError: triggered is not defined
+[2016-09-19 20:44:15] tô cofusa
+[2016-09-19 20:44:56] nvm, vi um typo
+[2016-09-19 20:45:03] o terceiro mostra string vazia
+[2016-09-19 20:47:41] Erin, eh o seguinte, abre o firebug ai e digita isso:
+[2016-09-19 20:49:06] parent = { child: {'lala': 17} };
+
+console.log(parent);
+console.log(JSON.stringify(parent));
+
+parent.child = {}
+[2016-09-19 20:49:10] e roda
+[2016-09-19 20:49:16] depois tira a ultima linha e roda
+[2016-09-19 20:49:37] note a diferenca no console quando vc clica na saida de console.log(parent);
+[2016-09-19 20:50:06] o lance eh que o que vc ve no console nao eh o valor do instante em que vc mandou imprimir la
+[2016-09-19 20:50:44] o stringify pega o valor do seu objeto e joga numa string anonima
+[2016-09-19 20:50:53] que portanto nao vai mudar depois
+[2016-09-19 20:51:22] ai se vc der um console.log(json.stringify(obj)) a saida eh a do instante que vc deu o comando
+[2016-09-19 20:51:54] ja console.log(obj) nao tem essa garantia
+[2016-09-19 20:53:21] resumindo, aposto que no seu codigo tem mais coisa acontecendo assincronamente que vc nao ta se ligando e o momento que vc da o print no stringify a sua variavel nao ta inicializada ainda
+[2016-09-19 20:53:49] mas quando o console.log resolve executar, a variavel ja foi inicializada
+[2016-09-19 20:58:46] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_999077034489544837.webp
+[2016-09-19 21:02:20] o legal de ,depois de uns instantes, vc ler o que escreveu eh que fica claro como vc eh um fracasso em ser compreensivel, mesmo quando achou que era sucesso
+[2016-09-19 21:05:57] Rsrs
+[2016-09-19 21:06:02] Nois!
+[2016-09-19 21:31:06] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_532581502391686702.mp4
+[2016-09-19 21:35:06] haha
+[2016-09-19 21:35:15] Hahahh
+[2016-09-19 21:40:36] Acho que eu nunca visitei um parque privado.
+[2016-09-19 21:57:16] será que $(document).on("pagebeforeshow") está disparando antes de carregar o plugin do cordova? Aí pode ser que elements esteja vazio mesmo
+[2016-09-19 21:57:58] *lembretes esteja vazio @mynameiserin
+[2016-09-19 21:58:32] ele dispara toda vez que a página de lembretes é aberta.. não antes..
+[2016-09-19 21:58:57] ou seja, é por ação do usuário, bem depois que o cordova terminou de carregar..
+[2016-09-19 22:22:26] se o stringify ta vazio eh pq ele ta vazio :D
+[2016-09-19 22:28:11] estou aqui pensando no seguinte: JS eh de fato uma porcaria, mas quem aqui ainda nao entendeu pq o console.log da uma coisa e o stringify da outra nao tem direito de falar mal AHuHAhAUHU
+[2016-09-19 23:17:28] ainda bem que eu não falei mal, só vim pedir ajuda :)
+[2016-09-19 23:56:10] TL;DR: tive problemas com arrays vazios no Cordova várias vezes
+[2016-09-19 23:58:18] Uma coisa que acontecia no Cordova/Ionic mas não Angular era array/hash vir vazio se eu não tivesse declarado ele antes com o tipo dele
+[2016-09-19 23:59:01] Se só declarava sem especificar, 99% das vezes, ao usar posteriormente, vinha vazio

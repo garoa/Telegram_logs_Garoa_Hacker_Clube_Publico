@@ -1,0 +1,84 @@
+[2017-03-15 09:54:31] Fernando Saraiva joined
+[2017-03-15 09:54:31] Hi Fernando !
+[2017-03-15 11:21:01] https://www.facebook.com/GaroaHC/posts/1267866219958052 Este sábado: #Processing + #Python + #Arduino + Potenciômetros => Jogo Pong! No FabLab do CEU Heliópolis
+[2017-03-15 11:56:25] morri! que incrivel!!!! se eu conseguir chegar no lugar, to dentro :)
+[2017-03-15 12:01:19] Bom dia!
+[2017-03-15 12:01:25] Show!
+[2017-03-15 12:31:06] https://twitter.com/stoj_io/status/840222647489318914
+[2017-03-15 12:31:28] 😝
+[2017-03-15 12:34:55] http://int10h.org/oldschool-pc-fonts/fontlist/
+[2017-03-15 13:49:52] Foda!!! 😃
+[2017-03-15 14:02:31] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_446404499720896621.webp
+[2017-03-15 16:07:21] Trabalho incrível sendo feito pelo Archive Team para preservar cópias dos vídeos de cursos online da Universidade da Califórnia, Berkeley que estão prestes a serem tirados do ar pela instituição de ensino: http://www.archiveteam.org/index.php?title=UC_Berkeley_Course_Captures
+[2017-03-15 16:27:38] Vocês que conhecem mais do Kicad que eu, tem alguma forma de exportar uma lista de material usável com ele?
+[2017-03-15 16:29:18] Não sei dizer... talvez o @aylons saiba
+[2017-03-15 16:29:41] O mais próximo de uma Bill Of Materials que eu vi até agora é aquela tela de associação de footprints
+[2017-03-15 16:29:58] mas eu posso simplesmente desconhecer alguma feature de geração de BOM do programa
+[2017-03-15 16:32:00] Tem sim. Tem inclusive uns scripts que geram BOMs bem legais. Quando eu chegar no computador eu escrevo uma ajuda sobre isso. Mas a gestão de BOM do Kicad deixa a desejar e é um recurso que está sendo implementado para o 5
+[2017-03-15 16:32:55] Se procurar por Kicad Bom Script no google acha o script de que estou falando
+[2017-03-15 16:34:07] Achei isso também: http://www.davidhaillant.com/how-to-generate-a-bom-in-kicad-4-0/
+[2017-03-15 17:27:54] Estou mandando inbox para o pessoal interessado nas artes marciais pra gente tentar fechar um horário. Mais alguém?
+[2017-03-15 18:01:05] Vou dar uma caçada nisso, no Altium eu já gero direto para uma lista da Digikey, tô com um projeto aqui que queria montar e é em Kicad, por isso tô nesse perrengue hahaha
+[2017-03-15 18:01:53] Você vai gostar do BOM manager novo do Kicad. Mas por enquanto, o script é ótimo e a Digikey importa a lista
+[2017-03-15 18:10:27] Aylons, tô até agora batendo cabeça aqui com ele. :( Consegui gerar o XML, mas dai para frente está fogo
+[2017-03-15 18:21:34] http://elcoyote.org/como-a-vigilancia-sera-no-futuro/
+[2017-03-15 19:16:46] É permitido anunciar eletrônicos aqui ?
+[2017-03-15 19:19:31] Com moderação, e se você não entrou só para isso, eu diria que sim. Mesma regra da lista de email do Garoa
+[2017-03-15 19:22:21] não entrei só para isso, estou aqui há um bom tempo e é algo pontual, não sou um comerciante :p
+[2017-03-15 19:22:57] http://sp.olx.com.br/sao-paulo-e-regiao/computadores-e-acessorios/lenovo-t400-316478450 ... bom para instalar libreboot
+[2017-03-15 19:38:30] Legal!
+[2017-03-15 19:38:44] Só uma dica: "Wireless: Intel 5100 802.11a/g/n" Precisa de firmware non-free
+[2017-03-15 19:39:42] Mas uma saída é arrancar a placa wireless da intel e usar um dongle-wifi-usb certificado pela FSF
+[2017-03-15 19:41:31] 👍
+[2017-03-15 19:43:57] Pra quem tiver curiosidade, o projeto da Quad RS-232 https://github.com/PY1CX/Qual-Serial/tree/master
+[2017-03-15 19:46:22] Alguém vai abrir o Garoa hoje?
+[2017-03-15 19:51:18] Se for mesmo pra instalar o libreboot, depois é só trocar a placa interna q a whitelist não existirá mais :p
+[2017-03-15 19:51:20] Semana passada eu resolvi estudar o código fonte do único chip wifi que tem firmware livre (até onde seu dizer). Mas fiquei atordoado com a quantidade de conhecimentos necessários sobre os protocolos wireless. Fiquei boiando enquanto lia o datasheet do chip da Atheros e dúzias de páginas da Wikipedia...
+[2017-03-15 19:51:45] pois é... whitelist do inferno!
+[2017-03-15 20:18:48] Aberto o CFP para a BSidesSP v14 http://sp14.securitybsides.com.br/cfp-pt/
+[2017-03-15 20:35:29] Boa noite, alguém poderia me ajudar com a seguinte situação: um colega da família está com a irmã desaparecida a 2 dias, o whats dela estão usando, apagaram informações do face dela, porém a família foi a delegacia e se recusaram a fazer BO pq o existe alguém usando as informações dela
+[2017-03-15 20:36:55] Alegaram que não é caracterizado desaparecimento se o celular e redes sociais estão em uso, existe alguma forma de rastrear
+[2017-03-15 20:46:26] Eita, nunca vi isso
+[2017-03-15 20:46:56] Nunca vi a polícia se recusar a fazer um BO porque as redes sociais de uma pessoa desaparecida estão em uso... isso tem que ser denunciado...
+[2017-03-15 20:47:57] Eles alegam que o prazo são 72hs
+[2017-03-15 20:48:25] Isso ocorreu depois de uma briga com 2 amigas e no dia seguinte foi pagar um boleto
+[2017-03-15 21:04:47] Como sabe que estão usando o whats dela?
+[2017-03-15 21:05:44] Porque mandaram mensagem para família como se fosse com um linguajar nunca usado pela mesma, por não atenderem o celular, excluírem as redes sociais
+[2017-03-15 21:07:45] Tenta entrar em contato com a operadora, mas acho estranho não deixarem fazer bo
+[2017-03-15 22:09:14] corvolino joined
+[2017-03-15 22:09:41] Opa, boa noite. Alguém aqui usa ou tem um lapdock + RPI2?
+[2017-03-15 22:22:59] Thiago Policena joined
+[2017-03-15 22:22:59] Hi Thiago !
+[2017-03-15 22:24:07] sim
+[2017-03-15 22:42:47] Eu estou com um problema, até mandei um e-mail na lista. Eu comprei um cabo pronto em Y. Aí encaixo tudo e ao abrir a tampa ele não detecta o hdmi e depois apaga a tela e mostra o boot e depois apaga e da boot e apaga de novo e não acontece mais nada.
+[2017-03-15 22:42:54] Alguma sugestão?
+[2017-03-15 22:43:26] a luz do lapdock permanece ligada?
+[2017-03-15 22:53:55] Já testou o Lapdock com algum outro dispositivo HDMI para ver se ainda fica intermitente?
+[2017-03-15 23:01:28] Tenho outro plugin e testei e deu a mesma coisa
+[2017-03-15 23:01:31] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803111518_37750.jpg
+[2017-03-15 23:03:02] Ian Fernandez joined
+[2017-03-15 23:03:02] Hi Ian !
+[2017-03-15 23:03:09] /help@jackbot
+[2017-03-15 23:03:11] Message me first so i can message you !
+[2017-03-15 23:03:34] Olá,
+[2017-03-15 23:04:07] eu estou muito interessado em visitar o hackerspace algum dia
+[2017-03-15 23:04:45] eu vi no site o sensor que enviava quando abria mas achei que estava desatualizado
+[2017-03-15 23:05:12] é só chegar lá qualquer dia de noite ou em algum evento?
+[2017-03-15 23:06:38] Oi ian, é só chegar. Em geral, as quartas, quintas e sextas são boas noites pra conhecer o Garoa. O sensor da porta está funcionando
+[2017-03-15 23:08:28] então o lapdock ainda está fornecendo energia pro rpi, o que significa que o lapdock sabe que tem hdmi ligado nele. o que significa que ou a saída de hdmi do rpi tá bixada ou a tela do lapdock tá bixada
+[2017-03-15 23:08:40] chutando alto com essas poucas informações
+[2017-03-15 23:09:31] Então, eu fiz um armengue e liguei ele por outro cabo e a tela funcionou normal..
+[2017-03-15 23:10:02] então o lapdock tá bixado
+[2017-03-15 23:10:10] Eu gerei a energia por outro aparelho para ligar o pi e a tela ficou de boa. Só não funcionou teclado e mouse
+[2017-03-15 23:10:41] O lapdock é novo.. ué
+[2017-03-15 23:10:44] vou fazer uma pergunta bem besta
+[2017-03-15 23:10:48] o lapdock tá carregado?
+[2017-03-15 23:10:59] Ele está ligado no carregador agora
+[2017-03-15 23:11:01] nenhum lapdock é novo, o atrix nem existe mais ;)
+[2017-03-15 23:11:06] é new old stock
+[2017-03-15 23:11:36] ou teus cabos tão ruins ou o lapdock tá bixado
+[2017-03-15 23:11:56] sem poder fuçar pessoalmente pra ter mais informação não consigo troubleshootear mais do que isso
+[2017-03-15 23:12:17] Ok, obrigado.
+[2017-03-15 23:21:49] creio que seja o cabo, liguei com adaptadores de mouse e teclado e funcionou ok (apesar de dar o sinal de input hdmi)
+[2017-03-15 23:34:33] Lamento, nossa polícia é um lixo. Já tive um amigo desaparecido. Mesmo depois das 72hs, eles se limitam a registrar o BO, não fazem nada além disso.
+[2017-03-15 23:56:48] fiz um armengue aqui e está funcionando o teclado :P

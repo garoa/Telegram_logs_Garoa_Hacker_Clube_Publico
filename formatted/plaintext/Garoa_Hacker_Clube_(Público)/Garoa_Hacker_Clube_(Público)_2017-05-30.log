@@ -1,0 +1,904 @@
+[2017-05-30 00:01:47] Quero
+[2017-05-30 00:02:52] Só vejo falarem em pudim
+[2017-05-30 00:02:52] Quero ++
+[2017-05-30 00:03:01] O pudim em si não vi
+[2017-05-30 00:03:47] Fabien Sanglard, autor do código no qual me baseei, comentou hoje no github: "This debugger is absoluetly gorgeous." https://github.com/felipesanches/mame/issues/9
+[2017-05-30 00:03:49] ERROR
+[2017-05-30 00:05:53] Vou fazer um pudim de microondas qualquer dia, se não for essa semana é na outra
+[2017-05-30 00:06:32] QQ dia eu faço 1 lasanha pra levar
+[2017-05-30 00:06:34] e vc leva o pudim
+[2017-05-30 00:06:35] huahuauha
+[2017-05-30 00:11:08] Fexou
+[2017-05-30 00:21:25] E alguem paga a coca
+[2017-05-30 00:21:29] pq tudo isso sem cocacola
+[2017-05-30 00:21:33] nao tem graça
+[2017-05-30 00:21:54] eu pago a coca-cola
+[2017-05-30 00:22:14] fechou
+[2017-05-30 00:22:18] @anchisesbr quero muito conversar com você sobre a distinção política x politicagem. Mas eu prefiro que seja a vivo, vai ser mais produtivo.
+[2017-05-30 00:22:20] soh precisamos combinar o dia
+[2017-05-30 00:22:41] pra ter uma ideia de quantas pessoas vão
+[2017-05-30 00:22:50] pra poder quantificar os ingredientes 😆
+[2017-05-30 00:23:00] Fexou
+[2017-05-30 00:23:12] o meu ta fácil,  rsrsrs
+[2017-05-30 00:23:23] o seu aumenta 1 garrafa por pessoa
+[2017-05-30 00:23:24] uahuahuauha
+[2017-05-30 00:23:28] eu tomo 1 sozinho de 2l
+[2017-05-30 00:23:35] (em 3 horas +-)
+[2017-05-30 00:23:36] hahauhauhah
+[2017-05-30 00:23:43] eu tb
+[2017-05-30 00:23:50] poutz
+[2017-05-30 00:23:58] Vamo marcar mais pra frente então, aí vai ser a primeira atividade de vcs
+[2017-05-30 00:24:01] vamos ter que hackear o refil do BK
+[2017-05-30 00:24:04] coca cola é vida
+[2017-05-30 00:24:08] Rsrsrsrs
+[2017-05-30 00:24:15] okay pudim
+[2017-05-30 00:24:15] La é pepsi
+[2017-05-30 00:24:25] putz 2
+[2017-05-30 00:24:33] pudim de Coca Cola
+[2017-05-30 00:24:37] huauhahuahua
+[2017-05-30 00:24:53] 👍😁  Você acha que não dá para parar o GPU quando o CRT precisa desenhar a tela?
+[2017-05-30 00:25:05] Então mas ai vai ter que ter algo que a galera tambem faça, alguma oficina
+[2017-05-30 00:25:26] Olá galerinha, venho por meio dessa divulgar um "puta projeto daora mêu" da universidade onde eu estudava. Falta menos de uma semana para o fim do crowdfunding, vamos apoiar essa iniciativa!
+"O que queremos fazer?
+Queremos unir mentes e forças para fabricar e montar o espaço que será a casa do Laboratório de Tecnologias Livres da UFABC e da comunidade hacker do ABC . Desde a criação do projeto, feito digitalmente, até a montagem, todo o processo será feito de forma colaborativa e com fonte aberta, usando tecnologias maker.
+Para isso, vamos imprimir um laboratório."
+
+https://imasters.com.br/noticia/projeto-constroi-primeiro-wikilab-de-sao-paulo/?trace=824205206&source=news-home
+
+https://www.catarse.me/wikilab
+[2017-05-30 00:38:00] Ok pode ser, so acho muito estranho tanto o tema quanto o time o tema "sindpd" parece pesquisa de satisfação, poderia ser direitos do trabalhador e clt, e num momento que se discute fim da obrigação da contribuição sindical
+[2017-05-30 00:38:41] acho que sim. É bem provavel que isso funcione :-)
+[2017-05-30 00:42:32] Gostaria de participar também.
+[2017-05-30 00:45:12] E nao concordo com eu vou abrir e pronto, pois ate agora ninguém foi autoritario, se partimos pra esse vies nao chegaremos a um entendimento, pra isso temos um conselho, se o concelho decidir que esta aberto para o acento ok, se nao nao vai acontecer.
+[2017-05-30 00:48:29] A VM que você tem faz o desenho direito na VRAM?
+[2017-05-30 07:45:45] Cade o pudim 🍮!?
+[2017-05-30 08:02:56] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_532583259033331558.mp4
+[2017-05-30 08:21:42] Windows Update...
+[2017-05-30 08:29:00] MarcioRAGarcia joined
+[2017-05-30 08:29:01] Hi MarcioRAGarcia !
+[2017-05-30 08:34:41] o desenho é feito direto na VRAM, sim
+[2017-05-30 08:34:48] Mas são 4 blocos de VRAM
+[2017-05-30 08:35:01] e há opcodes pra trocar qual deles é exibido
+[2017-05-30 08:35:25] (isso é o que eu lembro de cabeça. Seria bom eu olhar pro código de novo, peraí...)
+[2017-05-30 08:36:33] https://github.com/felipesanches/mame/blob/anotherworld/src/mame/video/anotherworld.cpp
+[2017-05-30 08:52:52] A implementação no MAME hoje usa 4 buffers de vídeo "de trabalho" e um buffer de display (é feita a cópia de um dos 4 para o buffer de display uma vez a cada atualização de frame, por meio do método void another_world_state::updateDisplay(uint8_t pageId) que é invocado quando a VM executa o opcode 0x10 "blitFramebuffer" ou quando termina um "frame", ou seja, após terminar um ciclo de execução das 64 threads)
+[2017-05-30 12:15:15] Ih, escarolei 400 mensagens agora cedo. Aí vc me quebra
+[2017-05-30 12:15:16] Hahahaha
+[2017-05-30 12:15:45] Eu acho que devemos divulgar mais o pastafranismo, inclusive exigir que essa palavra seja reconhecida pelo sistema de reconhecimento de voz do iPhone
+[2017-05-30 12:15:51] Não se esqueça dos Umbandistas, CandombleZistas, Budistas, Surfistas
+[2017-05-30 12:15:52] rs
+[2017-05-30 12:16:03] Desculpe... nao pude deixar de comentar...
+[2017-05-30 12:16:11] Sandro, concordo plenamente
+[2017-05-30 12:16:38] O fato é que, por um bem maior, algumas coisas que podem ou devem ser discutidas em outro ambito, acabam gerando desconforto em meio à fraternidade...
+[2017-05-30 12:16:56] Entao existirá essa linha no garoa? Que existem assuntos que o garoa não abriga?
+[2017-05-30 12:17:05] Política virou religião?
+[2017-05-30 12:17:06] Acho que, ser hacker, independe de cor, raça, credo...
+[2017-05-30 12:17:12] Pro garoa?
+[2017-05-30 12:17:28] Como uma organização que prima por estudos, política é uma área
+[2017-05-30 12:17:30] Pode ter certeza de que muitos adoram mais politicos do que a quaisquer Deuses...
+[2017-05-30 12:17:44] Sim, infelizmente
+[2017-05-30 12:18:04] photo
+[2017-05-30 12:18:13] Alguém manja como funciona uma dessas?
+[2017-05-30 12:18:25] Leitora de Injeção eletronica
+[2017-05-30 12:18:25] Se dizer apolítico também virou religião
+[2017-05-30 12:18:31] Único problema, é que o pastrafanismo é uma religião claramente sexista, pois ele acredita na existência de um Deus com bolas.
+Podemos criar uma vertente dessa religião, onde a figura divina seria representada por um espaguete ao sugo, e assim ficaria mais inclusivo
+[2017-05-30 12:18:43] Entao ? Quem estava discutindo sou eu e pelo simples fato do vou abrir e pronto, meu ponto é temos um concelho pra arbitrar e eu acompanho o concelho
+[2017-05-30 12:18:51] Se pode política, porque não pode religião?
+[2017-05-30 12:19:23] Não pode religião?
+[2017-05-30 12:19:43] Em algumas religiões o estado e a politica
+[2017-05-30 12:19:59] Pessoal, não eh questao de poder ou nao poder... vc pode se matar? pode, mas por bom senso e valores (ou ausencia deles) vc nao se mata
+[2017-05-30 12:20:31] eh mais para evitar quaisquer intempéries entre os membros/associados/manda-chuvas/diretoria do Garoa (That is my opinion)
+[2017-05-30 12:20:37] Certo. E o garoa como espaço usa o bom senso como?
+[2017-05-30 12:20:52] sabem o que acho mais impressionante? justamente quem reclama da suposta aboliçao a discussao politica no garoa nao faz nada pelo garoa, se fazia nao sei, mas hoje em dia que precisamos de mais socios, estamos indo a um problema financeiro e problemas de nao terem atividades interessantes rolando o tempo todo, NGM APARECE PRA AJUDAR.. mas pra criticar algo que pessoas que frequentam e ajudam o espaço ATUALMENTE aparece mais que barata em cemiterio
+[2017-05-30 12:20:56] Deixo claro que não falo sobre discussões aqui ou na lista
+[2017-05-30 12:21:24] entao vamos focar em falar pelo menos de algo util aqui no grupo
+[2017-05-30 12:21:25] Olha na pagina do garoa ten um link chamado estatuto, da uma lida essas duvidas estão la
+[2017-05-30 12:22:01] Eu fui 1 vez, mas me identifiquei muito... Aguardarei para que dentro das regras do Garoa eu possa evoluir e contribuir...
+[2017-05-30 12:22:02] Será que as frequentes desassociações não tem relação com o ambiente tóxico para determinados assuntos? 😉
+[2017-05-30 12:22:34] Deixem o lema "Polemizar" de lado, pessoal...
+[2017-05-30 12:22:44] Cutucar o outro, soh gera mais atrito...
+[2017-05-30 12:22:56] Sobre a iorgutera ou tekpix
+[2017-05-30 12:22:56] Desculpa veio pingando essa
+[2017-05-30 12:23:10] E btw, de acordo com o estatuto, artigo 3 item 4: a garantia da livre iniciativa de seus associados na proposição e execução de projetos (eventos?) individuais ou coletivos
+[2017-05-30 12:23:31] Tenho 2 topterms aqui da pra fazer uma pah de iogurte com LACTOBACÍLLLLIOS vivos
+[2017-05-30 12:24:55] Dá para fazer pudim com lactobacilo vivo?
+[2017-05-30 12:25:10] Caipirinha da. E é boa.
+[2017-05-30 12:25:13] Pode ser sobre aspectos hackers em religião
+[2017-05-30 12:25:14] hahahahahah Nao sei se ele resistirá à temperatura
+[2017-05-30 12:25:31] Leia o restante
+[2017-05-30 12:25:31] E como as leis da robotida 🖖
+[2017-05-30 12:25:31] Uma lei nao pode vir sobre a outra, se la diz que nao pode politica religiao
+[2017-05-30 12:25:37] Seria Jesus um hacker da morte?
+[2017-05-30 12:25:51] Como hasckear os "Irmãos" com E.S.
+[2017-05-30 12:26:02] Ele hasckeou a vida e a morte mano
+[2017-05-30 12:26:03] huahuahua
+[2017-05-30 12:26:29] Se isso não é um hacker raiz, não sei o que é
+[2017-05-30 12:26:52] Não achei nada falando que não pode política nem religião
+[2017-05-30 12:27:02] Enquanto cada um pensar apenas no seu proprio ponto de vista, haverão discussões infrutíferas...
+[2017-05-30 12:27:09] Inclusive o artigo 6 fala exatamente que não pode existir discriminação por esses motivos :)
+[2017-05-30 12:27:19] o problema nao eh assunto politico e sim o interesse a motivaçao absurda da galera de ficar cutucando pessoas que tem opnioes diferentes
+[2017-05-30 12:27:22] isso que ta fudendo tudo
+[2017-05-30 12:27:25] Inclusive eu acho que devemos anunciar a santa Ifigenia como santa oficial do garoa
+[2017-05-30 12:27:39] Continue lendo
+[2017-05-30 12:27:43] FALOU TUDO!
+[2017-05-30 12:27:50] Zzz chegue ao ponto
+[2017-05-30 12:27:56] E tenho dito...
+[2017-05-30 12:28:19] Perfeito! Sim!
+[2017-05-30 12:28:23] Canonizada está a Santa Efigenia, protetora dos hackers oprimidos
+[2017-05-30 12:28:35] eu sou totalmente a favor de focar em tecnologia simplesmente pelo motivo que eu sei que esse assunto nao vai ter essa putaria de cutucaçao
+[2017-05-30 12:28:39] somente porisso
+[2017-05-30 12:29:08] se a galera quiser ficar se cutucando tem varios outros grupos e lugares
+[2017-05-30 12:29:15] tipo na augusta
+[2017-05-30 12:29:23] E se focar em tecnologia com viés político?
+[2017-05-30 12:29:27] Até mesmo as atas das reuniões geram cutucação por aqui.
+[2017-05-30 12:29:28] la vem
+[2017-05-30 12:29:43] O ideal seria perguntar para quem saiu, em vez de tentar adivinhar. Se for para jogar opiniões, eu acho que contribuem para isso o constante descaso com o nosso espaço, nem essa sujeira e falta de manutenção, A falta de atividades relacionadas a hacking, A falta de foco na lista e nesse grupo. Sem falar que faz bastante tempo que a gente não faz uma festa no nosso espaço. Sem falar que a gente passa mais tempo reclamando do que fazendo coisas, chegou uma hora que só ouvir reclamação cansa
+[2017-05-30 12:29:53] Ou como usar a tecnologia para melhorar a política
+[2017-05-30 12:29:57] Pode?
+[2017-05-30 12:30:03] pode claro
+[2017-05-30 12:30:05] Faz todo sentido, sério mesmo! mas faz sentido pra você ou pro garoa? Ou no caso do evento que alguém irá (infoproletariados)
+[2017-05-30 12:30:54] Eu propuz esta madrugada uma lasanha, que o Guisso vai fazer o pudim, e o Dente levará a coca-cola
+[2017-05-30 12:31:17] poderíamos organizar-nos e fazermos um evento educativo no dia, voltado para os intuitos do Garoa
+[2017-05-30 12:31:43] todo mundo gosta de comida, inclusive as veganas, logo isso nao da atritom logo eh uma boa ter uma atividade assim
+[2017-05-30 12:31:48] ?eh dificil pensar assim
+[2017-05-30 12:32:02] Certo! Mas o que vem primeiro (juro que to falando numa boa querendo realmente entender), vem as pessoas felizes pra arrumar e depois gerar um ambiente saudável pra qualquer assunto, ou gera o ambiente e as pessoas vem por consequencia?
+[2017-05-30 12:32:43] Porque toda discussão acaba virando 'shitstorm' pq vira discussão se a discussão deveria existir no garoa pra começo de conversa
+[2017-05-30 12:32:49] Questão interessante
+[2017-05-30 12:32:49] Entao viram 2
+[2017-05-30 12:32:50] A conversa que se seguiu a minha fala é a prova do que foi dito. 
+Triste.
+[2017-05-30 12:32:52] o problema eh que estamos falando de pessoas, logo o ambiente sempre vai mudar
+[2017-05-30 12:32:54] And so on
+[2017-05-30 12:33:11] Btw... Fazemos 1 lasanha pra quem nao eh vegano e outra pros veganos
+[2017-05-30 12:33:16] suave, basta confirmar quem vai
+[2017-05-30 12:33:20] montar 1 listinha
+[2017-05-30 12:33:31] o sandro saca dos veganos, eu como tudo
+[2017-05-30 12:33:33] auehauehae
+[2017-05-30 12:33:33] fazer 1 crowdfunding
+[2017-05-30 12:33:49] e ser felizes com conhecimento e bem alimentados
+[2017-05-30 12:33:50] huahuahua
+[2017-05-30 12:34:11] Estou no trem e minha net é tim nao tenho como procurar la
+[2017-05-30 12:34:18] Sim, já pensei nisso algumas vezes
+[2017-05-30 12:34:26] De preferência com um pudim feito com ingredientes macios
+[2017-05-30 12:35:07] Sim , claro
+[2017-05-30 12:35:16] pode ser feito NO, nao DE microondas
+[2017-05-30 12:35:17] rsrsrsrsrs
+[2017-05-30 12:15:15] Ih, escarolei 400 mensagens agora cedo. Aí vc me quebra
+[2017-05-30 12:15:16] Hahahaha
+[2017-05-30 12:15:45] Eu acho que devemos divulgar mais o pastafranismo, inclusive exigir que essa palavra seja reconhecida pelo sistema de reconhecimento de voz do iPhone
+[2017-05-30 12:15:51] Não se esqueça dos Umbandistas, CandombleZistas, Budistas, Surfistas
+[2017-05-30 12:15:52] rs
+[2017-05-30 12:16:03] Desculpe... nao pude deixar de comentar...
+[2017-05-30 12:16:11] Sandro, concordo plenamente
+[2017-05-30 12:16:38] O fato é que, por um bem maior, algumas coisas que podem ou devem ser discutidas em outro ambito, acabam gerando desconforto em meio à fraternidade...
+[2017-05-30 12:16:56] Entao existirá essa linha no garoa? Que existem assuntos que o garoa não abriga?
+[2017-05-30 12:17:05] Política virou religião?
+[2017-05-30 12:17:06] Acho que, ser hacker, independe de cor, raça, credo...
+[2017-05-30 12:17:12] Pro garoa?
+[2017-05-30 12:17:28] Como uma organização que prima por estudos, política é uma área
+[2017-05-30 12:17:30] Pode ter certeza de que muitos adoram mais politicos do que a quaisquer Deuses...
+[2017-05-30 12:17:44] Sim, infelizmente
+[2017-05-30 12:18:04] photo
+[2017-05-30 12:18:13] Alguém manja como funciona uma dessas?
+[2017-05-30 12:18:25] Leitora de Injeção eletronica
+[2017-05-30 12:18:25] Se dizer apolítico também virou religião
+[2017-05-30 12:18:31] Único problema, é que o pastrafanismo é uma religião claramente sexista, pois ele acredita na existência de um Deus com bolas.
+Podemos criar uma vertente dessa religião, onde a figura divina seria representada por um espaguete ao sugo, e assim ficaria mais inclusivo
+[2017-05-30 12:18:43] Entao ? Quem estava discutindo sou eu e pelo simples fato do vou abrir e pronto, meu ponto é temos um concelho pra arbitrar e eu acompanho o concelho
+[2017-05-30 12:18:51] Se pode política, porque não pode religião?
+[2017-05-30 12:19:23] Não pode religião?
+[2017-05-30 12:19:43] Em algumas religiões o estado e a politica
+[2017-05-30 12:19:59] Pessoal, não eh questao de poder ou nao poder... vc pode se matar? pode, mas por bom senso e valores (ou ausencia deles) vc nao se mata
+[2017-05-30 12:20:31] eh mais para evitar quaisquer intempéries entre os membros/associados/manda-chuvas/diretoria do Garoa (That is my opinion)
+[2017-05-30 12:20:37] Certo. E o garoa como espaço usa o bom senso como?
+[2017-05-30 12:20:52] sabem o que acho mais impressionante? justamente quem reclama da suposta aboliçao a discussao politica no garoa nao faz nada pelo garoa, se fazia nao sei, mas hoje em dia que precisamos de mais socios, estamos indo a um problema financeiro e problemas de nao terem atividades interessantes rolando o tempo todo, NGM APARECE PRA AJUDAR.. mas pra criticar algo que pessoas que frequentam e ajudam o espaço ATUALMENTE aparece mais que barata em cemiterio
+[2017-05-30 12:20:56] Deixo claro que não falo sobre discussões aqui ou na lista
+[2017-05-30 12:21:24] entao vamos focar em falar pelo menos de algo util aqui no grupo
+[2017-05-30 12:21:25] Olha na pagina do garoa ten um link chamado estatuto, da uma lida essas duvidas estão la
+[2017-05-30 12:22:01] Eu fui 1 vez, mas me identifiquei muito... Aguardarei para que dentro das regras do Garoa eu possa evoluir e contribuir...
+[2017-05-30 12:22:02] Será que as frequentes desassociações não tem relação com o ambiente tóxico para determinados assuntos? 😉
+[2017-05-30 12:22:34] Deixem o lema "Polemizar" de lado, pessoal...
+[2017-05-30 12:22:44] Cutucar o outro, soh gera mais atrito...
+[2017-05-30 12:22:56] Sobre a iorgutera ou tekpix
+[2017-05-30 12:22:56] Desculpa veio pingando essa
+[2017-05-30 12:23:10] E btw, de acordo com o estatuto, artigo 3 item 4: a garantia da livre iniciativa de seus associados na proposição e execução de projetos (eventos?) individuais ou coletivos
+[2017-05-30 12:23:31] Tenho 2 topterms aqui da pra fazer uma pah de iogurte com LACTOBACÍLLLLIOS vivos
+[2017-05-30 12:24:55] Dá para fazer pudim com lactobacilo vivo?
+[2017-05-30 12:25:10] Caipirinha da. E é boa.
+[2017-05-30 12:25:13] Pode ser sobre aspectos hackers em religião
+[2017-05-30 12:25:14] hahahahahah Nao sei se ele resistirá à temperatura
+[2017-05-30 12:25:31] Leia o restante
+[2017-05-30 12:25:31] E como as leis da robotida 🖖
+[2017-05-30 12:25:31] Uma lei nao pode vir sobre a outra, se la diz que nao pode politica religiao
+[2017-05-30 12:25:37] Seria Jesus um hacker da morte?
+[2017-05-30 12:25:51] Como hasckear os "Irmãos" com E.S.
+[2017-05-30 12:26:02] Ele hasckeou a vida e a morte mano
+[2017-05-30 12:26:03] huahuahua
+[2017-05-30 12:26:29] Se isso não é um hacker raiz, não sei o que é
+[2017-05-30 12:26:52] Não achei nada falando que não pode política nem religião
+[2017-05-30 12:27:02] Enquanto cada um pensar apenas no seu proprio ponto de vista, haverão discussões infrutíferas...
+[2017-05-30 12:27:09] Inclusive o artigo 6 fala exatamente que não pode existir discriminação por esses motivos :)
+[2017-05-30 12:27:19] o problema nao eh assunto politico e sim o interesse a motivaçao absurda da galera de ficar cutucando pessoas que tem opnioes diferentes
+[2017-05-30 12:27:22] isso que ta fudendo tudo
+[2017-05-30 12:27:25] Inclusive eu acho que devemos anunciar a santa Ifigenia como santa oficial do garoa
+[2017-05-30 12:27:39] Continue lendo
+[2017-05-30 12:27:43] FALOU TUDO!
+[2017-05-30 12:27:50] Zzz chegue ao ponto
+[2017-05-30 12:27:56] E tenho dito...
+[2017-05-30 12:28:19] Perfeito! Sim!
+[2017-05-30 12:28:23] Canonizada está a Santa Efigenia, protetora dos hackers oprimidos
+[2017-05-30 12:28:35] eu sou totalmente a favor de focar em tecnologia simplesmente pelo motivo que eu sei que esse assunto nao vai ter essa putaria de cutucaçao
+[2017-05-30 12:28:39] somente porisso
+[2017-05-30 12:29:08] se a galera quiser ficar se cutucando tem varios outros grupos e lugares
+[2017-05-30 12:29:15] tipo na augusta
+[2017-05-30 12:29:23] E se focar em tecnologia com viés político?
+[2017-05-30 12:29:27] Até mesmo as atas das reuniões geram cutucação por aqui.
+[2017-05-30 12:29:28] la vem
+[2017-05-30 12:29:43] O ideal seria perguntar para quem saiu, em vez de tentar adivinhar. Se for para jogar opiniões, eu acho que contribuem para isso o constante descaso com o nosso espaço, nem essa sujeira e falta de manutenção, A falta de atividades relacionadas a hacking, A falta de foco na lista e nesse grupo. Sem falar que faz bastante tempo que a gente não faz uma festa no nosso espaço. Sem falar que a gente passa mais tempo reclamando do que fazendo coisas, chegou uma hora que só ouvir reclamação cansa
+[2017-05-30 12:29:53] Ou como usar a tecnologia para melhorar a política
+[2017-05-30 12:29:57] Pode?
+[2017-05-30 12:30:03] pode claro
+[2017-05-30 12:30:05] Faz todo sentido, sério mesmo! mas faz sentido pra você ou pro garoa? Ou no caso do evento que alguém irá (infoproletariados)
+[2017-05-30 12:30:54] Eu propuz esta madrugada uma lasanha, que o Guisso vai fazer o pudim, e o Dente levará a coca-cola
+[2017-05-30 12:31:17] poderíamos organizar-nos e fazermos um evento educativo no dia, voltado para os intuitos do Garoa
+[2017-05-30 12:31:43] todo mundo gosta de comida, inclusive as veganas, logo isso nao da atritom logo eh uma boa ter uma atividade assim
+[2017-05-30 12:31:48] ?eh dificil pensar assim
+[2017-05-30 12:32:02] Certo! Mas o que vem primeiro (juro que to falando numa boa querendo realmente entender), vem as pessoas felizes pra arrumar e depois gerar um ambiente saudável pra qualquer assunto, ou gera o ambiente e as pessoas vem por consequencia?
+[2017-05-30 12:32:43] Porque toda discussão acaba virando 'shitstorm' pq vira discussão se a discussão deveria existir no garoa pra começo de conversa
+[2017-05-30 12:32:49] Questão interessante
+[2017-05-30 12:32:49] Entao viram 2
+[2017-05-30 12:32:50] A conversa que se seguiu a minha fala é a prova do que foi dito. 
+Triste.
+[2017-05-30 12:32:52] o problema eh que estamos falando de pessoas, logo o ambiente sempre vai mudar
+[2017-05-30 12:32:54] And so on
+[2017-05-30 12:33:11] Btw... Fazemos 1 lasanha pra quem nao eh vegano e outra pros veganos
+[2017-05-30 12:33:16] suave, basta confirmar quem vai
+[2017-05-30 12:33:20] montar 1 listinha
+[2017-05-30 12:33:31] o sandro saca dos veganos, eu como tudo
+[2017-05-30 12:33:33] auehauehae
+[2017-05-30 12:33:33] fazer 1 crowdfunding
+[2017-05-30 12:33:49] e ser felizes com conhecimento e bem alimentados
+[2017-05-30 12:33:50] huahuahua
+[2017-05-30 12:34:11] Estou no trem e minha net é tim nao tenho como procurar la
+[2017-05-30 12:34:18] Sim, já pensei nisso algumas vezes
+[2017-05-30 12:34:26] De preferência com um pudim feito com ingredientes macios
+[2017-05-30 12:35:07] Sim , claro
+[2017-05-30 12:35:16] pode ser feito NO, nao DE microondas
+[2017-05-30 12:35:17] rsrsrsrsrs
+[2017-05-30 12:35:21] De certas maneiras tem muita gente se perguntando isso no garoa
+[2017-05-30 12:35:29] mas eh o jeito de falar mesmo
+[2017-05-30 12:35:39] document
+[2017-05-30 12:36:21] O garoa já foi um dos espaços mais abertos que conheci. Lá se falava de tudo
+[2017-05-30 12:36:25] E tava sempre cheio
+[2017-05-30 12:36:33] Sempre houveram brigas mas tudo era resolvido
+[2017-05-30 12:36:42] por experiencia, conversar e discussoes referente a cultura em um hackerspace, o que vem primeiro eh o ambiente ser util pra quem visita e frequenta. Em um hackerspace tem que existir coisas, assuntos, pessoas e ferramentas que nao se acha em qualquer lugar pra se tornar um espaço interessante pra quem frequenta, pra quem apoia, pra quem ajuda e de consequencia pra quem visita
+[2017-05-30 12:36:44] Mas acho que antes de levantar questões individuais, tem que ver se eh produtivo e válido para a comunidade como um todo... Senão, vai parecer o planalto (cada um puxando a sardinha para si)
+[2017-05-30 12:36:52] Depois começou uma etapa de não podemos brigar, não podemos ter discussão, e as pessoas foram se afastando
+[2017-05-30 12:37:12] discussão e briga, eh igual aluno e estudante
+[2017-05-30 12:37:14] coisas distintas
+[2017-05-30 12:37:18] essa eh a verdade que doi, nao estamos falando de utopia
+[2017-05-30 12:37:19] discutir , muitas vezes eh sadio
+[2017-05-30 12:37:26] o lugar precisa ser util
+[2017-05-30 12:37:33] nao eh casa da mae joana
+[2017-05-30 12:37:40] nao eh boteco tb
+[2017-05-30 12:37:41] Exato
+[2017-05-30 12:37:52] (tem cerveja @tilt4 )
+[2017-05-30 12:37:53] hahah
+[2017-05-30 12:37:54] O que é útil pra um, não é pra outro
+[2017-05-30 12:37:54] brinks
+[2017-05-30 12:38:01] Por isso um espaço 'aberto'
+[2017-05-30 12:38:02] :)
+[2017-05-30 12:38:09] Então não pode ter cerveja
+[2017-05-30 12:38:10] Pra que todos façam dele útil
+[2017-05-30 12:38:11] Pensa numa folha de papel
+[2017-05-30 12:38:16] tem muitas utilidades
+[2017-05-30 12:38:19] se fosse boteco tinha garçom
+[2017-05-30 12:38:29] cerveja eu tenho em casa
+[2017-05-30 12:38:31] e nao eh boteco
+[2017-05-30 12:38:33] parem de encher o saco
+[2017-05-30 12:38:40] vao assitir netflix
+[2017-05-30 12:38:41] Deixa eu tentar ser didático… O garoa é um grupo sobre hacking. O foco do grupo é qualquer coisa que a gente possa fazer sobre hacking ou relacionado a isso. Qualquer assunto fora disso, é off-topic. E, como tal, corre o risco de não agradar a maioria dos frequentadores. Existem outros grupos e fóruns para discutir política, religião, economia, futebol, etc. existem centenas ou milhares deles! Nesses grupos você vai achar praticamente 100% do pessoal interessado em falar sobre esses assuntos. Aqui, não vai haver interesse de muita gente!
+[2017-05-30 12:38:43] Peraê... minha casa tem cerveja
+[2017-05-30 12:38:45] GAROA BOTECOOOOO
+[2017-05-30 12:38:46] e nao eh buteco
+[2017-05-30 12:38:46] rs
+[2017-05-30 12:38:49] Discordo, te falo de varias pessoas que se afastaram ou querem se afastar por que nao aguentam mais pessoas que so querem discutir que nunca ajudaram em nada no garoa
+[2017-05-30 12:38:58] Garoa Drunk´s
+[2017-05-30 12:39:04] document
+[2017-05-30 12:39:23] Pois é :) exatamente
+[2017-05-30 12:40:09] E como isso se aplica a raiz da discussão atual?
+[2017-05-30 12:40:17] isso ta bastante comum, a quantidade de parasitas que so usam, que nao doam nem conhecimento, nem uma historia de vida ta cheio.. eu mesmo desmotivei varias vezes de ir pro garoa por isso, e as pessoas que tao se doando ao maximo tao comecando a sair tb
+[2017-05-30 12:40:28] Minha dúvida exata
+[2017-05-30 12:40:44] Eu acabei de chegar
+[2017-05-30 12:40:52] Sou provavelmente um dos mais novos
+[2017-05-30 12:41:17] Mas tenho grande interesse em contribuir (a titulo de exemplo, nunca tinha tocado 1 arduino... E programei e ajudei pessoas que foram la com duvidas...
+[2017-05-30 12:41:19] )
+[2017-05-30 12:41:27] Tah certo que foi 1 "If zinho"
+[2017-05-30 12:42:41] mas contribui e me senti satisfeito em ter feito, com ajuda para o raciocinio do @marcelodente  e do mestre jedi que estava com ele (nao conversamos ao ponto de trocar nomes kkk )
+[2017-05-30 12:43:15] mas o importante eh que o rapaz que tava com um projeto de arduino enroscado, resolveu uma grande parte do problema e saiu satisfeito...
+[2017-05-30 12:43:38] Isso sim é um problema. E coibir algum tipo de discussão no garoa ajuda nesse cenário ou piora?
+[2017-05-30 12:45:20] Acho que não está sendo coibida... Esta não é a palavra exata, está sendo discutida a atenuação do assunto, de maneira a não gerar desconforto pra ninguem... Se pensarem no proximo, sempre havera algum assunto que será evitado, para um bem maior (a harmonia no Garoa)
+[2017-05-30 12:45:50] Será que esse pisar em ovos não é o que torna todo assunto impossível de comentar?
+[2017-05-30 12:46:15] O garoa em si não deveria só abrigar ao invés de escolher?
+[2017-05-30 12:46:18] coibir assuntos que estao fora do guarda chuva da tecnologia, ajuda a deixar o ambiente melhor. (visao de quem participa, monta atividades, convida amigos e nao de uma pessoa que so assistir o circo pegar fogo comendo pipoca)
+[2017-05-30 12:47:01] Certo. Ultimamente só tem eventos de tecnologia. Tá dando certo? As coisas melhoraram?
+[2017-05-30 12:47:05] o nosso unico problema era a falta de presença feminina no espaço, estavamos comecando a arrumar isso
+[2017-05-30 12:47:17] agora ta essa de politica por conta da nossa situacao atual do pais
+[2017-05-30 12:47:56] Estou perguntando pra saber mesmo, não pra validar algo
+[2017-05-30 12:48:04] (Discussão por aqui, sucks)
+[2017-05-30 12:48:08] ai que ta, qnd rola so coisa referente a tecnolgia, sempre da certo, o problema eh que comecou a rolar eventos que nao tem a ver com isso que maioria so trouxe pessoas que nao estao alinhadas a cultura hacker
+[2017-05-30 12:48:11] Mais que eventos lá
+[2017-05-30 12:48:45] Hummm, entendo
+[2017-05-30 12:48:51] É, faz sentido
+[2017-05-30 12:48:55] e isso e fato e pronto
+[2017-05-30 12:49:00] nao tem pq ficar tentando achar pelo em ovo
+[2017-05-30 12:49:04] Não não, faz sentido mesmo
+[2017-05-30 12:49:47] Então vamos "atenuar" a presença de pessoas de fora da cultura hacker?
+[2017-05-30 12:50:04] Mas Nesses casos, as pessoas fazem outras atividades fora do tema? Viram sócias ou algo do tipo?
+[2017-05-30 12:51:23] no mundo real, somente pessoas que estao alinhadas a cultura hacker, estao dispostas a compartilhar. (isso dentro da proposta de existencia do garoa)
+[2017-05-30 12:51:43] algumas viraram socias mas nem chegam a pagar o primeiro mes, maioria so vai 1x
+[2017-05-30 12:51:50] e andam por ai com a camisa do garoa
+[2017-05-30 12:51:55] e falam que faz parte
+[2017-05-30 12:52:04] o afonso tem um ponto
+[2017-05-30 12:52:19] Hmm, acha que o problema então pode ser a associação?
+[2017-05-30 12:52:22] Então pessoas que se interessarem mas não fizerem parte não vão participar?
+[2017-05-30 12:52:31] Porque o uso do espaço em si não acho que deveria ser limitado
+[2017-05-30 12:52:46] nao to dizendo em limitaçao, e sim falta de estimulacao
+[2017-05-30 12:52:50] Indeed
+[2017-05-30 12:53:19] acho que nao eh bom estimular a realizar coisas que nao dao certo e sim focar no temos certeza que dao
+[2017-05-30 12:53:29] puxando da lembranca os ultimos que se afastaram ou desassociaram foi por falta de tempo ou $ ou pq se encheu da groselhada politica
+[2017-05-30 12:53:45] Então estão procurando o ponto G do Garoa?
+[2017-05-30 12:53:46] Isso não é muito hacker hahahahahaha
+[2017-05-30 12:54:08] /stat@combot
+[2017-05-30 12:54:08] combot.org/chat/-1001050919227
+[2017-05-30 12:54:09] Concordo
+[2017-05-30 12:54:23] Matou a charada!
+[2017-05-30 12:55:23] (Ps: joke)
+[2017-05-30 12:55:25] to dizendo sobre coisas pontuais, como oficina de tricot
+[2017-05-30 12:55:45] Substring("Garoa",1,1)
+[2017-05-30 12:55:49] rsrs
+[2017-05-30 12:55:55] Claro que tem coisas assim
+[2017-05-30 12:57:35] Mas o problema está no espaço que deixa de abrigar outra coisa (colisão de eventos)
+[2017-05-30 12:57:36] mudando um pouco o rumo da conversa
+[2017-05-30 12:57:39] http://g1.globo.com/natureza/noticia/dinamarca-tem-cerveja-feita-com-cevada-fertilizada-com-urina-humana.ghtml
+[2017-05-30 12:57:54] Ou na questão dessas pessoas menos 'hacker' virarem sócias?
+[2017-05-30 12:58:12] Quero toma mijo nao... to de boas...
+[2017-05-30 12:58:36] kkkkkkkkkkkkkk
+[2017-05-30 12:58:40] eu to falando das coisas mais em uma preocupacao a sobrevivencia do espaço, e todas essas questoes inflienciam isso
+[2017-05-30 12:58:44] Ou ambas? Ih nenhuma
+[2017-05-30 12:58:47] O mijo foi o fertilizante da cevada
+[2017-05-30 12:59:00] Ou vc prefere cocô de vaca?
+[2017-05-30 12:59:01] Então....
+[2017-05-30 12:59:02] Se tem mais pessoas indo, é mais chance de $
+[2017-05-30 12:59:04] Kk
+[2017-05-30 12:59:13] Prefiro cocô de vaca...
+[2017-05-30 12:59:16] Ela soh come mato...
+[2017-05-30 12:59:19] Mas pode ser menos alinhado ao perfil
+[2017-05-30 12:59:27] Nao usa drogas, nao fuma, nao tem substancias ruins no xixi
+[2017-05-30 12:59:41] Nesse quesito, o que qualifica é o produtor do estrume ser vegetariano? Hahahahahahahha
+[2017-05-30 12:59:44] agente achava isso, mas nao eh a verdade. A verdade eh que quanto mais pessoas indo mais trabalho pros associados que abrem e mantem o espaco
+[2017-05-30 13:00:33] e vimos que o perfil dessas pessoas, maioria nao tava alinhada ao que queremos no garoa, de por exemplo um associado passar a bola pra pessoa ajudar em algo pra diminuir a carga
+[2017-05-30 13:00:37] Sim sim... nesse caso sou "vegano" hahaha
+[2017-05-30 13:00:52] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_372589645583615040.webp
+[2017-05-30 13:01:06] maioria tava tipo "consumidores" em vez de participantes
+[2017-05-30 13:01:28] Pois eh ...
+[2017-05-30 13:01:43] Eu, como mencionei, to chegando agora......
+[2017-05-30 13:01:58] Não serei um "consumidor", apenas... rsrs
+[2017-05-30 13:02:03] pois eh
+[2017-05-30 13:02:33] I swear
+[2017-05-30 13:02:33] rs
+[2017-05-30 13:02:47] Em termos praticos: o problema não são os eventos, são as pessoas que não arrumam e / ou viram associadas sem o espírito correto
+[2017-05-30 13:02:52] Simplificando, seria isso?
+[2017-05-30 13:02:53] os espaco precisa de gente assim, depois disso que o lugar fica legal pra todo mundo participar,  e nao eventos extracurriculares ou de assuntos que seria melhor discutido em outros ambientes
+[2017-05-30 13:02:55] Se todos tiverem a disposição de ajudar, vai crescer cada vez mais...
+[2017-05-30 13:03:22] isso, ate pq se nao tivesse esse problema, tb nao teriamos a discussao sobre os eventos
+[2017-05-30 13:03:35] tudo seria naturalmente interessante pra todos
+[2017-05-30 13:03:44] como era a 3 anos atras
+[2017-05-30 13:03:51] Concordo... Não eh que assuntos assim não possam existir, mas que eles não sejam a pauta e deixem de lado os assuntos que realmente nos interessam, e para o qual estamos la...
+[2017-05-30 13:03:52] 2-3 anos atras
+[2017-05-30 13:03:57] No mundo ideal, os problemas seriam tratados separadamente, no atual, o evento que acaba 'sofrendo'
+[2017-05-30 13:04:03] Quer Rezar, vá à igreja...
+[2017-05-30 13:04:09] Quer hackear, vá ao Garoa
+[2017-05-30 13:04:11] Que era quando fui sócio! Hehehe
+[2017-05-30 13:04:12] e
+[2017-05-30 13:04:15] + -  isso
+[2017-05-30 13:04:20] pois eh volta ai
+[2017-05-30 13:04:41] agente pode rezar pro santa ifigenia
+[2017-05-30 13:05:02] Ah sim
+[2017-05-30 13:05:09] Tinha acabado a bateria, bom pra terminar, me propus a faxinar e lavar o banheiro a cada 15 dias se alguém quiser discutir algo vamos fazer enquanto me ajudam nisso ?
+[2017-05-30 13:05:09] Prometo que serei todo ouvido
+[2017-05-30 13:05:14] pra nao faltar HD´s, memorias, placas mãe...
+[2017-05-30 13:05:18] roteadores
+[2017-05-30 13:05:19] vixe
+[2017-05-30 13:05:21] eh tanto pedido
+[2017-05-30 13:05:29] Hm, sabendo isso da pra pensar em algo :) mas é bacana entender o problema
+[2017-05-30 13:05:29] que a santa efigenia vai dar eh 1 peh na bunda
+[2017-05-30 13:05:30] hahaha
+[2017-05-30 13:05:49] Boa!
+[2017-05-30 13:05:50] Sistema de strikes? Evento X, bagunçou? Strike e cancel
+[2017-05-30 13:05:57] Boa!
+[2017-05-30 13:08:10] Gente, dessa pagina aqui, qual o hardware que vcs mais indicariam (em termos de portabilidade e potencial de hardware)
+[2017-05-30 13:09:03] @lgtelles ta convidado, prometo que sairemos dessa entendidos 👼
+[2017-05-30 13:09:03] Alias, quero convidar a todos do grupo para ajudar na manutenção do garoa, alguém poderia numerar as prioridades da manutenção e por no quadro da cozinha ?
+[2017-05-30 13:09:49] Opa! Vamos!
+[2017-05-30 13:09:50] Eu topo
+[2017-05-30 13:09:51] E se a pessoa que reza quiser ir no garoa?
+[2017-05-30 13:10:00] https://www.offensive-security.com/kali-linux-nethunter-download/
+[2017-05-30 13:10:05] hj eu vou
+[2017-05-30 13:10:18] Que vá ao garoa, hackear
+[2017-05-30 13:10:20] Leandro dou uma olhada
+[2017-05-30 13:10:27] Voce nao vale
+[2017-05-30 13:10:54] uai,  pq?
+[2017-05-30 13:11:04] a questão nao eh acepção de pessoas, mas sim o objetivo com o qual elas vão ao Garoa...
+[2017-05-30 13:11:12] E se ela quiser hackear algo relacionado a religião?
+[2017-05-30 13:11:16] Entao ta marcado as breja eu pago
+[2017-05-30 13:11:35] Que vá ao garoa...
+[2017-05-30 13:11:46] Fernando , de boa, essas suas trolladinhas ja deram no saco
+[2017-05-30 13:11:51] agora vou com motivação... Rsrsrsrs
+[2017-05-30 13:11:55] Se nao beber eu respeito sua miserável opinião
+[2017-05-30 13:12:35] Obrigado 😊
+[2017-05-30 13:12:47] se tivesse opcao de bloquear suas msgs eu nao reclamaria
+[2017-05-30 13:12:58] infelizmente nao tem...
+[2017-05-30 13:13:28] Uns tempos atrás fui pesadamente trollado e não reclamei
+[2017-05-30 13:13:46] Voce ja tem 4 paga por default
+[2017-05-30 13:13:47] Bloquear apenas no grupo...
+[2017-05-30 13:14:05] Por exemplo tem uma atividade interessante que é "catalogar" as doações que recebemos acho que só o.hugo começou a fazer isso
+[2017-05-30 13:14:05] Tem muita coisa
+[2017-05-30 13:14:05] E temos que separar o que é útil pro garoa e o que as pessoas podem querer em troca de uma doação
+[2017-05-30 13:14:14] A vingança nunca e plena mata a alma e envenena
+[2017-05-30 13:14:36] Não estou me vingando
+[2017-05-30 13:14:49] fernando, problema seu se nao reclamou
+[2017-05-30 13:14:52] Só tentando entender a atitude das pessoas
+[2017-05-30 13:15:01] e vc nao ta trolando alguem em especifico, esta simplesmente envenenando a conversa
+[2017-05-30 13:15:43] O que precisamos eh harmonizar... colocar "lenha na fogueira" soh gera mais discórdia... Concordo contigo @eduoda
+[2017-05-30 13:16:00] Vamos definir uma regra ? Se alguém quiser reclamar de algo pode fazer a plenos pulmões quando for fazer a manutenção do garoa ?
+[2017-05-30 13:16:22] E quanto a quaisquer trollagens, chama quem trollou no PV e conversa...
+[2017-05-30 13:16:32] @Latex_lin ++
+[2017-05-30 13:16:39] "Enquanto uns choram, outros vendem lenços"
+[2017-05-30 13:17:10] @Latex_lin #
+[2017-05-30 13:17:19] Onde o que digo aqui incomoda?
+[2017-05-30 13:17:46] Tipo pode me chamar de do que quiser cantar a musiquina do stallman enquanto lava o caldeirão de feijoada que ta cheirando azedo
+[2017-05-30 13:18:09] Na crimeia
+[2017-05-30 13:18:18] kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+[2017-05-30 13:18:29] eu "Si" divirto
+[2017-05-30 13:18:32] La isso e muito ofencivo
+[2017-05-30 13:18:37] Ninguém pode reclamar na Criméia
+[2017-05-30 13:19:03] Poque crimeios sao cimerios que nao deram ceeto
+[2017-05-30 13:20:01] Gente... Alguem da 1 palpite sobre o hardware ?
+[2017-05-30 13:20:02] https://www.offensive-security.com/kali-linux-nethunter-download/
+[2017-05-30 13:20:19] Alias se alguém se prontificar a lavar o caldeirão eu mesmo levo a flauta
+[2017-05-30 13:21:13] Tentador
+[2017-05-30 13:21:29] Nexus
+[2017-05-30 13:21:46] Oneplus
+[2017-05-30 13:22:24] Esse caldeirão é o da feijoada da bsides?
+[2017-05-30 13:22:38] Isso
+[2017-05-30 13:22:45] EITA
+[2017-05-30 13:22:46] One Plus eh o melhor ?
+[2017-05-30 13:22:52] ele eh do tamanho de um Cel neh
+[2017-05-30 13:23:07] Nexus/oneplus
+[2017-05-30 13:23:22] pq o 9 eh tablet neh
+[2017-05-30 13:23:37] Ate sábado vai ta daquele jeito
+[2017-05-30 13:23:56] e o N6 nao eh melhor em desempenho ?
+[2017-05-30 13:27:02] Esse final de semana tem alguma atividade?
+[2017-05-30 13:27:32] Agora tem o evento dos manu
+[2017-05-30 13:27:48] Manutenção e limpeza
+[2017-05-30 13:28:26] o Guisso disse que receberam muitas doações... Poderíamos fazer uma força tarefa para organizar tudo, pq tem coisa la q tah "na chuva"
+[2017-05-30 13:28:35] Que tal?
+[2017-05-30 13:28:38] Enquanto discutimos opiniões fecais
+[2017-05-30 13:28:40] E fazemos um rango simples
+[2017-05-30 13:28:43] Acho que vou comparecer
+[2017-05-30 13:28:52] opinioes fecais depois do almoço
+[2017-05-30 13:28:53] hahah
+[2017-05-30 13:29:38] Quem acha nao sabe, nunca use um if no lugar de um return
+[2017-05-30 13:30:07] Conto com sua presença sera um prazer conhecer tao ilustre figura
+[2017-05-30 13:30:10] 100% agree...
+[2017-05-30 13:30:11] ENTÃO EU VOU
+[2017-05-30 13:30:14] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_1527281080443338828.webp
+[2017-05-30 13:30:43] Quando alguem fala "eu acho que vou, vou pensar, farei de tudo pra ir" está dizendo que nao vai... Quando confirma com 100% de certeza, ainda assim eh 50% de chance de não ir, pois imprevistos acontecem
+[2017-05-30 13:30:54] Boa!
+[2017-05-30 13:31:13] Se tiver pudim,claro
+[2017-05-30 13:31:55] eh eh com o @fernandoGuisso
+[2017-05-30 13:32:03] que tah meio away (#magoad0
+[2017-05-30 13:32:05] )
+[2017-05-30 13:32:28] Eu mexo nas suas gaveta ?
+[2017-05-30 13:34:15] não, pô.... cheguei agora... eu que to mexendo nas gavetas hahaha
+[2017-05-30 13:34:37] Kkkk
+[2017-05-30 13:35:00] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803735247_111112.jpg
+[2017-05-30 13:35:25] Viu como acabamos com a discussão so chamar pra trabaia
+[2017-05-30 13:35:27] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_120138932577894469.webp
+[2017-05-30 13:35:40] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_130764741797744710.webp
+[2017-05-30 13:35:49] uhahuahuahuahuauhauhahuauhahuauhhuahua
+[2017-05-30 13:36:18] Na verdade o assunto inicial foi soterrado
+[2017-05-30 13:36:36] Tem tempo ruim não,vai preparando a listinha de tarefas
+[2017-05-30 13:36:46] Mantenha ele lá
+[2017-05-30 13:36:56] nao menciona, que volta tudo... eh igual montar 1 castelo de cartas e chamar o irmaozinho pra ver... Ele suspira e cai tudo de novo...
+[2017-05-30 13:37:12] Podemos discutir isso enquanto separamos os itens ? 😀
+[2017-05-30 13:37:25] Essa foi a maior discussão que começou com um comentário que eu já vi
+[2017-05-30 13:38:07] Infelizmente não poderei ajudar, estou afastado presencialmente do garoa por motivos particulares
+[2017-05-30 13:38:19] Tudo faz parte so plano, concegui 3 amigos pra uma tarefa que eu iria fazer sozinho ?
+[2017-05-30 13:39:11] No problem temos tarefas virtuais pra fazer com certeza 😂
+[2017-05-30 13:39:21] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_5152623237959516162.mp4
+[2017-05-30 13:42:39] E sumiu
+[2017-05-30 13:43:03] Eu bebo! Hahahaha qual a graça de uma discussao que envolve política sem álcool? Hahahah
+[2017-05-30 13:43:36] Aqui somos todos culpados
+[2017-05-30 13:43:42] Foco! That´s amazing!
+[2017-05-30 13:44:13] Tem culpa eu, tem culpa voce, tem culpa todo mundo
+[2017-05-30 13:44:57] Sem maldade, o C vc usa pq quer ? rsrs (não incomoda em nada, eh soh curiosidade mesmo :* )
+[2017-05-30 13:45:23] Bora fazer uma vaquinha e comprar papel higienico entaum... rsrs
+[2017-05-30 13:45:51] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_400810638735049131.webp
+[2017-05-30 13:45:53] Vou soh pra beber mesmo... hahahah
+[2017-05-30 13:46:12] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_283886321674486588.webp
+[2017-05-30 13:46:33] Pudim de pão
+[2017-05-30 13:46:42] nãoooooooooo
+[2017-05-30 13:46:50] Você esta fazendo isso errado
+[2017-05-30 13:46:52] Eh pão com ovo mano , c eh cego? rsrsrs
+[2017-05-30 13:46:55] nao tem leite
+[2017-05-30 13:46:58] uahuahuahu
+[2017-05-30 13:47:23] Ovo poche
+[2017-05-30 13:47:25] T
+[2017-05-30 13:47:26] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_532578839511964400.mp4
+[2017-05-30 13:47:54] uia
+[2017-05-30 13:47:54] https://youtu.be/PTyeJpWB5mw
+[2017-05-30 13:48:15] Quem curte a banda "Nirvana" ?
+[2017-05-30 13:48:31] 🤘🏻
+[2017-05-30 13:48:33] Quem coloca um ovo cru em cima de um pão na frigideira?acorda
+[2017-05-30 13:48:35] kkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+[2017-05-30 13:48:39] Isso ai é pudim
+[2017-05-30 13:48:52] Tah bom
+[2017-05-30 13:49:00] Vc ve um pudim, e eu um pão com ovo
+[2017-05-30 13:49:13] isso nao pode gerar diferenças entre a gente
+[2017-05-30 13:49:15] ;)
+[2017-05-30 13:49:24] Vou cozinhar um desse jeito e você vai ter que comer
+[2017-05-30 13:49:29] O pai ta furado ai quando frita ele fica ali "drento"
+[2017-05-30 13:49:44] Pao *
+[2017-05-30 13:49:50] Exato
+[2017-05-30 13:49:55] OMG
+[2017-05-30 13:49:56] uhahuahu
+[2017-05-30 13:50:05] Isso ai se chama comidas feia
+[2017-05-30 13:50:19] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803120687_62031.jpg
+[2017-05-30 13:50:24] Tipo isso
+[2017-05-30 13:50:34] Ele ta hackeando o pao com um backdor e dando um inject co o ovo
+[2017-05-30 13:51:12] Que viajada é essa
+[2017-05-30 13:51:21] Eu ja penso que o pão está bem quente, que o ovo cozinha em cima dele, sem se misturar com as particulas do pão, corroborando que a teoria do "Pudim de Pão" (Sticker) é insustentável...
+[2017-05-30 13:51:48] Nao eu faço isso em casa
+[2017-05-30 13:52:04] document
+[2017-05-30 13:52:12] Comidas feia official masterchef
+[2017-05-30 13:52:18] uhahuahuahuauhahuuah
+[2017-05-30 13:52:23] Eu faço comidas da hora
+[2017-05-30 13:52:25] Mani e bom
+[2017-05-30 13:52:28] e na hora boa tbm
+[2017-05-30 13:53:00] Alguem sabe onde vende esses celulares nexus ?
+[2017-05-30 13:53:02] No ML nao tem
+[2017-05-30 13:53:02] Aquele pao de forma com um furo e vc coloca o ovo pra fritar dentro
+[2017-05-30 13:53:05] Aquele tipo de comida que só quem faz tem a confiança de comer
+[2017-05-30 13:53:31] para eu causar @W0rk3r
+[2017-05-30 13:53:32] uhahuahua
+[2017-05-30 13:53:40] Vale ter ido no show?
+[2017-05-30 13:53:54] BTW
+[2017-05-30 13:53:56] vale sim
+[2017-05-30 13:54:00] eu nunca fui
+[2017-05-30 13:54:01] mas curto
+[2017-05-30 13:54:08] desde muito tempo atras hahahya
+[2017-05-30 13:54:15] Tenho até uma foto do pudim de caneca do @fernandoGuisso
+[2017-05-30 13:54:20] ateh aprendi a tocar "come as you are"
+[2017-05-30 13:54:48] Lá na época eu acompanhava
+[2017-05-30 13:54:56] Não, deixa esse povo aqui mesmo.
+[2017-05-30 13:54:57] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_750614920172667958.webp
+[2017-05-30 13:55:11] Mas agora meu gosto musical se deslocou
+[2017-05-30 13:55:49] Veio,... nem vou falar o que parece hahahaha
+[2017-05-30 13:55:56] Boa tarde! 500 mensagens sem ler... 😱
+[2017-05-30 13:56:04] Mais conhecido como cudim
+[2017-05-30 13:56:09] Eu sou eclético.... Danço forró huahuahuauha
+[2017-05-30 13:56:19] Tenho um Nexus 4 na caixa, com problemas na bateria, se quiser...
+[2017-05-30 13:56:21] huauhahuahuauha RIALTO
+[2017-05-30 13:56:36] Que tipo de problemas ?
+[2017-05-30 13:56:41] É reversivel
+[2017-05-30 13:56:44] da pra arrumar ?
+[2017-05-30 13:56:50] Eu quero pra testar o NetHunter
+[2017-05-30 13:57:16] Se tiver root dá pra testar no seu mesmo
+[2017-05-30 13:57:30] Nexus 4/5 – Kali Linux NetHunter for the Nexus 5 provides you with the ultimate in penetration testing portability. With a quad-core 2.26GHz CPU and 2GB of RAM, you have an immense amount of power at your fingertips to run a wide range of attacks on a platform that easily fits in your pocket.
+[2017-05-30 13:57:40] Eu queria subir o android todo (nao sei diferenciar ainda)
+[2017-05-30 13:57:43] nao sobrepor
+[2017-05-30 13:57:44] Já troquei 3 vezes de bateria, deve ser o circuito carregador interno com problema, tem que mandar para os chinas da 25 de março concertar...
+[2017-05-30 13:58:01] Pode ser...
+[2017-05-30 13:58:23] Mas vc está doando ou vendendo (disse "quer" e "querer" eu "quero" sim rsrs)
+[2017-05-30 13:58:29] http://www.youtube.com/watch?v=K9Shx1mRjbQ
+[2017-05-30 13:58:35] Ele tah matando a bateria ?
+[2017-05-30 13:58:58] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_130764741797744710.webp
+[2017-05-30 13:59:55] Pensa num nego falando ingles que eh dificil pra caralho de entender
+[2017-05-30 13:59:56] rsrsrs
+[2017-05-30 14:01:34] Vendendo, 350
+[2017-05-30 14:03:48] Eu tenho um montante de Nexus 5
+[2017-05-30 14:04:52] 5 > 4, right?
+[2017-05-30 14:05:36] Claro.
+[2017-05-30 14:06:58] pelo que entendi no video , o nethunter eh um "APP"
+[2017-05-30 14:07:07] nao eh um "android" ?
+[2017-05-30 14:07:16] blz, @Latex_lin hj vai colar no garoa?
+[2017-05-30 14:07:38] Ismael , mandei um pv pra ti...
+[2017-05-30 14:09:08] Cybercrime Costs to Reach $8 Trillion by 2022
+https://www.darkreading.com/threat-intelligence/cybercrime-costs-to-reach-$8-trillion-by-2022/d/d-id/1328990?_mc=RSS_DR_EDT
+
+Some 2.8 billion data records expected to be breached in 2017, according to a report released today by Juniper Research.
+[2017-05-30 14:21:01] alguém tem experiência com a imressora XYZ Printing Junior?
+Qual Software Livre dá para usar para produzir / ler os modelos 3D, ela funciona para imprimir direto do GNU/LInux ?
+[2017-05-30 14:24:04] Saudades desse cara ! falei com o marcos mosca, marcar um churras vou convidar o kemel
+[2017-05-30 14:25:17] simmmmm
+[2017-05-30 14:28:21] ow dente
+[2017-05-30 14:28:28] eu subi o Parrot no meu Dell
+[2017-05-30 14:28:30] ficou TOP
+[2017-05-30 14:28:35] reconheceu TUDO
+[2017-05-30 14:28:41] Migrando hoje hehehehe
+[2017-05-30 14:28:48] Asta luego windows 10
+[2017-05-30 14:32:01] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_1293950114435432458.webp
+[2017-05-30 14:32:17] nao eh totalmente Adeus hauhahuahua
+[2017-05-30 14:32:26] eu vou ter 1 vm com o 10 e 1 vm com o 2012
+[2017-05-30 14:32:31] pra fins de trabalho
+[2017-05-30 14:33:35] Não curto o parrot
+[2017-05-30 14:33:41] Acho pesado
+[2017-05-30 14:33:44] pq?
+[2017-05-30 14:33:47] Se rolar Tô dentro!!
+[2017-05-30 14:33:48] aqui ficará de boa
+[2017-05-30 14:33:59] i7 + 16Gb de ram
+[2017-05-30 14:34:02] suave
+[2017-05-30 14:34:16] Que desperdício kkkkkkkk
+[2017-05-30 14:34:20] huauhauhahu
+[2017-05-30 14:34:23] nada
+[2017-05-30 14:34:36] desperdicio eh ficar no ruindows
+[2017-05-30 14:34:37] rs
+[2017-05-30 14:34:50] Soh que vou deixar espaço pra instalar o Steam OS
+[2017-05-30 14:35:02] pq os 2 jogos que eu jogo são compativeis (CSGO e Dota 2)
+[2017-05-30 14:35:02] kkkkkk
+[2017-05-30 14:35:40] Tenho a mesma configuração e rodo debian 8
+[2017-05-30 14:36:25] Meu pc é o mais fraco de todos aqui, uso a uns 6 anos e já fiz uma porrada de coisa... Eu com esse core i7 e 16gb faria muitas 'travessuras'. Ai o camarada alí usa para jogar
+[2017-05-30 14:36:45] Ai sim
+[2017-05-30 14:37:13] Também uso pra jogar nas horas vagas, qual o problema? rss
+[2017-05-30 14:37:13] To usando um positivo celeron com 4 de ram e é suave
+[2017-05-30 14:37:41] Não curto jogar no pc então melhor ainda
+[2017-05-30 14:39:10] Sei lá, pior deve ser um nerdão tetudo que gasta milhares em um gabinete para jogar minecraft...
+[2017-05-30 14:43:03] Bom, tenho mais de 300 jogos no Steam, não consigo jogar nem metade por causa do meu trabalho, mas quando preciso desestressar, to metendo bala...
+[2017-05-30 14:43:54] Não uso pra jogar não... pra jogar uso outro note, i7 quad + 8Gb de ram com nVidia GTX560M
+[2017-05-30 14:44:01] Esse Dell aqui eh pra trampo/estudo
+[2017-05-30 14:44:51] Tipo eu , mas nao curto Minecraft... Minha filha de 10 anos gosta...
+[2017-05-30 14:45:19] Então... Eu jogo CS desde o beta... nao vario muito os jogos
+[2017-05-30 14:45:31] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803112686_61066.jpg
+[2017-05-30 14:45:35] E to gostando de jogar Dota 2 pois envolve raciocinio
+[2017-05-30 14:46:00] Eu coleciono jogos mas curto mais tiro, porrada e bomba...rsss
+[2017-05-30 15:10:39] João Pimenta joined
+[2017-05-30 15:10:40] Hi João Pimenta !
+[2017-05-30 15:11:07] Like Counter Strike : Global Offensive
+[2017-05-30 15:16:21] Qual App para ver e-mail da riseup no celular?
+[2017-05-30 15:23:12] O$tenta$$aum
+[2017-05-30 15:24:12] ueh.... quis trollar os fins para os quais utilizo meu equipamento, eu soh respondi
+[2017-05-30 15:24:13] kkkkkkkkkkkkkkkkkkkkkkkk
+[2017-05-30 15:24:28] Preciso de memoria DDR2
+[2017-05-30 15:24:31] pra por no Pentium D
+[2017-05-30 15:30:57] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_130764741797744710.webp
+[2017-05-30 15:34:39] Também tenho a venda
+[2017-05-30 15:35:16] quanto e quantos gigas e a marca
+[2017-05-30 15:38:40] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803734016_102200.jpg
+[2017-05-30 15:38:41] 2x Kingston KVR400D2N3/1G - 400MHz - 1G
+1x Kingston KVR667D2N5/1G - 667MHz - 1G
+1x Markvision M2GMV2G3I4173M1B5E - 533MHz - 1G
+1x Positivo - sem descrição
+[2017-05-30 15:38:48] R$50 cada
+[2017-05-30 15:39:52] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803120938_61943.jpg
+[2017-05-30 15:40:09] Memórias Samsung DDR 2GB ECC - Esse conjunto R$300
+[2017-05-30 15:40:42] Será que serve na minha placa ?
+[2017-05-30 15:40:45] Gostei destas ECC
+[2017-05-30 15:40:49] fica 8 giga
+[2017-05-30 15:41:12] Placa mãe desktop dificilmente aceita ECC
+[2017-05-30 15:42:23] tayan
+[2017-05-30 15:43:53] Tem que ver na especificação da placa mãe se aceita memórias ECC
+[2017-05-30 15:47:56] A minha eh 1 gigabyte
+[2017-05-30 15:48:01] era top na epoca
+[2017-05-30 15:48:03] deve aceitar
+[2017-05-30 15:48:05] tcho ver
+[2017-05-30 15:49:48] Aceita hehehe
+[2017-05-30 15:49:51] http://br.gigabyte.com/Motherboard/GA-G1975X-C-rev-1x#ov
+[2017-05-30 15:51:09] Bom, tá ai disponível, qualquer coisa, inbox
+[2017-05-30 15:53:45] vou testar qq hora
+[2017-05-30 16:00:50] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_182536080015232278.webp
+[2017-05-30 16:02:43] Hauahhaauhaha
+[2017-05-30 16:03:35] huahuahuahuauhah
+[2017-05-30 16:04:15] nao gentoo apt-get tem coisa errada
+[2017-05-30 16:04:23] emerge mano emerge
+[2017-05-30 16:04:50] foi a Ana maria braga que fez o GIF
+[2017-05-30 16:05:14] kkkkkkkkkkkkkkkkkkkkk
+[2017-05-30 16:06:46] Muito triste
+[2017-05-30 16:07:09] Fora o erro: repository "love" not found...
+"love" seria um pacote, não um repositório...
+[2017-05-30 16:09:43] Acho que tem o k-9 mail
+[2017-05-30 16:09:48] eh gif pra humanas galera
+[2017-05-30 16:09:49] relaxa
+[2017-05-30 16:09:58] tem que ser inclusivo
+[2017-05-30 16:10:01] se nao da treta
+[2017-05-30 16:10:52] mais por que tinha que ser com gentoo uso o ubuntu
+[2017-05-30 16:10:55] usa
+[2017-05-30 16:11:05] gentoo nao é sagrado
+[2017-05-30 16:11:14] tb nao entendi
+[2017-05-30 16:11:20] acho que pra ser diferentao
+[2017-05-30 16:11:24] a moda de hoje eh assim
+[2017-05-30 16:13:48] vou descobrir quem fez o gif vou segui-lo, vou atrás da família vou dar chocolate para o cachorro dele
+[2017-05-30 16:15:32] kkkkk
+[2017-05-30 16:17:14] Tem isso aqui na loja não mas obrigado
+[2017-05-30 16:18:28] É android?
+[2017-05-30 16:20:14] Confira "K-9 Mail"
+https://play.google.com/store/apps/details?id=com.fsck.k9
+[2017-05-30 16:21:25] Tem um grupo de vendas de equipamentos de ti...pode te ajudar a um extra @compravendatrocati :)
+[2017-05-30 16:21:51] Valeu
+[2017-05-30 16:22:05] foi esse cara que fez upload nao sei se foi o criador http://imgur.com/user/galebourn
+[2017-05-30 16:23:47] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_289385726649303669.webp
+[2017-05-30 16:51:07] Ian Fernandez added Felipe Nanini
+[2017-05-30 16:51:07] Hi Felipe !
+[2017-05-30 16:56:08] Pronto, já iniciei minha vingança, chinguei muito no twitter
+[2017-05-30 17:01:00] boa
+[2017-05-30 17:13:46] tipo o movimento do software livre...
+[2017-05-30 17:15:40] @fsanches não voltemos a ofender a sensibilidade apolítica das pessoas
+[2017-05-30 17:15:57] "gentoo" no gif é só o hostname. Esse sistema aí, se tem apt-get, é variante de debian. O hostname é só pra fuder com a cabeça da nerdaiada.
+[2017-05-30 17:16:39] Vc pode explicar para um noob aquele esquema que vc estava falando do vídeo no Z80?
+[2017-05-30 17:16:53] yep
+[2017-05-30 17:17:00] qual esquema mesmo ?
+[2017-05-30 17:17:17] "qual é a música?" ou "Another World" ?
+[2017-05-30 17:17:29] ah! Qual é a música é 8051!
+[2017-05-30 17:17:38] então acho que vc tá falando do Another World
+[2017-05-30 17:17:55] Tenho q buscar lá atrás
+[2017-05-30 17:18:17] Acho ele fala do GPU homebrew
+[2017-05-30 17:18:26] Que foto legal do Supla
+[2017-05-30 17:19:38] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_532582378565010584.mp4
+[2017-05-30 17:19:45] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803735999_111312.jpg
+[2017-05-30 17:20:04] Eu vou 👍
+[2017-05-30 17:20:23] :)
+[2017-05-30 17:20:55] eu tb
+[2017-05-30 17:22:59] 👍👍
+[2017-05-30 17:51:14] sobre evento com o Stallman no Brasil hoje:
+[2017-05-30 17:51:21] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803120923_61027.jpg
+[2017-05-30 17:59:47] Era só jogar água nele #zueira
+[2017-05-30 17:59:59] Mais ele estava certo ?
+[2017-05-30 18:03:19] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_599725048252596247.webp
+[2017-05-30 18:08:03] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_276843236734009405.webp
+[2017-05-30 18:08:26] document
+[2017-05-30 18:24:12] Você sabe dizer quem é a pessoa/ser que consta nessa imagem ?
+[2017-05-30 18:24:22] dica: eu sei.
+[2017-05-30 18:27:10] Dolinho
+[2017-05-30 18:27:19] Simmm
+[2017-05-30 18:28:28] É aquele que não deve ser citado, me dá enjoo(NÃO NOJO)...E muita discussão bosta
+[2017-05-30 18:29:11] nops
+[2017-05-30 18:29:46] Essa imagem foi criada usando a imagem de um ativista de software livre misturada com a imagem do personagem "Dollinho" (que era um apelido malicioso que uma pessoa oposta ao tal ativista usada para se referir perjorativamente a ele).
+[2017-05-30 18:30:36] Tá bom mano,não precisa explicar
+[2017-05-30 18:30:39] Começa com A
+[2017-05-30 18:30:42] heuhuhheui
+[2017-05-30 18:30:44] Na
+[2017-05-30 18:30:46] Hu
+[2017-05-30 18:30:55] E a porra toda
+[2017-05-30 18:30:55] Não que eu concorde com o Anahuac, mas ele não tá aqui pra se defender, então se liga.
+[2017-05-30 18:31:09] Tá bom mano,não precisa explicar
+[2017-05-30 18:31:19] É só um sticker
+[2017-05-30 18:31:26] Pilha a toa
+[2017-05-30 18:32:15] suspeito que você não queira a tua cara circuilando aqui e acolá. Especialmente se tiver algum texto oposto ao que você acredita. Só uma dica.
+[2017-05-30 18:33:05] Aquela é a cara dele?ele é meio verde hein...estranho
+[2017-05-30 18:36:28] Vai começar tudo de novo?
+[2017-05-30 18:36:28] Isso aqui pode ajudar https://medicoresponde.com.br/pele-verde-o-que-pode-ser/
+[2017-05-30 18:36:46] Afff
+[2017-05-30 18:36:52] Eu sei também, foi por causa desse cidadão que parei de frequentar a lista PSL-Brasil, muito xiita para meu gosto.
+[2017-05-30 18:36:56] Quem vai no Garoa hj???
+[2017-05-30 18:40:15] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_908842189667172717.mp4
+[2017-05-30 18:41:57] Baushshahaiaubsb
+[2017-05-30 18:42:30] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_1527281080443338857.webp
+[2017-05-30 18:42:53] esse não sei quem é
+[2017-05-30 18:43:02] hahahaha genteeeeeee
+[2017-05-30 18:43:12] alguem está ou vai no Garoa hoje?
+[2017-05-30 18:43:23] pensando em dar 1 passada mas nao moro tao perto
+[2017-05-30 18:43:25] eu estou aqui já
+[2017-05-30 18:43:54] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_729246555931936799.webp
+[2017-05-30 18:44:12] Até que horas +-
+[2017-05-30 18:44:27] até fechar :-)
+[2017-05-30 18:44:31] não sei dizer
+[2017-05-30 18:44:39] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_1527281080443338772.webp
+[2017-05-30 18:44:53] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_1527281080443338773.webp
+[2017-05-30 18:44:53] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_532580188131697428.mp4
+[2017-05-30 18:44:53] Já tem bastante
+[2017-05-30 18:44:53] KKKKKKKKKKK SE VIRAR STICKER EU USO
+[2017-05-30 18:47:17] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_276843236734009405.webp
+[2017-05-30 18:47:30] Vou usar isso pra caramba
+[2017-05-30 18:47:35] Kkjkkkk
+[2017-05-30 18:49:10] O Garoa Hacker Clube deseja as boas-vindas ao nosso grupo público http://garoa.net.br  Regras: - Assédio, intolerância e atividades ilícitas não serão tolerados - Be excellent to each other - Leia nosso FAQ: https://garoa.net.br/wiki/FAQ
+[2017-05-30 18:49:33] Ninguém respeita ;-;
+[2017-05-30 18:49:49] Kkkkkkkk
+[2017-05-30 18:49:52] vai ter que respeitar ou vai levar ban
+[2017-05-30 18:51:14] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_120138932577894469.webp
+[2017-05-30 18:51:40] Ainda bem que eu estou sendo ultrafofo :)
+[2017-05-30 18:51:57] troll detected
+[2017-05-30 18:52:50] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_130764741797744710.webp
+[2017-05-30 18:53:37] Oi respeita ou vai ter que usar Windows phone
+[2017-05-30 18:53:56] pesado...
+[2017-05-30 18:54:03] :-(
+[2017-05-30 18:54:09] Pesado
+[2017-05-30 18:54:23] Meu deus,um monstro desse não merece perdão
+[2017-05-30 18:54:30] Eu quero um selo juca autoritario 🤣
+[2017-05-30 18:54:49] Eu uso ta
+[2017-05-30 18:55:24] Kkkk
+[2017-05-30 18:59:32] Não é autoritarismo, meu amigo. Mas o grupo tem um conjunto de regras pra manter a boa convivência aqui entre os quase 500 usuários. Se a galera começa a avacalhar, o uso de moderação não é autoritarismo.
+[2017-05-30 19:01:53] Se eu chegar na sua casa e badernar você num me botará pra fora? rs. Do mesmo jeito que sua casa tem regrar o grupo tbm tem.
+[2017-05-30 19:02:02] regras*
+[2017-05-30 19:03:49] Já aconteceu de pessoas serem botadas pra fora por mau comportamento pelo menos uma duas vezes no espaço físico, inclusive. Por que seria diferente no espaço online ?
+[2017-05-30 19:05:28] Mas o atrito não se dá quando sua opinião diverge do que foi dito?...e me parece que você sente uma vontade extrema de corrigir os outros
+[2017-05-30 19:06:23] Em menos de um dia você engatou duas discussões comigo...acho que alguém não foi com a minha cara
+[2017-05-30 19:07:35] É engraçado quantas vezes a pessoa que apela para o "be excellent to each other" é o primeiro a agir contra esse lema.
+[2017-05-30 19:08:01] Vc é quem está merecendo ban
+[2017-05-30 19:09:17] O Juca só não é banido desse grupo pq ele é o admin #prontofalei
+[2017-05-30 19:09:23] #Cursos
+
+Cursos grátis oferecidos pelo MIT
+[2017-05-30 19:10:45] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_130764741797744710.webp
+[2017-05-30 19:11:00] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_5152623237959516162.mp4
+[2017-05-30 19:11:35] Poderá haver um golpe no grupo para derrubar o admin ?! #zueira
+[2017-05-30 19:12:38] https://mgom.es/2rB6EDc
+[2017-05-30 19:12:53] Enquanto isso, no lustre do castelo
+[2017-05-30 19:13:00] não bani ninguém.
+[2017-05-30 19:13:23] Mas fica ameaçando os outros
+[2017-05-30 19:13:23] ficou agitado esse grupo, que coisa.
+[2017-05-30 19:13:53] kkkkkkkkkk
+[2017-05-30 19:14:28] Se tiver membros de nome Ana e vc da  ban nela vc Banana?
+[2017-05-30 19:14:51] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_785832625502683733.webp
+[2017-05-30 19:15:29] ri 1 pet de 2 litros agora
+[2017-05-30 19:15:42] meu Deus, quanta criatividade]
+[2017-05-30 19:15:53] Só pra descontrair
+[2017-05-30 19:16:03] aqui deu certo
+[2017-05-30 19:16:09] Estava em pressão alta
+[2017-05-30 19:16:17] mas aqui tava de boa ja
+[2017-05-30 19:16:31] Agora está tudo CNTP
+[2017-05-30 19:16:50] Uáti?
+[2017-05-30 19:17:24] Centro nacional tensonario preventivo
+[2017-05-30 19:17:45] Termodinâmica Condição normal de temperatura e pressão
+[2017-05-30 19:18:29] Essa eu nunca acertaria
+[2017-05-30 19:18:58] ahahahahahaha
+[2017-05-30 19:19:03] Someone is writing a textão
+[2017-05-30 19:19:10] eu acho melhor
+[2017-05-30 19:19:20] Cada um Na Tua, Porra
+[2017-05-30 19:19:21] rsrsrs
+[2017-05-30 19:19:25] sem briga!
+[2017-05-30 19:19:27] rsrsrs
+[2017-05-30 19:20:20] Vou nessa... Alguem vai estar ate mais tarde no garoa ? pra eu nao perder viagem
+[2017-05-30 19:20:27] To saindo agora e levo 1 hora pra chegar +-
+[2017-05-30 19:21:14] tem umas 15 pessoas no mínimo aqui agora
+[2017-05-30 19:21:26] vai ateh dpois das 11 entaum neh
+[2017-05-30 19:21:27] rs
+[2017-05-30 19:21:33] acho que vai até 22h... talvez 23h... 23h30...
+[2017-05-30 19:21:37] pra eu aproveitar 1 pouco a ilustre cia de vcs
+[2017-05-30 19:21:40] :)
+[2017-05-30 19:21:41] pois é
+[2017-05-30 19:21:42] okay
+[2017-05-30 19:21:59] o ilustre foi positivo (não sarcástico rs)
+[2017-05-30 19:22:33] :-)
+[2017-05-30 19:23:14] To indo
+[2017-05-30 19:23:39] chegando ai vou analisar os documentos e vou instalar o parrot no note
+[2017-05-30 19:23:40] 😆
+[2017-05-30 20:22:02] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_5010295692581666859.pdf
+[2017-05-30 20:32:54] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_532576842352171448.mp4
+[2017-05-30 20:49:42] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803735143_110663.jpg
+[2017-05-30 20:50:07] Noite de Processing
+[2017-05-30 20:58:35] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_785832625502683758.webp
+[2017-05-30 20:59:14] Coloquei um desses na mão do @paul1st4rd0x e do @fernandoGuisso... Hehehe
+[2017-05-30 21:01:32] BACK001 joined
+[2017-05-30 21:01:33] Hi BACK001 !
+[2017-05-30 21:17:22] Boaaaaaa
+[2017-05-30 21:23:48] rsrsrs
+[2017-05-30 21:34:30] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803116104_61969.jpg
+[2017-05-30 21:34:36] livro de hoje
+[2017-05-30 21:36:06] massa
+[2017-05-30 21:37:58] Alguém que esteja aqui e manje de Linux pra me dar um help e umas opiniões?
+[2017-05-30 21:38:46] * Aqui no Garoa, fisicamente...
+[2017-05-30 21:41:52] Tá longe de ficar bom em trollar kkk
+[2017-05-30 21:43:27] Não tenho interesse em trollar
+[2017-05-30 21:43:53] @mdente cola ae na sala multi uso uhahuauha
+[2017-05-30 21:56:57] Ninguém?
+[2017-05-30 23:39:04] Rsrsrsrs
+[2017-05-30 23:46:32] http://epartner.vagas.com.br/PagVagaDirSS.asp?v=1523165
+[2017-05-30 23:54:48] Tivemos uma discussão politica muito boa e salutar hobe no garoa, fui respeitado e respeitei
+[2017-05-30 23:55:45] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_147119960081039388.webp
+[2017-05-30 23:56:35] Alias quero agradecer ao @fsanches ao ramalho ao @Biazzotto ao vido pela paciencia em explicar conceitos politicos e pelo respeito a mina pessoa
+[2017-05-30 23:57:19] Concordamos discordamos, e nao chegamos a conclusão mais o respeito foi salutar
+[2017-05-30 23:58:33] Vixe 4 pessoas com opiniões diferentes
+[2017-05-30 23:59:05] Teve armamento que envolvido?
+[2017-05-30 23:59:38] Mais o mais bacana que eu como pessoa vi que mesmo o maior defensor da imparcialidade pode ser parcial

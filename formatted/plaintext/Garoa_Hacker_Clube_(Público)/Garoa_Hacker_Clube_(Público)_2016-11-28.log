@@ -1,0 +1,122 @@
+[2016-11-28 00:04:02] Galera, criei um slack para a Python Brasil: https://pythonbrslack.herokuapp.com/
+Quem quiser, pode usar, divulgar, acho que é interessante a gente ter um meio de comunicação como o slack, mas não sei o que vocês pensam! Para dar join, basta entrar no link e pedir um invite!
+[2016-11-28 00:08:37] DataNinja 😝
+[2016-11-28 00:17:36] @vmesel, já não existe o pythonbrasil.slack.com?
+
+Dá para obter convite através de:
+http://slack-pythonbrasil.herokuapp.com/
+[2016-11-28 00:31:55] Eu tb suspeitei que já existia um oficial.
+[2016-11-28 00:32:18] @vmesel vc consultou alguém antes de criar esse canal?
+[2016-11-28 00:32:34] Alguém que já esteja a mais tempo na comunidade?
+[2016-11-28 00:38:01] Costumo divulgar os eventos lá, tem um canal #grupy-sp, inclusive...
+[2016-11-28 00:39:22] E também um #datascience
+[2016-11-28 00:46:31] boa noite
+[2016-11-28 09:26:36] Samuel Honorato joined
+[2016-11-28 09:26:37] Hi Samuel !
+[2016-11-28 10:08:35] Gente!!! Já tenho meu presente pro amigo ladrão do Garoa... comprei uma lembrancinha e vai ter gente se matando por ela!
+[2016-11-28 10:39:16] Quando vai ser? Será q posso participar??
+[2016-11-28 11:38:25] TODO MUNDO
+[2016-11-28 11:38:37] Traz a mãe, o pai, cachorríneos
+[2016-11-28 12:24:38] Legal, ja fecharam a data?
+[2016-11-28 12:25:57] O loko
+[2016-11-28 12:26:07] Prevejo zuera
+[2016-11-28 12:26:30] Bruno Oliveira joined
+[2016-11-28 12:26:30] Hi Bruno !
+[2016-11-28 13:51:16] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803730944_105891.jpg
+[2016-11-28 13:51:25] Alguém arrisca um palpite
+[2016-11-28 13:52:18] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803718335_142134.jpg
+[2016-11-28 13:52:19] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803730592_104081.jpg
+[2016-11-28 13:52:21] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803707750_142678.jpg
+[2016-11-28 14:00:05] Estou inclinado a dizer rastreador, mas ele costuma ser ligado na Bateria do carro e essa bateria é backup quando estiver desligado
+[2016-11-28 14:00:22] Geralmente é instalado no console/painel, não no parachoque
+[2016-11-28 14:00:50] Não vi abertura no case onde seria a ligação com a bateria
+[2016-11-28 14:00:54] Um capacitor de fluxo temporal
+[2016-11-28 14:01:08] Obviamente
+[2016-11-28 14:01:20] tbm não vi entrada para SIM card (pode estar embaixo daquela parte de metal)
+[2016-11-28 14:01:51] Perguntei pro cara se tem chip embaixo na placa metalica
+[2016-11-28 14:01:54] não vi o plutônio...
+[2016-11-28 14:02:35] galera amanha vai ter mais de 50 pessoas na noite do processing e umas 10 dos synths  no garoa
+[2016-11-28 14:02:40] vai ter fila na porta
+[2016-11-28 14:03:16] Agora, se ele responder que sim e vc for Hu3 BR, eu mandaria algo do tipo: "Pelo formato da Antena, parece ser um rastreador com escuta, por isso 2 antenas e o chip"
+[2016-11-28 14:03:17] hehehe
+[2016-11-28 14:05:08] 88 km/h
+[2016-11-28 14:05:24] Ta no filme so testar não tem erro
+[2016-11-28 14:23:09] 😄
+[2016-11-28 14:56:02] Um beacon rastreador? Se for mesmo, utiliza BLE, então uma bateria dessa poderia durar mais de um ano, e não precisaria de transmissor próprio, qualquer celular preparado para localizar beacons pode transmitir informações sobre a localização de objetos "tagueados"...
+[2016-11-28 14:57:50] O problema é que o alcance do BLE é 30m, geralmente
+[2016-11-28 14:58:32] beacon maior merda do seculo
+[2016-11-28 14:58:59] so quem usa smartrelogio deixa bluetooth ligado no celular
+[2016-11-28 14:59:48] E olhe lá! Hehehe
+[2016-11-28 14:59:59] e bluetooth ligado eh bem inseguro
+[2016-11-28 15:00:12] coisa mais facil é se conectar nessas coisas
+[2016-11-28 15:07:46] Tem aplicação interessante para Beacon
+[2016-11-28 15:08:13] propaganda localizada barata
+[2016-11-28 15:08:22] Justamente essa eh ruim
+[2016-11-28 15:08:23] Kkkkk
+[2016-11-28 15:09:02] A primeira coisa que querem fazer com Beacon eh isso, mas não faz nenhum sentido
+[2016-11-28 15:09:19] Por isso ele não tá "pegando"
+[2016-11-28 15:12:05] e nem vai pegar
+[2016-11-28 15:12:34] tao a 5 anos querendo que essa coisa pegue
+[2016-11-28 15:12:46] ate o google chrome implementou isso
+[2016-11-28 15:12:49] mas só
+[2016-11-28 15:13:42] Trackr
+[2016-11-28 15:14:02] Mas aplicação para usuário final eh mais difícil
+[2016-11-28 15:15:03] Estou vendo umas mais inteligentes, principalmente soluções ad hoc
+[2016-11-28 15:17:42] trackr é outra que tá miando, mas seria bem legal se todo mundo adotasse se a tag fosse 3 reais
+[2016-11-28 15:19:29] Citation needed
+[2016-11-28 15:20:17] Btw, a parada da foto não tem cara de ble...
+[2016-11-28 15:21:09] Sem abrir a parte metálica difícil saber o que é
+[2016-11-28 15:21:47] Um uso eficiente é a geolocalização em locais com "sombra" de GPS, tipo, estacionamentos subterrâneos...
+outro uso é physical web, que está sendo explorado pela Google...
+[2016-11-28 15:38:18] Calendário 2017 Flipside: Roadsec + Mind The Sec http://www.flipside.com.br/calendario
+[2016-11-28 15:44:05] Mapeamento tem um cara no YouTube fazendo com ESP.
+CNLohr, acho que é o nick, ele é conhecido na comunidade do Hackaday
+[2016-11-28 15:46:29] https://youtu.be/RSQK5w6LMSc
+[2016-11-28 15:59:15] Conheço o cara... já postei vídeos dele aqui no grupo... ele tem projeto de transmissão de imagens NTSC utilizando o ESP8266...
+[2016-11-28 15:59:49] 👍
+[2016-11-28 16:31:55] Galera, vamos lançar dois eventos aqui na firma. O primeiro vai ser amanhã (tem evento presencial e transmissão online) sobre análise preditiva de dados http://bit.ly/2gA81Iu para se inscrever e o de Realidade Virtual, dia 07/12 com inscrição em http://bit.ly/2gCvz0C  
+
+
+Podem divulgar pra geral :D
+[2016-11-28 16:36:06] Wellington Mariusso joined
+[2016-11-28 16:36:07] Hi Wellington !
+[2016-11-28 16:43:23] Hi @jackbot ! Hi everyone. :)
+[2016-11-28 17:16:51] Quem vai pro Garoa hoje?
+[2016-11-28 17:19:38] Se tiver alguém lá vou buscar minha panela de arroz.😆
+[2016-11-28 17:40:09] Eu não vou, mas tem evento marcado, então certeza que terá gente lá...
+[2016-11-28 17:40:40] https://garoa.net.br/wiki/Workshop_Briar:_Comunica%C3%A7%C3%A3o_Criptografada_P2P
+[2016-11-28 18:43:12] manutenção de carro Nissan em sp é muito caro? imagino que igual qualquer importado, mas com menos problemas que alguns?
+[2016-11-28 18:56:39] Ouço falar bem de Nissan
+[2016-11-28 18:57:12] YouTube/Hightorque
+[2016-11-28 18:57:22] Canal sobre manutenção e dicas
+[2016-11-28 18:57:59] Galera, vamos lançar dois eventos aqui na firma. O primeiro vai ser amanhã (tem evento presencial e transmissão online) sobre análise preditiva de dados http://bit.ly/2gA81Iu para se inscrever e o de Realidade Virtual, dia 07/12 com inscrição em http://bit.ly/2gCvz0C  
+
+
+Podem divulgar pra geral :D
+[2016-11-28 19:23:57] Ola quem esta no garoa ?
+[2016-11-28 19:24:34] Pessoal a tal peça encontrada no carro é um rastreador da Ituran
+[2016-11-28 19:25:02] Lá no grupo do ponto o cara já tinha visto uma dessas
+[2016-11-28 19:25:15] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803730944_105891.jpg
+[2016-11-28 19:46:13] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803703168_142324.jpg
+[2016-11-28 19:52:30] por isso que eu não tenho carro
+[2016-11-28 19:52:33] :)
+[2016-11-28 19:53:24] andar exibindo uma placa pelas ruas é igual andar com seu RG bem grande na camiseta
+[2016-11-28 20:03:27] imagina o que não dá pra fazer com o log dos radares de trânsito
+[2016-11-28 20:37:17] será que vai lotar mesmo no garoa amanha? queria participar tambem.
+[2016-11-28 20:37:55] RG é menos util
+[2016-11-28 20:38:26] Hoje tem bastante gente aqui
+[2016-11-28 20:40:49] Venha!!!
+[2016-11-28 23:06:05] Fiquei sabendo que vão fazer um hackathon beneficente no garoa
+[2016-11-28 23:06:10] Quando vai ser?
+[2016-11-28 23:22:04] FaBiTuS joined
+[2016-11-28 23:22:05] Hi FaBiTUs !
+[2016-11-28 23:22:32] 👍
+[2016-11-28 23:37:02] é só pendurar uma toalha na porta.
+[2016-11-28 23:39:05] nem penis nisso!
+[2016-11-28 23:39:25] tem muito penislongo?
+[2016-11-28 23:40:00] como faz pra não levar picada ?
+[2016-11-28 23:40:33] ai ai... saudades da sexta-série.... :-P
+[2016-11-28 23:40:58] Não sabe evitar picadura de penislongo?
+[2016-11-28 23:42:04] Entrei no grupo, pra acompanhar as mensagens, na hora errada... volto depois... hahahaha...
+[2016-11-28 23:45:08] Hehehe
+[2016-11-28 23:52:02] ok, vamos aumentar o nível da conversa então.... https://forum.fiozera.com.br/t/replicas-funcionais-de-arcades-eletro-mecanicos-com-mame-e-rpi/25

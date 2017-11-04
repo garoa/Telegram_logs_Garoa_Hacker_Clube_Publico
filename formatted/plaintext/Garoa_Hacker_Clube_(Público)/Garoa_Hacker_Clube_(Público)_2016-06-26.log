@@ -1,0 +1,199 @@
+[2016-06-26 00:17:15] dia 16
+[2016-06-26 00:17:44] alo artistas de plantao
+[2016-06-26 00:18:39] a versão desconhecida pode deixar com a gente de micropython q a gente descobre na hora kkk
+[2016-06-26 00:19:18] boa noite oda
+[2016-06-26 00:19:19] me deparei com isso e fiquei meio confuso com as explicacoes que o sujeito da do motivo dessas fontes serem tao ruins: http://practicaltypography.com/bad-fonts.html
+[2016-06-26 00:20:40] alguem consegue ser mais objetivo, principalmente cim relacao as fontes livres?
+[2016-06-26 00:21:29] 👍👍 essa é a ideia
+[2016-06-26 00:21:47] deixa o fabricio e o tiago pegarem ele
+[2016-06-26 00:22:44] Cel descarregando aqui, assim que der eu olho
+[2016-06-26 00:23:23] legal, to tentando aprender algo pelo contra-exemplo :D
+[2016-06-26 00:36:31] Cara, parece aquela reclamação dos anos noventa que falava que software livre era tudo ruim.
+[2016-06-26 00:37:30] Assim, eu aposto que tem mais fontes gratuitas e livres ruins do que boas, simplesmente porque tem fonte pra caralho por aí feita nas coxas. Mas ele nem as cita pelo nome, parece ser só um rant
+[2016-06-26 00:37:47] eh, as primeiras coisas que ele fala me cheiram avaliacao pessoal e nao algo concreto e depois vem essa que achei um tanto como vc falou, mas vai saber... tem um sutilezas que realmente nao consigo captar
+[2016-06-26 00:39:17] quer dizer, eu nao vi nada de absolutamente ofensivo nos exemplos que ele deu, entao nao veria tb se tivesse nas opcoes livres
+[2016-06-26 00:40:10] papyrus é nível comic sans
+[2016-06-26 00:40:18] só isso que eu acho ruim
+[2016-06-26 00:40:20] Eu pulei direto nas livres. Já vi gente dissecando fonte super bem, por exemplo exemplo, execrando Arial em detalhes.
+[2016-06-26 00:40:50] pois eh, sou incapaz de fazer isso por conta propria :P
+[2016-06-26 00:40:59] Este texto realmente parece só um velhinho dizendo Get off my lawn
+[2016-06-26 00:41:05] ^
+[2016-06-26 00:41:07] bem isso
+[2016-06-26 00:41:16] a única que eu concordo mesmo é papyrus
+[2016-06-26 00:42:03] erin, mesmo comic sans, eu nao sou capaz de avaliar
+[2016-06-26 00:42:08] pessoalmente nao gosto
+[2016-06-26 00:42:19] é mais pelo fato de ter sido tão overused
+[2016-06-26 00:42:21] assim como nao gosto de... mel :D
+[2016-06-26 00:42:32] vira tipo uma fonte-piada
+[2016-06-26 00:42:49] document
+[2016-06-26 00:42:53] overused e com excesso de personalidade entao?
+[2016-06-26 00:42:57] AHuHAUhUAhuAHuahuhUA
+[2016-06-26 00:43:11] pq nada foi mais overused que times
+[2016-06-26 00:43:24] Então, bom exemplo
+[2016-06-26 00:43:28] ou arial.... ou helvetica...
+[2016-06-26 00:43:55] uma que eu gosto no lugar da comic sans: http://www.dafont.com/suplexmentary-comic-nc.font
+[2016-06-26 00:44:03] Helvetica é mais usada que times, mas não salta aos olhos, você nem repara. Isso é uma boa característica para a maioria dos usos
+[2016-06-26 00:44:15] sim
+[2016-06-26 00:48:09] Sobre comic sans, uma vez teve um Post no hacker news descrevendo os problemas dela em detalhes.
+[2016-06-26 00:48:24] Me diverti
+[2016-06-26 00:50:22] http://designrfix.com/fonts/arial-helvetica
+[2016-06-26 00:50:42] 👍
+[2016-06-26 00:51:42] Se alguém se interessar, eu uso Anonymous Pro no emacs. Na verdade, uma variante meio específica que deixa mais distintos alguns glifos
+[2016-06-26 00:55:35] fixedsc no terminal ❤️
+[2016-06-26 00:56:32] Tou curtindo usar Open Sans
+[2016-06-26 00:56:34] Eu não ligo muito para fonte de terminal porque uso mais o emacs para o cotidiano.
+[2016-06-26 00:57:42] (no geral, não para terminal/código)
+[2016-06-26 00:57:52] Eu uso Inconsolata para PCBs
+[2016-06-26 01:01:39] Fonte para PCB é um problema bacana, aliás. O suporte normalmente tem mudança de cor e a impressão sempre fica irregular. O espaço é geralmente restrito, também.
+[2016-06-26 01:02:41] Os aplicativos de PCB não tem nenhum recurso de design, então tem que ser monoespaçadas para não enlouquecer
+[2016-06-26 01:07:15] photo
+[2016-06-26 01:07:43] neste exemplo, prefiro muito mais comic sans
+[2016-06-26 01:08:21] (fonte pequena e sem Anti-aliasing)
+[2016-06-26 01:08:36] Comic sans era uma fonte otimizada para sistemas sem anti aliasing
+[2016-06-26 01:08:36] http://designforhackers.com/blog/comic-sans-hate/
+[2016-06-26 01:08:55] sim, acabo de descobrir nesse artigo ai
+[2016-06-26 01:12:31] Procurei, mas não achei nenhum texto sobre fontes para silk de PCB
+[2016-06-26 01:12:50] Se eu entendesse de fontes, escreveria um
+[2016-06-26 01:15:26] Aylons, esse lance de projetar fontes para condições de impressão zoadas tem histórico
+[2016-06-26 01:16:02] deve ter um jeito de calcular 'ink trappings' (as  formas dos cantos internos) para silk
+[2016-06-26 01:16:55] Tava falando hoje com o Gutem e o pessoal de fazermos uma atividade meio design gráfico 101 no Garoa
+[2016-06-26 01:17:28] outra coisa divertida ia ser passar o documentário 'Helvetica' que é muito bonito/legal
+[2016-06-26 01:18:10] tenho meus heróis tipográficos, o Adrian Frutiger (fontes Univers e Frutiger)
+[2016-06-26 01:18:19] e o Eric Gill (Gill Sans)
+[2016-06-26 01:19:55] mas tenho achado algumas fontes livres bem decentes, talvez como o Oda especulou eu não tenha o 'olho' bom o suficiente para ver tanta diferença...
+[2016-06-26 01:24:59] 👍
+[2016-06-26 01:27:03] é meio mistura de ranzinza, com um viés modernista (que eu também tenho) e um tanto de simplificação, por exemplo Bodoni é um exemplo histórico super importante, e tem monte de 'implementações contemporâneas' desse tipo histórico, umas mais bem cuidadas do que outras... eu acho bonita, mas não é pra qualquer uso.
+[2016-06-26 01:27:10] Vai depender da técnica do fabricante (que varia) e do uso da fonte na placa. Queria ver algo assim
+[2016-06-26 01:29:42] olha, eu só fiz PCB uma vez, a do meu pingente RGB
+[2016-06-26 01:29:57] usei a ferramenta de texto do eagle mesmo, sem pensar na fonte
+[2016-06-26 01:30:26] http://67.media.tumblr.com/1738c9ff5c6f94ac7737774204e93121/tumblr_ng3dfnkUxt1r7yo7xo1_1280.jpg
+[2016-06-26 01:30:30] estou sacando o espirito
+[2016-06-26 01:30:39] unha pra referência de tamanho, ficou bem legível
+[2016-06-26 01:32:02] e ela não é monoespaçada
+[2016-06-26 01:32:36] restrito as condicoes de contorno da vida (filhos e etc), eu participaria com prazer
+[2016-06-26 01:33:06] 👍
+[2016-06-26 01:39:31] bom, cai nessa pq estava escolhendo umas fontes aqui e optei por usar Glacial Indifference (livre) no lugar da Futura
+[2016-06-26 01:39:53] https://fontlibrary.org/en/font/glacial-indifference
+[2016-06-26 01:40:29] photo
+[2016-06-26 01:40:38] Exceto pelo logo, claro.
+[2016-06-26 01:40:51] era pra ser o DK? :P
+[2016-06-26 01:41:17] Isso. Viu o nome da placa?
+[2016-06-26 01:41:46] tava tentando entender o que IBOPE tinha a ver antes de ler APE :P
+[2016-06-26 01:43:14] Um dos motivos de ser monoespaçada é para não precisar redesenhar tudo quando mudar algo como a data ou número de versão
+[2016-06-26 01:43:56] E também porque parece mais técnico. Sei lá, combina mais.
+[2016-06-26 01:45:19] monoespaca eh vida
+[2016-06-26 01:46:16] falado serio, deve ser por conta do tipo de coisa que leio, mas prefiro tanto monoespacada...
+[2016-06-26 01:46:41] uso monoespacada pra irc, terminal, editor de texto
+[2016-06-26 01:46:56] Eu acho que cansa para textos longos
+[2016-06-26 01:47:07] nao eh nada legal ii, ij, jj em coisa que nao eh monoespacada
+[2016-06-26 01:47:09] Fica um paredão, mais difícil de me orientar.
+[2016-06-26 01:47:43] Eu conheci um cara que editava código usando fonte não monoespaçada
+[2016-06-26 01:47:48] a menos de um belo latex, claro
+[2016-06-26 01:47:57] latex ❤️
+[2016-06-26 01:48:00] Curti a unha azul
+[2016-06-26 01:48:04] esse cara tinha/tem serios problemas
+[2016-06-26 01:48:22] Tb ❤️ LaTeX
+[2016-06-26 01:48:25] aspenger nivel alto
+[2016-06-26 01:48:41] asperger
+[2016-06-26 01:49:11] Pessoal até mais,
+[2016-06-26 01:49:14] !
+[2016-06-26 01:49:17] abs!
+[2016-06-26 01:50:35] Obrigado Fabricio
+[2016-06-26 01:51:42] Obrigado pela referência
+[2016-06-26 01:53:28] Nossa, que legal. Obrigado
+[2016-06-26 01:55:07] a foto tem uns 2 anos.. :P no momento tá vermelha
+[2016-06-26 11:41:11]  joined
+[2016-06-26 13:08:53] Why You Should Stop Using Telegram Right Now
+Earlier this week, The Intercept evaluated the best instant messaging clients from the privacy standpoint. The list included Facebook's WhatsApp, Google's Allo, and Signal -- three apps that employ end-to-end encryption. One popular name that was missing from the list was Telegram. A report on Gizmodo sheds further light on the matter, adding that Telegram is riddled with a wide range of security issues, and "doesn't live up to its proclamations as a safe and secure messaging application." Citing many security experts, the report states:
+One major problem Telegram has is that it doesn't encrypt chats by default, something the FBI has advocated for. "There are many Telegram users who think they are communicating in an encrypted way, when they're not because they don't realize that they have to turn on an additional setting," Christopher Soghoian, Principal Technologist and Senior Policy Analyst at the American Civil Liberties Union, told Gizmodo. "Telegram has delivered everything that the government wants. Would I prefer that they used a method of encryption that followed industry best practices like WhatsApp and Signal? Certainly. But, if it's not turned on by default, it doesn't matter."
+The other issue that security experts have taken a note of is that Telegram employs its own encryption, which according to them, "is widely considered to be a fatal flaw when developing encrypted messaging apps." The report adds:
+"They use the MTproto protocol which is effectively homegrown and I've seen no proper proofs of its security," Alan Woodward, professor at the University of Surrey told Gizmodo. Woodward criticized Telegram for their lack of transparency regarding their home cooked encryption protocol. "At present we don't know enough to know if it's secure or insecure. That's the trouble with security by obscurity. It's usual for cryptographers to reveal the algorithms completely, but here we are in the dark. Unless you have considerable experience, you shouldn't write your own crypto. No one really understands why they did that."
+[2016-06-26 13:16:48] Implementar sua própria criptografia é bem peganingas...
+[2016-06-26 13:18:05] Sim, o telegram é legal, mas não é seguro. Não uso a função de secret chat dele para não ter ilusão
+[2016-06-26 13:18:30] Pois é... talk is cheap.
+[2016-06-26 13:20:49] Antigamente o telegram era claramente melhor que o Whatsapp, porque pelo menos era padronizado e com clientes livres. Agora não mais.
+[2016-06-26 13:21:10] Já que o Whatsapp tem segurança
+[2016-06-26 13:22:26] Tem uma tabela da eff, está desatualizada mas dá uma olhada se não viu ainda. É sobre IM
+[2016-06-26 13:23:24] Pelo que sei, só o Signal é livre (AGPLv3), tanto cliente como servidor, e já foi revisado por especialistas de segurança.
+[2016-06-26 13:24:54] O cliente do Telegram é OpenSource, pode ser criado um fork com criptografia end-to-end... não é necessário que o servidor possua esse recurso...
+[2016-06-26 13:25:54] O servidor é fechado, falam q um dia vai abrir mas putin não deixa
+[2016-06-26 13:27:08] Existe um fork do Telegram onde o servidor é OpenSource, só não lembro o nome.
+O servidor está sendo preparado para ser open source, já estão trabalhando há algum tempo nele.
+[2016-06-26 13:27:41] Actor? Já está funcionando, só não tem criptografia ainda
+[2016-06-26 13:30:26] Isso... Actor, basta implementar a criptografia... mesmo assim confio muito mais no Telegram do que no WhatsApp...
+[2016-06-26 13:33:07] quem confia em criptografia de software fehado deveria repensar seus conceitos
+[2016-06-26 13:36:33] Eles estão trampando nisso já
+[2016-06-26 13:47:22] Se for para mudar, me vez do fork do telegram eu preferiria o signal.
+[2016-06-26 13:47:57] a gente deveria eh fazer clientes a-la telegram para o hubzilla, tenho pensado nisso...
+[2016-06-26 13:50:09] Para usar em celular não vejo nada seguro
+[2016-06-26 13:50:18] Talvez o chatsecure
+[2016-06-26 13:50:47] se vc for por esse caminho, comece a se preocupar com o kernel que seu celular usa
+[2016-06-26 13:50:57] e depois com o hardware :)
+[2016-06-26 13:51:20] Então
+[2016-06-26 13:51:21] btw, sobre o signal: "It does not provide anonymity preservation, and requires servers for the relaying of messages and storing of public key material"
+[2016-06-26 13:51:33] Usar algo criptografado é criar uma bolha
+[2016-06-26 13:51:47] O resto pode está comprometido, aquela parte não
+[2016-06-26 13:51:59] hahahahaha
+[2016-06-26 13:52:00] Rá!
+[2016-06-26 13:52:08] Se for assim não usa internet para se comunicar porque em vários pontos está algo comprometido
+[2016-06-26 13:52:31] nao tem bolha se quem criptografa esta comprometido
+[2016-06-26 13:53:46] Claro que tem
+[2016-06-26 13:53:51] cuidado com a falsa ilusao de seguranca, criptografia so jeito que esta acessivel, prove um certo nivel de seguranca contra boa parte dos "inimigos"
+[2016-06-26 13:53:52] Eu não vejo da sua forma
+[2016-06-26 13:54:05] corvolino, essa nao eh a primeira vez que discutimos isso
+[2016-06-26 13:54:14] Sim
+[2016-06-26 13:54:16] sugiro que vc aprenda como funcionam as coisas primeiro
+[2016-06-26 13:54:19] comecando na matematica
+[2016-06-26 13:54:26] Tá certo
+[2016-06-26 13:54:27] depois tente ter alguma visao sobre a coisa
+[2016-06-26 13:54:38] achismos vao bem em ourto lugar, nao nesse assunto
+[2016-06-26 13:54:55] Se você acha que minhas opiniões são achismos, ok
+[2016-06-26 13:54:59] se vc se se ten seguro, otimo, parabens, mas vc esta errado
+[2016-06-26 13:55:10] Beleza
+[2016-06-26 14:18:17] #garoaemcrise !!!!
+[2016-06-26 14:25:30] Corvolino, meus dois centavos para essa discussão. Se um computador estiver rodando rodar software proprietário contendo rotinas mal-intencionadas (que ninguém pode auditar), a suposta "bolha" da criptografia que você sugere, pode ser furada pois os outros componentes do sistema podem boicotar o mecanismo de criptografia. Isse é especialmente problematico quando o software básico (sistema operacional e interfaces com o hardware) forem comprometidos. Por exemplo, é possível enfraquecer um algorítmo de criptografia por meio da alteração do mecanismo de geração de números aleatórios (um recurso ofderecido pelo sistema operacional) de modo a tornar previsível a geração de chaves e outros aspectos do algoritmo criptográfico, facilitando assim a sua quebra.
+[2016-06-26 14:28:36] Uma coisa muito grave, já que estamos falando desse assunto, é o Intel Management Engine (e o equivalente da AMD, chamado Platform Security Processor). Leiam sobre isso. É treta! Potencialmente mina a confiabilidade e segurança de quaquer computador com processadores Intel ou AMD disponíveis no mercado na última década.
+[2016-06-26 14:31:04] Exemplo de vulnerabilidade srand(time(NULL)), utilizado nas Urnas Eletrônicas... permite saber quem votou em quem...
+[2016-06-26 14:31:34] essa das urnas eh comedia demais
+[2016-06-26 14:31:50] ainda mais pq o horario de inicializacao eh impresso no BU
+[2016-06-26 14:31:51] LOL
+[2016-06-26 14:33:13] Sim, exato, quem é mesário e quer deixar de ser, é só começar a questionar a segurança das urnas eletrônicas... no meu caso aconteceu isso, foi começar a questionar e no ano seguinte eu já não era mais mesário, hahahahaha...
+[2016-06-26 14:33:14] hihihi...
+[2016-06-26 14:33:30] opa, boa dica :)
+[2016-06-26 14:33:58] estou querendo mudar meu titulo para a cidade que moro, mas fico com receio de virar mesario...
+[2016-06-26 14:35:23] Não sei quem é mesário e quer deixar de ser, é só começar a questionar a segurança das urnas eletrônicas... no meu caso aconteceu isso, foi começar a questionar e no ano seguinte eu já não era mais mesário, hahahahaha.... :-(
+[2016-06-26 14:35:45] WTF?
+[2016-06-26 14:35:56] deu match na regexp!
+[2016-06-26 14:35:59] eu vi
+[2016-06-26 14:36:10] mas que caraio...
+[2016-06-26 14:36:27] essa regex poderia ter um ?
+[2016-06-26 14:36:41] sim. claro
+[2016-06-26 14:36:44] show me the code
+[2016-06-26 14:36:47] Aqui Sanches: https://gitlab.com/raulhc/telegram-bot/blob/master/telegram-bot.coffee
+[2016-06-26 14:37:09] prefiro um kickban no bot do que perder meu tempo no codigo dele
+[2016-06-26 14:37:26] o bote é legal !
+[2016-06-26 14:37:34] quem o filho de uma rapariga
+[2016-06-26 14:37:51] não seja intolerante com os seres robóticos!
+[2016-06-26 14:37:51] quem é o filho de uma rapariga?
+[2016-06-26 14:37:59] Não sei quem é o filho de uma rapariga?. :-(
+[2016-06-26 14:39:34] cotas para bots ja!
+[2016-06-26 14:39:48] hahaha
+[2016-06-26 14:40:57] vamos ter que alterar o estatuto do Garoa para regularizar a associação de andróides...
+[2016-06-26 14:41:08] apoio
+[2016-06-26 14:41:17] acho que la fala de vida com base em carbono, nao?
+[2016-06-26 14:41:26] se for o caso, temos que mudar isso dja
+[2016-06-26 14:41:27] LOL
+[2016-06-26 14:41:29] sério?
+[2016-06-26 14:41:49] quase certeza que sim
+[2016-06-26 14:42:10] nao...
+[2016-06-26 14:42:21] o foda é que uma cláusula pró-androides, pra ter valor jurídico, acho que teria que ter ambaro em legislação brasileira...
+[2016-06-26 14:42:31] amparo
+[2016-06-26 14:42:52] o pior mesmo eh que vao ahar que estamos falando de celular
+[2016-06-26 14:43:00] heh
+[2016-06-26 14:44:03] eh, nao tem uma restricao a nao ser com base em carbono
+[2016-06-26 14:44:55] mas pensando bem... não tenho certeza o que seria mais provavel de acontecer primeiro: (A) um andróide pedir pra se associar, ou (B) um marciano (filho de terráquio nascido na colônia em Marte) voltar pra terra e pedir pra se associar ao Garoa
+[2016-06-26 14:45:10] Legislação brasileira? Ah, tah, aquele contrato unilateral que todos nós somos obrigados a seguir desde que nascemos, baseado nas coordenadas geográficas em que nascemos... sei...
+[2016-06-26 14:45:27] kkkk
+[2016-06-26 14:45:28] :-)
+[2016-06-26 14:45:48] eu que fiz a piada nesse "edital" aqui: https://garoa.net.br/wiki/Edital_0x01
+[2016-06-26 16:43:36]  joined

@@ -1,0 +1,95 @@
+[2016-12-24 02:20:17] nao, parou na versao 7(2007) agora o unico br ativo que conheco é http://www.metamorphoselinux.net/
+[2016-12-24 02:21:52] Kurumin foi a primeira distro que consegui usar no dia a dia. Tenho um grande carinho por ela
+[2016-12-24 02:29:34] sim tbm usei qnd tinha desistido de usar o slack uhaeuae
+[2016-12-24 02:30:17] foi o linux que fez eu sair do "web design" pra programação pq nao queria depender de windows pra design
+[2016-12-24 09:17:23] lesdudumaximo joined
+[2016-12-24 11:06:24] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803730671_126244.jpg
+[2016-12-24 12:07:22] alguem sabe se o duckduckgo tem dorks similares ao google?
+[2016-12-24 12:17:57] Possui algumas, mas nem todas
+[2016-12-24 12:18:20] Não lembro quais agora, mas no site do Duck Duck go fala
+[2016-12-24 12:18:42] Agora eu acharia mais eficaz usar um !g, nesse caso
+[2016-12-24 12:19:54] o que seria !g ?
+[2016-12-24 12:20:14] Nao achei nada referente a dorks la..
+[2016-12-24 12:20:18] Bang (acho que eh assim que  chama)
+[2016-12-24 12:20:30] bing?
+[2016-12-24 12:20:37] Você pesquisa no Duck Duck go, mas ele redireciona a busca pro google
+[2016-12-24 12:20:40] Nops
+[2016-12-24 12:20:56] Eh útil pra quem quer usar a engine do Google, mas quer a privacidade do ddg
+[2016-12-24 12:21:01] Nao mas eu preciso das dorks.. ou algo semelhante
+[2016-12-24 12:21:10] eu ja achei um aqui rs
+[2016-12-24 12:21:19] e que as dorks sao aceitas rs
+[2016-12-24 12:21:21] Chegando em casa eu vejo, talvez eu tenha visto num livro aqui sobre Google hacking, não lembro
+[2016-12-24 12:21:30] Então
+[2016-12-24 12:21:52] Com o !g você pesquisa como se estivesse no Google
+[2016-12-24 12:22:07] Podendo usar tudo dele, como as dorks e outros operadores
+[2016-12-24 12:22:12] eu tenho um projeto que faz exploracao em massa saca.. ai eu tava usando o google.. so que depois que joguei isso no git eles comecaram a mudar os captchas e isso ta me atrasando
+[2016-12-24 12:22:45] ai ja to partindo para outras alternativas..
+[2016-12-24 12:23:08] ja achei um aqui.. vai ser para ele mesmo =)
+[2016-12-24 12:24:03] Tenho esse link aqui:
+https://www.exploit-db.com/google-hacking-database/
+
+Mas para DuckDuckGo nunca ouvi falar...
+[2016-12-24 12:58:57] Eu fiz um script parecido
+[2016-12-24 12:59:22] Mas só para 'harvest', salva os links em txt
+[2016-12-24 13:43:12] Galera, o grupy deseja boas festas a todos:
+https://www.youtube.com/watch?v=QHUSdY1PxU0&feature=youtu.be
+[2016-12-24 13:44:27] dorks do google são  úteis até certo ponto, depois o que vocês fazem com este tipo de conteúdo que captam?
+[2016-12-24 13:44:42] (não quero um caso real, para não comprometer ngm)
+[2016-12-24 13:48:42] Uai depende do que tu ta pesquisando
+[2016-12-24 13:48:53] se tu quer encontra um pdf em um site que tu nao lembra onde tava...
+[2016-12-24 13:49:06] tu pesquia: site:site.com.br filetype:pdf
+[2016-12-24 13:49:11] vai aparece monte de pdf
+[2016-12-24 13:49:57] as dorks sao filtros uteis para vc encontrar o que tu quer com mais precisao
+[2016-12-24 13:50:19] no meu caso eu busco por sites/servidores que podem ou não estar vulneraveis
+[2016-12-24 14:30:49] Bruno Cardoso joined
+[2016-12-24 15:03:52] ok valeu obrigado... Acesse a página www.editoraRigel.com.br
+[2016-12-24 15:06:35] Se tivesse aparecido no 2do Encontro do Quebrando o Cerco, saberia a resposta... Hehehe
+[2016-12-24 15:07:54] ashusauhsahuhsa
+[2016-12-24 15:08:01] tenho uma boa desculpa
+[2016-12-24 15:08:51] Hehehe
+[2016-12-24 15:08:53] mas tipo, para o que vcs usam geralmente?
+[2016-12-24 15:09:01] buscar vulns?
+[2016-12-24 15:09:54] inurl:"php?id=" site:"gov.br"
+[2016-12-24 15:10:24] Assim que se acha SQL injection em sites gov
+[2016-12-24 15:10:46] Cria um script que salva as URLs em um txt
+[2016-12-24 15:11:05] vai em um Starbucks
+[2016-12-24 15:11:23] Use sqlmap lendo as URLs do txt
+[2016-12-24 15:11:43] Uma hora acha um vuln
+[2016-12-24 15:12:09] não. se vc usa o !g ele apenas redireciona para o google, como se vc tivesse entrado em google.com e feito a pesquisa.
+[2016-12-24 15:21:21] Mais ou menos, ele redireciona para "https://encrypted.google.com"... só queria saber qual a diferença deste para o "https://google.com" comum...
+[2016-12-24 15:38:26] quem fazia isso era o scroogle. em algum momento a google conseguiu bloquear de um jeito q os caras jogaram a toalha
+[2016-12-24 17:37:59] É NATAL!!! - #GIF:http://i.giphy.com/l0HlwDuy1LUbvoYMw.gif #Musica:https://www.youtube.com/watch?v=Ih15m_Mgvko
+[2016-12-24 19:52:32] Pessoal que fala bolacha, feliz natal do povo que fala biscoito! Maio estarei aí perturbando vocês para levar os cariocas para comer coisas boas!
+[2016-12-24 20:10:01] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_422091437182550074.webp
+[2016-12-24 20:14:19] boa
+[2016-12-24 20:27:06] Feliz Natal!
+[2016-12-24 20:34:18] Vamos ser mais inclusivos? Feliz 1o dia de Chanukah!
+[2016-12-24 20:44:28] 👍
+[2016-12-24 20:45:27] 👏🏻
+[2016-12-24 20:50:09] nmap -sX 255.255.255.255
+[2016-12-24 20:50:24] E bom sábado ae pra quem não comemora Natal
+[2016-12-24 20:56:21] https://kerala.me/promo/
+
+Boa noite, só pra entender:
+Esse aí é um site desprotegido?
+[2016-12-24 20:57:06] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803735386_5930.jpg
+[2016-12-24 20:57:09] Feliz Natal pessoal❗
+[2016-12-24 20:59:45] Judeu comemora natal?
+[2016-12-24 21:00:13] 👏🏻👏🏻👏🏻
+[2016-12-24 21:00:37] Que Baphomet Ilumine todos vocês
+[2016-12-24 21:00:39] Que fofo!
+[2016-12-24 21:00:47] Minhas mãos irão doer de tanto aplaudir essas colocações, Yumi!
+[2016-12-24 21:01:08] Não. Mas esse ano está coincidindo com a primeira noite de Hannukah
+[2016-12-24 21:02:47] Feliz Hannukah 😬
+[2016-12-24 21:05:00] Como assim? Hahaha
+[2016-12-24 21:52:44] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803735246_6016.jpg
+[2016-12-24 22:10:11] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_422091437182550177.webp
+[2016-12-24 22:19:24] Kkkkk
+[2016-12-24 22:36:47] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_422091437182550102.webp
+[2016-12-24 22:42:03] As regras do amigo secreto ladrão do garoa existem por aí? Tamo num impasse aqui na família
+[2016-12-24 23:12:04] Curioso, aqui tbm o pessoal tá discutindo isso
+[2016-12-24 23:12:23] Como não gosto nem falo nada
+[2016-12-24 23:16:25] Só ouvir os áudios aqui
+[2016-12-24 23:16:26] Kkkkk
+[2016-12-24 23:25:23] 95℅ da diversão do amigo ladrão é discutir as regras
+[2016-12-24 23:27:21] Diversão e/ou Tempo

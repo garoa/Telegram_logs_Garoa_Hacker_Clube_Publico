@@ -1,0 +1,4 @@
+[2017-09-23 00:10:20] Felipe "Juca" Sanches: hoje implementei um montão de auto-testes
+[2017-09-23 00:10:35] Felipe "Juca" Sanches: e, de fato, esbarrei em alguns bugs detectados pelos auto-testes
+[2017-09-23 00:11:09] Felipe "Juca" Sanches: então está sendo benéfico escrever os auto-testes. Estão cumprindo a função de alertar para situações onde o código está errado e precisa ser corrigido
+[2017-09-23 02:42:08] Felipe "Juca" Sanches: https://github.com/googlefonts/fontbakery/commit/1a4a5f6205bc4db2eea617dcb9577db220ea24be

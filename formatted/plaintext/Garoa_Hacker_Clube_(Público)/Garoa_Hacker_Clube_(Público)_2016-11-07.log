@@ -1,0 +1,76 @@
+[2016-11-07 15:47:47] Gambi é a espuminha da onda da inovação
+[2016-11-07 15:47:48] Bruno Trivellato added Bárbara Albuquerque
+[2016-11-07 15:47:49] Hi Bárbara !
+[2016-11-07 15:48:02] Pela farra, até ok, mas a chance de dar problema eh muito grande
+[2016-11-07 15:49:57] Coisas bestas como escolher a rede a qual se conectar, vao ter que funcionar de um jeito diferente do óbvio
+[2016-11-07 15:50:43] O tempo de implementação aumenta, etc, sem falar que esp não eh o cara mais estável da balada
+[2016-11-07 15:50:52] 2 sistemas rodando, logs dos dois lados, mais chances de falha, etc
+[2016-11-07 15:50:58] Sim, falei pela farra mesmo
+[2016-11-07 15:52:24] Bom, hora de esvaziar a banheira e voltar a fingir que trabalho
+[2016-11-07 15:53:26] VoCore2: Now We have 4USD Linux Computer | Vonger's Blog
+http://vonger.cn/?p=2652
+[2016-11-07 15:53:38] Só curiosidade, o que está ocupando as duas portas USB?
+[2016-11-07 15:54:06] photo
+[2016-11-07 16:48:07] Por coincidencia estava lendo esse post sobre a velocidade do GPIO do Rpi:
+http://codeandlife.com/2012/07/03/benchmarking-raspberry-pi-gpio-speed/
+[2016-11-07 17:08:32] Viram o Orange Pi para concorrer com o RPi Zero?
+http://www.cnx-software.com/2016/11/02/orange-pi-zero-allwinner-h2-board-with-wifi-and-ethernet-is-up-for-sale-for-7/
+[2016-11-07 17:14:11] tentei comprar um rasp 0 mes passado, mas o frete tava dando 40-70 dólares
+[2016-11-07 17:14:17] vcs compram de onde?
+[2016-11-07 17:14:37] eu uso o rasp 1 como video game, mas n pega playstation bem
+[2016-11-07 17:16:07] eBay, DX, Aliexpress, Banggood...
+[2016-11-07 17:27:01] @eduoda está nas refs desse artigo http://www.mentalmunition.com/2013/10/measure-air-pollution-in-your-home-or.html
+[2016-11-07 17:29:28] @eduoda o matt que fez https://github.com/MattSchroyer/DustDuino
+[2016-11-07 17:29:29] MattSchroyer | DustDuino
+
+Project to collect and distribute particulate matter readings 
+
+Language: Arduino
+Forks: 14
+Stars: 18
+Issues: 0
+[2016-11-07 17:33:12] #hackeAr #esp8266 #ppd42 :) http://lantaukwcounter.blogspot.com.br/2015/10/pdd42-sensor-can-it-measure-pm10-and.html
+[2016-11-07 17:41:48] @guimasan valeu!
+[2016-11-07 17:46:04] @guimasan tava lendo por ai e parece que fechar o buraco ali da lente eh meio importante
+[2016-11-07 17:46:04] eu dei uma invertida na montagem, mas ainda preciso pensar melhor na coisa
+[2016-11-07 18:09:25] temos 2 leitores de cartão NFC via USB.
+[2016-11-07 18:09:32] mal a demora na resposta
+[2016-11-07 18:12:24] "em massa" não, a ideia é vender a solução em si
+[2016-11-07 18:13:02] estamos fazendo um sistema de leitura de smart card com leitor NFC
+[2016-11-07 18:13:54] o Raspberry vai enviar as leituras pra um sistema que vai autorizar ou não a entrada do cara
+[2016-11-07 18:14:21] não precisamos de muita banda pra fazer essa comunicação
+[2016-11-07 18:14:28] mas ela precisa ter uma latência baxa
+[2016-11-07 18:14:45] pelo que vi vcs comentando parece que o ESP8266 não é muito confiável =o
+[2016-11-07 18:52:18] Smart card é uma Tecnologia. NFC é outra tecnologia...
+[2016-11-07 18:52:46] Samrtcard == chip
+NFC e/ou RFID == aproximação
+[2016-11-07 18:53:47] Cabeamento não é uma solução? Imagino que isso esteja em algum tipo de catraca/porta, certo?
+[2016-11-07 18:57:30] cabeamento infelizmente não é solução 😢
+[2016-11-07 18:57:36] exato
+[2016-11-07 18:57:42] vai ficar numa porta
+[2016-11-07 18:58:11] qual a distancia até o computador/HW que controla?
+[2016-11-07 18:58:24] RF não é uma opção?
+[2016-11-07 19:04:19] Para que o rpi?
+[2016-11-07 19:04:42] Vc ta procurando muita sarna...
+[2016-11-07 19:05:08] Aparentemente, leitura do cartão. Aí envia para um computador "remoto"
+[2016-11-07 19:05:15] Tbm acho, mas...
+[2016-11-07 19:05:47] Da para fazer direto num Arduino, ou seja, só com o esp
+[2016-11-07 19:06:26] Esp já eh meio suspeito, junta com rpi... VDM
+[2016-11-07 19:06:55] Dá pra fazer SÓ com Arduino (ou RPi).
+Autentica no Arduino e nem precisa se comunicar com mais ninguem
+[2016-11-07 19:07:22] mete um SD Card e/ou uma porta USB para "diagnostico" e vai
+[2016-11-07 19:07:53] As vezes o cara quer autenticar no radius kkkk
+[2016-11-07 19:08:56] Boa! Aí mete um Wifi com senha fraca e a mulecada mete um MiTM lá... rs
+[2016-11-07 19:09:42] Hyshuahua
+
+Enfim, me parece justa a necessidade de comunicação, mas botar um SO inteiro pode ser meio roubada
+[2016-11-07 21:06:25] @Brunojlt Eu já brinquei com um shield NFC para Arduino e já tive algum contato profissional com sistemas de controle de acesso.
+[2016-11-07 21:08:10] Se lembro direito, o chip que trata o RFC tem interface SPI. Se for por brincadeira, eu ligaria o leitor direto a um ESP via SPI e faria a validação com o servidor central do jeito mais simples possível (usando TCP puro). Fica pequeno, simples e barato.
+[2016-11-07 21:12:00] Agora, se for para entrar no mercado... a coisa complica. Tem empresas trabalhando com isto há décadas. Elas tem milhares de produtos instalados Brasil a fora, com referências para atestar a confiabilidade, redes de revenda e assistência técnica, etc. É difícil entrar neste mercado com uma solução "colcha de retalho" feita em cima de placas feitas para hobbistas.
+[2016-11-07 21:14:50] Se não me engano, além do shield eu tenho um módulo destes aqui: http://www.dx.com/p/nfc-rfid-rc522-rf-ic-card-sensor-rfid-reader-module-w-s50-card-keychain-for-arduino-403052
+[2016-11-07 21:16:51] Você acha ele (ou algo parecido) aqui no Brasil nas lojas suspeitas de costume.
+[2016-11-07 21:20:12] O chip é o MF-RC522 da NXP.  Uma busca rápida vai achar um monte de documentação e exemplo.
+[2016-11-07 21:27:53] Neste tipo de aplicação não é incomum ter várias catracas (ou algo semelhante), uma base de dados central e muita volatilidade nas autorizações. Não dá para sair atualizando manualmente cada uma das catracas toda vez que algum cartão for autorizado ou desautorizado.
+[2016-11-07 21:32:38] Já que entraram nesse assunto... Eu estava vendo no Alibaba que o rt5350 sai a 1 dólar ou menos em quantidade e ele é bem poderoso. Fico imaginando se alguém já tentou importar esses chips da China e tentar algo no Brasil e como foi a experiência. Se alguém tiver relatos, blogs ou entrevistas, me manda!
+[2016-11-07 21:33:41] Queria saber de quem conseguiu como foi o processo, burocracia, imposto e etc. O que vem depois de inventar algo.
+[2016-11-07 21:59:59] O que vem depois de inventar algo eh descobrir que já existe uma versão melhor :D

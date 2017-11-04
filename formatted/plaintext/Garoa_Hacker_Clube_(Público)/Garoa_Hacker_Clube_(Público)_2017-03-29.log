@@ -1,0 +1,90 @@
+[2017-03-29 00:22:43] Alguém mora ou conhece alguém que more em NY ou em san Francisco poderia falar comigo sobre?
+[2017-03-29 00:24:50] Alguém mora. :D
+[2017-03-29 00:31:39] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_999077034489544758.webp
+[2017-03-29 08:35:36] Erik Perin joined
+[2017-03-29 08:35:37] Hi Erik !
+[2017-03-29 08:35:58] hey
+[2017-03-29 08:36:01] :D
+[2017-03-29 08:56:15] alguem aqui curte IoT?
+[2017-03-29 09:01:29] o @Gutemhc
+[2017-03-29 09:28:19] o/
+[2017-03-29 09:28:24] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_169467267627617100.webp
+[2017-03-29 09:35:24] USHAUHSAUHASSSAHHUA só se for shodan
+[2017-03-29 09:36:43] kkk
+[2017-03-29 09:36:59] to tentando montar uma automação em casa
+[2017-03-29 09:37:09] para integrar com outros projetos meus
+[2017-03-29 09:37:14] estilo Google Home
+[2017-03-29 09:38:04] HUE
+[2017-03-29 09:54:46] Tô vendo essa zuera, Jovem!
+[2017-03-29 11:48:08] O shodan tb adora
+[2017-03-29 12:15:22] Shodan++
+[2017-03-29 13:26:47] O "S" de IoT significa "Segurança".
+[2017-03-29 13:28:23] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_605630568155054415.webp
+[2017-03-29 13:50:12] [esp8266] SSL? forget it, no memory for more than 512 bit encryption which is assumed compromised already, so basically with ESP we do not advice you to connect to anywhere else than your local WIFI net, as WIFI is encrypted, it provides you with good security
+[2017-03-29 13:50:35] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_272479773299573087.webp
+[2017-03-29 13:53:11] Hahaha, o que não tem certo?
+[2017-03-29 13:53:16] Hahaha
+[2017-03-29 13:54:11] IoT é muito inseguro, desculpa ser Noob nas piadas aqui
+[2017-03-29 14:05:16] Eu sou lesado ou eu vi uma incoerencia interna nesse parágrafo ?
+[2017-03-29 14:10:08] isso depende da implantação
+[2017-03-29 14:14:48] O texto é ruim, mas o que ele quis dizer é que não dá para fazer critptografia no ESP acima da camada de enlace, então você deve ter o outro lado da comunicação na mesma rede, pois nesse nível você ainda tem a segurança da criptografia do enlace. Se for para uma rede que não seja a sua, bau.
+[2017-03-29 14:15:42] Perfeito!
+[2017-03-29 14:16:31] Quem processa os algoritmos de cripto do enlace são os chips dedicados da interace de rede e não a CPU do ESP, correto?
+[2017-03-29 14:20:04] Isso. Está tudo no mesmo encapsulamento no ESP, mas é isso, essencialmente.
+[2017-03-29 14:40:07] Não tem como usar a implementação de AES em hardware a partir da CPU? Ou tem, mas a memória é insuficiente?
+[2017-03-29 14:41:59] SSL support · Issue #43 · esp8266/Arduino · GitHub
+https://github.com/esp8266/Arduino/issues/43
+[2017-03-29 14:42:00] ERROR
+[2017-03-29 14:42:30] Até tu, Jack. 😂
+[2017-03-29 15:48:27] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803117178_26774.jpg
+[2017-03-29 15:48:35] Projetos de openhardware
+[2017-03-29 15:54:16] Gente, amanha e SpaceX refly, vamos fazer um "public viewing lá ou nao?
+[2017-03-29 15:54:43] amanha euch acho 19:27 abre o launch window
+[2017-03-29 17:10:25] O @fsanches tava organizando algo nessa linha
+[2017-03-29 17:15:51] SIM!!!!! Tá agendado. Amanhã no Garoa: https://garoa.net.br/wiki/Foguetes
+[2017-03-29 17:22:25] "The schedule to be ready is tight, however, and Halliwell warned, it's possible the mission could slip to the same time Friday."
+[2017-03-29 18:15:53] Sabado o Garoa tambem vai em dois Arduino Day um no Garoa Camp e um no  Centro Cultural SP http://arduinosaopaulo.cc/ https://garoa.net.br/wiki/Garoa_Hacker_Camp_2017
+[2017-03-29 18:21:21] Garoa tá bombandooooooooo !!!!!!
+[2017-03-29 18:21:52] Isso não é Garoa! É Tempestade Hacker Clube !!!
+[2017-03-29 18:26:33] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_532580780837176179.mp4
+[2017-03-29 18:27:46] Recebi um convite no Meetup para esse Arduino Day no Centro Cultural São Paulo...
+http://meetu.ps/e/CFkJC/1YzYC/d
+[2017-03-29 18:53:24] Legal isso heim...
+[2017-03-29 21:52:04] Pra quem tem problemas serios com privacidade
+http://biogenfutur.es/
+[2017-03-29 22:22:03] Acho que vou sabadex heinnnnn... show de bola isso
+[2017-03-29 22:27:26] WOW! Que doido!
+[2017-03-29 22:27:50] Solução interessante/curiosa, mas pouco prática.
+[2017-03-29 22:28:00] O mais interessante é o problema em si...
+[2017-03-29 22:29:40] Bem paranóia. Mas ultimamente eu tenho visto valer (em particular no tema de privacidade) a regra de que em geral os paranóicos de hoje são os realistas de amanhã.
+[2017-03-29 22:30:24] uhauahau, exato
+[2017-03-29 22:31:25] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803734817_76563.jpg
+[2017-03-29 22:31:26] ta ai a solucao
+[2017-03-29 22:31:34] mas vc acaba morto antes do fim
+[2017-03-29 22:32:59] digitais, pelos, pele, voz, face, etc etc etc
+[2017-03-29 22:32:59] tamos fodidos
+[2017-03-29 23:39:36] galera que conhece o pingo
+[2017-03-29 23:39:57] o standardfirmata tá rodando no arduino uno e eu baixei o pymata
+[2017-03-29 23:40:20] ja tentei restartar mas quando eu dou arduino.get_arduino() eu recebo isso
+[2017-03-29 23:40:32] Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/lib/python2.7/site-packages/pingo/arduino/arduino.py", line 33, in get_arduino
+    return ArduinoFirmata(serial_port)
+  File "/usr/lib/python2.7/site-packages/pingo/arduino/arduino.py", line 47, in init
+    self.PyMata = PyMata(self.port)
+  File "/usr/lib/python2.7/site-packages/PyMata/pymata.py", line 127, in init
+    self.transport = PyMataSerial(port_id, self.command_deque)
+  File "/usr/lib/python2.7/site-packages/PyMata/pymata_serial.py", line 53, in init
+    timeout=int(self.timeout), writeTimeout=0)
+  File "/usr/lib/python2.7/site-packages/serial/serialutil.py", line 282, in init
+    self.open()
+  File "/usr/lib/python2.7/site-packages/serial/serialposix.py", line 289, in open
+    self.fd = os.open(self.portstr, os.O_RDWR|os.O_NOCTTY|os.O_NONBLOCK)
+OSError: [Errno 13] Permission denied: '/dev/ttyACM0'
+[2017-03-29 23:40:38] any ideas?
+[2017-03-29 23:43:05] alguém tem lugar sobrando no carro esse sábado pro Hacker Camp? :) estou precisando de carona
+[2017-03-29 23:49:58] fixed, tinha que executar como sudo :O
+[2017-03-29 23:56:13] Qual sua distribuição Linux? Algumas bloqueiam o acesso às portas seriais para usuários comuns, e só funcionam como root? Em outras, você pode incluir o seu usuário no grupo dialout.
+[2017-03-29 23:58:21] massa, valeu :-)
+[2017-03-29 23:58:22] é fedora
+[2017-03-29 23:58:28] Ah, Dani, depois que vi que já tinha resolvido.

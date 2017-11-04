@@ -1,0 +1,153 @@
+[2016-08-10 08:14:58] Galera que notebook leve vcs recomendam?
+[2016-08-10 08:15:57] Faz um com um raspberry pi 😉
+[2016-08-10 08:18:31] Kkkkkkk eu preciso pra usar no trabalho e na escola
+[2016-08-10 08:19:56] Preciso de algo que não ocupe muito espaço
+[2016-08-10 08:21:16] Uns tempos atrás vi um lenovo, se não me engano um modelo Yoga, que é tablet/note e me pareceu bem legal
+[2016-08-10 08:21:26] Mas custava um fígado
+[2016-08-10 08:35:31] Me parece que você eliminou as chaves que foram criadas (provavelmente corrompidas) e forçou que fossem recriadas...
+[2016-08-10 08:35:58] me parece que eu fiz o mesmo, também
+[2016-08-10 08:36:59] Eu tbm acho q a Erin fez o mesmo
+[2016-08-10 08:49:19] eu acho q ela fez o mesmo x3 mas a bruxaria foi o kernel
+[2016-08-10 08:50:42] Estranho... Difícil um arquivo de chave estar corrompido. Ainda mais por ser pequeno. Talvez foi interrompida a geração do rsa durante a instalação? Estranho.
+[2016-08-10 08:52:24] Teria valido ouro rodar o server em modo extra verbal pra ter mais detalhes. Mas pelo visto ficará agora na nossa imaginação. Rs.
+[2016-08-10 08:52:36] dsclp gente
+[2016-08-10 08:52:54] isso foi logo depois da instalação do debian 7 no vps
+[2016-08-10 12:08:47] https://www.facebook.com/GaroaHC/photos/a.177930025618349.44924.143549782389707/1057835100961166/?type=3
+[2016-08-10 12:10:02] " 20 de Agosto […] no FAB LAB LIVRE SP da Galeria Olido. O projeto se chama Hackerspaceitinerante. INSCRIÇÕES: http://fablablivresp.art.br/cursos/curta/programacao-e-eletronica-com-arduino-garoa-hacker-club " <-agora com o link de inscrição do FabLab
+[2016-08-10 12:58:56] Amauri Rossetti Giovani joined
+[2016-08-10 12:58:57] Hi Amauri !
+[2016-08-10 17:20:12] Brunno Marchetti joined
+[2016-08-10 17:20:13] Hi Brunno !
+[2016-08-10 17:32:13] slackware is imbued with the spirt of Slack.
+slackware has Slack because Volkerding has Slack.
+If you have no Slack, then slackware will confuse you
+and frustrate you.  You will turn away, and call it crap.
+That's not slackware's fault: slackware made you no promises.
+If you have Slack, then slackware will serve you well.
+     -- William Hunt
+[2016-08-10 17:32:19] bem dito ;)
+[2016-08-10 17:33:49] não tinha uma atividade no Garoa? "achieving slack?'
+[2016-08-10 17:33:57] getting slack
+[2016-08-10 17:34:08] todo mundo achava que era sobre slackware
+[2016-08-10 17:34:12] nao sobre slack
+[2016-08-10 17:34:16] #fail
+[2016-08-10 17:34:46] estavamos estudando coisas relacionadas a tomar a internet de volta :-\
+[2016-08-10 17:35:28] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803707469_72649.jpg
+[2016-08-10 17:35:40] Hail "Bob"!
+[2016-08-10 17:36:10] e agora que tem o IRC glorificado chamado 'slack' fodeu mais ainda
+[2016-08-10 17:38:00] villares, ta com fone de ouvido ai?
+[2016-08-10 17:40:12] tou pegando um aqui...
+[2016-08-10 17:41:01] https://www.youtube.com/watch?v=-PUcoYYin7E
+[2016-08-10 17:41:23] ainda vou tocar um gubal na vida...
+[2016-08-10 17:42:42] :))
+[2016-08-10 17:42:48] bem louco
+[2016-08-10 17:42:55] se ligou no grave?
+[2016-08-10 17:44:07] acho que sim, mas não sei se entendi
+[2016-08-10 17:46:48] rsrs
+[2016-08-10 18:16:14] galera o q vcs acham da criação de um repositório online para obtenção de documentos de domínio público?
+[2016-08-10 18:18:09] isso nao chama wikicommons?
+[2016-08-10 18:18:38] não sei
+[2016-08-10 18:18:40] ashuuasuhsahsahu
+[2016-08-10 18:19:04] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_193628056395448992.webp
+[2016-08-10 18:19:05] é teoricamente sim
+[2016-08-10 18:19:08] kkkk
+[2016-08-10 18:19:12] então deixa quieto kkkk
+[2016-08-10 18:19:24] nao sei se eh a mesma coisa, mas da uma olhada la
+[2016-08-10 18:19:28] tou pensando em algum projeto que eu poderia desenvolver para ajudar a galera de pesquisa e etc
+[2016-08-10 18:19:35] https://commons.wikimedia.org/wiki/Category:Public_domain
+[2016-08-10 18:19:46] acabei de olhar, é melhor q a ideia q eu tive, mas não é opensource
+[2016-08-10 18:21:11] cara, vc manja de drupal?
+[2016-08-10 18:22:20] antes de mais nada, me sinto na obrigacao de te alertar: ajudar os outros, ainda mais no meio academico, eh roubada geral, pior estrategia de vida ever
+[2016-08-10 18:23:00] bom, agora que ja te alertei, retomemos: se vc manja de drupal, tem um povo fazendo um sistema para os labs gerenciarem as coisas
+[2016-08-10 18:23:17] um amigo meu ia fazer um sistema de trocas entre labortórios
+[2016-08-10 18:24:02] na verdade, eu não sei bem aonde ajudar, falei meio academico pq eh no q eu estou envolvido agora
+[2016-08-10 18:24:06] entao, a ideia eh ate boa, mas o problema eh mais embaixo: os labs nao compartilham, fim.
+[2016-08-10 18:24:08] mas posso ajudar a qualquer um
+[2016-08-10 18:24:26] Exatamente! Nem pessoas dentro dos labs compartilham, imagina labs para labs
+[2016-08-10 18:24:34] academia eh briga de foice, meu camarada comuna
+[2016-08-10 18:25:02] eh grana e prestigio envolvido
+[2016-08-10 18:25:19] se aparece alguem bem intencionado como vc, logo vira capacho
+[2016-08-10 18:25:34] conheco bem o meio ;)
+[2016-08-10 18:26:17] se quer por sua energia em coisas assim, aco que vc pode encontrar opcoes melhores
+[2016-08-10 18:29:53] tou pensando em atacar algum projeto open source @eduoda mas não sei no q mexer cara
+[2016-08-10 18:30:02] não tenho criatividade para mexer em projetos de fonte/design
+[2016-08-10 18:30:22] na verdade não tenho muita experiência em projetos open source grandes, só nos meus kkk
+[2016-08-10 18:30:56] cara, o basico eh fork-branch-commit-pull request
+[2016-08-10 18:31:18] mas ve algo que vc usa muito
+[2016-08-10 18:31:20] isso eu manjo
+[2016-08-10 18:31:24] no seu dia-a-dia
+[2016-08-10 18:31:51] o foda: só uso coisa proprietária ou tenho q desenvolver do zero! Tou num lab de genomica cara, n tem nada pronto asuhhuasasuhasa
+[2016-08-10 18:31:58] geralmente tem um "como ajudar" com lista de bugs que vc pode meter a mao, documentacao, etc
+[2016-08-10 18:32:48] vo te chamar no private pq essa discussão não tem há ver com o garoa
+[2016-08-10 18:33:07] alias não sei se é pertinente
+[2016-08-10 18:33:18] blz
+[2016-08-10 18:34:23] Gente... maluco no bus perguntou se conheço o Jeová. Disse que não e que ele deve ter me confundido. Maluco começou a me xingar.
+[2016-08-10 18:34:49] salta do bus, ele pode ter uma bomba
+[2016-08-10 18:41:39] Eu conheço uns labs que compartilham
+[2016-08-10 18:41:55] algum na USP?
+[2016-08-10 18:42:08] só conheço um do IQ e do Butantan q compartilham por ser o mesmo dr
+[2016-08-10 18:42:47] aylons, obvio que tem, mas ta longe de ser a regra
+[2016-08-10 18:42:58] compra duplicada de equipamento eh quase um mantra
+[2016-08-10 18:43:19] no ime tem ate predio com dono
+[2016-08-10 18:43:42] FF 81 A5 81 A5 99 81 FF
+[2016-08-10 18:43:47] mas tem gente muito bacana tentando mudar essas coisas, tava ate falando para o vinicius sobre o grupo de ciencia aberta
+[2016-08-10 18:44:07] sim, eu tava pensando em abrir um grupo de estudos de ciencia aberta
+[2016-08-10 18:45:29] Legal Vini
+[2016-08-10 18:45:47] o Oda é o cara pra você falar. É o Abdo também.
+[2016-08-10 18:46:31] Abdo está viajando ainda, né? :c/ Ele está fazendo falta para a EHAL
+[2016-08-10 18:46:45] sim, franca ate segunda ordem
+[2016-08-10 18:46:56] i.e., ser demitido e nao arrumar mais nada por la
+[2016-08-10 18:46:58] kkkk
+[2016-08-10 18:47:08] Foda.
+[2016-08-10 18:47:10] fugiu do bananal
+[2016-08-10 18:47:46] Tem que levar estas coisas para o dia institucional da EHAL. Aliás, pensei em ver se o Ronaldo Lemos não se interessa.
+[2016-08-10 19:08:01] https://publicdomainreview.org/collections/how-to-use-the-dial-telephone-1927/
+[2016-08-10 19:21:04] @Biazzotto cara é seu niver hj?
+[2016-08-10 19:21:23] Não, hoje não, dia 15...
+[2016-08-10 19:21:38] porra, tá marcando no garoa.club q é hj kkk
+[2016-08-10 19:29:24] Nem lembro meu cadastro no garoa.club
+[2016-08-10 19:29:34] cara a gente precisava movimentar aquilo
+[2016-08-10 19:29:41] puta rede social foda é o Hubzilla
+[2016-08-10 19:31:50] da uma olhada nos meus contatos que nao sao do garoa la, tem uns manos incriveis
+[2016-08-10 19:32:04] http://www.cs.ucr.edu/~zhiyunq/pub/sec16_TCP_pure_offpath.pdf
+[2016-08-10 19:32:26] Já tinham visto esta falha encontrada no TCP?
+[2016-08-10 19:36:02] Se quiserem uma demonstracao (sem codigo) https://www.youtube.com/watch?v=S4Ns5wla9DY
+[2016-08-10 19:49:01] sei, o cara nao usa ssl/tls, toma um MitM e acha estranho
+[2016-08-10 19:50:00] mas sim, eh um bug chato
+[2016-08-10 20:18:19] pq nois eh tudo meleca
+[2016-08-10 20:35:17] Mesmo assim tem vetor de ataque pra DoS. Dá uma lida depois.
+[2016-08-10 20:39:42] Onde estudo teve roubo de pesquisa
+[2016-08-10 20:40:02] Meio acadêmico é um lugar maravilhoso, boa sorte
+[2016-08-10 20:41:44] SAHUSAUHUHSAUSHAHUSA
+[2016-08-10 20:41:48] sarcasmo detected
+[2016-08-10 20:41:55] mas realmente é bem isso mesmo
+[2016-08-10 20:42:43] Fora o ego.. Bem, não desista :)
+[2016-08-10 20:45:12] sim, tem essa parte tbm
+[2016-08-10 20:45:17] ainda bem q meu lab é bem de boa
+[2016-08-10 20:45:40] Você é do IQ, Vinicius?
+[2016-08-10 20:45:57] digamos q sim
+[2016-08-10 20:46:03] minha IC tá entre o Butantan e o IQ
+[2016-08-10 20:46:20] Entendi
+[2016-08-10 20:46:22] trabalho no lab do verjovski do Butantan
+[2016-08-10 20:46:29] Mas cê faz que curso por lá?
+[2016-08-10 20:46:35] faço IC
+[2016-08-10 20:46:54] na usp? nenhum, sou aluno de ensino médio ainda
+[2016-08-10 20:47:01] Sei lá, difícil achar um lugar ~de boa~ na USP D:
+[2016-08-10 20:47:10] Ah, tá xD
+[2016-08-10 20:48:28] talvez por isso q eu ache tudo de boa
+[2016-08-10 20:48:38] preciso ainda ver aonde vou fazer facul
+[2016-08-10 20:48:39] e do q
+[2016-08-10 20:48:45] só sei q quero algo de exatasd
+[2016-08-10 20:49:51] Entendi!
+[2016-08-10 20:50:26] Bom, a USP tem uma cultura péssima mas é um lugar bem legal pra aprender (na média)
+[2016-08-10 21:09:59] Até por que SSL/TLS opera por cima da TCP. Logo estaria vulnerável de qualquer forma.
+[2016-08-10 21:19:40] vulneravel a que? dos?
+[2016-08-10 21:22:19] para coisa sinistra em especificacao, vc deveria ficar mais preocupado com certificado intermediario
+[2016-08-10 21:22:33] em particular com symantec e blue coat...
+[2016-08-10 21:36:50]  joined
+[2016-08-10 21:36:50] Hi Rafael !
+[2016-08-10 21:37:39] Olá!
+[2016-08-10 21:40:01] eae
+[2016-08-10 23:35:29] @vmesel @eduoda olhem isso: http://boingboing.net/2016/08/10/why-did-it-take-a-private-foun.html
+[2016-08-10 23:40:31]  joined
+[2016-08-10 23:49:24] Tava vendo essa vuln hoje pela manhã

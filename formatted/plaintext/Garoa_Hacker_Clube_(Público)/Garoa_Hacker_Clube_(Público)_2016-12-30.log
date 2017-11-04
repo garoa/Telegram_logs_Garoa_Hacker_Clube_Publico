@@ -1,0 +1,64 @@
+[2016-12-30 00:01:20] alguém conhece um módulo para clicar em botões e navegar por páginas em python? Já vi o selenium mas para cada erro que eu resolvo aparecem dois 😐
+[2016-12-30 00:18:11] python seria uma necessidade?
+[2016-12-30 00:18:58] não conheço ferramentas desse tipo em python, mas se puder usar JS phantomJS é bom pra esse tipo de coisa
+[2016-12-30 00:19:08] principalmente com casperJS em cima
+[2016-12-30 00:19:26] usei eles pra fazer teste automatizado em páginas web
+[2016-12-30 00:19:39] integrar em jenkins é bem fácil
+[2016-12-30 00:27:25] Estou aprendendo python como primeira linguagem, mas nada me impede de ver como funciona javascript
+[2016-12-30 00:27:43] Obrigado pela dica Eri :)
+[2016-12-30 00:29:40] Erin*
+[2016-12-30 08:59:24] 👏
+[2016-12-30 09:01:44] Talvez ajude, não testei:
+https://github.com/casperjs/python-casperjs
+[2016-12-30 09:01:45] casperjs | python-casperjs
+
+Python Module for invoking CasperJS
+
+Language: Python
+Forks: 1
+Stars: 4
+Issues: 1
+[2016-12-30 13:42:33] #ystscon 11 website is up, and CFP is officially open! bit.ly/a9Wz2N
+[2016-12-30 13:54:26] A Anatel certifica o chip ou o conjunto de chip+firmware?
+Se eu implemento o firmware ou mudo ele, tem que homologar novamente?
+[2016-12-30 13:55:04] Certifica seu aparelho operando.
+[2016-12-30 13:55:53] Obrigado pela dica.
+[2016-12-30 13:59:02] Eu andei pesquisando esses dias sobre SoC e baseband. Obviamente a maioria das implementações de baseband requerem um blob proprietário pra funcionar e algumas stacks são muito difíceis de migrar pra open source, como a GSM.
+O licenciamento desse blob é macabro. Eu queria saber o que acontece nesse caso em projetos open source e open hardware que precisam distribuir firmware. Ou alterar, como o Apache Mynewt e vizinhos.
+[2016-12-30 14:00:22] Ah, projetos abertos que vão para o consumidor são um tema controverso. Nos EUA, o FCC quer impedir de alterar a programação da RF pelo usuário final.
+[2016-12-30 14:00:51] Este é o tipo de detalhe que você vai ter que resolver com um especialista, de qualquer jeito
+[2016-12-30 14:03:27] Onde encontro um? Eu estava vendo os módulos de GSM e Bluetooth do Arduino e eles possuem um microcontrolador dentro. Alguns desses SoC são ARM bem poderosos. De 16 a mais de 300 MHz.
+Pensei em começar algo nisso, mas mesmo que eu chegue a operar o rádio usando o Radio Interface Layer, como no Android, vou ter que perguntar sobre a licença pra distribuir o blob do baseband. A última tentativa que tenho notícia foi de um dev do XDA onde a MediaTek pediu $250k dólares pra começar a conversar. Eu achei sacanagem.
+[2016-12-30 14:09:34] Um o que? Eu estava falando de homologação, agora você está falando de desenvolvimento
+[2016-12-30 14:17:18] Especialista
+[2016-12-30 14:18:04] Sim, eu queria ver os dois. Tanto a licença pra distribuir quanto a homologação de modificação. A homologação deve ser mais tranquila.
+[2016-12-30 14:21:46] Tipo, o que acontece com a startup que tenta um produto usando esses módulos GSM ou Bluetooth onde o rádio não é free software?
+Como tem sido a comunicação pra pedir ao fabricante do SoC pra distribuir o firmware?
+[2016-12-30 15:05:28] Você compra um módulo que já permita redistribuição, mas não espere ver código nenhum.
+[2016-12-30 15:07:15] Nao quero o codigo original. Quero ajudar a portar projetos pra eles. Tipo um micropython, eLua, OpenEmbedded ou Apache Mynewt
+[2016-12-30 15:07:44] Vai receber um blob que você deve carregar no rádio e, com sorte, documentação para interfacear com ele
+[2016-12-30 15:07:49] Só que não quero ser preso nem tomar muita nem nada. Não vou vender. É mais por aprendizado
+[2016-12-30 15:08:23] Se você não vai vender, faz o que quiser com o que conseguir pegar
+[2016-12-30 15:09:36] Sobre a mediatek, ela sempre foi uma das piores empresas para se lidar. Junto com a Broadcom
+[2016-12-30 15:09:44] Mas e se der certo e eu quiser fazer umas dev board?
+[2016-12-30 15:10:37] Usa um chip que já tenha licença de distribuição.
+[2016-12-30 15:10:50] Nem me fale. A Qualcomm tem time de controle de documentação também. E a dupla MediaTek/Qualcomm tá comprando tudo. A Atheros agora é Qualcomm. Antes tudo era disponível, agora já não sei como vai ser. :(
+[2016-12-30 15:13:18] Tem como saber isso? Tipo alguma lista ou algo assim?
+Eu pensei em montar uma Wiki num blog com os chips mais amigáveis a hackeragem.
+Tenho muita vontade de ajudar nisso, mas não quero problema e queria que as pessoas pudessem usar esses projetos comercialmente.
+[2016-12-30 15:14:18] Veja na digikey. Mas é um mercado super mala
+[2016-12-30 15:14:26] Eu vou apresentar tudo no RaulHC, mas a ideia abrange desde hackeragem de gadget chinês a criação de dev boards brasileiras. Vou lançar as ideias e ver quem quer ajudar.
+[2016-12-30 15:14:47] Valeu! Vou tentar entrar em contato com eles.
+[2016-12-30 16:02:39] Réveillon vai ter festa
+[2016-12-30 18:27:31] Fábio Theophilo joined
+[2016-12-30 18:27:31] Hi Fábio !
+[2016-12-30 18:34:39] Precisa certificar o produto. Não se certifica módulo igual no UE e nos EUA. Se mudar firmware não precisa recertificar.
+[2016-12-30 18:35:41] Se precisar de ajuda, eu presto consultoria para melhorar as emissões de EMI do seu produto.
+[2016-12-30 18:37:41] Nunca tive problema com mediatek. Qualcomm e Broadcom é um porre mesmo. Só liberam as coisas com NDA
+[2016-12-30 18:37:49] Não é produto, eu não sou da área, é hackeragem. hehe
+Eu quero aprender DSP e tentar re-implementar stacks de protocolos como Bluetooth LE ou brincar com WiFi ou OsmocomBB em modem GSM USB. Sem ser preso nem tomar multa. É só medo mesmo.
+[2016-12-30 18:39:40] Então. DIY não precisa de certificação :)
+[2016-12-30 18:41:36] :)
+No GSM eu ainda tenho medo pq o transmissor é de uma operadora né... mas acho que se eu não transmitir e trabalhar só na recepção, como um SDR faria, não deve dar merda.
+[2016-12-30 18:41:57] Enfim, eu nem sei onde isso vai dar, mas agora já tô mais seguro que tentar é de boa. Vou ver onde chego.
+[2016-12-30 19:16:54] https://twitter.com/venturieta/status/772034761187528704 👆 depressed chain-smoking Luigi

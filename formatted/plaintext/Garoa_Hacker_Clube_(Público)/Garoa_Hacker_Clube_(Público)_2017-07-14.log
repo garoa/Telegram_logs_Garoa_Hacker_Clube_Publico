@@ -1,0 +1,61 @@
+[2017-07-14 01:06:40] @fsanches ja viu ?
+[2017-07-14 01:07:46] http://falstad.com/circuit/
+[2017-07-14 01:24:04] Show esse site!
+[2017-07-14 07:35:00] https://spaceflightnow.com/2017/07/14/soyuz-rideshare-launch/
+[2017-07-14 07:35:43] https://arstechnica.com/science/2017/07/spacex-urges-lawmakers-to-commercialize-deep-space-exploration/
+[2017-07-14 08:21:26] https://hardware.slashdot.org/story/17/07/13/2151259/automakers-are-asking-china-to-slow-down-electric-car-quotas
+[2017-07-14 09:11:56] https://electrek.co/2017/07/13/automakers-but-tesla-china-slow-down-electric-car-mandate/
+[2017-07-14 09:21:16] Muito boa a matéria: concentração de poder (monopólio) e relação impacto ambiental/lucratividade
+[2017-07-14 11:21:11] Oque tem pra hoje a noite no garoa
+[2017-07-14 11:47:00] Sexta é dia de Nós Robôs
+[2017-07-14 14:31:05] Alguem aqui já implementou algum código de "Analise de Emoção" de tweets, por exemplo?
+[2017-07-14 14:35:06] @vmesel
+[2017-07-14 14:54:59] Sim
+[2017-07-14 14:55:01] Fala ai
+[2017-07-14 15:41:27] eu ja tb, se conseguir, ajudo
+[2017-07-14 15:45:18] http://minerandodados.com.br/index.php/2017/03/15/analise-de-sentimentos-twitter-como-fazer/
+[2017-07-14 15:45:39] Esse ai tem o passo a passo bem explicado
+[2017-07-14 15:51:57] acabou de pegar fogo aqui no meu motor shield
+[2017-07-14 15:52:02] mais ele ainda ta funcionando
+[2017-07-14 15:53:49] http://blog.openai.com/unsupervised-sentiment-neuron/
+[2017-07-14 16:03:09] @Gutemhc https://github.com/vmesel/DataProcessing/tree/master/TwitterProcessing
+[2017-07-14 16:03:14] se tiver dúvida, me chama!
+[2017-07-14 16:04:51] Pô, Valeu @cassias, @fsanches @evandrodp e @vmesel
+[2017-07-14 16:06:18] imagina #tamoaqui
+[2017-07-14 17:35:10] tem algum bot que pegue as msg no telegram e separe em topicos? por exemplo, ele agrupo por replies e a primeira msg seria o titulo do topico.
+nesse caso as pessoas que usam o grupo sempre se policiam em falar respondendo algo se for referente ao assunto..
+
+se tiver alguem sabe onde? se não tem quem quer fazer?
+[2017-07-14 17:35:23] é pra usar aqui no grupo e no grupo de associados que tem mais msg que aqui auehaue
+[2017-07-14 17:36:04] ai daria um comando @botbolado topics today(ou data 12/12/1900)
+[2017-07-14 17:36:33] ai ele manda PM algo do tipo que faça o link das msg no grupo
+[2017-07-14 17:36:52] ate fim do ano vai ter 1k de pessoas aqui ou mais
+[2017-07-14 17:37:11] seria importante pra nao perder topicos importantes.. ja que ngm ta interessado em usar email mais
+[2017-07-14 18:26:58] Para referência, se alguém se dispor a se aventurar: https://core.telegram.org/bots
+[2017-07-14 18:56:48] Seria legal adotar inteligência artificial para agrupar.
+[2017-07-14 18:56:59] sim claro
+[2017-07-14 18:57:26] seria uma oportunidade boa pra estudar aprender e ensinar
+[2017-07-14 18:59:12] quando eu digo "seria legal" provavelmente significa que eu não vou fazer, mas que seria muito legal ver outras pessoas fazendo hahaha
+[2017-07-14 22:36:52] @rodrigopitanga Vira e mexe eu me lembro que tenho vontade de aprender a compor chiptunes
+[2017-07-14 22:36:52] Tenho escutado um podcast de chiptunes chamado Impulse Project: http://impulseproject.info/
+[2017-07-14 22:36:52] E tenho tocado piano com frequencia em casa. Então estou bem musical ultimamente. Mas confesso que os trackers como o OpenMPT (que é software livre, aliás!) me dão um pouco de medo ainda
+[2017-07-14 22:38:37] Usa o lmms
+[2017-07-14 22:38:54] Tem patch meu lá :D
+[2017-07-14 22:42:50] lmms pra fazer chiptunes ?
+[2017-07-14 22:43:53] eu ainda acho que o OpenMPT deve ser a melhor solução mesmo, mas eu preciso tomar coragem e dedicar um tempão.
+[2017-07-14 22:45:26] Se não me engano, isso aqui foi feito no OpenMPT: https://www.youtube.com/watch?v=-tqZRJfS9Jc
+[2017-07-14 22:45:42] É um seqüenciador. Imagino que deve dar pra criar as bases lá (pelo fato de a intercace de composicao ser mais amigavel) e depois exportar em midi para o openmpt
+[2017-07-14 22:47:53] talvez. Mas minha intuição diz que provavelmente fazer direto no openmpt seria melhor, pois já seria nativamente composto na linguagem de tracker. Pensamento análogo a dizer que escrever HTML na mão é melhor que com gerador automático
+[2017-07-14 22:54:29] No openmt vc consegue gerar patterns e repeti-las qdo quiser?
+[2017-07-14 22:57:50] yep
+[2017-07-14 22:58:24] o openmpt é aquele programa que eu te mostrei durante uma oficina da Metamáquina no SESC Belenzinho
+[2017-07-14 22:58:58] http://d2.alternativeto.net/dist/s/openmpt_377411_full.png?format=jpg&width=1600&height=1600&mode=min&upscale=false
+[2017-07-14 22:59:10] É um software livre só pra windows :-P
+[2017-07-14 22:59:32] Ninguém portou o código ainda. Usa libs nativas de GUI do Windows.
+[2017-07-14 22:59:49] Sim, sei qual é, mas não me lembro desses detalhes
+[2017-07-14 22:59:51] Dá pra rodar com Wine, mas me dá um pouco de enjôo...
+[2017-07-14 23:00:26] Bora portar isso ai :)
+[2017-07-14 23:01:19] É....
+[2017-07-14 23:01:23] TRETA
+[2017-07-14 23:01:58] Você tem fôlego pra arregaçar as mangas num lance desses ?
+[2017-07-14 23:02:26] Eu já tô até o pescoço de projetos em andamento. Não dá pra eu sair assumindo mais tretas hahaha

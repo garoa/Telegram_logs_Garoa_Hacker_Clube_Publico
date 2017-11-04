@@ -1,0 +1,111 @@
+[2016-05-07 15:13:00] Carril Fernando sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Este_grupo_só_será_deletado_após_providenciarmos_um_backup._Garoando_na_Terra_dá_Hacking__/download_803711088_34536.jpg
+[2016-05-07 15:15:54] Erin Pinheiro: \o/ somo nóis
+[2016-05-07 15:30:29] Carril Fernando: 👍recomendo o cód. morse
+[2016-05-07 17:00:18] Felipe "Juca" Sanches: http://felipesanches.github.io/emuladores/patinho.html
+[2016-05-07 17:05:31] Anchises (Garoa): Parabéns Juca !!!!!
+[2016-05-07 17:05:47] Felipe "Juca" Sanches: :-)
+[2016-05-07 17:53:29] Aylons Hazzud: Legal! Agora falta emular o sintetizador que ia ligado ao patinho feio
+[2016-05-07 17:53:49] Felipe "Juca" Sanches: EXATAMENTE!
+[2016-05-07 17:54:03] Felipe "Juca" Sanches: Faz 15 dias que to tentando falar com o Guido e não consigo
+[2016-05-07 17:54:17] Felipe "Juca" Sanches: o Jota-Jota já falou com o Guido e contou o que eu to fazendo
+[2016-05-07 17:54:20] Felipe "Juca" Sanches: e o Guido curtiu
+[2016-05-07 17:54:23] Felipe "Juca" Sanches: e quer ajudar
+[2016-05-07 17:54:31] Felipe "Juca" Sanches: fornecendo informações técnicas
+[2016-05-07 17:54:33] Felipe "Juca" Sanches: que ele ainda tem
+[2016-05-07 17:56:07] Felipe "Juca" Sanches: estamos falando disso, pessoal: http://www.lcs.poli.usp.br/~gstolfi/synthpage2.htm
+[2016-05-07 18:01:04] Felipe "Juca" Sanches: http://www.lcs.poli.usp.br/~gstolfi/gus_files/solfegietto.mp3
+[2016-05-07 18:09:15] Alexandre Villares: 😮
+[2016-05-07 18:09:52] Felipe "Juca" Sanches: :-)
+[2016-05-07 18:11:02] Felipe "Juca" Sanches: talvez seja difícil simular os circuitos analógicos do Guido
+[2016-05-07 18:11:43] Felipe "Juca" Sanches: mas certamente é fácil tocar notas falsas com as frequencias certas para cada comando recebido pelo programa do guido rodando no módulo de emulação da cpu do pato
+[2016-05-07 18:12:32] Felipe "Juca" Sanches: entretanto, acho que é bem provavel que o Guido tenha muito mais material relativo à integração do sintetisador ao computador da HP, do que da versão que era integrada ao patinho feio
+[2016-05-07 18:13:22] Felipe "Juca" Sanches (in reply to Felipe "Juca" Sanches): mais dificil ainda fazer isso em tempo real durante a execução do emulador
+[2016-05-07 18:14:08] Felipe "Juca" Sanches: mas uma coisa é fato. Se o Guido me fornecer documentos técnicos sobre o sintetizador, eles vão DIRETO pro scanner e depois pro Internet Archive
+[2016-05-07 18:25:37] Aylons Hazzud: Eu não acho que vá ser tão difícil emular o som do sintetizador. Já fizeram coisas parecidas, o próprio Guido diz que não é difícil.
+[2016-05-07 18:26:06] Felipe "Juca" Sanches: bem... as fórmulas dos circuitos a gente sabe
+[2016-05-07 18:26:15] Felipe "Juca" Sanches: é coisa de aula de eletricidade na poli
+[2016-05-07 18:26:19] Felipe "Juca" Sanches: eu acho
+[2016-05-07 18:26:37] Felipe "Juca" Sanches: e o MAME tem um subsistema de simulação de circuitos analógicos
+[2016-05-07 18:26:44] Felipe "Juca" Sanches: alguns games simulam circuitos de som
+[2016-05-07 18:26:55] Felipe "Juca" Sanches: a performance vai pro beleléu, é claro
+[2016-05-07 18:27:06] Aylons Hazzud: Olha, não sabia que o Celso tinha participado
+[2016-05-07 18:27:10] Felipe "Juca" Sanches: mas do ponto de documentação precisa é a coisa certa a se fazer
+[2016-05-07 18:27:20] Felipe "Juca" Sanches: e que venham os computadores quanticos...
+[2016-05-07 18:27:35] Felipe "Juca" Sanches: Celso?
+[2016-05-07 18:28:17] Aylons Hazzud: É... Era diretor do ibope quando eu trabalhava lá, eu implementei  algoritmos dele de som.
+[2016-05-07 18:28:18] Felipe "Juca" Sanches: Celso de Oliveira
+[2016-05-07 18:28:30] Felipe "Juca" Sanches: me bota em contato, pô
+[2016-05-07 18:28:37] Aylons Hazzud: O filho dele trabalhava comigo também, gente boa os dois.
+[2016-05-07 18:28:56] Aylons Hazzud: O chave é o Guido e o jota jota.
+[2016-05-07 18:29:28] Aylons Hazzud: Depois a gente mostra para o Celso, ele vai curtir.
+[2016-05-07 18:29:30] Felipe "Juca" Sanches: mas todo mundo que trabalhou nisso é potencial detentor de documentos técnicos, fitas perfuradas, e outros materiais de relevancia histórica
+[2016-05-07 18:29:40] Felipe "Juca" Sanches: todos devem ser contactados para vermos o que conseguimos resgatar
+[2016-05-07 18:29:40] Aurium's Bot: Tarefa "2016-mai-07 21:29 s devem ser contactados para vermos o que conseguimos resgatar" adicionada.
+[2016-05-07 18:29:48] Aylons Hazzud: Ahn... Tá bom, vou mandar um email perguntando.
+[2016-05-07 18:30:04] Felipe "Juca" Sanches: ai ai ai... esse bot
+[2016-05-07 18:30:07] Aylons Hazzud (in reply to Aurium's Bot): Hahahah
+[2016-05-07 18:30:08] Aurium's Bot: hehehehe!
+[2016-05-07 18:30:31] Felipe "Juca" Sanches: list todo
+[2016-05-07 18:30:40] Felipe "Juca" Sanches: todo-list
+[2016-05-07 18:30:41] Aurium's Bot: Tarefa "2016-mai-07 21:30 -list" adicionada.
+[2016-05-07 18:30:45] Felipe "Juca" Sanches: ouch
+[2016-05-07 18:31:05] Felipe "Juca" Sanches: @AuriumBot liste minhas tarefas
+[2016-05-07 18:31:06] Aylons Hazzud: /help
+[2016-05-07 18:31:10] Aurium's Bot: O meu objetivo é interagir de forma natural, mas sem causar floods em grupos. 
+ 
+Eu posso: 
+Responder a "o que é [alguma coisa]?" com uma busca na Wikipedia e Google. 
+Responder a "onde fica [algum lugar]?" com uma busca no Google Maps. 
+Calcular expressões algébricas nas frases, tipo "tenho (38+52)/6 bananas". 
+Gerar áudio do texto que você quiser após a palavra "diga". 
+Responder a "que horas são?" de uma forma humana. 
+Jogar velha. (é só me pedir!) 
+Te trazer notícias. Escreva "rss help" para saber mais. 
+Gerir suas tarefas. Escreva "todo help" para saber mais. 
+ 
+Se precisar, fale com @Aurium.
+[2016-05-07 18:31:17] Felipe "Juca" Sanches: todo help
+[2016-05-07 18:31:17] Aurium's Bot: Eu posso gerenciar tarefas no modelo todo.txt
+Os comandos são:
+• todo list mostra as tarefas registradas neste canal;
+• todo done <num> marca a tarefa como concluída;
+• todo update <num> <propriedade> <valor> modifica uma tarefa;
+• todo download envia o arquivo todo.txt deste canal;
+• todo <algum texto> registra uma nova tarefa.
+
+Tarefas podem ter um deadline. Esta deve ser a última informação na tarefa e deve ser escrita no formato ISO.
+Exemplo: 2016-05-07T21:31:17
+[2016-05-07 18:31:27] Aylons Hazzud: Todo list
+[2016-05-07 18:31:27] Aurium's Bot: Tarefas registradas:
+0: 2016-mai-07 21:29 s devem ser contactados para vermos o que conseguimos resgatar
+1: 2016-mai-07 21:30 -list
+[2016-05-07 18:31:28] Felipe "Juca" Sanches: todo list
+[2016-05-07 18:31:32] Aurium's Bot: Tarefas registradas:
+0: 2016-mai-07 21:29 s devem ser contactados para vermos o que conseguimos resgatar
+1: 2016-mai-07 21:30 -list
+[2016-05-07 18:31:33] Felipe "Juca" Sanches: todo done 1
+[2016-05-07 18:31:36] Aurium's Bot: A tarefa "2016-mai-07 21:30 -list" foi finalizada.
+[2016-05-07 18:31:41] Felipe "Juca" Sanches: todo done 0
+[2016-05-07 18:31:42] Aurium's Bot: A tarefa "2016-mai-07 21:29 s devem ser contactados para vermos o que conseguimos resgatar" foi finalizada.
+[2016-05-07 18:31:47] Felipe "Juca" Sanches: todo list
+[2016-05-07 18:31:48] Aurium's Bot: Não tenho tarefas registrados neste chat. 
+Registre um com: todo <texto da tarefa>
+[2016-05-07 18:31:51] Felipe "Juca" Sanches: ufa!
+[2016-05-07 18:32:39] Felipe "Juca" Sanches: todo Construir um robê gigante.
+[2016-05-07 18:32:40] Aurium's Bot: Tarefa "2016-mai-07 21:32 Construir um robê gigante." adicionada.
+[2016-05-07 18:32:45] Felipe "Juca" Sanches: ouch!
+[2016-05-07 18:32:50] Felipe "Juca" Sanches: todo done 0
+[2016-05-07 18:32:50] Aurium's Bot: A tarefa "2016-mai-07 21:32 Construir um robê gigante." foi finalizada.
+[2016-05-07 18:33:03] Felipe "Juca" Sanches: todo Construir um robô gigante!
+[2016-05-07 18:33:03] Aurium's Bot: Tarefa "2016-mai-07 21:33 Construir um robô gigante!" adicionada.
+[2016-05-07 18:33:21] Felipe "Juca" Sanches: pronto... larguei um easter egg pro próximo que tropeçar no bot
+[2016-05-07 18:36:52] Aylons Hazzud sent document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Este_grupo_só_será_deletado_após_providenciarmos_um_backup._Garoando_na_Terra_dá_Hacking__/download_104205188025286963.webp
+[2016-05-07 20:21:05] Anchises (Garoa): Mike
+[2016-05-07 20:21:07] Anchises (Garoa): Mike
+[2016-05-07 20:21:09] Anchises (Garoa): Mike
+[2016-05-07 20:21:20] Anchises (Garoa): Tem gente no garoa agora??
+[2016-05-07 20:38:22] Felipe "Juca" Sanches: http://electrek.co/2016/05/06/tesla-model-s-crash-large-crumple-zone-gallery/
+[2016-05-07 22:51:15] Alexandre Villares: http://reeborg.ca/reeborg.htm
+[2016-05-07 22:51:49] Alexandre Villares: Reeborg's world is intended to help beginners to learn programming, using Python
+[2016-05-07 22:53:50] Alexandre Villares: (funciona com bloquinhos também)
+[2016-05-07 22:54:07] Alexandre Villares: http://reeborg.ca/world.html

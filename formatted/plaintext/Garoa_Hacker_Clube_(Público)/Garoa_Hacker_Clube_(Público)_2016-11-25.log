@@ -1,0 +1,147 @@
+[2016-11-25 00:00:19] Faz trilhas mais grossas
+[2016-11-25 00:04:31] Em vez de usar o menu de impressão, use o plot e gere um PDF
+[2016-11-25 00:05:30] Impressão vai imprimir o documento em si, como num arquivo de engenharia. O "plot" que gera o arquivo para fabricar, inclusive em PDF para poder usar em impressoras, fotolito, etc...
+[2016-11-25 00:05:49] Em vez de usar o menu de impressão, use o plot e gere um PDF
+[2016-11-25 00:25:16] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803705868_140187.jpg
+[2016-11-25 00:26:04] Procurei vários tutoriais e fiz tudo que pediam mas ainda não consegui.
+[2016-11-25 00:26:15] Usa Windows que vc consegue
+[2016-11-25 00:26:26] XD
+[2016-11-25 00:26:35] É algum problema no próprio kali?
+[2016-11-25 00:27:58] Acho que entendi, obrigado.
+[2016-11-25 00:43:52] skype pra linux parou de ser atualizado/suportado desde 2012 acho
+[2016-11-25 00:44:05] dps que a microsoft comprou em 2010
+[2016-11-25 00:44:39] nem sei se a última versão pra linux ainda conecta nos servidores da ms, eles desabilitam versões antigas
+[2016-11-25 00:44:50] as de powerpc por exemplo funcionavam até 1, 2 anos atrás
+[2016-11-25 00:44:55] agora não funcionam mais
+[2016-11-25 00:45:42] Entendi, obrigado.
+[2016-11-25 01:18:11] Eu me deparei com uma implementação open source de skype para linux, mas não dei muita atenção. Se achar novamente o link, posto aqui
+[2016-11-25 01:31:46] https://github.com/haskellcamargo/skype-unofficial-client
+[2016-11-25 01:31:47] haskellcamargo | skype-unofficial-client
+
+A Skype client for Linux built on top of node webkit
+
+Language: JavaScript
+Forks: 42
+Stars: 348
+Issues: 15
+[2016-11-25 01:37:20] ou seja, acesse http://web.skype.com/
+[2016-11-25 01:37:24] mesma coisa que isso
+[2016-11-25 04:07:27] Nossa como não tinha pensado nisso. Thanks!
+[2016-11-25 08:36:14] Elias joined
+[2016-11-25 08:56:04] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803717605_140309.jpg
+[2016-11-25 08:56:34] Então não vou
+[2016-11-25 08:58:19] Mas espera... no final, o Paulo Skaf vai arremessar brindes na cabeça dos participantes! ;-)
+[2016-11-25 08:59:43] O_o
+[2016-11-25 09:03:30] nte
+[2016-11-25 09:03:32] gente
+[2016-11-25 09:03:40] educacao na escandinavia:
+[2016-11-25 09:03:55] ops. grupo errado
+[2016-11-25 09:05:08] Ah manda material de educação na escandinávia!
+[2016-11-25 09:05:30] ok
+[2016-11-25 09:05:31] haha
+[2016-11-25 09:05:32] https://studyinsweden.se/
+[2016-11-25 09:05:42] Óia
+[2016-11-25 09:06:36] Microsoft lança novo Skype para Linux com nova interface, baixe agora! - Diolinux - Open Source, Ubuntu, Android e tecnologia
+http://www.diolinux.com.br/2016/07/microsoft-lanca-novo-skype-para-linux.html?m=1
+[2016-11-25 09:16:48] 👍
+[2016-11-25 09:20:52] Curti o canal. 
+Muito obrigado @aylons
+[2016-11-25 09:25:16] Não sei se digo legal, estou realmente desconfiado de tudo da Microsoft. 
+
+Será que é uma forma de hackear a comunidade Linux e toda cultura de software livre?
+
+Me desculpem se eu estiver falando besteira.
+[2016-11-25 09:26:21] Comentem
+[2016-11-25 09:38:37] Eu tenho sempre um pé atrás com a MS 😐
+[2016-11-25 09:46:17] não é software livre. não há motivo para não ter um pé atrás   ;)
+[2016-11-25 10:07:04] O Satya Nadella parece ter a mente mais aberta, a Microsoft está começando a investir mais em serviços e menos em produtos, e para se destacar precisam ter os melhores profissionais... e muitos deles costumam utilizar software livre...
+[2016-11-25 10:20:48] 😃
+[2016-11-25 10:24:04] eita
+[2016-11-25 10:35:18] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_413438718758617180.webp
+[2016-11-25 14:22:54] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_40214259828785942.webp
+[2016-11-25 14:23:29] https://en.wikipedia.org/wiki/Embrace%2C_extend_and_extinguish
+[2016-11-25 14:51:35] Pessoal, promoção em excelente programa GPL. Eles cobram para você baixar os pré-compilados, ter acesso ao PPA deles e suporte, e eu acho que vale muito a pena, principalmente para quem não tem setup para Windows e Mac pronto na máquina:
+
+Woah! 75% off Synergy on #blackfriday. Share 1 keyboard and mouse between 2 computers https://symless.com/synergy/black-friday
+[2016-11-25 15:44:23] Uma loja boa pra achar CIs diferentes na ata?
+[2016-11-25 15:44:58] Leonardo Silva joined
+[2016-11-25 15:44:59] Hi Leonardo !
+[2016-11-25 15:48:10] 👍
+[2016-11-25 15:57:23] https://forum.fiozera.com.br/t/engenharia-reversa-do-mega-drive-portatil-da-tectoy/38
+[2016-11-25 16:09:54] esse handheld é fabricado pela atgames http://staging.atgames.net/index.php/products/sega-genesis/ultimate-portable-game-player/
+[2016-11-25 16:10:05] suspeito que o novo mega drive de 2017 será também
+[2016-11-25 16:11:57] Ah já fiz umas gambiarras no mega
+[2016-11-25 16:12:06] Tipo overclock
+[2016-11-25 16:12:21] Tem na net uns tutoriais
+[2016-11-25 16:12:38] sim, mas o novo mega não é hardware real
+[2016-11-25 16:12:48] grandes chances de ser um SoC de acordo com o FAQ
+[2016-11-25 16:12:59] até porque carrega jogos a partir de microsd
+[2016-11-25 16:13:17] O que se ganha fazendo um overclock no mega drive ?
+[2016-11-25 16:14:10] Jogos sem slowdown
+[2016-11-25 16:15:28] Testa com o Sonic 2 com overclock e sem overclock a diferença é absurda
+[2016-11-25 16:15:50] o que isso tem a ver com microsd?
+[2016-11-25 16:18:03] Nossa sério mesmo?, não jogo há muito tempo, não pensei que existia essa demanda
+[2016-11-25 17:36:38] slowdown em arcade (e jogo de console) é culpa de programador incompetente (ou de cronograma de desenvolvimento apertado demais)
+[2016-11-25 17:37:59] Wow
+[2016-11-25 17:38:02] digo isso por que diferentemente de computadores modernos, os arcades e consoles como o megadrive são o que a gente chama de "bare metal". Não deveria ter imprevistos como você tem hoje em dia com sistemas operacionais com multiplos processos concorrentes. O jogo roda direto na CPU, sem sistema operacional nem outras abstrações no meio do caminho
+[2016-11-25 17:39:29] ou só tentando fazer coisa que o hardware não aguenta mesmo
+[2016-11-25 17:39:51] tipo a lógica do jogo pesar demais com x sprites
+[2016-11-25 17:41:27] chega um ponto que não importa o quão competente o programador é, o hardware tem um limite
+[2016-11-25 17:53:10] Slowdown é charme
+[2016-11-25 17:53:41] Especialmente nos shmups bullet hell mais clássicos. :)
+[2016-11-25 17:54:01] Galera faz jogo com cara retro mas esquece do slowdown. Assim estraga toda a experiência! :D
+[2016-11-25 17:54:34] mas aí é questão de testar e ver que tá cagado. Não tem outra variante. Não tem incerteza. Se tem slowdow na mão do jogador, é por que teve slowdown na bancada de desenvolvimento.
+[2016-11-25 17:55:49] hahaha! Boa! Essa é uma percepção bem otimista da parada toda. Ampliou meu horizonte agora 😊
+[2016-11-25 17:59:47] (Insert thank you gif)
+[2016-11-25 18:04:50] E a assíntota se chama demoscene...
+[2016-11-25 18:47:06] Se o programador já conhece as especificações da máquina, e seus limites, deveria otimizar o código para rodar o mais eficiente possível dentro dessas limitações.
+[2016-11-25 18:47:22] eficiente, sim, mas
+[2016-11-25 18:47:50] vai tentar brigar com o game designer "não, porque tem que ter 10 inimigos nessa tela, nem um a menos"
+[2016-11-25 18:48:34] "mas o jogo só roda a 60 fps com 5 inimigos no máximo" "então capa pra 30"
+[2016-11-25 18:49:36] Entendi...
+[2016-11-25 18:51:09] Os designers de jogo daquela época são tipo os UX de hoje...
+[2016-11-25 18:51:30] daquela época?
+[2016-11-25 18:51:32] daquele sempre
+[2016-11-25 19:23:04] Eu robô rolando hj? To levando meu mearm
+[2016-11-25 19:26:07] Os jogos mais antigos talvez nem tanto. Mas os mais novos podem apresentar situações irreproduzíveis e/ou muito difíceis de prever no projeto. Como quando certos cenários e inimigos somente são ativados de acordo com as ações pretéritas do jogador.
+[2016-11-25 19:39:33] Sim, tem gente no Garoa... inclusive eu...
+[2016-11-25 19:40:15] Estou num ônibus na Vila ida. Maior trânsito na cerro corá
+[2016-11-25 19:49:36] Dá uma lida em Racing the Beam. É sobre o Atari 2600. A história do cartucho do Pacman ilustra bem as arapucas que levam um jogo a sair bem abaixo da expectativa.
+[2016-11-25 20:27:39] Novidades:
+Voltamos a ter calçada...
+[2016-11-25 20:27:50] Esqueci de dizer...
+[2016-11-25 20:28:52] manda foto
+[2016-11-25 20:38:36] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_901807295229329443.webp
+[2016-11-25 20:43:01] ufa!
+[2016-11-25 20:43:44] imagina 50 pessoas na Noite de Processing e sem calçada…
+[2016-11-25 20:45:21] Diz a lenda que a Konami queria fazer um Contra pro MSX, e o hardware não aguentou. Aí fizeram o Metal Gear, o primeiro jogo do gênero de espionagem.
+[2016-11-25 20:46:00] (Não precisava de muito inimigo na tela, tinha que se movimentar meio lento na maioria das vezes, etc.)
+[2016-11-25 20:48:55] Já ouvi essa mesma história...
+[2016-11-25 20:52:26] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803716112_140281.jpg
+[2016-11-25 20:52:39] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803711070_140852.jpg
+[2016-11-25 20:52:54] Está escuro agora, esqueci de tirar foto quando cheguei...
+[2016-11-25 21:04:43] Alguém pode me passar por favor o contato do Anchises? Ele postou sobre os Hackerspaces do Rio no blog dele e queria comentar sobre o Carioca Hackerspace com ele.
+[2016-11-25 21:09:33] @anchisesbr
+[2016-11-25 21:11:57] https://garoa.net.br/wiki/Meet_up_Ludum_Dare_37
+[2016-11-25 21:13:37] :) 9 a 12 de dezembro no Garoa – game jam internacional gigante
+[2016-11-25 21:33:32] Alguém sabe dizer se o próprio Torsten que vai tocar o workshop do Briar ?
+[2016-11-25 21:37:32] Sim, inclusive foi ele mesmo quem editou a página na wiki do Garoa...
+[2016-11-25 21:39:04] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803718397_141938.jpg
+[2016-11-25 21:39:52] Opa vlw
+[2016-11-25 22:21:57] R F joined
+[2016-11-25 22:21:57] Hi R !
+[2016-11-25 22:22:26] Boa noite, RF, do RaulHC se apresentando
+[2016-11-25 22:23:27] Boa noite, RF, bem vindo ao grupo do GaroaHC...
+[2016-11-25 22:24:18] Vlw
+[2016-11-25 22:41:21] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_362950403236561105.webp
+[2016-11-25 22:42:19] @fsanches Juca, estou com um problema semelhante àquele que você estava tendo, só que ao invés de armazenar 6 pixels em 8 bits, o meu está armazenando 10 pixels em 8 bits, ou seja, faltam 2 bits ao invés de sobrar...
+[2016-11-25 22:44:08] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803716767_141019.jpg
+[2016-11-25 22:44:48] Como você resolveu?
+[2016-11-25 23:01:38] shift pra lá e pra cá, máscara com &= e enxerto de dado com |= e aí o resto é só alegria... 😊
+[2016-11-25 23:02:10] tem uma imagem lá na minha postagem que mostra a escovação de bits toda...
+[2016-11-25 23:02:39] https://forum.fiozera.com.br/uploads/default/original/1X/f4ab6663346ef91d1be9974c9ae6cefea49d56ef.png
+[2016-11-25 23:02:47] https://forum.fiozera.com.br/uploads/default/optimized/1X/16ab3343d6db61755e5dc6f687942db930304fee_1_436x500.png
+[2016-11-25 23:03:27] Esse código aí até dá pra escrever mais enxuto
+[2016-11-25 23:03:42] mas desse jeito fica mais explícito e, portanto, provavelmente mais fácil de entender
+[2016-11-25 23:39:37] Valeu 👍
+[2016-11-25 23:49:23] Pelo que entendi está utilizando ord e chr para leitura e escrita de bytes na ROM, então deve estar usando Python 2, certo?

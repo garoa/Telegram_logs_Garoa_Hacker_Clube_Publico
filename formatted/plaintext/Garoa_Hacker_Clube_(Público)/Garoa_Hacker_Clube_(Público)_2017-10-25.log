@@ -1,0 +1,179 @@
+[2017-10-25 00:50:18] O problema das tags RFID é que são fixas.
+Existem aqueles chaveiros azuis de RFID, entretanto tenha certeza, pois a maioria é NFC.
+Se você tiver a TAG, você consegue ler pelo Arduino...aí entra a parte de verificar a comunicação.
+[2017-10-25 00:55:50] Lembrando da frequência NFC 13,56 e RFID 125kHz.
+Eu realizo alguns testes, pois tenho os dois chips implantados e normalmente o NFC responde com melhor qualidade.
+[2017-10-25 01:27:01] Então. Ler a tag eu consigo por NFC. Só não a comunicação da tag com a fechadura. Você já conseguiu?
+[2017-10-25 02:19:11] Gabriel Becker joined
+[2017-10-25 02:19:12] Hi Gabriel !
+[2017-10-25 06:01:28] /hash sha256 De nada, usem à vontade
+[2017-10-25 06:01:29] hash sha256 de 'De nada, usem à vontade':
+
+802acabce80727f3ba28deec02b9d8fde0fadbc1453cef17bfd7310b9be96bd5
+[2017-10-25 07:15:47] Bom saber, não sabia que tinha esse tipo de fiscalização e quase fecho um pedido que iria perder
+[2017-10-25 09:19:40] Hi Kain !
+[2017-10-25 09:57:20] Alerta de ataque virtual, que começou ontem na Russia e Ucrânia. Assim como o último ataque global, deve atingir o Brasil de hoje para amanhã.
+
+O ataque começa quando você recebe uma mensagem oferecendo uma atualização do software Adobe Flash Player, por tanto, não façam essa atualização. Aos que tem filhos, não esqueçam de repassar essa mesma orientação.
+
+Mais informações nos seguintes sites:
+
+http://www.bbc.com/news/technology-41740768
+https://mobile.twitter.com/jiriatvirlab/status/922835700873158661
+[2017-10-25 10:18:35] valeu!
+[2017-10-25 10:24:44] Para mim isso é puro sensacionalismo.
+FUD.
+Esse bad rabbit me parece um ransomware comum, xexelento.
+Alguém sabe explicar o q ele tem de mais?
+[2017-10-25 10:25:37] Relatório detahado dele: https://securelist.com/bad-rabbit-ransomware/82851/
+[2017-10-25 10:26:59] /hash
+[2017-10-25 10:27:00] Eu não consigo te mandar mensagem aqui no grupo, clica em '@mate_obot' para me ativar e eu poder te responder!
+[2017-10-25 11:28:17] Falso. Ambos são RFID e NFC
+[2017-10-25 11:29:24] Todo NFC é RFID, mas nem todo RFID é NFC
+[2017-10-25 11:29:56] "Sem Parar" é RFID com uma antena de "Long Range". Coisa que NFC não permite
+[2017-10-25 11:53:28] Ca4ti Ti added V A
+[2017-10-25 11:53:29] Hi V !
+[2017-10-25 12:04:41] Que história é essa de hiv @jackbot ?!
+[2017-10-25 12:12:28] 😂😂😂😂
+[2017-10-25 12:26:40] O futuro
+[2017-10-25 12:27:03] Máquina se junta tanto com humanos que pega as doenças
+[2017-10-25 12:33:23] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_5154644810346266642.pdf
+[2017-10-25 12:34:24] Se alguém baixar me avise por gentileza do que se trata hahahahaha
+[2017-10-25 12:34:39] Meio grande esse pdf
+[2017-10-25 12:35:09] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_1045404939746018413.webp
+[2017-10-25 12:35:23] 😂😂😂😂😂😂😂😂😂😂😂😂
+[2017-10-25 12:39:15] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_5154805038396211214.pdf
+[2017-10-25 12:39:37] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_276846938995818699.webp
+[2017-10-25 12:39:55] Para de mandar PDF ngm vai vê
+[2017-10-25 12:40:58] pelo contrário, já li
+[2017-10-25 12:41:18] vou mandar em imagem agora que é 300% de chance maior de te mandar vírus e tu vai abrir, provavelmente automaticamente
+[2017-10-25 12:42:41] esses são os conceitos furados que também se vê no documento.
+[2017-10-25 12:43:22] Foi o assessor especial Rubens Barrichello alertando sobre ransomware
+[2017-10-25 12:44:26] faz sentido, mas de qualquer forma pediram pra abrir e mostrar aqui
+[2017-10-25 12:44:55] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804724504_50921.jpg
+[2017-10-25 12:44:59] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804728680_30415.jpg
+[2017-10-25 12:45:21] /\ convertido para pdf "seguro" do qubes
+[2017-10-25 12:45:23] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_379457349829526376.webp
+[2017-10-25 12:46:09] e agora eu vou ver que ransonware tinha nesse pdf
+[2017-10-25 12:46:18] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_626950377790505004.webp
+[2017-10-25 12:49:36] Esse usuário @brasilis entrou hoje no grupo, não enviou nenhuma mensagem, somente arquivos PDF...
+[2017-10-25 13:17:39] Boa tarde pessoal
+[2017-10-25 13:17:51] Vi no wiki do garoa
+[2017-10-25 13:17:59] Gostaria de saber como adquirir
+[2017-10-25 13:18:10] É  só  ir lá  comprar?
+[2017-10-25 13:19:11] Caros, como é a política de vocês para publicidade de campanhas de eventos com catarse ou qualquer crowdfunding?
+[2017-10-25 13:23:08] Anuncia ai... se a galera não gostar vc vai ser trollado ou banido.
+Simples assim 😁
+[2017-10-25 13:23:58] Mais informações técnicas sobre o Bad Rabbit:
+http://blog.trendmicro.com/trendlabs-security-intelligence/bad-rabbit-ransomware-spreads-via-network-hits-ukraine-russia/
+[2017-10-25 13:24:56] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_930838074399655260.webp
+[2017-10-25 13:25:31] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804728350_31521.jpg
+[2017-10-25 13:26:21] PotiCon (Conferência Potiguar de Software Livre) é um evento organizado pela Comunidade Potiguar de Software Livre (PotiLivre) que tem o objetivo de ampliar os conhecimentos dos participantes sobre as ferramentas livres para desenvolvimento, distribuições GNU/Linux e como anda o mercado atual de Software Livre.
+
+INSCRIÇÕES:
+As inscrições estão sendo feitas através do site de financiamento coletivo Catarse, onde dependo do valor que você doar, dá direito a uma recompesa. O valor base é R$ 20,00. Com esta doação você terá a sua entrada garantida para os dois dias e mais um adesivo do evento.  Para verificar as outras recompesas, que vão de botton até camisas, acesse o site https://www.catarse.me/2o_poticon
+[2017-10-25 13:26:21] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_1045404939746018391.webp
+[2017-10-25 13:26:56] @anchisesbr 👆🏻👀
+[2017-10-25 13:28:06] matheus vrech joined
+[2017-10-25 13:28:07] Hi matheus !
+[2017-10-25 13:30:09] Todo assunto que tem esse nome da click hoje, depois do wannacry é visita no site garantido, normal
+[2017-10-25 13:31:14] Ops a mensagem  não foi hehe...
+
+Sobre o Passaporte hacker...
+
+Pra adquirir  é  só  ir aí  no garoa pra comprar?
+[2017-10-25 13:37:57] Em RN mesmo?
+[2017-10-25 13:39:15] Bruno, acredito que o estoque esteja esgotado... se alguém puder confirmar, agradeço...
+[2017-10-25 13:43:41] 👏👏👏
+[2017-10-25 13:44:48] Esgotado.  :(
+[2017-10-25 13:51:40] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804721744_75508.jpg
+[2017-10-25 13:51:53] 😂😂😂😂😂
+[2017-10-25 13:52:49] Obrigado Fábio
+[2017-10-25 13:53:09] Beleza.
+
+Obrigado pela atenção
+[2017-10-25 13:53:31] Se falasse as palavras software livre em vez de catarse nem precisaria perguntar aheheh apoiamos essas iniciativas com certeza
+[2017-10-25 13:54:26] Bruno tu pode fazer o seu eu acho ou compra em outro hackerspace, talvez s;o tenha fora do pais agora
+[2017-10-25 13:55:09] Falando nisso @til
+[2017-10-25 13:55:58] Falando nisso @tilt4 , alguem conhece o pessoal do Hackerspace de Buenos Aires
+[2017-10-25 13:56:21] ?
+[2017-10-25 13:58:15] nao conheco ngm
+[2017-10-25 13:58:25] qnd fui na argentina eu nao achei o lugar
+[2017-10-25 13:58:27] ou tava fechado
+[2017-10-25 14:03:58] 2
+[2017-10-25 14:04:19] Funcionava em uns horários estranhos
+[2017-10-25 14:04:31] Não consegui falar com ninguém de lá
+[2017-10-25 14:04:34] era tipo isso
+[2017-10-25 14:04:50] ou eh muito underground
+[2017-10-25 14:04:58] ou eh tipo abchackerspace
+[2017-10-25 14:05:46] saquei
+[2017-10-25 14:05:52] se alguem tiver infos me avisem
+[2017-10-25 14:10:16] Galera das cripto moedas que tá acompanhando a queda do Bitcoin de hoje ? Acaba que vai cair mais?
+[2017-10-25 14:11:30] não tem o lance do Fork?
+[2017-10-25 14:29:39] Sim... já teve o fork... Bitcoin Gold...
+[2017-10-25 14:30:22] Sim, em Natal :)
+[2017-10-25 14:31:00] É que estamos enfrentando muitas negativas por causa de um palestrante, então fiquei receosa 😔
+[2017-10-25 14:32:24] Faço votos que caia mais... de preferência, acima de 30%
+[2017-10-25 14:37:17] Rsrs
+[2017-10-25 14:37:26] eu acho que essa vai ser a ultima vez que vai cair
+[2017-10-25 14:37:32] depois dai é subir sem volta
+[2017-10-25 14:38:15] Alguém vai apostar na Gold
+[2017-10-25 14:38:32] Eu aposto q não vai virar nd
+[2017-10-25 14:38:39] Rsrs
+[2017-10-25 15:06:09] Obrigado  @tilt4 tentarei né informar em outros locais
+[2017-10-25 15:49:09] será que vale a pena comprar umas bitcoin hj então?
+[2017-10-25 15:53:25] td dia vale a pena comprar bitcoin
+[2017-10-25 16:00:53] num pode vender coisa aqui no grupo...
+[2017-10-25 16:01:19] num to vendendo, to querendo comprar, alguem?
+[2017-10-25 16:01:20] :P
+[2017-10-25 16:18:32] document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_989130951088931523.webp
+[2017-10-25 16:47:46] Falando em criptomoedas. Alguma dica sobre carteira anônima?
+[2017-10-25 16:49:24] wrwetvertwbynvewcgrtwhwfdd.onion
+[2017-10-25 18:17:15] o garoa tem algum grupo de estudos de análise de malware?
+[2017-10-25 18:19:44] Eduardo joined
+[2017-10-25 18:19:44] Hi Eduardo !
+[2017-10-25 18:19:52] Oi bot
+[2017-10-25 18:23:29] Hi Eduardo !
+[2017-10-25 18:33:46] Cada dia que não compra é uma oportunidade perdida
+[2017-10-25 18:34:08] Sério esse link?
+[2017-10-25 18:34:44] eu to vendo hahaha
+[2017-10-25 18:34:55] Não
+[2017-10-25 18:35:04] Troll
+[2017-10-25 18:35:11] document
+[2017-10-25 18:35:14] Rs
+[2017-10-25 18:40:35] Talvez Quebrando o cerco seja o mais próximo @Gutemhc  confere?
+[2017-10-25 18:54:07] https://twitter.com/CHenry_SN/status/923205405643329536
+[2017-10-25 18:55:07] Satélites desenvolvidos pela própria SpaceX para fornecer serviço comercial de internet.
+[2017-10-25 18:55:13] Ei quembaq mora atravessando minha rua
+[2017-10-25 18:56:03] photo
+[2017-10-25 18:56:06] que ?!
+[2017-10-25 18:56:34] oi ?!
+[2017-10-25 18:56:44] Eu vi um cara com a camisa do garoa ontem na casa a frente da minha
+[2017-10-25 18:56:56] A rosa ali
+[2017-10-25 18:57:29] Fiquei curioso
+[2017-10-25 19:00:38] :-)
+[2017-10-25 19:00:43] divertido
+[2017-10-25 19:00:47] que bairro é esse ?
+[2017-10-25 19:01:13] Jaragua
+[2017-10-25 19:01:53] Ah vc tava no garoa no dia que eu fui la né
+[2017-10-25 19:02:06] não sei
+[2017-10-25 19:02:44] você foi lá com a sua mãe ?
+[2017-10-25 19:02:55] É isso mesmo
+[2017-10-25 19:03:05] ok, me lembrei agora. Sim, eu estava lá.
+[2017-10-25 19:06:32] Não começamos nada na linha, mas tenho planos futuro para tal #Reversing
+[2017-10-25 19:31:41] C Prado joined
+[2017-10-25 19:31:43] Hi C !
+[2017-10-25 19:31:54] Hi there
+[2017-10-25 19:32:18] Juca, obrigado pelo link.
+[2017-10-25 19:40:23] Poxa cara. Perguntei sobre carteira. Não pornô 😂😂😂😂😂😂😂
+[2017-10-25 19:41:58] Kkk tá TD vinculado
+[2017-10-25 19:51:16] Tem coisa  melhor p gastar os btc? 😂
+[2017-10-25 19:52:56] Gerenciar servidor é coisa do passado? Hoje as 21h no @castaliopod falaremos sobre Arquitetura Serverless! https://www.youtube.com/watch?v=ofhEPBQnGvU
+[2017-10-25 19:53:01] kkkk
+[2017-10-25 20:33:29] Cliquei achando que tinha porn e não tinha nada... Mancada.
+[2017-10-25 20:38:08] Regras no Yara para o Bad Rabbit
+https://github.com/Neo23x0/signature-base/blob/master/yara/crime_badrabbit.yar
+[2017-10-25 20:39:07] kkkkk
+[2017-10-25 21:40:25] Já aconteceu com um amigo. kkkkk exército e pf tem fetiche por lunetas
+[2017-10-25 21:51:17] luneta + impressora 3d = awp caseira
+[2017-10-25 22:12:40] https://vault.fbi.gov/nikola-tesla/Nikola%20Tesla%20Part%2001%20of%2003/view

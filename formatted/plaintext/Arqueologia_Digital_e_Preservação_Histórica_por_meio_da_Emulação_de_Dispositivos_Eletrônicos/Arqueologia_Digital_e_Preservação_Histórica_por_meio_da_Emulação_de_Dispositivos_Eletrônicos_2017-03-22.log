@@ -1,0 +1,15 @@
+[2017-03-22 23:00:09] Felipe "Juca" Sanches added Mike Howard
+[2017-03-22 23:02:34] Felipe "Juca" Sanches (in reply to Felipe "Juca" Sanches): Seja bem-vindo, @michaelhoward9 !
+[2017-03-22 23:21:03] Mike Howard: Obrigado
+[2017-03-22 23:21:38] Mike Howard: Já pegou o segundo projeto de pato então?
+[2017-03-22 23:22:03] Felipe "Juca" Sanches: yep!
+[2017-03-22 23:22:15] Felipe "Juca" Sanches: tá aqui em casa
+[2017-03-22 23:22:29] Felipe "Juca" Sanches: amanhã vou viajar pra Brasilia, volto no domingo
+[2017-03-22 23:22:43] Felipe "Juca" Sanches: durante a semana que vem eu levo ele pro Garoa
+[2017-03-22 23:23:10] Mike Howard: Legal, ai vamos cuidar dos dados
+[2017-03-22 23:24:00] Felipe "Juca" Sanches: Fiz um benchmark da emulação do Pato no Arduino hoje e tive más notícias...
+[2017-03-22 23:24:09] Felipe "Juca" Sanches: a CPU original rodava a 500kHz
+[2017-03-22 23:24:23] Mike Howard: Quis dizer, cuidar dos botões
+[2017-03-22 23:24:25] Felipe "Juca" Sanches: o Pato no Arduino roda a 8.7 kHz
+[2017-03-22 23:24:52] Mike Howard: Uai
+[2017-03-22 23:25:41] Felipe "Juca" Sanches: no Arduino Leonardo

@@ -1,0 +1,32 @@
+[2016-05-11 09:14:47] Tobias Sette: @ramalho, quando o novo escritório da TW fica pronto?
+[2016-05-11 10:25:24] Luciano Ramalho: Vai ser uma salinha para 2 pessoas com uma bancada. Mas será do lado do maior espaço para atividades com público do novo escritório
+[2016-05-11 10:26:12] Luciano Ramalho: @gnumoksha tá previsto para 1/ago
+[2016-05-11 10:32:25] Kemel Zaidan: Onde vai ser @LucianoRamalho amalho?
+[2016-05-11 10:32:52] Tobias Sette: @LucianoRamalho vão contratar devs? =D
+[2016-05-11 12:00:48] Tobias Sette: O que é a vida
+[2016-05-11 12:00:49] Aurium's Bot: A Wikipédia diz que "A vida (do latim vita) é um conceito muito amplo e admite diversas definições. Pode-se referir ao processo em curso do qual os seres vivos são uma parte; ao espaço de tempo entre a concepção e a morte de um organismo ; a condição de uma entidade que nasceu e ainda não morreu; e aquilo que faz com que um ser esteja vivo." 
+Saiba mais sobre Vida.
+[2016-05-11 12:01:16] Tobias Sette: O que é tudo mais
+[2016-05-11 12:01:17] Aurium's Bot: Não sei O que é tudo mais. :-(
+[2016-05-11 12:01:27] Tobias Sette: O que é o universo
+[2016-05-11 12:01:28] Aurium's Bot: A Wikipédia diz que "Universo é tudo o que existe fisicamente, a totalidade do espaço e tempo e todas as formas de matéria, incluindo todos os planetas, estrelas, galáxias e os componentes do espaço intergaláctico. O termo Universo pode ser usado em sentidos contextuais ligeiramente diferentes, denotando conceitos como o cosmo, o mundo ou a natureza." 
+Saiba mais sobre Universo.
+[2016-05-11 12:01:56] Felipe "Juca" Sanches: o que é o amor?
+[2016-05-11 12:01:56] Aurium's Bot: A Wikipédia diz que "Amor (do latim amore) é uma emoção ou sentimento que leva uma pessoa a desejar o bem a outra pessoa ou a uma coisa. O uso do vocábulo, contudo, lhe empresta outros tantos significados, quer comuns, quer conforme a ótica de apreciação, tal como nas religiões, na filosofia e nas ciências humanas." 
+Saiba mais sobre Amor.
+[2016-05-11 12:06:48] Yumi: vocês já viram o fluxo da wikipedia? Se clicar no primeiro link de cada coisa Tudo chega em filosofia.
+[2016-05-11 12:21:00] Alexandre Villares: Uia
+[2016-05-11 12:42:30] Tobias Sette (in reply to Yumi): Tapa na cara de quem compartilha aquela imagem do mundo sem humanas 😜
+[2016-05-11 13:18:45] Yumi: Acabei de ser picada pelo mosquito da dengue... dentro do Itau.
+[2016-05-11 13:23:43] Vitor Fernandes: Vc tb já foi picada por ele no Garoa
+[2016-05-11 13:36:41] Yumi: Pois é... num pego dengue por teimosia
+[2016-05-11 17:21:52] Acidx Leandro Pereira: Se alguém quiser ajudar a fazer o bot do space API funcionar com vários hackerspaces, os fontes estão aqui: https://github.com/lhc/telegram-bot
+[2016-05-11 17:22:04] Acidx Leandro Pereira: Aceito PRs :)
+[2016-05-11 17:23:04] Tobias Sette: O que ele faz?
+[2016-05-11 17:35:07] Acidx Leandro Pereira: Avisa no telegram se o hackerspace abriu ou fechou
+[2016-05-11 17:36:40] Yumi: show
+[2016-05-11 17:55:08] Tobias Sette: canal ou privado?
+[2016-05-11 17:55:34] Tobias Sette: /me anima fazer em python :p
+[2016-05-11 18:08:21] Felipe "Juca" Sanches: http://astronomynow.com/2016/05/11/deepest-3-d-galaxy-map-suggests-einsteins-theory-stands-true/
+[2016-05-11 18:11:05] Acidx Leandro Pereira: Vai pro canal, mas rola ser privado. O bot tá funcionando já, mas tá hardcoded pro LHC. Tá em Go, mas é um Go de n00b.
+[2016-05-11 18:14:55] Tobias Sette: é que tenho uma pequena experiencia com bot em python https://github.com/gnumoksha/telegram_rules_bot

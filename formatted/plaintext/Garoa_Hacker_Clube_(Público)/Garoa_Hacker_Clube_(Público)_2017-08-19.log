@@ -1,0 +1,84 @@
+[2017-08-19 00:23:09] https://tech.slashdot.org/story/17/08/18/2048254/waymo-patent-shows-plans-to-replace-steering-wheel-pedals-with-push-button
+[2017-08-19 00:30:38] Se eu acordar a tempo, colarei na atividade de amanhã
+[2017-08-19 00:31:52] Oi gente, podem me ajudar? Quero fazer umas pás de turbina eólica numa CNC, tenho acesso a máquina, sei utiliza-la, mas nao fazer o g-code 3D para usinagem. Sabem me dizer como faço isso?
+[2017-08-19 00:41:52] faça o modelo 3D em algum CAD. Sugiro FreeCAD, Blender ou OpenSCAD, o que você achar melhor. Depois instale o PyCAM, carregue o arquivo STL do seu modelo 3D e selecione os parâmetros para a geração de G-Code.
+[2017-08-19 00:42:34] (não tenho muito mais dicas do que o que disse acima, então faça sua lição de casa e estude a documentação desses programas)
+[2017-08-19 00:42:54] Boa sorte e Happy Hacking ;-)
+[2017-08-19 00:44:26] https://img.driverless.id/img/original/52/91/63638557617998/0/636385576179985291.jpg
+[2017-08-19 05:28:42] https://porta23.blogosfera.uol.com.br/2017/08/18/governo-e-comite-gestor-acordam-processo-de-reestruturacao-e-consulta-publica-continua/
+[2017-08-19 07:19:47] #medo
+[2017-08-19 07:20:48] Vou esperar para quando fizermos a Biochip implant party para entrar no guiness 😁
+[2017-08-19 08:33:58] Gutem, explica pra mim as vantagens. A única que vejo é um token que eu não consigo perder.
+[2017-08-19 08:39:15] A tecnologoa é nova, com infinitas possibilidades, no momento, só faz sentido para os entusiastas
+[2017-08-19 11:06:22] Olha que vou atrás disso, hein? Hehehe
+[2017-08-19 12:14:56] Nosso portão de ferro da rua está um pouco difícil de abrir+fechar, mal encaixado no muro
+[2017-08-19 12:19:50] Quem está no garoa?
+[2017-08-19 12:20:58] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_803117459_122670.jpg
+[2017-08-19 12:21:35] O portão quebrado
+[2017-08-19 12:22:52] Hahaha
+[2017-08-19 12:23:03] Está por lá? Vai ficar algum tempo?
+[2017-08-19 12:25:40] Sim pode vir
+[2017-08-19 12:43:24] Estou a caminho, para o QoC
+[2017-08-19 12:44:01] Garoa está aberto. E tem gente. Comitê de recepção não sei se vai ter hoje.
+[2017-08-19 13:12:14] http://curso-r.com/blog/2017/08/19/2017-08-19-r-telegram-bitcoin/
+[2017-08-19 15:18:17] Ja fiz o desenho, escolhi a fresa e matdrial, vou baixar o PyCAM e estudar ele. Qualquer coisa pergunto de novo. Muito obrigado Felipe!
+[2017-08-19 19:15:05] http://one.npr.org/i/539694648:539694650⁠⁠⁠⁠
+[2017-08-19 19:40:04] https://pt.m.wikipedia.org/wiki/Sonda_espacial
+[2017-08-19 20:17:46] Boa noite a todos, tem algum programador em C# que esteja disponível para um freela?
+[2017-08-19 20:28:07] Robert Espi joined
+[2017-08-19 20:35:43] Boa noite galera. Tudo bom?
+O garoa tem alguma atividade voltada à produção de demos? Seria muito bacana ver demos tupiniquins nas demoparties da vida! Nos anos 90 a galera produzia demos para PCs tanto no modo 13h quando em modo texto e faziam miséria. Parace que esse bom costume continua vivo mundo afora...
+https://www.youtube.com/watch?v=uI-H0V01wMk
+[2017-08-19 21:04:02] Eu tenho muito interesse no tema. Fui em 2011 na festa Assembly em Helsinki, Finlândia. E Em 2010 eu submeti uma demo na competição REWIRED na Bélgica (peguei 3º lugar, de 7 times que estavam competindo - era uma festa pequena): https://www.youtube.com/watch?v=i9EFqBBK1Vw
+[2017-08-19 21:13:26] Jhonatan Teodoro joined
+[2017-08-19 22:07:20] Caaara, você foi no Assembly? Que show!  😀 
+Tenho vontade de ir lá desde 96, quando descobri a party e a demoscene. Maneiro, seu demo (animar sem framebuffer é punk).  
+Então... tenho brincado com assembly para x86 e escrito uns joguinhos pra treinar (pong, space invaders coisas do tipo) e bateu a vontade de fazer alguma animação para o modo real a usando até de 64kb. Será que a gente consegue montar um time ou algo assim com a galera do garoa? Seria demais! :)
+[2017-08-19 22:12:05] demoscene br!
+[2017-08-19 22:18:07] Eu tenho umas coisas em nível mais alto aqui (free pascal + sdl), que talvez dê pra modificar... ou reescrever... ou jogar fora e começar de novo mais direcionado, srsr.
+Tipo.. sei lá. Que tal a gente criar um demo com o logo do garoa numa imagem de disquete bootável? Mano, a imaginação voa... kkk
+https://www.youtube.com/watch?v=ThshgZsEoDo
+[2017-08-19 22:36:38] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_4960844362553491522.png
+[2017-08-19 22:37:02] Usuário ArroBitsFX removido do grupo.
+[2017-08-19 22:40:37] Eu acho que podemos fazer uma pequena demoparty brasileira no Garoa em 2017. O plano seria fazer uma exibição de uma seleção de demos clássicas, juntar com um viradão de sexta pra sábado e no sábado de tarde apresentar as demos que a galera fizer. Acho que poderia ser uma coisa entre a gente mesmo e sem categorização: "vale tudo"
+[2017-08-19 22:40:57] mesmo que saiam coisas muito simples
+[2017-08-19 22:41:00] só pra constar
+[2017-08-19 22:41:06] e pra dar um ponta-pé
+[2017-08-19 22:41:53] enquanto você aparentemente curte demos de x86 (presumo que rodando em MSDOS) eu sou mais interessado na categoria "wild" (rodando demos em dispositivos inusitados)
+[2017-08-19 22:42:08] então pra facilitar, acho que podia ser tudo-junto-e-misturado
+[2017-08-19 22:42:41] a demo-party da Bélgica em que eu participei era assim. Não tinha categoria por que era muito pequena. Teve apenas 7 demos competindo.
+[2017-08-19 22:44:03] Tem também uma turma na Argentina fazendo demos e competindo internacionalmente. O grupo deles se chama Pungas de Villa Martelli
+[2017-08-19 22:44:08] (PVM)
+[2017-08-19 22:44:23] Eles me convidaram para participar do grupo, mas eu ainda não fiz nada
+[2017-08-19 22:44:57] Comprei um Amiga 500 mês retrasado e um Commodore 64 em dezembro de 2015
+[2017-08-19 22:45:05] E sou fã dos MSX
+[2017-08-19 22:45:23] (tenho um MSX na casa dos meus pais e tem uma dúzia no Garoa)
+[2017-08-19 22:54:27] Eu gosto de emular dispositivos digitais e, em seguida, usar o emulador como ambiente de desenvolvimento para escrever programas customizados
+[2017-08-19 22:54:43] Tenho contribuido de tempos em tempos com o MAME, por exemplo
+[2017-08-19 23:03:54] Muito boa a idéia! Curti.
+Eu gosto de demos de x86 rodando sem sistema operacional, por isso o comentário de ser uma imagem bootável.
+[2017-08-19 23:05:20] Mas agora que vc falou em plataformas inusitadas, outro dia vi no youtube um cara gerando sinal de vídeo e som a partir de um arduino, rodando um rotozoomer muito louco.
+[2017-08-19 23:09:06] https://www.youtube.com/watch?v=OD9BiYzNAIg
+[2017-08-19 23:15:29] Esse aqui então, me deixou boquiaberto.
+Mas, volta do ao assunto, eu curti muito o formato que vc sugeriu. Já posso me inscrever? kkkk
+https://www.youtube.com/watch?v=sNCqrylNY-0
+[2017-08-19 23:16:46] Vamos fazer o seguinte...
+[2017-08-19 23:16:59] você já frequentou o Garoa ?
+[2017-08-19 23:17:10] Eu AMO DE PAIXÃO essa demo CRAFT
+[2017-08-19 23:17:20] Quero montar esse circuito
+[2017-08-19 23:17:27] quer fazer isso comigo lá no Garoa ?
+[2017-08-19 23:17:45] Aliás... quer virar meu Padawan fazendo esse projeto?
+[2017-08-19 23:19:53] Eu fui lá há uns dias atrás (umas semanas, pra ser mais preciso, rs) e conheci o pessoal.
+[2017-08-19 23:20:28] https://garoa.net.br/wiki/Gloss%C3%A1rio#Padawan
+[2017-08-19 23:22:41] Eu tava montando uma versão do plotclock pra um projeto da faculdade e esbarrei no site do garoa pesquisando alguma coisa sobre corte de peças à laser.
+[2017-08-19 23:23:13] Aliás... o autor dessa demo Craft, fez umas outras coisas legais. Eu gosto muito da demo Lunatico de Commodore 64 feita por ele recenteente: https://www.youtube.com/watch?v=OYlPcHwdhvM
+[2017-08-19 23:26:11] Glayce joined
+[2017-08-19 23:28:28] Sério? Tô dentro! :)
+[2017-08-19 23:29:47] :-)
+[2017-08-19 23:29:49] photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Garoa_Hacker_Clube_(Público)/download_804721433_21513.jpg
+[2017-08-19 23:30:21] o que é isso?
+[2017-08-19 23:32:01] é o projeto que falei. uma versão modificada deste projeto aqui:
+https://www.youtube.com/watch?v=iOLFP90DneY
+[2017-08-19 23:42:45] ah! Tô ligado
+[2017-08-19 23:43:05] semana passada tinha um similar a esse no Garoa, feito por um frequentador
+[2017-08-19 23:47:22] vou te chamar em PVT para combinarmos os detalhes então
