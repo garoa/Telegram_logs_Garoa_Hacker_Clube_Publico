@@ -40,3 +40,20 @@ Video sobre instruções secretas em processadores x86
 [2017-11-04 15:08:36] Hi 😎 !
 [2017-11-04 15:15:15] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_625274979767813414.webp
 [2017-11-04 15:15:47] https://medium.com/data-science-brigade/brazilian-group-develops-an-ai-to-help-in-public-expenditures-monitoring-757900c99552
+[2017-11-04 17:20:33] Configurei meu computador para de tempos em tempos fazer um backup público deste e de alguns canais públicos de Telegram relacionados ao Garoa, de modo a permitir que nossas discussões sejam indexadas pelos buscadores e, portanto, que mais gente encontre no futuro as informações que nós trocamos por aqui. Já faz bastante tempo que eu e outros daqui estávamos incomodados com a "escuridão" em que entramos quando coletivamente migramos em massa da lista de emails (que era indexada) para o Telegram (que não é indexado publicamente por padrão) https://garoa.github.io/Telegram_logs_Garoa_Hacker_Clube_Publico/formatted/html/
+[2017-11-04 17:28:02] não automatizei ainda o procedimento. Mas talvez eu coloque num cron-job no meu laptop pra rodar o script uma vez por semana (ou alguma outra periodicidade que seja razoável)
+[2017-11-04 17:28:02] Eu gostaria também de aprimorar esse script pra melhorar o estilo de apresentação formatada em HTML
+[2017-11-04 17:28:02] por que por enquanto ele tá gerando o HTML com as minhas mensagens destacadas de outra cor, já que a ferramenta é, provavelmente, projetada para backups pessoais. Então ele apresenta o conteúdo sob a perspectiva do meu usuário.
+[2017-11-04 17:28:02] Talvez dê pra modificar o gerador de HTML pra não omitir o meu nome e apresentar minhas mensagens de forma visualmente idêntica à apresentação das msgs dos outros usuários.
+[2017-11-04 17:32:00] ah! E também tem algumas imagens que o script não conseguiu baixar. Talvez sejam os stickers. Preciso olhar com mais calma e ver se tem como consertar o script e capturar o que ficou pra trás
+[2017-11-04 17:32:56] o script que eu usei foi esse aqui ó: https://github.com/tvdstaaij/telegram-history-dump
+[2017-11-04 17:32:59] tvdstaaij | telegram-history-dump
+
+Backup Telegram chat logs using telegram-cli
+
+Language: Ruby
+Forks: 47
+Stars: 336
+Issues: 39
+[2017-11-04 17:33:24] Eu até acabei implementando uma feature que faltava lá ;-)
+[2017-11-04 17:33:35] https://github.com/tvdstaaij/telegram-history-dump/pull/94
