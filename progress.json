@@ -1,6 +1,6 @@
 {
   "dumper": "json",
-  "last_modified": "2017-11-04T17:55:27+00:00",
+  "last_modified": "2017-11-04T19:07:07+00:00",
   "dialogs": {
     "186910336": {
       "newest_id": "020000008006240b01a80400000000000000000000000000",
@@ -10,24 +10,10 @@
       }
     },
     "167796546": {
-      "newest_id": "02000000425f000adda80400000000000000000000000000",
-      "newest_date": 1509817564,
+      "newest_id": "02000000425f000ae4a80400000000000000000000000000",
+      "newest_date": 1509818882,
       "dumper_state": {
         "outfile": "json/Coreboot_Libreboot_-_Garoa_Hacker_Clube.jsonl"
-      }
-    },
-    "190377800": {
-      "newest_id": "0200000048ef580b14a80300000000000000000000000000",
-      "newest_date": 1496874738,
-      "dumper_state": {
-        "outfile": "json/grupo_mata-tretas_de_doacoes.jsonl"
-      }
-    },
-    "158490367": {
-      "newest_id": "02000000ff5e720957b60300000000000000000000000000",
-      "newest_date": 1497664350,
-      "dumper_state": {
-        "outfile": "json/Máquina_Pick-And-Place_procura_novo_dono....jsonl"
       }
     },
     "24779115": {
