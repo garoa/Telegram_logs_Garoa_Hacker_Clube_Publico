@@ -273,3 +273,55 @@
 [2017-11-05 02:38:10] Felipe "Juca" Sanches: em última instância, dá pra ir lá na USP com um multímetro e verificar quais são as interligações que foram feitas entre os chips
 [2017-11-05 02:38:24] Felipe "Juca" Sanches: boa noite!
 [2017-11-05 02:39:09] Werner Eck: boa noite!
+[2017-11-05 02:48:25] Felipe "Juca" Sanches: uma observação, entretanto...
+[2017-11-05 02:49:38] Felipe "Juca" Sanches: apesar de vermos os endereços de I/O 44 e 45 sendo usados, o chip DMAC provavelmente está mapeado nas portas de 0x40 até 0x48
+[2017-11-05 02:50:03] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804726878_39715.jpg
+[2017-11-05 02:50:26] Felipe "Juca" Sanches: e o acesso a 44 e 45 é a configuração do canal número 2
+[2017-11-05 02:50:52] Felipe "Juca" Sanches: e, de fato tem uma escrita que o firmware faz no endereço 0x48
+[2017-11-05 02:50:56] Felipe "Juca" Sanches: eu tava comendo bola
+[2017-11-05 02:51:20] Felipe "Juca" Sanches: vou mapear nesse range, por que assim a escrita em 0x48 vai setar o modo de operação da DMA
+[2017-11-05 02:51:24] Felipe "Juca" Sanches: caramba... acho que é isso
+[2017-11-05 02:51:33] Werner Eck: quer tentar?
+[2017-11-05 02:52:01] Felipe "Juca" Sanches: estou tentando
+[2017-11-05 02:53:23] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804724205_56977.jpg
+[2017-11-05 02:53:30] Felipe "Juca" Sanches: olha a escrita em 0x48 alí
+[2017-11-05 02:53:39] Felipe "Juca" Sanches: tá escrevendo o valor 0xC4
+[2017-11-05 02:53:47] Felipe "Juca" Sanches: vamos ver o que é esse valor ?
+[2017-11-05 02:54:38] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804729055_39275.jpg
+[2017-11-05 02:54:59] Werner Eck: acabei de chegar nisso
+[2017-11-05 02:55:25] Felipe "Juca" Sanches: o valor 4 do número 0xC4 são aqueles 4 bits baixos de enable dos canais
+[2017-11-05 02:55:30] Felipe "Juca" Sanches: 4 = 0 1 0 0
+[2017-11-05 02:55:37] Felipe "Juca" Sanches: ou seja, todos os canais estão desabilitados
+[2017-11-05 02:55:42] Felipe "Juca" Sanches: exceto o canal número 2
+[2017-11-05 02:55:43] Werner Eck: c4=11000100
+[2017-11-05 02:56:46] Felipe "Juca" Sanches: isso é a prova de que o sinal de DMA Request que o chip CRTC precisa enviar para o DMAC é por meio do canal 2.
+[2017-11-05 02:58:52] Felipe "Juca" Sanches: É por isso que eu estou mantendo essa linha assim:
+[2017-11-05 02:58:59] Felipe "Juca" Sanches sent document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_5184080467493650480.png
+[2017-11-05 02:59:33] Felipe "Juca" Sanches: MCFG_I8275_DRQ_CALLBACK(DEVWRITELINE("dma8257" , i8257_device , dreq2_w))
+[2017-11-05 02:59:33] Werner Eck: dreq2
+[2017-11-05 02:59:46] Werner Eck: write
+[2017-11-05 03:00:37] Felipe "Juca" Sanches: dreq2_w é o método do emulador do DMAC que vocÊ precisa chamar para sinalizar uma requisição de DMA para o canal #2
+[2017-11-05 03:00:51] Werner Eck: entendi
+[2017-11-05 03:00:58] Werner Eck: imaginei q seria isso
+[2017-11-05 03:01:37] Felipe "Juca" Sanches: veja que essa macro configura que o DRQ emitido pelo CRTC chama um callback que sinaliza um dma request no canal 2 do DMAC
+[2017-11-05 03:02:14] Felipe "Juca" Sanches: levou um tempinho até eu entender essa sintaxe
+[2017-11-05 03:05:37] Werner Eck: agora sabemos q ele está setando o modo dma no canal 2, para isso o CRTC precisa requisitar nesse canal
+[2017-11-05 03:05:46] Felipe "Juca" Sanches: sim
+[2017-11-05 03:05:49] Felipe "Juca" Sanches: não tá funcionando ainda, mas foi bom eu ter tido essa sacada
+[2017-11-05 03:06:09] Felipe "Juca" Sanches: se eu continuasse mapeando em 44 e 45 apenas, jamais iria funcionar
+[2017-11-05 03:06:26] Felipe "Juca" Sanches: precisa mapear no intervalo todo, pra que o firmware consiga configurar o chip de DMA
+[2017-11-05 03:06:30] Felipe "Juca" Sanches: na porta 48
+[2017-11-05 03:07:02] Werner Eck: vdd
+[2017-11-05 03:07:11] Werner Eck: bom, eu realmente preciso descansar
+[2017-11-05 03:07:21] Werner Eck: já to vendo névoa na minha frente
+[2017-11-05 03:07:38] Werner Eck: boa noite, vou nessa.
+[2017-11-05 03:07:48] Felipe "Juca" Sanches: tem uns outros bandidos que são as portas 0x21, 0x00 e 0x50
+[2017-11-05 03:08:05] Felipe "Juca" Sanches: o firmware acessa esses outros endereços logo no começo
+[2017-11-05 03:08:09] Felipe "Juca" Sanches: então aí tem coisa também
+[2017-11-05 03:08:19] Felipe "Juca" Sanches: talvez seja o setup do chip de RS232
+[2017-11-05 03:08:30] Werner Eck: amanhã podemos ver isso
+[2017-11-05 03:08:38] Felipe "Juca" Sanches: beleza
+[2017-11-05 03:08:45] Werner Eck: 👍
+[2017-11-05 03:09:04] Felipe "Juca" Sanches: eu posso também em algum momento dar um commit e subir pro meu github esse código atual do driver pela metade
+[2017-11-05 03:09:42] Felipe "Juca" Sanches: boa noite
+[2017-11-05 03:09:43] Felipe "Juca" Sanches: e happy hacking!

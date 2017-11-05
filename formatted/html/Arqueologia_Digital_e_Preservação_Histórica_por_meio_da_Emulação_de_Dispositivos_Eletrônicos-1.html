@@ -613,6 +613,59 @@ Mauricio Linhare</div></div>
 <div class='msg out' title='2017-11-05 02:38:10 -0200'>em última instância, dá pra ir lá na USP com um multímetro e verificar quais são as interligações que foram feitas entre os chips</div>
 <div class='msg out' title='2017-11-05 02:38:24 -0200'>boa noite!</div>
 <div class='msg in' title='2017-11-05 02:39:09 -0200'><div class="author">Werner Eck:</div> boa noite!</div>
+<div class='msg out' title='2017-11-05 02:48:25 -0200'>uma observação, entretanto...</div>
+<div class='msg out' title='2017-11-05 02:49:38 -0200'>apesar de vermos os endereços de I/O 44 e 45 sendo usados, o chip DMAC provavelmente está mapeado nas portas de 0x40 até 0x48</div>
+<div class='msg out' title='2017-11-05 02:50:03 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804726878_39715.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804726878_39715.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 02:50:26 -0200'>e o acesso a 44 e 45 é a configuração do canal número 2</div>
+<div class='msg out' title='2017-11-05 02:50:52 -0200'>e, de fato tem uma escrita que o firmware faz no endereço 0x48</div>
+<div class='msg out' title='2017-11-05 02:50:56 -0200'>eu tava comendo bola</div>
+<div class='msg out' title='2017-11-05 02:51:20 -0200'>vou mapear nesse range, por que assim a escrita em 0x48 vai setar o modo de operação da DMA</div>
+<div class='msg out' title='2017-11-05 02:51:24 -0200'>caramba... acho que é isso</div>
+<div class='msg in' title='2017-11-05 02:51:33 -0200'><div class="author">Werner Eck:</div> quer tentar?</div>
+<div class='msg out' title='2017-11-05 02:52:01 -0200'>estou tentando</div>
+<div class='msg out' title='2017-11-05 02:53:23 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804724205_56977.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804724205_56977.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 02:53:30 -0200'>olha a escrita em 0x48 alí</div>
+<div class='msg out' title='2017-11-05 02:53:39 -0200'>tá escrevendo o valor 0xC4</div>
+<div class='msg out' title='2017-11-05 02:53:47 -0200'>vamos ver o que é esse valor ?</div>
+<div class='msg-service' title='2017-11-05 02:54:38 -0200'><div class=inner>Sun 2017-11-05, 02:02</div></div>
+<div class='msg out' title='2017-11-05 02:54:38 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804729055_39275.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804729055_39275.jpg'></a><br></div>
+<div class='msg in' title='2017-11-05 02:54:59 -0200'><div class="author">Werner Eck:</div> acabei de chegar nisso</div>
+<div class='msg out' title='2017-11-05 02:55:25 -0200'>o valor 4 do número 0xC4 são aqueles 4 bits baixos de enable dos canais</div>
+<div class='msg out' title='2017-11-05 02:55:30 -0200'>4 = 0 1 0 0</div>
+<div class='msg out' title='2017-11-05 02:55:37 -0200'>ou seja, todos os canais estão desabilitados</div>
+<div class='msg out' title='2017-11-05 02:55:42 -0200'>exceto o canal número 2</div>
+<div class='msg in' title='2017-11-05 02:55:43 -0200'><div class="author">Werner Eck:</div> c4=11000100</div>
+<div class='msg out' title='2017-11-05 02:56:46 -0200'>isso é a prova de que o sinal de DMA Request que o chip CRTC precisa enviar para o DMAC é por meio do canal 2.</div>
+<div class='msg out' title='2017-11-05 02:58:52 -0200'>É por isso que eu estou mantendo essa linha assim:</div>
+<div class='msg out' title='2017-11-05 02:58:59 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_5184080467493650480.png'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_5184080467493650480.png'></a></div>
+<div class='msg out' title='2017-11-05 02:59:33 -0200'>MCFG_I8275_DRQ_CALLBACK(DEVWRITELINE(&quot;dma8257&quot; , i8257_device , dreq2_w))</div>
+<div class='msg in' title='2017-11-05 02:59:33 -0200'><div class="author">Werner Eck:</div> dreq2</div>
+<div class='msg in' title='2017-11-05 02:59:46 -0200'><div class="author">Werner Eck:</div> write</div>
+<div class='msg out' title='2017-11-05 03:00:37 -0200'>dreq2_w é o método do emulador do DMAC que vocÊ precisa chamar para sinalizar uma requisição de DMA para o canal #2</div>
+<div class='msg in' title='2017-11-05 03:00:51 -0200'><div class="author">Werner Eck:</div> entendi</div>
+<div class='msg in' title='2017-11-05 03:00:58 -0200'><div class="author">Werner Eck:</div> imaginei q seria isso</div>
+<div class='msg out' title='2017-11-05 03:01:37 -0200'>veja que essa macro configura que o DRQ emitido pelo CRTC chama um callback que sinaliza um dma request no canal 2 do DMAC</div>
+<div class='msg out' title='2017-11-05 03:02:14 -0200'>levou um tempinho até eu entender essa sintaxe</div>
+<div class='msg in' title='2017-11-05 03:05:37 -0200'><div class="author">Werner Eck:</div> agora sabemos q ele está setando o modo dma no canal 2, para isso o CRTC precisa requisitar nesse canal</div>
+<div class='msg out' title='2017-11-05 03:05:46 -0200'>sim</div>
+<div class='msg out' title='2017-11-05 03:05:49 -0200'>não tá funcionando ainda, mas foi bom eu ter tido essa sacada</div>
+<div class='msg out' title='2017-11-05 03:06:09 -0200'>se eu continuasse mapeando em 44 e 45 apenas, jamais iria funcionar</div>
+<div class='msg out' title='2017-11-05 03:06:26 -0200'>precisa mapear no intervalo todo, pra que o firmware consiga configurar o chip de DMA</div>
+<div class='msg out' title='2017-11-05 03:06:30 -0200'>na porta 48</div>
+<div class='msg in' title='2017-11-05 03:07:02 -0200'><div class="author">Werner Eck:</div> vdd</div>
+<div class='msg in' title='2017-11-05 03:07:11 -0200'><div class="author">Werner Eck:</div> bom, eu realmente preciso descansar</div>
+<div class='msg in' title='2017-11-05 03:07:21 -0200'><div class="author">Werner Eck:</div> já to vendo névoa na minha frente</div>
+<div class='msg in' title='2017-11-05 03:07:38 -0200'><div class="author">Werner Eck:</div> boa noite, vou nessa.</div>
+<div class='msg out' title='2017-11-05 03:07:48 -0200'>tem uns outros bandidos que são as portas 0x21, 0x00 e 0x50</div>
+<div class='msg out' title='2017-11-05 03:08:05 -0200'>o firmware acessa esses outros endereços logo no começo</div>
+<div class='msg out' title='2017-11-05 03:08:09 -0200'>então aí tem coisa também</div>
+<div class='msg out' title='2017-11-05 03:08:19 -0200'>talvez seja o setup do chip de RS232</div>
+<div class='msg in' title='2017-11-05 03:08:30 -0200'><div class="author">Werner Eck:</div> amanhã podemos ver isso</div>
+<div class='msg out' title='2017-11-05 03:08:38 -0200'>beleza</div>
+<div class='msg in' title='2017-11-05 03:08:45 -0200'><div class="author">Werner Eck:</div> 👍</div>
+<div class='msg out' title='2017-11-05 03:09:04 -0200'>eu posso também em algum momento dar um commit e subir pro meu github esse código atual do driver pela metade</div>
+<div class='msg out' title='2017-11-05 03:09:42 -0200'>boa noite</div>
+<div class='msg out' title='2017-11-05 03:09:43 -0200'>e happy hacking!</div>
   	<div class='navigation-bottom'><a href="index.html">Back to index</a> | <a href='Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos-0.html'>Previous</a> | Page 2 | </div>
   </body>
 </html>
