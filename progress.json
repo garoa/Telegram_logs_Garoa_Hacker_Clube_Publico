@@ -1,10 +1,10 @@
 {
   "dumper": "json",
-  "last_modified": "2017-11-05T05:10:39+00:00",
+  "last_modified": "2017-11-05T11:47:04+00:00",
   "dialogs": {
     "186910336": {
-      "newest_id": "020000008006240b41ab0400000000000000000000000000",
-      "newest_date": 1509858583,
+      "newest_id": "020000008006240b49ab0400000000000000000000000000",
+      "newest_date": 1509861143,
       "dumper_state": {
         "outfile": "json/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos.jsonl"
       }
