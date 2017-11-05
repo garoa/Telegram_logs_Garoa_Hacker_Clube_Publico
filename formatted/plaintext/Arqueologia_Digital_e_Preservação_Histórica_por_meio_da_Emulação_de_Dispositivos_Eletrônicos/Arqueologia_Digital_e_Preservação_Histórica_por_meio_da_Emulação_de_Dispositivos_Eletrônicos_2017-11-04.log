@@ -1,0 +1,73 @@
+[2017-11-04 19:50:06] Werner Eck: http://relaysbc.sourceforge.net/
+[2017-11-04 20:54:38] Felipe "Juca" Sanches: que bizarro
+[2017-11-04 23:39:09] Werner Eck: E tem kit pra vender disso aí.
+[2017-11-04 23:39:34] Felipe "Juca" Sanches: esse kit aí eu passo haha
+[2017-11-04 23:40:13] Werner Eck: Acho até interessante a CPU toda de relés. Mas só compraria isso sendo americano.
+[2017-11-04 23:40:57] Felipe "Juca" Sanches: hoje eu escrevi um rascunho de driver pro terminal serial da Scopus, modelo Sagitta 180
+[2017-11-04 23:41:36] Felipe "Juca" Sanches: logo no comecinho do código já vi um padrão conhecido: um bloco de 4kbytes de RAM sendo preenchido com o valor 0x20
+[2017-11-04 23:41:53] Werner Eck: Vc diz no código da EPROM?
+[2017-11-04 23:41:58] Felipe "Juca" Sanches: sim
+[2017-11-04 23:42:05] Felipe "Juca" Sanches: 0x20 é o código ASCII para o caractere de espaço
+[2017-11-04 23:42:11] Werner Eck: conhecido, como se em um boot de outra maquina?
+[2017-11-04 23:42:13] Werner Eck: sim.
+[2017-11-04 23:42:20] Werner Eck: Por acaso esse eu sabia...
+[2017-11-04 23:42:27] Felipe "Juca" Sanches: esse loop é uma rotina de limpar a tela
+[2017-11-04 23:42:38] Werner Eck: escrevendo espaços
+[2017-11-04 23:43:04] Felipe "Juca" Sanches: e logo em seguida o código endereça aquela string "S a g i t t a  -  versao 4.00"
+[2017-11-04 23:43:16] Felipe "Juca" Sanches: e copia ela para um pedaço dessa área
+[2017-11-04 23:43:23] Werner Eck: certo.
+[2017-11-04 23:43:23] Felipe "Juca" Sanches: ou seja, essa área é a VRAM
+[2017-11-04 23:43:27] Felipe "Juca" Sanches: (memória de vídeo)
+[2017-11-04 23:43:31] Werner Eck: sim
+[2017-11-04 23:43:41] Felipe "Juca" Sanches: e isso aí é o "splash screen" do terminal
+[2017-11-04 23:43:55] Felipe "Juca" Sanches: acontece que a string que ele mostra é a da versão 150
+[2017-11-04 23:44:14] Werner Eck: lembra q na ultima ROM tem outra string dessas?
+[2017-11-04 23:44:34] Werner Eck: aquela quarta EPROM, numerada como zero
+[2017-11-04 23:44:48] Felipe "Juca" Sanches: eu tô achando que algum dip switch faz o chaveamento de banco de ROM pra escolher usar a versõ da ROM do 150 ou a ROM #0 do 180
+[2017-11-04 23:45:00] Werner Eck: lembra q o cara aqui palpitou isso tbm????
+[2017-11-04 23:45:07] Werner Eck: 😅
+[2017-11-04 23:45:21] Werner Eck: ah nao... eu palpitei outra coisa
+[2017-11-04 23:45:55] Werner Eck: eu achava q isso aparecia automaticamente, em algum ponto da primeira rom ele acessava aquela
+[2017-11-04 23:45:57] Felipe "Juca" Sanches: por algum motivo eles quiseram manter retrocompatibilidade oferecendo a ROM original e uma opção de chaveamento para a ROM do modelo novo
+[2017-11-04 23:46:05] Werner Eck: mas o q vc falou aí acho q faz mais sentido
+[2017-11-04 23:46:26] Werner Eck: provavelmente tem essa dip q já deve vir setada de fabrica
+[2017-11-04 23:46:30] Werner Eck: no 180
+[2017-11-04 23:46:37] Felipe "Juca" Sanches: é por isso que as 3 roms extras estão numeradas nessa ordem: 1, 2, 0
+[2017-11-04 23:46:55] Felipe "Juca" Sanches: por que a ultima das 3 extras entra no lugar da primeira do modelo 150, na posição "zero"
+[2017-11-04 23:47:08] Werner Eck: vc chegou a olhar na placa, como esse banco de dips é conectado?
+[2017-11-04 23:47:14] Felipe "Juca" Sanches: não
+[2017-11-04 23:47:25] Felipe "Juca" Sanches: não inspecionei nada do roteamento de sinais na placa
+[2017-11-04 23:47:46] Werner Eck: de repente dá uma olhada se tem algo passando por ela que vai nos CS dessas duas eproms
+[2017-11-04 23:48:05] Felipe "Juca" Sanches: simplesmente me foquei em anotar quais componentes são usados e deixei para um segundo dia de estudos mapear os sinais que eu não conseguir descobrir por analise de firmware
+[2017-11-04 23:48:16] Werner Eck: de repente é símples assim - um lance q desvia um sinal do micro pro CS de uma ou de outra EPROM
+[2017-11-04 23:48:26] Felipe "Juca" Sanches: sim, faz sentido
+[2017-11-04 23:48:35] Werner Eck: legal, podemos tentar fazer isso na sua próxima visita
+[2017-11-04 23:49:07] Felipe "Juca" Sanches: sim.
+[2017-11-04 23:49:15] Felipe "Juca" Sanches: ainda não sei quando vou poder ir.
+[2017-11-04 23:49:20] Werner Eck: sem pressa
+[2017-11-04 23:49:23] Werner Eck: vc ve aí
+[2017-11-04 23:49:28] Felipe "Juca" Sanches: O ruim é que na USP só dá pra ir de dia de semana
+[2017-11-04 23:49:34] Felipe "Juca" Sanches: e aí conflita com o meu horário de trabalho
+[2017-11-04 23:49:40] Werner Eck: pra vc é ruim né?
+[2017-11-04 23:49:49] Felipe "Juca" Sanches: e isso significa que se eu for na USP de dia eu preciso trabalhar de madrugada pra compensar
+[2017-11-04 23:49:49] Werner Eck: pq eu to com o tempo livre
+[2017-11-04 23:49:56] Werner Eck: certo
+[2017-11-04 23:51:07] Werner Eck: eu me ofereceria pra fazer a visita mas sem ter ninguém de lá que me autorize, não creio ser uma idéia boa (para o presente momento, pelo menos)
+[2017-11-04 23:51:18] Werner Eck: ninguém lá me conhece
+[2017-11-04 23:51:40] Felipe "Juca" Sanches: ah! eu não contei aqui ainda, mas ontem/hoje eu fiz um setup para gerar log público desse canal e de alguns outros canais relacionados ao Garoa Hacker Clube: https://garoa.github.io/Telegram_logs_Garoa_Hacker_Clube_Publico/formatted/html/
+[2017-11-04 23:51:54] Werner Eck: Eu vi seu projetim lá no git
+[2017-11-04 23:51:58] Werner Eck: fiquei curioso
+[2017-11-04 23:52:35] Werner Eck: Eu vi tbm q vc chegou a fazer um sketch pra rodar emulação do PF no arduino
+[2017-11-04 23:52:57] Werner Eck: eu forquei ele
+[2017-11-04 23:52:59] Felipe "Juca" Sanches: é bom isso por que a gente fala várias coisas aqui que não acaba docuementando em nenhum outro lugar depois
+[2017-11-04 23:53:07] Werner Eck: vdd
+[2017-11-04 23:53:09] Felipe "Juca" Sanches: então é bom manter um backup público das conversas
+[2017-11-04 23:53:20] Felipe "Juca" Sanches: pra cair nos buscadores mesmo
+[2017-11-04 23:53:26] Werner Eck: xiiii
+[2017-11-04 23:55:41] Felipe "Juca" Sanches: xi ?
+[2017-11-04 23:56:23] Werner Eck: 😏
+[2017-11-04 23:56:28] Werner Eck: brincadeira
+[2017-11-04 23:56:33] Felipe "Juca" Sanches: :-)
+[2017-11-04 23:56:36] Werner Eck: Temos q tomar cuidado com o q falamos
+[2017-11-04 23:56:47] Felipe "Juca" Sanches: nada demais :-)
+[2017-11-04 23:59:20] Werner Eck: tava olhando aqui um emulador de atari vcs q um brasileiro fez, em js

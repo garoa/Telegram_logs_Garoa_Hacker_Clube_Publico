@@ -258,6 +258,361 @@ Mauricio Linhare</div></div>
 <div class='msg in' title='2017-11-03 19:10:53 -0200'><div class="author">Werner Eck:</div> Agora já sabe quem é Chuck Yeager... ☺️</div>
 <div class='msg out' title='2017-11-03 19:11:01 -0200'>;-)</div>
 <div class='msg in' title='2017-11-03 19:11:24 -0200'><div class="author">Werner Eck:</div> E ele faz uma ponta no filme.</div>
+<div class='msg in' title='2017-11-04 19:50:06 -0200'><div class="author">Werner Eck:</div> <a target='_blank' href='http://relaysbc.sourceforge.net/'>http://relaysbc.sourceforge.net/</a></div>
+<div class='msg out' title='2017-11-04 20:54:38 -0200'>que bizarro</div>
+<div class='msg in' title='2017-11-04 23:39:09 -0200'><div class="author">Werner Eck:</div> E tem kit pra vender disso aí.</div>
+<div class='msg out' title='2017-11-04 23:39:34 -0200'>esse kit aí eu passo haha</div>
+<div class='msg in' title='2017-11-04 23:40:13 -0200'><div class="author">Werner Eck:</div> Acho até interessante a CPU toda de relés. Mas só compraria isso sendo americano.</div>
+<div class='msg out' title='2017-11-04 23:40:57 -0200'>hoje eu escrevi um rascunho de driver pro terminal serial da Scopus, modelo Sagitta 180</div>
+<div class='msg out' title='2017-11-04 23:41:36 -0200'>logo no comecinho do código já vi um padrão conhecido: um bloco de 4kbytes de RAM sendo preenchido com o valor 0x20</div>
+<div class='msg in' title='2017-11-04 23:41:53 -0200'><div class="author">Werner Eck:</div> Vc diz no código da EPROM?</div>
+<div class='msg out' title='2017-11-04 23:41:58 -0200'>sim</div>
+<div class='msg out' title='2017-11-04 23:42:05 -0200'>0x20 é o código ASCII para o caractere de espaço</div>
+<div class='msg in' title='2017-11-04 23:42:11 -0200'><div class="author">Werner Eck:</div> conhecido, como se em um boot de outra maquina?</div>
+<div class='msg in' title='2017-11-04 23:42:13 -0200'><div class="author">Werner Eck:</div> sim.</div>
+<div class='msg-service' title='2017-11-04 23:42:20 -0200'><div class=inner>Sat 2017-11-04, 23:11</div></div>
+<div class='msg in' title='2017-11-04 23:42:20 -0200'><div class="author">Werner Eck:</div> Por acaso esse eu sabia...</div>
+<div class='msg out' title='2017-11-04 23:42:27 -0200'>esse loop é uma rotina de limpar a tela</div>
+<div class='msg in' title='2017-11-04 23:42:38 -0200'><div class="author">Werner Eck:</div> escrevendo espaços</div>
+<div class='msg out' title='2017-11-04 23:43:04 -0200'>e logo em seguida o código endereça aquela string &quot;S a g i t t a  -  versao 4.00&quot;</div>
+<div class='msg out' title='2017-11-04 23:43:16 -0200'>e copia ela para um pedaço dessa área</div>
+<div class='msg in' title='2017-11-04 23:43:23 -0200'><div class="author">Werner Eck:</div> certo.</div>
+<div class='msg out' title='2017-11-04 23:43:23 -0200'>ou seja, essa área é a VRAM</div>
+<div class='msg out' title='2017-11-04 23:43:27 -0200'>(memória de vídeo)</div>
+<div class='msg in' title='2017-11-04 23:43:31 -0200'><div class="author">Werner Eck:</div> sim</div>
+<div class='msg out' title='2017-11-04 23:43:41 -0200'>e isso aí é o &quot;splash screen&quot; do terminal</div>
+<div class='msg out' title='2017-11-04 23:43:55 -0200'>acontece que a string que ele mostra é a da versão 150</div>
+<div class='msg in' title='2017-11-04 23:44:14 -0200'><div class="author">Werner Eck:</div> lembra q na ultima ROM tem outra string dessas?</div>
+<div class='msg in' title='2017-11-04 23:44:34 -0200'><div class="author">Werner Eck:</div> aquela quarta EPROM, numerada como zero</div>
+<div class='msg out' title='2017-11-04 23:44:48 -0200'>eu tô achando que algum dip switch faz o chaveamento de banco de ROM pra escolher usar a versõ da ROM do 150 ou a ROM #0 do 180</div>
+<div class='msg in' title='2017-11-04 23:45:00 -0200'><div class="author">Werner Eck:</div> lembra q o cara aqui palpitou isso tbm????</div>
+<div class='msg in' title='2017-11-04 23:45:07 -0200'><div class="author">Werner Eck:</div> 😅</div>
+<div class='msg in' title='2017-11-04 23:45:21 -0200'><div class="author">Werner Eck:</div> ah nao... eu palpitei outra coisa</div>
+<div class='msg in' title='2017-11-04 23:45:55 -0200'><div class="author">Werner Eck:</div> eu achava q isso aparecia automaticamente, em algum ponto da primeira rom ele acessava aquela</div>
+<div class='msg out' title='2017-11-04 23:45:57 -0200'>por algum motivo eles quiseram manter retrocompatibilidade oferecendo a ROM original e uma opção de chaveamento para a ROM do modelo novo</div>
+<div class='msg in' title='2017-11-04 23:46:05 -0200'><div class="author">Werner Eck:</div> mas o q vc falou aí acho q faz mais sentido</div>
+<div class='msg in' title='2017-11-04 23:46:26 -0200'><div class="author">Werner Eck:</div> provavelmente tem essa dip q já deve vir setada de fabrica</div>
+<div class='msg in' title='2017-11-04 23:46:30 -0200'><div class="author">Werner Eck:</div> no 180</div>
+<div class='msg out' title='2017-11-04 23:46:37 -0200'>é por isso que as 3 roms extras estão numeradas nessa ordem: 1, 2, 0</div>
+<div class='msg out' title='2017-11-04 23:46:55 -0200'>por que a ultima das 3 extras entra no lugar da primeira do modelo 150, na posição &quot;zero&quot;</div>
+<div class='msg in' title='2017-11-04 23:47:08 -0200'><div class="author">Werner Eck:</div> vc chegou a olhar na placa, como esse banco de dips é conectado?</div>
+<div class='msg out' title='2017-11-04 23:47:14 -0200'>não</div>
+<div class='msg out' title='2017-11-04 23:47:25 -0200'>não inspecionei nada do roteamento de sinais na placa</div>
+<div class='msg in' title='2017-11-04 23:47:46 -0200'><div class="author">Werner Eck:</div> de repente dá uma olhada se tem algo passando por ela que vai nos CS dessas duas eproms</div>
+<div class='msg out' title='2017-11-04 23:48:05 -0200'>simplesmente me foquei em anotar quais componentes são usados e deixei para um segundo dia de estudos mapear os sinais que eu não conseguir descobrir por analise de firmware</div>
+<div class='msg in' title='2017-11-04 23:48:16 -0200'><div class="author">Werner Eck:</div> de repente é símples assim - um lance q desvia um sinal do micro pro CS de uma ou de outra EPROM</div>
+<div class='msg out' title='2017-11-04 23:48:26 -0200'>sim, faz sentido</div>
+<div class='msg in' title='2017-11-04 23:48:35 -0200'><div class="author">Werner Eck:</div> legal, podemos tentar fazer isso na sua próxima visita</div>
+<div class='msg out' title='2017-11-04 23:49:07 -0200'>sim.</div>
+<div class='msg out' title='2017-11-04 23:49:15 -0200'>ainda não sei quando vou poder ir.</div>
+<div class='msg in' title='2017-11-04 23:49:20 -0200'><div class="author">Werner Eck:</div> sem pressa</div>
+<div class='msg in' title='2017-11-04 23:49:23 -0200'><div class="author">Werner Eck:</div> vc ve aí</div>
+<div class='msg out' title='2017-11-04 23:49:28 -0200'>O ruim é que na USP só dá pra ir de dia de semana</div>
+<div class='msg out' title='2017-11-04 23:49:34 -0200'>e aí conflita com o meu horário de trabalho</div>
+<div class='msg in' title='2017-11-04 23:49:40 -0200'><div class="author">Werner Eck:</div> pra vc é ruim né?</div>
+<div class='msg out' title='2017-11-04 23:49:49 -0200'>e isso significa que se eu for na USP de dia eu preciso trabalhar de madrugada pra compensar</div>
+<div class='msg in' title='2017-11-04 23:49:49 -0200'><div class="author">Werner Eck:</div> pq eu to com o tempo livre</div>
+<div class='msg in' title='2017-11-04 23:49:56 -0200'><div class="author">Werner Eck:</div> certo</div>
+<div class='msg in' title='2017-11-04 23:51:07 -0200'><div class="author">Werner Eck:</div> eu me ofereceria pra fazer a visita mas sem ter ninguém de lá que me autorize, não creio ser uma idéia boa (para o presente momento, pelo menos)</div>
+<div class='msg in' title='2017-11-04 23:51:18 -0200'><div class="author">Werner Eck:</div> ninguém lá me conhece</div>
+<div class='msg out' title='2017-11-04 23:51:40 -0200'>ah! eu não contei aqui ainda, mas ontem/hoje eu fiz um setup para gerar log público desse canal e de alguns outros canais relacionados ao Garoa Hacker Clube: <a target='_blank' href='https://garoa.github.io/Telegram_logs_Garoa_Hacker_Clube_Publico/formatted/html/'>https://garoa.github.io/Telegram_logs_Garoa_Hacker_Clube_Publico/formatted/html/</a></div>
+<div class='msg in' title='2017-11-04 23:51:54 -0200'><div class="author">Werner Eck:</div> Eu vi seu projetim lá no git</div>
+<div class='msg in' title='2017-11-04 23:51:58 -0200'><div class="author">Werner Eck:</div> fiquei curioso</div>
+<div class='msg in' title='2017-11-04 23:52:35 -0200'><div class="author">Werner Eck:</div> Eu vi tbm q vc chegou a fazer um sketch pra rodar emulação do PF no arduino</div>
+<div class='msg in' title='2017-11-04 23:52:57 -0200'><div class="author">Werner Eck:</div> eu forquei ele</div>
+<div class='msg out' title='2017-11-04 23:52:59 -0200'>é bom isso por que a gente fala várias coisas aqui que não acaba docuementando em nenhum outro lugar depois</div>
+<div class='msg-service' title='2017-11-04 23:53:07 -0200'><div class=inner>Sat 2017-11-04, 23:11</div></div>
+<div class='msg in' title='2017-11-04 23:53:07 -0200'><div class="author">Werner Eck:</div> vdd</div>
+<div class='msg out' title='2017-11-04 23:53:09 -0200'>então é bom manter um backup público das conversas</div>
+<div class='msg out' title='2017-11-04 23:53:20 -0200'>pra cair nos buscadores mesmo</div>
+<div class='msg in' title='2017-11-04 23:53:26 -0200'><div class="author">Werner Eck:</div> xiiii</div>
+<div class='msg out' title='2017-11-04 23:55:41 -0200'>xi ?</div>
+<div class='msg in' title='2017-11-04 23:56:23 -0200'><div class="author">Werner Eck:</div> 😏</div>
+<div class='msg in' title='2017-11-04 23:56:28 -0200'><div class="author">Werner Eck:</div> brincadeira</div>
+<div class='msg out' title='2017-11-04 23:56:33 -0200'>:-)</div>
+<div class='msg in' title='2017-11-04 23:56:36 -0200'><div class="author">Werner Eck:</div> Temos q tomar cuidado com o q falamos</div>
+<div class='msg out' title='2017-11-04 23:56:47 -0200'>nada demais :-)</div>
+<div class='msg in' title='2017-11-04 23:59:20 -0200'><div class="author">Werner Eck:</div> tava olhando aqui um emulador de atari vcs q um brasileiro fez, em js</div>
+<div class='msg in' title='2017-11-05 00:02:09 -0200'><div class="author">Werner Eck:</div> <a target='_blank' href='https://github.com/ppeccin/javatari.js'>https://github.com/ppeccin/javatari.js</a><div class="webpage"><b>ppeccin/javatari.js</b><br><br>javatari.js - Javatari for Javascript</div></div>
+<div class='msg out' title='2017-11-05 00:02:30 -0200'>Esse cara fez emulador de MSX também, se não me engano</div>
+<div class='msg in' title='2017-11-05 00:02:54 -0200'><div class="author">Werner Eck:</div> sim</div>
+<div class='msg in' title='2017-11-05 00:03:13 -0200'><div class="author">Werner Eck:</div> <a target='_blank' href='https://github.com/ppeccin/WebMSX'>https://github.com/ppeccin/WebMSX</a><div class="webpage"><b>ppeccin/WebMSX</b><br><br>WebMSX - Online MSX Emulator</div></div>
+<div class='msg out' title='2017-11-05 00:03:21 -0200'>exato!</div>
+<div class='msg out' title='2017-11-05 00:31:56 -0200'>Esse trecho de código aqui logo no início do boot do sagitta180 (rom do 150) preenche a região de 0x8000 até 0x8fff (4kbytes) com o valor 0x20 (caractere espaço):</div>
+<div class='msg out' title='2017-11-05 00:32:04 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804726048_39811.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804726048_39811.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 00:32:43 -0200'>só não entendo pra que ele usa o contador no registrador C com o valor 2, que faz ele executar a escrita duas vezes</div>
+<div class='msg out' title='2017-11-05 00:33:33 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804722809_61130.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804722809_61130.jpg'></a><br></div>
+<div class='msg in' title='2017-11-05 00:35:04 -0200'><div class="author">Werner Eck:</div> vc já conseguiu parsear a rom pra conseguir obter já os opcodes e operandos separadamente?</div>
+<div class='msg in' title='2017-11-05 00:35:27 -0200'><div class="author">Werner Eck:</div> ah já deve ter emulação da CPU 8080 pronta no MAME né?</div>
+<div class='msg out' title='2017-11-05 00:35:33 -0200'>sim</div>
+<div class='msg in' title='2017-11-05 00:35:41 -0200'><div class="author">Werner Eck:</div> vc não precisou fazer essa parte</div>
+<div class='msg out' title='2017-11-05 00:35:52 -0200'>simplesmente instanciei o I8080 e carreguei a ROM nele</div>
+<div class='msg out' title='2017-11-05 00:36:01 -0200'>e já tô com código rodando</div>
+<div class='msg in' title='2017-11-05 00:36:02 -0200'><div class="author">Werner Eck:</div> certo, q nem no Zezinho</div>
+<div class='msg out' title='2017-11-05 00:36:06 -0200'>isso</div>
+<div class='msg in' title='2017-11-05 00:36:12 -0200'><div class="author">Werner Eck:</div> com tela e td?</div>
+<div class='msg out' title='2017-11-05 00:36:32 -0200'>só que no caso do zezinho a gente escreveu a emulação da CPU. E nesse caso, usei um módulo de emulação que o MAME já tinha</div>
+<div class='msg in' title='2017-11-05 00:36:52 -0200'><div class="author">Werner Eck:</div> tendi</div>
+<div class='msg out' title='2017-11-05 00:37:03 -0200'>instanciei também o chip CRTC (gerador de vídeo) modelo I8275, da intel também. Que o MAME também emula</div>
+<div class='msg out' title='2017-11-05 00:37:13 -0200'>e declarei que tem uma tela com alguma resolução chutada</div>
+<div class='msg in' title='2017-11-05 00:37:25 -0200'><div class="author">Werner Eck:</div> onde ele decrementa esse registrador c?</div>
+<div class='msg out' title='2017-11-05 00:37:33 -0200'>começando torto pra ir achando o caminho</div>
+<div class='msg in' title='2017-11-05 00:37:44 -0200'><div class="author">Werner Eck:</div> e ele tá pegando direitinho a tela?</div>
+<div class='msg out' title='2017-11-05 00:37:45 -0200'>instrução dcr c (decrement C register)</div>
+<div class='msg in' title='2017-11-05 00:38:04 -0200'><div class="author">Werner Eck:</div> ah vdd não tinha visto ela</div>
+<div class='msg out' title='2017-11-05 00:38:17 -0200'>então... ainda tá com a tela preta</div>
+<div class='msg in' title='2017-11-05 00:38:24 -0200'><div class="author">Werner Eck:</div> pq daí então é só vc setar um breakpoint nessa linha e ir acompanhando</div>
+<div class='msg in' title='2017-11-05 00:38:34 -0200'><div class="author">Werner Eck:</div> ele não escreve nada?</div>
+<div class='msg out' title='2017-11-05 00:38:46 -0200'>eu botei uma ROM de CRTC de outro driver, por que a ROM do terminal eu ainda não consegui fazer odump</div>
+<div class='msg in' title='2017-11-05 00:38:52 -0200'><div class="author">Werner Eck:</div> aaah</div>
+<div class='msg in' title='2017-11-05 00:39:01 -0200'><div class="author">Werner Eck:</div> pode ser q aí esteja o cat&#39;s jump</div>
+<div class='msg out' title='2017-11-05 00:39:19 -0200'>a tela tá preta por que o driver não tá correto. Mas a ROM do outro CRTC é razoável. Eu deveria ver algo.</div>
+<div class='msg out' title='2017-11-05 00:39:43 -0200'>o MAME tem um modo de visualização de tiles que é ativado pressionando F4</div>
+<div class='msg in' title='2017-11-05 00:40:02 -0200'><div class="author">Werner Eck:</div> e mesmo nesse modo, nada?</div>
+<div class='msg in' title='2017-11-05 00:40:28 -0200'><div class="author">Werner Eck:</div> vc não conseguiria ver se ele está escrevendo os caracteres na memória de vídeo?</div>
+<div class='msg out' title='2017-11-05 00:40:31 -0200'>e ele me mostra isso:</div>
+<div class='msg out' title='2017-11-05 00:40:38 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805512853_31540.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805512853_31540.jpg'></a><br></div>
+<div class='msg-service' title='2017-11-05 00:40:49 -0200'><div class=inner>Sun 2017-11-05, 00:12</div></div>
+<div class='msg in' title='2017-11-05 00:40:49 -0200'><div class="author">Werner Eck:</div> tipo qdo a gente visualizou a RAM do zezinho</div>
+<div class='msg out' title='2017-11-05 00:41:07 -0200'>sim, consigo. E ele está sim escrevendo a string lá</div>
+<div class='msg out' title='2017-11-05 00:41:11 -0200'>deixa eu mostrar...</div>
+<div class='msg out' title='2017-11-05 00:42:19 -0200'>Logo depois de encher o buffer de vídeo com 0x20, o código faz isso:</div>
+<div class='msg out' title='2017-11-05 00:42:25 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804722650_63194.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804722650_63194.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 00:42:56 -0200'>endereço 78: carrega registrador HL com o valor 0776</div>
+<div class='msg out' title='2017-11-05 00:43:10 -0200'>endereço 7B: carrega registrador DE com valor 8334</div>
+<div class='msg out' title='2017-11-05 00:43:18 -0200'>esses dois valores são ponteiros para memória</div>
+<div class='msg in' title='2017-11-05 00:43:18 -0200'><div class="author">Werner Eck:</div> daí ele carrega o d, e entra numa espécie de loop</div>
+<div class='msg in' title='2017-11-05 00:43:23 -0200'><div class="author">Werner Eck:</div> certo</div>
+<div class='msg out' title='2017-11-05 00:43:44 -0200'>o endereço 8334 tá dentro daquele bloco de VRAM (entre 8000 e 8fff)</div>
+<div class='msg in' title='2017-11-05 00:43:45 -0200'><div class="author">Werner Eck:</div> certo</div>
+<div class='msg out' title='2017-11-05 00:43:59 -0200'>então parece que é onde ele vai escrever alguma coisa no vídeo</div>
+<div class='msg out' title='2017-11-05 00:44:13 -0200'>e o outro endereço é na ROM (0x0776)</div>
+<div class='msg in' title='2017-11-05 00:44:19 -0200'><div class="author">Werner Eck:</div> o q faz a instrução stax?</div>
+<div class='msg out' title='2017-11-05 00:44:41 -0200'>inspecionando na janela de visualização de conteúdo da memória, olha só o que tem lá no endereço 0776 da ROM:</div>
+<div class='msg out' title='2017-11-05 00:45:12 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804722009_63906.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804722009_63906.jpg'></a><br></div>
+<div class='msg in' title='2017-11-05 00:45:55 -0200'><div class="author">Werner Eck:</div> 0x0776 deveria ímprimir o &#39;S&#39;</div>
+<div class='msg out' title='2017-11-05 00:46:17 -0200'>sim. Só que esse código aí é um loop</div>
+<div class='msg in' title='2017-11-05 00:46:18 -0200'><div class="author">Werner Eck:</div> e daí segue incrementando</div>
+<div class='msg out' title='2017-11-05 00:46:22 -0200'>que executa 0x23 vezes</div>
+<div class='msg in' title='2017-11-05 00:46:26 -0200'><div class="author">Werner Eck:</div> eu notei</div>
+<div class='msg out' title='2017-11-05 00:46:29 -0200'>que é o tamanho  da string</div>
+<div class='msg out' title='2017-11-05 00:46:48 -0200'>então ele vai incrementando os ponteiros e faendo a cópia de um byte por vez da ROM para a VRAM</div>
+<div class='msg in' title='2017-11-05 00:46:49 -0200'><div class="author">Werner Eck:</div> certo, q ele carregou lá no contador em 0x07f</div>
+<div class='msg in' title='2017-11-05 00:47:17 -0200'><div class="author">Werner Eck:</div> agora pergunto, vc vê esses valores sendo escritos na RAM?</div>
+<div class='msg out' title='2017-11-05 00:47:26 -0200'>compara com 0x23. Se for zero pula fora, senao continua</div>
+<div class='msg out' title='2017-11-05 00:47:31 -0200'>sim, vejo</div>
+<div class='msg out' title='2017-11-05 00:48:30 -0200'>depois de rodar o loop de escrita da string:</div>
+<div class='msg in' title='2017-11-05 00:48:33 -0200'><div class="author">Werner Eck:</div> e essa área q está sendo preenchida com esses valores lidos da EPROM, é correspondente no MAME, à área de vram?</div>
+<div class='msg out' title='2017-11-05 00:48:36 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804721105_82131.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804721105_82131.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 00:49:04 -0200'>pois é... aí é que está o lance</div>
+<div class='msg out' title='2017-11-05 00:49:16 -0200'>eu nunca tinha lidado com esse CRTC da Intel</div>
+<div class='msg in' title='2017-11-05 00:49:19 -0200'><div class="author">Werner Eck:</div> a partir de 0x8334</div>
+<div class='msg out' title='2017-11-05 00:49:36 -0200'>exatamante  !</div>
+<div class='msg out' title='2017-11-05 00:49:52 -0200'>ou seja, não é no topo do vídeo. Deve ficar um pouco mais pra baixo</div>
+<div class='msg in' title='2017-11-05 00:50:03 -0200'><div class="author">Werner Eck:</div> eu perguntei pq penso se a &#39;janela&#39; de visualização do CRT controller está alinhada com essa RAM aí</div>
+<div class='msg out' title='2017-11-05 00:50:10 -0200'>por que o vídeo começa em 0x8000</div>
+<div class='msg out' title='2017-11-05 00:50:30 -0200'>aparentemente não vemos nada ainda por que o CRTC não está configurado corretamente</div>
+<div class='msg in' title='2017-11-05 00:51:01 -0200'><div class="author">Werner Eck:</div> ah certo, talvez ele precise de uma inicialização</div>
+<div class='msg out' title='2017-11-05 00:51:08 -0200'>uma coisa curiosa desse CRTC da Intel que eu nunca tinha visto antes é que ele interfaceia com a RAM principal do sistema por meio de um mecanismo de DMA</div>
+<div class='msg in' title='2017-11-05 00:51:12 -0200'><div class="author">Werner Eck:</div> eu tbm não conheço esse periférico.</div>
+<div class='msg in' title='2017-11-05 00:51:18 -0200'><div class="author">Werner Eck:</div> teria q dar uma olhada no ds dele</div>
+<div class='msg out' title='2017-11-05 00:51:21 -0200'>olha o datasheet dele aqui: <a target='_blank' href='http://www.jbox.dk/rc702/hardware/intel-8275.pdf'>http://www.jbox.dk/rc702/hardware/intel-8275.pdf</a></div>
+<div class='msg out' title='2017-11-05 00:51:54 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805514103_31745.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805514103_31745.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 00:53:07 -0200'>então, se entendi direito, o firmware pode configurar o CRTC pra usar alguma faixa de memória arbitrária como VRAM</div>
+<div class='msg in' title='2017-11-05 00:53:56 -0200'><div class="author">Werner Eck:</div> é nessa área do bloco de DMA control logic é q está o pulo do gato</div>
+<div class='msg in' title='2017-11-05 00:54:14 -0200'><div class="author">Werner Eck:</div> eu to dando uma olhada no ds q vc me mandou</div>
+<div class='msg out' title='2017-11-05 00:54:38 -0200'>eu vi um trecho de código de boot do terminal que é MUITO suspeito e que acontece antes da rotina de limpar a tela com espaços:</div>
+<div class='msg out' title='2017-11-05 00:54:43 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804721454_81459.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804721454_81459.jpg'></a><br></div>
+<div class='msg-service' title='2017-11-05 00:55:18 -0200'><div class=inner>Sun 2017-11-05, 00:12</div></div>
+<div class='msg out' title='2017-11-05 00:55:18 -0200'>isso aí escreve 0x8000 na porta 0x44 e depois escreve 0x8FFF na porta 0x45</div>
+<div class='msg out' title='2017-11-05 00:55:55 -0200'>parece ser a configuração de faixa de endereços da VRAM, então suponho que o CRTC esteja mapeado nas portas de I/O 0x44 e 0x45</div>
+<div class='msg out' title='2017-11-05 00:56:43 -0200'>por conta disso escrevi o seguinte no driver:</div>
+<div class='msg out' title='2017-11-05 00:56:50 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804730778_37572.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804730778_37572.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 00:57:13 -0200'>Mas não funcionou</div>
+<div class='msg in' title='2017-11-05 01:03:52 -0200'><div class="author">Werner Eck:</div> dá uma olhada a partir da pg 17 desse ds</div>
+<div class='msg in' title='2017-11-05 01:06:07 -0200'><div class="author">Werner Eck:</div> tbm isso aqui ó:</div>
+<div class='msg in' title='2017-11-05 01:06:11 -0200'><div class="author">Werner Eck:</div><br><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804729789_40008.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804729789_40008.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 01:06:15 -0200'>Eu acho que o problema é o seguinte: o CRTC requisite uma operação de DMA para ler o conteúdo da VRAM. Quem recebe esse pedido é o chip controlador de DMA, o Intel 8257. Ele vai fazer a mágica dele e sinalizar de volta pro CRTC quando tiver terminado.</div>
+<div class='msg out' title='2017-11-05 01:07:17 -0200'>então tem 3 coisas que meu driver de emulação precisa fazer direito simultaneamente: (A) mapear o CRTC nas portas de I/O corretas para que ele possa ser configurado pela CPU. Isso acho que já consegui sacar, por que parece óbvio que as portas são 0x44 e 0x45.</div>
+<div class='msg in' title='2017-11-05 01:07:34 -0200'><div class="author">Werner Eck:</div> sim, seria o DRQ/DACK</div>
+<div class='msg out' title='2017-11-05 01:07:43 -0200'>(B) mapear o chip controlador de DMA nas portas corretas (esse eu ainda não fiz)</div>
+<div class='msg out' title='2017-11-05 01:08:00 -0200'>e (C) interconectar os 2 chips por meio dos dinais DRQ e DACk</div>
+<div class='msg in' title='2017-11-05 01:08:27 -0200'><div class="author">Werner Eck:</div> pode ser q o 5 nem esteja sendo ativado ainda</div>
+<div class='msg out' title='2017-11-05 01:08:30 -0200'>eu to tentando fazer (C), mas não sei se estou fazendo direito. Mas não adianta nada se eu não fizer (B) também.</div>
+<div class='msg out' title='2017-11-05 01:08:48 -0200'>5 ?</div>
+<div class='msg in' title='2017-11-05 01:09:07 -0200'><div class="author">Werner Eck:</div> tentei editar e nao deixou</div>
+<div class='msg in' title='2017-11-05 01:09:09 -0200'><div class="author">Werner Eck:</div> 8275</div>
+<div class='msg out' title='2017-11-05 01:09:15 -0200'>ah ok</div>
+<div class='msg in' title='2017-11-05 01:09:41 -0200'><div class="author">Werner Eck:</div> parece q o telegram tem problema qdo o texto tem mais de uma linha</div>
+<div class='msg in' title='2017-11-05 01:09:51 -0200'><div class="author">Werner Eck:</div> pra editar, o cursor não sobe</div>
+<div class='msg out' title='2017-11-05 01:10:01 -0200'>os números dos chips são muito parecidos. Um é 8275 o outro é 8257. É pra dar nó na cabeça. Prefiro me referir a eles como CRTC (o 75) e DMAC (o 57)</div>
+<div class='msg in' title='2017-11-05 01:10:10 -0200'><div class="author">Werner Eck:</div> certo</div>
+<div class='msg in' title='2017-11-05 01:10:44 -0200'><div class="author">Werner Eck:</div> eu penso q talvez o crtc nem esteja sendo ativado, pois seria ele quem deveria ler aquela janela de ram e sincronizar o display cm o conteudo</div>
+<div class='msg in' title='2017-11-05 01:11:07 -0200'><div class="author">Werner Eck:</div> vc não teria como visualizar o status dos pinos dele ?</div>
+<div class='msg in' title='2017-11-05 01:11:16 -0200'><div class="author">Werner Eck:</div> não sei se isso é possível</div>
+<div class='msg out' title='2017-11-05 01:11:17 -0200'>olhando no código de boot vejo outros 2 endereços de I/O sendo usados, então só pode ser a configuração do DMAC:</div>
+<div class='msg out' title='2017-11-05 01:11:25 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804727843_37870.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804727843_37870.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 01:11:33 -0200'>nos endereços 0x30 e 0x31</div>
+<div class='msg out' title='2017-11-05 01:11:44 -0200'>vou tentar mapear o DMAC nessas duas portas e ver no que dá</div>
+<div class='msg in' title='2017-11-05 01:12:02 -0200'><div class="author">Werner Eck:</div> vai la</div>
+<div class='msg out' title='2017-11-05 01:13:08 -0200'>ficou assim agora:</div>
+<div class='msg out' title='2017-11-05 01:13:14 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804730481_38687.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804730481_38687.jpg'></a><br></div>
+<div class='msg in' title='2017-11-05 01:13:35 -0200'><div class="author">Werner Eck:</div> rodou já?</div>
+<div class='msg out' title='2017-11-05 01:14:24 -0200'>compilando e tentando rodar</div>
+<div class='msg out' title='2017-11-05 01:17:26 -0200'>então... nada ainda.</div>
+<div class='msg out' title='2017-11-05 01:17:49 -0200'>Estou um pouco confuso sobre o mecanismo de interconexão dos sinais de DMA request e ACK</div>
+<div class='msg in' title='2017-11-05 01:18:11 -0200'><div class="author">Werner Eck:</div> existe no debugger algum jeito de vc monitorar certos sinais q vão pro crtc em tempo real?</div>
+<div class='msg out' title='2017-11-05 01:18:15 -0200'>o MAME oferece algumas macros que parecem sugerir que há tipos distintos de requisições, para IO ou acesso de memória</div>
+<div class='msg out' title='2017-11-05 01:18:31 -0200'>e também parece que tem mais de um sinal de requisição possível para requisição</div>
+<div class='msg in' title='2017-11-05 01:18:36 -0200'><div class="author">Werner Eck:</div> q nem a gente estava fazendo com o PC, ACC do zezinho?</div>
+<div class='msg out' title='2017-11-05 01:18:54 -0200'>seria prudente agora eu ler o datasheet do DMAC pra entender o que significam os 4 bytes que o firmware escreveu na configuração</div>
+<div class='msg in' title='2017-11-05 01:19:05 -0200'><div class="author">Werner Eck:</div> acredito q sim</div>
+<div class='msg out' title='2017-11-05 01:19:26 -0200'>Esses valores aqui</div>
+<div class='msg out' title='2017-11-05 01:20:39 -0200'>então é esse cara que temos que estudar agora: <a target='_blank' href='http://www.threedee.com/jcm/terak/docs/Intel%208257%20Programmable%20DMA%20Controller.pdf'>http://www.threedee.com/jcm/terak/docs/Intel%208257%20Programmable%20DMA%20Controller.pdf</a></div>
+<div class='msg in' title='2017-11-05 01:21:12 -0200'><div class="author">Werner Eck:</div> talvez esses 4 valores q ele joga no &amp;0x30 seja algum handshake</div>
+<div class='msg out' title='2017-11-05 01:21:45 -0200'>os 4 valores são a inicialização do DMAC</div>
+<div class='msg out' title='2017-11-05 01:22:16 -0200'>eles devem especificar, por exemplo, as prioridades de tratamento dos pedidos de transferencia</div>
+<div class='msg out' title='2017-11-05 01:24:06 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804729151_40381.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804729151_40381.jpg'></a><br></div>
+<div class='msg in' title='2017-11-05 01:24:19 -0200'><div class="author">Werner Eck:</div> tava pra te mandar isso!</div>
+<div class='msg-service' title='2017-11-05 01:24:22 -0200'><div class=inner>Sun 2017-11-05, 01:01</div></div>
+<div class='msg in' title='2017-11-05 01:24:22 -0200'><div class="author">Werner Eck:</div> exatamente isso</div>
+<div class='msg out' title='2017-11-05 01:24:33 -0200'>Essa descrição do DMAC me faz acreditar que talvez os endereços 0x8000 e 0x8FFF são escritos no DMAC</div>
+<div class='msg out' title='2017-11-05 01:24:36 -0200'>e não no CRTC</div>
+<div class='msg in' title='2017-11-05 01:24:42 -0200'><div class="author">Werner Eck:</div> dois registradores, um de endereçamento e outro de contagem</div>
+<div class='msg out' title='2017-11-05 01:24:44 -0200'>então vou inverter o mapeamento</div>
+<div class='msg in' title='2017-11-05 01:25:15 -0200'><div class="author">Werner Eck:</div> vc vai jogar o 8000 e 8fff no dma e o 30 e 31 no crtc?</div>
+<div class='msg out' title='2017-11-05 01:25:16 -0200'>por que aqueles valores dos endereços 30 e 31 devem ser configuração de resolução da tela e tamanho dos caracteres do CRTC</div>
+<div class='msg in' title='2017-11-05 01:25:52 -0200'><div class="author">Werner Eck:</div> de onde vc tirou isso?</div>
+<div class='msg out' title='2017-11-05 01:26:30 -0200'>vou trocar o mapeamento dos chips: botar DMAC nas portas de I/O 44 e 45 (que é onde o firmware escreve 0x8000 e 0x8fff) e CRTC nas portas 30 e 31 (que é onde ofw escreve aqueles outros valores)</div>
+<div class='msg out' title='2017-11-05 01:26:37 -0200'>intuição</div>
+<div class='msg in' title='2017-11-05 01:26:42 -0200'><div class="author">Werner Eck:</div> hahha</div>
+<div class='msg in' title='2017-11-05 01:26:45 -0200'><div class="author">Werner Eck:</div> entendi</div>
+<div class='msg in' title='2017-11-05 01:27:03 -0200'><div class="author">Werner Eck:</div> vdd</div>
+<div class='msg in' title='2017-11-05 01:27:09 -0200'><div class="author">Werner Eck:</div> tenta lá</div>
+<div class='msg out' title='2017-11-05 01:27:52 -0200'>epa ! O bicho soluçou aqui hahaha</div>
+<div class='msg in' title='2017-11-05 01:27:58 -0200'><div class="author">Werner Eck:</div> opa!</div>
+<div class='msg in' title='2017-11-05 01:28:02 -0200'><div class="author">Werner Eck:</div> manda print ae</div>
+<div class='msg out' title='2017-11-05 01:28:12 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804730735_38759.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804730735_38759.jpg'></a><br></div>
+<div class='msg in' title='2017-11-05 01:29:10 -0200'><div class="author">Werner Eck:</div> umm, pode ser muita coisa</div>
+<div class='msg in' title='2017-11-05 01:29:40 -0200'><div class="author">Werner Eck:</div> pergunto ainda, se o crtc está sendo acionado corretamente</div>
+<div class='msg out' title='2017-11-05 01:30:41 -0200'>veja que o simbolo que se repete é o símbolo número zero</div>
+<div class='msg out' title='2017-11-05 01:31:10 -0200'>de acordo com essa visualização dos tiles disponíveis</div>
+<div class='msg in' title='2017-11-05 01:31:47 -0200'><div class="author">Werner Eck:</div> umm</div>
+<div class='msg in' title='2017-11-05 01:32:33 -0200'><div class="author">Werner Eck:</div> outra coisa, se o simbolo q aparece é sempre repetido, ele tbm não está incrementando o contador de caracteres</div>
+<div class='msg in' title='2017-11-05 01:32:40 -0200'><div class="author">Werner Eck:</div> é o q parece</div>
+<div class='msg out' title='2017-11-05 01:32:52 -0200'>ou está lendo outra região da RAM</div>
+<div class='msg out' title='2017-11-05 01:32:58 -0200'>fora da faixa de VRAM</div>
+<div class='msg in' title='2017-11-05 01:32:59 -0200'><div class="author">Werner Eck:</div> ou isso</div>
+<div class='msg out' title='2017-11-05 01:33:02 -0200'>onde tá tudo zero</div>
+<div class='msg in' title='2017-11-05 01:33:10 -0200'><div class="author">Werner Eck:</div> pode ser muita coisa</div>
+<div class='msg in' title='2017-11-05 01:33:40 -0200'><div class="author">Werner Eck:</div> suponhamos q eles dois estejam se falando direitinho agora, e a questão seja mudar a janela</div>
+<div class='msg in' title='2017-11-05 01:33:55 -0200'><div class="author">Werner Eck:</div> seria o cenário mais &quot;fácil&quot; de resolver</div>
+<div class='msg in' title='2017-11-05 01:34:30 -0200'><div class="author">Werner Eck:</div> mas eu novamente pergunto, como a gente sabe se ele está lendo a partir de outro endereço qq?</div>
+<div class='msg in' title='2017-11-05 01:34:42 -0200'><div class="author">Werner Eck:</div> tem como visualizar isso no debugger?</div>
+<div class='msg in' title='2017-11-05 01:35:01 -0200'><div class="author">Werner Eck:</div> pq senão vc vai ter q ir na tentativa e erro, mudando o valor do ender...</div>
+<div class='msg in' title='2017-11-05 01:35:11 -0200'><div class="author">Werner Eck:</div> vc mudou os valores que ele guardava nos registradores?</div>
+<div class='msg in' title='2017-11-05 01:35:24 -0200'><div class="author">Werner Eck:</div> vc inverteu os registradores dos dois chips</div>
+<div class='msg in' title='2017-11-05 01:35:36 -0200'><div class="author">Werner Eck:</div> e os valores 8000 e 8fff?</div>
+<div class='msg out' title='2017-11-05 01:35:57 -0200'>os valores 8000 e 8fff são escritos no chip pelo firmware</div>
+<div class='msg in' title='2017-11-05 01:36:01 -0200'><div class="author">Werner Eck:</div> estão sendo armazenados em qual dos dois pares de registradores?</div>
+<div class='msg out' title='2017-11-05 01:36:06 -0200'>isso é um fato. Nao tem que ser mudado</div>
+<div class='msg in' title='2017-11-05 01:36:12 -0200'><div class="author">Werner Eck:</div> tá</div>
+<div class='msg in' title='2017-11-05 01:36:23 -0200'><div class="author">Werner Eck:</div> então...</div>
+<div class='msg out' title='2017-11-05 01:36:51 -0200'>vou voltar a ler o datasheet pra entender melhor o mecanismo de programação desses dois chips e interpretar os valores que o firmware escreve</div>
+<div class='msg out' title='2017-11-05 01:37:05 -0200'>por que o firmware está dizendo pra gente e a gente não tá querendo ler</div>
+<div class='msg out' title='2017-11-05 01:37:31 -0200'>a resposta está aqui. É só interpretar o que significa com base no datasheet</div>
+<div class='msg out' title='2017-11-05 01:38:28 -0200'>E acabei de perceber que cortei errado essa imagem. Ficou faltando mostrar o primeiro valor que é enviado para a porta 31</div>
+<div class='msg out' title='2017-11-05 01:39:44 -0200'>o valor é zero, por que a instrução logo antes de out 31 é &quot;XRA A&quot; que, se não me engano é A &lt;= A XOR A, que equivale a A=0</div>
+<div class='msg in' title='2017-11-05 01:40:24 -0200'><div class="author">Werner Eck:</div> eu to com uma suspeita</div>
+<div class='msg out' title='2017-11-05 01:40:34 -0200'>então a resposta tem que estar aqui:</div>
+<div class='msg-service' title='2017-11-05 01:40:39 -0200'><div class=inner>Sun 2017-11-05, 01:01</div></div>
+<div class='msg out' title='2017-11-05 01:40:39 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805514450_32069.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805514450_32069.jpg'></a><br></div>
+<div class='msg in' title='2017-11-05 01:41:00 -0200'><div class="author">Werner Eck:</div> de q esses 4 valores jogados no &amp;30 possam estar inicializando os 4 modos de dma</div>
+<div class='msg in' title='2017-11-05 01:43:04 -0200'><div class="author">Werner Eck:</div> poderia ser ou o crtc jogando DRQ0~DRQ3 pro dma ou o dma jogando dack0~dack3 pro crtc</div>
+<div class='msg in' title='2017-11-05 01:43:13 -0200'><div class="author">Werner Eck:</div> eu to meio confuso</div>
+<div class='msg out' title='2017-11-05 01:44:03 -0200'>não... esses valores aí são a inicialização do CRTC</div>
+<div class='msg out' title='2017-11-05 01:44:09 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804727691_39789.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804727691_39789.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 01:44:41 -0200'>a primeira escrita é em 0x31 (bit A0=1) e o valor é zero, ou seja, trata-se desse comando aí da tabela acima, o comando de reset do CRTC</div>
+<div class='msg out' title='2017-11-05 01:45:00 -0200'>e os 4 bytes seguintes são escritos em 0x30 (bit A0=0)</div>
+<div class='msg out' title='2017-11-05 01:45:30 -0200'>então o primeiro byte é 4F = 0100 1111 = S H H H H H H H</div>
+<div class='msg out' title='2017-11-05 01:45:45 -0200'>então S=0 e H = 4f</div>
+<div class='msg out' title='2017-11-05 01:46:17 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804721546_82071.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804721546_82071.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 01:47:03 -0200'>S=0 significa &quot;Normal Rows&quot; (isso provavelmente significa que não há 1 ou mais pixels de espaçamento entre os tiles)</div>
+<div class='msg out' title='2017-11-05 01:47:56 -0200'>e H=4f significa que temos 0x50 caracteres por linha</div>
+<div class='msg out' title='2017-11-05 01:48:03 -0200'>veja que soma 1 ao valor</div>
+<div class='msg out' title='2017-11-05 01:48:18 -0200'>0x50 = 80 caracteres por linha</div>
+<div class='msg out' title='2017-11-05 01:48:52 -0200'>oras bolas... é um terminal de 80 colunas :-)</div>
+<div class='msg out' title='2017-11-05 01:49:30 -0200'>veja, inclusive, na tabela acima, que 80 é o maior valor permitido.</div>
+<div class='msg out' title='2017-11-05 01:49:46 -0200'>e tá lá justamente o nosso 4F na tabela</div>
+<div class='msg in' title='2017-11-05 01:49:51 -0200'><div class="author">Werner Eck:</div> e 4f=79</div>
+<div class='msg in' title='2017-11-05 01:50:02 -0200'><div class="author">Werner Eck:</div> 0x4f = 79d</div>
+<div class='msg out' title='2017-11-05 01:50:02 -0200'>ele soma 1 sempre</div>
+<div class='msg out' title='2017-11-05 01:50:30 -0200'>o valor zero significa 1 caractere por coluna e assim por diante. Veja de novo os valores da tabela</div>
+<div class='msg out' title='2017-11-05 01:51:00 -0200'>o chip interpreta a configuração como (valor+1)</div>
+<div class='msg out' title='2017-11-05 01:52:34 -0200'>o segundo byte é 0x59 = V V R R R R R R</div>
+<div class='msg out' title='2017-11-05 01:52:54 -0200'>0x59 = 0101 1001</div>
+<div class='msg out' title='2017-11-05 01:53:16 -0200'>V = 1 e R = 25</div>
+<div class='msg in' title='2017-11-05 01:53:18 -0200'><div class="author">Werner Eck:</div> vc quer dizer, 1 char por linha?</div>
+<div class='msg in' title='2017-11-05 01:53:41 -0200'><div class="author">Werner Eck:</div> to tentando ler essa parte</div>
+<div class='msg out' title='2017-11-05 01:54:23 -0200'>ok... vamos olhar para a tabela de novo</div>
+<div class='msg out' title='2017-11-05 01:55:38 -0200'>caso esse parâmetro tivesse recebido uma escrita do valor 0x00 = 0 0 0 0 0 0 0 0 , isso significaria 1 char por linha (que é bizarro, mas parece que o chip suporta esses casos degenerados)</div>
+<div class='msg out' title='2017-11-05 01:56:04 -0200'>isso provavelmente seria um caractere grandão, esticadão na horizontal</div>
+<div class='msg out' title='2017-11-05 01:56:15 -0200'>pra um único caractere ser desenhado em uma linha inteira</div>
+<div class='msg out' title='2017-11-05 01:56:31 -0200'>mas o que o firmware do sagitta configura é 4F</div>
+<div class='msg out' title='2017-11-05 01:57:06 -0200'>que é o valor binário 1 0 0 1 1 1 1, que, apesar de em decimal valer 79, na tabela ele mostra que o chip interpreta como sendo 80 chars por linha</div>
+<div class='msg in' title='2017-11-05 01:57:18 -0200'><div class="author">Werner Eck:</div> e os outros valores, $59, $99, $ee?</div>
+<div class='msg out' title='2017-11-05 01:57:29 -0200'>ok... vamos pros outros 3 valores</div>
+<div class='msg out' title='2017-11-05 01:57:46 -0200'>o segundo valor é 0x59 = 0 1 0 1 1 0 0 1</div>
+<div class='msg out' title='2017-11-05 01:58:30 -0200'>que segundo a tabela corresponde aos valores dos parâmetros V V R R R R R R</div>
+<div class='msg out' title='2017-11-05 01:58:45 -0200'>V = 1 e R = 25</div>
+<div class='msg out' title='2017-11-05 01:59:00 -0200'>e o significado desses valores:</div>
+<div class='msg out' title='2017-11-05 01:59:05 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804722079_62639.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804722079_62639.jpg'></a><br></div>
+<div class='msg in' title='2017-11-05 01:59:22 -0200'><div class="author">Werner Eck:</div> são esses parametros V e R q eu não estou achando</div>
+<div class='msg in' title='2017-11-05 01:59:38 -0200'><div class="author">Werner Eck:</div> é q vc deve estar com esse pdf em várias abas</div>
+<div class='msg out' title='2017-11-05 01:59:46 -0200'>R = rows / frame</div>
+<div class='msg out' title='2017-11-05 02:00:33 -0200'>tá na parte debaixo da página 17 (que é identificada como página 8-239)</div>
+<div class='msg in' title='2017-11-05 02:01:02 -0200'><div class="author">Werner Eck:</div> acabei de me dar conta de q tá td ali na msm pag, eu q comi bola</div>
+<div class='msg in' title='2017-11-05 02:01:54 -0200'><div class="author">Werner Eck:</div> Eu quero pensar q essa parte de inicialização do CRTC esteja funcionando</div>
+<div class='msg out' title='2017-11-05 02:02:07 -0200'>yep</div>
+<div class='msg out' title='2017-11-05 02:02:11 -0200'>parece tudo perfeito</div>
+<div class='msg out' title='2017-11-05 02:02:23 -0200'>por que esse valor R = 25 é o que nos diz que a tela tem 25 linhas</div>
+<div class='msg-service' title='2017-11-05 02:02:30 -0200'><div class=inner>Sun 2017-11-05, 02:02</div></div>
+<div class='msg out' title='2017-11-05 02:02:30 -0200'>ou seja é um terminal em resolução 80x25</div>
+<div class='msg out' title='2017-11-05 02:02:37 -0200'>resolução bem típica</div>
+<div class='msg in' title='2017-11-05 02:02:43 -0200'><div class="author">Werner Eck:</div> uma coisa q me chamou a atenção é esse parametro M</div>
+<div class='msg in' title='2017-11-05 02:03:35 -0200'><div class="author">Werner Eck:</div> parece ser um offset para o contador de linhas. Mas pensando melhor, acho q nao tem nada a ver com nada</div>
+<div class='msg in' title='2017-11-05 02:03:43 -0200'><div class="author">Werner Eck:</div> entao, voltamos ao estado de...</div>
+<div class='msg in' title='2017-11-05 02:03:58 -0200'><div class="author">Werner Eck:</div> parece q a inicialização do CRTC se dá ali mesmo</div>
+<div class='msg in' title='2017-11-05 02:04:22 -0200'><div class="author">Werner Eck:</div> talvez então, ele não esteja lendo a área certa?</div>
+<div class='msg in' title='2017-11-05 02:05:25 -0200'><div class="author">Werner Eck:</div> ou os caracteres lidos não estejam sendo escritos na área de VRAM q o CRTC espera? Mas se isso está codificado na EPROM, então é lá mesmo q tem q ser</div>
+<div class='msg in' title='2017-11-05 02:06:08 -0200'><div class="author">Werner Eck:</div> será q estamos setando o CRTC para o range de endereçamento de VRAM certo?</div>
+<div class='msg out' title='2017-11-05 02:09:01 -0200'>eu acho que a transferência DMA não está acontecendo</div>
+<div class='msg out' title='2017-11-05 02:09:21 -0200'>por que o emulador não está interligando corretamente os sinais entre o DMAC e o CRTC</div>
+<div class='msg out' title='2017-11-05 02:09:43 -0200'>e o efeito colateral é que o CRTC é inicializado, mas sua memória interna tem um buffer todo cheio de zeros</div>
+<div class='msg out' title='2017-11-05 02:09:58 -0200'>e ele nunca consegue efetuar uma leitura via DMA</div>
+<div class='msg out' title='2017-11-05 02:10:10 -0200'>e portanto a gente continua vendo o caractere número zero na tela inteira</div>
+<div class='msg out' title='2017-11-05 02:10:38 -0200'>acho que o ponto agora é estudar o mecanismo de requisição e acknowledge de transferência DMA</div>
+<div class='msg out' title='2017-11-05 02:11:26 -0200'>o endereço inicial e final também devem estar sendo configurados corretamente, pois já mapeei o DMAC nas portas 44 e 45 que é onde o firmware escreve 8000 e 8fff que é a faixa de endereços da VRAM</div>
+<div class='msg out' title='2017-11-05 02:12:09 -0200'>acho que já matamos a xarada do mapeamento em I/O e o nó está agora na emulação da interconexão dos 2 chips.</div>
+<div class='msg out' title='2017-11-05 02:13:20 -0200'>tem um outro carinha na jogada que é o Intel 8212</div>
+<div class='msg out' title='2017-11-05 02:13:46 -0200'>tem um desses na placa e o datasheet do DMAC diz que ele é projetado pra trabalhar junto com um 8212</div>
+<div class='msg in' title='2017-11-05 02:13:51 -0200'><div class="author">Werner Eck:</div> ele existe no sagitta?</div>
+<div class='msg out' title='2017-11-05 02:13:54 -0200'>sim</div>
+<div class='msg in' title='2017-11-05 02:14:03 -0200'><div class="author">Werner Eck:</div> eu tava vendo isso no ds do crt</div>
+<div class='msg in' title='2017-11-05 02:14:57 -0200'><div class="author">Werner Eck:</div> veja na pg 2-112</div>
+<div class='msg in' title='2017-11-05 02:15:49 -0200'><div class="author">Werner Eck:</div> e depois pg 2-111, fig 8</div>
+<div class='msg in' title='2017-11-05 02:19:00 -0200'><div class="author">Werner Eck:</div> e o 8212 é um latch de 8 bits</div>
+<div class='msg in' title='2017-11-05 02:19:30 -0200'><div class="author">Werner Eck:</div> se vc disse q tem ele na placa, teria q emular o bicho tbm</div>
+<div class='msg in' title='2017-11-05 02:19:53 -0200'><div class="author">Werner Eck:</div> ele deve estar entre o barramento de dados e o crtc</div>
+<div class='msg out' title='2017-11-05 02:36:48 -0200'>A configuração do DMAController é meio confusa no MAME. Olha um exemplo de um driver de outro computador que usa esse chip. Olha como ficam as macros:</div>
+<div class='msg out' title='2017-11-05 02:36:54 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804727670_38379.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804727670_38379.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 02:37:06 -0200'>Tenho que entender melhor a função de cada sinal</div>
+<div class='msg out' title='2017-11-05 02:37:14 -0200'>pra não ficar perdido</div>
+<div class='msg out' title='2017-11-05 02:37:30 -0200'>não adianta chutar. O importante é entender o que está acontecendo :-)</div>
+<div class='msg out' title='2017-11-05 02:37:41 -0200'>Vou dormir. Amanhã eu devo continuar nessa pesquisa</div>
+<div class='msg out' title='2017-11-05 02:38:10 -0200'>em última instância, dá pra ir lá na USP com um multímetro e verificar quais são as interligações que foram feitas entre os chips</div>
+<div class='msg out' title='2017-11-05 02:38:24 -0200'>boa noite!</div>
+<div class='msg in' title='2017-11-05 02:39:09 -0200'><div class="author">Werner Eck:</div> boa noite!</div>
   	<div class='navigation-bottom'><a href="index.html">Back to index</a> | <a href='Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos-0.html'>Previous</a> | Page 2 | </div>
   </body>
 </html>

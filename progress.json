@@ -1,10 +1,10 @@
 {
   "dumper": "json",
-  "last_modified": "2017-11-04T19:34:37+00:00",
+  "last_modified": "2017-11-05T04:41:35+00:00",
   "dialogs": {
     "186910336": {
-      "newest_id": "020000008006240b01a80400000000000000000000000000",
-      "newest_date": 1509743484,
+      "newest_id": "020000008006240b0dab0400000000000000000000000000",
+      "newest_date": 1509856749,
       "dumper_state": {
         "outfile": "json/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos.jsonl"
       }
@@ -45,8 +45,8 @@
       }
     },
     "1050919227": {
-      "newest_id": "050000003bc1a33ed2c20000000000006e6ae5ba90ca32fa",
-      "newest_date": 1509824015,
+      "newest_id": "050000003bc1a33edec20000000000006e6ae5ba90ca32fa",
+      "newest_date": 1509850496,
       "dumper_state": {
         "outfile": "json/Garoa_Hacker_Clube_(Público).jsonl"
       }
