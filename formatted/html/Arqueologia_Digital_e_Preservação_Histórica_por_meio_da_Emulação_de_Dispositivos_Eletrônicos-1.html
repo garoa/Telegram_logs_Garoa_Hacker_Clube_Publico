@@ -670,6 +670,339 @@ Mauricio Linhare</div></div>
 <div class='msg out' title='2017-11-05 03:45:02 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804724025_59408.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804724025_59408.jpg'></a><br></div>
 <div class='msg out' title='2017-11-05 03:52:11 -0200'><a target='_blank' href='https://github.com/mamedev/mame/pull/2776'>https://github.com/mamedev/mame/pull/2776</a><div class="webpage"><b>new non-working driver: Scopus Sagitta 150/180 serial terminal by felipesanches · Pull Request #2776 · mamedev/mame</b><br><br>mame - MAME</div></div>
 <div class='msg out' title='2017-11-05 03:52:23 -0200'>Agora sim! Agora posso ir dormir :-)</div>
+<div class='msg out' title='2017-11-05 10:40:46 -0200'><a target='_blank' href='http://www.linusakesson.net/programming/tty/'>http://www.linusakesson.net/programming/tty/</a></div>
+<div class='msg in' title='2017-11-05 11:47:35 -0200'><div class="author">Werner Eck:</div> Eae maluco?!!</div>
+<div class='msg in' title='2017-11-05 11:47:43 -0200'><div class="author">Werner Eck:</div> Fala, o q era?</div>
+<div class='msg out' title='2017-11-05 11:53:41 -0200'>hehe</div>
+<div class='msg out' title='2017-11-05 11:53:49 -0200'>burocracias do MAME</div>
+<div class='msg in' title='2017-11-05 11:54:04 -0200'><div class="author">Werner Eck:</div> jura??</div>
+<div class='msg in' title='2017-11-05 11:54:12 -0200'><div class="author">Werner Eck:</div> to olhando lá o seu commit</div>
+<div class='msg out' title='2017-11-05 11:54:16 -0200'>tinha faltado eu implementar explicitamente o mecanismo de leitura de memória</div>
+<div class='msg-service' title='2017-11-05 11:54:27 -0200'><div class=inner>Sun 2017-11-05, 11:11</div></div>
+<div class='msg in' title='2017-11-05 11:54:27 -0200'><div class="author">Werner Eck:</div> putaqueospa</div>
+<div class='msg out' title='2017-11-05 11:54:34 -0200'>pra ser sincero... eu não entendi direito tudo ainda</div>
+<div class='msg in' title='2017-11-05 11:54:38 -0200'><div class="author">Werner Eck:</div> não era nada técnico no final das contas</div>
+<div class='msg out' title='2017-11-05 11:54:54 -0200'>mais ou menos...</div>
+<div class='msg in' title='2017-11-05 11:55:02 -0200'><div class="author">Werner Eck:</div> me fala, os endereços dos registradores de dma e do crtc estavam certos no fim?</div>
+<div class='msg out' title='2017-11-05 11:55:08 -0200'>sim</div>
+<div class='msg out' title='2017-11-05 11:55:23 -0200'>agora o próximo passo é fazer a serial funcionar</div>
+<div class='msg in' title='2017-11-05 11:55:44 -0200'><div class="author">Werner Eck:</div> tem q emular o uart</div>
+<div class='msg out' title='2017-11-05 11:55:47 -0200'>suspeito que o controlador de porta serial esteja mapeado no endereço 0x21</div>
+<div class='msg out' title='2017-11-05 11:56:02 -0200'>já instanciei o módulo de emulação de UART</div>
+<div class='msg in' title='2017-11-05 11:56:03 -0200'><div class="author">Werner Eck:</div> se já tiver ele no MAME, meio caminho andado...</div>
+<div class='msg out' title='2017-11-05 11:56:07 -0200'>falta configurar</div>
+<div class='msg out' title='2017-11-05 11:56:11 -0200'>sim, já tem</div>
+<div class='msg out' title='2017-11-05 11:56:16 -0200'>essas coisas são muito comuns</div>
+<div class='msg out' title='2017-11-05 11:56:31 -0200'>o MAME é extremamente modular e certamente algum outro driver já usou esses chips todos</div>
+<div class='msg in' title='2017-11-05 11:56:34 -0200'><div class="author">Werner Eck:</div> daí é pegar no ds pra saber como é a inicialização né? E comparar padrões na EPROM pra encontrar isso</div>
+<div class='msg out' title='2017-11-05 11:56:45 -0200'>é</div>
+<div class='msg out' title='2017-11-05 11:56:48 -0200'>é por aí</div>
+<div class='msg in' title='2017-11-05 11:57:04 -0200'><div class="author">Werner Eck:</div> vc já desconfia de onde tenha isso na EPROM?</div>
+<div class='msg in' title='2017-11-05 11:57:08 -0200'><div class="author">Werner Eck:</div> de tanto olhar</div>
+<div class='msg out' title='2017-11-05 11:57:51 -0200'>estou suspeitando desse código aqui:</div>
+<div class='msg out' title='2017-11-05 11:57:56 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804728373_38609.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804728373_38609.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 11:58:09 -0200'>portas 0x21 e 0x00</div>
+<div class='msg in' title='2017-11-05 11:59:04 -0200'><div class="author">Werner Eck:</div> parece ser bem semelhante ao dma... ele joga 3 valores na $21</div>
+<div class='msg in' title='2017-11-05 11:59:16 -0200'><div class="author">Werner Eck:</div> deve estar setando alguns modos</div>
+<div class='msg in' title='2017-11-05 11:59:39 -0200'><div class="author">Werner Eck:</div> é o q lembra, daquilo q vimos ontem. Qual o código do chip SPI?</div>
+<div class='msg in' title='2017-11-05 12:01:00 -0200'><div class="author">Werner Eck:</div> 8251?</div>
+<div class='msg in' title='2017-11-05 12:02:32 -0200'><div class="author">Werner Eck:</div> Isso aqui é interessante ter como referencia: <a target='_blank' href='https://en.wikichip.org/wiki/intel/mcs-80'>https://en.wikichip.org/wiki/intel/mcs-80</a><div class="webpage"><b>MCS-80  - Intel</b><br><br>The MCS-80 (Micro Computer Set-80) was a family of 8-bit microprocessor chipsets developed by Intel. Introduced on April, 1974, the MCS-80 featured the 8080 CPU, the forefather of all modern x86-based microprocessors.</div></div>
+<div class='msg in' title='2017-11-05 12:06:44 -0200'><div class="author">Werner Eck:</div> cara, ontem eu vi isso aqui, achei deveras interessante só q acabei não postando: <a target='_blank' href='https://www.ebay.com/itm/Cray-2-Memory-Board-w-Lucite-Certificate-1985-SuperComputer-Module/111930874500?_trkparms=aid%3D111001%26algo%3DREC.SEED%26ao%3D1%26asc%3D20160727114228%26meid%3Dd5e5bcf895b443499abcbe358a3a491e%26pid%3D100290%26rk%3D3%26rkt%3D4%26sd%3D202076573924&amp;_trksid=p2060778.c100290.m3507'>https://www.ebay.com/itm/Cray-2-Memory-Board-w-Lucite-Certificate-1985-SuperComputer-Module/111930874500?_trkparms=aid%3D111001%26algo%3DREC.SEED%26ao%3D1%26asc%3D20160727114228%26meid%3Dd5e5bcf895b443499abcbe358a3a491e%26pid%3D100290%26rk%3D3%26rkt%3D4%26sd%3D202076573924&amp;_trksid=p2060778.c100290.m3507</a><div class="webpage"><b>Cray-2 Memory Board w/ Lucite &amp; Certificate, ~1985 SuperComputer Module</b><br><br>Cray-2 Supercomputer Memory Board. Rare piece of history. Actually, a &quot;Bit&quot; of technology using SRAM Integrated Chips. Date: 1985 A.D. Serial numbers and date of signature on the Certificate of Authenticity. | eBay!</div></div>
+<div class='msg out' title='2017-11-05 12:21:31 -0200'><div class="author">Forwarded message from <span class="fwd-name">Fractal</span>:</div><br><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805513861_31392.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805513861_31392.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 12:21:31 -0200'><div class="author">Forwarded message from <span class="fwd-name">Fractal</span>:</div><br><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804728184_40283.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804728184_40283.jpg'></a><br></div>
+<div class='msg in' title='2017-11-05 12:27:15 -0200'><div class="author">Werner Eck:</div><br><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804723432_59464.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804723432_59464.jpg'></a><br></div>
+<div class='msg in' title='2017-11-05 12:28:13 -0200'><div class="author">Werner Eck:</div><br><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804725211_59181.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804725211_59181.jpg'></a><br></div>
+<div class='msg in' title='2017-11-05 12:29:24 -0200'><div class="author">Werner Eck:</div><br><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804728269_38935.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804728269_38935.jpg'></a><br></div>
+<div class='msg in' title='2017-11-05 12:30:40 -0200'><div class="author">Werner Eck:</div><br><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804728655_39173.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804728655_39173.jpg'></a><br></div>
+<div class='msg in' title='2017-11-05 13:03:30 -0200'><div class="author">Werner Eck:</div> Se o 8251 for mapeado em $21, então a primeira palavra seta o modo assíncrono: 0x7A=01 11 10 10: 1 stop bit; paridade: habilitada, par; compr. palavra: 7 bits; fator baud rate: 16x</div>
+<div class='msg in' title='2017-11-05 13:05:19 -0200'><div class="author">Werner Eck:</div> O q segue deve ser a instrução de comando seguida de dados. To lendo essa parte para entender</div>
+<div class='msg out' title='2017-11-05 13:06:22 -0200'>acho q é mapeado em 0x20 e 0x21</div>
+<div class='msg in' title='2017-11-05 13:07:57 -0200'><div class="author">Werner Eck:</div> dois endereços?</div>
+<div class='msg out' title='2017-11-05 13:08:04 -0200'>sim</div>
+<div class='msg out' title='2017-11-05 13:08:44 -0200'>um pra dados e outro pra comandos</div>
+<div class='msg out' title='2017-11-05 13:08:51 -0200'>é um setup comum de vários dispositivos</div>
+<div class='msg out' title='2017-11-05 13:09:01 -0200'>usar o bit de endereço zero para diferenciar entre duas portas</div>
+<div class='msg in' title='2017-11-05 13:09:23 -0200'><div class="author">Werner Eck:</div> isso é padrão do MAME?</div>
+<div class='msg out' title='2017-11-05 13:09:27 -0200'>não</div>
+<div class='msg out' title='2017-11-05 13:09:33 -0200'>isso é padrão de design de hardware</div>
+<div class='msg in' title='2017-11-05 13:09:53 -0200'><div class="author">Werner Eck:</div> q estranho... não me soa familiar isso\</div>
+<div class='msg in' title='2017-11-05 13:10:24 -0200'><div class="author">Werner Eck:</div> Se quero endereçar um periférico, uso um endereço, no qual ele está mapeado...</div>
+<div class='msg out' title='2017-11-05 13:10:49 -0200'>muitos periféricos usam multiplos endereços</div>
+<div class='msg out' title='2017-11-05 13:10:52 -0200'>é comum isso</div>
+<div class='msg-service' title='2017-11-05 13:11:28 -0200'><div class=inner>Sun 2017-11-05, 13:01</div></div>
+<div class='msg in' title='2017-11-05 13:11:28 -0200'><div class="author">Werner Eck:</div> bom. vc acha q faz algum sentido o q eu falei aí atrás?</div>
+<div class='msg out' title='2017-11-05 13:12:00 -0200'>acho que faz um pouco</div>
+<div class='msg out' title='2017-11-05 13:12:08 -0200'>mas não acho que seja na porta 21</div>
+<div class='msg out' title='2017-11-05 13:12:21 -0200'>acho que ele está mapeando dados na 20 e comandos na 21</div>
+<div class='msg in' title='2017-11-05 13:13:08 -0200'><div class="author">Werner Eck:</div> é q eu estava baseando a minha análise nisso q vc falou</div>
+<div class='msg in' title='2017-11-05 13:13:32 -0200'><div class="author">Werner Eck:</div><br><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804723228_60349.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804723228_60349.jpg'></a><br></div>
+<div class='msg in' title='2017-11-05 13:13:59 -0200'><div class="author">Werner Eck:</div> só vejo ele escrever no $21 nesse snippet. E le alguma coisa do $00</div>
+<div class='msg out' title='2017-11-05 13:14:16 -0200'>talvez não haja escrita de dados nessa parte do programa, mas haja em outro trecho</div>
+<div class='msg in' title='2017-11-05 13:14:16 -0200'><div class="author">Werner Eck:</div> depois faz uns rotate right</div>
+<div class='msg in' title='2017-11-05 13:15:00 -0200'><div class="author">Werner Eck:</div> entendi</div>
+<div class='msg in' title='2017-11-05 13:15:38 -0200'><div class="author">Werner Eck:</div> bom, vou deixar pra qdo vc chegar nessa parte. Aí vc já tem condição de ver os mnemônicos./</div>
+<div class='msg out' title='2017-11-05 13:15:44 -0200'>putz! acho que esse 0x00 pode ser o dipswitch !</div>
+<div class='msg in' title='2017-11-05 13:15:49 -0200'><div class="author">Werner Eck:</div> ummm.</div>
+<div class='msg in' title='2017-11-05 13:16:09 -0200'><div class="author">Werner Eck:</div> teria q ter os dispositivos mapeados</div>
+<div class='msg in' title='2017-11-05 13:16:23 -0200'><div class="author">Werner Eck:</div> pra saber em qual endereço de memória está cada um deles</div>
+<div class='msg in' title='2017-11-05 13:17:36 -0200'><div class="author">Werner Eck:</div> ele le o $00 e depois faz um AND com o q tem no acc</div>
+<div class='msg in' title='2017-11-05 13:18:42 -0200'><div class="author">Werner Eck:</div> minto; ele lê o $00 e depois faz um and com o q tiver no $03 e o acc</div>
+<div class='msg in' title='2017-11-05 13:24:58 -0200'><div class="author">Werner Eck:</div> na prática, entendo q ele joga o q tem no $00 no acc, depois faz um AND com esse valor e $03</div>
+<div class='msg out' title='2017-11-05 13:27:33 -0200'>isso</div>
+<div class='msg out' title='2017-11-05 13:27:54 -0200'>ele tá tomando decisão em função dos 2 bits menos significativos lidos da porta 0x00</div>
+<div class='msg in' title='2017-11-05 13:27:58 -0200'><div class="author">Werner Eck:</div> beleza; só falta entender o contexto disso</div>
+<div class='msg out' title='2017-11-05 13:28:13 -0200'>que eu acho que é de onde ele lê a configuração dos dipswiches</div>
+<div class='msg in' title='2017-11-05 13:31:52 -0200'><div class="author">Werner Eck:</div> pode ser sim. Um jeito comum de se deixar a parte de configuração (stop bit, paridade, palavra, etc) da interface configurável pelo usuário</div>
+<div class='msg in' title='2017-11-05 13:32:02 -0200'><div class="author">Werner Eck:</div> se é q isso é a parte do 8251</div>
+<div class='msg in' title='2017-11-05 13:32:11 -0200'><div class="author">Werner Eck:</div> não temos certeza ainda</div>
+<div class='msg in' title='2017-11-05 13:32:28 -0200'><div class="author">Werner Eck:</div> pode ser outra coisa</div>
+<div class='msg out' title='2017-11-05 13:45:14 -0200'>aqueles 2 bits lidos do endereço 0x00 definem qual valor é escrito na porta 0x21</div>
+<div class='msg out' title='2017-11-05 13:45:19 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805514943_32308.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805514943_32308.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 13:45:48 -0200'>0x7A, 0x4E ou 0x5A</div>
+<div class='msg in' title='2017-11-05 13:46:15 -0200'><div class="author">Werner Eck:</div> ummmm... tá fazendo mais sentido hein??</div>
+<div class='msg out' title='2017-11-05 13:46:21 -0200'>supondo que a porta 0x20 é para dados e a 0x21 é para comandos, acho que a gente pode tentar interpretar esses 3 valores conforme o datasheet descreve a estrutura dos comandos</div>
+<div class='msg in' title='2017-11-05 13:46:31 -0200'><div class="author">Werner Eck:</div> o modo</div>
+<div class='msg out' title='2017-11-05 13:46:32 -0200'>pra ver quais são as opções</div>
+<div class='msg out' title='2017-11-05 13:46:40 -0200'>e se fizer sentido, a gente documenta já no driver</div>
+<div class='msg in' title='2017-11-05 13:46:53 -0200'><div class="author">Werner Eck:</div> pode ser sincrono ou assincrono. E o terceiro byte pode ser o comando</div>
+<div class='msg in' title='2017-11-05 13:47:36 -0200'><div class="author">Werner Eck:</div> perae q eu preciso forrar o estomago. Senao caio duro aqui</div>
+<div class='msg out' title='2017-11-05 13:47:53 -0200'>olha só como se faz pra implementar um dip switch no MAME:</div>
+<div class='msg out' title='2017-11-05 13:48:01 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805514962_32110.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805514962_32110.jpg'></a><br></div>
+<div class='msg in' title='2017-11-05 13:49:38 -0200'><div class="author">Werner Eck:</div> ummm</div>
+<div class='msg in' title='2017-11-05 13:49:46 -0200'><div class="author">Werner Eck:</div> isso vc tirou de um driver já implementado?</div>
+<div class='msg in' title='2017-11-05 13:50:00 -0200'><div class="author">Werner Eck:</div> ou vc escreveu isso agora?</div>
+<div class='msg in' title='2017-11-05 13:51:25 -0200'><div class="author">Werner Eck:</div> 🍛</div>
+<div class='msg in' title='2017-11-05 14:42:43 -0200'><div class="author">Werner Eck:</div> Eu suponho q o q tem nas linhas 0x3A/0x3E/0x42 não está sendo executado antes da instrução da linha 0x46?</div>
+<div class='msg in' title='2017-11-05 14:43:12 -0200'><div class="author">Werner Eck:</div> talvez esse bloco q vc me passou seja parte de um desvio condicional?</div>
+<div class='msg in' title='2017-11-05 14:43:44 -0200'><div class="author">Werner Eck:</div> a lógica estando mais concentrada nas linhas 0x57 e 0x5c?</div>
+<div class='msg in' title='2017-11-05 14:43:52 -0200'><div class="author">Werner Eck:</div> (q eu não tenho)</div>
+<div class='msg out' title='2017-11-05 16:34:50 -0200'>segue então uma imagem mais completa do código pra dar mais contexto:</div>
+<div class='msg out' title='2017-11-05 16:34:59 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804727803_40690.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804727803_40690.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 16:35:36 -0200'>Esse código aí eu escrevi com base nas observações e conclusões que descrevi ontem/hoje aqui</div>
+<div class='msg out' title='2017-11-05 16:36:12 -0200'>É claro que o tempo todo eu olho pra código de outros drivers para aprender como se faz e para escrever de forma similar.</div>
+<div class='msg-service' title='2017-11-05 16:38:20 -0200'><div class=inner>Sun 2017-11-05, 16:04</div></div>
+<div class='msg in' title='2017-11-05 16:38:20 -0200'><div class="author">Werner Eck:</div> poutz... desculpa parecer chato, mas esse ps aí é ilegível... 😔</div>
+<div class='msg out' title='2017-11-05 16:38:42 -0200'>clica na imagem pra ver maior</div>
+<div class='msg in' title='2017-11-05 16:38:48 -0200'><div class="author">Werner Eck:</div> então....</div>
+<div class='msg in' title='2017-11-05 16:39:19 -0200'><div class="author">Werner Eck:</div> eu até abri numa janela do browser, mas fica minúsculo mesmo assim. Dando zoom fica pixelado</div>
+<div class='msg out' title='2017-11-05 16:39:34 -0200'>eita!</div>
+<div class='msg out' title='2017-11-05 16:40:51 -0200'>vamos focar mais então:</div>
+<div class='msg out' title='2017-11-05 16:40:56 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805514418_32427.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805514418_32427.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 16:41:55 -0200'>são 5 operações de escrita na porta $21</div>
+<div class='msg out' title='2017-11-05 16:42:41 -0200'>os bytes são escritos nessa sequencia: 7A, 37, 40, X, 37</div>
+<div class='msg out' title='2017-11-05 16:43:32 -0200'>onde X é um de 3 valores possíveis (escolhidos em função dos bits lidos da porta $00 - dispwitch?): 7a, 4e ou 5a</div>
+<div class='msg out' title='2017-11-05 16:44:27 -0200'>vou agora olhar pro datasheet do chip de UART pra ver o que esses comandos significam</div>
+<div class='msg out' title='2017-11-05 16:45:09 -0200'><a target='_blank' href='http://pdf.datasheetcatalog.com/datasheet/Intel/mXtyswx.pdf'>http://pdf.datasheetcatalog.com/datasheet/Intel/mXtyswx.pdf</a><div class="webpage"><b>8251A Datasheet pdf - PROGRAMMABLE COMMUNICATION INTERFACE - Intel</b><br><br>8251A datasheet, 8251A pdf, 8251A data sheet, datasheet, data sheet, pdf, Intel, PROGRAMMABLE COMMUNICATION INTERFACE</div></div>
+<div class='msg in' title='2017-11-05 16:45:53 -0200'><div class="author">Werner Eck:</div> ah, então o 7A/37/40 são escritos sequencialmente na porta, só os 7a/4e/5a é q são selecionáveis nas dips?</div>
+<div class='msg out' title='2017-11-05 16:46:32 -0200'>isso!</div>
+<div class='msg in' title='2017-11-05 16:46:36 -0200'><div class="author">Werner Eck:</div> na verdade, só os dois últimos...</div>
+<div class='msg in' title='2017-11-05 16:46:43 -0200'><div class="author">Werner Eck:</div> perceba como o 7a se repete</div>
+<div class='msg in' title='2017-11-05 16:46:45 -0200'><div class="author">Werner Eck:</div> é o modo</div>
+<div class='msg in' title='2017-11-05 16:46:49 -0200'><div class="author">Werner Eck:</div> tenho certeza disso...</div>
+<div class='msg in' title='2017-11-05 16:46:58 -0200'><div class="author">Werner Eck:</div> o 7a é sempre escrito</div>
+<div class='msg out' title='2017-11-05 16:47:10 -0200'>o primeiro byte é 74</div>
+<div class='msg in' title='2017-11-05 16:47:26 -0200'><div class="author">Werner Eck:</div> onde vc viu isso?</div>
+<div class='msg out' title='2017-11-05 16:47:31 -0200'>ah nao</div>
+<div class='msg out' title='2017-11-05 16:47:34 -0200'>é 7a mesmo</div>
+<div class='msg out' title='2017-11-05 16:47:36 -0200'>mal...</div>
+<div class='msg in' title='2017-11-05 16:47:40 -0200'><div class="author">Werner Eck:</div> então...</div>
+<div class='msg out' title='2017-11-05 16:48:43 -0200'>então... reiterando: os bytes são escritos nessa sequencia: 7A, 37, 40, X, 37 (com X = 7a, 4e ou 5a)</div>
+<div class='msg in' title='2017-11-05 16:51:17 -0200'><div class="author">Werner Eck:</div> mas eu não vejo nenhuma instrução de branch direcionando para a linha 0x52.</div>
+<div class='msg in' title='2017-11-05 16:51:54 -0200'><div class="author">Werner Eck:</div> só para as linhas 0x57 e 0x5c</div>
+<div class='msg in' title='2017-11-05 16:52:07 -0200'><div class="author">Werner Eck:</div> caso ele não faça jump para essas linhas, ele executa a 52</div>
+<div class='msg in' title='2017-11-05 16:52:10 -0200'><div class="author">Werner Eck:</div> correto?</div>
+<div class='msg in' title='2017-11-05 16:52:45 -0200'><div class="author">Werner Eck:</div> aaah</div>
+<div class='msg in' title='2017-11-05 16:52:48 -0200'><div class="author">Werner Eck:</div> aaaaaaaah</div>
+<div class='msg in' title='2017-11-05 16:53:12 -0200'><div class="author">Werner Eck:</div> é isso. Ele le as dips, se der algum setting lá ele executa o branch correspondente</div>
+<div class='msg in' title='2017-11-05 16:53:30 -0200'><div class="author">Werner Eck:</div> se não der nada (0x00) então ele faz 0x7A e sai fora</div>
+<div class='msg in' title='2017-11-05 16:54:31 -0200'><div class="author">Werner Eck:</div> e aí escreve 0x37 e na sequencia, lê da porta 0x50 - isso independente do q ele decidiu escrever anteriormente.</div>
+<div class='msg out' title='2017-11-05 16:55:17 -0200'>exato</div>
+<div class='msg out' title='2017-11-05 16:55:23 -0200'>a ultima escrita acontece em todos os casos</div>
+<div class='msg out' title='2017-11-05 16:55:30 -0200'>por que todas as condições pulam pra lá</div>
+<div class='msg out' title='2017-11-05 16:55:41 -0200'>então apenas o quarto byte é condicional</div>
+<div class='msg in' title='2017-11-05 16:56:04 -0200'><div class="author">Werner Eck:</div> e vc já decodificou os parametros q ele seta nos valores 4e e 5a?</div>
+<div class='msg out' title='2017-11-05 16:56:26 -0200'>ainda não</div>
+<div class='msg out' title='2017-11-05 16:56:32 -0200'>estou vendo isso agora.</div>
+<div class='msg out' title='2017-11-05 16:56:39 -0200'>isso aqui é importante:</div>
+<div class='msg out' title='2017-11-05 16:56:44 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804726686_38622.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804726686_38622.jpg'></a><br></div>
+<div class='msg in' title='2017-11-05 16:57:24 -0200'><div class="author">Werner Eck:</div> isso q eu tinha postado</div>
+<div class='msg out' title='2017-11-05 16:57:44 -0200'>ou seja, o primeiro byte, $7A, é com certeza uma &quot;mode instruction&quot;</div>
+<div class='msg out' title='2017-11-05 16:58:22 -0200'>o outro 7A talvez seja uma &quot;command instruction&quot; e aí pode ter uma interpretação diferente, apesar de ser o mesmo valor numérico</div>
+<div class='msg in' title='2017-11-05 16:58:23 -0200'><div class="author">Werner Eck:</div> 7A seria isso</div>
+<div class='msg in' title='2017-11-05 16:58:38 -0200'><div class="author">Werner Eck:</div> não 74...</div>
+<div class='msg in' title='2017-11-05 16:58:52 -0200'><div class="author">Werner Eck:</div> figuras 8 e 10</div>
+<div class='msg-service' title='2017-11-05 16:59:19 -0200'><div class=inner>Sun 2017-11-05, 16:04</div></div>
+<div class='msg out' title='2017-11-05 16:59:19 -0200'>meu cérebro dá nó nesses números... editei as mensagens anteriores para ficarem com o número certo</div>
+<div class='msg out' title='2017-11-05 16:59:32 -0200'>sim, vc tem razão é 7A</div>
+<div class='msg in' title='2017-11-05 16:59:39 -0200'><div class="author">Werner Eck:</div> o q vc disse vai de encontro ao q eu falei tbm</div>
+<div class='msg in' title='2017-11-05 17:00:01 -0200'><div class="author">Werner Eck:</div> e tá bem aí nessa seção q vc está lendo, uma ou duas páginas adiante</div>
+<div class='msg in' title='2017-11-05 17:00:19 -0200'><div class="author">Werner Eck:</div> os detalhes de cada bit dependendo de como vc quer setar o modo</div>
+<div class='msg out' title='2017-11-05 17:00:50 -0200'>perfeito</div>
+<div class='msg out' title='2017-11-05 17:00:57 -0200'>acho que sua análise está perfeita</div>
+<div class='msg in' title='2017-11-05 17:01:46 -0200'><div class="author">Werner Eck:</div> eu to devagar, pegando novamente o jeito</div>
+<div class='msg in' title='2017-11-05 17:02:01 -0200'><div class="author">Werner Eck:</div> nunca escrevi assembler do mcs-80</div>
+<div class='msg out' title='2017-11-05 17:02:08 -0200'>(eu tirei umas duas horas de cochilo durante a tarde hoje e já não lembrava mais de nada :-D)</div>
+<div class='msg in' title='2017-11-05 17:02:09 -0200'><div class="author">Werner Eck:</div> mas escrevi do z-80</div>
+<div class='msg in' title='2017-11-05 17:02:25 -0200'><div class="author">Werner Eck:</div> e isso já faz 23 anos... rs</div>
+<div class='msg out' title='2017-11-05 17:02:50 -0200'>(não lembrava mais dos comentários que você tinha feito mais cedo hoje à uma da tarde)</div>
+<div class='msg in' title='2017-11-05 17:03:02 -0200'><div class="author">Werner Eck:</div> não esquenta Juca</div>
+<div class='msg in' title='2017-11-05 17:03:08 -0200'><div class="author">Werner Eck:</div> Tamo junto nesse projeto</div>
+<div class='msg out' title='2017-11-05 17:03:13 -0200'>claro</div>
+<div class='msg in' title='2017-11-05 17:03:20 -0200'><div class="author">Werner Eck:</div> (na medida em q eu ajudar mais e atrapalhar menos)</div>
+<div class='msg out' title='2017-11-05 17:03:27 -0200'>é que eu vi que eu to explicando o que você já explicou hahahahah</div>
+<div class='msg in' title='2017-11-05 17:03:47 -0200'><div class="author">Werner Eck:</div> 😆</div>
+<div class='msg out' title='2017-11-05 17:05:48 -0200'>sabe aquele lance que eu te falei sobre tipicamente ser usado o bit A0 do barramento de endereços para chavear entre duas portas  de I/O dos periféricos ? Por exemplo portas 0x20 para dados e 0x21 para comandos</div>
+<div class='msg out' title='2017-11-05 17:06:50 -0200'>Na prática é implementado usando esse sinal C ou /D:</div>
+<div class='msg out' title='2017-11-05 17:07:01 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804726161_38565.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804726161_38565.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 17:07:44 -0200'>o sinal A0 da CPU é ligado a esse seletor Control/Data</div>
+<div class='msg out' title='2017-11-05 17:08:18 -0200'>Vou sair agora e volto daqui 1 hora. Té mais</div>
+<div class='msg out' title='2017-11-05 17:10:24 -0200'>mas fica uma observação:</div>
+<div class='msg out' title='2017-11-05 17:10:42 -0200'>acho que só deve ter sobrado a porta de I/O 0x50 sendo manipulada pelo firmware</div>
+<div class='msg out' title='2017-11-05 17:10:44 -0200'>e não sei ainda o que ela é</div>
+<div class='msg out' title='2017-11-05 17:12:03 -0200'>então suspeito que possa ser relacionada à leitura do teclado talvez. Alguém tem que fazer isso em algum momento. Só não sei se é tão cedo no setup ou se ós vai ser feita a varredura do teclado mais pra frente</div>
+<div class='msg out' title='2017-11-05 17:12:13 -0200'>té mais</div>
+<div class='msg in' title='2017-11-05 17:13:07 -0200'><div class="author">Werner Eck:</div> 👍</div>
+<div class='msg in' title='2017-11-05 17:17:01 -0200'><div class="author">Werner Eck:</div> Eu imagino q o teclado seja constantemente lido</div>
+<div class='msg in' title='2017-11-05 17:18:15 -0200'><div class="author">Werner Eck:</div> Daí, se ele estiver mapeado no &amp;0x50, provavelmente ele deve aparecer em algum momento dentro de um loop.</div>
+<div class='msg out' title='2017-11-05 18:07:54 -0200'>pode ser lido em rotina de interrupção também</div>
+<div class='msg in' title='2017-11-05 18:08:13 -0200'><div class="author">Werner Eck:</div> ISR, sim...</div>
+<div class='msg in' title='2017-11-05 18:08:18 -0200'><div class="author">Werner Eck:</div> bem lembrado</div>
+<div class='msg in' title='2017-11-05 18:08:47 -0200'><div class="author">Werner Eck:</div> daí é só ver nos endereços específicos q o processador olha...</div>
+<div class='msg out' title='2017-11-05 18:27:58 -0200'>eu mapeei o chip I8251 nas portas 0x20 e 0x21 e declarei que o hardware possui uma porta serial e que os sinais da porta estão ligados ao chip 8251:</div>
+<div class='msg out' title='2017-11-05 18:28:07 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804728221_38603.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804728221_38603.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 18:29:59 -0200'>E aquela linha MCFG_RS232_PORT_ADD(&quot;rs232&quot;, default_rs232_devices, nullptr) significa que é uma porta onde os dispositivos seriais típicos podem ser ligados ( default_rs232_devices é uma lista de periféricos seriais) e que por padrão o driver é inicializado sem nenhum periférico conectado nesa porta (por isso o nullptr ali)</div>
+<div class='msg out' title='2017-11-05 18:33:01 -0200'>com isso, aparece no menu interno da interface do MAME uma opção para configurar a porta serial:</div>
+<div class='msg out' title='2017-11-05 18:33:13 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804730747_39073.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804730747_39073.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 18:33:27 -0200'>No submetu &quot;Slot Devices&quot; tem rs232</div>
+<div class='msg out' title='2017-11-05 18:33:37 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804730289_38251.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804730289_38251.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 18:34:05 -0200'>e veja que está inicialmente sem nenhum periférico instalado na porta</div>
+<div class='msg out' title='2017-11-05 18:35:02 -0200'>mas posso selecionar algumas opções como &quot;printer&quot;, &quot;null_modem&quot;, &quot;pty&quot;, &quot;keyboard&quot;, &quot;loopback&quot;, &quot;terminal&quot;</div>
+<div class='msg in' title='2017-11-05 18:35:20 -0200'><div class="author">Werner Eck:</div> Seria como dizer, o terminal seria inicializado por padrão sem nenhum periférico plugado na interface serial</div>
+<div class='msg out' title='2017-11-05 18:35:51 -0200'>dessas, a opãço &quot;pty&quot; é interessante pois supostamente permitiria criar um par mestre/escravo de pseudo terminais do unix</div>
+<div class='msg in' title='2017-11-05 18:35:58 -0200'><div class="author">Werner Eck:</div> E vc seleciona um periférico pelo MAME</div>
+<div class='msg out' title='2017-11-05 18:36:39 -0200'>e com isso talvez seja possível eu configurar meu sistema hospedeito (GNU+Linux) para abrir uma sessão de login no terminal emulado e forma similar ao que acontece com programas emuladores de terminal vt-100 como o xterm ou o gnome-terminal</div>
+<div class='msg in' title='2017-11-05 18:36:42 -0200'><div class="author">Werner Eck:</div> Existe dentro dessas opções, alguma q permita mapear a própria serial do host rodando MAME como periférico virtual?</div>
+<div class='msg-service' title='2017-11-05 18:37:10 -0200'><div class=inner>Sun 2017-11-05, 18:06</div></div>
+<div class='msg in' title='2017-11-05 18:37:10 -0200'><div class="author">Werner Eck:</div> daí permitindo conectar um dispositivo real via serial ao emulador?</div>
+<div class='msg out' title='2017-11-05 18:37:33 -0200'>hmmm... isso seria interessante também</div>
+<div class='msg out' title='2017-11-05 18:38:28 -0200'>mas o que eu tenho em mente é fazer tudo virtual: processos do meu GNU+Linux vinculados a um pseudo-terminal criado pelo MAME com a interface rs232 emulada do terminal da scopus</div>
+<div class='msg in' title='2017-11-05 18:39:05 -0200'><div class="author">Werner Eck:</div> E essa nossa implementação da rs232 está pronta?</div>
+<div class='msg in' title='2017-11-05 18:39:24 -0200'><div class="author">Werner Eck:</div> digo, no terminal Sagitta</div>
+<div class='msg out' title='2017-11-05 18:40:16 -0200'>eu não sei como se configura um pseudo-terminal para abrir uma sessão de login no GNU+Linux, etão esse caminho via pty eu vou deixar pra investigar depois.</div>
+<div class='msg out' title='2017-11-05 18:40:21 -0200'>antes disso, testei outra coisa:</div>
+<div class='msg out' title='2017-11-05 18:40:35 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804721868_82715.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804721868_82715.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 18:41:04 -0200'>essa opção instancia um terminal serial genérico e liga ele na porta do sagitta emulado</div>
+<div class='msg in' title='2017-11-05 18:41:19 -0200'><div class="author">Werner Eck:</div> e na outra ponta o q vc obtém?</div>
+<div class='msg out' title='2017-11-05 18:41:25 -0200'>ao resetar, aparece isso aqui:</div>
+<div class='msg out' title='2017-11-05 18:42:20 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804726007_39842.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804726007_39842.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 18:42:41 -0200'>veja que a metade da janela do lado esquerdo é a tela de um terminal genérico</div>
+<div class='msg out' title='2017-11-05 18:42:53 -0200'>e o lado direito é a tela do sagitta emulado</div>
+<div class='msg in' title='2017-11-05 18:42:54 -0200'><div class="author">Werner Eck:</div> ah ta.</div>
+<div class='msg in' title='2017-11-05 18:42:58 -0200'><div class="author">Werner Eck:</div> certo</div>
+<div class='msg out' title='2017-11-05 18:43:21 -0200'>aí supostamente eu poderia digitar em um e ver os caracteres aparecendo no outro</div>
+<div class='msg in' title='2017-11-05 18:43:22 -0200'><div class="author">Werner Eck:</div> (tá borrado, mas dá pra ver esquerda vs direita)</div>
+<div class='msg in' title='2017-11-05 18:43:33 -0200'><div class="author">Werner Eck:</div> supostamente ou realmente? rss</div>
+<div class='msg out' title='2017-11-05 18:43:42 -0200'>quando eu digito não acontece nada</div>
+<div class='msg out' title='2017-11-05 18:43:59 -0200'>mas o MAME tem um submenu para configuração do terminal genérico</div>
+<div class='msg out' title='2017-11-05 18:44:02 -0200'>veja aqui:</div>
+<div class='msg in' title='2017-11-05 18:44:02 -0200'><div class="author">Werner Eck:</div> vc implementou as dips?</div>
+<div class='msg out' title='2017-11-05 18:44:24 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804725585_59269.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804725585_59269.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 18:44:51 -0200'>declarei os dipswitches com valor default 0 nos dois bits</div>
+<div class='msg in' title='2017-11-05 18:44:53 -0200'><div class="author">Werner Eck:</div> cara eu acho q tem q ser 7 data bits, parity enabled, 1bit</div>
+<div class='msg in' title='2017-11-05 18:45:07 -0200'><div class="author">Werner Eck:</div> por causa daquele byte 0x7a</div>
+<div class='msg in' title='2017-11-05 18:45:23 -0200'><div class="author">Werner Eck:</div> suponho q ele esteja default nisso</div>
+<div class='msg out' title='2017-11-05 18:45:28 -0200'>então eu liguei o Local echo e pelo menos o terminal genérico mostra o que eu to digitando nele</div>
+<div class='msg out' title='2017-11-05 18:46:18 -0200'>e agora preciso fazer isso que você tá falando mesmo: configurar o terminal genérico com os mesmos ajustes do terminal sagitta emulado pra ver se a emulação está funcionando</div>
+<div class='msg in' title='2017-11-05 18:46:31 -0200'><div class="author">Werner Eck:</div> quanto à taxa de transmissão, estou incerto, pois no DS do chip ele explica q fica setado em &quot;16x&quot;</div>
+<div class='msg in' title='2017-11-05 18:46:38 -0200'><div class="author">Werner Eck:</div> vai lá</div>
+<div class='msg in' title='2017-11-05 18:48:14 -0200'><div class="author">Werner Eck:</div> vc provavelmente tbm terá q experimentar com diversos baud rates diferentes.</div>
+<div class='msg in' title='2017-11-05 18:48:32 -0200'><div class="author">Werner Eck:</div> eu começaria pelo mais baixo... afinal, eram os anos 70.</div>
+<div class='msg out' title='2017-11-05 18:51:17 -0200'>eu acho que o caminho é interpretar todos os bytes de setup que o firmware escreve na porta 0x21 e assim ter a certeza de qual é o ajuste que o firmware faz, portanto restringindo a quantidade de chutes necessários. Teoricamente não deveria ser necessário chutar nada.</div>
+<div class='msg in' title='2017-11-05 18:52:09 -0200'><div class="author">Werner Eck:</div> vamos lá</div>
+<div class='msg in' title='2017-11-05 18:52:13 -0200'><div class="author">Werner Eck:</div> deixa eu ver aqui</div>
+<div class='msg out' title='2017-11-05 18:54:28 -0200'>os bytes são escritos nessa sequencia: 7A, 37, 40, X, 37 (com X = 7a, 4e ou 5a)</div>
+<div class='msg in' title='2017-11-05 18:55:29 -0200'><div class="author">Werner Eck:</div> isso</div>
+<div class='msg in' title='2017-11-05 18:56:03 -0200'><div class="author">Werner Eck:</div> acho q de cara o 37 é invalido para mode... começa escrevendo 2 zeros</div>
+<div class='msg in' title='2017-11-05 18:57:20 -0200'><div class="author">Werner Eck:</div> corrigindo, pode ser q esteja setando para modo sincrono</div>
+<div class='msg in' title='2017-11-05 18:57:24 -0200'><div class="author">Werner Eck:</div> deixa ler aqui</div>
+<div class='msg out' title='2017-11-05 18:57:34 -0200'>estou lendo também</div>
+<div class='msg out' title='2017-11-05 18:57:37 -0200'>volto daqui a pouco</div>
+<div class='msg out' title='2017-11-05 19:02:00 -0200'>Não é exatamente a técnica usada aqui, mas parece que algo similar está acontecendo:</div>
+<div class='msg out' title='2017-11-05 19:02:11 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805513598_31818.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805513598_31818.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 19:03:29 -0200'>então no nosso caso temos mode:7a command:37 seguido de comand:40(RESET) e mode:X command:37</div>
+<div class='msg in' title='2017-11-05 19:03:31 -0200'><div class="author">Werner Eck:</div> que parece ser o q o byte 0x40 faz</div>
+<div class='msg in' title='2017-11-05 19:03:35 -0200'><div class="author">Werner Eck:</div> hahaha</div>
+<div class='msg in' title='2017-11-05 19:03:42 -0200'><div class="author">Werner Eck:</div> para de ler pensamento cara</div>
+<div class='msg-service' title='2017-11-05 19:03:48 -0200'><div class=inner>Sun 2017-11-05, 19:07</div></div>
+<div class='msg out' title='2017-11-05 19:03:48 -0200'>hehe</div>
+<div class='msg in' title='2017-11-05 19:03:56 -0200'><div class="author">Werner Eck:</div> eu acabei de decodificar ele</div>
+<div class='msg in' title='2017-11-05 19:04:28 -0200'><div class="author">Werner Eck:</div> concordo q 37 deve ser command</div>
+<div class='msg out' title='2017-11-05 19:05:39 -0200'>então vejamos quais informações de paridade, stop bits, start bits, baud-rate, etc que conseguimos extrair do mode:7a (e dos outros modes possíveis: 4e ou 5a)</div>
+<div class='msg out' title='2017-11-05 19:05:54 -0200'>e depois vejamos o que o command:37 faz</div>
+<div class='msg in' title='2017-11-05 19:06:28 -0200'><div class="author">Werner Eck:</div> 0x7A=01 11 10 10: (modo assíncrono) 1 stop bit; paridade: habilitada, par; compr. palavra: 7 bits; fator baud rate: 16x</div>
+<div class='msg in' title='2017-11-05 19:06:46 -0200'><div class="author">Werner Eck:</div> modo 0x4e me parece ser assincrono tbm...</div>
+<div class='msg in' title='2017-11-05 19:06:50 -0200'><div class="author">Werner Eck:</div> estou lendo agora</div>
+<div class='msg in' title='2017-11-05 19:09:14 -0200'><div class="author">Werner Eck:</div> 0x4E=01 00 11 10: (modo assíncrono) 1 stop bit; paridade: desabilitada, ímpar; compr. palavra: 8 bits; fator baud rate: 16x</div>
+<div class='msg in' title='2017-11-05 19:11:42 -0200'><div class="author">Werner Eck:</div> 0x5A=01 01 10 10: (modo assíncrono) 1 stop bit; paridade: habilitada, ímpar; compr. palavra: 7 bits; fator baud rate: 16x</div>
+<div class='msg in' title='2017-11-05 19:12:12 -0200'><div class="author">Werner Eck:</div> são singelas diferenças no comprimento da palavra e paridade</div>
+<div class='msg in' title='2017-11-05 19:12:29 -0200'><div class="author">Werner Eck:</div> mas é certo q está setando o USART em modo assíncrono sempre</div>
+<div class='msg in' title='2017-11-05 19:12:53 -0200'><div class="author">Werner Eck:</div> agora os command word</div>
+<div class='msg in' title='2017-11-05 19:17:12 -0200'><div class="author">Werner Eck:</div> 0x37=00 11 01 11: (command instruction): X (irrelevante - chip em assíncrono e modo command); RTS=0, PE=OE=FE=reset; normal operation (TxD=high), receive enable=1; DTR=0, transmit enable=1</div>
+<div class='msg in' title='2017-11-05 19:17:36 -0200'><div class="author">Werner Eck:</div> acho q é isso</div>
+<div class='msg in' title='2017-11-05 19:17:44 -0200'><div class="author">Werner Eck:</div> pizza chegou, tá servido?</div>
+<div class='msg out' title='2017-11-05 19:17:55 -0200'>hahaha, não obrigado</div>
+<div class='msg in' title='2017-11-05 19:18:08 -0200'><div class="author">Werner Eck:</div> 🍕</div>
+<div class='msg in' title='2017-11-05 19:18:37 -0200'><div class="author">Werner Eck:</div> domingo, nada melhor q pizza + cerveja e debugging de ROM</div>
+<div class='msg out' title='2017-11-05 19:19:00 -0200'>receive enable=1; junto com transmit enable=1 significa que ele está pronto a fazer ambos</div>
+<div class='msg in' title='2017-11-05 19:19:10 -0200'><div class="author">Werner Eck:</div> isso</div>
+<div class='msg out' title='2017-11-05 19:19:24 -0200'>não sei se o terminal vai fazer algo com os dados entranto</div>
+<div class='msg in' title='2017-11-05 19:19:44 -0200'><div class="author">Werner Eck:</div> o negócio agora é testar as combinações possíveis</div>
+<div class='msg out' title='2017-11-05 19:20:10 -0200'>talvez nesse momento inicial o operador precise fazer algo pra ativar o funcionamento (sair dessa tela de boot, esse splash screen com o nome do modelo no meio: &quot;Sagitta 150 versao 4.00&quot;)</div>
+<div class='msg in' title='2017-11-05 19:20:26 -0200'><div class="author">Werner Eck:</div> pode ser... tem o manual do usuário?</div>
+<div class='msg out' title='2017-11-05 19:20:31 -0200'>nope</div>
+<div class='msg in' title='2017-11-05 19:20:44 -0200'><div class="author">Werner Eck:</div> outra coisa, vc podia tentar forçar ele a carregar a ROM 0?</div>
+<div class='msg out' title='2017-11-05 19:20:45 -0200'>peraí... nunca procurei hahaha</div>
+<div class='msg in' title='2017-11-05 19:20:49 -0200'><div class="author">Werner Eck:</div> hahaha</div>
+<div class='msg in' title='2017-11-05 19:20:56 -0200'><div class="author">Werner Eck:</div> pizza, volto em instantes</div>
+<div class='msg in' title='2017-11-05 19:21:00 -0200'><div class="author">Werner Eck:</div> ou não.. rsss</div>
+<div class='msg in' title='2017-11-05 19:21:02 -0200'><div class="author">Werner Eck:</div> brincadeira</div>
+<div class='msg out' title='2017-11-05 19:45:12 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804724256_59165.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804724256_59165.jpg'></a><br></div>
+<div class='msg out' title='2017-11-05 19:46:58 -0200'>eu tive que adicionar ao driver uma fonte de sinal de clock para /TxC e /RxC</div>
+<div class='msg out' title='2017-11-05 19:47:09 -0200'>a frequencia que eu usei foi chutada (copiada de outro driver)</div>
+<div class='msg out' title='2017-11-05 19:47:34 -0200'>aí com isso eu configurei o terminal genérico com 1200 baud</div>
+<div class='msg out' title='2017-11-05 19:47:59 -0200'>e o terminal sagitta começou a responder aos caracteres enviados pelo terminal genérico</div>
+<div class='msg out' title='2017-11-05 19:52:04 -0200'>enviei um commit atualizando o código do driver aqui: <a target='_blank' href='https://github.com/mamedev/mame/pull/2776/files'>https://github.com/mamedev/mame/pull/2776/files</a><div class="webpage"><b>new non-working driver: Scopus Sagitta 150/180 serial terminal by felipesanches · Pull Request #2776 · mamedev/mame</b><br><br>mame - MAME</div></div>
+<div class='msg in' title='2017-11-05 20:00:00 -0200'><div class="author">Werner Eck:</div> CARAAAAAALHOOOOO!!!</div>
+<div class='msg in' title='2017-11-05 20:00:11 -0200'><div class="author">Werner Eck:</div> Tá funcionando o terminal!!!</div>
+<div class='msg out' title='2017-11-05 20:01:01 -0200'>:-)</div>
+<div class='msg in' title='2017-11-05 20:01:13 -0200'><div class="author">Werner Eck:</div> se conseguissemos emular uma porta serial mapeando pra um host ethernet, já pensou??</div>
+<div class='msg out' title='2017-11-05 20:01:34 -0200'>falta ainda emular o teclado do sagitta</div>
+<div class='msg out' title='2017-11-05 20:01:56 -0200'>que deve ser relacionado àquela porta 0x50</div>
+<div class='msg out' title='2017-11-05 20:02:25 -0200'>e, sim, seria muito legal ligar esse sagitta emulado em alguma coisa moderna</div>
+<div class='msg in' title='2017-11-05 20:02:37 -0200'><div class="author">Werner Eck:</div> vc disse q pegou um CI que estava conectado ao teclado do sagitta, não?</div>
+<div class='msg out' title='2017-11-05 20:02:54 -0200'>eu provavelmente vou depois tentar aprender como se faz o setup de sessão de login do GNU+Linux via pseudo-terminal</div>
+<div class='msg in' title='2017-11-05 20:03:04 -0200'><div class="author">Werner Eck:</div> verdade, fazer o sagitta mandar caracteres pra um terminal via ethernet</div>
+<div class='msg out' title='2017-11-05 20:03:36 -0200'>não... era a ROM do gerador de catacteres e o próprio CRTC que estavam escondidos debaixo do painel metálico do teclado</div>
+<div class='msg in' title='2017-11-05 20:03:45 -0200'><div class="author">Werner Eck:</div> por exemplo, uma maquina emulando um host ibm</div>
+<div class='msg-service' title='2017-11-05 20:03:56 -0200'><div class=inner>Sun 2017-11-05, 20:08</div></div>
+<div class='msg in' title='2017-11-05 20:03:56 -0200'><div class="author">Werner Eck:</div> ah tá</div>
+<div class='msg in' title='2017-11-05 20:04:03 -0200'><div class="author">Werner Eck:</div> e o circuito do teclado?</div>
+<div class='msg out' title='2017-11-05 20:04:07 -0200'>ah sim! O próprio MAME pode emular máquinas que trabalham com terminais seriais</div>
+<div class='msg out' title='2017-11-05 20:04:56 -0200'>eu não estudei o circuito do teclado lá na usp</div>
+<div class='msg in' title='2017-11-05 20:05:21 -0200'><div class="author">Werner Eck:</div> <a target='_blank' href='http://mainframewizard.com/content/free-mainframe-emulators'>http://mainframewizard.com/content/free-mainframe-emulators</a><div class="webpage"><b>Free mainframe emulators</b><br><br>This is a list of free mainframe emulators available in the market</div></div>
+<div class='msg out' title='2017-11-05 20:05:34 -0200'>e existe sim a possibilidade de ter algum circuito integrado adicional que eu não vi, por que uma parte da pcb ainda ficou encoberta por uma outra chapa metálica</div>
+<div class='msg in' title='2017-11-05 20:05:37 -0200'><div class="author">Werner Eck:</div> blz, isso fica pra próxima etapa</div>
+<div class='msg out' title='2017-11-05 20:05:53 -0200'>mas talvez dê pra inferir isso s&#39;por análise do firmware como fizemos até agora mesmo</div>
+<div class='msg out' title='2017-11-05 20:06:12 -0200'>agora eu vou sair (vou no cinema assistir o novo Blade Runner)</div>
+<div class='msg out' title='2017-11-05 20:06:17 -0200'>acho que por hoje é só</div>
+<div class='msg in' title='2017-11-05 20:06:48 -0200'><div class="author">Werner Eck:</div> por exemplo, esse: <a target='_blank' href='http://www.datasheetcatalog.com/datasheets_pdf/8/2/7/9/8279.shtml'>http://www.datasheetcatalog.com/datasheets_pdf/8/2/7/9/8279.shtml</a><div class="webpage"><b>8279 Datasheet pdf - PROGRAMMABLE KEYBOARD / DISPLAY INTERFACE - Intel</b><br><br>8279 datasheet, 8279 pdf, 8279 data sheet, datasheet, data sheet, pdf, Intel, PROGRAMMABLE KEYBOARD / DISPLAY INTERFACE</div></div>
+<div class='msg in' title='2017-11-05 20:07:00 -0200'><div class="author">Werner Eck:</div> ow esse filme deve ser mto bom</div>
+<div class='msg in' title='2017-11-05 20:07:11 -0200'><div class="author">Werner Eck:</div> blz - foi bom, rendeu bastante</div>
+<div class='msg in' title='2017-11-05 20:07:28 -0200'><div class="author">Werner Eck:</div> Não esperava ver o sagitta emulado tão rápido</div>
+<div class='msg out' title='2017-11-05 20:15:59 -0200'>:-)</div>
+<div class='msg out' title='2017-11-05 20:16:06 -0200'>té mais</div>
+<div class='msg out' title='2017-11-05 20:16:11 -0200'>e Happy Hacking !</div>
+<div class='msg in' title='2017-11-05 20:16:27 -0200'><div class="author">Werner Eck:</div> 😄👍</div>
   	<div class='navigation-bottom'><a href="index.html">Back to index</a> | <a href='Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos-0.html'>Previous</a> | Page 2 | </div>
   </body>
 </html>
