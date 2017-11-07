@@ -1003,6 +1003,345 @@ Mauricio Linhare</div></div>
 <div class='msg out' title='2017-11-05 20:16:06 -0200'>té mais</div>
 <div class='msg out' title='2017-11-05 20:16:11 -0200'>e Happy Hacking !</div>
 <div class='msg in' title='2017-11-05 20:16:27 -0200'><div class="author">Werner Eck:</div> 😄👍</div>
+<div class='msg out' title='2017-11-06 09:16:45 -0200'>documentei isso no driver. Olha aqui como faz: <a target='_blank' href='https://github.com/mamedev/mame/pull/2776/commits/cdcf2b2234efb7475f06a712fd9dd3c09fee1d0e'>https://github.com/mamedev/mame/pull/2776/commits/cdcf2b2234efb7475f06a712fd9dd3c09fee1d0e</a><div class="webpage"><b>new non-working driver: Scopus Sagitta 150/180 serial terminal by felipesanches · Pull Request #2776 · mamedev/mame</b><br><br>mame - MAME</div></div>
+<div class='msg out' title='2017-11-06 09:18:34 -0200'>Com isso, agora o menu de config de dipswitches fica bonitinho, mostrando as opções existentes:</div>
+<div class='msg out' title='2017-11-06 09:18:47 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804727599_39799.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804727599_39799.jpg'></a><br></div>
+<div class='msg out' title='2017-11-06 09:18:54 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804722963_66715.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804722963_66715.jpg'></a><br></div>
+<div class='msg out' title='2017-11-06 09:19:00 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804729997_39959.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804729997_39959.jpg'></a><br></div>
+<div class='msg out' title='2017-11-06 09:38:17 -0200'>E essa aqui é uma forma melhor ainda de se fazer, usando as macros PORT_DIPLOCATION e PORT_DIPUNKNOWN_DIPLOC:</div>
+<div class='msg out' title='2017-11-06 09:38:25 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804728147_39758.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804728147_39758.jpg'></a><br></div>
+<div class='msg out' title='2017-11-06 09:39:19 -0200'>o resultado dessa alteração é que agora o MAME desenha um diagrama mostrando qual a posição de cada chavinha (dipswitches):</div>
+<div class='msg out' title='2017-11-06 09:39:45 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804729279_41613.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804729279_41613.jpg'></a><br></div>
+<div class='msg out' title='2017-11-06 10:42:57 -0200'>Eu quero preparar um cabo DB-25 &lt;=&gt; FTDI-USB</div>
+<div class='msg out' title='2017-11-06 10:43:36 -0200'>E também um cabo para ligar esses 3 pinos aí na tomada</div>
+<div class='msg out' title='2017-11-06 10:43:59 -0200'>E levar lá na USP pra tentar ligar esse terminal</div>
+<div class='msg out' title='2017-11-06 10:44:16 -0200'>inicilamente ver se ele mostra Sagitta 180 na tela assim que liga</div>
+<div class='msg out' title='2017-11-06 10:45:08 -0200'>e depois conectar nele via minicom pra ver qual é o baudrate correto (sabendo o baudrate, dá pra inferir qual é a frequencia de sinal de clock usada de fato para o TxC e o RxC)</div>
+<div class='msg out' title='2017-11-06 10:46:55 -0200'>E depois configurar meu laptop pra abrir uma sessão de login via console serial editando meu /etc/inittab <a target='_blank' href='http://www.tldp.org/HOWTO/Text-Terminal-HOWTO-15.html'>http://www.tldp.org/HOWTO/Text-Terminal-HOWTO-15.html</a></div>
+<div class='msg in' title='2017-11-06 10:52:12 -0200'><div class="author">Werner Eck:</div> Cara, ficou tão legal isso. Sugestão pra deixar os textos das dips com a mesma aparência, troque a string &quot;parity disabled&quot; por &quot;no parity&quot; (era assim q os manuais dos modems se referiam a esses parâmetros na época).</div>
+<div class='msg in' title='2017-11-06 10:53:09 -0200'><div class="author">Werner Eck:</div> Será q esse cabo a gente não encontra pronto no mercado? Vou dar uma pesquisada</div>
+<div class='msg out' title='2017-11-06 10:53:20 -0200'>é possível...</div>
+<div class='msg in' title='2017-11-06 10:53:35 -0200'><div class="author">Werner Eck:</div> Deixa eu procurar aqui</div>
+<div class='msg out' title='2017-11-06 10:53:52 -0200'>eu tenho um ftdi (serial / USB) mas ele não tem o conector DB-25, pensei em adaptar</div>
+<div class='msg in' title='2017-11-06 10:54:30 -0200'><div class="author">Werner Eck:</div> É aquele q sai 4 fios de um lado pra vc espetar na placa?</div>
+<div class='msg out' title='2017-11-06 10:54:40 -0200'>já o cabo de alimentação elétrica acho que vai ter que ser preparado mesmo</div>
+<div class='msg in' title='2017-11-06 10:54:46 -0200'><div class="author">Werner Eck:</div> 4 ou 5 não lembro direito</div>
+<div class='msg out' title='2017-11-06 10:55:02 -0200'>GND, VCC, TX e RX</div>
+<div class='msg in' title='2017-11-06 10:55:37 -0200'><div class="author">Werner Eck:</div> Cara se olhando a foto de trás do equipamento, parece um plug macho de energia padrão abnt?</div>
+<div class='msg out' title='2017-11-06 10:55:54 -0200'>parece plug &quot;banana&quot;</div>
+<div class='msg in' title='2017-11-06 10:56:11 -0200'><div class="author">Werner Eck:</div> É da mesma grossura q os banana?</div>
+<div class='msg out' title='2017-11-06 10:56:19 -0200'><a target='_blank' href='https://en.wikipedia.org/wiki/Banana_connector'>https://en.wikipedia.org/wiki/Banana_connector</a><div class="webpage"><b>Banana connector</b><br><br>A banana connector (commonly banana plug for the male, banana socket or banana jack for the female) is a single-wire (one conductor) electrical connector used for joining wires to equipment. The term 4 mm connector is also used, especially in Europe, although not all banana connectors will mate with 4 mm parts, and 2mm banana connectors exist. Various styles of banana plug contacts exist, all based on the concept of spring metal applying outward force into the unsprung cylindrical jack to produce a snug fit with good electrical conductivity. Common types include: a solid pin split legthwise and splayed slightly, a tip of four leaf springs, a cylinder with a single leaf spring on one side, a bundle of stiff wire, a central pin surrounded by a multiply-slitted cylinder with a central bulge, or simple sheet spring metal rolled into a nearly complete cylinder. The plugs are frequently used to terminate patch cords for electronic test equipment, while sheathed banana plugs are common on multimeter probe leads.</div></div>
+<div class='msg out' title='2017-11-06 10:56:31 -0200'>não sei dizer. Pela foto dá a impressao de que sim</div>
+<div class='msg in' title='2017-11-06 10:57:09 -0200'><div class="author">Werner Eck:</div> Teria q ver. Pq o banana tem um diâmetro razoavelmente maior q um plug d tomadas</div>
+<div class='msg in' title='2017-11-06 10:57:21 -0200'><div class="author">Werner Eck:</div> Daí teria q improvisar mais</div>
+<div class='msg out' title='2017-11-06 10:57:54 -0200'>ah! obviamente, antes de tentar ligar na tomada seria bom eu dar uma revisada nos capacitores pra ver se não tem algum estourado...</div>
+<div class='msg-service' title='2017-11-06 10:58:00 -0200'><div class=inner>Mon 2017-11-06, 10:10</div></div>
+<div class='msg out' title='2017-11-06 10:58:00 -0200'>ou vazando</div>
+<div class='msg in' title='2017-11-06 10:58:01 -0200'><div class="author">Werner Eck:</div> Se fosse o mesmo tipo de pino q nos plugues das tomadas macho, poderia se fazer algo usando um adaptador</div>
+<div class='msg out' title='2017-11-06 10:58:20 -0200'>que eu me lembre, os capacitores parecem bons. Nada chamou muito a minha atenção quando olhei semana passada</div>
+<div class='msg in' title='2017-11-06 10:58:43 -0200'><div class="author">Werner Eck:</div> Cara, eu já te adianto, melhor seria trocar todos os caps da fonte de cara</div>
+<div class='msg in' title='2017-11-06 10:59:07 -0200'><div class="author">Werner Eck:</div> O problema nem sempre é a aparência e sim o comportamento interno</div>
+<div class='msg in' title='2017-11-06 10:59:57 -0200'><div class="author">Werner Eck:</div> Capacitores tendem a apresentar ESR com o passar do tempo. São sempre os primeiros componentes a se deteriorarem e apresentar falhas.</div>
+<div class='msg in' title='2017-11-06 11:00:39 -0200'><div class="author">Werner Eck:</div> Depois de + d 40 anos, é certo q não vão estar mais dentro dos parâmetros.</div>
+<div class='msg out' title='2017-11-06 11:00:43 -0200'>ESR = resistencia equivalente em série?</div>
+<div class='msg in' title='2017-11-06 11:00:48 -0200'><div class="author">Werner Eck:</div> Sim.</div>
+<div class='msg in' title='2017-11-06 11:01:17 -0200'><div class="author">Werner Eck:</div> E isso vc só consegue medir retirando o componente da placa</div>
+<div class='msg in' title='2017-11-06 11:01:35 -0200'><div class="author">Werner Eck:</div> Daí eu te digo, mais fácil trocar logo</div>
+<div class='msg out' title='2017-11-06 11:02:06 -0200'>complicado isso... a vontade é de preservar o equipamento intacto sempre que possível</div>
+<div class='msg out' title='2017-11-06 11:02:27 -0200'>só fazer as alterações estritamente necessárias</div>
+<div class='msg in' title='2017-11-06 11:02:41 -0200'><div class="author">Werner Eck:</div> Mas essas são...</div>
+<div class='msg out' title='2017-11-06 11:02:47 -0200'>e &quot;alterações&quot; no sentido de trocar peça por equivalente</div>
+<div class='msg in' title='2017-11-06 11:02:53 -0200'><div class="author">Werner Eck:</div> Vc pode estourar a fonte se ligar ele assim</div>
+<div class='msg out' title='2017-11-06 11:02:55 -0200'>jamais modificar o circuito</div>
+<div class='msg in' title='2017-11-06 11:03:01 -0200'><div class="author">Werner Eck:</div> Vai ser um baita estrago</div>
+<div class='msg out' title='2017-11-06 11:03:15 -0200'>é, eu imagino</div>
+<div class='msg in' title='2017-11-06 11:03:17 -0200'><div class="author">Werner Eck:</div> Vc não estará modificando</div>
+<div class='msg in' title='2017-11-06 11:03:31 -0200'><div class="author">Werner Eck:</div> Só reparando. Faz parte do processo.</div>
+<div class='msg out' title='2017-11-06 11:03:39 -0200'>sim, é verdade</div>
+<div class='msg out' title='2017-11-06 11:03:42 -0200'>faz sentido</div>
+<div class='msg in' title='2017-11-06 11:04:09 -0200'><div class="author">Werner Eck:</div> Não é como pegar um fusca 66 original e trocar o carburador por injeção eletrônica</div>
+<div class='msg in' title='2017-11-06 11:04:37 -0200'><div class="author">Werner Eck:</div> É como retirar o carburador, limpar por dentro e reinstalar</div>
+<div class='msg in' title='2017-11-06 11:04:53 -0200'><div class="author">Werner Eck:</div> Só q capacitor a gente não tem como abrir.</div>
+<div class='msg in' title='2017-11-06 11:05:27 -0200'><div class="author">Werner Eck:</div> Então trocamos por um novo. Vai ter a mesma aparência do original (talvez em um tamanho menor)</div>
+<div class='msg in' title='2017-11-06 11:05:59 -0200'><div class="author">Werner Eck:</div> Não é tão crítico assim como vc está pensando q é.</div>
+<div class='msg in' title='2017-11-06 11:06:13 -0200'><div class="author">Werner Eck:</div> É sussa.</div>
+<div class='msg in' title='2017-11-06 11:06:26 -0200'><div class="author">Werner Eck:</div> E o Sagitta agradece.</div>
+<div class='msg out' title='2017-11-06 11:30:52 -0200'>pensando sobre o painel do Patinho Feio e como representar o output da TeleType...</div>
+<div class='msg in' title='2017-11-06 11:31:08 -0200'><div class="author">Werner Eck:</div> sim</div>
+<div class='msg out' title='2017-11-06 11:31:17 -0200'>Teoricamente dair pra ligar o terminal Sagitta no Painel réplica do Patinho Feio</div>
+<div class='msg in' title='2017-11-06 11:31:36 -0200'><div class="author">Werner Eck:</div> mas vc fala sobre o real ou o emulado?</div>
+<div class='msg out' title='2017-11-06 11:31:37 -0200'>é funcionalmente equivalente a uma teletype (com teclado e saída na tela igual ao que sairia impresso no papel)</div>
+<div class='msg out' title='2017-11-06 11:31:53 -0200'>na réplica</div>
+<div class='msg in' title='2017-11-06 11:31:56 -0200'><div class="author">Werner Eck:</div> só pra situar, estou falando em emular o PF implementando esse código: <a target='_blank' href='https://github.com/wmoecke/PatinhoFeio_Arduino'>https://github.com/wmoecke/PatinhoFeio_Arduino</a><div class="webpage"><b>wmoecke/PatinhoFeio_Arduino</b><br><br>PatinhoFeio_Arduino - Arduino Code to emulate the Patinho Feio Computer and interface with a replica front-panel.</div></div>
+<div class='msg out' title='2017-11-06 11:32:07 -0200'>ligado ao terminal real</div>
+<div class='msg in' title='2017-11-06 11:32:21 -0200'><div class="author">Werner Eck:</div> sim, acho legal. Só precisamos fazer a conecão real</div>
+<div class='msg in' title='2017-11-06 11:32:36 -0200'><div class="author">Werner Eck:</div> ah o terminal real?</div>
+<div class='msg out' title='2017-11-06 11:32:43 -0200'>sim, emulador do pato rodando no arduino controlando chaves e luzes do painel ligado ao terminal sagitta de verdade</div>
+<div class='msg in' title='2017-11-06 11:32:57 -0200'><div class="author">Werner Eck:</div> daí temos q ver se dá pra fazer ele funcionar sem muito trabalho</div>
+<div class='msg out' title='2017-11-06 11:33:07 -0200'>o arduino tem porta serial. É sossegadíssimo de fazer</div>
+<div class='msg in' title='2017-11-06 11:33:15 -0200'><div class="author">Werner Eck:</div> sim</div>
+<div class='msg out' title='2017-11-06 11:33:38 -0200'>só que não é portátil</div>
+<div class='msg in' title='2017-11-06 11:33:44 -0200'><div class="author">Werner Eck:</div> minha única preocupação em usar o sagitta real é q talvez exija uma manutenção mais pesada</div>
+<div class='msg in' title='2017-11-06 11:33:56 -0200'><div class="author">Werner Eck:</div> isso tbm.</div>
+<div class='msg out' title='2017-11-06 11:33:57 -0200'>então um displayzinho simulando a saída na teletype pode ser uma opção mais compacta</div>
+<div class='msg in' title='2017-11-06 11:34:13 -0200'><div class="author">Werner Eck:</div> foi o q eu pensei, e é sussa de implementar</div>
+<div class='msg in' title='2017-11-06 11:34:24 -0200'><div class="author">Werner Eck:</div> até pq já tenho implementado, basta mudar a entrada serial</div>
+<div class='msg-service' title='2017-11-06 11:34:49 -0200'><div class=inner>Mon 2017-11-06, 11:11</div></div>
+<div class='msg out' title='2017-11-06 11:34:49 -0200'>aí por questão de estética eu faria um segundo quadro, contendo uma fotografia duma teletype modelo ASR33 e, embutido no quadro, um display de texto com uma ou duas linhas de texto</div>
+<div class='msg in' title='2017-11-06 11:35:04 -0200'><div class="author">Werner Eck:</div> hahaha q boa idéia!!</div>
+<div class='msg in' title='2017-11-06 11:35:42 -0200'><div class="author">Werner Eck:</div> uma linha só pelo amor de Deus... rsss</div>
+<div class='msg out' title='2017-11-06 11:35:49 -0200'>esses displauys LCD de texto são melhores do que matrizes de LED para esse propósito: <a target='_blank' href='http://www.priority1design.com.au/serial_display-4002_front.jpg'>http://www.priority1design.com.au/serial_display-4002_front.jpg</a></div>
+<div class='msg in' title='2017-11-06 11:35:55 -0200'><div class="author">Werner Eck:</div> ah tá</div>
+<div class='msg out' title='2017-11-06 11:36:10 -0200'>só que esse aí é de 40 chars</div>
+<div class='msg out' title='2017-11-06 11:36:20 -0200'>a teletype acho que chegava a 72</div>
+<div class='msg out' title='2017-11-06 11:36:29 -0200'>então é uma aproximação apenas</div>
+<div class='msg in' title='2017-11-06 11:36:54 -0200'><div class="author">Werner Eck:</div> <a target='_blank' href='https://www.filipeflop.com/blog/controlando-um-lcd-16x2-com-arduino/'>https://www.filipeflop.com/blog/controlando-um-lcd-16x2-com-arduino/</a><div class="webpage"><b>Controlando um LCD 16x2 com Arduino - FilipeFlop</b><br><br>Neste tutorial você vai encontrar alguns testes com o display LCD 16x2 com Arduino, um display muito comum e que se adapta a diversos projetos. Confira!</div></div>
+<div class='msg out' title='2017-11-06 11:36:58 -0200'>o bom de ter mais de uma linha é que facilita da a sensação de rolagem do papel da teletype pulando de linha</div>
+<div class='msg out' title='2017-11-06 11:37:01 -0200'>fazendo scroll</div>
+<div class='msg out' title='2017-11-06 11:37:37 -0200'>e não tem input como na teletype. Apenas output</div>
+<div class='msg in' title='2017-11-06 11:37:52 -0200'><div class="author">Werner Eck:</div> exato</div>
+<div class='msg out' title='2017-11-06 11:38:28 -0200'>tem um programa relativamente grande do patinho feio chamado HEXAM</div>
+<div class='msg in' title='2017-11-06 11:38:36 -0200'><div class="author">Werner Eck:</div> até pq dá pra inserir programas nele por chaves ou por fita perfurada, como vc chegou a fazer, não?</div>
+<div class='msg out' title='2017-11-06 11:38:39 -0200'>é um exemplo que vem a listagem completa no manual do assembler</div>
+<div class='msg out' title='2017-11-06 11:38:52 -0200'>e serve para manipular o conteúdo da memória</div>
+<div class='msg out' title='2017-11-06 11:39:00 -0200'>é uma espécie de monitor do sistema</div>
+<div class='msg out' title='2017-11-06 11:39:20 -0200'>e para opera-lo é necessário ter uma teletype, pra digitar os comandos e ver a saída</div>
+<div class='msg out' title='2017-11-06 11:39:35 -0200'>isso</div>
+<div class='msg out' title='2017-11-06 11:39:49 -0200'>algum tipo de simulação de uma interface de fita perfurada seria legal também</div>
+<div class='msg out' title='2017-11-06 11:40:18 -0200'>pensei até que um leitor de cartão SD poderia ser usado para abstrair o processo. Com cada cartão sendo uma fita individual</div>
+<div class='msg in' title='2017-11-06 11:40:33 -0200'><div class="author">Werner Eck:</div> como foi q vc e o prof. adaptaram aquela leitora de fitas?</div>
+<div class='msg out' title='2017-11-06 11:40:37 -0200'>do ponto de vista tátil é meio tosco, mas é o melhor que imaginei até agora</div>
+<div class='msg out' title='2017-11-06 11:41:03 -0200'>o professor Guido Stolfi comprou um cebeçote de uma máquina antiga no eBay</div>
+<div class='msg out' title='2017-11-06 11:41:12 -0200'>e interfaceou</div>
+<div class='msg in' title='2017-11-06 11:41:23 -0200'><div class="author">Werner Eck:</div> com o que exatamente?</div>
+<div class='msg out' title='2017-11-06 11:41:27 -0200'>fazer isso seria bem legal</div>
+<div class='msg out' title='2017-11-06 11:41:48 -0200'>com alguma placa de microcontrolador que ele prefere usar. Não sei dizer qual é. Ele não me contou os detalhes ainda.</div>
+<div class='msg out' title='2017-11-06 11:41:53 -0200'>Eu precisaria perguntar.</div>
+<div class='msg in' title='2017-11-06 11:42:07 -0200'><div class="author">Werner Eck:</div> essa interface era com o seu PF emulado?</div>
+<div class='msg out' title='2017-11-06 11:42:24 -0200'>não</div>
+<div class='msg out' title='2017-11-06 11:42:39 -0200'>ele interfaceou com o computador dele apenas para fazer o dump dos dados das fitas</div>
+<div class='msg in' title='2017-11-06 11:42:45 -0200'><div class="author">Werner Eck:</div> ah tá</div>
+<div class='msg in' title='2017-11-06 11:42:50 -0200'><div class="author">Werner Eck:</div> mas seria pela serial?</div>
+<div class='msg out' title='2017-11-06 11:43:27 -0200'>os arquivos das fitas do acervo pessoal dele estão aqui: <a target='_blank' href='https://github.com/felipesanches/PatinhoFeio/tree/master/fitas_perfuradas'>https://github.com/felipesanches/PatinhoFeio/tree/master/fitas_perfuradas</a><div class="webpage"><b>felipesanches/PatinhoFeio</b><br><br>PatinhoFeio - Repositório contendo documentação técnica sobre o Patinho Feio, primeiro computador brasileiro (Escola Politécnica da USP - 1971)</div></div>
+<div class='msg out' title='2017-11-06 11:43:49 -0200'>eu não sei exatamente o que ele fez</div>
+<div class='msg out' title='2017-11-06 11:44:09 -0200'>sei o que ele fez, mas não sei os detalhes técnicos da solução usada</div>
+<div class='msg in' title='2017-11-06 11:44:20 -0200'><div class="author">Werner Eck:</div> então, eu pensei q se ele tiver já feito esse microcontrolador ler os dados das fitas e passar serialmente os bits, a gente poderia adaptar isso ao arduino.</div>
+<div class='msg out' title='2017-11-06 11:44:46 -0200'>sim, mas o mais difícil é a interface mecânica/ótica</div>
+<div class='msg in' title='2017-11-06 11:44:51 -0200'><div class="author">Werner Eck:</div> exato</div>
+<div class='msg in' title='2017-11-06 11:44:55 -0200'><div class="author">Werner Eck:</div> que parece q ele já fez</div>
+<div class='msg out' title='2017-11-06 11:44:56 -0200'>o resto a gente refaz com os pés nas costas</div>
+<div class='msg in' title='2017-11-06 11:45:02 -0200'><div class="author">Werner Eck:</div> por isso mesmo</div>
+<div class='msg in' title='2017-11-06 11:45:07 -0200'><div class="author">Werner Eck:</div> entendeu?</div>
+<div class='msg out' title='2017-11-06 11:45:12 -0200'>entendi</div>
+<div class='msg in' title='2017-11-06 11:45:22 -0200'><div class="author">Werner Eck:</div> a parte mais dureza parece q ele já fez</div>
+<div class='msg in' title='2017-11-06 11:45:59 -0200'><div class="author">Werner Eck:</div> se apresentarmos o painel pronto, emulando no arduino e mostrando em um display, será q ele não se anima a conectar a leitora dele ao nosso PF?</div>
+<div class='msg out' title='2017-11-06 11:46:10 -0200'>acho que sim</div>
+<div class='msg in' title='2017-11-06 11:46:29 -0200'><div class="author">Werner Eck:</div> até pq esse hardware deve estar encostado agora</div>
+<div class='msg-service' title='2017-11-06 11:46:41 -0200'><div class=inner>Mon 2017-11-06, 11:11</div></div>
+<div class='msg out' title='2017-11-06 11:46:41 -0200'>ele já viu o painel não funcional. E também já viu o emulador do Pato no MAME. Acho que é só questão de jogar a idéia.</div>
+<div class='msg in' title='2017-11-06 11:46:55 -0200'><div class="author">Werner Eck:</div> seria legal pra ele ver o hardware dele conversando com o nosso, e passando fitas de verdade pra o PF</div>
+<div class='msg in' title='2017-11-06 11:47:08 -0200'><div class="author">Werner Eck:</div> vamos terminar esse painel</div>
+<div class='msg in' title='2017-11-06 11:47:21 -0200'><div class="author">Werner Eck:</div> daí a gente mostra a coisa toda funcionando, deixamos ele brincar</div>
+<div class='msg out' title='2017-11-06 11:47:25 -0200'>Se não me engano, a interface de fita está na casa dele. Levar isso para exposição na USP seria bem legal.</div>
+<div class='msg out' title='2017-11-06 11:47:28 -0200'>Se ele topar.</div>
+<div class='msg out' title='2017-11-06 11:47:45 -0200'>ok, acho uma boa</div>
+<div class='msg in' title='2017-11-06 11:47:45 -0200'><div class="author">Werner Eck:</div> e daí no meio da brincadeira, jogamos</div>
+<div class='msg in' title='2017-11-06 11:48:14 -0200'><div class="author">Werner Eck:</div> &quot;poutz, já pensou q legal seria se desse pra fazer a carga dos programas originais do PF em fita?&quot;</div>
+<div class='msg out' title='2017-11-06 11:48:16 -0200'>as coisas aos poucos vão se alinhando. Acho muito legal essa idéia.</div>
+<div class='msg out' title='2017-11-06 11:48:31 -0200'>vamos trabalhar no painel então</div>
+<div class='msg in' title='2017-11-06 11:48:31 -0200'><div class="author">Werner Eck:</div> lógico q ele iria dar aquele sorrisinho maroto</div>
+<div class='msg in' title='2017-11-06 11:48:39 -0200'><div class="author">Werner Eck:</div> beleza</div>
+<div class='msg out' title='2017-11-06 11:48:49 -0200'>vou almoçar. Té mais!</div>
+<div class='msg in' title='2017-11-06 11:48:53 -0200'><div class="author">Werner Eck:</div> falow</div>
+<div class='msg in' title='2017-11-06 11:49:02 -0200'><div class="author">Werner Eck:</div> depois a gente fala os detalhes disso</div>
+<div class='msg in' title='2017-11-06 14:31:11 -0200'><div class="author">Werner Eck:</div> Aqui tem alguns cabos conversores USB &lt;-&gt; DB9/25 - o preço varia: <a target='_blank' href='http://bit.ly/2hMdUFA'>http://bit.ly/2hMdUFA</a></div>
+<div class='msg in' title='2017-11-06 14:38:14 -0200'><div class="author">Werner Eck:</div> Eu acredito que &quot;adaptar&quot; seu cabo usb/ftdi em um conector DB25 não seja na prática, viável. Pois além dos TX/RX existem sinais de controle (DTR/DSR/RTS/CTS) que precisam de sinalização. Eu não sei quanto a se esses cabos prontos vêm com circuitos que adaptam esses sinais.</div>
+<div class='msg in' title='2017-11-06 14:38:18 -0200'><div class="author">Werner Eck:</div> <a target='_blank' href='http://www.firewall.cx/networking-topics/cabling-utp-fibre/121-network-serial-cable.html'>http://www.firewall.cx/networking-topics/cabling-utp-fibre/121-network-serial-cable.html</a><div class="webpage"><b>Serial Direct Cable Connection, DB9, DB25, COM Ports and Pinouts</b><br><br>This article explains the concept of serial data connections. Topics covered include: PC Serial ports, pinouts, speeds, connector interfaces (db9, db25), null modem cable pinout (db9 and db25) and much more. Included are diagrams with all pinouts and functions.</div></div>
+<div class='msg in' title='2017-11-06 14:41:48 -0200'><div class="author">Werner Eck:</div> Exemplo de um cabo *conversor* (fornece todos os sinais de dados e controle) é esse: <a target='_blank' href='https://www.comm5.com.br/produtos/conversor-usb/1S-USB/'>https://www.comm5.com.br/produtos/conversor-usb/1S-USB/</a><div class="webpage"><b>1S-USB - Comm5</b><br><br>Conversor de USB para 1 saída serial RS232 CARACTERÍSTICAS Atenta à necessidade de controle de todos os sinais disponíveis em uma porta serial nos periféricos envolvidos em uma automação, principalmente comercial, o conversor 1S-USB da Comm5 foi criado especialmente para atender esta carência de mercado. Sendo assim, sua compatibilidade abrange boa parte dos periféricos seriais […]</div></div>
+<div class='msg in' title='2017-11-06 14:50:42 -0200'><div class="author">Werner Eck:</div> o problema é q esse modelo tem preço na faixa dos R$120~R$150, o q me faz erguer as sombracelhas, especialmente qdo vejo um anúncio assim: <a target='_blank' href='http://bit.ly/2zhLT2D'>http://bit.ly/2zhLT2D</a><div class="webpage"><b>Cabo Conversor USB X Serial DB9 e DB25</b><br><br>Aplicações - Conecta seu PC atual em mouses, scanners, impressoras e outros dispositvos que usem porta serial (COM). Compatibilidade - Suporta as especificações USB 1.1 e 2.0 - Compatível com todas as portas seriais comuns RS 232 (DB25 ou DB9) - Tamanho do cabo: 80 cm</div></div>
+<div class='msg out' title='2017-11-06 16:29:40 -0200'>Tela inicial do sagitta 180 com a ROM #0 carregada em vez da ROM supostamente herdada do 150:</div>
+<div class='msg out' title='2017-11-06 16:29:46 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805514040_33994.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_805514040_33994.jpg'></a><br></div>
+<div class='msg out' title='2017-11-06 16:44:33 -0200'>a conexão com o terminal genérico não funciona com essa outra ROM, entratanto.</div>
+<div class='msg out' title='2017-11-06 16:45:29 -0200'>Talvez essa outra ROM espere receber alguma sinalização diferente pela serial. Talvez essa sim use algum protocolo específico dos computadores Burroughs, em vez de simplesmente enviar e receber raw ASCII.</div>
+<div class='msg in' title='2017-11-06 16:48:43 -0200'><div class="author">Werner Eck:</div> ummm...</div>
+<div class='msg in' title='2017-11-06 16:48:50 -0200'><div class="author">Werner Eck:</div> ela tem uma série de parametros listados na tela</div>
+<div class='msg in' title='2017-11-06 16:48:56 -0200'><div class="author">Werner Eck:</div> será q isso vem das dips?</div>
+<div class='msg in' title='2017-11-06 16:49:19 -0200'><div class="author">Werner Eck:</div> especialmente interessante nesse caso é o &quot;Atraso Interno do CTS&quot;</div>
+<div class='msg in' title='2017-11-06 16:49:53 -0200'><div class="author">Werner Eck:</div> vc só redirecionou o CS para essa ROM ao invés da primeira?</div>
+<div class='msg in' title='2017-11-06 16:50:39 -0200'><div class="author">Werner Eck:</div> deu uma olhadinha se nessa ROM tem tbm as palavras de inicialização do 8251?</div>
+<div class='msg in' title='2017-11-06 16:51:56 -0200'><div class="author">Werner Eck:</div> esses aqui</div>
+<div class='msg out' title='2017-11-06 16:52:15 -0200'>não posso ver isso agora</div>
+<div class='msg out' title='2017-11-06 16:52:34 -0200'>só carreguei a outra ROM e rodei o emu</div>
+<div class='msg out' title='2017-11-06 16:53:23 -0200'>por que do nada lembrei que era um teste óbvio que eu ainda não tinha feito. E, de fato, a recompensa foi imediata. Mas eu não posso dedicar tempo pra ver isso em mais detalhes agora.</div>
+<div class='msg in' title='2017-11-06 16:53:46 -0200'><div class="author">Werner Eck:</div> td bem</div>
+<div class='msg out' title='2017-11-06 16:54:11 -0200'>você pode tentar fazer o seu setup de compilação do MAME aí no seu computador</div>
+<div class='msg in' title='2017-11-06 16:54:24 -0200'><div class="author">Werner Eck:</div> eu ia ver com vc o q eu preciso ter aqui instalado</div>
+<div class='msg in' title='2017-11-06 16:54:27 -0200'><div class="author">Werner Eck:</div> tem q ser no linux?</div>
+<div class='msg out' title='2017-11-06 16:54:27 -0200'>e fazer o checkout do branch sagitta180 do meu repositório</div>
+<div class='msg out' title='2017-11-06 16:54:47 -0200'>Não. Basta ter o git instalado</div>
+<div class='msg out' title='2017-11-06 16:54:53 -0200'>e depois instalar as dependências e tal</div>
+<div class='msg out' title='2017-11-06 16:55:05 -0200'>mas supostamente funciona em qualquer dos principais sistemas operacionais</div>
+<div class='msg in' title='2017-11-06 16:55:07 -0200'><div class="author">Werner Eck:</div> compilador, essas coisas?</div>
+<div class='msg out' title='2017-11-06 16:55:10 -0200'>o MAME é multi-plataforma</div>
+<div class='msg in' title='2017-11-06 16:55:16 -0200'><div class="author">Werner Eck:</div> o compilador é do próprio MAME?</div>
+<div class='msg in' title='2017-11-06 16:55:24 -0200'><div class="author">Werner Eck:</div> ou tem q instalar o gtk, etc?</div>
+<div class='msg out' title='2017-11-06 16:55:26 -0200'>não. A gente usa o gcc</div>
+<div class='msg out' title='2017-11-06 16:55:36 -0200'>não precisa de gtk, mas precisa de outras bibliotecas</div>
+<div class='msg in' title='2017-11-06 16:55:36 -0200'><div class="author">Werner Eck:</div> ok</div>
+<div class='msg-service' title='2017-11-06 16:55:46 -0200'><div class=inner>Mon 2017-11-06, 16:04</div></div>
+<div class='msg out' title='2017-11-06 16:55:46 -0200'>compilar o MAME por si só já é um grande aprendizado</div>
+<div class='msg out' title='2017-11-06 16:56:15 -0200'>Agora, uma coisa é verdade: não precisa ser no GNU+Linux. Mas eu, pessoalmente, recomendo fortemente que seja ;-)</div>
+<div class='msg out' title='2017-11-06 16:57:05 -0200'>Bom... vou voltar pro meu trampo aqui. Té mais</div>
+<div class='msg in' title='2017-11-06 16:57:09 -0200'><div class="author">Werner Eck:</div> o único linux q eu tenho aqui é o Kali na VM</div>
+<div class='msg in' title='2017-11-06 16:57:19 -0200'><div class="author">Werner Eck:</div> blz vou ver aqui o q eu consigo fazer</div>
+<div class='msg in' title='2017-11-06 17:00:47 -0200'><div class="author">Werner Eck:</div><br><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804726891_40134.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804726891_40134.jpg'></a><br></div>
+<div class='msg in' title='2017-11-06 17:00:58 -0200'><div class="author">Werner Eck:</div> sou chique pra kct... até git já tenho</div>
+<div class='msg in' title='2017-11-06 17:01:14 -0200'><div class="author">Werner Eck:</div> só pq eu gosto de vc, vou fazer no Kali.</div>
+<div class='msg out' title='2017-11-06 17:04:45 -0200'>Tá valendo :-)</div>
+<div class='msg out' title='2017-11-06 17:05:56 -0200'>você tem conta no github ?</div>
+<div class='msg in' title='2017-11-06 17:06:13 -0200'><div class="author">Werner Eck:</div> sim</div>
+<div class='msg in' title='2017-11-06 17:06:15 -0200'><div class="author">Werner Eck:</div> wmoecke</div>
+<div class='msg out' title='2017-11-06 17:06:40 -0200'>ah é, verdade! Você mostrou um repo do Patinho Feio pra Arduino que você fez fork, verdade</div>
+<div class='msg out' title='2017-11-06 17:06:43 -0200'>agora lembrei</div>
+<div class='msg in' title='2017-11-06 17:07:02 -0200'><div class="author">Werner Eck:</div> eu preciso fazer checkout nesse? <a target='_blank' href='https://github.com/felipesanches/mame.git'>https://github.com/felipesanches/mame.git</a><div class="webpage"><b>felipesanches/mame</b><br><br>mame - MAME - Multiple Arcade Machine Emulator</div></div>
+<div class='msg out' title='2017-11-06 17:07:12 -0200'>pode ser</div>
+<div class='msg out' title='2017-11-06 17:07:26 -0200'>vc pode fazer clone do mamedev/mame.git</div>
+<div class='msg out' title='2017-11-06 17:07:34 -0200'>ooops</div>
+<div class='msg out' title='2017-11-06 17:07:38 -0200'>clone não</div>
+<div class='msg out' title='2017-11-06 17:07:40 -0200'>fork</div>
+<div class='msg in' title='2017-11-06 17:07:46 -0200'><div class="author">Werner Eck:</div> isso q eu ia falar</div>
+<div class='msg out' title='2017-11-06 17:07:56 -0200'>faz um fork do repo principal</div>
+<div class='msg in' title='2017-11-06 17:08:07 -0200'><div class="author">Werner Eck:</div> faço primeiro um fork do mamedev e depois dou checkout aqui</div>
+<div class='msg out' title='2017-11-06 17:08:10 -0200'>aí você clona localmente o seu</div>
+<div class='msg out' title='2017-11-06 17:08:39 -0200'>depois você adiciona o mamedev e o meu como remotes</div>
+<div class='msg in' title='2017-11-06 17:08:46 -0200'><div class="author">Werner Eck:</div> ishi</div>
+<div class='msg in' title='2017-11-06 17:08:55 -0200'><div class="author">Werner Eck:</div> agora vc falou grego</div>
+<div class='msg out' title='2017-11-06 17:09:14 -0200'>um &quot;remote&quot; nada mais é que uma referência para algum outro repositório git existente para um dado projeto</div>
+<div class='msg in' title='2017-11-06 17:09:15 -0200'><div class="author">Werner Eck:</div> deixa eu ir la fazer as primeiras duas etapas</div>
+<div class='msg out' title='2017-11-06 17:10:06 -0200'>quando você clona localmente o seu, o git cria automaticamente um remote chamado &quot;origin&quot; apontanto do seu repo local para o seu repo remoto hospedado nos servidores do github</div>
+<div class='msg out' title='2017-11-06 17:11:24 -0200'>tanto é que logo depois de fazer o clone, você pode digitar o comando &quot;git remote -v&quot; (-v é pra ser &quot;verboso&quot; e te mostrar as URLs) e com isso você vai ver que &quot;origin&quot; consta lá com a URL do seu repo no github</div>
+<div class='msg out' title='2017-11-06 17:11:38 -0200'>mas depois você pode adicionar outros remotes</div>
+<div class='msg out' title='2017-11-06 17:11:59 -0200'>veja por exemplo o meu caso:</div>
+<div class='msg out' title='2017-11-06 17:12:17 -0200'><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804727088_41547.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804727088_41547.jpg'></a><br></div>
+<div class='msg out' title='2017-11-06 17:12:35 -0200'>eu tenho esse monte de remotes cadastrados aí por que eu já colaborei com essas outras pessoas</div>
+<div class='msg out' title='2017-11-06 17:13:01 -0200'>o remote &quot;ramiro&quot; é de um outro brasileiro que também contribui código pro MAME</div>
+<div class='msg out' title='2017-11-06 17:13:18 -0200'>e eu costumo apelidar o repo principal de um projeto de &quot;upstream&quot;</div>
+<div class='msg out' title='2017-11-06 17:13:41 -0200'>e veja que no meu caso &quot;origin&quot; é o meu repo pessoal</div>
+<div class='msg in' title='2017-11-06 17:14:04 -0200'><div class="author">Werner Eck:</div> pq sua maquina chama guaraná?</div>
+<div class='msg out' title='2017-11-06 17:14:05 -0200'>&quot;gitlab&quot; também é um repo pessoal meu só que hospedado no GitLab</div>
+<div class='msg out' title='2017-11-06 17:14:17 -0200'>por que eu posso :-)</div>
+<div class='msg in' title='2017-11-06 17:14:21 -0200'><div class="author">Werner Eck:</div> kkk</div>
+<div class='msg in' title='2017-11-06 17:14:34 -0200'><div class="author">Werner Eck:</div> então tá, esses nomes q tem à esquerda foi vc q deu</div>
+<div class='msg out' title='2017-11-06 17:14:40 -0200'>sim</div>
+<div class='msg in' title='2017-11-06 17:14:53 -0200'><div class="author">Werner Eck:</div> e a finalidade de vc adicionar um remote seria qual?</div>
+<div class='msg out' title='2017-11-06 17:15:11 -0200'>o &quot;origin&quot; é dado automaticamente pelo cliente de git como um remote apontando para o repo de onde você fez o clone inicial</div>
+<div class='msg in' title='2017-11-06 17:15:31 -0200'><div class="author">Werner Eck:</div> entendi. eu ainda estou clonando por isso não fiz nada ainda</div>
+<div class='msg out' title='2017-11-06 17:15:34 -0200'>é pra você poder fazer fetch desses repos pra sincronizar seu código com o código das outras pessoas</div>
+<div class='msg in' title='2017-11-06 17:15:36 -0200'><div class="author">Werner Eck:</div> tá rolando</div>
+<div class='msg in' title='2017-11-06 17:16:20 -0200'><div class="author">Werner Eck:</div><br><a target='_blank' href='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804724740_59413.jpg'><img src='../../media/Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos/download_804724740_59413.jpg'></a><br></div>
+<div class='msg-service' title='2017-11-06 17:16:25 -0200'><div class=inner>Mon 2017-11-06, 17:05</div></div>
+<div class='msg out' title='2017-11-06 17:16:25 -0200'>por exemplo... se você fizer uns commits seus e quiser contribuir, você vai fazer push pro seu repo pessoal lá do github, que é o remote &quot;origin&quot;</div>
+<div class='msg out' title='2017-11-06 17:17:01 -0200'>mas de tempos em tempos você vai querer atualizar o seu repo com os commits novos que os desenvolvedores do MAME fizeram recentemente, e para isso você vai ter que sincronizar com o remote &quot;upstream&quot;</div>
+<div class='msg out' title='2017-11-06 17:17:46 -0200'>então a primeira coisa que você pode fazer, que vai ser bem útil é:</div>
+<div class='msg out' title='2017-11-06 17:18:02 -0200'>git remote add upstream <a target='_blank' href='https://github.com/mamedev/mame.git'>https://github.com/mamedev/mame.git</a><div class="webpage"><b>mamedev/mame</b><br><br>mame - MAME</div></div>
+<div class='msg in' title='2017-11-06 17:18:11 -0200'><div class="author">Werner Eck:</div> tbm acho bom criar um remote do seu repo não?</div>
+<div class='msg out' title='2017-11-06 17:18:12 -0200'>e depois você pode também fazer:</div>
+<div class='msg out' title='2017-11-06 17:18:26 -0200'>git remote add juca <a target='_blank' href='https://github.com/felipesanches/mame.git'>https://github.com/felipesanches/mame.git</a><div class="webpage"><b>felipesanches/mame</b><br><br>mame - MAME - Multiple Arcade Machine Emulator</div></div>
+<div class='msg in' title='2017-11-06 17:18:31 -0200'><div class="author">Werner Eck:</div> daí eu posso fazer upstream direto pra vc</div>
+<div class='msg in' title='2017-11-06 17:18:42 -0200'><div class="author">Werner Eck:</div> blz</div>
+<div class='msg in' title='2017-11-06 17:18:57 -0200'><div class="author">Werner Eck:</div> deixa ele terminar aqui... aposto como isso deve levar um tempo</div>
+<div class='msg out' title='2017-11-06 17:19:28 -0200'>é... é um repo bem grandão</div>
+<div class='msg out' title='2017-11-06 17:20:05 -0200'>e depois você provavelmente ainda vai gastar um bom tempo instalando as dependências pra conseguir compilar corretamente</div>
+<div class='msg out' title='2017-11-06 17:20:19 -0200'>minha dica é tentar compilar e ver onde falha</div>
+<div class='msg out' title='2017-11-06 17:20:32 -0200'>e com isso ir descobrindo quais bibliotecas ainda falta instalar</div>
+<div class='msg in' title='2017-11-06 17:21:30 -0200'><div class="author">Werner Eck:</div> 😒 pressinto dores de cabeça por vir</div>
+<div class='msg in' title='2017-11-06 17:22:02 -0200'><div class="author">Werner Eck:</div> bom aqui nessa minha distro já vem com muita coisa pré-instalada... vamos ver</div>
+<div class='msg out' title='2017-11-06 17:23:15 -0200'>pra facilitar o seu build sugiro você começar fazendo um build &quot;single-driver&quot;, pra evitar de ter que compilar o MAME inteiro desnecessariamente</div>
+<div class='msg out' title='2017-11-06 17:24:28 -0200'>como o zezinho e o sagitta ainda estão aguardando alguém fazer o merge dos respectivos pull requests, é mais fácil começar por algum driver meu que já esteja integrado no MAME como, por exemplo, o do CP-500 da semana passada</div>
+<div class='msg in' title='2017-11-06 17:24:50 -0200'><div class="author">Werner Eck:</div> blz</div>
+<div class='msg out' title='2017-11-06 17:25:10 -0200'>a linha de comando mágica para isso é:</div>
+<div class='msg out' title='2017-11-06 17:25:13 -0200'>make SUBTARGET=trs80_ SOURCES=src/mame/drivers/trs80.cpp REGENIE=1</div>
+<div class='msg out' title='2017-11-06 17:26:06 -0200'>se isso rolar aí você me avisa que a gente parte pro passo seguinte que é pegar os commits do meu remote com o código de emulação do sagitta</div>
+<div class='msg out' title='2017-11-06 17:26:30 -0200'>que envolve essa complexidade extra de lidar com remotes que você não conhecia ainda</div>
+<div class='msg in' title='2017-11-06 17:27:01 -0200'><div class="author">Werner Eck:</div> ih, vc vai ver q tem muita coisa q eu desconheço sobre o git...</div>
+<div class='msg out' title='2017-11-06 17:27:22 -0200'>vamos um passo por vez que vai ser de boa ;-)</div>
+<div class='msg in' title='2017-11-06 17:27:23 -0200'><div class="author">Werner Eck:</div> aquela magia negra q vc fez no garoa... me pede pra refazer...</div>
+<div class='msg out' title='2017-11-06 17:27:31 -0200'>hahaha</div>
+<div class='msg in' title='2017-11-06 17:27:36 -0200'><div class="author">Werner Eck:</div> 😳</div>
+<div class='msg in' title='2017-11-06 17:27:58 -0200'><div class="author">Werner Eck:</div> acabo com o seu repo e o do MAME numa tacada só</div>
+<div class='msg in' title='2017-11-06 17:28:29 -0200'><div class="author">Werner Eck:</div> Até o Papai Nicola vai vir bater na porta da minha casa</div>
+<div class='msg out' title='2017-11-06 17:28:32 -0200'>o bom é que no git se alguém se ferrar é só você. Minha cópia do repo continua inteirinha na minha máquina :-)</div>
+<div class='msg out' title='2017-11-06 17:28:56 -0200'>o dano fica contido</div>
+<div class='msg in' title='2017-11-06 17:29:19 -0200'><div class="author">Werner Eck:</div> Por isso eu SEMPRE zipo td antes de fazer qq coisa relacionada a git. Se zicar, eu sobrescrevo tudo com a cópia</div>
+<div class='msg in' title='2017-11-06 17:29:43 -0200'><div class="author">Werner Eck:</div> Já passei por isso no git e jurei nunca mais deixar o git me ferrar</div>
+<div class='msg out' title='2017-11-06 17:30:12 -0200'>Eu já fiz coisas similares. Mas só quando resolve explorar alguma feature do git que eu não conheço direito ainda.</div>
+<div class='msg out' title='2017-11-06 17:30:17 -0200'>no dia a dia eu aprendi a confiar</div>
+<div class='msg out' title='2017-11-06 17:30:38 -0200'>por que já me acostumei com o uso básico e uma ou outra funcionalidade avançada.</div>
+<div class='msg in' title='2017-11-06 17:32:23 -0200'><div class="author">Werner Eck:</div> Eu tinha problemas qdo um outro cara fazia commits e eu ainda não tinha dado push</div>
+<div class='msg in' title='2017-11-06 17:32:29 -0200'><div class="author">Werner Eck:</div> imagina com 600 e tralala</div>
+<div class='msg in' title='2017-11-06 17:32:37 -0200'><div class="author">Werner Eck:</div> 😂</div>
+<div class='msg in' title='2017-11-06 17:32:51 -0200'><div class="author">Werner Eck:</div> vou precisar aprender a dar commit toda hora</div>
+<div class='msg out' title='2017-11-06 17:34:03 -0200'>não necessariamente</div>
+<div class='msg out' title='2017-11-06 17:34:10 -0200'>pra isso existe o rebase</div>
+<div class='msg out' title='2017-11-06 17:34:14 -0200'>por exemplo</div>
+<div class='msg out' title='2017-11-06 17:34:19 -0200'>(é uma das opções)</div>
+<div class='msg out' title='2017-11-06 17:35:00 -0200'>mas deixa esses detalhes pra depois</div>
+<div class='msg out' title='2017-11-06 17:35:11 -0200'>eu explico tudo com calma quando chegar a hora</div>
+<div class='msg in' title='2017-11-06 17:35:47 -0200'><div class="author">Werner Eck:</div> sim</div>
+<div class='msg in' title='2017-11-06 17:35:53 -0200'><div class="author">Werner Eck:</div> estou me atendo aos primeiros passos</div>
+<div class='msg in' title='2017-11-06 17:36:17 -0200'><div class="author">Werner Eck:</div> to sabendo q o professor q eu tenho agora manja bem do assunto</div>
+<div class='msg-service' title='2017-11-06 17:36:31 -0200'><div class=inner>Mon 2017-11-06, 17:05</div></div>
+<div class='msg in' title='2017-11-06 17:36:31 -0200'><div class="author">Werner Eck:</div> vai ser mais suave</div>
+<div class='msg in' title='2017-11-06 17:36:43 -0200'><div class="author">Werner Eck:</div> e o clone ainda ta rolando</div>
+<div class='msg out' title='2017-11-06 17:38:15 -0200'>será que eu devo começar a cobrar a hora-aula ? LOL</div>
+<div class='msg out' title='2017-11-06 17:38:23 -0200'>(tô brincando)</div>
+<div class='msg out' title='2017-11-06 17:39:13 -0200'>Eu costumo seguir no meu dia-a-dia o conselho do ET Bilu: &quot;Busquem conhecimento!&quot;</div>
+<div class='msg in' title='2017-11-06 17:42:42 -0200'><div class="author">Werner Eck:</div> Sempre fiz isso na vida.</div>
+<div class='msg in' title='2017-11-06 17:43:05 -0200'><div class="author">Werner Eck:</div> Nunca pegaram na minha mãozinha pra me levar. Sempre foi apanhando</div>
+<div class='msg in' title='2017-11-06 17:43:44 -0200'><div class="author">Werner Eck:</div> Mas sempre é bom qdo se tem alguém com experiencia e paciência por perto pra perguntar as coisas</div>
+<div class='msg out' title='2017-11-06 17:45:50 -0200'>Comigo foi a mesma coisa. Aprendi muita coisa como autodidata e apenas em algumas poucas ocasiões eu tive quem me ajudasse. Talvez por isso mesmo que eu tenho tanto gosto por passar adiante o conhecimento às outras pessoas. Acho que é por que eu senti na pele a falta de alguém me orientando quando eu era mais jovem.</div>
+<div class='msg out' title='2017-11-06 17:48:00 -0200'>Alguns exemplos de exceções foram o Ricardo Bittencourt, o Spy, o Marco dal Poz e o Lucas Villa Real. Esses foram caras que me ensinaram muita coisa boa!</div>
+<div class='msg in' title='2017-11-06 17:48:35 -0200'><div class="author">Werner Eck:</div> eu valorizo cada pessoa q me ajudou na minha trilha. Não esqueço de nenhum até hj</div>
+<div class='msg out' title='2017-11-06 17:48:37 -0200'>E mais recentemente outras pessoas entraram nessa minha lista de &quot;gurus&quot;, como o Luciano Ramalho e o DQ.</div>
+<div class='msg in' title='2017-11-06 17:48:39 -0200'><div class="author">Werner Eck:</div> foram poucos</div>
+<div class='msg out' title='2017-11-06 17:48:59 -0200'>O Garoa Hacker Clube tem um poder de atrair essas pessoas boas, eu acho.</div>
+<div class='msg out' title='2017-11-06 17:49:17 -0200'>boas de bondade! Não apenas boas de técnica.</div>
+<div class='msg in' title='2017-11-06 17:49:21 -0200'><div class="author">Werner Eck:</div> é q gente q se interessa por aprender fazendo, normalmente é gente do bem</div>
+<div class='msg in' title='2017-11-06 17:50:01 -0200'><div class="author">Werner Eck:</div> pessoal q não tem preguiça de cair em cima de um negócio pra se aprofundar naquilo</div>
+<div class='msg out' title='2017-11-06 17:50:08 -0200'>yep!</div>
+<div class='msg out' title='2017-11-06 17:50:12 -0200'>esse é o espírito</div>
+<div class='msg out' title='2017-11-06 17:50:33 -0200'>vide nossos ultimos 4 ou 5 dias em cima desse terminal serial da Scopus</div>
+<div class='msg out' title='2017-11-06 17:50:42 -0200'>(e o Zezinho)</div>
+<div class='msg in' title='2017-11-06 17:54:10 -0200'><div class="author">Werner Eck:</div> pois é exatamente isso. A gente se deu bem logo de cara pq eu senti essa facilidade de chegar e entrar de sola dando palpites e vc corrigindo</div>
+<div class='msg in' title='2017-11-06 17:54:28 -0200'><div class="author">Werner Eck:</div> (e saber ouvir tbm é essencial)</div>
+<div class='msg in' title='2017-11-06 17:54:51 -0200'><div class="author">Werner Eck:</div> a gente só aprende coisas novas se souber escutar o outro lado. Tanto eu quanto vc fomos ninjas nisso.</div>
+<div class='msg in' title='2017-11-06 17:55:14 -0200'><div class="author">Werner Eck:</div> por isso a coisa flui tão naturalmente</div>
+<div class='msg out' title='2017-11-06 18:01:00 -0200'>Às vezes eu sou um pouco arrogante. Aconteceu de você falar a coisa certa e eu ignorar achando que tava errado. Mas um pouco depois me toquei. Eu tenho treinado ultimamente isso. Aprender a escutar melhor as pessoas.</div>
+<div class='msg out' title='2017-11-06 18:02:10 -0200'>Quando eu percebo que estou sendo um pouco arrogante eu fico com vergonha. E acho que é bom. Por que é um mecanismo bom pra eu evitar de fazer isso e me auto-policiar.</div>
+<div class='msg in' title='2017-11-06 18:02:33 -0200'><div class="author">Werner Eck:</div> hehehe</div>
+<div class='msg in' title='2017-11-06 18:02:49 -0200'><div class="author">Werner Eck:</div> só de vc falar isso já é sinal de q vc tem caráter.</div>
+<div class='msg in' title='2017-11-06 18:03:02 -0200'><div class="author">Werner Eck:</div> ninguém é santo</div>
+<div class='msg out' title='2017-11-06 18:03:23 -0200'>bom... chega de sessão de terapia</div>
+<div class='msg out' title='2017-11-06 18:03:25 -0200'>hahaha</div>
+<div class='msg in' title='2017-11-06 18:03:41 -0200'><div class="author">Werner Eck:</div> 👍 de vez em qdo faz bem.</div>
+<div class='msg in' title='2017-11-06 18:03:56 -0200'><div class="author">Werner Eck:</div> nada dito aqui poderá nem será usado contra vc</div>
+<div class='msg in' title='2017-11-06 18:04:03 -0200'><div class="author">Werner Eck:</div> 😀</div>
+<div class='msg out' title='2017-11-06 18:04:18 -0200'>ooops! <a target='_blank' href='https://garoa.github.io/Telegram_logs_Garoa_Hacker_Clube_Publico/formatted/html/'>https://garoa.github.io/Telegram_logs_Garoa_Hacker_Clube_Publico/formatted/html/</a></div>
+<div class='msg in' title='2017-11-06 18:06:18 -0200'><div class="author">Werner Eck:</div> pqp tá td lá, até ontem.</div>
+<div class='msg in' title='2017-11-06 18:06:42 -0200'><div class="author">Werner Eck:</div> ow vc assistiu o Blade Runner?</div>
+<div class='msg out' title='2017-11-06 18:06:49 -0200'>e estará todo o resto também</div>
+<div class='msg out' title='2017-11-06 18:07:38 -0200'>Assisti sim. Não me impressionou. Mas prefiro não bater papo sobre isso aqui nesse grupo ;-)</div>
+<div class='msg out' title='2017-11-06 18:07:42 -0200'>Manter o foco é bom</div>
+<div class='msg out' title='2017-11-06 18:07:57 -0200'>Para off-topics como esse pode me chamar em pvt</div>
+<div class='msg in' title='2017-11-06 18:13:11 -0200'><div class="author">Werner Eck:</div> ok</div>
+<div class='msg in' title='2017-11-06 18:13:37 -0200'><div class="author">Werner Eck:</div> tem um negócio pra te perguntar off mas não é sobre o filme.</div>
+<div class='msg out' title='2017-11-06 18:17:39 -0200'>ok. Segue aqui um script para concatenar páginas escaneadas de documentos em alta resolução, comprimindo e gerando um PDF lowres de tamanho razoável:</div>
+<div class='msg out' title='2017-11-06 18:17:40 -0200'><a target='_blank' href='https://github.com/felipesanches/Sistema_de_Programacao_Cross-Montador_para_um_Minicomputador__MariaAliceFerreira__1974/blob/master/PDF/make_pdf.sh'>https://github.com/felipesanches/Sistema_de_Programacao_Cross-Montador_para_um_Minicomputador__MariaAliceFerreira__1974/blob/master/PDF/make_pdf.sh</a><div class="webpage"><b>felipesanches/Sistema_de_Programacao_Cross-Montador_para_um_Minicomputador__MariaAliceFerreira__1974</b><br><br>Sistema_de_Programacao_Cross-Montador_para_um_Minicomputador__MariaAliceFerreira__1974 - Digitalização da tese de mestrado &quot;Sistema de Programação &#39;Cross-Montador&#39; para um Minicomputad...</div></div>
+<div class='msg out' title='2017-11-06 18:17:57 -0200'>Isso foi usado no processo de digitalização de vários dos documentos relacionados ao Patinho Feio</div>
+<div class='msg out' title='2017-11-06 18:19:24 -0200'>aqui nesse outro repo tem uma versão ligeiramente diferente desse script, sem uso do parametro rotate e com uma resolução final diferente: <a target='_blank' href='https://github.com/felipesanches/Automacao_de_Projetos_de_Sistemas_Digitais__Posicionamento_de_Componentes__Selma_Shimizu_1977/blob/master/PDF/make_pdf.sh'>https://github.com/felipesanches/Automacao_de_Projetos_de_Sistemas_Digitais__Posicionamento_de_Componentes__Selma_Shimizu_1977/blob/master/PDF/make_pdf.sh</a><div class="webpage"><b>felipesanches/Automacao_de_Projetos_de_Sistemas_Digitais__Posicionamento_de_Componentes__Selma_Shimizu_1977</b><br><br>Automacao_de_Projetos_de_Sistemas_Digitais__Posicionamento_de_Componentes__Selma_Shimizu_1977 - Escaneamento da dissertação de mestrado &quot;Automação de Projetos de Sistemas Digitais - Posicionam...</div></div>
+<div class='msg out' title='2017-11-06 18:19:51 -0200'>nitidamente o script não é genérico e foi editado caso a caso em função das necessidades de cada iniciativa de escaneamento</div>
+<div class='msg out' title='2017-11-06 18:20:16 -0200'>não é a ferramenta universal, mas é um ponto de partida pra se fazer esse tipo de manipulação de imagens</div>
+<div class='msg-service' title='2017-11-06 18:20:41 -0200'><div class=inner>Mon 2017-11-06, 18:06</div></div>
   	<div class='navigation-bottom'><a href="index.html">Back to index</a> | <a href='Arqueologia_Digital_e_Preserva%C3%A7%C3%A3o_Hist%C3%B3rica_por_meio_da_Emula%C3%A7%C3%A3o_de_Dispositivos_Eletr%C3%B4nicos-0.html'>Previous</a> | Page 2 | </div>
   </body>
 </html>
