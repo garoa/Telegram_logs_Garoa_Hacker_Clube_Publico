@@ -1,0 +1,45 @@
+[2017-03-20 13:00:32] Felipe "Juca" Sanches added Aylons Hazzud
+[2017-03-20 13:17:37] Aylons Hazzud: Olar
+[2017-03-20 13:18:33] Felipe "Juca" Sanches: Pessoal, o @aylons está planejando trabalhar com a gente numa réplica do Patinho Feio em FPGA
+[2017-03-20 13:18:52] Felipe "Juca" Sanches: a ser iniciada durante o Garoa Hacker Camp #1, dia primeiro de Abril de 2017
+[2017-03-20 13:19:55] Felipe "Juca" Sanches: Tiago @Belimawr , estamos pensando em usar o seu painel virtual para interfacear com a FPGA para visualizar o funcionamento dos circuitos sintetizados.
+[2017-03-20 13:20:54] Felipe "Juca" Sanches: E acho que seria bacana também fazer um segundo painel virtual mas com os LEDs daquela plaquinha de debugging que eu bolei (CDE3-DEBUG)
+[2017-03-20 13:21:33] Felipe "Juca" Sanches: https://forum.fiozera.com.br/uploads/default/original/1X/ae0938e568c11dd05c4785c647fd89d6f3fcbd1e.png
+[2017-03-20 13:24:24] Felipe "Juca" Sanches (in reply to Felipe "Juca" Sanches): @aylons Não sei se você tem acesso ao histórico de mensagens aqui do grupo, mas aqui está um screenshot do painel virtual
+[2017-03-20 13:24:50] Aylons Hazzud: Legal
+[2017-03-20 13:24:57] Aylons Hazzud: Vou ver como eu consigo interfacear com o codigo
+[2017-03-20 13:25:11] Felipe "Juca" Sanches: maravilha!
+[2017-03-20 13:25:42] Aylons Hazzud: Peguei uma placa de FPGA emprestada aqui no trabalho, coisa velha, mas deve servir bem
+[2017-03-20 13:31:54] Felipe "Juca" Sanches changed group photo
+[2017-03-20 13:35:30] Tiago Queiroz: Legal!
+
+Acho uma boa idéia
+[2017-03-20 13:36:05] Tiago Queiroz: Podemos.pegar um modelo dessa placa de debug tb e fazer virtual
+[2017-03-20 13:36:14] Tiago Queiroz: Só tem que ver como fica o.protocolo
+[2017-03-20 13:36:31] Aylons Hazzud: Como voce le que leds ficam acessos ou apagados no painel virtual?
+[2017-03-20 13:36:56] Tiago Queiroz: Não lembro de cabeça se já tem toda essa informação detalhada no emulador do arduino
+[2017-03-20 13:37:03] Tiago Queiroz: Pela porta serial
+[2017-03-20 13:37:17] Tiago Queiroz: Uma string gigante com 0s e 1s
+[2017-03-20 13:37:40] Aylons Hazzud: Ótimo, eu posso fazer a mesma coisa saindo da FPGA
+[2017-03-20 13:37:45] Tiago Queiroz: Não é a forma.mais eficiente... entretanto é rápido de fazer e funciona bem
+[2017-03-20 13:38:23] Tiago Queiroz: O vetor dos Leds está com a mesma configuração que Juca usou no emulador do arduino
+[2017-03-20 13:41:01] Aylons Hazzud: é, o mais eficiente seria transmitir binario, codificado em hexa, mas não precisa ser eficiente
+[2017-03-20 13:45:22] Tiago Queiroz: Exato
+[2017-03-20 13:45:34] Tiago Queiroz: Só precisa funcionar.
+[2017-03-20 13:46:02] Aylons Hazzud: Bem, preciso voltar ao trabalho, amanhã à noite devo ver isso.
+[2017-03-20 13:46:10] Tiago Queiroz: Depois quando Juca quiser muito a performance igual a do.patinho feio original a gente refatora as partes lentas.
+[2017-03-20 13:46:16] Tiago Queiroz: Blz
+[2017-03-20 14:03:49] Felipe "Juca" Sanches (in reply to Tiago Queiroz): eu cheguei a editar essa parte do protocolo. Agora tô mandando em 20 bytes de caracteres hexa (ou seja, 4 bits por caractere transmitido) em vez dos 80 bytes com 1 bit por caractere no esquema da string de zeros e uns
+[2017-03-20 14:05:03] Cássia Sampaio (in reply to Felipe "Juca" Sanches): 👌🏻
+[2017-03-20 14:05:54] Felipe "Juca" Sanches: A performance do painel virtual tá meio ruim, eu acho. Não tá claro se o gargalo é no protocolo de envio do status dos LEDs ou se é o processing que tem uma performance muito ruim pra renderizar. Só sei que a sensação visual é de que está perdendo "frames" da animação
+[2017-03-20 14:06:16] Cássia Sampaio: eu to meio away pq tive que deixar um projeto do trabalho pronto pra hoje, sugestões de uma parte pra eu pegar?
+[2017-03-20 14:07:06] Felipe "Juca" Sanches (in reply to Cássia Sampaio): ah, tem várias coisas. É um projeto que se abre em árvore, com inúmeras ramificações. Dá uma olhadinha de novo lá no wiki pra ver se algo te interessa
+[2017-03-20 14:07:14] Felipe "Juca" Sanches: http://garoa.net.br/wiki/Patinho_Feio
+[2017-03-20 14:07:48] Cássia Sampaio: demorou
+[2017-03-20 14:48:38] Tiago Queiroz (in reply to Felipe "Juca" Sanches): Legal, vou ver como ficou ^^
+[2017-03-20 14:49:26] Tiago Queiroz (in reply to Felipe "Juca" Sanches): O processing também não é muito performático... como eu só rodei com um delay grande no.emulador do arduino, eu não senti isso.
+[2017-03-20 14:50:09] Tiago Queiroz: Hoje a noite vou ver como.ficou r fazer algo.para ler.os inputs
+[2017-03-20 14:53:42] Felipe "Juca" Sanches (in reply to Tiago Queiroz): eu observei isso ao rodar no arduino a demo de piscar leds (e não a emulação passo-a-passo).
+[2017-03-20 20:40:45] Vinicius Mesel: Ai galera, eu não me comuniquei muito durante este tempo que eu estou no grupo pq estava ocupado, mas o Juca pediu para eu me apresentar. Para quem já me conhece, pode pular a msg... Eu sou Vinicius, estudo Engenharia da Computação
+[2017-03-20 21:38:44] Felipe "Juca" Sanches: 10 minutos atrás recebi um email do Alexandre Tabajara com o título: "ROMs do sistema 600 (raro, incrivelmente raro)", com as ROMs em anexo e com a seguinte descrição: "ROMs do sistema 600 da prologica. Teoricamente é um Intertec Superbrain com uma modificacao na placa (subistituicao do banco de 36 memorias 4116 para 8 memorias 4164, eliminando o -5V e o -12V da placa). Por favor, adicione ao pool do MAME." Alguém aqui se interessa em estudar mais sobre esse sistema e emulá-lo no MAME ?
+[2017-03-20 22:39:53] Felipe "Juca" Sanches: E ele também disse: "Eu to documentando o resto (semelhanças com o intertec superbrain), tela de boot, foto da placa, etc...Depois se quiser te passo."

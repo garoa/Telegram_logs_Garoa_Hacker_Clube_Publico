@@ -1,0 +1,657 @@
+[2017-11-05 00:02:09] Werner Eck: https://github.com/ppeccin/javatari.js
+[2017-11-05 00:02:30] Felipe "Juca" Sanches: Esse cara fez emulador de MSX também, se não me engano
+[2017-11-05 00:02:54] Werner Eck: sim
+[2017-11-05 00:03:13] Werner Eck: https://github.com/ppeccin/WebMSX
+[2017-11-05 00:03:21] Felipe "Juca" Sanches: exato!
+[2017-11-05 00:31:56] Felipe "Juca" Sanches: Esse trecho de código aqui logo no início do boot do sagitta180 (rom do 150) preenche a região de 0x8000 até 0x8fff (4kbytes) com o valor 0x20 (caractere espaço):
+[2017-11-05 00:32:04] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804726048_39811.jpg
+[2017-11-05 00:32:43] Felipe "Juca" Sanches: só não entendo pra que ele usa o contador no registrador C com o valor 2, que faz ele executar a escrita duas vezes
+[2017-11-05 00:33:33] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804722809_61130.jpg
+[2017-11-05 00:35:04] Werner Eck: vc já conseguiu parsear a rom pra conseguir obter já os opcodes e operandos separadamente?
+[2017-11-05 00:35:27] Werner Eck: ah já deve ter emulação da CPU 8080 pronta no MAME né?
+[2017-11-05 00:35:33] Felipe "Juca" Sanches: sim
+[2017-11-05 00:35:41] Werner Eck: vc não precisou fazer essa parte
+[2017-11-05 00:35:52] Felipe "Juca" Sanches: simplesmente instanciei o I8080 e carreguei a ROM nele
+[2017-11-05 00:36:01] Felipe "Juca" Sanches: e já tô com código rodando
+[2017-11-05 00:36:02] Werner Eck: certo, q nem no Zezinho
+[2017-11-05 00:36:06] Felipe "Juca" Sanches: isso
+[2017-11-05 00:36:12] Werner Eck: com tela e td?
+[2017-11-05 00:36:32] Felipe "Juca" Sanches: só que no caso do zezinho a gente escreveu a emulação da CPU. E nesse caso, usei um módulo de emulação que o MAME já tinha
+[2017-11-05 00:36:52] Werner Eck: tendi
+[2017-11-05 00:37:03] Felipe "Juca" Sanches: instanciei também o chip CRTC (gerador de vídeo) modelo I8275, da intel também. Que o MAME também emula
+[2017-11-05 00:37:13] Felipe "Juca" Sanches: e declarei que tem uma tela com alguma resolução chutada
+[2017-11-05 00:37:25] Werner Eck: onde ele decrementa esse registrador c?
+[2017-11-05 00:37:33] Felipe "Juca" Sanches: começando torto pra ir achando o caminho
+[2017-11-05 00:37:44] Werner Eck: e ele tá pegando direitinho a tela?
+[2017-11-05 00:37:45] Felipe "Juca" Sanches: instrução dcr c (decrement C register)
+[2017-11-05 00:38:04] Werner Eck: ah vdd não tinha visto ela
+[2017-11-05 00:38:17] Felipe "Juca" Sanches: então... ainda tá com a tela preta
+[2017-11-05 00:38:24] Werner Eck: pq daí então é só vc setar um breakpoint nessa linha e ir acompanhando
+[2017-11-05 00:38:34] Werner Eck: ele não escreve nada?
+[2017-11-05 00:38:46] Felipe "Juca" Sanches: eu botei uma ROM de CRTC de outro driver, por que a ROM do terminal eu ainda não consegui fazer odump
+[2017-11-05 00:38:52] Werner Eck: aaah
+[2017-11-05 00:39:01] Werner Eck: pode ser q aí esteja o cat's jump
+[2017-11-05 00:39:19] Felipe "Juca" Sanches: a tela tá preta por que o driver não tá correto. Mas a ROM do outro CRTC é razoável. Eu deveria ver algo.
+[2017-11-05 00:39:43] Felipe "Juca" Sanches: o MAME tem um modo de visualização de tiles que é ativado pressionando F4
+[2017-11-05 00:40:02] Werner Eck: e mesmo nesse modo, nada?
+[2017-11-05 00:40:28] Werner Eck: vc não conseguiria ver se ele está escrevendo os caracteres na memória de vídeo?
+[2017-11-05 00:40:31] Felipe "Juca" Sanches: e ele me mostra isso:
+[2017-11-05 00:40:38] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805512853_31540.jpg
+[2017-11-05 00:40:49] Werner Eck: tipo qdo a gente visualizou a RAM do zezinho
+[2017-11-05 00:41:07] Felipe "Juca" Sanches: sim, consigo. E ele está sim escrevendo a string lá
+[2017-11-05 00:41:11] Felipe "Juca" Sanches: deixa eu mostrar...
+[2017-11-05 00:42:19] Felipe "Juca" Sanches: Logo depois de encher o buffer de vídeo com 0x20, o código faz isso:
+[2017-11-05 00:42:25] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804722650_63194.jpg
+[2017-11-05 00:42:56] Felipe "Juca" Sanches: endereço 78: carrega registrador HL com o valor 0776
+[2017-11-05 00:43:10] Felipe "Juca" Sanches: endereço 7B: carrega registrador DE com valor 8334
+[2017-11-05 00:43:18] Felipe "Juca" Sanches: esses dois valores são ponteiros para memória
+[2017-11-05 00:43:18] Werner Eck: daí ele carrega o d, e entra numa espécie de loop
+[2017-11-05 00:43:23] Werner Eck: certo
+[2017-11-05 00:43:44] Felipe "Juca" Sanches: o endereço 8334 tá dentro daquele bloco de VRAM (entre 8000 e 8fff)
+[2017-11-05 00:43:45] Werner Eck: certo
+[2017-11-05 00:43:59] Felipe "Juca" Sanches: então parece que é onde ele vai escrever alguma coisa no vídeo
+[2017-11-05 00:44:13] Felipe "Juca" Sanches: e o outro endereço é na ROM (0x0776)
+[2017-11-05 00:44:19] Werner Eck: o q faz a instrução stax?
+[2017-11-05 00:44:41] Felipe "Juca" Sanches: inspecionando na janela de visualização de conteúdo da memória, olha só o que tem lá no endereço 0776 da ROM:
+[2017-11-05 00:45:12] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804722009_63906.jpg
+[2017-11-05 00:45:55] Werner Eck: 0x0776 deveria ímprimir o 'S'
+[2017-11-05 00:46:17] Felipe "Juca" Sanches: sim. Só que esse código aí é um loop
+[2017-11-05 00:46:18] Werner Eck: e daí segue incrementando
+[2017-11-05 00:46:22] Felipe "Juca" Sanches: que executa 0x23 vezes
+[2017-11-05 00:46:26] Werner Eck: eu notei
+[2017-11-05 00:46:29] Felipe "Juca" Sanches: que é o tamanho  da string
+[2017-11-05 00:46:48] Felipe "Juca" Sanches: então ele vai incrementando os ponteiros e faendo a cópia de um byte por vez da ROM para a VRAM
+[2017-11-05 00:46:49] Werner Eck: certo, q ele carregou lá no contador em 0x07f
+[2017-11-05 00:47:17] Werner Eck: agora pergunto, vc vê esses valores sendo escritos na RAM?
+[2017-11-05 00:47:26] Felipe "Juca" Sanches: compara com 0x23. Se for zero pula fora, senao continua
+[2017-11-05 00:47:31] Felipe "Juca" Sanches: sim, vejo
+[2017-11-05 00:48:30] Felipe "Juca" Sanches: depois de rodar o loop de escrita da string:
+[2017-11-05 00:48:33] Werner Eck: e essa área q está sendo preenchida com esses valores lidos da EPROM, é correspondente no MAME, à área de vram?
+[2017-11-05 00:48:36] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804721105_82131.jpg
+[2017-11-05 00:49:04] Felipe "Juca" Sanches: pois é... aí é que está o lance
+[2017-11-05 00:49:16] Felipe "Juca" Sanches: eu nunca tinha lidado com esse CRTC da Intel
+[2017-11-05 00:49:19] Werner Eck: a partir de 0x8334
+[2017-11-05 00:49:36] Felipe "Juca" Sanches (in reply to Werner Eck): exatamante  !
+[2017-11-05 00:49:52] Felipe "Juca" Sanches: ou seja, não é no topo do vídeo. Deve ficar um pouco mais pra baixo
+[2017-11-05 00:50:03] Werner Eck: eu perguntei pq penso se a 'janela' de visualização do CRT controller está alinhada com essa RAM aí
+[2017-11-05 00:50:10] Felipe "Juca" Sanches: por que o vídeo começa em 0x8000
+[2017-11-05 00:50:30] Felipe "Juca" Sanches: aparentemente não vemos nada ainda por que o CRTC não está configurado corretamente
+[2017-11-05 00:51:01] Werner Eck: ah certo, talvez ele precise de uma inicialização
+[2017-11-05 00:51:08] Felipe "Juca" Sanches: uma coisa curiosa desse CRTC da Intel que eu nunca tinha visto antes é que ele interfaceia com a RAM principal do sistema por meio de um mecanismo de DMA
+[2017-11-05 00:51:12] Werner Eck: eu tbm não conheço esse periférico.
+[2017-11-05 00:51:18] Werner Eck: teria q dar uma olhada no ds dele
+[2017-11-05 00:51:21] Felipe "Juca" Sanches: olha o datasheet dele aqui: http://www.jbox.dk/rc702/hardware/intel-8275.pdf
+[2017-11-05 00:51:54] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805514103_31745.jpg
+[2017-11-05 00:53:07] Felipe "Juca" Sanches: então, se entendi direito, o firmware pode configurar o CRTC pra usar alguma faixa de memória arbitrária como VRAM
+[2017-11-05 00:53:56] Werner Eck: é nessa área do bloco de DMA control logic é q está o pulo do gato
+[2017-11-05 00:54:14] Werner Eck: eu to dando uma olhada no ds q vc me mandou
+[2017-11-05 00:54:38] Felipe "Juca" Sanches: eu vi um trecho de código de boot do terminal que é MUITO suspeito e que acontece antes da rotina de limpar a tela com espaços:
+[2017-11-05 00:54:43] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804721454_81459.jpg
+[2017-11-05 00:55:18] Felipe "Juca" Sanches: isso aí escreve 0x8000 na porta 0x44 e depois escreve 0x8FFF na porta 0x45
+[2017-11-05 00:55:55] Felipe "Juca" Sanches: parece ser a configuração de faixa de endereços da VRAM, então suponho que o CRTC esteja mapeado nas portas de I/O 0x44 e 0x45
+[2017-11-05 00:56:43] Felipe "Juca" Sanches: por conta disso escrevi o seguinte no driver:
+[2017-11-05 00:56:50] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804730778_37572.jpg
+[2017-11-05 00:57:13] Felipe "Juca" Sanches: Mas não funcionou
+[2017-11-05 01:03:52] Werner Eck: dá uma olhada a partir da pg 17 desse ds
+[2017-11-05 01:06:07] Werner Eck: tbm isso aqui ó:
+[2017-11-05 01:06:11] Werner Eck sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804729789_40008.jpg
+[2017-11-05 01:06:15] Felipe "Juca" Sanches: Eu acho que o problema é o seguinte: o CRTC requisite uma operação de DMA para ler o conteúdo da VRAM. Quem recebe esse pedido é o chip controlador de DMA, o Intel 8257. Ele vai fazer a mágica dele e sinalizar de volta pro CRTC quando tiver terminado.
+[2017-11-05 01:07:17] Felipe "Juca" Sanches: então tem 3 coisas que meu driver de emulação precisa fazer direito simultaneamente: (A) mapear o CRTC nas portas de I/O corretas para que ele possa ser configurado pela CPU. Isso acho que já consegui sacar, por que parece óbvio que as portas são 0x44 e 0x45.
+[2017-11-05 01:07:34] Werner Eck: sim, seria o DRQ/DACK
+[2017-11-05 01:07:43] Felipe "Juca" Sanches: (B) mapear o chip controlador de DMA nas portas corretas (esse eu ainda não fiz)
+[2017-11-05 01:08:00] Felipe "Juca" Sanches: e (C) interconectar os 2 chips por meio dos dinais DRQ e DACk
+[2017-11-05 01:08:27] Werner Eck: pode ser q o 5 nem esteja sendo ativado ainda
+[2017-11-05 01:08:30] Felipe "Juca" Sanches: eu to tentando fazer (C), mas não sei se estou fazendo direito. Mas não adianta nada se eu não fizer (B) também.
+[2017-11-05 01:08:48] Felipe "Juca" Sanches: 5 ?
+[2017-11-05 01:09:07] Werner Eck: tentei editar e nao deixou
+[2017-11-05 01:09:09] Werner Eck: 8275
+[2017-11-05 01:09:15] Felipe "Juca" Sanches: ah ok
+[2017-11-05 01:09:41] Werner Eck: parece q o telegram tem problema qdo o texto tem mais de uma linha
+[2017-11-05 01:09:51] Werner Eck: pra editar, o cursor não sobe
+[2017-11-05 01:10:01] Felipe "Juca" Sanches: os números dos chips são muito parecidos. Um é 8275 o outro é 8257. É pra dar nó na cabeça. Prefiro me referir a eles como CRTC (o 75) e DMAC (o 57)
+[2017-11-05 01:10:10] Werner Eck: certo
+[2017-11-05 01:10:44] Werner Eck: eu penso q talvez o crtc nem esteja sendo ativado, pois seria ele quem deveria ler aquela janela de ram e sincronizar o display cm o conteudo
+[2017-11-05 01:11:07] Werner Eck: vc não teria como visualizar o status dos pinos dele ?
+[2017-11-05 01:11:16] Werner Eck: não sei se isso é possível
+[2017-11-05 01:11:17] Felipe "Juca" Sanches: olhando no código de boot vejo outros 2 endereços de I/O sendo usados, então só pode ser a configuração do DMAC:
+[2017-11-05 01:11:25] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804727843_37870.jpg
+[2017-11-05 01:11:33] Felipe "Juca" Sanches: nos endereços 0x30 e 0x31
+[2017-11-05 01:11:44] Felipe "Juca" Sanches: vou tentar mapear o DMAC nessas duas portas e ver no que dá
+[2017-11-05 01:12:02] Werner Eck: vai la
+[2017-11-05 01:13:08] Felipe "Juca" Sanches: ficou assim agora:
+[2017-11-05 01:13:14] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804730481_38687.jpg
+[2017-11-05 01:13:35] Werner Eck: rodou já?
+[2017-11-05 01:14:24] Felipe "Juca" Sanches: compilando e tentando rodar
+[2017-11-05 01:17:26] Felipe "Juca" Sanches: então... nada ainda.
+[2017-11-05 01:17:49] Felipe "Juca" Sanches: Estou um pouco confuso sobre o mecanismo de interconexão dos sinais de DMA request e ACK
+[2017-11-05 01:18:11] Werner Eck: existe no debugger algum jeito de vc monitorar certos sinais q vão pro crtc em tempo real?
+[2017-11-05 01:18:15] Felipe "Juca" Sanches: o MAME oferece algumas macros que parecem sugerir que há tipos distintos de requisições, para IO ou acesso de memória
+[2017-11-05 01:18:31] Felipe "Juca" Sanches: e também parece que tem mais de um sinal de requisição possível para requisição
+[2017-11-05 01:18:36] Werner Eck: q nem a gente estava fazendo com o PC, ACC do zezinho?
+[2017-11-05 01:18:54] Felipe "Juca" Sanches: seria prudente agora eu ler o datasheet do DMAC pra entender o que significam os 4 bytes que o firmware escreveu na configuração
+[2017-11-05 01:19:05] Werner Eck: acredito q sim
+[2017-11-05 01:19:26] Felipe "Juca" Sanches (in reply to Felipe "Juca" Sanches): Esses valores aqui
+[2017-11-05 01:20:39] Felipe "Juca" Sanches: então é esse cara que temos que estudar agora: http://www.threedee.com/jcm/terak/docs/Intel%208257%20Programmable%20DMA%20Controller.pdf
+[2017-11-05 01:21:12] Werner Eck: talvez esses 4 valores q ele joga no &0x30 seja algum handshake
+[2017-11-05 01:21:45] Felipe "Juca" Sanches: os 4 valores são a inicialização do DMAC
+[2017-11-05 01:22:16] Felipe "Juca" Sanches: eles devem especificar, por exemplo, as prioridades de tratamento dos pedidos de transferencia
+[2017-11-05 01:24:06] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804729151_40381.jpg
+[2017-11-05 01:24:19] Werner Eck: tava pra te mandar isso!
+[2017-11-05 01:24:22] Werner Eck: exatamente isso
+[2017-11-05 01:24:33] Felipe "Juca" Sanches: Essa descrição do DMAC me faz acreditar que talvez os endereços 0x8000 e 0x8FFF são escritos no DMAC
+[2017-11-05 01:24:36] Felipe "Juca" Sanches: e não no CRTC
+[2017-11-05 01:24:42] Werner Eck: dois registradores, um de endereçamento e outro de contagem
+[2017-11-05 01:24:44] Felipe "Juca" Sanches: então vou inverter o mapeamento
+[2017-11-05 01:25:15] Werner Eck: vc vai jogar o 8000 e 8fff no dma e o 30 e 31 no crtc?
+[2017-11-05 01:25:16] Felipe "Juca" Sanches: por que aqueles valores dos endereços 30 e 31 devem ser configuração de resolução da tela e tamanho dos caracteres do CRTC
+[2017-11-05 01:25:52] Werner Eck: de onde vc tirou isso?
+[2017-11-05 01:26:30] Felipe "Juca" Sanches: vou trocar o mapeamento dos chips: botar DMAC nas portas de I/O 44 e 45 (que é onde o firmware escreve 0x8000 e 0x8fff) e CRTC nas portas 30 e 31 (que é onde ofw escreve aqueles outros valores)
+[2017-11-05 01:26:37] Felipe "Juca" Sanches (in reply to Werner Eck): intuição
+[2017-11-05 01:26:42] Werner Eck: hahha
+[2017-11-05 01:26:45] Werner Eck: entendi
+[2017-11-05 01:27:03] Werner Eck (in reply to Felipe "Juca" Sanches): vdd
+[2017-11-05 01:27:09] Werner Eck: tenta lá
+[2017-11-05 01:27:52] Felipe "Juca" Sanches: epa ! O bicho soluçou aqui hahaha
+[2017-11-05 01:27:58] Werner Eck: opa!
+[2017-11-05 01:28:02] Werner Eck: manda print ae
+[2017-11-05 01:28:12] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804730735_38759.jpg
+[2017-11-05 01:29:10] Werner Eck: umm, pode ser muita coisa
+[2017-11-05 01:29:40] Werner Eck: pergunto ainda, se o crtc está sendo acionado corretamente
+[2017-11-05 01:30:41] Felipe "Juca" Sanches: veja que o simbolo que se repete é o símbolo número zero
+[2017-11-05 01:31:10] Felipe "Juca" Sanches (in reply to Felipe "Juca" Sanches): de acordo com essa visualização dos tiles disponíveis
+[2017-11-05 01:31:47] Werner Eck: umm
+[2017-11-05 01:32:33] Werner Eck: outra coisa, se o simbolo q aparece é sempre repetido, ele tbm não está incrementando o contador de caracteres
+[2017-11-05 01:32:40] Werner Eck: é o q parece
+[2017-11-05 01:32:52] Felipe "Juca" Sanches: ou está lendo outra região da RAM
+[2017-11-05 01:32:58] Felipe "Juca" Sanches: fora da faixa de VRAM
+[2017-11-05 01:32:59] Werner Eck: ou isso
+[2017-11-05 01:33:02] Felipe "Juca" Sanches: onde tá tudo zero
+[2017-11-05 01:33:10] Werner Eck: pode ser muita coisa
+[2017-11-05 01:33:40] Werner Eck: suponhamos q eles dois estejam se falando direitinho agora, e a questão seja mudar a janela
+[2017-11-05 01:33:55] Werner Eck: seria o cenário mais "fácil" de resolver
+[2017-11-05 01:34:30] Werner Eck: mas eu novamente pergunto, como a gente sabe se ele está lendo a partir de outro endereço qq?
+[2017-11-05 01:34:42] Werner Eck: tem como visualizar isso no debugger?
+[2017-11-05 01:35:01] Werner Eck: pq senão vc vai ter q ir na tentativa e erro, mudando o valor do ender...
+[2017-11-05 01:35:11] Werner Eck: vc mudou os valores que ele guardava nos registradores?
+[2017-11-05 01:35:24] Werner Eck: vc inverteu os registradores dos dois chips
+[2017-11-05 01:35:36] Werner Eck: e os valores 8000 e 8fff?
+[2017-11-05 01:35:57] Felipe "Juca" Sanches: os valores 8000 e 8fff são escritos no chip pelo firmware
+[2017-11-05 01:36:01] Werner Eck: estão sendo armazenados em qual dos dois pares de registradores?
+[2017-11-05 01:36:06] Felipe "Juca" Sanches: isso é um fato. Nao tem que ser mudado
+[2017-11-05 01:36:12] Werner Eck: tá
+[2017-11-05 01:36:23] Werner Eck: então...
+[2017-11-05 01:36:51] Felipe "Juca" Sanches: vou voltar a ler o datasheet pra entender melhor o mecanismo de programação desses dois chips e interpretar os valores que o firmware escreve
+[2017-11-05 01:37:05] Felipe "Juca" Sanches: por que o firmware está dizendo pra gente e a gente não tá querendo ler
+[2017-11-05 01:37:31] Felipe "Juca" Sanches (in reply to Felipe "Juca" Sanches): a resposta está aqui. É só interpretar o que significa com base no datasheet
+[2017-11-05 01:38:28] Felipe "Juca" Sanches: E acabei de perceber que cortei errado essa imagem. Ficou faltando mostrar o primeiro valor que é enviado para a porta 31
+[2017-11-05 01:39:44] Felipe "Juca" Sanches: o valor é zero, por que a instrução logo antes de out 31 é "XRA A" que, se não me engano é A <= A XOR A, que equivale a A=0
+[2017-11-05 01:40:24] Werner Eck: eu to com uma suspeita
+[2017-11-05 01:40:34] Felipe "Juca" Sanches: então a resposta tem que estar aqui:
+[2017-11-05 01:40:39] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805514450_32069.jpg
+[2017-11-05 01:41:00] Werner Eck: de q esses 4 valores jogados no &30 possam estar inicializando os 4 modos de dma
+[2017-11-05 01:43:04] Werner Eck: poderia ser ou o crtc jogando DRQ0~DRQ3 pro dma ou o dma jogando dack0~dack3 pro crtc
+[2017-11-05 01:43:13] Werner Eck: eu to meio confuso
+[2017-11-05 01:44:03] Felipe "Juca" Sanches: não... esses valores aí são a inicialização do CRTC
+[2017-11-05 01:44:09] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804727691_39789.jpg
+[2017-11-05 01:44:41] Felipe "Juca" Sanches: a primeira escrita é em 0x31 (bit A0=1) e o valor é zero, ou seja, trata-se desse comando aí da tabela acima, o comando de reset do CRTC
+[2017-11-05 01:45:00] Felipe "Juca" Sanches: e os 4 bytes seguintes são escritos em 0x30 (bit A0=0)
+[2017-11-05 01:45:30] Felipe "Juca" Sanches: então o primeiro byte é 4F = 0100 1111 = S H H H H H H H
+[2017-11-05 01:45:45] Felipe "Juca" Sanches: então S=0 e H = 4f
+[2017-11-05 01:46:17] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804721546_82071.jpg
+[2017-11-05 01:47:03] Felipe "Juca" Sanches: S=0 significa "Normal Rows" (isso provavelmente significa que não há 1 ou mais pixels de espaçamento entre os tiles)
+[2017-11-05 01:47:56] Felipe "Juca" Sanches: e H=4f significa que temos 0x50 caracteres por linha
+[2017-11-05 01:48:03] Felipe "Juca" Sanches: veja que soma 1 ao valor
+[2017-11-05 01:48:18] Felipe "Juca" Sanches: 0x50 = 80 caracteres por linha
+[2017-11-05 01:48:52] Felipe "Juca" Sanches: oras bolas... é um terminal de 80 colunas :-)
+[2017-11-05 01:49:30] Felipe "Juca" Sanches: veja, inclusive, na tabela acima, que 80 é o maior valor permitido.
+[2017-11-05 01:49:46] Felipe "Juca" Sanches: e tá lá justamente o nosso 4F na tabela
+[2017-11-05 01:49:51] Werner Eck: e 4f=79
+[2017-11-05 01:50:02] Werner Eck: 0x4f = 79d
+[2017-11-05 01:50:02] Felipe "Juca" Sanches: ele soma 1 sempre
+[2017-11-05 01:50:30] Felipe "Juca" Sanches: o valor zero significa 1 caractere por coluna e assim por diante. Veja de novo os valores da tabela
+[2017-11-05 01:51:00] Felipe "Juca" Sanches: o chip interpreta a configuração como (valor+1)
+[2017-11-05 01:52:34] Felipe "Juca" Sanches: o segundo byte é 0x59 = V V R R R R R R
+[2017-11-05 01:52:54] Felipe "Juca" Sanches: 0x59 = 0101 1001
+[2017-11-05 01:53:16] Felipe "Juca" Sanches: V = 1 e R = 25
+[2017-11-05 01:53:18] Werner Eck (in reply to Felipe "Juca" Sanches): vc quer dizer, 1 char por linha?
+[2017-11-05 01:53:41] Werner Eck: to tentando ler essa parte
+[2017-11-05 01:54:23] Felipe "Juca" Sanches (in reply to Felipe "Juca" Sanches): ok... vamos olhar para a tabela de novo
+[2017-11-05 01:55:38] Felipe "Juca" Sanches: caso esse parâmetro tivesse recebido uma escrita do valor 0x00 = 0 0 0 0 0 0 0 0 , isso significaria 1 char por linha (que é bizarro, mas parece que o chip suporta esses casos degenerados)
+[2017-11-05 01:56:04] Felipe "Juca" Sanches: isso provavelmente seria um caractere grandão, esticadão na horizontal
+[2017-11-05 01:56:15] Felipe "Juca" Sanches: pra um único caractere ser desenhado em uma linha inteira
+[2017-11-05 01:56:31] Felipe "Juca" Sanches: mas o que o firmware do sagitta configura é 4F
+[2017-11-05 01:57:06] Felipe "Juca" Sanches: que é o valor binário 1 0 0 1 1 1 1, que, apesar de em decimal valer 79, na tabela ele mostra que o chip interpreta como sendo 80 chars por linha
+[2017-11-05 01:57:18] Werner Eck: e os outros valores, $59, $99, $ee?
+[2017-11-05 01:57:29] Felipe "Juca" Sanches: ok... vamos pros outros 3 valores
+[2017-11-05 01:57:46] Felipe "Juca" Sanches: o segundo valor é 0x59 = 0 1 0 1 1 0 0 1
+[2017-11-05 01:58:30] Felipe "Juca" Sanches: que segundo a tabela corresponde aos valores dos parâmetros V V R R R R R R
+[2017-11-05 01:58:45] Felipe "Juca" Sanches: V = 1 e R = 25
+[2017-11-05 01:59:00] Felipe "Juca" Sanches: e o significado desses valores:
+[2017-11-05 01:59:05] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804722079_62639.jpg
+[2017-11-05 01:59:22] Werner Eck: são esses parametros V e R q eu não estou achando
+[2017-11-05 01:59:38] Werner Eck: é q vc deve estar com esse pdf em várias abas
+[2017-11-05 01:59:46] Felipe "Juca" Sanches: R = rows / frame
+[2017-11-05 02:00:33] Felipe "Juca" Sanches: tá na parte debaixo da página 17 (que é identificada como página 8-239)
+[2017-11-05 02:01:02] Werner Eck: acabei de me dar conta de q tá td ali na msm pag, eu q comi bola
+[2017-11-05 02:01:54] Werner Eck: Eu quero pensar q essa parte de inicialização do CRTC esteja funcionando
+[2017-11-05 02:02:07] Felipe "Juca" Sanches: yep
+[2017-11-05 02:02:11] Felipe "Juca" Sanches: parece tudo perfeito
+[2017-11-05 02:02:23] Felipe "Juca" Sanches: por que esse valor R = 25 é o que nos diz que a tela tem 25 linhas
+[2017-11-05 02:02:30] Felipe "Juca" Sanches: ou seja é um terminal em resolução 80x25
+[2017-11-05 02:02:37] Felipe "Juca" Sanches: resolução bem típica
+[2017-11-05 02:02:43] Werner Eck: uma coisa q me chamou a atenção é esse parametro M
+[2017-11-05 02:03:35] Werner Eck: parece ser um offset para o contador de linhas. Mas pensando melhor, acho q nao tem nada a ver com nada
+[2017-11-05 02:03:43] Werner Eck: entao, voltamos ao estado de...
+[2017-11-05 02:03:58] Werner Eck: parece q a inicialização do CRTC se dá ali mesmo
+[2017-11-05 02:04:22] Werner Eck: talvez então, ele não esteja lendo a área certa?
+[2017-11-05 02:05:25] Werner Eck: ou os caracteres lidos não estejam sendo escritos na área de VRAM q o CRTC espera? Mas se isso está codificado na EPROM, então é lá mesmo q tem q ser
+[2017-11-05 02:06:08] Werner Eck: será q estamos setando o CRTC para o range de endereçamento de VRAM certo?
+[2017-11-05 02:09:01] Felipe "Juca" Sanches: eu acho que a transferência DMA não está acontecendo
+[2017-11-05 02:09:21] Felipe "Juca" Sanches: por que o emulador não está interligando corretamente os sinais entre o DMAC e o CRTC
+[2017-11-05 02:09:43] Felipe "Juca" Sanches: e o efeito colateral é que o CRTC é inicializado, mas sua memória interna tem um buffer todo cheio de zeros
+[2017-11-05 02:09:58] Felipe "Juca" Sanches: e ele nunca consegue efetuar uma leitura via DMA
+[2017-11-05 02:10:10] Felipe "Juca" Sanches: e portanto a gente continua vendo o caractere número zero na tela inteira
+[2017-11-05 02:10:38] Felipe "Juca" Sanches: acho que o ponto agora é estudar o mecanismo de requisição e acknowledge de transferência DMA
+[2017-11-05 02:11:26] Felipe "Juca" Sanches: o endereço inicial e final também devem estar sendo configurados corretamente, pois já mapeei o DMAC nas portas 44 e 45 que é onde o firmware escreve 8000 e 8fff que é a faixa de endereços da VRAM
+[2017-11-05 02:12:09] Felipe "Juca" Sanches: acho que já matamos a xarada do mapeamento em I/O e o nó está agora na emulação da interconexão dos 2 chips.
+[2017-11-05 02:13:20] Felipe "Juca" Sanches: tem um outro carinha na jogada que é o Intel 8212
+[2017-11-05 02:13:46] Felipe "Juca" Sanches: tem um desses na placa e o datasheet do DMAC diz que ele é projetado pra trabalhar junto com um 8212
+[2017-11-05 02:13:51] Werner Eck: ele existe no sagitta?
+[2017-11-05 02:13:54] Felipe "Juca" Sanches: sim
+[2017-11-05 02:14:03] Werner Eck: eu tava vendo isso no ds do crt
+[2017-11-05 02:14:57] Werner Eck: veja na pg 2-112
+[2017-11-05 02:15:49] Werner Eck: e depois pg 2-111, fig 8
+[2017-11-05 02:19:00] Werner Eck: e o 8212 é um latch de 8 bits
+[2017-11-05 02:19:30] Werner Eck: se vc disse q tem ele na placa, teria q emular o bicho tbm
+[2017-11-05 02:19:53] Werner Eck: ele deve estar entre o barramento de dados e o crtc
+[2017-11-05 02:36:48] Felipe "Juca" Sanches: A configuração do DMAController é meio confusa no MAME. Olha um exemplo de um driver de outro computador que usa esse chip. Olha como ficam as macros:
+[2017-11-05 02:36:54] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804727670_38379.jpg
+[2017-11-05 02:37:06] Felipe "Juca" Sanches: Tenho que entender melhor a função de cada sinal
+[2017-11-05 02:37:14] Felipe "Juca" Sanches: pra não ficar perdido
+[2017-11-05 02:37:30] Felipe "Juca" Sanches: não adianta chutar. O importante é entender o que está acontecendo :-)
+[2017-11-05 02:37:41] Felipe "Juca" Sanches: Vou dormir. Amanhã eu devo continuar nessa pesquisa
+[2017-11-05 02:38:10] Felipe "Juca" Sanches: em última instância, dá pra ir lá na USP com um multímetro e verificar quais são as interligações que foram feitas entre os chips
+[2017-11-05 02:38:24] Felipe "Juca" Sanches: boa noite!
+[2017-11-05 02:39:09] Werner Eck: boa noite!
+[2017-11-05 02:48:25] Felipe "Juca" Sanches: uma observação, entretanto...
+[2017-11-05 02:49:38] Felipe "Juca" Sanches: apesar de vermos os endereços de I/O 44 e 45 sendo usados, o chip DMAC provavelmente está mapeado nas portas de 0x40 até 0x48
+[2017-11-05 02:50:03] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804726878_39715.jpg
+[2017-11-05 02:50:26] Felipe "Juca" Sanches: e o acesso a 44 e 45 é a configuração do canal número 2
+[2017-11-05 02:50:52] Felipe "Juca" Sanches: e, de fato tem uma escrita que o firmware faz no endereço 0x48
+[2017-11-05 02:50:56] Felipe "Juca" Sanches: eu tava comendo bola
+[2017-11-05 02:51:20] Felipe "Juca" Sanches: vou mapear nesse range, por que assim a escrita em 0x48 vai setar o modo de operação da DMA
+[2017-11-05 02:51:24] Felipe "Juca" Sanches: caramba... acho que é isso
+[2017-11-05 02:51:33] Werner Eck: quer tentar?
+[2017-11-05 02:52:01] Felipe "Juca" Sanches: estou tentando
+[2017-11-05 02:53:23] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804724205_56977.jpg
+[2017-11-05 02:53:30] Felipe "Juca" Sanches: olha a escrita em 0x48 alí
+[2017-11-05 02:53:39] Felipe "Juca" Sanches: tá escrevendo o valor 0xC4
+[2017-11-05 02:53:47] Felipe "Juca" Sanches: vamos ver o que é esse valor ?
+[2017-11-05 02:54:38] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804729055_39275.jpg
+[2017-11-05 02:54:59] Werner Eck: acabei de chegar nisso
+[2017-11-05 02:55:25] Felipe "Juca" Sanches: o valor 4 do número 0xC4 são aqueles 4 bits baixos de enable dos canais
+[2017-11-05 02:55:30] Felipe "Juca" Sanches: 4 = 0 1 0 0
+[2017-11-05 02:55:37] Felipe "Juca" Sanches: ou seja, todos os canais estão desabilitados
+[2017-11-05 02:55:42] Felipe "Juca" Sanches: exceto o canal número 2
+[2017-11-05 02:55:43] Werner Eck: c4=11000100
+[2017-11-05 02:56:46] Felipe "Juca" Sanches: isso é a prova de que o sinal de DMA Request que o chip CRTC precisa enviar para o DMAC é por meio do canal 2.
+[2017-11-05 02:58:52] Felipe "Juca" Sanches: É por isso que eu estou mantendo essa linha assim:
+[2017-11-05 02:58:59] Felipe "Juca" Sanches sent document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_5184080467493650480.png
+[2017-11-05 02:59:33] Felipe "Juca" Sanches: MCFG_I8275_DRQ_CALLBACK(DEVWRITELINE("dma8257" , i8257_device , dreq2_w))
+[2017-11-05 02:59:33] Werner Eck: dreq2
+[2017-11-05 02:59:46] Werner Eck: write
+[2017-11-05 03:00:37] Felipe "Juca" Sanches: dreq2_w é o método do emulador do DMAC que vocÊ precisa chamar para sinalizar uma requisição de DMA para o canal #2
+[2017-11-05 03:00:51] Werner Eck: entendi
+[2017-11-05 03:00:58] Werner Eck: imaginei q seria isso
+[2017-11-05 03:01:37] Felipe "Juca" Sanches: veja que essa macro configura que o DRQ emitido pelo CRTC chama um callback que sinaliza um dma request no canal 2 do DMAC
+[2017-11-05 03:02:14] Felipe "Juca" Sanches: levou um tempinho até eu entender essa sintaxe
+[2017-11-05 03:05:37] Werner Eck: agora sabemos q ele está setando o modo dma no canal 2, para isso o CRTC precisa requisitar nesse canal
+[2017-11-05 03:05:46] Felipe "Juca" Sanches: sim
+[2017-11-05 03:05:49] Felipe "Juca" Sanches: não tá funcionando ainda, mas foi bom eu ter tido essa sacada
+[2017-11-05 03:06:09] Felipe "Juca" Sanches: se eu continuasse mapeando em 44 e 45 apenas, jamais iria funcionar
+[2017-11-05 03:06:26] Felipe "Juca" Sanches: precisa mapear no intervalo todo, pra que o firmware consiga configurar o chip de DMA
+[2017-11-05 03:06:30] Felipe "Juca" Sanches: na porta 48
+[2017-11-05 03:07:02] Werner Eck: vdd
+[2017-11-05 03:07:11] Werner Eck: bom, eu realmente preciso descansar
+[2017-11-05 03:07:21] Werner Eck: já to vendo névoa na minha frente
+[2017-11-05 03:07:38] Werner Eck: boa noite, vou nessa.
+[2017-11-05 03:07:48] Felipe "Juca" Sanches: tem uns outros bandidos que são as portas 0x21, 0x00 e 0x50
+[2017-11-05 03:08:05] Felipe "Juca" Sanches: o firmware acessa esses outros endereços logo no começo
+[2017-11-05 03:08:09] Felipe "Juca" Sanches: então aí tem coisa também
+[2017-11-05 03:08:19] Felipe "Juca" Sanches: talvez seja o setup do chip de RS232
+[2017-11-05 03:08:30] Werner Eck: amanhã podemos ver isso
+[2017-11-05 03:08:38] Felipe "Juca" Sanches: beleza
+[2017-11-05 03:08:45] Werner Eck: 👍
+[2017-11-05 03:09:04] Felipe "Juca" Sanches: eu posso também em algum momento dar um commit e subir pro meu github esse código atual do driver pela metade
+[2017-11-05 03:09:42] Felipe "Juca" Sanches: boa noite
+[2017-11-05 03:09:43] Felipe "Juca" Sanches: e happy hacking!
+[2017-11-05 03:44:56] Felipe "Juca" Sanches: BOOOM !!!!
+[2017-11-05 03:45:02] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804724025_59408.jpg
+[2017-11-05 03:52:11] Felipe "Juca" Sanches: https://github.com/mamedev/mame/pull/2776
+[2017-11-05 03:52:23] Felipe "Juca" Sanches: Agora sim! Agora posso ir dormir :-)
+[2017-11-05 10:40:46] Felipe "Juca" Sanches: http://www.linusakesson.net/programming/tty/
+[2017-11-05 11:47:35] Werner Eck: Eae maluco?!!
+[2017-11-05 11:47:43] Werner Eck: Fala, o q era?
+[2017-11-05 11:53:41] Felipe "Juca" Sanches: hehe
+[2017-11-05 11:53:49] Felipe "Juca" Sanches: burocracias do MAME
+[2017-11-05 11:54:04] Werner Eck: jura??
+[2017-11-05 11:54:12] Werner Eck: to olhando lá o seu commit
+[2017-11-05 11:54:16] Felipe "Juca" Sanches: tinha faltado eu implementar explicitamente o mecanismo de leitura de memória
+[2017-11-05 11:54:27] Werner Eck: putaqueospa
+[2017-11-05 11:54:34] Felipe "Juca" Sanches: pra ser sincero... eu não entendi direito tudo ainda
+[2017-11-05 11:54:38] Werner Eck: não era nada técnico no final das contas
+[2017-11-05 11:54:54] Felipe "Juca" Sanches: mais ou menos...
+[2017-11-05 11:55:02] Werner Eck: me fala, os endereços dos registradores de dma e do crtc estavam certos no fim?
+[2017-11-05 11:55:08] Felipe "Juca" Sanches: sim
+[2017-11-05 11:55:23] Felipe "Juca" Sanches: agora o próximo passo é fazer a serial funcionar
+[2017-11-05 11:55:44] Werner Eck: tem q emular o uart
+[2017-11-05 11:55:47] Felipe "Juca" Sanches: suspeito que o controlador de porta serial esteja mapeado no endereço 0x21
+[2017-11-05 11:56:02] Felipe "Juca" Sanches: já instanciei o módulo de emulação de UART
+[2017-11-05 11:56:03] Werner Eck: se já tiver ele no MAME, meio caminho andado...
+[2017-11-05 11:56:07] Felipe "Juca" Sanches: falta configurar
+[2017-11-05 11:56:11] Felipe "Juca" Sanches: sim, já tem
+[2017-11-05 11:56:16] Felipe "Juca" Sanches: essas coisas são muito comuns
+[2017-11-05 11:56:31] Felipe "Juca" Sanches: o MAME é extremamente modular e certamente algum outro driver já usou esses chips todos
+[2017-11-05 11:56:34] Werner Eck: daí é pegar no ds pra saber como é a inicialização né? E comparar padrões na EPROM pra encontrar isso
+[2017-11-05 11:56:45] Felipe "Juca" Sanches: é
+[2017-11-05 11:56:48] Felipe "Juca" Sanches: é por aí
+[2017-11-05 11:57:04] Werner Eck: vc já desconfia de onde tenha isso na EPROM?
+[2017-11-05 11:57:08] Werner Eck: de tanto olhar
+[2017-11-05 11:57:51] Felipe "Juca" Sanches: estou suspeitando desse código aqui:
+[2017-11-05 11:57:56] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804728373_38609.jpg
+[2017-11-05 11:58:09] Felipe "Juca" Sanches: portas 0x21 e 0x00
+[2017-11-05 11:59:04] Werner Eck: parece ser bem semelhante ao dma... ele joga 3 valores na $21
+[2017-11-05 11:59:16] Werner Eck: deve estar setando alguns modos
+[2017-11-05 11:59:39] Werner Eck: é o q lembra, daquilo q vimos ontem. Qual o código do chip SPI?
+[2017-11-05 12:01:00] Werner Eck: 8251?
+[2017-11-05 12:02:32] Werner Eck: Isso aqui é interessante ter como referencia: https://en.wikichip.org/wiki/intel/mcs-80
+[2017-11-05 12:06:44] Werner Eck: cara, ontem eu vi isso aqui, achei deveras interessante só q acabei não postando: https://www.ebay.com/itm/Cray-2-Memory-Board-w-Lucite-Certificate-1985-SuperComputer-Module/111930874500?_trkparms=aid%3D111001%26algo%3DREC.SEED%26ao%3D1%26asc%3D20160727114228%26meid%3Dd5e5bcf895b443499abcbe358a3a491e%26pid%3D100290%26rk%3D3%26rkt%3D4%26sd%3D202076573924&_trksid=p2060778.c100290.m3507
+[2017-11-05 12:21:31] Felipe "Juca" Sanches (forwarded from Fractal) sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805513861_31392.jpg
+[2017-11-05 12:21:31] Felipe "Juca" Sanches (forwarded from Fractal) sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804728184_40283.jpg
+[2017-11-05 12:27:15] Werner Eck sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804723432_59464.jpg
+[2017-11-05 12:28:13] Werner Eck sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804725211_59181.jpg
+[2017-11-05 12:29:24] Werner Eck sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804728269_38935.jpg
+[2017-11-05 12:30:40] Werner Eck sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804728655_39173.jpg
+[2017-11-05 13:03:30] Werner Eck: Se o 8251 for mapeado em $21, então a primeira palavra seta o modo assíncrono: 0x7A=01 11 10 10: 1 stop bit; paridade: habilitada, par; compr. palavra: 7 bits; fator baud rate: 16x
+[2017-11-05 13:05:19] Werner Eck: O q segue deve ser a instrução de comando seguida de dados. To lendo essa parte para entender
+[2017-11-05 13:06:22] Felipe "Juca" Sanches: acho q é mapeado em 0x20 e 0x21
+[2017-11-05 13:07:57] Werner Eck: dois endereços?
+[2017-11-05 13:08:04] Felipe "Juca" Sanches: sim
+[2017-11-05 13:08:44] Felipe "Juca" Sanches: um pra dados e outro pra comandos
+[2017-11-05 13:08:51] Felipe "Juca" Sanches: é um setup comum de vários dispositivos
+[2017-11-05 13:09:01] Felipe "Juca" Sanches: usar o bit de endereço zero para diferenciar entre duas portas
+[2017-11-05 13:09:23] Werner Eck: isso é padrão do MAME?
+[2017-11-05 13:09:27] Felipe "Juca" Sanches: não
+[2017-11-05 13:09:33] Felipe "Juca" Sanches: isso é padrão de design de hardware
+[2017-11-05 13:09:53] Werner Eck: q estranho... não me soa familiar isso\
+[2017-11-05 13:10:24] Werner Eck: Se quero endereçar um periférico, uso um endereço, no qual ele está mapeado...
+[2017-11-05 13:10:49] Felipe "Juca" Sanches: muitos periféricos usam multiplos endereços
+[2017-11-05 13:10:52] Felipe "Juca" Sanches: é comum isso
+[2017-11-05 13:11:28] Werner Eck: bom. vc acha q faz algum sentido o q eu falei aí atrás?
+[2017-11-05 13:12:00] Felipe "Juca" Sanches: acho que faz um pouco
+[2017-11-05 13:12:08] Felipe "Juca" Sanches: mas não acho que seja na porta 21
+[2017-11-05 13:12:21] Felipe "Juca" Sanches: acho que ele está mapeando dados na 20 e comandos na 21
+[2017-11-05 13:13:08] Werner Eck (in reply to Felipe "Juca" Sanches): é q eu estava baseando a minha análise nisso q vc falou
+[2017-11-05 13:13:32] Werner Eck sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804723228_60349.jpg
+[2017-11-05 13:13:59] Werner Eck: só vejo ele escrever no $21 nesse snippet. E le alguma coisa do $00
+[2017-11-05 13:14:16] Felipe "Juca" Sanches: talvez não haja escrita de dados nessa parte do programa, mas haja em outro trecho
+[2017-11-05 13:14:16] Werner Eck: depois faz uns rotate right
+[2017-11-05 13:15:00] Werner Eck: entendi
+[2017-11-05 13:15:38] Werner Eck: bom, vou deixar pra qdo vc chegar nessa parte. Aí vc já tem condição de ver os mnemônicos./
+[2017-11-05 13:15:44] Felipe "Juca" Sanches: putz! acho que esse 0x00 pode ser o dipswitch !
+[2017-11-05 13:15:49] Werner Eck: ummm.
+[2017-11-05 13:16:09] Werner Eck: teria q ter os dispositivos mapeados
+[2017-11-05 13:16:23] Werner Eck: pra saber em qual endereço de memória está cada um deles
+[2017-11-05 13:17:36] Werner Eck: ele le o $00 e depois faz um AND com o q tem no acc
+[2017-11-05 13:18:42] Werner Eck: minto; ele lê o $00 e depois faz um and com o q tiver no $03 e o acc
+[2017-11-05 13:24:58] Werner Eck: na prática, entendo q ele joga o q tem no $00 no acc, depois faz um AND com esse valor e $03
+[2017-11-05 13:27:33] Felipe "Juca" Sanches: isso
+[2017-11-05 13:27:54] Felipe "Juca" Sanches: ele tá tomando decisão em função dos 2 bits menos significativos lidos da porta 0x00
+[2017-11-05 13:27:58] Werner Eck: beleza; só falta entender o contexto disso
+[2017-11-05 13:28:13] Felipe "Juca" Sanches: que eu acho que é de onde ele lê a configuração dos dipswiches
+[2017-11-05 13:31:52] Werner Eck: pode ser sim. Um jeito comum de se deixar a parte de configuração (stop bit, paridade, palavra, etc) da interface configurável pelo usuário
+[2017-11-05 13:32:02] Werner Eck: se é q isso é a parte do 8251
+[2017-11-05 13:32:11] Werner Eck: não temos certeza ainda
+[2017-11-05 13:32:28] Werner Eck: pode ser outra coisa
+[2017-11-05 13:45:14] Felipe "Juca" Sanches: aqueles 2 bits lidos do endereço 0x00 definem qual valor é escrito na porta 0x21
+[2017-11-05 13:45:19] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805514943_32308.jpg
+[2017-11-05 13:45:48] Felipe "Juca" Sanches: 0x7A, 0x4E ou 0x5A
+[2017-11-05 13:46:15] Werner Eck: ummmm... tá fazendo mais sentido hein??
+[2017-11-05 13:46:21] Felipe "Juca" Sanches: supondo que a porta 0x20 é para dados e a 0x21 é para comandos, acho que a gente pode tentar interpretar esses 3 valores conforme o datasheet descreve a estrutura dos comandos
+[2017-11-05 13:46:31] Werner Eck: o modo
+[2017-11-05 13:46:32] Felipe "Juca" Sanches: pra ver quais são as opções
+[2017-11-05 13:46:40] Felipe "Juca" Sanches: e se fizer sentido, a gente documenta já no driver
+[2017-11-05 13:46:53] Werner Eck: pode ser sincrono ou assincrono. E o terceiro byte pode ser o comando
+[2017-11-05 13:47:36] Werner Eck: perae q eu preciso forrar o estomago. Senao caio duro aqui
+[2017-11-05 13:47:53] Felipe "Juca" Sanches: olha só como se faz pra implementar um dip switch no MAME:
+[2017-11-05 13:48:01] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805514962_32110.jpg
+[2017-11-05 13:49:38] Werner Eck: ummm
+[2017-11-05 13:49:46] Werner Eck: isso vc tirou de um driver já implementado?
+[2017-11-05 13:50:00] Werner Eck: ou vc escreveu isso agora?
+[2017-11-05 13:51:25] Werner Eck: 🍛
+[2017-11-05 14:42:43] Werner Eck: Eu suponho q o q tem nas linhas 0x3A/0x3E/0x42 não está sendo executado antes da instrução da linha 0x46?
+[2017-11-05 14:43:12] Werner Eck: talvez esse bloco q vc me passou seja parte de um desvio condicional?
+[2017-11-05 14:43:44] Werner Eck: a lógica estando mais concentrada nas linhas 0x57 e 0x5c?
+[2017-11-05 14:43:52] Werner Eck: (q eu não tenho)
+[2017-11-05 16:34:50] Felipe "Juca" Sanches: segue então uma imagem mais completa do código pra dar mais contexto:
+[2017-11-05 16:34:59] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804727803_40690.jpg
+[2017-11-05 16:35:36] Felipe "Juca" Sanches (in reply to Werner Eck): Esse código aí eu escrevi com base nas observações e conclusões que descrevi ontem/hoje aqui
+[2017-11-05 16:36:12] Felipe "Juca" Sanches (in reply to Felipe "Juca" Sanches): É claro que o tempo todo eu olho pra código de outros drivers para aprender como se faz e para escrever de forma similar.
+[2017-11-05 16:38:20] Werner Eck: poutz... desculpa parecer chato, mas esse ps aí é ilegível... 😔
+[2017-11-05 16:38:42] Felipe "Juca" Sanches: clica na imagem pra ver maior
+[2017-11-05 16:38:48] Werner Eck: então....
+[2017-11-05 16:39:19] Werner Eck: eu até abri numa janela do browser, mas fica minúsculo mesmo assim. Dando zoom fica pixelado
+[2017-11-05 16:39:34] Felipe "Juca" Sanches: eita!
+[2017-11-05 16:40:51] Felipe "Juca" Sanches: vamos focar mais então:
+[2017-11-05 16:40:56] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805514418_32427.jpg
+[2017-11-05 16:41:55] Felipe "Juca" Sanches: são 5 operações de escrita na porta $21
+[2017-11-05 16:42:41] Felipe "Juca" Sanches: os bytes são escritos nessa sequencia: 7A, 37, 40, X, 37
+[2017-11-05 16:43:32] Felipe "Juca" Sanches: onde X é um de 3 valores possíveis (escolhidos em função dos bits lidos da porta $00 - dispwitch?): 7a, 4e ou 5a
+[2017-11-05 16:44:27] Felipe "Juca" Sanches: vou agora olhar pro datasheet do chip de UART pra ver o que esses comandos significam
+[2017-11-05 16:45:09] Felipe "Juca" Sanches: http://pdf.datasheetcatalog.com/datasheet/Intel/mXtyswx.pdf
+[2017-11-05 16:45:53] Werner Eck: ah, então o 7A/37/40 são escritos sequencialmente na porta, só os 7a/4e/5a é q são selecionáveis nas dips?
+[2017-11-05 16:46:32] Felipe "Juca" Sanches: isso!
+[2017-11-05 16:46:36] Werner Eck: na verdade, só os dois últimos...
+[2017-11-05 16:46:43] Werner Eck: perceba como o 7a se repete
+[2017-11-05 16:46:45] Werner Eck: é o modo
+[2017-11-05 16:46:49] Werner Eck: tenho certeza disso...
+[2017-11-05 16:46:58] Werner Eck: o 7a é sempre escrito
+[2017-11-05 16:47:10] Felipe "Juca" Sanches: o primeiro byte é 74
+[2017-11-05 16:47:26] Werner Eck: onde vc viu isso?
+[2017-11-05 16:47:31] Felipe "Juca" Sanches: ah nao
+[2017-11-05 16:47:34] Felipe "Juca" Sanches: é 7a mesmo
+[2017-11-05 16:47:36] Felipe "Juca" Sanches: mal...
+[2017-11-05 16:47:40] Werner Eck: então...
+[2017-11-05 16:48:43] Felipe "Juca" Sanches: então... reiterando: os bytes são escritos nessa sequencia: 7A, 37, 40, X, 37 (com X = 7a, 4e ou 5a)
+[2017-11-05 16:51:17] Werner Eck: mas eu não vejo nenhuma instrução de branch direcionando para a linha 0x52.
+[2017-11-05 16:51:54] Werner Eck: só para as linhas 0x57 e 0x5c
+[2017-11-05 16:52:07] Werner Eck: caso ele não faça jump para essas linhas, ele executa a 52
+[2017-11-05 16:52:10] Werner Eck: correto?
+[2017-11-05 16:52:45] Werner Eck: aaah
+[2017-11-05 16:52:48] Werner Eck: aaaaaaaah
+[2017-11-05 16:53:12] Werner Eck: é isso. Ele le as dips, se der algum setting lá ele executa o branch correspondente
+[2017-11-05 16:53:30] Werner Eck: se não der nada (0x00) então ele faz 0x7A e sai fora
+[2017-11-05 16:54:31] Werner Eck: e aí escreve 0x37 e na sequencia, lê da porta 0x50 - isso independente do q ele decidiu escrever anteriormente.
+[2017-11-05 16:55:17] Felipe "Juca" Sanches: exato
+[2017-11-05 16:55:23] Felipe "Juca" Sanches: a ultima escrita acontece em todos os casos
+[2017-11-05 16:55:30] Felipe "Juca" Sanches: por que todas as condições pulam pra lá
+[2017-11-05 16:55:41] Felipe "Juca" Sanches: então apenas o quarto byte é condicional
+[2017-11-05 16:56:04] Werner Eck: e vc já decodificou os parametros q ele seta nos valores 4e e 5a?
+[2017-11-05 16:56:26] Felipe "Juca" Sanches: ainda não
+[2017-11-05 16:56:32] Felipe "Juca" Sanches: estou vendo isso agora.
+[2017-11-05 16:56:39] Felipe "Juca" Sanches: isso aqui é importante:
+[2017-11-05 16:56:44] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804726686_38622.jpg
+[2017-11-05 16:57:24] Werner Eck: isso q eu tinha postado
+[2017-11-05 16:57:44] Felipe "Juca" Sanches: ou seja, o primeiro byte, $7A, é com certeza uma "mode instruction"
+[2017-11-05 16:58:22] Felipe "Juca" Sanches: o outro 7A talvez seja uma "command instruction" e aí pode ter uma interpretação diferente, apesar de ser o mesmo valor numérico
+[2017-11-05 16:58:23] Werner Eck (in reply to Werner Eck): 7A seria isso
+[2017-11-05 16:58:38] Werner Eck: não 74...
+[2017-11-05 16:58:52] Werner Eck: figuras 8 e 10
+[2017-11-05 16:59:19] Felipe "Juca" Sanches: meu cérebro dá nó nesses números... editei as mensagens anteriores para ficarem com o número certo
+[2017-11-05 16:59:32] Felipe "Juca" Sanches: sim, vc tem razão é 7A
+[2017-11-05 16:59:39] Werner Eck: o q vc disse vai de encontro ao q eu falei tbm
+[2017-11-05 17:00:01] Werner Eck: e tá bem aí nessa seção q vc está lendo, uma ou duas páginas adiante
+[2017-11-05 17:00:19] Werner Eck: os detalhes de cada bit dependendo de como vc quer setar o modo
+[2017-11-05 17:00:50] Felipe "Juca" Sanches: perfeito
+[2017-11-05 17:00:57] Felipe "Juca" Sanches: acho que sua análise está perfeita
+[2017-11-05 17:01:46] Werner Eck: eu to devagar, pegando novamente o jeito
+[2017-11-05 17:02:01] Werner Eck: nunca escrevi assembler do mcs-80
+[2017-11-05 17:02:08] Felipe "Juca" Sanches: (eu tirei umas duas horas de cochilo durante a tarde hoje e já não lembrava mais de nada :-D)
+[2017-11-05 17:02:09] Werner Eck: mas escrevi do z-80
+[2017-11-05 17:02:25] Werner Eck: e isso já faz 23 anos... rs
+[2017-11-05 17:02:50] Felipe "Juca" Sanches: (não lembrava mais dos comentários que você tinha feito mais cedo hoje à uma da tarde)
+[2017-11-05 17:03:02] Werner Eck: não esquenta Juca
+[2017-11-05 17:03:08] Werner Eck: Tamo junto nesse projeto
+[2017-11-05 17:03:13] Felipe "Juca" Sanches: claro
+[2017-11-05 17:03:20] Werner Eck: (na medida em q eu ajudar mais e atrapalhar menos)
+[2017-11-05 17:03:27] Felipe "Juca" Sanches: é que eu vi que eu to explicando o que você já explicou hahahahah
+[2017-11-05 17:03:47] Werner Eck: 😆
+[2017-11-05 17:05:48] Felipe "Juca" Sanches: sabe aquele lance que eu te falei sobre tipicamente ser usado o bit A0 do barramento de endereços para chavear entre duas portas  de I/O dos periféricos ? Por exemplo portas 0x20 para dados e 0x21 para comandos
+[2017-11-05 17:06:50] Felipe "Juca" Sanches: Na prática é implementado usando esse sinal C ou /D:
+[2017-11-05 17:07:01] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804726161_38565.jpg
+[2017-11-05 17:07:44] Felipe "Juca" Sanches: o sinal A0 da CPU é ligado a esse seletor Control/Data
+[2017-11-05 17:08:18] Felipe "Juca" Sanches: Vou sair agora e volto daqui 1 hora. Té mais
+[2017-11-05 17:10:24] Felipe "Juca" Sanches: mas fica uma observação:
+[2017-11-05 17:10:42] Felipe "Juca" Sanches: acho que só deve ter sobrado a porta de I/O 0x50 sendo manipulada pelo firmware
+[2017-11-05 17:10:44] Felipe "Juca" Sanches: e não sei ainda o que ela é
+[2017-11-05 17:12:03] Felipe "Juca" Sanches: então suspeito que possa ser relacionada à leitura do teclado talvez. Alguém tem que fazer isso em algum momento. Só não sei se é tão cedo no setup ou se ós vai ser feita a varredura do teclado mais pra frente
+[2017-11-05 17:12:13] Felipe "Juca" Sanches: té mais
+[2017-11-05 17:13:07] Werner Eck: 👍
+[2017-11-05 17:17:01] Werner Eck: Eu imagino q o teclado seja constantemente lido
+[2017-11-05 17:18:15] Werner Eck: Daí, se ele estiver mapeado no &0x50, provavelmente ele deve aparecer em algum momento dentro de um loop.
+[2017-11-05 18:07:54] Felipe "Juca" Sanches: pode ser lido em rotina de interrupção também
+[2017-11-05 18:08:13] Werner Eck: ISR, sim...
+[2017-11-05 18:08:18] Werner Eck: bem lembrado
+[2017-11-05 18:08:47] Werner Eck: daí é só ver nos endereços específicos q o processador olha...
+[2017-11-05 18:27:58] Felipe "Juca" Sanches: eu mapeei o chip I8251 nas portas 0x20 e 0x21 e declarei que o hardware possui uma porta serial e que os sinais da porta estão ligados ao chip 8251:
+[2017-11-05 18:28:07] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804728221_38603.jpg
+[2017-11-05 18:29:59] Felipe "Juca" Sanches: E aquela linha MCFG_RS232_PORT_ADD("rs232", default_rs232_devices, nullptr) significa que é uma porta onde os dispositivos seriais típicos podem ser ligados ( default_rs232_devices é uma lista de periféricos seriais) e que por padrão o driver é inicializado sem nenhum periférico conectado nesa porta (por isso o nullptr ali)
+[2017-11-05 18:33:01] Felipe "Juca" Sanches: com isso, aparece no menu interno da interface do MAME uma opção para configurar a porta serial:
+[2017-11-05 18:33:13] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804730747_39073.jpg
+[2017-11-05 18:33:27] Felipe "Juca" Sanches: No submetu "Slot Devices" tem rs232
+[2017-11-05 18:33:37] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804730289_38251.jpg
+[2017-11-05 18:34:05] Felipe "Juca" Sanches: e veja que está inicialmente sem nenhum periférico instalado na porta
+[2017-11-05 18:35:02] Felipe "Juca" Sanches: mas posso selecionar algumas opções como "printer", "null_modem", "pty", "keyboard", "loopback", "terminal"
+[2017-11-05 18:35:20] Werner Eck: Seria como dizer, o terminal seria inicializado por padrão sem nenhum periférico plugado na interface serial
+[2017-11-05 18:35:51] Felipe "Juca" Sanches: dessas, a opãço "pty" é interessante pois supostamente permitiria criar um par mestre/escravo de pseudo terminais do unix
+[2017-11-05 18:35:58] Werner Eck: E vc seleciona um periférico pelo MAME
+[2017-11-05 18:36:39] Felipe "Juca" Sanches: e com isso talvez seja possível eu configurar meu sistema hospedeito (GNU+Linux) para abrir uma sessão de login no terminal emulado e forma similar ao que acontece com programas emuladores de terminal vt-100 como o xterm ou o gnome-terminal
+[2017-11-05 18:36:42] Werner Eck: Existe dentro dessas opções, alguma q permita mapear a própria serial do host rodando MAME como periférico virtual?
+[2017-11-05 18:37:10] Werner Eck: daí permitindo conectar um dispositivo real via serial ao emulador?
+[2017-11-05 18:37:33] Felipe "Juca" Sanches: hmmm... isso seria interessante também
+[2017-11-05 18:38:28] Felipe "Juca" Sanches: mas o que eu tenho em mente é fazer tudo virtual: processos do meu GNU+Linux vinculados a um pseudo-terminal criado pelo MAME com a interface rs232 emulada do terminal da scopus
+[2017-11-05 18:39:05] Werner Eck: E essa nossa implementação da rs232 está pronta?
+[2017-11-05 18:39:24] Werner Eck: digo, no terminal Sagitta
+[2017-11-05 18:40:16] Felipe "Juca" Sanches: eu não sei como se configura um pseudo-terminal para abrir uma sessão de login no GNU+Linux, etão esse caminho via pty eu vou deixar pra investigar depois.
+[2017-11-05 18:40:21] Felipe "Juca" Sanches: antes disso, testei outra coisa:
+[2017-11-05 18:40:35] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804721868_82715.jpg
+[2017-11-05 18:41:04] Felipe "Juca" Sanches: essa opção instancia um terminal serial genérico e liga ele na porta do sagitta emulado
+[2017-11-05 18:41:19] Werner Eck: e na outra ponta o q vc obtém?
+[2017-11-05 18:41:25] Felipe "Juca" Sanches: ao resetar, aparece isso aqui:
+[2017-11-05 18:42:20] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804726007_39842.jpg
+[2017-11-05 18:42:41] Felipe "Juca" Sanches: veja que a metade da janela do lado esquerdo é a tela de um terminal genérico
+[2017-11-05 18:42:53] Felipe "Juca" Sanches: e o lado direito é a tela do sagitta emulado
+[2017-11-05 18:42:54] Werner Eck: ah ta.
+[2017-11-05 18:42:58] Werner Eck: certo
+[2017-11-05 18:43:21] Felipe "Juca" Sanches: aí supostamente eu poderia digitar em um e ver os caracteres aparecendo no outro
+[2017-11-05 18:43:22] Werner Eck: (tá borrado, mas dá pra ver esquerda vs direita)
+[2017-11-05 18:43:33] Werner Eck: supostamente ou realmente? rss
+[2017-11-05 18:43:42] Felipe "Juca" Sanches: quando eu digito não acontece nada
+[2017-11-05 18:43:59] Felipe "Juca" Sanches: mas o MAME tem um submenu para configuração do terminal genérico
+[2017-11-05 18:44:02] Felipe "Juca" Sanches: veja aqui:
+[2017-11-05 18:44:02] Werner Eck: vc implementou as dips?
+[2017-11-05 18:44:24] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804725585_59269.jpg
+[2017-11-05 18:44:51] Felipe "Juca" Sanches: declarei os dipswitches com valor default 0 nos dois bits
+[2017-11-05 18:44:53] Werner Eck: cara eu acho q tem q ser 7 data bits, parity enabled, 1bit
+[2017-11-05 18:45:07] Werner Eck: por causa daquele byte 0x7a
+[2017-11-05 18:45:23] Werner Eck: suponho q ele esteja default nisso
+[2017-11-05 18:45:28] Felipe "Juca" Sanches: então eu liguei o Local echo e pelo menos o terminal genérico mostra o que eu to digitando nele
+[2017-11-05 18:46:18] Felipe "Juca" Sanches: e agora preciso fazer isso que você tá falando mesmo: configurar o terminal genérico com os mesmos ajustes do terminal sagitta emulado pra ver se a emulação está funcionando
+[2017-11-05 18:46:31] Werner Eck: quanto à taxa de transmissão, estou incerto, pois no DS do chip ele explica q fica setado em "16x"
+[2017-11-05 18:46:38] Werner Eck: vai lá
+[2017-11-05 18:48:14] Werner Eck: vc provavelmente tbm terá q experimentar com diversos baud rates diferentes.
+[2017-11-05 18:48:32] Werner Eck: eu começaria pelo mais baixo... afinal, eram os anos 70.
+[2017-11-05 18:51:17] Felipe "Juca" Sanches: eu acho que o caminho é interpretar todos os bytes de setup que o firmware escreve na porta 0x21 e assim ter a certeza de qual é o ajuste que o firmware faz, portanto restringindo a quantidade de chutes necessários. Teoricamente não deveria ser necessário chutar nada.
+[2017-11-05 18:52:09] Werner Eck: vamos lá
+[2017-11-05 18:52:13] Werner Eck: deixa eu ver aqui
+[2017-11-05 18:54:28] Felipe "Juca" Sanches: os bytes são escritos nessa sequencia: 7A, 37, 40, X, 37 (com X = 7a, 4e ou 5a)
+[2017-11-05 18:55:29] Werner Eck: isso
+[2017-11-05 18:56:03] Werner Eck: acho q de cara o 37 é invalido para mode... começa escrevendo 2 zeros
+[2017-11-05 18:57:20] Werner Eck: corrigindo, pode ser q esteja setando para modo sincrono
+[2017-11-05 18:57:24] Werner Eck: deixa ler aqui
+[2017-11-05 18:57:34] Felipe "Juca" Sanches: estou lendo também
+[2017-11-05 18:57:37] Felipe "Juca" Sanches: volto daqui a pouco
+[2017-11-05 19:02:00] Felipe "Juca" Sanches: Não é exatamente a técnica usada aqui, mas parece que algo similar está acontecendo:
+[2017-11-05 19:02:11] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805513598_31818.jpg
+[2017-11-05 19:03:29] Felipe "Juca" Sanches: então no nosso caso temos mode:7a command:37 seguido de comand:40(RESET) e mode:X command:37
+[2017-11-05 19:03:31] Werner Eck: que parece ser o q o byte 0x40 faz
+[2017-11-05 19:03:35] Werner Eck: hahaha
+[2017-11-05 19:03:42] Werner Eck: para de ler pensamento cara
+[2017-11-05 19:03:48] Felipe "Juca" Sanches: hehe
+[2017-11-05 19:03:56] Werner Eck: eu acabei de decodificar ele
+[2017-11-05 19:04:28] Werner Eck: concordo q 37 deve ser command
+[2017-11-05 19:05:39] Felipe "Juca" Sanches: então vejamos quais informações de paridade, stop bits, start bits, baud-rate, etc que conseguimos extrair do mode:7a (e dos outros modes possíveis: 4e ou 5a)
+[2017-11-05 19:05:54] Felipe "Juca" Sanches: e depois vejamos o que o command:37 faz
+[2017-11-05 19:06:28] Werner Eck: 0x7A=01 11 10 10: (modo assíncrono) 1 stop bit; paridade: habilitada, par; compr. palavra: 7 bits; fator baud rate: 16x
+[2017-11-05 19:06:46] Werner Eck: modo 0x4e me parece ser assincrono tbm...
+[2017-11-05 19:06:50] Werner Eck: estou lendo agora
+[2017-11-05 19:09:14] Werner Eck: 0x4E=01 00 11 10: (modo assíncrono) 1 stop bit; paridade: desabilitada, ímpar; compr. palavra: 8 bits; fator baud rate: 16x
+[2017-11-05 19:11:42] Werner Eck: 0x5A=01 01 10 10: (modo assíncrono) 1 stop bit; paridade: habilitada, ímpar; compr. palavra: 7 bits; fator baud rate: 16x
+[2017-11-05 19:12:12] Werner Eck: são singelas diferenças no comprimento da palavra e paridade
+[2017-11-05 19:12:29] Werner Eck: mas é certo q está setando o USART em modo assíncrono sempre
+[2017-11-05 19:12:53] Werner Eck: agora os command word
+[2017-11-05 19:17:12] Werner Eck: 0x37=00 11 01 11: (command instruction): X (irrelevante - chip em assíncrono e modo command); RTS=0, PE=OE=FE=reset; normal operation (TxD=high), receive enable=1; DTR=0, transmit enable=1
+[2017-11-05 19:17:36] Werner Eck: acho q é isso
+[2017-11-05 19:17:44] Werner Eck: pizza chegou, tá servido?
+[2017-11-05 19:17:55] Felipe "Juca" Sanches: hahaha, não obrigado
+[2017-11-05 19:18:08] Werner Eck: 🍕
+[2017-11-05 19:18:37] Werner Eck: domingo, nada melhor q pizza + cerveja e debugging de ROM
+[2017-11-05 19:19:00] Felipe "Juca" Sanches: receive enable=1; junto com transmit enable=1 significa que ele está pronto a fazer ambos
+[2017-11-05 19:19:10] Werner Eck: isso
+[2017-11-05 19:19:24] Felipe "Juca" Sanches: não sei se o terminal vai fazer algo com os dados entranto
+[2017-11-05 19:19:44] Werner Eck: o negócio agora é testar as combinações possíveis
+[2017-11-05 19:20:10] Felipe "Juca" Sanches: talvez nesse momento inicial o operador precise fazer algo pra ativar o funcionamento (sair dessa tela de boot, esse splash screen com o nome do modelo no meio: "Sagitta 150 versao 4.00")
+[2017-11-05 19:20:26] Werner Eck: pode ser... tem o manual do usuário?
+[2017-11-05 19:20:31] Felipe "Juca" Sanches: nope
+[2017-11-05 19:20:44] Werner Eck: outra coisa, vc podia tentar forçar ele a carregar a ROM 0?
+[2017-11-05 19:20:45] Felipe "Juca" Sanches: peraí... nunca procurei hahaha
+[2017-11-05 19:20:49] Werner Eck: hahaha
+[2017-11-05 19:20:56] Werner Eck: pizza, volto em instantes
+[2017-11-05 19:21:00] Werner Eck: ou não.. rsss
+[2017-11-05 19:21:02] Werner Eck: brincadeira
+[2017-11-05 19:45:12] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804724256_59165.jpg
+[2017-11-05 19:46:58] Felipe "Juca" Sanches: eu tive que adicionar ao driver uma fonte de sinal de clock para /TxC e /RxC
+[2017-11-05 19:47:09] Felipe "Juca" Sanches: a frequencia que eu usei foi chutada (copiada de outro driver)
+[2017-11-05 19:47:34] Felipe "Juca" Sanches: aí com isso eu configurei o terminal genérico com 1200 baud
+[2017-11-05 19:47:59] Felipe "Juca" Sanches: e o terminal sagitta começou a responder aos caracteres enviados pelo terminal genérico
+[2017-11-05 19:52:04] Felipe "Juca" Sanches: enviei um commit atualizando o código do driver aqui: https://github.com/mamedev/mame/pull/2776/files
+[2017-11-05 20:00:00] Werner Eck: CARAAAAAALHOOOOO!!!
+[2017-11-05 20:00:11] Werner Eck: Tá funcionando o terminal!!!
+[2017-11-05 20:01:01] Felipe "Juca" Sanches: :-)
+[2017-11-05 20:01:13] Werner Eck: se conseguissemos emular uma porta serial mapeando pra um host ethernet, já pensou??
+[2017-11-05 20:01:34] Felipe "Juca" Sanches: falta ainda emular o teclado do sagitta
+[2017-11-05 20:01:56] Felipe "Juca" Sanches: que deve ser relacionado àquela porta 0x50
+[2017-11-05 20:02:25] Felipe "Juca" Sanches: e, sim, seria muito legal ligar esse sagitta emulado em alguma coisa moderna
+[2017-11-05 20:02:37] Werner Eck: vc disse q pegou um CI que estava conectado ao teclado do sagitta, não?
+[2017-11-05 20:02:54] Felipe "Juca" Sanches: eu provavelmente vou depois tentar aprender como se faz o setup de sessão de login do GNU+Linux via pseudo-terminal
+[2017-11-05 20:03:04] Werner Eck: verdade, fazer o sagitta mandar caracteres pra um terminal via ethernet
+[2017-11-05 20:03:36] Felipe "Juca" Sanches (in reply to Werner Eck): não... era a ROM do gerador de catacteres e o próprio CRTC que estavam escondidos debaixo do painel metálico do teclado
+[2017-11-05 20:03:45] Werner Eck: por exemplo, uma maquina emulando um host ibm
+[2017-11-05 20:03:56] Werner Eck: ah tá
+[2017-11-05 20:04:03] Werner Eck: e o circuito do teclado?
+[2017-11-05 20:04:07] Felipe "Juca" Sanches: ah sim! O próprio MAME pode emular máquinas que trabalham com terminais seriais
+[2017-11-05 20:04:56] Felipe "Juca" Sanches: eu não estudei o circuito do teclado lá na usp
+[2017-11-05 20:05:21] Werner Eck: http://mainframewizard.com/content/free-mainframe-emulators
+[2017-11-05 20:05:34] Felipe "Juca" Sanches: e existe sim a possibilidade de ter algum circuito integrado adicional que eu não vi, por que uma parte da pcb ainda ficou encoberta por uma outra chapa metálica
+[2017-11-05 20:05:37] Werner Eck: blz, isso fica pra próxima etapa
+[2017-11-05 20:05:53] Felipe "Juca" Sanches: mas talvez dê pra inferir isso s'por análise do firmware como fizemos até agora mesmo
+[2017-11-05 20:06:12] Felipe "Juca" Sanches: agora eu vou sair (vou no cinema assistir o novo Blade Runner)
+[2017-11-05 20:06:17] Felipe "Juca" Sanches: acho que por hoje é só
+[2017-11-05 20:06:48] Werner Eck: por exemplo, esse: http://www.datasheetcatalog.com/datasheets_pdf/8/2/7/9/8279.shtml
+[2017-11-05 20:07:00] Werner Eck: ow esse filme deve ser mto bom
+[2017-11-05 20:07:11] Werner Eck: blz - foi bom, rendeu bastante
+[2017-11-05 20:07:28] Werner Eck: Não esperava ver o sagitta emulado tão rápido
+[2017-11-05 20:15:59] Felipe "Juca" Sanches: :-)
+[2017-11-05 20:16:06] Felipe "Juca" Sanches: té mais
+[2017-11-05 20:16:11] Felipe "Juca" Sanches: e Happy Hacking !
+[2017-11-05 20:16:27] Werner Eck: 😄👍

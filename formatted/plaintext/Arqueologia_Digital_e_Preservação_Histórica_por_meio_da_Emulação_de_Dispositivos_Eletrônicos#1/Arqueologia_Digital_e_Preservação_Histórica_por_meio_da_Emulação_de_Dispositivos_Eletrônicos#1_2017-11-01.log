@@ -1,0 +1,442 @@
+[2017-11-01 12:32:30] Felipe "Juca" Sanches: Amigos, preciso de uma ajuda técnica
+[2017-11-01 12:34:17] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805509166_49181.jpg
+[2017-11-01 12:34:22] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804722670_62045.jpg
+[2017-11-01 12:34:26] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804728008_35738.jpg
+[2017-11-01 12:34:29] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805513537_28861.jpg
+[2017-11-01 12:34:31] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805514513_28839.jpg
+[2017-11-01 12:34:41] Felipe "Juca" Sanches: Estou aqui na USP com esse bicho do meu lado. Um terminal Scopus Sagitta 150
+[2017-11-01 12:36:10] Felipe "Juca" Sanches: Tentei fazer o dump da ROM desse terminal, mas a cada leitura sai uma imagem de ROM diferente
+[2017-11-01 12:36:23] Felipe "Juca" Sanches: o chip tá zoado
+[2017-11-01 12:36:36] Felipe "Juca" Sanches: mas em alguns dos dumps dá pra ver vestígios do dado real
+[2017-11-01 12:38:17] Felipe "Juca" Sanches: vejam, por exemplo, o finalzinho desses 2 dumps:
+[2017-11-01 12:38:29] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805514727_29282.jpg
+[2017-11-01 12:41:06] Felipe "Juca" Sanches: dá pra ver que o dado correto ali deveria ser "s a g i t t a  -  1 5 0   versao: 4.00"
+[2017-11-01 12:41:32] Felipe "Juca" Sanches: cada uma das ROMs tem um bit diferente zoado, mas misturando as duas talvez dê pra extrair uma imagem boa
+[2017-11-01 12:42:28] Felipe "Juca" Sanches: eu fiz uns 40 dumps dessa ROM e todos sairam diferentes, então deve ter alguma variação intermitente na leitura dos dados
+[2017-11-01 12:43:08] Felipe "Juca" Sanches: Se alguem aqui quiser ajudar, eu posso enviar um ZIP com todos os dumps pra vocês se divertirem fazendo algum tipo de análise estatística, comparação, etc, pra tentar extrair algo bom
+[2017-11-01 12:43:42] Felipe "Juca" Sanches: vou botar a EPROM de volta na PCB e guardar o terminal aqui, por que quero trabalhar agora em outro equipamento
+[2017-11-01 12:43:56] Felipe "Juca" Sanches: daqui a pouco eu mando fotos do "outro"
+[2017-11-01 12:43:58] Felipe "Juca" Sanches: ;-)
+[2017-11-01 12:47:07] Werner Eck: Sugestão, vc não acha válido botar esse thread em um post lá no fiozera? Fica mais f
+[2017-11-01 12:47:19] Werner Eck: fácil colaborar.
+[2017-11-01 12:47:27] Felipe "Juca" Sanches: Sim!!!
+[2017-11-01 12:47:33] Felipe "Juca" Sanches: Valeu!
+[2017-11-01 12:47:36] Felipe "Juca" Sanches: Vou fazer isso sim
+[2017-11-01 12:49:02] Werner Eck: Foi conversar com o Setzer?
+[2017-11-01 12:50:22] Felipe "Juca" Sanches: Ainda nao...
+[2017-11-01 12:50:40] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805512418_28810.jpg
+[2017-11-01 12:50:43] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805513444_29831.jpg
+[2017-11-01 12:50:46] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804730348_34913.jpg
+[2017-11-01 12:50:49] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804724932_55179.jpg
+[2017-11-01 12:51:22] Werner Eck: Nossa, tá encardido mesmo hein?
+[2017-11-01 12:51:30] Felipe "Juca" Sanches: Se o Sagitta 150 tá dando dor de cabeça, vamos ver o que conseguimos com o 180 :-)
+[2017-11-01 12:51:34] Werner Eck: As EPROMs q vc tentou dumpar são essas 4 aí?
+[2017-11-01 12:51:44] Werner Eck: ah esse é o 180
+[2017-11-01 12:51:54] Felipe "Juca" Sanches: Não. Esse é o 180 que eu vou começar a dumpar agora
+[2017-11-01 12:52:14] Felipe "Juca" Sanches: o 150 tem uma só ROM. O 180 tem essas 4
+[2017-11-01 12:52:14] Werner Eck: ok - Vc tá usando o Mini?
+[2017-11-01 12:52:18] Felipe "Juca" Sanches: sim
+[2017-11-01 12:52:56] Werner Eck: Acredito q vc terá mais sucesso.
+[2017-11-01 12:53:02] Werner Eck: Gut feeling
+[2017-11-01 12:53:17] Felipe "Juca" Sanches: "break a leg!"
+[2017-11-01 12:53:18] Felipe "Juca" Sanches: :-)
+[2017-11-01 12:54:32] Felipe "Juca" Sanches: o MAME tem uma ferramenta bem bacana chamada romcmp (ROM compare)
+[2017-11-01 12:54:41] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805511497_47440.jpg
+[2017-11-01 12:55:04] Werner Eck: Mas ele precisa pra isso, de um bom dump?
+[2017-11-01 12:55:28] Felipe "Juca" Sanches: ele compara N dumps e diz se há similaridades entre eles
+[2017-11-01 12:55:38] Felipe "Juca" Sanches: e também diz se tem bits travados em 1 ou em 0
+[2017-11-01 12:55:54] Felipe "Juca" Sanches: dá pra ver aí que várias ROMs tão com bits travados em 1
+[2017-11-01 12:56:30] Felipe "Juca" Sanches: o que indica falha de operação do chip de EPROM ou pinos sujos
+[2017-11-01 12:59:00] Werner Eck: Nesse caso é defeito de idade mesmo
+[2017-11-01 12:59:16] Werner Eck: Os bits começam a perder seu valor
+[2017-11-01 12:59:29] Werner Eck: infelizmente isso acontece depois de uns 30~40 anos
+[2017-11-01 13:00:10] Felipe "Juca" Sanches: se todos os bits estão em 1 ao longo da memória toda, não é bitrot, é falha de endereçamento do conteúdo (falha mecânica nos terminais, por exemplo)
+[2017-11-01 13:00:16] Felipe "Juca" Sanches: ou oxidação
+[2017-11-01 13:00:45] Werner Eck: vc pode tentar limpar os pinos com álcool isopropílico, ou passando uma lixinha leve
+[2017-11-01 13:00:45] Felipe "Juca" Sanches: perda de bits por luz UV é mais errática
+[2017-11-01 13:00:49] Felipe "Juca" Sanches: aleatória
+[2017-11-01 13:00:53] Felipe "Juca" Sanches: sim, posso
+[2017-11-01 13:00:57] Werner Eck: como parece ser o caso do 150
+[2017-11-01 13:01:01] Felipe "Juca" Sanches: não tenho esses materiais aqui agora
+[2017-11-01 13:01:07] Felipe "Juca" Sanches: posso voltar outro dia e fazer isso
+[2017-11-01 13:01:10] Werner Eck: sim
+[2017-11-01 13:01:23] Felipe "Juca" Sanches: esses equipamentos não são meus. São patrimônio da USP
+[2017-11-01 13:01:36] Werner Eck: que arqueólogo é vc q não carrega seu material de desempoeiramento sempre junto??
+[2017-11-01 13:02:00] Werner Eck: cade o kit indiana jones?
+[2017-11-01 13:02:11] Felipe "Juca" Sanches: eu trouxe bastante coisa. Trouxe meu leitor de eprom, um multímetro
+[2017-11-01 13:02:33] Felipe "Juca" Sanches: eu trouxe até o meu patinho feio
+[2017-11-01 13:02:41] Felipe "Juca" Sanches: hahaha
+[2017-11-01 13:02:46] Felipe "Juca" Sanches: (é sério)
+[2017-11-01 13:02:47] Werner Eck: kkk, arqueologia digital é tirar poeira tbm
+[2017-11-01 13:02:55] Felipe "Juca" Sanches: sim sim
+[2017-11-01 13:03:04] Felipe "Juca" Sanches: eu posso voltar sempre que eu quiser
+[2017-11-01 13:03:09] Werner Eck: sim
+[2017-11-01 13:03:12] Felipe "Juca" Sanches: inclusive, seria legar trazer vocês aqui
+[2017-11-01 13:03:21] Felipe "Juca" Sanches: eu tô feliz igual pinto no lixo aqui
+[2017-11-01 13:03:22] Werner Eck: Eu gostaria. Teria ido contigo
+[2017-11-01 13:03:27] Werner Eck: KKK
+[2017-11-01 13:03:38] Felipe "Juca" Sanches: tem uma montanha de coisas boas aqui
+[2017-11-01 13:04:14] Werner Eck: vai fotografando e postando o q der
+[2017-11-01 13:07:58] Werner Eck: Olha o q um maluco tá querendo fazer: https://www.workana.com/pt/job/sagitta-150
+[2017-11-01 13:08:52] Felipe "Juca" Sanches: é... eu vi agora há pouco isso
+[2017-11-01 13:09:30] Felipe "Juca" Sanches: Puta merda! Fiz o dump da ROM do terminal Sagitta 180 e olha o que saiu:
+[2017-11-01 13:09:49] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805511701_50066.jpg
+[2017-11-01 13:11:14] Werner Eck: caralho\
+[2017-11-01 13:11:17] Werner Eck: 150??
+[2017-11-01 13:11:35] Felipe "Juca" Sanches: pois é
+[2017-11-01 13:11:52] Werner Eck: hora de comparar hardware
+[2017-11-01 13:11:55] Felipe "Juca" Sanches: e no chip tem uma etiqueta escrito 180
+[2017-11-01 13:12:11] Werner Eck: talvez a ROM seja 150 com algum adendo
+[2017-11-01 13:12:47] Werner Eck: inclusive comparando com os dumps q vc tirou do 150, a versão é a mesma (4.00)
+[2017-11-01 13:12:57] Felipe "Juca" Sanches: de duas uma... ou o 180 tem a ROM de código idêntica à do 150 e coisas extras nas outras 3 ROMS. Ou algum técnico fez cagada
+[2017-11-01 13:13:05] Felipe "Juca" Sanches: de N uma...
+[2017-11-01 13:13:18] Werner Eck: eu sou propenso a acreditar na primeira hipotese
+[2017-11-01 13:13:23] Werner Eck: ou é garo
+[2017-11-01 13:13:24] Werner Eck: gato
+[2017-11-01 13:14:00] Felipe "Juca" Sanches: só vai dar pra saber o dia que eu achar outro terminal desses e fazer outro dump pra comparar
+[2017-11-01 13:14:02] Werner Eck: acho q é gato de fábrica - muitas vezes lançam modelos com números maiores mas com pouca ou nenhuma melhoria
+[2017-11-01 13:14:19] Felipe "Juca" Sanches: a PCB parece ser a mesma
+[2017-11-01 13:14:34] Werner Eck: por isso eu disse "hr de comparar hardware"
+[2017-11-01 13:15:22] Werner Eck: às vezes a diferença é de um jumper soldado entre dois pontos, ou uma ROM faltando em um e instalada noutro...
+[2017-11-01 13:15:57] Werner Eck: deixa eu tentar olhar nos snapshots q vc postou
+[2017-11-01 13:16:03] Werner Eck: se algo é aparente
+[2017-11-01 13:16:49] Felipe "Juca" Sanches: vou te mandar um ZIP por email
+[2017-11-01 13:17:36] Felipe "Juca" Sanches sent document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_5174732149051359253.zip
+[2017-11-01 13:17:42] Felipe "Juca" Sanches: bah! 58kbytes eu mando aqui
+[2017-11-01 13:20:56] Felipe "Juca" Sanches: Sagita 180 (1979)
+
+Terminal de vídeo alfanumérico controlado por microprocessador, compatível com computadores Burroughs.
+
+Lançado com o objetivo de oferecer um produto compacto, de fácil manutenção, custos reduzidos e grande versatilidade, pois todos os módulos eletrônicos do terminal estavam acoplados em uma única placa de circuito impresso.
+[2017-11-01 13:21:25] Felipe "Juca" Sanches: https://jetstor.wordpress.com/2012/05/26/tunel-do-tempo-micros-scopus-de-1972-a-1992/
+[2017-11-01 13:21:34] Werner Eck: tbm to lendo esse blog
+[2017-11-01 13:21:43] Werner Eck: ia te passar esse video
+[2017-11-01 13:22:02] Werner Eck: queria saber onde fica esse museu
+[2017-11-01 13:22:31] Felipe "Juca" Sanches: aqui tem um Micro Engenho 2
+[2017-11-01 13:22:42] Felipe "Juca" Sanches: E u mSpectrum ED
+[2017-11-01 13:22:48] Felipe "Juca" Sanches: E um TK3000
+[2017-11-01 13:22:57] Felipe "Juca" Sanches: E outras coisas
+[2017-11-01 13:22:57] Werner Eck: nossa eu amo o tk3000 tive um
+[2017-11-01 13:23:23] Felipe "Juca" Sanches: Aqui tem uns disquete de 8 polegadas e num deles está escrito "Sistema Operacional COBRA"
+[2017-11-01 13:23:26] Werner Eck: Tem um emulador dele escrito por um brasileiro. Baseado no codigo do AppleWin
+[2017-11-01 13:23:52] Felipe "Juca" Sanches: tem um IBM-PC-XT aqui tambéḿ
+[2017-11-01 13:23:56] Werner Eck: kkk
+[2017-11-01 13:24:02] Werner Eck: XT é segunda geração
+[2017-11-01 13:24:12] Werner Eck: nossa q lugar interessante
+[2017-11-01 13:24:27] Felipe "Juca" Sanches: Essas coisas ficam na USP, na Poli
+[2017-11-01 13:24:38] Felipe "Juca" Sanches: vamos marcar um dia da semana que vem pra vir aqui de novo, aí você vem junto
+[2017-11-01 13:24:44] Werner Eck: combinado
+[2017-11-01 13:24:53] Werner Eck: quero sim
+[2017-11-01 13:25:07] Felipe "Juca" Sanches: se alguém mais aqui do grupo quiser vir também... estão convidados
+[2017-11-01 13:25:12] Felipe "Juca" Sanches: @rbanffy ?
+[2017-11-01 13:27:17] Werner Eck: cara o q é aquilo na placa do 150, logo abaixo do bloco da fonte, à direita e logo acima do bloco de RAM?
+[2017-11-01 13:27:22] Werner Eck: (acho q são RAM)
+[2017-11-01 13:27:42] Werner Eck: cilíndrico, tem um engasga-gato branco prendendo ele em toda a volta
+[2017-11-01 13:28:18] Werner Eck: meio marrom, perto da placa tem uma faixa alaranjada
+[2017-11-01 13:28:34] Werner Eck: parece ser a única diferença entre as duas placas
+[2017-11-01 13:29:31] Felipe "Juca" Sanches: é um capacitor gigante
+[2017-11-01 13:29:34] Werner Eck: ah sim, e no 150 não tem as 3 outras ROMs
+[2017-11-01 13:29:54] Werner Eck: deve ser realmente um set estendido do firmware
+[2017-11-01 13:30:00] Felipe "Juca" Sanches: acho que não coube soldar ele no lugar certo, então botaram ele de lado ligado com uns fios
+[2017-11-01 13:30:06] Werner Eck: certo
+[2017-11-01 13:30:14] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805509788_49566.jpg
+[2017-11-01 13:30:25] Werner Eck: acho q já estamos tendo uma pista do q é um 180
+[2017-11-01 13:30:32] Felipe "Juca" Sanches: Essa aí é a ROM do soquete u40 (a segunda de cima pra baixo
+[2017-11-01 13:30:54] Werner Eck: tem toda cara de ser um menu
+[2017-11-01 13:30:58] Werner Eck: do terminal
+[2017-11-01 13:31:19] Werner Eck: ao invés dele buscar um menu no mainframe ele tem o menu embarcado no firmware
+[2017-11-01 13:31:27] Werner Eck: (chute alto)
+[2017-11-01 13:31:57] Werner Eck: me parece q vc deu mais sorte com o 180
+[2017-11-01 13:32:02] Felipe "Juca" Sanches: acho que é menu de setup
+[2017-11-01 13:32:06] Felipe "Juca" Sanches: do protocolo
+[2017-11-01 13:32:09] Felipe "Juca" Sanches: baudrate
+[2017-11-01 13:32:11] Felipe "Juca" Sanches: essas coisas
+[2017-11-01 13:32:33] Werner Eck: pode ser sim
+[2017-11-01 13:32:34] Felipe "Juca" Sanches: aliás... aquele site diz que esse modelo foi feito pra ser compatível com os computadores da Bourroughs
+[2017-11-01 13:32:45] Felipe "Juca" Sanches: Seria divertido mapear qual é o protocolo usado
+[2017-11-01 13:33:02] Werner Eck: pode ser q vc acesse esse menu através de configuração na DIP switch
+[2017-11-01 13:33:20] Felipe "Juca" Sanches: e adicionar uma descrição à biblioteca termcap
+[2017-11-01 13:33:22] Werner Eck: está cada vez mais parecendo q vc tem aí o melhor dos dois mundos
+[2017-11-01 13:33:33] Werner Eck: vc tem a ROM 150 inteiraça
+[2017-11-01 13:33:35] Felipe "Juca" Sanches: e usar o terminal ligado numa USB-Serial
+[2017-11-01 13:33:58] Felipe "Juca" Sanches: pra logar num GNU+Linux
+[2017-11-01 13:34:06] Werner Eck: hahaha isso eu gostaria de ver
+[2017-11-01 13:34:26] Felipe "Juca" Sanches: cara... eu levaria um desses pra casa pra trabalhar diariamente num desses ligado ao meu laptop
+[2017-11-01 13:34:43] Felipe "Juca" Sanches: grande parte do meu trabalho no dia a dia é feito num emulador de terminal rodando vim
+[2017-11-01 13:35:04] Werner Eck: ou, vc pode encostar teu laptop aí do lado e ligar uns cabos null modem...
+[2017-11-01 13:35:25] Werner Eck: nem sei se tem saída padrão nesse carinha
+[2017-11-01 13:35:32] Werner Eck: digo, conector padrão
+[2017-11-01 13:35:49] Felipe "Juca" Sanches: do lado de trás tem uns DB-15
+[2017-11-01 13:35:57] Felipe "Juca" Sanches: um pra impressora e o outro supostamente pra ligar no computador
+[2017-11-01 13:36:07] Werner Eck: DB-15??
+[2017-11-01 13:36:21] Werner Eck: se fosse DB-25 eu já diria q deve ser serial
+[2017-11-01 13:36:33] Felipe "Juca" Sanches: ooops talvez seja DB-25
+[2017-11-01 13:36:36] Felipe "Juca" Sanches: eu chutei
+[2017-11-01 13:36:37] Werner Eck: provavelmente esse conector é proprietário
+[2017-11-01 13:36:39] Felipe "Juca" Sanches: deixa eu ver...
+[2017-11-01 13:36:55] Werner Eck: fotografa o bicho ae
+[2017-11-01 13:37:38] Felipe "Juca" Sanches: é, tá certo. É DB-25
+[2017-11-01 13:37:44] Werner Eck: então tá
+[2017-11-01 13:37:45] Felipe "Juca" Sanches: mal aí pelo chute haha
+[2017-11-01 13:37:49] Werner Eck: normal
+[2017-11-01 13:38:13] Werner Eck: eu aposto q é padrão serial TX-RX CTS RTS etc
+[2017-11-01 13:38:38] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804729012_34589.jpg
+[2017-11-01 13:38:40] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804726016_35590.jpg
+[2017-11-01 13:39:41] Werner Eck: É porta serial.
+[2017-11-01 13:39:59] Werner Eck: Veja q tem opção de uma porta paralela (impressora), só q não foi implementada
+[2017-11-01 13:40:06] Werner Eck: e tbm costuma ser DB25
+[2017-11-01 13:40:08] Werner Eck: http://www.aggsoft.com/rs232-pinout-cable/serial-cable-connections.htm
+[2017-11-01 13:41:03] Werner Eck: Cabo null modem: http://www.aggsoft.com/rs232-pinout-cable/nullmodem-db9-to-db25.htm
+[2017-11-01 13:41:36] Werner Eck: com isso e um laptop velho rodando um emulador de terminal pode ser q dê pra falar com ele.
+[2017-11-01 13:44:13] Werner Eck: (tomada padrão ABNT??)
+[2017-11-01 13:44:47] Werner Eck: curioso de plugar um benjamin femea ali pra ver se entraria
+[2017-11-01 13:46:46] Felipe "Juca" Sanches: olha que curioso o conteúdo da terceira ROM (soquete u46)
+[2017-11-01 13:46:52] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805509405_53101.jpg
+[2017-11-01 13:47:24] Werner Eck: É só isso?
+[2017-11-01 13:48:49] Felipe "Juca" Sanches: só
+[2017-11-01 13:48:52] Felipe "Juca" Sanches: tudo zero
+[2017-11-01 13:49:20] Werner Eck: ummm.. e a última?
+[2017-11-01 13:49:27] Felipe "Juca" Sanches: vou ver agora
+[2017-11-01 13:50:49] Felipe "Juca" Sanches: a ultima tem dados
+[2017-11-01 13:50:59] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805514545_29319.jpg
+[2017-11-01 13:51:21] Felipe "Juca" Sanches: tá muito estranho isso...
+[2017-11-01 13:51:44] Felipe "Juca" Sanches: a etiqueta da última tem o número zero onde eu esperava que fosse 3
+[2017-11-01 13:52:02] Felipe "Juca" Sanches: a etiqueta da primeira é sagitta180
+[2017-11-01 13:52:11] Felipe "Juca" Sanches: a da segunta é 180_1
+[2017-11-01 13:52:17] Felipe "Juca" Sanches: a da terceira é 180_2
+[2017-11-01 13:52:30] Felipe "Juca" Sanches: a quarta deveria ser 180_3, mas tá escrito na etiqueta 180_0
+[2017-11-01 13:52:43] Felipe "Juca" Sanches: e é a 180_2 que é toda cheia de zeros
+[2017-11-01 13:52:54] Werner Eck: Isso só deve fazer sentido pra quem dava manutenção nessa época
+[2017-11-01 13:54:04] Werner Eck: pq alguém preencheria 2K com zeros...?
+[2017-11-01 13:54:09] Werner Eck: não sei.
+[2017-11-01 13:54:21] Werner Eck: mas se leu isso aí, deve ter algum motivo
+[2017-11-01 13:55:22] Felipe "Juca" Sanches: bom... terminei de fazer os dumps do modelo 180
+[2017-11-01 13:55:41] Felipe "Juca" Sanches: é estranho ter uma ROM cheia de zeros mas não tenho mais o que fazer.
+[2017-11-01 13:55:59] Felipe "Juca" Sanches: li dez vezes e saiu tudo zero em todas, então acho que é isso mesmo que tem no chip
+[2017-11-01 13:56:12] Werner Eck: ctz
+[2017-11-01 13:56:14] Felipe "Juca" Sanches: vou agora anotar quais são os chips de CPU e auxiliares
+[2017-11-01 13:56:22] Werner Eck: vou almoçar enqto penso sobre o assunto
+[2017-11-01 13:56:36] Felipe "Juca" Sanches: já vi aqui um Intel 8080
+[2017-11-01 13:57:35] Felipe "Juca" Sanches: mas tem também 8257, 8228, 8212 e 8251, tudo da Intel
+[2017-11-01 14:05:25] Felipe "Juca" Sanches: vixe! achei uma ROM extra escondida debaixo da chapa de metal do teclado!
+[2017-11-01 14:05:46] Felipe "Juca" Sanches: E mais um chip da Intel, o 8275
+[2017-11-01 14:17:24] Felipe "Juca" Sanches: hmmm... vou ter que refazer os dumps todos por que acho que só li metade de cada chip :-P
+[2017-11-01 14:36:18] Felipe "Juca" Sanches: a ROM extra debaixo do teclado deve ser a fonte bitmap
+[2017-11-01 14:36:31] Werner Eck: esses chips q vc encontrou são auxiliares com função específica
+[2017-11-01 14:36:32] Felipe "Juca" Sanches: do lado dessa ROM tem também um controlador de CRT da Intel
+[2017-11-01 14:36:39] Werner Eck: Intel 8257 - direct memory access (DMA) controller
+[2017-11-01 14:37:10] Werner Eck: Intel 8228 - single chip system controller and bus driver
+[2017-11-01 14:37:37] Felipe "Juca" Sanches: a ROM do CRTC é um 2708
+[2017-11-01 14:37:40] Felipe "Juca" Sanches: http://www.jrtwine.com/jtwine/arcade/EPROMRef.htm
+[2017-11-01 14:37:45] Felipe "Juca" Sanches: que meu leitor não suporta
+[2017-11-01 14:38:06] Werner Eck: Intel 8212 - 8-bit Input Output Port
+[2017-11-01 14:38:17] Felipe "Juca" Sanches: parece que precisa de -5V, +5V e +12V
+[2017-11-01 14:38:28] Felipe "Juca" Sanches: que desgraça de ROM
+[2017-11-01 14:38:57] Felipe "Juca" Sanches: o CRTC é um Intel P8275
+[2017-11-01 14:39:18] Werner Eck: ROMs mais antigas precisam de tensões simétricas
+[2017-11-01 14:39:29] Werner Eck: O Mini não faz?
+[2017-11-01 14:39:43] Werner Eck: Intel 8251 - Universal Synchronous/Asynchronous Receiver/Transmitter
+[2017-11-01 14:39:49] Felipe "Juca" Sanches: deveria fazer, mas pra esse modelo especifico parece que não tem suporte
+[2017-11-01 14:40:42] Werner Eck: Ele não gera essas tensões de programação/leitura?
+[2017-11-01 14:41:41] Werner Eck: Não duvido q essa ROM q vc achou debaixo do teclado contenha o mapa de caracteres
+[2017-11-01 14:42:51] Felipe "Juca" Sanches: sim, acho que é a fonte bitmap do CRTC mesmo
+[2017-11-01 14:42:55] Felipe "Juca" Sanches: não pode ser outra coisa
+[2017-11-01 14:43:09] Felipe "Juca" Sanches: e o CRTC precisa de uma ROM com esses dados
+[2017-11-01 14:43:14] Werner Eck: exato
+[2017-11-01 14:43:16] Felipe "Juca" Sanches: então não tem como não ser essa ROM
+[2017-11-01 14:43:27] Werner Eck: tava lendo aqui no ds
+[2017-11-01 14:44:37] Werner Eck: Ele lê até light pen
+[2017-11-01 14:44:50] Werner Eck: 😆
+[2017-11-01 15:02:18] Felipe "Juca" Sanches: ok... confirmado que eu tinha lido só metade de cada uma das ROMs extras
+[2017-11-01 15:02:34] Felipe "Juca" Sanches: a principal ainda é 2716, mas as 3 outras são 2732
+[2017-11-01 15:02:54] Felipe "Juca" Sanches: fiz o dum delas e realmente achei mais 1k de dados que eu não tinha extraído
+[2017-11-01 15:04:04] Felipe "Juca" Sanches: a terceira ROM (segunda extra) dei um pouco de dor de cabeça, mas finalmente achei um dump que ocorreu diversas vezes e que faz sentido: tem valores não nulos até certo ponto e dali em diante só zeros
+[2017-11-01 15:04:53] Felipe "Juca" Sanches: isso faz sentido por que ess era a ROM que antes eu tava lendo inteiramente cheia de zeros (por que eu só tava lendo a segunda metade dela)
+[2017-11-01 15:05:05] Werner Eck: então faz sentido, são 3 de 4K e a do 150 é de 2K
+[2017-11-01 15:05:59] Werner Eck: Qual endereço começam os zeros na terceira ROM?
+[2017-11-01 15:06:12] Werner Eck: Só pra ter uma idéia de quanto espaço eles realmente utilizaram nessa
+[2017-11-01 15:06:32] Werner Eck: 2K?
+[2017-11-01 15:06:55] Werner Eck: Vai ver estava faltando 2716 e botaram essa
+[2017-11-01 15:07:35] Felipe "Juca" Sanches: 0x0459
+[2017-11-01 15:08:05] Werner Eck: é, pouco mais q 1K...
+[2017-11-01 15:08:13] Felipe "Juca" Sanches: é
+[2017-11-01 15:08:29] Felipe "Juca" Sanches: de uma ROM de 4k usaram um pouco menos de 1K e largaram zeros no resto
+[2017-11-01 15:08:30] Werner Eck: 1113B
+[2017-11-01 15:08:57] Werner Eck: às vezes é q nem a história do Spectrum 48K...
+[2017-11-01 15:09:11] Werner Eck: aliás, 16k
+[2017-11-01 15:09:37] Werner Eck: usaram RAMs 48K defeituosas, q só os primeiros 16K eram confiáveis
+[2017-11-01 15:09:48] Werner Eck: pagaram barato pelo lote
+[2017-11-01 15:10:25] Werner Eck: Vai ver algum fornecedor ofertou EPROMs 4K baratas
+[2017-11-01 15:10:53] Werner Eck: Td isso é especulação. Faz parte do processo de escavação...
+[2017-11-01 15:10:58] Werner Eck: ;-)
+[2017-11-01 15:14:38] Felipe "Juca" Sanches: você não vai acreditar o que tem escrito no comecinho da última ROM (aquela que diz 180_0 na etiqueta)
+[2017-11-01 15:14:59] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804726373_35242.jpg
+[2017-11-01 15:16:19] Felipe "Juca" Sanches: a ultima ROM fica depois do bloco de zeros da penúltima
+[2017-11-01 15:16:28] Felipe "Juca" Sanches: e ela tem cara de primeira rom do modelo 180
+[2017-11-01 15:16:29] Werner Eck: Engraçado, será q eles projetaram o sistema pra usar o mesmo bootloader do 150, mas a partir de um certo ponto ele acessa essa ROM pra dar a tela de boot?
+[2017-11-01 15:16:45] Felipe "Juca" Sanches: enquanto a primeira de fato se auto-intitula de modelo 150
+[2017-11-01 15:16:51] Werner Eck: Isso aí tem gato pra todo lado
+[2017-11-01 15:16:56] Felipe "Juca" Sanches: pode ser
+[2017-11-01 15:16:59] Werner Eck: é gato de engenharia
+[2017-11-01 15:17:19] Felipe "Juca" Sanches: vou ter que puxar as orelhas do Edson Fregni
+[2017-11-01 15:17:27] Werner Eck: háháháhá
+[2017-11-01 15:17:35] Werner Eck: ele é o fundador da Scopus?
+[2017-11-01 15:17:38] Felipe "Juca" Sanches: sim
+[2017-11-01 15:17:50] Felipe "Juca" Sanches: e também é o projetista da unidade de controle do Patinho Feio
+[2017-11-01 15:18:08] Werner Eck: sim, deve ter mais gente envolvida no PF q entrou pra scopus com ele
+[2017-11-01 15:18:49] Werner Eck: Pega leve, rsss
+[2017-11-01 15:28:37] Felipe "Juca" Sanches: ;-)
+[2017-11-01 15:30:56] Felipe "Juca" Sanches: ele tem 8 pastilhas de RAM dinâmica com 16k posições de 1 bit cada
+[2017-11-01 15:31:06] Felipe "Juca" Sanches: então acho que as 8 pastilhas ficam em paralelo pra formar um byte
+[2017-11-01 15:31:15] Felipe "Juca" Sanches: num total de 16kbytes de RAM
+[2017-11-01 15:32:00] Felipe "Juca" Sanches: pastilhas MM5290
+[2017-11-01 15:33:35] Werner Eck: Isso: http://matthieu.benoit.free.fr/cross/data_sheets/MM5290.pdf
+[2017-11-01 15:34:05] Felipe "Juca" Sanches: isso
+[2017-11-01 15:34:06] Werner Eck: Através de lógica de acesso RAS/CAS
+[2017-11-01 15:34:20] Werner Eck: Igual no D8002 da Dismac...
+[2017-11-01 15:34:21] Felipe "Juca" Sanches: que o Intel 8080 deve fazer por conta própria
+[2017-11-01 15:34:29] Werner Eck: isso era padrão
+[2017-11-01 15:35:17] Felipe "Juca" Sanches: Também tem um soquete não populado, mas cujo silk indica que seria usado para um chip TBP18S030 http://www.datasheetcatalog.com/info_redirect/datasheets/320/502478_DS.pdf.shtml
+[2017-11-01 15:35:25] Felipe "Juca" Sanches: que é uma PROM de 32bytes
+[2017-11-01 15:36:09] Felipe "Juca" Sanches: olhei aqui e o sagitta 150 tem uma PROM dessas lá nesse soquete. O 180 não tem
+[2017-11-01 15:36:23] Felipe "Juca" Sanches: preciso fazer odump desses 32 bytes também
+[2017-11-01 15:37:01] Werner Eck: cara, desejo sorte
+[2017-11-01 15:37:09] Werner Eck: a ver pelo que houve com a ROM dele...
+[2017-11-01 15:37:27] Werner Eck: Agora, fiquei curioso pra saber sobre essa PROM
+[2017-11-01 15:38:21] Felipe "Juca" Sanches: fico pensando se não foi aquele capacitor de 160 volts gambiarrado próximo à EPROM que possa ter causado danos ao chip
+[2017-11-01 15:38:41] Felipe "Juca" Sanches: não sei por que zoaria
+[2017-11-01 15:38:44] Felipe "Juca" Sanches: mas fico pensando
+[2017-11-01 15:38:46] Felipe "Juca" Sanches: ...
+[2017-11-01 15:39:11] Werner Eck: Acho q não, apostaria minhas fichas no tempo
+[2017-11-01 15:39:19] Werner Eck: ou corrosão, se vc tiver sorte
+[2017-11-01 15:39:21] Felipe "Juca" Sanches: ok
+[2017-11-01 15:39:31] Werner Eck: pode tentar ainda voltar pra limpar os pinos
+[2017-11-01 15:39:47] Werner Eck: ou tenta achar um bombrilzinho por aí...
+[2017-11-01 15:39:58] Werner Eck: na copa, sei lá.
+[2017-11-01 15:42:48] Felipe "Juca" Sanches: os outros 2 chips diferentões são ICL1489 e MC1488
+[2017-11-01 15:42:54] Felipe "Juca" Sanches: o resto é tudo TTL
+[2017-11-01 15:43:01] Felipe "Juca" Sanches: aliás... tem muito chip TTL nisso
+[2017-11-01 15:43:15] Werner Eck: nem um pouco surpreso com isso
+[2017-11-01 15:44:38] Werner Eck: esse dois CIs são complementares
+[2017-11-01 15:44:52] Werner Eck: São a interface serial RS232
+[2017-11-01 15:46:01] Werner Eck: o primeiro é o receiver, o segundo é o driver
+[2017-11-01 15:49:33] Felipe "Juca" Sanches: é, faz sentido
+[2017-11-01 15:50:01] Felipe "Juca" Sanches: e tem também um chip de UART da Intel na placa
+[2017-11-01 15:52:03] Werner Eck: o 8251
+[2017-11-01 15:52:32] Werner Eck: ele pega os dados desses dois chips, depois de converter os níveis de tensão
+[2017-11-01 15:52:59] Werner Eck: ele faz a transmissão/recepção da comunicação entre o equipamento externo e o processador, e vice versa
+[2017-11-01 15:54:02] Werner Eck: só q ele precisa dos dois chips q formam o hardware da norma EIA 232
+[2017-11-01 15:54:21] Werner Eck: basicamente são conversores de nível de tensão baixa-alta
+[2017-11-01 15:54:51] Werner Eck: e sinalização
+[2017-11-01 15:55:28] Werner Eck: 8251 = conversor paralelo/serial
+[2017-11-01 15:55:53] Werner Eck: MC1489/1488 = norma EIA 232
+[2017-11-01 16:00:05] Werner Eck: vc podia perguntar pro Fregni se ele teria acesso ao esquema...
+[2017-11-01 16:00:35] Werner Eck: Pra gente tentar achar sentido nessa PROM TBP18S030
+[2017-11-01 16:14:47] Felipe "Juca" Sanches: vou mandar agora aqui uma sequencia de fotos de coisas que tem por aqui
+[2017-11-01 16:15:48] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804722855_60972.jpg
+[2017-11-01 16:15:52] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804729156_37225.jpg
+[2017-11-01 16:15:57] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804721838_80178.jpg
+[2017-11-01 16:16:00] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804723069_57407.jpg
+[2017-11-01 16:16:04] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804728979_36734.jpg
+[2017-11-01 16:16:08] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805514714_30012.jpg
+[2017-11-01 16:16:11] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804730982_36320.jpg
+[2017-11-01 16:16:15] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804721291_79193.jpg
+[2017-11-01 16:16:18] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805514468_29394.jpg
+[2017-11-01 16:16:21] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805513669_29305.jpg
+[2017-11-01 16:16:24] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804728272_37648.jpg
+[2017-11-01 16:16:29] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805511368_51465.jpg
+[2017-11-01 16:16:32] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805514288_29506.jpg
+[2017-11-01 16:16:34] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804727370_35564.jpg
+[2017-11-01 16:16:39] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805510041_51558.jpg
+[2017-11-01 16:16:42] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804724243_55517.jpg
+[2017-11-01 16:16:45] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804725007_56032.jpg
+[2017-11-01 16:16:48] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804723061_57276.jpg
+[2017-11-01 16:16:51] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805511109_48497.jpg
+[2017-11-01 16:16:54] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805511503_50826.jpg
+[2017-11-01 16:16:59] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805511163_51225.jpg
+[2017-11-01 16:17:02] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805513159_29662.jpg
+[2017-11-01 16:17:05] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805510614_48113.jpg
+[2017-11-01 16:17:10] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804721042_80005.jpg
+[2017-11-01 16:17:14] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804728787_35410.jpg
+[2017-11-01 16:17:17] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804729826_35801.jpg
+[2017-11-01 16:17:19] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805509193_51050.jpg
+[2017-11-01 16:17:22] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804726387_37055.jpg
+[2017-11-01 16:17:27] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805512561_29085.jpg
+[2017-11-01 16:17:30] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805513433_29745.jpg
+[2017-11-01 16:17:35] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805513366_28478.jpg
+[2017-11-01 16:17:38] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804722552_59896.jpg
+[2017-11-01 16:17:43] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804730523_38030.jpg
+[2017-11-01 16:17:45] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_805509296_52168.jpg
+[2017-11-01 16:19:58] Werner Eck: nossa quanta coisa - esse tk3000 tá uma tetéia...
+[2017-11-01 16:20:10] Werner Eck: agora eu acho q vi em alguma foto um tk3000 compact
+[2017-11-01 16:21:01] Werner Eck: do lado do msx, o q é aquilo?
+[2017-11-01 16:29:01] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804728896_35176.jpg
+[2017-11-01 16:29:02] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804730654_35851.jpg
+[2017-11-01 16:29:05] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804728540_35913.jpg
+[2017-11-01 16:29:07] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804721232_80245.jpg
+[2017-11-01 16:29:08] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_804722532_60416.jpg
+[2017-11-01 16:31:56] Werner Eck: meeeeu q raridaaaaaaadeeeeeeeeeeeeee
+[2017-11-01 16:32:08] Werner Eck: pega isso e bota no bolso, rapidinho
+[2017-11-01 16:32:30] Werner Eck: É um clone chinês do Apple //c com recursos a mais...
+[2017-11-01 16:33:12] Werner Eck: http://www.old-computers.com/museum/computer.asp?c=13
+[2017-11-01 16:34:38] Werner Eck: Eu quero ele.
+[2017-11-01 16:35:01] Werner Eck: ele tem uma porta para conectar um monitor cga além da porta analógica
+[2017-11-01 16:35:09] Werner Eck: tem som interno, com saída pra fone
+[2017-11-01 16:36:24] Werner Eck: drive de disco compatível com apple //e //c, macintosh, apple //gs
+[2017-11-01 16:36:52] Werner Eck: a ROM foi reescrita por eles, não é cópia descarada da Apple - mas mantém compatibilidade com ela
+[2017-11-01 16:37:17] Werner Eck: *brincando quanto a botar no bolso
+[2017-11-01 16:41:49] Felipe "Juca" Sanches: Hehehe eu sei ;-)
+[2017-11-01 16:42:00] Felipe "Juca" Sanches: To indo pra casa
+[2017-11-01 16:42:11] Felipe "Juca" Sanches: Té mais
+[2017-11-01 16:42:15] Werner Eck: falow
+[2017-11-01 18:36:52] Felipe "Juca" Sanches (in reply to Felipe "Juca" Sanches): Isso aqui é uma unidade de disco de 8 polegadas. New Old Stock ! Lacrada e com manual.
+[2017-11-01 18:37:49] Felipe "Juca" Sanches (in reply to Felipe "Juca" Sanches): E isso aí no meio é um disquete de 8 polegadas com a etiqueta "Sistema Operacional COBRA" ! :-O
+[2017-11-01 18:38:19] Felipe "Juca" Sanches sent document: /home/felipe/devel/github_tvdstaaij/telegram-history-dump/output/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos/download_480193393985586949.webp
+[2017-11-01 18:39:28] Felipe "Juca" Sanches: hmmm... não tenho certeza sobre o "com manual". Talvez eu tenha me enganado quanto a isso. Mas mesmo assim! É um unidade de disco rara e NOVÍSSIMA !
+[2017-11-01 18:39:44] Felipe "Juca" Sanches: E um disco importante para ser lido nela.
+[2017-11-01 18:39:58] Felipe "Juca" Sanches: Ambos na mesma sala, no meio de um monte de bagulho nada ver.
+[2017-11-01 18:40:07] Felipe "Juca" Sanches: E algumas outras coisas incríveis no meio.
+[2017-11-01 18:49:18] Werner Eck: Pode ser interessante usar a unidade conectada de algum modo a um pc moderno, pra ler e extrair os binários do disco
+[2017-11-01 18:49:57] Werner Eck: Aparte, rapidinho: Eu vi isso aqui e talvez vc já conheça, talvez não (http://rc2014.co.uk/)
+[2017-11-01 18:53:14] Werner Eck: Voltando ao floppy
+[2017-11-01 18:53:20] Werner Eck: http://www.dbit.com/fdadap.html
+[2017-11-01 18:53:34] Werner Eck: https://www.ebay.com/itm/34pin-1-44mb-floppy-connecter-to-USB-adapter-cable-34-pin-/292281078596
+[2017-11-01 19:47:12] Felipe "Juca" Sanches: Vai rolar atividade amanhã no Garoa ?
+[2017-11-01 19:47:38] Werner Eck: ia te perguntar a mesma coisa. Por mim, estarei lá.
+[2017-11-01 19:47:41] Felipe "Juca" Sanches: Pra emular o Zé ?
+[2017-11-01 19:48:09] Felipe "Juca" Sanches: Eu tô confirmadíssimo nesse esquema.
+[2017-11-01 19:48:20] Felipe "Juca" Sanches: eu tenho 5a e 6a disponível pra isso
+[2017-11-01 19:48:28] Werner Eck: tem um horário específico?
+[2017-11-01 19:48:30] Werner Eck: eu idem
+[2017-11-01 19:48:31] Felipe "Juca" Sanches: sábado e domingo vai ser mais difícil mas talvez role também...
+[2017-11-01 19:48:46] Werner Eck: sábado vou ficar por aqui pra dar uma estudada
+[2017-11-01 19:48:58] Werner Eck: tenho vestibular dia 7
+[2017-11-01 19:49:19] Werner Eck: não vejo álgebra faz uns 20 anos
+[2017-11-01 19:50:02] Werner Eck: q horário vc prefere chegar?
+[2017-11-01 19:56:44] Felipe "Juca" Sanches: por mim pode ser super cedo
+[2017-11-01 19:56:52] Felipe "Juca" Sanches: tipo 10h da manhã
+[2017-11-01 19:57:10] Felipe "Juca" Sanches: daria pra talvez ser 9h, mas aí pode ser que seja cedo demais
+[2017-11-01 19:57:27] Felipe "Juca" Sanches: e a idéia é passar o dia todo lá
+[2017-11-01 19:57:30] Felipe "Juca" Sanches: até de noite
+[2017-11-01 19:57:36] Werner Eck: 9 é cedo demais pra mim.
+[2017-11-01 19:57:41] Werner Eck: eu moro meio longe
+[2017-11-01 19:58:04] Felipe "Juca" Sanches: 10h é bom?
+[2017-11-01 19:58:11] Felipe "Juca" Sanches: se quiser chegar um pouco mais tarde não tem problema
+[2017-11-01 19:58:40] Werner Eck: blz, 10 tá de bom tamanho. Se eu atrasar um pouco não vai descontar do salário..
+[2017-11-01 19:58:59] Werner Eck: Eu até fico mais confortável sabendo q vc já está lá
+[2017-11-01 19:59:20] Werner Eck: sem correr o risco de a porta estar fechada
+[2017-11-01 20:06:30] Felipe "Juca" Sanches: beleza
+[2017-11-01 20:06:32] Felipe "Juca" Sanches: combinado
+[2017-11-01 20:06:57] Werner Eck: 👍
+[2017-11-01 20:09:47] Werner Eck: Vou participar no RoadSec como Roadie
+[2017-11-01 20:09:54] Werner Eck: confirmado.
+[2017-11-01 20:24:35] Felipe "Juca" Sanches: O que é isso? Voluntário pra ajudar na organização ?
+[2017-11-01 20:24:49] Werner Eck: sim
+[2017-11-01 20:25:07] Werner Eck: me candidatei lá
+[2017-11-01 20:25:19] Felipe "Juca" Sanches: Cara... você vai me matar, mas eu ganhei semana passada o direito de trazer alguém. E pensei em te chamar, mas acabei esquecendo
+[2017-11-01 20:25:35] Felipe "Juca" Sanches: eu ainda tenho o direito de levar alguém
+[2017-11-01 20:25:51] Werner Eck: então escolhe alguém que tenha interesse ué
+[2017-11-01 20:25:55] Felipe "Juca" Sanches: vou ver se acho alguém relacionado a emulação que queira
+[2017-11-01 20:26:03] Werner Eck: eu já dei meus pulos
+[2017-11-01 20:26:16] Werner Eck: isso
+[2017-11-01 20:26:24] Werner Eck: deve ter mais gente interessada

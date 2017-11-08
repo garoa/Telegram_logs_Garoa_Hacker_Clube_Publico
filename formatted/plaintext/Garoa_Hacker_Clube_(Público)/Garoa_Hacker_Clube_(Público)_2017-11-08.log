@@ -1,0 +1,14 @@
+[2017-11-08 00:01:06] #installfesttodomes !!!!
+[2017-11-08 00:20:18] FOR é um laço de repetição que existem em varias linguagens. Poste no hackerspacesp a sua dúvida.
+[2017-11-08 00:26:22] hackerspacesp?
+[2017-11-08 00:26:56] Eu queria saber a diferença do "for" pro "while".
+[2017-11-08 00:27:00] https://groups.google.com/forum/#!forum/hackerspacesp
+[2017-11-08 00:27:11] Ah, obrigado.
+[2017-11-08 00:27:35] for: execute um bloco de código repetidas vezes para um intervalo de valores de uma variavel de controle
+[2017-11-08 00:27:35] Valeu, @lvido e @fsanches
+[2017-11-08 00:27:50] while: execute um bloco de código enquanto uma condição for verdadeira
+[2017-11-08 00:28:32] Ah... Puxa vida. Clareou tudo. Valeuzão!
+[2017-11-08 00:35:28] ;-)
+[2017-11-08 00:35:32] Happy Hacking !
+[2017-11-08 10:01:41] Tauan me ajudou bastante saber que os dois são iguais... oque vai mudar é a forma como você vai declarar. Tem 1 diferença: a variável de controle da repetição sempre será alterada, no caso do for, ao final do loop. No while, por sua vez, você poderá alterar e colocar ao início, por exemplo.
+[2017-11-08 11:36:00] Edição 16 da PoC||GTFO (lançada no H2HC) já está disponível: https://www.alchemistowl.org/pocorgtfo/
