@@ -1,2 +1,133 @@
-[2017-11-09 00:14:04] O banner explicando o que é um hackerspace, de forma genérica, desapareceu em algum dos n eventos que fizemos.
-[2017-11-09 00:16:47] Eu tava afins é de experimentar um Debian pra começar a ter experiência para além do Ubuntu...
+[2017-11-09 00:53:10] https://forum.fiozera.com.br/t/terminais-seriais-da-scopus-modelos-sagitta-150-e-sagitta-180/154
+[2017-11-09 02:56:01] Vai devagar até tu manjar tu vai ver muito kernel panic
+[2017-11-09 02:57:04] adoro dar uma olhadinha nos valores dos registradores da CPU durante kernel panics
+[2017-11-09 02:57:15] é até meio legal quando algo quebra pra valer
+[2017-11-09 02:57:35] (tem nome essa doença?)
+[2017-11-09 02:58:05] 3AM diz muito, aliás...
+[2017-11-09 02:59:36] Kkkkk
+[2017-11-09 02:59:55] Kernel panic addict
+[2017-11-09 03:00:16] diga-se de passagem que hoje em dia tá extremamente raro isso acontecer. Acho que meu último kernel panic em computador de uso cotidiano foi vários / muitos anos atrás. De lá pra cá só vi kernel panic em embarcados durante desenvolvimento de driver e coisas mais hardcore
+[2017-11-09 03:00:22] 0x4242424242424242
+[2017-11-09 03:00:35] stack-paint ?
+[2017-11-09 03:01:16] Esse é meio que o payload padrão pra ver se algum overflow vai pra registrador
+[2017-11-09 03:02:03] yep
+[2017-11-09 03:03:18] pode passar batido pra alguns aqui que podem achar que você digitou uma quantidade arbitrária de quarenta-e-doizes... mas eu vejo 8 bytes aí. Isso aí é um registrador de 64 bits !
+[2017-11-09 03:03:45] como uma quantidade arbitraria de "he"s em "heheheheheheheheheheheh"
+[2017-11-09 03:06:57] Não é 0x41414141?
+[2017-11-09 03:07:02] AAAA
+[2017-11-09 03:09:46] aí é 32bits ;-)
+[2017-11-09 03:12:02] mas acho que o 0x42 do Acidx não era ASCII. Tá mais pra um homógrafo hexa de 42 decimal, referência à resposta para a vida, o universo e tudo mais
+[2017-11-09 03:12:44] ou será que era BBBBBBBB ?
+[2017-11-09 03:12:49] nhé...
+[2017-11-09 03:13:41] acidx foi dormir ? Alô alô Acidx Leandro
+[2017-11-09 03:14:24] Tô no bar hehe
+[2017-11-09 03:15:30] cheers!
+[2017-11-09 03:15:57] então acho que era Bebê Bebê Bebê Bebê     LOL
+[2017-11-09 03:40:24] Kkk
+[2017-11-09 06:47:10] Eu tô acostumado com sotaque indiano. Rsts
+[2017-11-09 06:49:10] Minha parada com Java é por causa de aplicativos Android. Mas já vi que curti muito mais o Python.
+[2017-11-09 06:55:45] Meu último kernel panic foi durante a instalação do Manjaro. Se o grub não for o dele, dá kernel panic. Ele não aceita grub de outra distribuição.
+[2017-11-09 07:22:33] O rapaz que tava querendo instalar o Ubuntu conseguiu?
+[2017-11-09 07:27:25] Aguardamos cenas dos proximos capitulos
+[2017-11-09 09:17:26] Não tentei.. Estou esperando pra ver se vai rolar o tal do instalfest no garoa
+[2017-11-09 10:32:33] Que isso. Tu sabe que tem crédito sobrando :) Tranquilo. Vamos tentar fazer algo para a Roadsec
+[2017-11-09 10:45:58] Minha filosofia é jogar logo no fogo. Quer aprender Linux? Começa com Slackware.
+[2017-11-09 11:04:06] Passei por uns kernel panic quando atualizei recentemente pro 16.04. Como tenho HD particionado e num está um Windows que eu zoei o gerenciador de boot, ele reiniciou depois da atualização e não sabia o que fazer, pois pra piorar o grub tb tava zoado.
+Peguei meu cel, pesquisei e tive que alterar umas coisas em algum arquivo (não lembro mas vcs devem saber) pra ele desprezar totalmente o windows...
+[2017-11-09 11:19:19] A morte do táxi aéreo. 
+ba dum tss
+[2017-11-09 11:25:38] Imagine como era na época em que não tinha internet no celular pra sair duma situação dessas...
+[2017-11-09 11:26:00] Eu passei 1 mês inteiro offline tentando aprender como configurar dialup num Slackware
+[2017-11-09 11:26:05] só lendo man-page
+[2017-11-09 11:26:44] a primeira tentativa foi no slackware na epoca da discada
+[2017-11-09 11:26:45] 1 mês de man-pages offline depois.... barulhinho de chiado e apitos da conexão e alegria total
+[2017-11-09 11:26:54] ai fui salvo pelo debian
+[2017-11-09 11:27:01] e de novo agora salvo pelo arch linux
+[2017-11-09 12:57:46] Então vai direto para Kotlin
+[2017-11-09 13:04:16] No meu caso, foi instalar gentoo tendo só um computador
+[2017-11-09 13:05:03] Só os txts do guia deles que vinha no CD como referência. Bem melhor do que man Pages, mas mesmo assim, se algo dava errado, ferrava tudo hehe
+[2017-11-09 13:13:26] E eu 1 mês para fazer funcionar a placa wifi da ralink para finalmente ter internet (A antena direcional era conectada diretamente no desktop)
+[2017-11-09 13:17:17] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_1842540969984066.webp
+[2017-11-09 13:50:33] Samuel Dourado joined
+[2017-11-09 13:50:34] Hi Samuel !
+[2017-11-09 13:50:39] Opa
+[2017-11-09 13:51:47] Boa tarde.
+[2017-11-09 13:52:19] Alguém sabe qual é próximo evento no Garoa?
+[2017-11-09 13:52:39] garoa.net.br
+[2017-11-09 13:52:47] Em Próximos eventos tem a lista
+[2017-11-09 13:53:30] faz sentido
+[2017-11-09 13:54:08] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_328774854541050096.webp
+[2017-11-09 13:56:20] Obrigado
+[2017-11-09 13:57:41] Tauan pode fazer aplicativos para Android nalguma linguagem mais bacana, e.g. Scala
+[2017-11-09 14:07:12] Alguém sabe de algum grupo de php ?
+[2017-11-09 14:13:21] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804723341_63925.jpg
+[2017-11-09 14:19:04] haha. Lembrei de uma mina que postou feliz que tinha comprado sua primeira btc e postou a public e a private key
+[2017-11-09 14:23:25] Nossa. Minha primeira treta com o Linux foi achar o driver do modem 56k sem acesso a internet. Foi DPC,DPL kkkkk
+[2017-11-09 14:27:48] protocolo DPCDPL é o que há de melhor!
+[2017-11-09 14:28:50] É de dar nos nervos! Pior que isso acho que só problema de MCDC...
+[2017-11-09 15:19:06] http://www.gameofhacks.com/
+[2017-11-09 17:04:14] Pergunta pra Galera que mexe com CNC e Motor Stepper: Eu preciso girar um cilindro de 10kg sobre o eixo de um motor stepper (na vertical). Será que o driver Pololu DRV8825 (2500mA) toca? ou frita?
+[2017-11-09 17:05:34] O Pololu DRV8829 de 5A não aparece em uma busca rápida no ML
+[2017-11-09 18:52:06] Mas fiz um novo
+[2017-11-09 18:52:33] Luxo!
+[2017-11-09 19:07:10] Mas o antigo foi achado
+[2017-11-09 20:35:46] Pessoas vocês fazem análise de algoritmo antes de implementar no projeto/trabalho de vocês? Quando o fazem efetivamente relevam o que for estático e não crescer com 'n'?
+[2017-11-09 20:41:15] Lucas depende, se você precisa documentar, faz, mas se não para quê?
+[2017-11-09 20:41:24] geralmente as propriedades vão ser intuitivas
+[2017-11-09 20:44:15] Faz sentido. Obrigado! Tenho curiosidade de saber como é o dia a dia dos devs...
+[2017-11-09 20:44:39] Lucas depende muito do dev, tem muitos tipos deles
+[2017-11-09 20:48:16] Lucas em qual área você pensa se especializar?
+[2017-11-09 20:51:22] penso muito em seguir com ciência de dados. sendo direito minha primeira formação pretendo juntar as duas areas e acho que na parte de ciencia de dados é onde mais aproveitaria esses 5 anos... do contrário vai ser meio que jogado fora haha
+[2017-11-09 20:52:08] Gente alguém já teve problemas ao instalar o vmware workstation?
+[2017-11-09 20:52:16] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804723802_64445.jpg
+[2017-11-09 20:52:30] Tá tudo instalado gcc mas ele não acha
+[2017-11-09 21:00:23] Lucas então você vai estudar estatística...
+[2017-11-09 21:02:49] sim! O buraco é bem mais embaixo... por hora estou tentando aprender o basico pra falar a verdade
+[2017-11-09 21:03:18] quando eu conseguir entender recursão será uma vitória kkk
+[2017-11-09 21:09:03] abriram as incrições pro curso de verão do IME
+[2017-11-09 21:09:14] tem introdução a computação e introdução a estatística tb
+[2017-11-09 21:09:17] tem de dia e noite
+[2017-11-09 21:09:46] https://www.ime.usp.br/verao/index.php/turmas/apresentacao.php
+[2017-11-09 21:11:42] nossa obrigado @Yumizinha ! não sabia que isso existia
+[2017-11-09 21:12:04] é baratinho, tem certificado de extensão do IME, dura um mÊs
+[2017-11-09 21:12:36] é bem barato mesmo
+[2017-11-09 21:12:56] parece que Introdução à Programação em R já esgotou haha
+[2017-11-09 21:16:26] https://www.tecmundo.com.br/seguranca/124000-governo-sp-minerando-criptomoedas-computador-voce-saber.htm
+[2017-11-09 21:16:48] Verdade ou balela?
+[2017-11-09 21:25:41] tem que achar o path do gcc neh? beo teus
+[2017-11-09 21:26:28] Verdade
+[2017-11-09 21:26:29] Esgotou no dia que abriu... foi algo absurdo... veja a quantidade de vagas!
+[2017-11-09 21:26:46] ops. não dá pra ver, mas era 90 por turno
+[2017-11-09 21:26:57] @Yumizinha pois é ta todo mundo louco por esse R
+[2017-11-09 21:27:43] eu fui descobrir que ele existia esse semestre kk
+[2017-11-09 21:27:47] www.google.com.br/search?q=adicionar+path+gcc
+[2017-11-09 21:28:13] Eles dão curso fora do IME também... de igual qualidade
+[2017-11-09 21:28:56] http://curso-r.com/cursos/
+[2017-11-09 21:32:35] Conheço  esse cara no grupo do Roadsec kkk
+[2017-11-09 21:34:16] Eu já achei, acho q nao sou tão lesado
+[2017-11-09 21:43:32] 👍🏽
+[2017-11-09 21:44:33] Mas não era esse o problema
+[2017-11-09 21:44:40] Reinstalei o gcc-6
+[2017-11-09 21:45:15] E localizei novamente o executável e rodou
+[2017-11-09 21:45:36] Atualizei pro 14
+[2017-11-09 21:45:39] Heheh
+[2017-11-09 21:45:42] Agora foi
+[2017-11-09 21:45:48] Obrigado mesmo assim
+[2017-11-09 21:58:30] Hahahah, sim. Não sei qual é o overlap de membros entre os dois grupos, então, o que posto aqui, eu posto lá. 🙂
+[2017-11-09 22:01:34] Quer aprender R/Data Science? Como tá teu ingrishi? Sempre tem coisa boa no Coursera.
+https://www.coursera.org/browse/data-science?languages=en
+[2017-11-09 22:02:12] ingrishi é veri tranquilo haha
+[2017-11-09 22:02:34] vou dar uma olhada lá. vlw!
+[2017-11-09 22:08:40] vai mesmo deixar de existir roadsec?
+[2017-11-09 22:13:09] Ok
+[2017-11-09 22:13:46] Melo e boral
+[2017-11-09 22:14:14] No grupo do Roadsec (Telegram), não vi ninguém comentando nada a respeito.
+[2017-11-09 22:15:23] "mega edição de encerramento"
+[2017-11-09 22:15:34] acho que já disseram tudo
+[2017-11-09 22:16:31] Acredito que é "mega edição de encerramento dos Roadsec do ano de 2017"
+[2017-11-09 22:16:48] Houveram vários RoadSec em diversas cidades
+[2017-11-09 22:16:50] Mais de 20
+[2017-11-09 22:17:20] Interpretação...
+[2017-11-09 22:17:36] https://roadsec.com.br/calendario-2017
+[2017-11-09 22:37:43] Abre vaga dos desistentes
+F5 ftw

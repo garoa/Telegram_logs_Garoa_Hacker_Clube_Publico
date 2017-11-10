@@ -1,6 +1,6 @@
 {
   "dumper": "json",
-  "last_modified": "2017-11-09T02:19:14+00:00",
+  "last_modified": "2017-11-10T22:20:34+00:00",
   "dialogs": {
     "186910336": {
       "newest_id": "020000008006240ba0b00400000000000000000000000000",
@@ -45,8 +45,8 @@
       }
     },
     "1050919227": {
-      "newest_id": "050000003bc1a33e5ec40000000000006e6ae5ba90ca32fa",
-      "newest_date": 1510193807,
+      "newest_id": "050000003bc1a33e52c50000000000006e6ae5ba90ca32fa",
+      "newest_date": 1510351827,
       "dumper_state": {
         "outfile": "json/Garoa_Hacker_Clube_(Público).jsonl"
       }
