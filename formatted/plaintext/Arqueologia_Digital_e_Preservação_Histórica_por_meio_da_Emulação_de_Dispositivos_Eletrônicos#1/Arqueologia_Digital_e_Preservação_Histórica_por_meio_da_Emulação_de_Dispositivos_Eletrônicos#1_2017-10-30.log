@@ -1,0 +1,22 @@
+[2017-10-30 01:47:27] Felipe "Juca" Sanches: emulei o CP-500 no MAME
+[2017-10-30 01:47:29] Felipe "Juca" Sanches: https://forum.fiozera.com.br/t/estudando-os-circuitos-do-prologica-cp-500/150/5
+[2017-10-30 01:47:50] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_804726502_34029.jpg
+[2017-10-30 01:50:38] Felipe "Juca" Sanches (forwarded from Felipe "Juca" Sanches): O hardware não é idêntico ao do TRS-80 Model 3. Tem um flipflop que chaveia página de memória e por causa da falta da emulação dessa parte simplesmente carregar a ROM do cp500 no emulador de TRS80 Model 3 não funciona
+[2017-10-30 01:50:38] Felipe "Juca" Sanches (forwarded from Felipe "Juca" Sanches): Fiz os ajustes, declarei um novo driver de emulação derivado do TRS80 Model 3 contendo a emulação do flipflop adicional e do mecanismo de chaveamento de página e agora rola direitinho
+[2017-10-30 01:50:38] Felipe "Juca" Sanches (forwarded from Felipe "Juca" Sanches): deve ser incluso na versão do MAME do mês que vem, a 0.192
+[2017-10-30 01:54:04] Werner Eck: Meus parabéns pela emulação!
+[2017-10-30 01:55:10] Werner Eck: Vc já tem o dom do código, pega fácil as necessidades de cada hardware. Isso se deve à prática. Novamente, parabéns.
+[2017-10-30 01:57:57] Felipe "Juca" Sanches: Faz uns 8 anos (ou mais) que eu fuço no código do MAME
+[2017-10-30 01:58:50] Werner Eck: Eu te conheci mexendo no MAME
+[2017-10-30 01:59:50] Werner Eck: Vc ja tinha emulado maquinas com proteção, como aquela q tem no garoa, q vc mostrou pra mim como vc quebrou a proteção dela.
+[2017-10-30 02:00:39] Werner Eck: Vc já é especialista em MAME.
+[2017-10-30 02:07:24] Felipe "Juca" Sanches: #1: não é proteção, é bloqueio. Pra todas as pessoas do mundo é bloqueio. Só é proteção para a empresa que desenvolveu o equipamento
+[2017-10-30 02:07:39] Werner Eck: Bom...
+[2017-10-30 02:07:43] Felipe "Juca" Sanches: #2: não fui eu que quebrei o mecanismo de bloqueio
+[2017-10-30 02:07:49] Felipe "Juca" Sanches: foi alguma outra pessoa
+[2017-10-30 02:08:00] Felipe "Juca" Sanches: eu só aprendi a respeito e te contei uma história empolgante
+[2017-10-30 02:08:08] Felipe "Juca" Sanches: :-)
+[2017-10-30 02:08:22] Felipe "Juca" Sanches: mas eu gosto muito desse tema e dedico bastante já faz quase uma década
+[2017-10-30 02:08:25] Werner Eck: Td bem perdoe a falha de memoria... Faz uns 2 anos já.
+[2017-10-30 02:19:00] Felipe "Juca" Sanches: acabaram de dar o merge
+[2017-10-30 02:19:15] Felipe "Juca" Sanches: é oficial, tem CP-500 no MAME agora :-)

@@ -1,0 +1,20 @@
+[2017-06-21 11:55:05] Felipe "Juca" Sanches: legal!
+[2017-06-21 11:56:21] Felipe "Juca" Sanches: Eu tenho trabalhado nas últimas 3 ou 4 semanas em um único projeto: uma reimplementação da máquina virtual do jogo Another World para rodar em uma placa JAMMA que estou projetando, com 3 chips Z80 e um chip de som Paula dos computadores Commodore Amiga.
+[2017-06-21 11:57:03] Felipe "Juca" Sanches: Tá enroscando ainda durante o boot. Mas já aparece isso aqui na tela:
+[2017-06-21 11:57:12] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_803110737_95872.jpg
+[2017-06-21 11:58:11] Felipe "Juca" Sanches: Ah, sim! Esqueci de mencionar que estou também escrevendo o driver de emulação da placa JAMMA que estou projetando. Assim que o firmware das 3 CPUs estiver rodando legal no emulador, parto para a fabricação de PCBs.
+[2017-06-21 12:22:05] Cássia Sampaio: legal 👌🏻
+[2017-06-21 12:44:34] Felipe "Juca" Sanches: acabei de achar uma evidência de qual é o bug
+[2017-06-21 12:45:18] Felipe "Juca" Sanches: comparando uma implementação anterior (e completamente funcional da VM) que eu mesmo já tinha feito, na execução passo a passo das instruções, chega um momento em que a execução do bytecode diverge
+[2017-06-21 12:45:34] Felipe "Juca" Sanches: logo após a instrução break
+[2017-06-21 12:45:49] Felipe "Juca" Sanches: ou seja, lá vou eu debugar a instrução break
+[2017-06-21 12:52:56] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_803735074_123379.jpg
+[2017-06-21 12:53:38] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_804740578_45201.jpg
+[2017-06-21 12:54:29] Felipe "Juca" Sanches: Quando a gente explica algo prum pedaço de papel usando uma caneta BIC também é considerado Rubber Ducking ?
+[2017-06-21 16:43:37] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_803112746_76272.jpg
+[2017-06-21 16:43:51] Felipe "Juca" Sanches (in reply to Felipe "Juca" Sanches): Este é o mais antigo "ASCII-art" brasileiro. 
+Apesar do termo não ser usado naquela época...
+[2017-06-21 16:59:38] Felipe "Juca" Sanches: https://forum.fiozera.com.br/t/resgate-historico-do-computador-patinho-feio-usp-1971/58/16
+[2017-06-21 17:00:07] Felipe "Juca" Sanches: Tem mais informações obre esse desenho na postagem que acabei de fazer no fórum, no link enviado acima.
+[2017-06-21 17:09:05] Cássia Sampaio: 👏🏻👏🏻👏🏻
+[2017-06-21 22:51:45] Felipe "Juca" Sanches: Consertei a instrução break e agora a execução da VM parece estar redondinha do ponto de vista de controle de fluxo de execução do bytecode e alternãncia de threads. Mas o vídeo continua zoado. Estou agora debugando a interpretação dos dados de renderação de polígonos pra ver se rolou algum tropeço no meio do caminho na interpretação dos dados e manipulação de ponteiros pra cá e pra lá...

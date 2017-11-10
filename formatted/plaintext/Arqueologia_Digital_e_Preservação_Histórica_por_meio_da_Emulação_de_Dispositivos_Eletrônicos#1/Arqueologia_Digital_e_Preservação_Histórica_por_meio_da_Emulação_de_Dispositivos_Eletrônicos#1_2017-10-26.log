@@ -1,0 +1,282 @@
+[2017-10-26 13:08:07] Werner Eck: Cara, to lendo esse bio do Setzer e não consigo parar de rir... os apelidos q deram a ele (especialmente o último, pelo não menos famoso Jacob)...
+[2017-10-26 13:08:11] Werner Eck: http://www.aeitaonline.com.br/wiki/index.php?title=Valdemar_Waingort_Setzer
+[2017-10-26 13:13:33] Werner Eck: Ele está na USP hoje - vc chegou a falar com ele sobre o Zezinho? Ele foi o último a mexer nele, e fez várias atualizações nele.
+[2017-10-26 13:13:34] Werner Eck: https://www.ime.usp.br/vwsetzer
+[2017-10-26 13:24:33] Alexandre Villares: Fui outro dia conversar com o prof. Hirata no IME, ele me passou um paper legal do Setzer para uma atividade 'desplugada' de algoritmo de ordenação...
+[2017-10-26 15:10:13] Felipe "Juca" Sanches: Falei agora com o Setzer pelo telefone
+[2017-10-26 15:10:19] Felipe "Juca" Sanches: Ele está aposentado
+[2017-10-26 15:10:27] Felipe "Juca" Sanches: mas me passaram o número da casa dele
+[2017-10-26 15:10:40] Felipe "Juca" Sanches: Ele me disse que o Zezinho tinha apenas 8 posições de memória.
+[2017-10-26 15:11:19] Felipe "Juca" Sanches: E que o Patinho Feio, em comparação, era um "projeto sério". Já o Zezinho era apenas um projeto didático com aspirações educacionais.
+[2017-10-26 15:11:48] Felipe "Juca" Sanches: Ele disse que o Zezinho não tinha uma linguagem de máquina "só tinha circuitos".
+[2017-10-26 15:12:19] Felipe "Juca" Sanches: Perguntei então se tinha ao menos algum tipo de micro-código. Mas ele inicialmente disse que não.
+[2017-10-26 15:12:41] Felipe "Juca" Sanches: Mas depois ele disse: "não me lembro exatamente quais instruções nós tínhamos colocado nele"
+[2017-10-26 15:13:46] Felipe "Juca" Sanches: Ele falou também que a inserção de dados era feta diretamente na memória do computador, atterando um dos pinos dos transistores, mas depois se corrigiu e disse que era aterrando a "junção bipolar" dos bi-estáveis.
+[2017-10-26 15:14:21] Felipe "Juca" Sanches: Ele disse que deve ser possível encontrar os trabalhos de conclusão de curso da época onde deve haver mais informações técnicas
+[2017-10-26 15:15:11] Felipe "Juca" Sanches: ele sugeriu buscar os documentos de 3 TCCs (que na época eram chamados de TIs - "trabalhos individuais") de 1961, dos projetistas do computador. E também o TI dele, de 1963
+[2017-10-26 15:17:04] Felipe "Juca" Sanches: Sugeri gravar com ele uma entrevista e ele aceitou, mas disse que não tem muito mais informações do que isso. Eu argumentei que poderia ser uma descrição das coisas que ele se lembra da época, desse início da computação, mesmo que sejam apenas "história-oral", mas que se houvesse também fatos técnicos, seria muito bom.
+[2017-10-26 15:17:29] Felipe "Juca" Sanches: Ele topou, mas disse que não tem mais nenhum material dessa época e acha que a única coisa que ainda talvez exista são as cópias dos Trabalhos Individuais.
+[2017-10-26 15:22:01] Werner Eck: Eu li sobre o TI dele, em 63. Esse deve ser, na minha opinião, o mais importante. Esse TI foi exatamente sobre a conclusão do Zezinho: "Meu TI foi terminar o Zezinho, o computador que tinha sido projetado e construído como TI por Volkmer, András, Fernando e Ripper (T61). Eu apresentei-o em 1964 em uma feira de Processamento de Dados no Ibirapuera."
+[2017-10-26 15:23:02] Werner Eck: Aqui tem as informações do Zezinho (na última seção do artigo): http://www.aeitaonline.com.br/wiki/index.php?title=Zezinho
+[2017-10-26 15:23:09] Werner Eck: Exatamente como ele te descreveu.
+[2017-10-26 15:24:16] Werner Eck: E tbm revalida a informação de que o propósito Zezinho era puramente educacional: "Do ponto de vista de desempenho, não se pode compará-lo com outras máquinas ou computadores, já que sua finalidade não era processar dados e sim mostrar como esse processamento se dava dentro da máquina. As técnicas de cálculo digital estavam começando e nós queríamos fornecer um instrumento de ensino que possibilitasse mostrar o bê-a-bá dessa tecnologia para os futuros estudantes do ITA."
+[2017-10-26 15:24:49] Werner Eck: Resta a gente cavucar pra ver se encontra algum transcript desse TI de 63.
+[2017-10-26 15:29:17] Werner Eck: Aaai, q judiação: "Embora um sucesso, o Zezinho não sobreviveu durante muito tempo. Foi canibalizado pelos alunos das turmas seguintes, que utilizaram seus circuitos para novas experiências."
+[2017-10-26 15:29:30] Werner Eck: https://web.archive.org/web/20140420072812/http://www.redetec.org.br/inventabrasil/zezin.htm
+[2017-10-26 15:30:19] Felipe "Juca" Sanches (in reply to Werner Eck): pois é...
+[2017-10-26 15:31:43] Felipe "Juca" Sanches: 1959 - 1963
+Graduação em Engenharia Eletrônica.
+Instituto Tecnológico de Aeronática.
+Título: Um computador digital educacional.
+Orientador: Richard Wallauschek.
+Bolsista do(a): Ministério da Aeronáutica.
+[2017-10-26 15:33:59] Felipe "Juca" Sanches: Caraca!
+[2017-10-26 15:34:00] Felipe "Juca" Sanches: http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000437659
+[2017-10-26 15:34:20] Felipe "Juca" Sanches: http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000437641
+[2017-10-26 15:41:36] Werner Eck: Sinto até o cheiro de mofo nesse pdf
+[2017-10-26 15:42:09] Felipe "Juca" Sanches: conseguiu abrir aí?
+[2017-10-26 15:42:27] Werner Eck: me cadastrei - é fácil
+[2017-10-26 15:42:32] Werner Eck: vai em Registrar-se
+[2017-10-26 15:42:33] Felipe "Juca" Sanches: sim, eu também
+[2017-10-26 15:42:42] Werner Eck: é q no browser nao abre
+[2017-10-26 15:42:42] Felipe "Juca" Sanches: meio bosta o sistema de cadastro, entetanto
+[2017-10-26 15:42:47] Werner Eck: sim
+[2017-10-26 15:42:51] Felipe "Juca" Sanches: mas consegui
+[2017-10-26 15:42:54] Werner Eck: baixei por uma extensão
+[2017-10-26 15:42:54] Felipe "Juca" Sanches: to lendo aqui
+[2017-10-26 15:44:13] Werner Eck: O site todo é mal escrito - abra http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php (sem parâmetros na querystring) e veja o q aparece... 😏
+[2017-10-26 15:46:23] Werner Eck: alvo fácil para injection
+[2017-10-26 15:52:34] Werner Eck: [totalmente off-topic]: controle remoto digital (PWM) e proporcional para aeromodelos, pqp!! isso lá nos idos de '60
+[2017-10-26 15:52:39] Werner Eck: http://www.bdita.bibl.ita.br/TGsDigitais/000561231.pdf
+[2017-10-26 15:55:02] Felipe "Juca" Sanches: é, esse me chamou a atenção também na lista de trabalhos hehe
+[2017-10-26 15:55:13] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_805512325_25194.jpg
+[2017-10-26 15:55:23] Werner Eck: Eu tava buscando o TI do Setzer, mas parece q não consta
+[2017-10-26 15:55:35] Felipe "Juca" Sanches: Gente... acho que dá pra escrever um emulador !
+[2017-10-26 15:55:53] Felipe "Juca" Sanches: Alguém me segura! Eu preciso ir trabalhar !
+[2017-10-26 15:55:54] Werner Eck: mas sem conhecer os opcodes?
+[2017-10-26 15:56:10] Werner Eck: bom, de repente o Setzer ajudaria
+[2017-10-26 15:56:13] Werner Eck: lembrando
+[2017-10-26 15:56:31] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_804727127_32752.jpg
+[2017-10-26 15:56:32] Werner Eck: vai trampar, eu to olhando tbm
+[2017-10-26 15:56:34] Werner Eck: kkk
+[2017-10-26 15:57:20] Werner Eck: aí sim
+[2017-10-26 15:57:37] Werner Eck: é... pelo visto tá com tudo aí.
+[2017-10-26 15:59:04] Felipe "Juca" Sanches: hahaha
+[2017-10-26 15:59:08] Felipe "Juca" Sanches: ferrou!
+[2017-10-26 15:59:22] Werner Eck sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_804725961_52109.jpg
+[2017-10-26 15:59:34] Felipe "Juca" Sanches: vou parar de olhar pra isso aí senão eu não trabalho hoje
+[2017-10-26 16:00:00] Felipe "Juca" Sanches: bora fazer um mutirão de emulação do Zezinho no Garoa no feriadão dos dias 2, 3, 4, 5?
+[2017-10-26 16:00:21] Werner Eck: enfim, tá td lá mesmo
+[2017-10-26 16:00:44] Felipe "Juca" Sanches: incrível, achei o que eu sempre achava que estava perdido pra sempre
+[2017-10-26 16:00:49] Felipe "Juca" Sanches: e foi relativamente fácil achar
+[2017-10-26 16:00:54] Werner Eck: pode ser sim. Mas eu sou iniciante em emulação e MAME, não espere "hit the ground running"
+[2017-10-26 16:00:54] Felipe "Juca" Sanches: só faltava ir procurar
+[2017-10-26 16:01:00] Werner Eck: hehehe
+[2017-10-26 16:01:10] Werner Eck: às vezes é questão de deixar a poeira assentar
+[2017-10-26 16:01:32] Werner Eck: Eu gostaria de ajudar para aprender fazendo
+[2017-10-26 16:01:42] Felipe "Juca" Sanches: ok
+[2017-10-26 16:01:46] Werner Eck: Se vc tiver paciência comigo, pode dar certo
+[2017-10-26 16:01:54] Felipe "Juca" Sanches: feriadão, pode ser ?
+[2017-10-26 16:01:57] Werner Eck: sim
+[2017-10-26 16:02:04] Felipe "Juca" Sanches: beleza!
+[2017-10-26 16:02:19] Werner Eck: vc é oficialmente o project manager, sem dúvida
+[2017-10-26 16:02:59] Werner Eck: Ah dia 7 eu preciso ir às 19h fazer vestibular
+[2017-10-26 16:03:02] Werner Eck: mas é só
+[2017-10-26 16:03:05] Felipe "Juca" Sanches: A regra é clara. De hoje até o feriado está proibido escrever código. Se quisermos fazer algo relacionado, devemos ler essas duas teses aí.
+[2017-10-26 16:03:14] Werner Eck: certo
+[2017-10-26 16:03:30] Felipe "Juca" Sanches: por que aí sobra pro feriadão escrever código e até lá vamos nos preparando
+[2017-10-26 16:03:38] Werner Eck: eu to devorando a tese
+[2017-10-26 16:03:49] Felipe "Juca" Sanches: maravilha
+[2017-10-26 16:03:50] Felipe "Juca" Sanches: hahaha
+[2017-10-26 16:03:54] Felipe "Juca" Sanches: muito bom
+[2017-10-26 16:04:01] Werner Eck: comer essa porra com farinha
+[2017-10-26 16:04:25] Werner Eck: O Setzer vai se orgulhar.
+[2017-10-26 16:04:31] Felipe "Juca" Sanches: :-)
+[2017-10-26 16:11:57] Ricardo Bánffy: Eu estava catching up e vi a história do patinho feio em Arduino. Certeza que ele era tão rápido? Um PIC não dá conta?
+[2017-10-26 16:12:39] Werner Eck: a frequencia dele era de 500khz se entendi direito
+[2017-10-26 16:12:50] Werner Eck: digo, clock
+[2017-10-26 16:13:28] Ricardo Bánffy: Dá 32 ciclos de PIC pra cada ciclo do PF...
+[2017-10-26 16:14:08] Felipe "Juca" Sanches: aí bota o overhead de emulação em cima...
+[2017-10-26 16:14:20] Felipe "Juca" Sanches: mais o overhead da abstração de I/O do Arduino...
+[2017-10-26 16:14:31] Felipe "Juca" Sanches: dá pra implementar I/O com escrita direta de registradores do AVR
+[2017-10-26 16:14:35] Felipe "Juca" Sanches: já melhoraria um pouco
+[2017-10-26 16:14:48] Felipe "Juca" Sanches: mas a emulação por si só tem seu peso
+[2017-10-26 16:15:11] Felipe "Juca" Sanches: talvez dê pra apertar no assembly... mas aí perde legibilidade...
+[2017-10-26 16:15:31] Ricardo Bánffy: Qual é a cara do instruction set dele?
+[2017-10-26 16:15:32] Felipe "Juca" Sanches: talvez botar uma máquina com mais poder computacional não seja estritamente necessário, mas ajuda a manter o código didático
+[2017-10-26 16:15:40] Felipe "Juca" Sanches: do Pato ou do Zé ?
+[2017-10-26 16:15:42] Werner Eck: a parte de IO talvez fazendo com alguns truquezinhos do arduino...
+[2017-10-26 16:16:31] Werner Eck: tipo implementando ISR
+[2017-10-26 16:16:46] Felipe "Juca" Sanches: https://github.com/felipesanches/mame/blob/master/src/devices/cpu/patinhofeio/patinho_feio_dasm.cpp
+[2017-10-26 16:17:01] Felipe "Juca" Sanches: Tem umas 50 e poucas instruções.
+[2017-10-26 16:17:09] Felipe "Juca" Sanches: O Zezinho tem 14
+[2017-10-26 16:17:25] Felipe "Juca" Sanches: (pelo menos a versão 2, feita pelos alunos de 1962)
+[2017-10-26 16:17:54] Werner Eck: colocando o código todo dentro do setup()
+[2017-10-26 16:17:57] Felipe "Juca" Sanches: o primeiro não tá claro ainda quantas instruções tem. Mas me assustei numa página do documento de 1961 que dá a impresão de que tinha só 4 instruções. Posso estar enganado.
+[2017-10-26 16:18:01] Werner Eck: roda mais rápido
+[2017-10-26 16:19:01] Werner Eck: pelo segundo documento, ele sofreu modificações
+[2017-10-26 16:19:44] Felipe "Juca" Sanches: é... parece que teve a versão inicial de 1961 e depois o tal do "ITA_II" com 14 instruções e 4k posições de memória
+[2017-10-26 16:20:05] Felipe "Juca" Sanches: me parece que usaram 12 bits de endereçamento igual no caso do patinho feio
+[2017-10-26 16:20:12] Werner Eck: pena não ter o documento de 63, pra comparar
+[2017-10-26 16:20:21] Werner Eck: exato, eu vi isso tbm
+[2017-10-26 16:20:30] Felipe "Juca" Sanches: pois é... não achei
+[2017-10-26 16:20:51] Felipe "Juca" Sanches: talvez o próprio professor tenha uma cópia original do trabalho dele ?
+[2017-10-26 16:20:56] Werner Eck: não tá lá mesmo
+[2017-10-26 16:20:58] Felipe "Juca" Sanches: posso perguntar semana que vem
+[2017-10-26 16:21:02] Werner Eck: tomara!
+[2017-10-26 16:31:13] Werner Eck: Cara não aparece o trabalho do Setzer pq nessa lista só tem os TG's e o dele foi TI.
+[2017-10-26 16:31:24] Werner Eck: não tinha me ligado
+[2017-10-26 16:31:51] Werner Eck: (burro bagarai tbm)
+[2017-10-26 16:40:39] Felipe "Juca" Sanches: achei que TG e TI fossem sinônimos
+[2017-10-26 16:40:50] Felipe "Juca" Sanches: Trabalho Individual e Trabalho de Graduação
+[2017-10-26 16:41:07] Felipe "Juca" Sanches: se bem que os TGs do Zezinho de 1961 e 1962 não foram individuais...
+[2017-10-26 16:41:14] Werner Eck: Pois é, mas eu acho q não são.
+[2017-10-26 16:41:20] Werner Eck: exato
+[2017-10-26 16:41:45] Werner Eck: o artigo escrito pelo Setzer dá a entender q ele fez esse trabalho sozinho\
+[2017-10-26 16:42:00] Werner Eck: e ele dá a denominação TI
+[2017-10-26 16:42:04] Felipe "Juca" Sanches: sim
+[2017-10-26 16:42:18] Werner Eck: só perguntando pra ele msm
+[2017-10-26 16:46:49] Werner Eck sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_804727181_31717.jpg
+[2017-10-26 16:47:02] Werner Eck: Eu vejo isso como um switch/case, kkk
+[2017-10-26 16:47:41] Werner Eck: eu faço essa parte! 😆
+[2017-10-26 16:51:17] Felipe "Juca" Sanches: exatamente!
+[2017-10-26 16:52:41] Felipe "Juca" Sanches: mas no circuito isso é provavelmente equivalente à placa CDE3 do Pato. Ou seja, um monte de porta lógica implementando uma função booleana para cada instrução. Entram os bits de opcode, sai um sinal verdadeiro/falso indicando tratar-se ou não de uma determinada instrução.
+[2017-10-26 16:53:17] Felipe "Juca" Sanches: Não cheguei a ver se tem programas de exemplo nesses documentos
+[2017-10-26 16:53:27] Werner Eck: ainda não cheguei lá
+[2017-10-26 16:53:36] Felipe "Juca" Sanches: seria muito bom ter programas originais transcritos. Pra podermos rodar no emulador.
+[2017-10-26 16:54:00] Felipe "Juca" Sanches: Senão teríamos que nós mesmos escrever exemplos, o que é legal também, mas é menos excitante do ponto de vista de resgate histórico.
+[2017-10-26 16:54:18] Werner Eck: verdade. Estou pensando enquanto leio, se vale a pena redesenhar o diagrama lógico com simbolos modernos
+[2017-10-26 16:54:28] Felipe "Juca" Sanches: sim, vale !
+[2017-10-26 16:54:42] Werner Eck: Isso q vc disse aí, me soa de novo, como um trahalho pro Setzer lembrar... rs
+[2017-10-26 16:54:46] Werner Eck: legal\
+[2017-10-26 16:54:53] Felipe "Juca" Sanches: Já fiz isso em cerca de 60% do circuito do Patinho Feio, aqui: https://github.com/felipesanches/PatinhoFeio_KICAD/
+[2017-10-26 16:54:55] Werner Eck: pode fazer antes, a titulo de preparaçãoi
+[2017-10-26 16:54:57] Werner Eck: ?
+[2017-10-26 16:55:06] Werner Eck: Eu vi
+[2017-10-26 16:55:12] Felipe "Juca" Sanches: claro que pode hahaha
+[2017-10-26 16:55:15] Werner Eck: vou tentar seguir a mesma linha q vc seguiu
+[2017-10-26 16:55:22] Felipe "Juca" Sanches: mas use o KICAD, por favor
+[2017-10-26 16:55:28] Werner Eck: tá (merde)
+[2017-10-26 16:55:32] Werner Eck: tenho o Eagle
+[2017-10-26 16:55:36] Werner Eck: mas eu baixo o Kicad
+[2017-10-26 16:55:38] Felipe "Juca" Sanches: E tudo em domínio público, por favor
+[2017-10-26 16:55:50] Werner Eck: lógico
+[2017-10-26 16:55:53] Felipe "Juca" Sanches: não queremos ter empecilhos de direito autoral numa coisa dessas
+[2017-10-26 16:56:16] Werner Eck: kkk, só se os caras se levantarem da tumba e nos processarem... (devido respeito)
+[2017-10-26 16:56:25] Werner Eck: eu não sou dono de nada, nem ninguém
+[2017-10-26 16:56:41] Werner Eck: to só redesenhando
+[2017-10-26 16:56:48] Felipe "Juca" Sanches: sim, eu sei, mas passa a ser, a partir do momento que trabalha num esforço de transcrição
+[2017-10-26 16:56:53] Werner Eck: ah ta
+[2017-10-26 16:57:01] Werner Eck: eu não manjo dessas paradas
+[2017-10-26 16:57:11] Felipe "Juca" Sanches: então é bom ser explícito: transcrição by Fulano, dedicado ao domínio público.
+[2017-10-26 16:57:18] Werner Eck: ok\
+[2017-10-26 16:57:40] Werner Eck: vou pegar um seu qq do PF e me espelhar nele
+[2017-10-26 16:57:48] Felipe "Juca" Sanches: :-)
+[2017-10-26 17:01:43] Werner Eck sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_804722604_55859.jpg
+[2017-10-26 17:01:47] Werner Eck: caralho, ponteiro!!
+[2017-10-26 17:31:08] Felipe "Juca" Sanches: :-)
+[2017-10-26 17:47:38] Felipe "Juca" Sanches added Pitanga
+[2017-10-26 17:49:03] Pitanga: @wmoecke eu te conheço daquela conversa com o Alex Hornstein, não?
+[2017-10-26 17:49:21] Werner Eck: acredito q sim
+[2017-10-26 17:49:41] Werner Eck: vc é o cara da bicicleta?
+[2017-10-26 17:50:22] Werner Eck: encontrou a gente no café, de bicicleta
+[2017-10-26 17:50:53] Pitanga: Se "cara da bicicleta" == "cara q chegou de bike" então provavelmente fui eu hehe
+[2017-10-26 17:50:57] Werner Eck: isso
+[2017-10-26 17:51:18] Werner Eck: depois me perguntou várias coisas sobre o cubo
+[2017-10-26 17:51:31] Werner Eck: metade eu não consegui te responder
+[2017-10-26 17:51:41] Werner Eck: 😏
+[2017-10-26 17:52:44] Pitanga: Hehe
+[2017-10-26 17:53:00] Werner Eck: até pq nessa época eu sabia pouca coisa
+[2017-10-26 17:53:17] Werner Eck: depois fui me aprofundando
+[2017-10-26 17:53:57] Pitanga: Vc ainda ta trabalhando c ele?
+[2017-10-26 17:54:03] Werner Eck: não
+[2017-10-26 17:54:13] Werner Eck: trabalhei até fevereiro desse anop
+[2017-10-26 17:54:15] Werner Eck: ano
+[2017-10-26 17:54:40] Pitanga: @fsanches me manda as teses
+[2017-10-26 17:54:51] Werner Eck: vc ainda tem contato com ele?
+[2017-10-26 17:56:03] Felipe "Juca" Sanches sent document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_5158885210082770957.pdf
+[2017-10-26 17:56:17] Felipe "Juca" Sanches sent document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_5158885210082770958.pdf
+[2017-10-26 17:57:36] Felipe "Juca" Sanches: @rodrigopitanga você vai estar aqui em SP no feriado semana que vem ?
+[2017-10-26 17:57:56] Felipe "Juca" Sanches: Vamos fazer um mão-na-massa de emulação do Zezinho no MAME lá no Garoa durante o feriado.
+[2017-10-26 17:58:00] Pitanga (in reply to Werner Eck): Eu conheci ele em 2010 e depois encontrei aquela vez.
+[2017-10-26 17:58:13] Pitanga (in reply to Felipe "Juca" Sanches): Nao
+[2017-10-26 17:59:03] Pitanga: Devo ir no começo de dezembro
+[2017-10-26 18:41:54] Werner Eck: @fsanches eu vejo q tem alguns caminhos absolutos no projeto do PF no KiCAD, vc sabe de alguma forma para alterar isso?
+[2017-10-26 18:42:15] Werner Eck: pq ele não encontra algumas bibliotecas; está procurando no lugar errado.
+[2017-10-26 18:42:38] Werner Eck: eu olhei nos arquivos .pro e .sch mas não tem nada explícito lá...
+[2017-10-26 18:48:26] Felipe "Juca" Sanches: pois é... acho que aconteceu algo nos ultimos meses na forma como o KICAD lida com os includes
+[2017-10-26 18:48:34] Felipe "Juca" Sanches: eu não posso ver isso agora
+[2017-10-26 18:48:40] Felipe "Juca" Sanches: mas depois pretendo olhar
+[2017-10-26 18:48:43] Werner Eck: td bem
+[2017-10-26 18:49:04] Werner Eck: enqto isso vou buscando aqui
+[2017-10-26 18:49:05] Felipe "Juca" Sanches: uma coisa que eu posso te dizer é que eu fiz um arquivo .pro pra cada placa
+[2017-10-26 18:49:15] Werner Eck: eu to vendo
+[2017-10-26 18:49:26] Felipe "Juca" Sanches: tem um global pro projeto inteiro também, mas não me lembro direito como eu fiz
+[2017-10-26 18:49:31] Werner Eck: mas no pro ele relaciona td a caminhos relativos
+[2017-10-26 18:49:45] Werner Eck: isso deve ser a resposta, é o q estou tentando encontrar
+[2017-10-26 18:49:47] Felipe "Juca" Sanches: acho que o global abre uma folha contendo sub-folhas
+[2017-10-26 18:50:00] Felipe "Juca" Sanches: aí cada sub-folha é um esquemático de uma placa individual, acho que é isso
+[2017-10-26 18:50:12] Werner Eck: é esse arquivo global que eu estou procurando
+[2017-10-26 18:50:13] Felipe "Juca" Sanches: não tenho certeza, por que faz meses que eu fiz isso e lembro que foi um pouco confuso mesmo
+[2017-10-26 18:50:18] Werner Eck: td bem
+[2017-10-26 18:50:30] Felipe "Juca" Sanches: o .pro global tá na raiz do repo se não me engano
+[2017-10-26 18:50:34] Felipe "Juca" Sanches: chama patinho.pro
+[2017-10-26 18:50:38] Felipe "Juca" Sanches: ou patinhofeio.pro
+[2017-10-26 18:50:45] Werner Eck: ah ta. Já olhei ele tbm
+[2017-10-26 18:51:57] Werner Eck sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_804726799_31235.jpg
+[2017-10-26 18:52:09] Werner Eck: É essa informação q eu não sei de onde ele está tirando...
+[2017-10-26 18:52:17] Werner Eck: mas vou vendo com calma por aqui
+[2017-10-26 18:53:45] Felipe "Juca" Sanches: ah, acho que tem umas variáveis que dão o path das libs
+[2017-10-26 18:54:22] Werner Eck: é isso q eu ainda não consegui encontrar no IDE nem nos arquivos .pro
+[2017-10-26 18:54:49] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_805513589_24310.jpg
+[2017-10-26 18:54:52] Werner Eck: pois nos arquivoe está td relativo, e na IDE em Paths não aparece nada
+[2017-10-26 18:55:28] Werner Eck: eu tenho a pasta libs e seu conteudo.
+[2017-10-26 18:56:14] Werner Eck: mas ele não procura lá. Está olhando no seu path
+[2017-10-26 18:58:40] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_805511532_45510.jpg
+[2017-10-26 18:59:35] Felipe "Juca" Sanches: acho que tem que manualmente adicionar lá no editor de esquemáticos na janela de preferences->component libraries
+[2017-10-26 18:59:51] Felipe "Juca" Sanches: eu sempre achei meio zoado o gerenciamento de bibliotecas de componentes do kicad
+[2017-10-26 18:59:55] Felipe "Juca" Sanches: é uma bagunça
+[2017-10-26 19:00:12] Felipe "Juca" Sanches: eu concordo que esse setup deveria de alguma forma estar salvo no repositório git
+[2017-10-26 19:00:16] Felipe "Juca" Sanches: mas nem sei como faz
+[2017-10-26 19:03:05] Werner Eck sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_804726215_31542.jpg
+[2017-10-26 19:03:32] Werner Eck: Em lugar nenhum tem indicado esse seu path no projeto baixado. Mas tem q estar em algum lugar.
+[2017-10-26 19:03:56] Felipe "Juca" Sanches: na parte de cima dessa janale, clique em Add
+[2017-10-26 19:04:05] Felipe "Juca" Sanches: e aponte o diretório libs
+[2017-10-26 19:04:11] Felipe "Juca" Sanches: ach oque com isso você vai conseguir
+[2017-10-26 19:04:23] Felipe "Juca" Sanches: mas por alguma razão esse setup não foi pro repo git
+[2017-10-26 19:06:27] Werner Eck: vc tem aí a biblioteca "special"?
+[2017-10-26 19:06:37] Werner Eck: não tem aqui
+[2017-10-26 19:07:05] Werner Eck: perae
+[2017-10-26 19:07:28] Werner Eck: ta alguma coisa bem errada... no component libraries ela está listada, bem como todas as q tem no diretorio libs...
+[2017-10-26 19:07:37] Werner Eck: Deixa pra la isso por enqto.
+[2017-10-26 19:07:45] Werner Eck: ta bem esquisito.
+[2017-10-26 19:12:30] Werner Eck: a gente pode ver isso junto no dia do Garoa. Eu vou levar meu note.
+[2017-10-26 19:13:02] Felipe "Juca" Sanches: ok
+[2017-10-26 22:34:22] Werner Eck: https://youtu.be/TXMRn6hVqEs
+[2017-10-26 22:35:14] Werner Eck: Esse cara do vídeo, Rildo Pragana, criou em 1983 (na Elógica, em PE) o primeiro micro nacional, Corisco.
+[2017-10-26 22:47:47] Werner Eck: http://elogica.com/carcinha/fotos/corisco/1984-06-xx-Corisco-EL300.jpg
+[2017-10-26 22:54:54] Felipe "Juca" Sanches: Esse Corisco era o que? Cópia de algum computador gringo? Ou design original ?
+[2017-10-26 22:56:06] Werner Eck: Pelo pouco que eu consegui ler, não deu pra levantar evidências de nenhum lado. Esse site daí tem artigos de jornal e mais fotos. Meu palpite é q isso foi design original.
+[2017-10-26 22:56:15] Werner Eck: Parece q teve seu próprio SO
+[2017-10-26 22:56:31] Felipe "Juca" Sanches: Ninguém tem um desses encostado em algum canto ?
+[2017-10-26 22:56:37] Werner Eck: ele lembra um macintosh
+[2017-10-26 22:56:38] Felipe "Juca" Sanches: merece ser documentado
+[2017-10-26 22:56:41] Felipe "Juca" Sanches: lembra mesmo
+[2017-10-26 22:57:01] Werner Eck: hehehe lá vem o "emulador do inemulável"...
+[2017-10-26 22:57:39] Felipe "Juca" Sanches (in reply to Werner Eck): temos que sempre ter uma meta impossível, para que as metas alcançáveis sejam cumpridas :-)
+[2017-10-26 22:57:47] Werner Eck: pois é... eu acho q teria q perguntar pro Rildo
+[2017-10-26 22:58:02] Werner Eck: Eu não consegui achar nada "palpável"
+[2017-10-26 22:58:53] Felipe "Juca" Sanches: o nome Co ris co me fez pensar no Color Computer, o famoso CoCo.
+[2017-10-26 22:59:48] Werner Eck: bem pensado
+[2017-10-26 22:59:56] Werner Eck: mas pode não ter nada a ver
+[2017-10-26 23:00:03] Werner Eck sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_804726210_31344.jpg
+[2017-10-26 23:00:06] Felipe "Juca" Sanches: também acho que não tem nada a ver
+[2017-10-26 23:01:28] Werner Eck: http://elogica.com/carcinha/Corisco/robertoSales.htm
+[2017-10-26 23:01:38] Werner Eck: tem uma thread interessante
+[2017-10-26 23:03:41] Werner Eck: http://elogica.com/carcinha/fotos/corisco/default.htm
+[2017-10-26 23:06:01] Werner Eck: Eu acho q esse micro nem chegou a ser produzido em linha
+[2017-10-26 23:06:30] Werner Eck: Leia o último parágrafo desse artigo: http://www2.uol.com.br/JC/3009/if2409z.htm
+[2017-10-26 23:07:44] Werner Eck: Mais detalhes: http://www2.uol.com.br/JC/_2000/0608/ec0608a.htm
+[2017-10-26 23:07:57] Werner Eck: Foi um projeto totalmente nacional.
+[2017-10-26 23:09:20] Werner Eck: "Era uma máquina revolucionária, com sistema capaz de operar em rede e não uma cópia das máquinas americanas."
+[2017-10-26 23:17:48] Werner Eck: Aqui tem um pouco mais de história: https://ultimocorisco.blogspot.com.br/

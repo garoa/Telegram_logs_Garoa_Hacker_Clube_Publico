@@ -1,0 +1,332 @@
+[2017-11-06 09:16:45] Felipe "Juca" Sanches (in reply to Werner Eck): documentei isso no driver. Olha aqui como faz: https://github.com/mamedev/mame/pull/2776/commits/cdcf2b2234efb7475f06a712fd9dd3c09fee1d0e
+[2017-11-06 09:18:34] Felipe "Juca" Sanches: Com isso, agora o menu de config de dipswitches fica bonitinho, mostrando as opções existentes:
+[2017-11-06 09:18:47] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_804727599_39799.jpg
+[2017-11-06 09:18:54] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_804722963_66715.jpg
+[2017-11-06 09:19:00] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_804729997_39959.jpg
+[2017-11-06 09:38:17] Felipe "Juca" Sanches: E essa aqui é uma forma melhor ainda de se fazer, usando as macros PORT_DIPLOCATION e PORT_DIPUNKNOWN_DIPLOC:
+[2017-11-06 09:38:25] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_804728147_39758.jpg
+[2017-11-06 09:39:19] Felipe "Juca" Sanches: o resultado dessa alteração é que agora o MAME desenha um diagrama mostrando qual a posição de cada chavinha (dipswitches):
+[2017-11-06 09:39:45] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_804729279_41613.jpg
+[2017-11-06 10:42:57] Felipe "Juca" Sanches (in reply to Felipe "Juca" Sanches): Eu quero preparar um cabo DB-25 <=> FTDI-USB
+[2017-11-06 10:43:36] Felipe "Juca" Sanches: E também um cabo para ligar esses 3 pinos aí na tomada
+[2017-11-06 10:43:59] Felipe "Juca" Sanches: E levar lá na USP pra tentar ligar esse terminal
+[2017-11-06 10:44:16] Felipe "Juca" Sanches: inicilamente ver se ele mostra Sagitta 180 na tela assim que liga
+[2017-11-06 10:45:08] Felipe "Juca" Sanches: e depois conectar nele via minicom pra ver qual é o baudrate correto (sabendo o baudrate, dá pra inferir qual é a frequencia de sinal de clock usada de fato para o TxC e o RxC)
+[2017-11-06 10:46:55] Felipe "Juca" Sanches: E depois configurar meu laptop pra abrir uma sessão de login via console serial editando meu /etc/inittab http://www.tldp.org/HOWTO/Text-Terminal-HOWTO-15.html
+[2017-11-06 10:52:12] Werner Eck: Cara, ficou tão legal isso. Sugestão pra deixar os textos das dips com a mesma aparência, troque a string "parity disabled" por "no parity" (era assim q os manuais dos modems se referiam a esses parâmetros na época).
+[2017-11-06 10:53:09] Werner Eck: Será q esse cabo a gente não encontra pronto no mercado? Vou dar uma pesquisada
+[2017-11-06 10:53:20] Felipe "Juca" Sanches: é possível...
+[2017-11-06 10:53:35] Werner Eck: Deixa eu procurar aqui
+[2017-11-06 10:53:52] Felipe "Juca" Sanches: eu tenho um ftdi (serial / USB) mas ele não tem o conector DB-25, pensei em adaptar
+[2017-11-06 10:54:30] Werner Eck: É aquele q sai 4 fios de um lado pra vc espetar na placa?
+[2017-11-06 10:54:40] Felipe "Juca" Sanches: já o cabo de alimentação elétrica acho que vai ter que ser preparado mesmo
+[2017-11-06 10:54:46] Werner Eck: 4 ou 5 não lembro direito
+[2017-11-06 10:55:02] Felipe "Juca" Sanches (in reply to Werner Eck): GND, VCC, TX e RX
+[2017-11-06 10:55:37] Werner Eck: Cara se olhando a foto de trás do equipamento, parece um plug macho de energia padrão abnt?
+[2017-11-06 10:55:54] Felipe "Juca" Sanches: parece plug "banana"
+[2017-11-06 10:56:11] Werner Eck: É da mesma grossura q os banana?
+[2017-11-06 10:56:19] Felipe "Juca" Sanches: https://en.wikipedia.org/wiki/Banana_connector
+[2017-11-06 10:56:31] Felipe "Juca" Sanches: não sei dizer. Pela foto dá a impressao de que sim
+[2017-11-06 10:57:09] Werner Eck: Teria q ver. Pq o banana tem um diâmetro razoavelmente maior q um plug d tomadas
+[2017-11-06 10:57:21] Werner Eck: Daí teria q improvisar mais
+[2017-11-06 10:57:54] Felipe "Juca" Sanches: ah! obviamente, antes de tentar ligar na tomada seria bom eu dar uma revisada nos capacitores pra ver se não tem algum estourado...
+[2017-11-06 10:58:00] Felipe "Juca" Sanches: ou vazando
+[2017-11-06 10:58:01] Werner Eck: Se fosse o mesmo tipo de pino q nos plugues das tomadas macho, poderia se fazer algo usando um adaptador
+[2017-11-06 10:58:20] Felipe "Juca" Sanches: que eu me lembre, os capacitores parecem bons. Nada chamou muito a minha atenção quando olhei semana passada
+[2017-11-06 10:58:43] Werner Eck: Cara, eu já te adianto, melhor seria trocar todos os caps da fonte de cara
+[2017-11-06 10:59:07] Werner Eck: O problema nem sempre é a aparência e sim o comportamento interno
+[2017-11-06 10:59:57] Werner Eck: Capacitores tendem a apresentar ESR com o passar do tempo. São sempre os primeiros componentes a se deteriorarem e apresentar falhas.
+[2017-11-06 11:00:39] Werner Eck: Depois de + d 40 anos, é certo q não vão estar mais dentro dos parâmetros.
+[2017-11-06 11:00:43] Felipe "Juca" Sanches: ESR = resistencia equivalente em série?
+[2017-11-06 11:00:48] Werner Eck: Sim.
+[2017-11-06 11:01:17] Werner Eck: E isso vc só consegue medir retirando o componente da placa
+[2017-11-06 11:01:35] Werner Eck: Daí eu te digo, mais fácil trocar logo
+[2017-11-06 11:02:06] Felipe "Juca" Sanches: complicado isso... a vontade é de preservar o equipamento intacto sempre que possível
+[2017-11-06 11:02:27] Felipe "Juca" Sanches: só fazer as alterações estritamente necessárias
+[2017-11-06 11:02:41] Werner Eck: Mas essas são...
+[2017-11-06 11:02:47] Felipe "Juca" Sanches: e "alterações" no sentido de trocar peça por equivalente
+[2017-11-06 11:02:53] Werner Eck: Vc pode estourar a fonte se ligar ele assim
+[2017-11-06 11:02:55] Felipe "Juca" Sanches: jamais modificar o circuito
+[2017-11-06 11:03:01] Werner Eck: Vai ser um baita estrago
+[2017-11-06 11:03:15] Felipe "Juca" Sanches: é, eu imagino
+[2017-11-06 11:03:17] Werner Eck: Vc não estará modificando
+[2017-11-06 11:03:31] Werner Eck: Só reparando. Faz parte do processo.
+[2017-11-06 11:03:39] Felipe "Juca" Sanches: sim, é verdade
+[2017-11-06 11:03:42] Felipe "Juca" Sanches: faz sentido
+[2017-11-06 11:04:09] Werner Eck: Não é como pegar um fusca 66 original e trocar o carburador por injeção eletrônica
+[2017-11-06 11:04:37] Werner Eck: É como retirar o carburador, limpar por dentro e reinstalar
+[2017-11-06 11:04:53] Werner Eck: Só q capacitor a gente não tem como abrir.
+[2017-11-06 11:05:27] Werner Eck: Então trocamos por um novo. Vai ter a mesma aparência do original (talvez em um tamanho menor)
+[2017-11-06 11:05:59] Werner Eck: Não é tão crítico assim como vc está pensando q é.
+[2017-11-06 11:06:13] Werner Eck: É sussa.
+[2017-11-06 11:06:26] Werner Eck: E o Sagitta agradece.
+[2017-11-06 11:30:52] Felipe "Juca" Sanches: pensando sobre o painel do Patinho Feio e como representar o output da TeleType...
+[2017-11-06 11:31:08] Werner Eck: sim
+[2017-11-06 11:31:17] Felipe "Juca" Sanches: Teoricamente dair pra ligar o terminal Sagitta no Painel réplica do Patinho Feio
+[2017-11-06 11:31:36] Werner Eck: mas vc fala sobre o real ou o emulado?
+[2017-11-06 11:31:37] Felipe "Juca" Sanches: é funcionalmente equivalente a uma teletype (com teclado e saída na tela igual ao que sairia impresso no papel)
+[2017-11-06 11:31:53] Felipe "Juca" Sanches: na réplica
+[2017-11-06 11:31:56] Werner Eck: só pra situar, estou falando em emular o PF implementando esse código: https://github.com/wmoecke/PatinhoFeio_Arduino
+[2017-11-06 11:32:07] Felipe "Juca" Sanches: ligado ao terminal real
+[2017-11-06 11:32:21] Werner Eck: sim, acho legal. Só precisamos fazer a conecão real
+[2017-11-06 11:32:36] Werner Eck: ah o terminal real?
+[2017-11-06 11:32:43] Felipe "Juca" Sanches: sim, emulador do pato rodando no arduino controlando chaves e luzes do painel ligado ao terminal sagitta de verdade
+[2017-11-06 11:32:57] Werner Eck: daí temos q ver se dá pra fazer ele funcionar sem muito trabalho
+[2017-11-06 11:33:07] Felipe "Juca" Sanches: o arduino tem porta serial. É sossegadíssimo de fazer
+[2017-11-06 11:33:15] Werner Eck: sim
+[2017-11-06 11:33:38] Felipe "Juca" Sanches: só que não é portátil
+[2017-11-06 11:33:44] Werner Eck: minha única preocupação em usar o sagitta real é q talvez exija uma manutenção mais pesada
+[2017-11-06 11:33:56] Werner Eck: isso tbm.
+[2017-11-06 11:33:57] Felipe "Juca" Sanches: então um displayzinho simulando a saída na teletype pode ser uma opção mais compacta
+[2017-11-06 11:34:13] Werner Eck: foi o q eu pensei, e é sussa de implementar
+[2017-11-06 11:34:24] Werner Eck: até pq já tenho implementado, basta mudar a entrada serial
+[2017-11-06 11:34:49] Felipe "Juca" Sanches: aí por questão de estética eu faria um segundo quadro, contendo uma fotografia duma teletype modelo ASR33 e, embutido no quadro, um display de texto com uma ou duas linhas de texto
+[2017-11-06 11:35:04] Werner Eck: hahaha q boa idéia!!
+[2017-11-06 11:35:42] Werner Eck: uma linha só pelo amor de Deus... rsss
+[2017-11-06 11:35:49] Felipe "Juca" Sanches: esses displauys LCD de texto são melhores do que matrizes de LED para esse propósito: http://www.priority1design.com.au/serial_display-4002_front.jpg
+[2017-11-06 11:35:55] Werner Eck: ah tá
+[2017-11-06 11:36:10] Felipe "Juca" Sanches: só que esse aí é de 40 chars
+[2017-11-06 11:36:20] Felipe "Juca" Sanches: a teletype acho que chegava a 72
+[2017-11-06 11:36:29] Felipe "Juca" Sanches: então é uma aproximação apenas
+[2017-11-06 11:36:54] Werner Eck: https://www.filipeflop.com/blog/controlando-um-lcd-16x2-com-arduino/
+[2017-11-06 11:36:58] Felipe "Juca" Sanches: o bom de ter mais de uma linha é que facilita da a sensação de rolagem do papel da teletype pulando de linha
+[2017-11-06 11:37:01] Felipe "Juca" Sanches: fazendo scroll
+[2017-11-06 11:37:37] Felipe "Juca" Sanches (in reply to Felipe "Juca" Sanches): e não tem input como na teletype. Apenas output
+[2017-11-06 11:37:52] Werner Eck: exato
+[2017-11-06 11:38:28] Felipe "Juca" Sanches: tem um programa relativamente grande do patinho feio chamado HEXAM
+[2017-11-06 11:38:36] Werner Eck: até pq dá pra inserir programas nele por chaves ou por fita perfurada, como vc chegou a fazer, não?
+[2017-11-06 11:38:39] Felipe "Juca" Sanches: é um exemplo que vem a listagem completa no manual do assembler
+[2017-11-06 11:38:52] Felipe "Juca" Sanches: e serve para manipular o conteúdo da memória
+[2017-11-06 11:39:00] Felipe "Juca" Sanches: é uma espécie de monitor do sistema
+[2017-11-06 11:39:20] Felipe "Juca" Sanches: e para opera-lo é necessário ter uma teletype, pra digitar os comandos e ver a saída
+[2017-11-06 11:39:35] Felipe "Juca" Sanches (in reply to Werner Eck): isso
+[2017-11-06 11:39:49] Felipe "Juca" Sanches: algum tipo de simulação de uma interface de fita perfurada seria legal também
+[2017-11-06 11:40:18] Felipe "Juca" Sanches: pensei até que um leitor de cartão SD poderia ser usado para abstrair o processo. Com cada cartão sendo uma fita individual
+[2017-11-06 11:40:33] Werner Eck: como foi q vc e o prof. adaptaram aquela leitora de fitas?
+[2017-11-06 11:40:37] Felipe "Juca" Sanches: do ponto de vista tátil é meio tosco, mas é o melhor que imaginei até agora
+[2017-11-06 11:41:03] Felipe "Juca" Sanches: o professor Guido Stolfi comprou um cebeçote de uma máquina antiga no eBay
+[2017-11-06 11:41:12] Felipe "Juca" Sanches: e interfaceou
+[2017-11-06 11:41:23] Werner Eck: com o que exatamente?
+[2017-11-06 11:41:27] Felipe "Juca" Sanches: fazer isso seria bem legal
+[2017-11-06 11:41:48] Felipe "Juca" Sanches: com alguma placa de microcontrolador que ele prefere usar. Não sei dizer qual é. Ele não me contou os detalhes ainda.
+[2017-11-06 11:41:53] Felipe "Juca" Sanches: Eu precisaria perguntar.
+[2017-11-06 11:42:07] Werner Eck: essa interface era com o seu PF emulado?
+[2017-11-06 11:42:24] Felipe "Juca" Sanches: não
+[2017-11-06 11:42:39] Felipe "Juca" Sanches: ele interfaceou com o computador dele apenas para fazer o dump dos dados das fitas
+[2017-11-06 11:42:45] Werner Eck: ah tá
+[2017-11-06 11:42:50] Werner Eck: mas seria pela serial?
+[2017-11-06 11:43:27] Felipe "Juca" Sanches: os arquivos das fitas do acervo pessoal dele estão aqui: https://github.com/felipesanches/PatinhoFeio/tree/master/fitas_perfuradas
+[2017-11-06 11:43:49] Felipe "Juca" Sanches: eu não sei exatamente o que ele fez
+[2017-11-06 11:44:09] Felipe "Juca" Sanches: sei o que ele fez, mas não sei os detalhes técnicos da solução usada
+[2017-11-06 11:44:20] Werner Eck: então, eu pensei q se ele tiver já feito esse microcontrolador ler os dados das fitas e passar serialmente os bits, a gente poderia adaptar isso ao arduino.
+[2017-11-06 11:44:46] Felipe "Juca" Sanches: sim, mas o mais difícil é a interface mecânica/ótica
+[2017-11-06 11:44:51] Werner Eck: exato
+[2017-11-06 11:44:55] Werner Eck: que parece q ele já fez
+[2017-11-06 11:44:56] Felipe "Juca" Sanches: o resto a gente refaz com os pés nas costas
+[2017-11-06 11:45:02] Werner Eck: por isso mesmo
+[2017-11-06 11:45:07] Werner Eck: entendeu?
+[2017-11-06 11:45:12] Felipe "Juca" Sanches: entendi
+[2017-11-06 11:45:22] Werner Eck: a parte mais dureza parece q ele já fez
+[2017-11-06 11:45:59] Werner Eck: se apresentarmos o painel pronto, emulando no arduino e mostrando em um display, será q ele não se anima a conectar a leitora dele ao nosso PF?
+[2017-11-06 11:46:10] Felipe "Juca" Sanches: acho que sim
+[2017-11-06 11:46:29] Werner Eck: até pq esse hardware deve estar encostado agora
+[2017-11-06 11:46:41] Felipe "Juca" Sanches: ele já viu o painel não funcional. E também já viu o emulador do Pato no MAME. Acho que é só questão de jogar a idéia.
+[2017-11-06 11:46:55] Werner Eck: seria legal pra ele ver o hardware dele conversando com o nosso, e passando fitas de verdade pra o PF
+[2017-11-06 11:47:08] Werner Eck: vamos terminar esse painel
+[2017-11-06 11:47:21] Werner Eck: daí a gente mostra a coisa toda funcionando, deixamos ele brincar
+[2017-11-06 11:47:25] Felipe "Juca" Sanches: Se não me engano, a interface de fita está na casa dele. Levar isso para exposição na USP seria bem legal.
+[2017-11-06 11:47:28] Felipe "Juca" Sanches: Se ele topar.
+[2017-11-06 11:47:45] Felipe "Juca" Sanches: ok, acho uma boa
+[2017-11-06 11:47:45] Werner Eck: e daí no meio da brincadeira, jogamos
+[2017-11-06 11:48:14] Werner Eck: "poutz, já pensou q legal seria se desse pra fazer a carga dos programas originais do PF em fita?"
+[2017-11-06 11:48:16] Felipe "Juca" Sanches: as coisas aos poucos vão se alinhando. Acho muito legal essa idéia.
+[2017-11-06 11:48:31] Felipe "Juca" Sanches: vamos trabalhar no painel então
+[2017-11-06 11:48:31] Werner Eck: lógico q ele iria dar aquele sorrisinho maroto
+[2017-11-06 11:48:39] Werner Eck: beleza
+[2017-11-06 11:48:49] Felipe "Juca" Sanches: vou almoçar. Té mais!
+[2017-11-06 11:48:53] Werner Eck: falow
+[2017-11-06 11:49:02] Werner Eck: depois a gente fala os detalhes disso
+[2017-11-06 14:31:11] Werner Eck: Aqui tem alguns cabos conversores USB <-> DB9/25 - o preço varia: http://bit.ly/2hMdUFA
+[2017-11-06 14:38:14] Werner Eck: Eu acredito que "adaptar" seu cabo usb/ftdi em um conector DB25 não seja na prática, viável. Pois além dos TX/RX existem sinais de controle (DTR/DSR/RTS/CTS) que precisam de sinalização. Eu não sei quanto a se esses cabos prontos vêm com circuitos que adaptam esses sinais.
+[2017-11-06 14:38:18] Werner Eck: http://www.firewall.cx/networking-topics/cabling-utp-fibre/121-network-serial-cable.html
+[2017-11-06 14:41:48] Werner Eck: Exemplo de um cabo *conversor* (fornece todos os sinais de dados e controle) é esse: https://www.comm5.com.br/produtos/conversor-usb/1S-USB/
+[2017-11-06 14:50:42] Werner Eck: o problema é q esse modelo tem preço na faixa dos R$120~R$150, o q me faz erguer as sombracelhas, especialmente qdo vejo um anúncio assim: http://bit.ly/2zhLT2D
+[2017-11-06 16:29:40] Felipe "Juca" Sanches: Tela inicial do sagitta 180 com a ROM #0 carregada em vez da ROM supostamente herdada do 150:
+[2017-11-06 16:29:46] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_805514040_33994.jpg
+[2017-11-06 16:44:33] Felipe "Juca" Sanches: a conexão com o terminal genérico não funciona com essa outra ROM, entratanto.
+[2017-11-06 16:45:29] Felipe "Juca" Sanches: Talvez essa outra ROM espere receber alguma sinalização diferente pela serial. Talvez essa sim use algum protocolo específico dos computadores Burroughs, em vez de simplesmente enviar e receber raw ASCII.
+[2017-11-06 16:48:43] Werner Eck: ummm...
+[2017-11-06 16:48:50] Werner Eck: ela tem uma série de parametros listados na tela
+[2017-11-06 16:48:56] Werner Eck: será q isso vem das dips?
+[2017-11-06 16:49:19] Werner Eck: especialmente interessante nesse caso é o "Atraso Interno do CTS"
+[2017-11-06 16:49:53] Werner Eck: vc só redirecionou o CS para essa ROM ao invés da primeira?
+[2017-11-06 16:50:39] Werner Eck: deu uma olhadinha se nessa ROM tem tbm as palavras de inicialização do 8251?
+[2017-11-06 16:51:56] Werner Eck (in reply to Felipe "Juca" Sanches): esses aqui
+[2017-11-06 16:52:15] Felipe "Juca" Sanches: não posso ver isso agora
+[2017-11-06 16:52:34] Felipe "Juca" Sanches: só carreguei a outra ROM e rodei o emu
+[2017-11-06 16:53:23] Felipe "Juca" Sanches: por que do nada lembrei que era um teste óbvio que eu ainda não tinha feito. E, de fato, a recompensa foi imediata. Mas eu não posso dedicar tempo pra ver isso em mais detalhes agora.
+[2017-11-06 16:53:46] Werner Eck: td bem
+[2017-11-06 16:54:11] Felipe "Juca" Sanches: você pode tentar fazer o seu setup de compilação do MAME aí no seu computador
+[2017-11-06 16:54:24] Werner Eck: eu ia ver com vc o q eu preciso ter aqui instalado
+[2017-11-06 16:54:27] Werner Eck: tem q ser no linux?
+[2017-11-06 16:54:27] Felipe "Juca" Sanches: e fazer o checkout do branch sagitta180 do meu repositório
+[2017-11-06 16:54:47] Felipe "Juca" Sanches: Não. Basta ter o git instalado
+[2017-11-06 16:54:53] Felipe "Juca" Sanches: e depois instalar as dependências e tal
+[2017-11-06 16:55:05] Felipe "Juca" Sanches: mas supostamente funciona em qualquer dos principais sistemas operacionais
+[2017-11-06 16:55:07] Werner Eck: compilador, essas coisas?
+[2017-11-06 16:55:10] Felipe "Juca" Sanches: o MAME é multi-plataforma
+[2017-11-06 16:55:16] Werner Eck: o compilador é do próprio MAME?
+[2017-11-06 16:55:24] Werner Eck: ou tem q instalar o gtk, etc?
+[2017-11-06 16:55:26] Felipe "Juca" Sanches: não. A gente usa o gcc
+[2017-11-06 16:55:36] Felipe "Juca" Sanches: não precisa de gtk, mas precisa de outras bibliotecas
+[2017-11-06 16:55:36] Werner Eck: ok
+[2017-11-06 16:55:46] Felipe "Juca" Sanches: compilar o MAME por si só já é um grande aprendizado
+[2017-11-06 16:56:15] Felipe "Juca" Sanches: Agora, uma coisa é verdade: não precisa ser no GNU+Linux. Mas eu, pessoalmente, recomendo fortemente que seja ;-)
+[2017-11-06 16:57:05] Felipe "Juca" Sanches: Bom... vou voltar pro meu trampo aqui. Té mais
+[2017-11-06 16:57:09] Werner Eck: o único linux q eu tenho aqui é o Kali na VM
+[2017-11-06 16:57:19] Werner Eck: blz vou ver aqui o q eu consigo fazer
+[2017-11-06 17:00:47] Werner Eck sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_804726891_40134.jpg
+[2017-11-06 17:00:58] Werner Eck: sou chique pra kct... até git já tenho
+[2017-11-06 17:01:14] Werner Eck: só pq eu gosto de vc, vou fazer no Kali.
+[2017-11-06 17:04:45] Felipe "Juca" Sanches: Tá valendo :-)
+[2017-11-06 17:05:56] Felipe "Juca" Sanches: você tem conta no github ?
+[2017-11-06 17:06:13] Werner Eck: sim
+[2017-11-06 17:06:15] Werner Eck: wmoecke
+[2017-11-06 17:06:40] Felipe "Juca" Sanches: ah é, verdade! Você mostrou um repo do Patinho Feio pra Arduino que você fez fork, verdade
+[2017-11-06 17:06:43] Felipe "Juca" Sanches: agora lembrei
+[2017-11-06 17:07:02] Werner Eck: eu preciso fazer checkout nesse? https://github.com/felipesanches/mame.git
+[2017-11-06 17:07:12] Felipe "Juca" Sanches: pode ser
+[2017-11-06 17:07:26] Felipe "Juca" Sanches: vc pode fazer clone do mamedev/mame.git
+[2017-11-06 17:07:34] Felipe "Juca" Sanches: ooops
+[2017-11-06 17:07:38] Felipe "Juca" Sanches: clone não
+[2017-11-06 17:07:40] Felipe "Juca" Sanches: fork
+[2017-11-06 17:07:46] Werner Eck: isso q eu ia falar
+[2017-11-06 17:07:56] Felipe "Juca" Sanches: faz um fork do repo principal
+[2017-11-06 17:08:07] Werner Eck: faço primeiro um fork do mamedev e depois dou checkout aqui
+[2017-11-06 17:08:10] Felipe "Juca" Sanches: aí você clona localmente o seu
+[2017-11-06 17:08:39] Felipe "Juca" Sanches: depois você adiciona o mamedev e o meu como remotes
+[2017-11-06 17:08:46] Werner Eck: ishi
+[2017-11-06 17:08:55] Werner Eck: agora vc falou grego
+[2017-11-06 17:09:14] Felipe "Juca" Sanches: um "remote" nada mais é que uma referência para algum outro repositório git existente para um dado projeto
+[2017-11-06 17:09:15] Werner Eck: deixa eu ir la fazer as primeiras duas etapas
+[2017-11-06 17:10:06] Felipe "Juca" Sanches: quando você clona localmente o seu, o git cria automaticamente um remote chamado "origin" apontanto do seu repo local para o seu repo remoto hospedado nos servidores do github
+[2017-11-06 17:11:24] Felipe "Juca" Sanches: tanto é que logo depois de fazer o clone, você pode digitar o comando "git remote -v" (-v é pra ser "verboso" e te mostrar as URLs) e com isso você vai ver que "origin" consta lá com a URL do seu repo no github
+[2017-11-06 17:11:38] Felipe "Juca" Sanches: mas depois você pode adicionar outros remotes
+[2017-11-06 17:11:59] Felipe "Juca" Sanches: veja por exemplo o meu caso:
+[2017-11-06 17:12:17] Felipe "Juca" Sanches sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_804727088_41547.jpg
+[2017-11-06 17:12:35] Felipe "Juca" Sanches: eu tenho esse monte de remotes cadastrados aí por que eu já colaborei com essas outras pessoas
+[2017-11-06 17:13:01] Felipe "Juca" Sanches: o remote "ramiro" é de um outro brasileiro que também contribui código pro MAME
+[2017-11-06 17:13:18] Felipe "Juca" Sanches: e eu costumo apelidar o repo principal de um projeto de "upstream"
+[2017-11-06 17:13:41] Felipe "Juca" Sanches: e veja que no meu caso "origin" é o meu repo pessoal
+[2017-11-06 17:14:04] Werner Eck: pq sua maquina chama guaraná?
+[2017-11-06 17:14:05] Felipe "Juca" Sanches: "gitlab" também é um repo pessoal meu só que hospedado no GitLab
+[2017-11-06 17:14:17] Felipe "Juca" Sanches (in reply to Werner Eck): por que eu posso :-)
+[2017-11-06 17:14:21] Werner Eck: kkk
+[2017-11-06 17:14:34] Werner Eck: então tá, esses nomes q tem à esquerda foi vc q deu
+[2017-11-06 17:14:40] Felipe "Juca" Sanches: sim
+[2017-11-06 17:14:53] Werner Eck: e a finalidade de vc adicionar um remote seria qual?
+[2017-11-06 17:15:11] Felipe "Juca" Sanches: o "origin" é dado automaticamente pelo cliente de git como um remote apontando para o repo de onde você fez o clone inicial
+[2017-11-06 17:15:31] Werner Eck: entendi. eu ainda estou clonando por isso não fiz nada ainda
+[2017-11-06 17:15:34] Felipe "Juca" Sanches: é pra você poder fazer fetch desses repos pra sincronizar seu código com o código das outras pessoas
+[2017-11-06 17:15:36] Werner Eck: tá rolando
+[2017-11-06 17:16:20] Werner Eck sent photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1/download_804724740_59413.jpg
+[2017-11-06 17:16:25] Felipe "Juca" Sanches: por exemplo... se você fizer uns commits seus e quiser contribuir, você vai fazer push pro seu repo pessoal lá do github, que é o remote "origin"
+[2017-11-06 17:17:01] Felipe "Juca" Sanches: mas de tempos em tempos você vai querer atualizar o seu repo com os commits novos que os desenvolvedores do MAME fizeram recentemente, e para isso você vai ter que sincronizar com o remote "upstream"
+[2017-11-06 17:17:46] Felipe "Juca" Sanches: então a primeira coisa que você pode fazer, que vai ser bem útil é:
+[2017-11-06 17:18:02] Felipe "Juca" Sanches: git remote add upstream https://github.com/mamedev/mame.git
+[2017-11-06 17:18:11] Werner Eck: tbm acho bom criar um remote do seu repo não?
+[2017-11-06 17:18:12] Felipe "Juca" Sanches: e depois você pode também fazer:
+[2017-11-06 17:18:26] Felipe "Juca" Sanches: git remote add juca https://github.com/felipesanches/mame.git
+[2017-11-06 17:18:31] Werner Eck: daí eu posso fazer upstream direto pra vc
+[2017-11-06 17:18:42] Werner Eck: blz
+[2017-11-06 17:18:57] Werner Eck: deixa ele terminar aqui... aposto como isso deve levar um tempo
+[2017-11-06 17:19:28] Felipe "Juca" Sanches: é... é um repo bem grandão
+[2017-11-06 17:20:05] Felipe "Juca" Sanches: e depois você provavelmente ainda vai gastar um bom tempo instalando as dependências pra conseguir compilar corretamente
+[2017-11-06 17:20:19] Felipe "Juca" Sanches: minha dica é tentar compilar e ver onde falha
+[2017-11-06 17:20:32] Felipe "Juca" Sanches: e com isso ir descobrindo quais bibliotecas ainda falta instalar
+[2017-11-06 17:21:30] Werner Eck: 😒 pressinto dores de cabeça por vir
+[2017-11-06 17:22:02] Werner Eck: bom aqui nessa minha distro já vem com muita coisa pré-instalada... vamos ver
+[2017-11-06 17:23:15] Felipe "Juca" Sanches: pra facilitar o seu build sugiro você começar fazendo um build "single-driver", pra evitar de ter que compilar o MAME inteiro desnecessariamente
+[2017-11-06 17:24:28] Felipe "Juca" Sanches: como o zezinho e o sagitta ainda estão aguardando alguém fazer o merge dos respectivos pull requests, é mais fácil começar por algum driver meu que já esteja integrado no MAME como, por exemplo, o do CP-500 da semana passada
+[2017-11-06 17:24:50] Werner Eck: blz
+[2017-11-06 17:25:10] Felipe "Juca" Sanches: a linha de comando mágica para isso é:
+[2017-11-06 17:25:13] Felipe "Juca" Sanches: make SUBTARGET=trs80_ SOURCES=src/mame/drivers/trs80.cpp REGENIE=1
+[2017-11-06 17:26:06] Felipe "Juca" Sanches: se isso rolar aí você me avisa que a gente parte pro passo seguinte que é pegar os commits do meu remote com o código de emulação do sagitta
+[2017-11-06 17:26:30] Felipe "Juca" Sanches: que envolve essa complexidade extra de lidar com remotes que você não conhecia ainda
+[2017-11-06 17:27:01] Werner Eck: ih, vc vai ver q tem muita coisa q eu desconheço sobre o git...
+[2017-11-06 17:27:22] Felipe "Juca" Sanches: vamos um passo por vez que vai ser de boa ;-)
+[2017-11-06 17:27:23] Werner Eck: aquela magia negra q vc fez no garoa... me pede pra refazer...
+[2017-11-06 17:27:31] Felipe "Juca" Sanches: hahaha
+[2017-11-06 17:27:36] Werner Eck: 😳
+[2017-11-06 17:27:58] Werner Eck: acabo com o seu repo e o do MAME numa tacada só
+[2017-11-06 17:28:29] Werner Eck: Até o Papai Nicola vai vir bater na porta da minha casa
+[2017-11-06 17:28:32] Felipe "Juca" Sanches: o bom é que no git se alguém se ferrar é só você. Minha cópia do repo continua inteirinha na minha máquina :-)
+[2017-11-06 17:28:56] Felipe "Juca" Sanches: o dano fica contido
+[2017-11-06 17:29:19] Werner Eck: Por isso eu SEMPRE zipo td antes de fazer qq coisa relacionada a git. Se zicar, eu sobrescrevo tudo com a cópia
+[2017-11-06 17:29:43] Werner Eck: Já passei por isso no git e jurei nunca mais deixar o git me ferrar
+[2017-11-06 17:30:12] Felipe "Juca" Sanches: Eu já fiz coisas similares. Mas só quando resolve explorar alguma feature do git que eu não conheço direito ainda.
+[2017-11-06 17:30:17] Felipe "Juca" Sanches: no dia a dia eu aprendi a confiar
+[2017-11-06 17:30:38] Felipe "Juca" Sanches: por que já me acostumei com o uso básico e uma ou outra funcionalidade avançada.
+[2017-11-06 17:32:23] Werner Eck: Eu tinha problemas qdo um outro cara fazia commits e eu ainda não tinha dado push
+[2017-11-06 17:32:29] Werner Eck: imagina com 600 e tralala
+[2017-11-06 17:32:37] Werner Eck: 😂
+[2017-11-06 17:32:51] Werner Eck: vou precisar aprender a dar commit toda hora
+[2017-11-06 17:34:03] Felipe "Juca" Sanches: não necessariamente
+[2017-11-06 17:34:10] Felipe "Juca" Sanches: pra isso existe o rebase
+[2017-11-06 17:34:14] Felipe "Juca" Sanches: por exemplo
+[2017-11-06 17:34:19] Felipe "Juca" Sanches: (é uma das opções)
+[2017-11-06 17:35:00] Felipe "Juca" Sanches: mas deixa esses detalhes pra depois
+[2017-11-06 17:35:11] Felipe "Juca" Sanches: eu explico tudo com calma quando chegar a hora
+[2017-11-06 17:35:47] Werner Eck: sim
+[2017-11-06 17:35:53] Werner Eck: estou me atendo aos primeiros passos
+[2017-11-06 17:36:17] Werner Eck: to sabendo q o professor q eu tenho agora manja bem do assunto
+[2017-11-06 17:36:31] Werner Eck: vai ser mais suave
+[2017-11-06 17:36:43] Werner Eck: e o clone ainda ta rolando
+[2017-11-06 17:38:15] Felipe "Juca" Sanches: será que eu devo começar a cobrar a hora-aula ? LOL
+[2017-11-06 17:38:23] Felipe "Juca" Sanches: (tô brincando)
+[2017-11-06 17:39:13] Felipe "Juca" Sanches: Eu costumo seguir no meu dia-a-dia o conselho do ET Bilu: "Busquem conhecimento!"
+[2017-11-06 17:42:42] Werner Eck: Sempre fiz isso na vida.
+[2017-11-06 17:43:05] Werner Eck: Nunca pegaram na minha mãozinha pra me levar. Sempre foi apanhando
+[2017-11-06 17:43:44] Werner Eck: Mas sempre é bom qdo se tem alguém com experiencia e paciência por perto pra perguntar as coisas
+[2017-11-06 17:45:50] Felipe "Juca" Sanches: Comigo foi a mesma coisa. Aprendi muita coisa como autodidata e apenas em algumas poucas ocasiões eu tive quem me ajudasse. Talvez por isso mesmo que eu tenho tanto gosto por passar adiante o conhecimento às outras pessoas. Acho que é por que eu senti na pele a falta de alguém me orientando quando eu era mais jovem.
+[2017-11-06 17:48:00] Felipe "Juca" Sanches: Alguns exemplos de exceções foram o Ricardo Bittencourt, o Spy, o Marco dal Poz e o Lucas Villa Real. Esses foram caras que me ensinaram muita coisa boa!
+[2017-11-06 17:48:35] Werner Eck: eu valorizo cada pessoa q me ajudou na minha trilha. Não esqueço de nenhum até hj
+[2017-11-06 17:48:37] Felipe "Juca" Sanches: E mais recentemente outras pessoas entraram nessa minha lista de "gurus", como o Luciano Ramalho e o DQ.
+[2017-11-06 17:48:39] Werner Eck: foram poucos
+[2017-11-06 17:48:59] Felipe "Juca" Sanches: O Garoa Hacker Clube tem um poder de atrair essas pessoas boas, eu acho.
+[2017-11-06 17:49:17] Felipe "Juca" Sanches: boas de bondade! Não apenas boas de técnica.
+[2017-11-06 17:49:21] Werner Eck: é q gente q se interessa por aprender fazendo, normalmente é gente do bem
+[2017-11-06 17:50:01] Werner Eck: pessoal q não tem preguiça de cair em cima de um negócio pra se aprofundar naquilo
+[2017-11-06 17:50:08] Felipe "Juca" Sanches: yep!
+[2017-11-06 17:50:12] Felipe "Juca" Sanches: esse é o espírito
+[2017-11-06 17:50:33] Felipe "Juca" Sanches: vide nossos ultimos 4 ou 5 dias em cima desse terminal serial da Scopus
+[2017-11-06 17:50:42] Felipe "Juca" Sanches: (e o Zezinho)
+[2017-11-06 17:54:10] Werner Eck: pois é exatamente isso. A gente se deu bem logo de cara pq eu senti essa facilidade de chegar e entrar de sola dando palpites e vc corrigindo
+[2017-11-06 17:54:28] Werner Eck: (e saber ouvir tbm é essencial)
+[2017-11-06 17:54:51] Werner Eck: a gente só aprende coisas novas se souber escutar o outro lado. Tanto eu quanto vc fomos ninjas nisso.
+[2017-11-06 17:55:14] Werner Eck: por isso a coisa flui tão naturalmente
+[2017-11-06 18:01:00] Felipe "Juca" Sanches: Às vezes eu sou um pouco arrogante. Aconteceu de você falar a coisa certa e eu ignorar achando que tava errado. Mas um pouco depois me toquei. Eu tenho treinado ultimamente isso. Aprender a escutar melhor as pessoas.
+[2017-11-06 18:02:10] Felipe "Juca" Sanches: Quando eu percebo que estou sendo um pouco arrogante eu fico com vergonha. E acho que é bom. Por que é um mecanismo bom pra eu evitar de fazer isso e me auto-policiar.
+[2017-11-06 18:02:33] Werner Eck: hehehe
+[2017-11-06 18:02:49] Werner Eck: só de vc falar isso já é sinal de q vc tem caráter.
+[2017-11-06 18:03:02] Werner Eck: ninguém é santo
+[2017-11-06 18:03:23] Felipe "Juca" Sanches: bom... chega de sessão de terapia
+[2017-11-06 18:03:25] Felipe "Juca" Sanches: hahaha
+[2017-11-06 18:03:41] Werner Eck: 👍 de vez em qdo faz bem.
+[2017-11-06 18:03:56] Werner Eck: nada dito aqui poderá nem será usado contra vc
+[2017-11-06 18:04:03] Werner Eck: 😀
+[2017-11-06 18:04:18] Felipe "Juca" Sanches: ooops! https://garoa.github.io/Telegram_logs_Garoa_Hacker_Clube_Publico/formatted/html/
+[2017-11-06 18:06:18] Werner Eck: pqp tá td lá, até ontem.
+[2017-11-06 18:06:42] Werner Eck: ow vc assistiu o Blade Runner?
+[2017-11-06 18:06:49] Felipe "Juca" Sanches: e estará todo o resto também
+[2017-11-06 18:07:38] Felipe "Juca" Sanches: Assisti sim. Não me impressionou. Mas prefiro não bater papo sobre isso aqui nesse grupo ;-)
+[2017-11-06 18:07:42] Felipe "Juca" Sanches: Manter o foco é bom
+[2017-11-06 18:07:57] Felipe "Juca" Sanches: Para off-topics como esse pode me chamar em pvt
+[2017-11-06 18:13:11] Werner Eck: ok
+[2017-11-06 18:13:37] Werner Eck: tem um negócio pra te perguntar off mas não é sobre o filme.
+[2017-11-06 18:17:39] Felipe "Juca" Sanches: ok. Segue aqui um script para concatenar páginas escaneadas de documentos em alta resolução, comprimindo e gerando um PDF lowres de tamanho razoável:
+[2017-11-06 18:17:40] Felipe "Juca" Sanches: https://github.com/felipesanches/Sistema_de_Programacao_Cross-Montador_para_um_Minicomputador__MariaAliceFerreira__1974/blob/master/PDF/make_pdf.sh
+[2017-11-06 18:17:57] Felipe "Juca" Sanches: Isso foi usado no processo de digitalização de vários dos documentos relacionados ao Patinho Feio
+[2017-11-06 18:19:24] Felipe "Juca" Sanches: aqui nesse outro repo tem uma versão ligeiramente diferente desse script, sem uso do parametro rotate e com uma resolução final diferente: https://github.com/felipesanches/Automacao_de_Projetos_de_Sistemas_Digitais__Posicionamento_de_Componentes__Selma_Shimizu_1977/blob/master/PDF/make_pdf.sh
+[2017-11-06 18:19:51] Felipe "Juca" Sanches: nitidamente o script não é genérico e foi editado caso a caso em função das necessidades de cada iniciativa de escaneamento
+[2017-11-06 18:20:16] Felipe "Juca" Sanches: não é a ferramenta universal, mas é um ponto de partida pra se fazer esse tipo de manipulação de imagens
