@@ -18,6 +18,7 @@
 <div class='msg out' title='2017-08-17 09:47:55 -0300'>mas por enquanto o que a gente tem é o wiki mesmo</div>
 <div class='msg out' title='2017-08-17 09:48:13 -0300'>Pensei em adicionar mais campos nessa tabela</div>
 <div class='msg out' title='2017-08-17 09:48:22 -0300'>hoje ela nos mostra as seguintes informações:</div>
+<div class='msg-service' title='2017-08-17 09:48:27 -0300'><div class=inner>Thu 2017-08-17, 09:09</div></div>
 <div class='msg out' title='2017-08-17 09:48:27 -0300'>Nome do driver</div>
 <div class='msg out' title='2017-08-17 09:48:47 -0300'>em qual modelo de CPU o firmware roda</div>
 <div class='msg out' title='2017-08-17 09:49:07 -0300'>qual foi a primeira versão do kernel contendo um driver para o dispositivo</div>
@@ -28,6 +29,7 @@
 <div class='msg out' title='2017-08-17 09:52:08 -0300'>Os campos atualmente incompletos nessa tabela são: CPU, relevância e status legal/licenciamento</div>
 <div class='msg out' title='2017-08-17 09:53:00 -0300'>Descobrir qual é a CPU de um dispositivo não é trivial, então esse campo vai muito provavelmente continuar incompleto pra sempre. Gradualmente podemos ir anotando o que formos descobrindo.</div>
 <div class='msg out' title='2017-08-17 09:53:25 -0300'>Mas é importante lembrar que sem saber qual é a CPU, é absolutamente impossível escrever um novo firmware para o dispositivo.</div>
+<div class='msg-service' title='2017-08-17 09:55:54 -0300'><div class=inner>Thu 2017-08-17, 09:09</div></div>
 <div class='msg out' title='2017-08-17 09:55:54 -0300'>Às vezes constam no driver comentários sobre a arquitetura do hardware. Às vezes podemos inferir por meio do algorítmo de carga de firmware implementado no hardware qual é a CPU do dispositivo (cruzando com informações de datasheets, foi isso que eu fiz no caso dos EzUSB dessa lista). E às vezes uma análise do binário do firmware pode prover evidências de qual arquitetura de CPU foi usada (dá pra fazer isso, por exemplo, com binários compilados para processadores ARM - há um padrão numérico bem evidente, posso explicar em mais detalhes esse exemplo depois se quiserem)</div>
 <div class='msg out' title='2017-08-17 09:56:51 -0300'>A coluna &quot;relevância&quot; também será preenchida gradativamente, com base em pesquisas online e coleta de relatos de usuários.</div>
 <div class='msg out' title='2017-08-17 09:57:39 -0300'>Talvez caiba aqui uma pesquisa de popularidade desses dispositivos. Essa é uma parte importante para vocês me ajudarem a planejar/executar.</div>
@@ -38,6 +40,7 @@
 <div class='msg out' title='2017-08-17 10:04:59 -0300'>Bom, é isso aí! Está enunciado o desafio :-D Happy Hacking!</div>
 <div class='msg-service' title='2017-08-17 11:07:44 -0300'><div class=inner>Felipe &quot;Juca&quot; Sanches added Raphael Thaumaturgo Molnar</div></div>
 <div class='msg-service' title='2017-08-17 11:43:13 -0300'><div class=inner>kretcheu ☭ added Alexsandro Carvalho</div></div>
+<div class='msg-service' title='2017-08-17 11:51:44 -0300'><div class=inner>Thu 2017-08-17, 11:11</div></div>
 <div class='msg in' title='2017-08-17 11:51:44 -0300'><div class="author">Alexsandro Carvalho:</div> Pode fazer um script que busca no stack overflow e nos sites de suporte das sistros por perguntas sobre o hardware. Considerando que muitas perguntas maior  interesse</div>
 <div class='msg out' title='2017-08-17 11:56:43 -0300'>boa!</div>
 <div class='msg out' title='2017-08-17 11:57:30 -0300'>Seria um crawler. Você quer tentar escrever um script desses ?</div>
@@ -48,6 +51,7 @@
 <div class='msg out' title='2017-08-17 16:05:54 -0300'>Nesse repo eu coloquei o script que escrevi ontem para automaticamente alimentar as colunas &quot;data&quot; e &quot;versão&quot; da introdução de novos drivers no kernel</div>
 <div class='msg in' title='2017-09-26 03:06:40 -0300'><div class="author">kretcheu ☭:</div> Os firmwares saindo da árvore principal do Linux, ainda sobram blobs sendo distribuídos ni tarball ?</div>
 <div class='msg out' title='2017-09-28 18:16:12 -0300'>não sei dizer</div>
+<div class='msg-service' title='2017-10-10 16:57:25 -0300'><div class=inner>Tue 2017-10-10, 16:04</div></div>
 <div class='msg out' title='2017-10-10 16:57:25 -0300'>Tem um repo Anti-Blobs que precisa ser atualizado. Alguém aqui está a fim de fazer a atualização dessa vez ?</div>
 <div class='msg out' title='2017-10-10 16:59:00 -0300'><a target='_blank' href='https://gitlab.com/fsanches/Anti-Blobs'>https://gitlab.com/fsanches/Anti-Blobs</a></div>
 <div class='msg out' title='2017-10-10 17:01:50 -0300'>Precisaríamos ir passo a passo atualizando a lista do wiki (https://libreplanet.org/wiki/LinuxLibre:Devices_that_require_non-free_firmware) da versão 4.12.7 até a versão atual que, se não me engano, é a 4.13.5</div>
