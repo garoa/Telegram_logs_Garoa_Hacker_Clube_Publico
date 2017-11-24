@@ -1,10 +1,10 @@
 {
   "dumper": "json",
-  "last_modified": "2017-11-10T22:39:22+00:00",
+  "last_modified": "2017-11-24T12:16:28+00:00",
   "dialogs": {
     "167796546": {
-      "newest_id": "02000000425f000a39ac0400000000000000000000000000",
-      "newest_date": 1509897726,
+      "newest_id": "02000000425f000a4fd50400000000000000000000000000",
+      "newest_date": 1511524404,
       "dumper_state": {
         "outfile": "json/Coreboot_Libreboot_-_Garoa_Hacker_Clube.jsonl"
       }
@@ -38,8 +38,8 @@
       }
     },
     "1050919227": {
-      "newest_id": "050000003bc1a33e52c50000000000006e6ae5ba90ca32fa",
-      "newest_date": 1510351827,
+      "newest_id": "050000003bc1a33eb3c90000000000006e6ae5ba90ca32fa",
+      "newest_date": 1511524921,
       "dumper_state": {
         "outfile": "json/Garoa_Hacker_Clube_(Público).jsonl"
       }

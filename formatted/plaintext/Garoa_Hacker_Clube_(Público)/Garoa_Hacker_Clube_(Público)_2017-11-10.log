@@ -122,3 +122,97 @@ http://www.garoa.net.br
 [2017-11-10 20:09:58] Portland Oregon US
 [2017-11-10 20:10:19] Caramba, nem reparei hehehe
 [2017-11-10 20:10:27] Bem observado
+[2017-11-10 20:51:19] Amanha eu vou colar no roadsec, espero que valha a pena
+[2017-11-10 20:52:43] vale né
+[2017-11-10 20:56:39] Rodrigo Laneth joined
+[2017-11-10 20:56:40] Hi Rodrigo !
+[2017-11-10 20:57:00] P4ST0R joined
+[2017-11-10 20:57:01] Hi P4ST0R !
+[2017-11-10 21:20:22] Por acaso alguém já pegou um hd fazendo tom de ocupado?
+[2017-11-10 21:24:35] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_4931608412795437085
+[2017-11-10 21:24:44] HD?
+[2017-11-10 21:26:55] Leandro Nunes joined
+[2017-11-10 21:26:55] Hi Leandro !
+[2017-11-10 21:30:15] É um hd externo, segate, o hd é da samasung/segate, a placa controladora fica piscando o tempo todo e assim que liga no usb ele faz um barulho muito baixo bem similar ao de teledone ocupado.... estou sem a mala de ferramentas, mas parece ser a placa lógica, o motor sequer começa a girar, mas queria saber se esse apito é algum código de erro e se alguém sabe o q significa
+[2017-11-10 22:28:37] acabo de queimar um master system
+[2017-11-10 22:28:56] sempre cheque se não há nada em baixo da placa solta na sua bancada causando curto, amiguinhos
+[2017-11-10 22:30:10] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_768994957837995722.webp
+[2017-11-10 22:44:03] Raios catódicos
+[2017-11-10 22:50:45] é, achei o que queimei
+[2017-11-10 22:50:59] o indutor de 1uH que entra dos 9v pro 7805
+[2017-11-10 22:51:20] dá pra substituir por um jumper né? :p
+[2017-11-10 23:04:32] é, dá...
+[2017-11-10 23:05:34] parece que serve de filtro pra tirar corrente AC
+[2017-11-10 23:07:56] olhem esse brinquedo :) https://hackaday.com/2017/11/10/an-awesome-open-mechanical-keyboard/
+[2017-11-10 23:09:13] pode ser mais utilizado para manter estabilidade da voltagem de entrada, se a fonte não for a original do aparelho...
+[2017-11-10 23:09:39] a original é de 89, eu tô usando uma mais nova comprada recentemente
+[2017-11-10 23:09:56] feita pela casa das fontes aparentemente, parece bem mais nova
+[2017-11-10 23:10:50] eu acho que como filtro dá pra fazer um bypass já que tem capacitores que filtram o 7805 o suficiente
+[2017-11-10 23:11:23] se fosse o indutor dos 12v talvez não seria bom fazer o bypass, já que no 12v não é um regulador linear e sim um regulador feito com transistor e zener
+[2017-11-10 23:11:35] vou arriscar o bypass 😶
+[2017-11-10 23:12:20] então se está junto com um capacitor, está sendo usando para filtro
+[2017-11-10 23:12:43] http://www.neto-games.com.br/esquemas/esquema_master_system_i_e_ii_tec_toy.png
+[2017-11-10 23:12:51] L50, em baixo no meio
+[2017-11-10 23:14:25] a, está antes da chave, pode ser que colocaram para filtrar ruido da fonte
+[2017-11-10 23:14:55] isso
+[2017-11-10 23:16:39] pode até colocar um jump se a fonte já tiver um circuito melhor, as originais são aquela com um trafo e ponte simples, as vezes até sem capacitores...
+[2017-11-10 23:16:56] a original tem cap
+[2017-11-10 23:17:51] então tem o minimo de filtragem, o indutor ajuda mais
+[2017-11-10 23:18:30] mais por causa de ruido que pode entrar até pelo cabo de energia
+[2017-11-10 23:20:08] Comprei uma fonte de uma marca conhecida mas é bem xinfrim para meu mega, a danada solta tanto ruido que as vezes o jogo nem carrega!
+[2017-11-10 23:20:48] e quando carrega, o som do jogo fica todo zoado
+[2017-11-10 23:21:48] funcionou :)
+[2017-11-10 23:22:39] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804728616_45063.jpg
+[2017-11-10 23:24:22] tentando soltar rgb do master system
+[2017-11-10 23:24:31] usando CXA1145P falsificado
+[2017-11-10 23:24:36] opa!
+[2017-11-10 23:24:56] R e G deram certo mas o B não aparece, não sei se é o CI ou alguma solda minha
+[2017-11-10 23:24:59] como assim? rssss
+[2017-11-10 23:25:31] pega-se um CI, raspa o número original fora e imprime um novo por cima
+[2017-11-10 23:25:39] comprei da china e veio isso
+[2017-11-10 23:25:51] dá pra ver que a parte de cima foi lixada
+[2017-11-10 23:26:29] a, foi remarcado, isso as vezes, muitas vezes, não funciona! já comprei memória para MSX e vieram assim, foi tudo pro lixo, nada funcionou...
+[2017-11-10 23:27:21] uhum
+[2017-11-10 23:27:30] mas eu fui teimosa de testar mesmo assim
+[2017-11-10 23:27:38] certeza é o chip
+[2017-11-10 23:27:38] em parte deu certo até agora
+[2017-11-10 23:27:51] pode ser minha solda também :P não confio tanto assim hahaha
+[2017-11-10 23:28:04] tem um camarada que comprou FPGA já remarcado, dá medo de ver...
+[2017-11-10 23:28:12] maaaaas olha só, o R e o G deram certo! 2/3 de ponto pros chineses hahahaha
+[2017-11-10 23:28:26] uhuahauah, pelo menos dá pra ver a imagem
+[2017-11-10 23:28:30] sim
+[2017-11-10 23:28:44] só tá sem sync
+[2017-11-10 23:28:56] tentei usar o vídeo composto como sync mas não deu
+[2017-11-10 23:29:01] vou puxar da vdp
+[2017-11-10 23:30:07] tá puxando direto do MC1377?
+[2017-11-10 23:30:28] o composto sim
+[2017-11-10 23:30:41] aliás, o rgb também, puxando da entrada
+[2017-11-10 23:32:28] será que o curto queimou a parte dos 12v também e lá se foi o mc1377? uhauhauh
+[2017-11-10 23:32:35] como se fosse um bom transcoder
+[2017-11-10 23:33:18] do Master da Cristina eu peguei o S-Video do MC1377, tem como fazer o teste ai?
+[2017-11-10 23:34:15] mede o pino 14 dele para ver se tem os 12V
+[2017-11-10 23:36:15] tem sim
+[2017-11-10 23:36:35] 13v na real
+[2017-11-10 23:36:37] 13.3
+[2017-11-10 23:39:06] pegue o RGB/CSync direito do VDP, se não rolar, o CXA está zoado...
+[2017-11-10 23:39:37] Finalmente fui conhecer o GHC.     A presença do @Latex_lin me rendeu muitas risadas 😀
+[2017-11-10 23:39:59] se tiver um monitor ai que aguente 15KHz de horizontal, dá pra ligar direto do VDP, eu foço testes aqui em casa assim, tenho um Samsung 710N
+[2017-11-10 23:40:12] mesmo sem o sync a imagem do alex kidd tá tão bonitinha, só tá sem o azul :(
+[2017-11-10 23:40:23] tô usando o CXA só de ampli do RGB, num PVM mesmo
+[2017-11-10 23:40:45] legal
+[2017-11-10 23:41:23] se puxar direto do vdp fica muito escura disseram, e em alguns casos pode até danificar o console (não sei bem como, mas não quis arriscar)
+[2017-11-10 23:41:34] o PVM tem entrada de CSync separada, quebra um galho danado para ligar placas de arcade e alguns consoles
+[2017-11-10 23:41:40] sim
+[2017-11-10 23:42:05] eu tentei usar o composite video de csync sem modificar mais coisas mas parece que não rolou
+[2017-11-10 23:42:54] pode ser a regulagem no PVM, aqui para alguns consoles fica tão claro que tenho que por 3 resistores no RGB para cartar um pouco a corrente...
+[2017-11-10 23:43:19] rgb sempre ter que ter 75ohm de resistência em série pelo menos
+[2017-11-10 23:43:35] isso
+[2017-11-10 23:44:06] http://piadasnerds.etc.br/wp-content/uploads/2015/07/uspp.png
+[2017-11-10 23:44:16] mas pode até colocar um pouco mais alto, aqui na MVS e CPS2 uso de 330R
+[2017-11-10 23:44:54] Essa foto aí é do bloco D do prédio da engenharia elétrica da Poli-USP
+[2017-11-10 23:45:03] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_768994957837995721.webp
+[2017-11-10 23:45:06] Eu estudava ali naquelas salas de aula da foto
+[2017-11-10 23:45:54] Certeza que é infiltração, apodreceu os suportes e pimba...
+[2017-11-10 23:46:34] a porta à esquerda do buraco no teto é a porta do banheiro
+[2017-11-10 23:47:25] imagina alguém passando ali, a dor de cabeça...
+[2017-11-10 23:59:24] @latex_lin é gente boa... faz tempo que não o vejo, desde que comecei minha faculdade não tenho conseguido ir ao Garoa...

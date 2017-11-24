@@ -1,0 +1,64 @@
+[2017-11-12 13:33:14] H. Galdino added Bela
+[2017-11-12 13:37:08] Só os hacker do bem
+[2017-11-12 14:17:44] kkkkkkk. Só no smartphone
+[2017-11-12 14:55:07] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_805513895_38009.jpg
+[2017-11-12 16:40:31] Alguém tem uma sugestão de fonte para silk de PCB? Quero escolher uma em meia hora e estou na dúvida. Licença razoável (OTF é razoável). Preciso de TrueType, e vale lembrar que silk de PCB não chega a 150dpi e borra, e quanto menor a letra, melhor.
+[2017-11-12 16:40:44] Estava cogitando essa Montserrat: https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat
+[2017-11-12 16:41:22] @fsanches , e @villares , querem ajudar? É para projetos Open Hardware, claro.
+[2017-11-12 16:42:11] Não é essencial ser monoespaçada
+[2017-11-12 16:43:50] Legal essa Monserrat! Não tinha visto!
+[2017-11-12 16:45:40] Pena que o 0 e o O são muito parecidos... não que isso seja crucial, geralmente a gente evitar usar O em situações que possam confundir no Silk, mas seria legal se o 0 dela fosse mais fino
+[2017-11-12 16:48:32] Os glifos mais importantes são os números, J, L, R, C e I
+[2017-11-12 16:48:44] rolaria usar um O cortado escandinavo? Ø
+[2017-11-12 16:49:10] Fira Mono, Fira Sans?
+[2017-11-12 16:49:12] Tem que ser bem distintos mesmo com baixa resolução e tal. Gostei do J dela, por exemplo, que, como não é cortado no meio, fica bem claro,
+[2017-11-12 16:49:32] Tende a virar um borrão só no silk
+[2017-11-12 16:49:39] Mas rolaria, sim
+[2017-11-12 16:50:16] https://i.stack.imgur.com/3ANsP.jpg
+[2017-11-12 16:51:42] https://fonts.google.com/specimen/Fira+Sans+Condensed
+[2017-11-12 16:51:46] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_805512105_38677.jpg
+[2017-11-12 16:52:49] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804725671_66321.jpg
+[2017-11-12 16:53:05] To preferindo a Monserrat, achei o J mais claro
+[2017-11-12 16:53:48] Capaz do l minúsculo passar por um j de cabeça para a baixo na PCB. Se lembre que a orientação do designator nem sempre é óbvia.
+[2017-11-12 16:55:47] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804728104_45570.jpg
+[2017-11-12 16:57:34] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804730250_45084.jpg
+[2017-11-12 16:58:00] Fira Mono só pra você ter uma opção. Mas achei Monserrat demais!
+[2017-11-12 16:59:15] Ah, gostei bastante dessa Fira Mono, hein?]
+[2017-11-12 16:59:56] Vou colocar uma amostra das duas na PCB que estou desenhando agora e depois eu mando a foto
+[2017-11-12 17:00:06] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804727765_45998.jpg
+[2017-11-12 17:00:54] Agora,d e volta ao layout
+[2017-11-12 17:02:27] Bom trabalho!
+[2017-11-12 17:38:01] 😱 kkkkkk
+[2017-11-12 17:42:53] Só os garoa hat
+[2017-11-12 17:52:10] Hauahauahaua boa
+[2017-11-12 17:52:53] Yuri Witte joined
+[2017-11-12 18:24:32] Eita! Q q Eu te fiz para vossa senhoria faltar com tanto respeito a minha pessoa? (não vale falar 'nasceu'...)
+[2017-11-12 18:29:53] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_499435311328133766.webp
+[2017-11-12 18:30:38] hauahuahauahuaha
+[2017-11-12 18:36:46] Veja se te atende:
+https://github.com/rbanffy/3270font
+[2017-11-12 18:37:22] Hahahahahaha
+[2017-11-12 18:50:52] O Bánffy é nosso amigo!
+[2017-11-12 18:51:37] Felipe "Juca" Sanches added Ricardo Bánffy
+[2017-11-12 19:15:25] Uia, eu já tinha visto essa fonte (acho que ele postou no HN ou algo assim), mas não tinha pensando nela. Dá um jeitão bem legal para a PCB, mesmo.
+[2017-11-12 19:32:48] É a fonte que uso!
+[2017-11-12 19:33:05] (Usp no terminal.)
+[2017-11-12 19:55:08] Mais um retrocomputeiro aqui...rsss
+[2017-11-12 20:06:49] Luís Lança joined
+[2017-11-12 20:07:16] Olá ✌️
+[2017-11-12 20:33:33] https://www.ted.com/talks/zeynep_tufekci_we_re_building_a_dystopia_just_to_make_people_click_on_ads#t-529426
+[2017-11-12 20:39:21] hardy joined
+[2017-11-12 21:59:52] Olar
+[2017-11-12 22:30:52] Opa, alguém poderia encaminhar isso para alguns times de CTF BR?
+
+*Global Cyber Challenge - Capture the flag*
+*Grand Finale*
+Top 10 teams from PAN India and top 5 international teams will compete in the grand finale which will be hosted in Mariott, Aero City New Delhi. Jury will select the winners based on a pre-decided evaluation framework.
+https://innovate.mygov.in/ctf-registration/
+[2017-11-12 22:51:03] https://twitter.com/tegabrain/status/929873522184327169
+[2017-11-12 23:11:13] https://www.theguardian.com/technology/2017/nov/03/googles-ai-turtle-rifle-mit-research-artificial-intelligence
+[2017-11-12 23:24:16] https://g1.globo.com/sao-paulo/noticia/drone-causa-cancelamento-de-voos-em-congonhas.ghtml
+[2017-11-12 23:31:14] Eu vi!
+[2017-11-12 23:31:44] ...
+[2017-11-12 23:33:23] Olha isso : https://play.google.com/store/apps/details?id=com.gnuroot.rsinstaller
+[2017-11-12 23:35:53] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804724906_67148.jpg

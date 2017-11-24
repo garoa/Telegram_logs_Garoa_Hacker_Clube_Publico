@@ -1,0 +1,58 @@
+[2017-11-16 00:13:28] Tem uma questão bateria
+[2017-11-16 00:14:33] Como vai espionar pra cia se a bateria seca antes de chegar na china
+[2017-11-16 09:31:52] Oii gente, com quanta antecedência dá pra saber se tem alguém pra abrir o garoa?
+[2017-11-16 09:32:26] Tem lugar pra ver os eventos?
+[2017-11-16 09:33:11] https://garoa.net.br/wiki/Categoria:Eventos
+[2017-11-16 09:51:39] A antecedência é diretamente ligada a disponibilidade de algum sócio poder abrir. Os eventos fixos tem mais gente, para outros dias e horários, tem que ir acompanhando até alguém agendar uma atividade e/ou se prontificar a vir.
+[2017-11-16 10:44:45] Valeu, gente boa!
+[2017-11-16 13:03:04] Ontem o Garoa ficou aberto das 9h da manhã até 1h da madrugada
+[2017-11-16 13:13:35] Ontem não deu pra eu ir
+[2017-11-16 13:13:59] Mas se alguém abrir no fds acho que fica mais fácil pra mim
+[2017-11-16 15:28:47] http://www.rollingstone.com/culture/features/elon-musk-inventors-plans-for-outer-space-cars-finding-love-w511747
+[2017-11-16 15:34:54] hoje de noite vai ter mais um lançamento e pouso do Falcon 9. E uma horinha depois acontecerá o evento de anúncio público dos detalhes do novo produto da Tesla: um caminhão elétrico !!!
+[2017-11-16 16:32:53] Galera, quem tem xp com Django-Mezzanine ?
+[2017-11-16 16:34:02] faz com wordpress carai
+[2017-11-16 16:34:47] D-J-Ango até o fim.
+[2017-11-16 16:37:03] ja um freela pra manutencao do mezzanine devo ter o repo do projeto ainda, mas eh bem buizarro
+[2017-11-16 16:37:36] Qual parte é bizarra?
+[2017-11-16 16:38:50] Estrutura burocrática dms e confusa. Perto de outras soluções
+[2017-11-16 19:35:37] galera
+[2017-11-16 19:35:41] alguem manja de openwrt?
+[2017-11-16 19:37:04] manjar tipo o que?
+[2017-11-16 19:43:02] tipo saber configurar uma bridge
+[2017-11-16 19:44:28] https://wiki.openwrt.org/doc/recipes/bridgedap
+[2017-11-16 19:44:35] sim
+[2017-11-16 19:44:36] https://wiki.openwrt.org/doc/recipes/bridgedclient
+[2017-11-16 19:44:39] tou seguindo esse tutorial
+[2017-11-16 19:44:41] #RTFM
+[2017-11-16 19:44:44] mas da esse erro:
+[2017-11-16 19:45:38] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804724975_69302.jpg
+[2017-11-16 19:49:26] Vamos lá, Jovem Padawan:
+[2017-11-16 19:49:49] vc está conectado no Router com OpenWRT, certo?
+[2017-11-16 19:49:52] yep
+[2017-11-16 19:51:02] tipo setei na maquina o DNS e funcionou
+[2017-11-16 19:51:21] mas pq quando eu deixo no automatico e espero o roteador resolver para mim, ele n resolve?
+[2017-11-16 19:52:02] deve ser pq o seu router principal tbm não tem DNS setado
+[2017-11-16 19:52:20] Eu sempre seto DNS no meu MAc e nos Router
+[2017-11-16 19:52:55] vou olhar isso, por hora, setar na unha no PC resolveu
+[2017-11-16 19:52:56] dá uma olhada no dnsbench para ver qual o melhor DNS para setar
+[2017-11-16 19:53:06] vou olhar!
+[2017-11-16 19:53:29] outra coisa: tem, necessariamente, que estar em Bridge?
+[2017-11-16 19:53:54] nao, pode ser uma nova rede e um novo range
+[2017-11-16 19:54:01] n tem nenhum problema quanto a isso
+[2017-11-16 19:54:11] essa madruga fiz um setup com um segundo router aqui em casa, sem bridge, para fazer uma subrede com um novo range
+[2017-11-16 19:55:01] sou bem noob com essas paradas de rede
+[2017-11-16 19:55:07] como tu fez pra setar essa nova rede?
+[2017-11-16 19:55:17] tu plugou o cabo do seu router principal na WAN
+[2017-11-16 19:55:27] dps na LAN criou uma nova subrede?
+[2017-11-16 19:55:28] ela tá cabeada, btw
+[2017-11-16 19:56:10] Router Principal na LAN1 -> Router Secundário na WAN
+[2017-11-16 19:57:13] da rede secundária eu acesso a principal, mas não o contrário... Vou usar isso para isolar rede Guest e devices para o lab de Pentest e de virus
+[2017-11-16 19:57:38] poder subir VM, GNS3 e celulares e fazer pentest e analise de malware
+[2017-11-16 19:58:08] e tudo fica isolado
+[2017-11-16 19:58:10] entendi
+[2017-11-16 19:58:14] bem massa isso
+[2017-11-16 19:58:43] Tô usando um TP-WR842N, que suporta OpenWRT, mas ainda nõa flasheei ele
+[2017-11-16 19:59:14] entendi
+[2017-11-16 22:17:23] https://www.tesla.com/semi
+[2017-11-16 22:26:31] https://fedoramagazine.org/fedora-27-atomic-host-availability-multiple-architectures/
