@@ -1,0 +1,176 @@
+[2018-01-15 06:09:12] Eu topo, embora faço engenharia de computação
+[2018-01-15 09:24:30] Nas doações do Octavio vieram dois controles bem legais além de pedais (sem contar os que já tinhamos da bit9). Eu separaria numa caixa para esse projeto. Vi uns CDs lá de simulador tb.
+[2018-01-15 09:37:39] Jota joined
+[2018-01-15 09:51:58] Pessoal, apenas para lembrar, amanhã teremos reunião do CMC no Garoa. 
+Como sempre, todos e todas são bem-vindos e bem-vindas.
+https://garoa.net.br/wiki/Reunião_de_16/01/2018
+[2018-01-15 10:35:14] Acho ótima ideia
+[2018-01-15 11:09:01] A bebida é liberada?
+[2018-01-15 11:10:23] ninguém vai te pagar ou oferecer bebida pra participar, mas é sim liberada ;)
+[2018-01-15 11:13:59] ;-)
+[2018-01-15 11:14:02] Já animei
+[2018-01-15 11:14:26] To dentro!
+[2018-01-15 12:44:55] Estou tentando fazer uma atividade no garoa ainda esse mês.
+Posso fazer uma atividade naquele espaço entre os corredores?
+Vai ter faíscas, fumaça e eu vou precisar de uma tomada.
+[2018-01-15 12:46:41] Penso no dia 21.01 (domingo agora) ou no final de semana 27/28.01.
+Algum sócio pode abrir?
+[2018-01-15 12:47:02] Seria esse evento aqui
+https://groups.google.com/d/topic/hackerspacesp/zBSPgQ8WtNs/discussion
+[2018-01-15 12:52:07] Já estava pensando em bruxaria ou algo mais demoníaco! Tipo invocação do “Mochila de Criança”... cc: @Gutemhc
+[2018-01-15 12:52:32] 🤪
+[2018-01-15 12:54:18] Esse material reciclado você usa para montar as 3D?
+[2018-01-15 12:58:00] Não. Seria pra reciclar e fazer lingotes de alumínio.
+Aí a gente fazia uma impressão 3d dp negativo de um arquivo extensão slt.
+Ai depois de impresso a gente faria a impressão com esse negativo, preenchendo de poliestireno.
+Aí a gente enterra esse poliestireno na areia com uma tubulação de poliestireno tambem
+Derrete alumínio e joga por essa tubulação
+Aonde tem poliestireno o alumínio vai
+Aonde tem areia ele para
+
+Aí você teria o vosso impresso em alumínio
+[2018-01-15 12:58:21] Consegue moldar para fazer antenas para maximizar sinais, por exemplo? Não sei alumínio seria o material apropriado para isso... Mas algum outro metal poderia servir?
+[2018-01-15 13:01:39] Acho que cobre é o melhor...
+[2018-01-15 13:02:06] Dá pra usar fio rigido de cobre para fazer tanto antena omni como direional
+[2018-01-15 13:02:20] Você já tem uma especificação para isso...
+[2018-01-15 13:02:28] Estava aqui procurando..
+[2018-01-15 13:02:33] Em tese, se você consegue fazer a projeto aqui (https://www.tinkercad.com) e dar o arquivo stl final, eu consigo pegar o negativo dele, a gente imprime, faz o projeto em poliestireno e joga.
+O forno derrete cobre também.
+[2018-01-15 13:04:20] Cara, seria legal pensar em uma antena amplificadora para aumentar o sinal de Wi-Fi ou até mesmo direcionar um jamming!
+[2018-01-15 13:04:33] Alguém anima de trocar ideias sobre isso...
+[2018-01-15 13:05:09] @Gutemhc você havia mencionado que já havia um projeto de jamming, que tal isso?
+[2018-01-15 13:05:23] Podemos fazer...
+[2018-01-15 13:05:42] Tenho uma antena direcional, que atinge uns 10km de visada
+[2018-01-15 13:05:48] Já tem lib para isso?
+[2018-01-15 13:05:56] E tenho material para montar uma antena omni de uns 12dbi
+[2018-01-15 13:05:58] Direcionada?
+[2018-01-15 13:06:04] sim
+[2018-01-15 13:06:24] Já existe lib para isso? Ou precisamos criar do zero?
+[2018-01-15 13:06:53] A questão é que precisaria de uma placa Wi-Fi que permitisse acoplar uma antena! Ainda existe isso?
+[2018-01-15 13:07:08] Eu tinha isso...
+[2018-01-15 13:07:32] Fizemos umas antenas de Pringles em 2002-2003!
+[2018-01-15 13:07:53] Já vi valor nesta parada @clockwisehorror
+[2018-01-15 13:07:58] adaptadores wifi usb
+[2018-01-15 13:07:59] não serve antena com função monitor?
+[2018-01-15 13:08:02] a maioria permite
+[2018-01-15 13:08:04] Além de reciclar ainda da para brincar
+[2018-01-15 13:08:26] Mas precisamos de uma forma de acoplar à antena na placa
+[2018-01-15 13:08:41] alguns modulos wifi de arduino permitem antena externa tbm
+[2018-01-15 13:08:47] Eu tinha esta porcaria toda, mas não sei se ainda tenho...
+[2018-01-15 13:08:54] Opa... Sério?
+[2018-01-15 13:09:06] Yep
+[2018-01-15 13:09:10] eu tenho um esp8266, serve?
+[2018-01-15 13:09:15] Mas como medidos a intensidade de sinal e outros parâmetros?
+[2018-01-15 13:09:25] Dependendo o modelo, serve
+[2018-01-15 13:09:26] Quem fez o jamming no Garoa?
+[2018-01-15 13:09:47] sei que os do Wemos tem o pino para antena externa
+[2018-01-15 13:11:32] toda antena tem 2 fios
+[2018-01-15 13:11:35] so soldar
+[2018-01-15 13:11:39] se nao tiver o conector certo
+[2018-01-15 13:11:57] https://github.com/spacehuhn/esp8266_deauther/blob/master/README.md
+[2018-01-15 13:12:15] Mas não sei ao certo se seria deauth... Seria mais noising mesmo!
+[2018-01-15 13:12:50] o meu esp8266 está configurado para esse ataque
+posso levar na reunião do CMC amanhã (se eu conseguir ir)
+[2018-01-15 13:13:55] Imagina um “noising canceling” (Bose), mas configurado para achar o sinal Wi-Fi e fazer um canceling do sinal!
+[2018-01-15 13:14:04] Não deve ser ideia nova!
+[2018-01-15 13:14:35] Massa... Se eu for queria dar uma olhada!
+[2018-01-15 13:18:34] @Gutemhc @clockwisehorror o que acham?
+[2018-01-15 13:19:55] Acho que chegar com o sinal é o mais complicado.
+Depois que conseguir, e sabendo o nome da rede-alvo, é só atacar com persistência com o deauther.
+[2018-01-15 13:20:08] hum... podemos fazer uma PoC
+[2018-01-15 13:20:27] Todos os conectados vão cair e cair e cair
+[2018-01-15 13:21:12] Então... Sabendo um sinal, independente do SID, não é possível fazer um noising nele?
+[2018-01-15 13:21:20] sim, mas tem 2 vetores de ataque
+[2018-01-15 13:21:30] Um é o deauth que vc já citou
+[2018-01-15 13:21:31] Eu não mexo com nada disso... Só estou aqui jogando as ideias!
+[2018-01-15 13:22:04] o outro é jamming, que o @nelsonbrito tá falando que é poluir os canais com ruido e ninguem consegue conectar em nada
+[2018-01-15 13:22:17] inclusive dá pra fazer isso com GSM
+[2018-01-15 13:22:44] Exato! A última vez que brinquei com isso foi CDMA e TDMA (DAMPS)
+[2018-01-15 13:22:58] Mas faz tempo para kct
+[2018-01-15 13:23:16] sim. deauther =/= jamming
+Jamming conforme Gutem explicou, deauther é ataque no protocolo wifi, creio eu.
+[2018-01-15 13:23:17] Seria legal modificar um Android de baixo custo para isso
+[2018-01-15 13:23:21] Jammer movel
+[2018-01-15 13:23:31] Isso
+[2018-01-15 13:23:40] Não conseguimos fazer com Arduino?
+[2018-01-15 13:24:04] O esp8266 pode tanto ser usado com um powerbank quanto com a energia dada por um celular.
+A interface pode ser qualquer dispositivo com acesso à WiFi.
+[2018-01-15 13:24:14] jammer é de boa fazer no esp
+[2018-01-15 13:24:16] De novo, sou prego em Arduino e outras coisas novas
+[2018-01-15 13:24:26] PProvavelmente... Arduino mais uns 4 modulos GSM
+[2018-01-15 13:24:44] poh, perdeu uma atividade q teve esses dias
+[2018-01-15 13:24:47] de BadUSB
+[2018-01-15 13:24:50] @Gutemhc já temos assunto para quinta-feira
+[2018-01-15 13:25:11] O @Gutemhc vai fazer uma sessão só para mim... Ele prometeu!
+[2018-01-15 13:25:13] :-)
+[2018-01-15 13:26:15] Curti isso...
+[2018-01-15 13:26:31] Mas é programável... Pelo que vi aqui sim, não?
+[2018-01-15 13:27:22] Sim, usa a IDE do Arduino
+[2018-01-15 13:27:27] @Gutemhc bora beber alguma coisa hoje?
+[2018-01-15 13:27:40] 🤔
+[2018-01-15 13:28:08] Chego hoje à noite em Sampa
+[2018-01-15 13:28:30] Hj não rola. Amanhã tô pelo garoa no fim da Tarde. Podemos falar antes do CMC
+[2018-01-15 13:29:44] Beleza
+[2018-01-15 13:30:02] Mesmo não sócios podem estar presentes no CMC?
+[2018-01-15 13:30:12] Ou é tipo “conselho Jedi”?
+[2018-01-15 13:30:58] é tipo conselho Jedi, mas as pessoas podem estar presente para aprender
+[2018-01-15 13:31:04] aprender a não fazer o q a gente faz kkk
+[2018-01-15 13:31:30] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_532582481644265194.mp4
+[2018-01-15 13:32:44] Sim claro
+[2018-01-15 13:32:52] Gutemberg bora brincar com aquele Wemos lá, ta na minha bolsa até hj
+[2018-01-15 13:37:18] Já colocaram os servers no ar?
+[2018-01-15 13:48:13] Nope...
+[2018-01-15 13:58:47] Vou fazer força para pintar no Garoa amanhã...
+[2018-01-15 14:36:49] Deu branco qual era o site que tem o conteúdo de sites em cache
+[2018-01-15 14:37:10] archive.org?
+[2018-01-15 14:43:00] Webarchive, não?
+[2018-01-15 14:51:16] O google faz cache também, não?
+[2018-01-15 14:52:45] https://t.co/zvGD0gxnd9?ssr=true
+[2018-01-15 14:53:09] @mynameiserin te ajuda no seu projeto?
+[2018-01-15 15:01:39] ?
+[2018-01-15 15:58:30] Mário Sérgio joined
+[2018-01-15 16:02:42] olar
+[2018-01-15 16:03:58] Queria mandar um Access Point da Intelbras pro Garoa. Pra vcs brincarem com a API.
+[2018-01-15 16:04:28] Alguém poderia me ajudar a enviar? Preciso de uma pessoa para receber.
+[2018-01-15 16:05:24] Contextualzando.. https://medium.com/@sergiomarioq/intelbras-inicia-abertura-das-apis-de-seus-dispositivos-986f0a9a4e76
+[2018-01-15 16:11:53] alguém tem o firmware original da tato baby? ou sabe como configurar o marlin pra ela?
+[2018-01-15 16:12:04] a baby do lab não está respondendo
+[2018-01-15 16:12:43] Mandar pelo correios? Posso receber
+[2018-01-15 16:13:16] Mando aos cuidados de alguém em específico?
+[2018-01-15 16:16:10] Te mando em pvt
+[2018-01-15 16:16:56] ok
+[2018-01-15 16:21:36] Alguém que tenha casemod quer exibir ele na Campus Party Cult? (é um espaço q vai ficar na parte open, dentro de uma caixa de acrilico)
+[2018-01-15 16:33:17] http://www.dailymail.co.uk/news/article-5262819/Probe-chief-claims-sexual-harassment.html
+[2018-01-15 16:52:28] Vão falir todas as indústrias do Brasil, e do mundo, porque a China é mais barato?  Está fechando a Tato eletrônica, aqui de SP, umas das poucas que fazia o próprio hardware.
+[2018-01-15 16:53:53] Bom, afinal, vão sobrar um monte de restos de fábricas no mercado de usados.
+[2018-01-15 17:47:32] Tarcisio Silva joined
+[2018-01-15 18:19:22] Pode-se lançar um balão meteorológico rastreado por aprs
+[2018-01-15 18:22:24] Sim. Pensei nisso!
+[2018-01-15 18:22:42] Tenho um conhecido em Londres que consegue comprar esses Balões mais barato
+[2018-01-15 18:29:07] Até um determinado diâmetro ou capacidade m3, não é necessário avisar a FAB.
+[2018-01-15 18:29:22] Tem um regulamento deles
+[2018-01-15 18:49:53] Sim. Já li sobre. Acho que tenho a NR sobre isso.
+[2018-01-15 19:55:13] Valeu Mário!
+[2018-01-15 20:11:40] Eu também acho que tenho. Preciso dar uma busca.
+O único problema é o aprs
+[2018-01-15 21:35:04] ja vamo fazer um pentest suave
+[2018-01-15 21:40:46] que pentest oq
+[2018-01-15 21:41:01] arrumar aquela pagina status do Garoa
+[2018-01-15 21:41:14] se a API for bacanuda, a gente vai conseguir saber que associado esta dentro do garoa
+[2018-01-15 21:42:43] kkkk
+[2018-01-15 21:42:49] claro
+[2018-01-15 21:42:53] vai fazer isso
+[2018-01-15 21:46:04] Pergunta: Onde ficam as linhas de produção de uma empresa gringa com a Ada Fruit, SparkFun e etc?
+[2018-01-15 21:46:16] *como
+[2018-01-15 22:07:23] Creio que também produzem muito em lugares como china. Em geral todos os países estão com dificuldade de competir nos preços.
+[2018-01-15 22:10:37] Algumas indústrias ou empresas conseguem, mas não é fácil.
+[2018-01-15 22:21:32] AdaFruit, até onde eu li faz muita coisa própria sede, NY, por incrível que pareça.
+[2018-01-15 22:40:53] Luis joined
+[2018-01-15 22:53:26] Parece que é algo em que eles se esforçam https://techcrunch.com/2013/05/01/limor-fried-explains-why-adafruit-industries-likes-manufacturing-in-north-america/
+[2018-01-15 22:55:06] Custo da mão de obra, seguros,  impostos, etc são altos lá
+[2018-01-15 23:03:53] Achei um monte de fibra ótica que sobrou da instalação do Speedy, alguém tem alguma ideia do que pode ser feito com isso ou está desenvolvendo algo que precisa?
+[2018-01-15 23:05:06] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804730002_92014.jpg
+[2018-01-15 23:10:10] Danilo Dorotheu joined
+[2018-01-15 23:14:27] Que papo é esse, xôvem?!?
+Meça seu vigilantismo, parça!
+[2018-01-15 23:23:16] huauahhauahu

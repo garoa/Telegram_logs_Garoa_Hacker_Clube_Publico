@@ -1,0 +1,50 @@
+[2017-12-29 00:18:31] Feliz Ano Novo para a galera...
+[2017-12-29 00:21:40] Vinicius Bittencourt joined
+[2017-12-29 07:36:32] Fábio Serrão joined
+[2017-12-29 07:47:46] Pode participar sim, mas não reclama se ficar com vontade de vir nos visitar! 😁
+[2017-12-29 08:27:09] Visitarei, só basta ir em São Paulo para passar aí
+[2017-12-29 09:05:42] Victor joined
+[2017-12-29 09:50:45] https://twitter.com/linuxconfau/status/946598653174493184
+[2017-12-29 10:33:57] Renato Cassola joined
+[2017-12-29 11:58:55] Wellington Mariusso added Alexandre Junqueira
+[2017-12-29 13:48:12] https://events.ccc.de/congress/2017/Fahrplan/events/9058.html
+[2017-12-29 13:49:45] " Everything you want to know about x86 microcode, but might have been afraid to ask
+
+An introduction into reverse-engineering x86 microcode and writing it yourself"
+[2017-12-29 13:56:31] Rodolfo Lima joined
+[2017-12-29 14:03:32] @fsanches você foi ao ccc este ano? que lance horrível da organização - uma pessoa foi atacada, como fotos no hospital e tudo, e o atacante não foi banido :( fiquei bem desanimado de um dia ir.
+[2017-12-29 14:04:16] Nao fui
+[2017-12-29 14:04:42] Eu nem to sabendo dessa historia aí
+[2017-12-29 14:05:05] Onde posso ler noticias ?
+[2017-12-29 14:05:25] vou achar um thread e passar
+[2017-12-29 14:06:21] https://twitter.com/sa0un/status/946053976889397248 tem um da própria vítima que vou procurar tb
+[2017-12-29 14:07:48] https://twitter.com/NGC_3572/status/945680642792189954
+[2017-12-29 15:03:51] Roz' joined
+[2017-12-29 15:04:41] Eae glr, boa tarde
+Alguém vai no Garoa hoje?
+[2017-12-29 16:06:41] Sergio Mendes joined
+[2017-12-29 16:47:42] Galera, to comprando uns Reles de Estado Sólido da China... Alguem quer entrar no rolê?
+Vou pegar uns de 10A e 25A, tão saindo 13 Dinheiros
+In: 3-32VDC Out: 24-380VAC
+[2017-12-29 17:26:22] Fox Anarch joined
+[2017-12-29 17:51:27] xor eax, eax
+mov eax, 0x07E1
+inc eax
+
+HAPPY EAX!!!
+[2017-12-29 18:39:51] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806118816_17398.jpg
+[2017-12-29 18:48:03] Magno Logan joined
+[2017-12-29 20:30:04] Valente joined
+[2017-12-29 20:43:48] Maluco... Olhando rápido pensei que era uma caixa de munição com algumas fora (com um cabo ?!?)... Já ia perguntar onde ia ser a Festa! heheheh
+[2017-12-29 21:07:36] kkkkkkkkkkkkkk
+[2017-12-29 21:54:23] O XOR é absolutamente desnecessário!
+[2017-12-29 22:10:19] Muito incisivo na afirmação, pois apesar de não ser necessário sempre foi uma boa prática iniciar o registrador limpo (zerado) para não haver resultados inesperados em alguns momentos. O mesmo acontece com variáveis em C, onde não é preciso dizer que uma variável será inicializada com 0 uma vez que você irá setar seu valor dentro de um “for”, por exemplo!
+[2017-12-29 22:14:32] @fsanches johnny deve ser uma daquelas pessoas que não sabem onde estão!
+[2017-12-29 22:19:35] De novo
+[2017-12-29 22:20:30] Tah com cara de bot, ja postaram a mesma coisa mais cedo
+[2017-12-29 22:27:00] Mas se você falasse que o “mov” poderia ser mais preciso na quantidade de bytes a serem copiados, dai eu até concordaria, pois neste caso ficaria muito mais elegante usar “mov word ptr [eax], 0x07E1”! ☺️
+[2017-12-29 22:28:03] Mas perderia totalmente a graça de dar um “HAPPY EAX”, não?
+[2017-12-29 22:31:31] E até mesmo, dependendo do assembler, pois aprendi que não há compiladores para assembly, mas sim “assembladores”, poderíamos usar notações diferentes “mov word ptr [eax], 07E1h”... Mas este papo pode se prolongar. 🤓
+[2017-12-29 22:45:32] quando for assim ping nos admins
+[2017-12-29 22:45:45] eu estou mais presente que o juca, dependendo do horário
+[2017-12-29 23:06:39] 👏👏👏

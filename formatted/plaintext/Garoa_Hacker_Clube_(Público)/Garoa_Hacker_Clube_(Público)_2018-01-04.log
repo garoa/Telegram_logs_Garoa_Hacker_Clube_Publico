@@ -1,0 +1,131 @@
+[2018-01-04 00:06:10] É lindo de ver *---*
+[2018-01-04 00:36:36] Essa CPU tem micro-operações mas não é micro-programada por que a unidade de controle segue o paradigma de design "hardwired". Ou seja, o sequenciamento dos sinais de controle é feito por meio de um conjunto de funções booleanas (uma para cada sinal de controle do fluxo de dados)
+[2018-01-04 00:39:42] Já numa CPU micro-programada o sequenciamento de sinais de controle do fluxo de dados é feito por micro-instruções (quase como uma "CPU dentro da CPU")
+[2018-01-04 00:42:10] Eu acho que o paradigma micro-programado seria mais econômico em questão de número de componentes no circuito. Mas me disseram que na época, ROM e RAM eram muito caras. Então fizeram tudo hardwired mesmo.
+[2018-01-04 01:10:59] Poli tem grupo que lança foguete em competição. Eles purificam adu bo pra usar de combustível
+Chama Júpiter o grupo.
+[2018-01-04 01:23:37] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804722512_108102.jpg
+[2018-01-04 01:23:49] Tá evoluindo...
+[2018-01-04 01:26:57] Essa plaquinha extra aí não tinha no Patinho Feio. Fui eu que projetei, para fins didáticos. É um "man in the middle" em hardware ;-P Pra mostrar nos LEDs o status de todos os sinais de entrada e de saída do módulo de decodificacão de opcodes.
+[2018-01-04 06:36:22] A migração foi do NCP para TCP... RFC 801!
+[2018-01-04 06:43:25] ei pessoal , viram isso?
+
+https://techcrunch.com/2018/01/03/a-major-kernel-vulnerability-is-going-to-slow-down-all-intel-processors-2/?ncid=rss&utm_source=tcfbpage&utm_medium=feed&utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29&utm_content=FaceBook&sr_share=facebook
+
+Falha séria nos processadores intel encontrada.
+
+todos os sistemas operacionais, windows , linux e macs terão que ser atualizados,  e sofrerão uma redução de performace de 5 a 30%. a falha permite que qualquer software em userspace acesse a memoria do kernel.
+
+a falha ainda está "sob embargo" (sendo segurada pela intel enquanto a maior parte dos produtores de sistemas operacionais e grandes provedores de cloud corrigem seus sistemas).
+[2018-01-04 06:50:15] Como se o mundo inteiro fosse depender de computadores algum dia... não, pera
+[2018-01-04 07:42:22] “This will be a festering problem over hardware life cycles. It’s not going to change tomorrow or the day after,” Mr. Kocher said. “It’s going to take a while.”
+
+https://mobile.nytimes.com/2018/01/03/business/computer-flaws.html
+[2018-01-04 07:52:15] https://pastebin.com/CF91uGTG
+[2018-01-04 07:52:27] https://pastebin.com/fDHrAEuZ
+[2018-01-04 11:28:14] Lisandro joined
+[2018-01-04 11:41:17] https://en.m.wikibooks.org/wiki/Microprocessor_Design
+[2018-01-04 11:41:35] @fsanches e a todos os interessados no assunto
+[2018-01-04 13:01:32] Cadê o cara que perguntou sobre TV?
+[2018-01-04 13:06:10] https://garoa.net.br/wiki/Foguetes#2018.2F01.2F15:_SpaceX_.E2.80.A2_Falcon_Heavy_.E2.80.A2_V.C3.B4o_inaugural.21
+[2018-01-04 13:44:18] Boa tarde a todos.
+Alguém sabe se displays LCD touch geralmente atribuídos ao Raspberry Pi funcionam na Tinker Board?
+[2018-01-04 13:45:02] Infelizmente há pouco material sobre a Tinker Board nas pesquisas comuns do Google, principalmente sobre compatibilidades.
+[2018-01-04 13:45:41] Sendo específico, preciso de um display 5" touch funcionando numa Tinker Board.
+[2018-01-04 14:01:24] Infelizmente não sei responder, porém como o assunto foi levantado, vou aproveitar para perguntar se você conhece algum lugar para comprar esses dias displays com bom custo no Brasil?
+[2018-01-04 14:10:52] No Brasil, sem chance. Eu importo da China pra ter menor custo.
+[2018-01-04 14:11:06] Aliexpress e Gearbest, principalmente.
+[2018-01-04 14:12:57] A Tinker Board custa 290 no Aliexpress. Na Americanas e no Submarino tá 482.
+[2018-01-04 14:13:03] Difícil tem várias internets por rádio sendo transmitidas em torres e nada de anatel
+[2018-01-04 14:13:29] 346 no Mercado Livre.
+[2018-01-04 14:15:50] Se os pinos da GPIO forem compatíveis, vai que vai
+[2018-01-04 14:28:04] https://tecnologia.uol.com.br/noticias/redacao/2018/01/03/falha-gigantesca-afeta-quase-todos-os-processadores-intel-veja-o-que-fazer.htm
+[2018-01-04 14:29:12] Adorei o nome...
+https://lwn.net/SubscriberLink/742702/83606d2d267c0193/
+[2018-01-04 15:54:18] Alguem trabalha ou tem algum amigo que trabalha com remapeamento de Injeção Eletrônica?
+[2018-01-04 15:58:19] @Gutemhc O layout das duas placas (Raspberry Pi e Tinker Board) é exatamente o mesmo. Só fiquei com medo de gastar grana no display e não funcionar o touch. rsrs
+[2018-01-04 15:59:46] Desconheço a placa mas, se os pinos GPIO estiverem na mesma posição e vc conseguir rodar Linux para instalar os Drivers, não tem pq não funcionar.
+[2018-01-04 16:00:05] E outra: Seja Hacker... Hackeie!
+[2018-01-04 16:00:31] Ah, obrigado.
+Dá uma olhadinha nela pelo Google. É mais poderosa que a Raspberry (e vem com um Debian modificado pela Asus).
+[2018-01-04 16:00:42] Me falta conhecimento pra hackear. rsrs Sou noob.
+[2018-01-04 16:01:22] Iniciante != noob
+[2018-01-04 16:01:53] Inicie e depois de algum tempo, não será mais iniciante.
+[2018-01-04 16:02:17] Já usa Linux fulltime?
+[2018-01-04 16:02:29] Sim.
+[2018-01-04 16:02:34] Manjaro.
+[2018-01-04 16:02:48] Arch. Boa!
+[2018-01-04 16:02:51] Estou lendo Linux A Bíblia, do Negus Bresnahan.
+[2018-01-04 16:03:10] Procura um livro para a LPIC-1
+[2018-01-04 16:03:21] Uirá Ribeiro tem um muito bom em PT-BR
+[2018-01-04 16:03:48] Vou dar uma olhada. Tenho um aqui, mas é muito antigo.
+[2018-01-04 16:04:33] Não deve estar desatualizado. LPIC-1 introduz conceitos de SysAdmin
+[2018-01-04 16:04:49] O Fundamento é atemporal. O que mudam são as ferramentas
+[2018-01-04 16:04:54] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804727229_85796.jpg
+[2018-01-04 16:04:59] E, para isso, sempre existe o MAN
+[2018-01-04 16:05:53] eu não gosto muito do livro do uirá, ele  apresenta os conceitos meio superficialmente no final você precisa ir na internet pesquisar
+[2018-01-04 16:06:19] a impressao que eu fiquei foi: pra que ter um livro em que no final preciso aprender na internet?
+[2018-01-04 16:06:33] mas é um livro bom se você só quiser passar na prova e foda-se
+[2018-01-04 16:07:47] Mais ou menos. Existem niveis. Ele é uma introdução
+[2018-01-04 16:07:53] Depois vc se especializa
+[2018-01-04 16:08:16] Com LPIC-1 teoricamente vc consegue cuidar do dia a dia de um Data Center. por exemplo
+[2018-01-04 16:08:28] gestão do sistema e usuários
+[2018-01-04 16:08:41] E aí é com vc fazer o "deep dive"
+[2018-01-04 16:08:56] LPIC-3 vc vira "hacker de kernel"
+[2018-01-04 16:09:21] Rsrs Nível Gandalf
+[2018-01-04 16:09:36] mas, novamente, introdutório, pq o campo é amplo
+[2018-01-04 16:11:28] Carro ou moto?
+[2018-01-04 16:11:57] Qualquer um, nesse momento. Queria trocar uma ideia sobre o equipamento usado
+[2018-01-04 16:12:23] tava lendo a Spec (SAE J2534) sobre isso
+[2018-01-04 16:13:08] vou passar o contato de um amigo meu
+[2018-01-04 16:13:22] Tks
+[2018-01-04 16:20:32] Olhando rápido o wiki e o Reddit, não achei: tem horário estimado?
+[2018-01-04 16:24:41] No site spaceflightinsider fala TBD
+[2018-01-04 16:24:56] Alguma ideia de janela de possibilidades?
+[2018-01-04 16:40:24] hauahauahauau
+[2018-01-04 17:12:29] Galera, para comprar um Raspberry Pi aqui no BR, vale a pena ou compra da china?
+[2018-01-04 17:14:29] Se aguentar esperar 3 meses, China. Se quiser a pronta entrega, pvt-me. ;)
+[2018-01-04 17:14:59] Eu comprei na época da Farnell. Paguei R$250. 🔪
+[2018-01-04 17:21:30] Valeu
+[2018-01-04 17:21:51] Um amigo meu tá afim
+[2018-01-04 17:32:34] Rpi3 com dissipador de calor, case oficial e fonte de 2.5A a pronta entrega por 230 Dinheiros na minha mão.
+[2018-01-04 17:32:47] Últimos 5 do lote.
+[2018-01-04 17:32:54] Olouco!!!
+[2018-01-04 17:33:27] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_1842540969984018.webp
+[2018-01-04 17:33:32] Legal!
+[2018-01-04 17:45:58] Vamos ter que aguardar...
+[2018-01-04 18:07:02] Vc vai querer ver ao vivo no Garoa ?
+[2018-01-04 18:34:58] 199 o homologado pela anatel, na filipe flop, a última vez que olhei
+[2018-01-04 18:35:15] não lembro se vem com fonte, tem que pesquisar
+[2018-01-04 19:04:57] Dependendo do horário, sim
+[2018-01-04 19:05:11] Em outras palavras, se for à noite, sim, hehe
+[2018-01-04 19:11:54] Sem fonte
+[2018-01-04 19:38:03] Falcon Heavy Load Distribution?
+I am not an engineer, just an enthusiast, but the coupling points for the side boosters of the Falcon heavy don't appear to be very large. (two on the top and two on the bottom of each booster) Obviously, the engineers at SpaceX have carefully designed them, but I haven't come across any explanations of how the load is distributed across the struts and how they will release when their fuel is spent. Does anyone have a link to more information about how the coupling structure works on the Falcon Heavy?
+
+Submitted January 03, 2018 at 03:41PM by bjf201
+via reddit http://ift.tt/2CV4PE0
+[2018-01-04 20:11:10] começo de discussão que vi em um outro grupo
+[2018-01-04 20:11:11] http://www.dw.com/en/biohacking-genetic-engineering-from-your-garage/a-42030559
+
+Alessandro never got a job at university. Nor did he ever want to work in the private sector.
+ "One day I resigned myself to not having a job in the academic world," he says. "Now, I'm doing research on my own and with the community."
+[2018-01-04 20:11:11] IMHO só vai aumentar essa tendência... tipo a onda de fablabs (que pelo que entendo esta mais organizado/estruturado) do que os labs caseiros de bio...
+[2018-01-04 20:11:11] E esse assunto foi tocado tangencialmente neste episódio do Podcast Segurança legal... sobre todo na questão de segurança (ou a falta de...) e o risco de alguem desenvolver um virus ou algo perigoso e soltar por aí...
+
+http://www.segurancalegal.com/2017/12/episodio-141-fabricando-a-realidade/
+[2018-01-04 20:11:11] Pergunta para o pessoal de biologia:
+- quanto dinheiro (aprox.) seria necessário para montar um lab de garagem, para trabalhar na pesquisa/projeto que vc trabalha/trabalhou ?
+- vc acha que seria possível num futuro tem "labs de garagem" comunitários aqui no Brasil?
+[2018-01-04 20:14:09] alguém tem algum script para inferir apartamento de prédios?
+[2018-01-04 20:14:50] haha
+[2018-01-04 20:36:26] @Gutemhc , dá uma olhada na criança.
+
+https://www.youtube.com/watch?v=CS66_BbalG8
+[2018-01-04 20:52:05] Então a proposta do Gutem tá BEM melhor
+[2018-01-04 20:53:44] Vem comigo... ;)
+[2018-01-04 20:56:29] Tá boa mesmo. Peguei uma ontem por R$180 no Mercado Livre com fonte e frete grátis, mas sem case e dissipador
+[2018-01-04 20:59:34] https://twitter.com/misc0110/status/948706387491786752
+[2018-01-04 20:59:39] :|
+[2018-01-04 22:51:37] https://www.instagram.com/p/BdjDBgvggb6
+[2018-01-04 23:17:18] 😍

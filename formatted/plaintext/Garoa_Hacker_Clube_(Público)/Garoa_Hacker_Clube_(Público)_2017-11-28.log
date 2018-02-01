@@ -1,0 +1,198 @@
+[2017-11-28 00:00:51] https://twitter.com/cryptoravebr/status/934923331056349185
+[2017-11-28 00:19:40] não dá pra ter muita noção do que está acontecendo... mas se não for alguma ligaçao que está mandando voltagem errada, pode ser o fio que está fino demais e esquenta até derreter
+[2017-11-28 00:35:38] É sempre nesse pino + do conector?
+[2017-11-28 00:39:37] Me parece q a fonte na qual está ligada a ponta desse fio está mandando corrente demais para essa placa.
+[2017-11-28 00:40:29] Se isso for vdd, tem alguma coisa nessa placa q puxa corrente da fonte. E ela entrega.
+[2017-11-28 00:41:43] Se essa placa está puxando mais corrente do q ela é capaz de suportar, ou tem um curto nela em algum lugar, ou tem algo ligado a ela q puxa corrente demais durante seu funcionamento.
+[2017-11-28 00:42:41] De qq maneira, isso não deveria acontecer em um circuito bem dimensionado. Vc fez algum mod nesse equipamento?
+[2017-11-28 01:33:06] Fio muito fino e peça de qualidade ruim
+[2017-11-28 01:33:07] Eu suponho que seja isso , pois é de onde vem a energia da fonte  de 360W , sim puxa bastante corrente pois tem que aquecer a cabeca de impressão  a 230 graus e a cama de impressão  a 80
+[2017-11-28 01:33:24] Veio assim da China
+[2017-11-28 01:33:37] Mas essa placa foi projetada pra isso?
+[2017-11-28 01:33:42] Sim
+[2017-11-28 01:33:43] Nunca fiz
+[2017-11-28 01:35:13] Sim, é uma mks gen-2z v1.1
+[2017-11-28 01:35:15] Outra coisa é firmware cagado na partes de controle de temperatura. Nos PID
+[2017-11-28 01:35:32] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804728560_61639.jpg
+[2017-11-28 01:35:49] Própria para impressora 3d
+[2017-11-28 01:36:09] Imprime em pla não esquenta a mesa pra vê se continua
+[2017-11-28 01:37:52] Eu uso bastante com ABS , pois eu acho uma material melhor, mesmo o pla tendo suas vantagens
+[2017-11-28 01:38:09] Alguma coisa está errada. Ou essa placa está subdimensionada, ou a cabeça está superdimensionada, ou pode ser isso q o Afonso falou - não está sendo feito o devido controle da temperatura e a máquina está deixando a cabeça esquentar mais do q deveria.
+[2017-11-28 01:38:14] Mas trocar os cabos por cabos mais grossos pode ajudar ?
+[2017-11-28 01:38:35] Sim
+[2017-11-28 01:38:51] Para passar mais corrente
+[2017-11-28 01:38:56] Vc precisa analisar a situação e ver o q está de fato acontecendo
+[2017-11-28 01:39:01] Pla é melhor
+[2017-11-28 01:39:08] Esquece ABS
+[2017-11-28 01:39:20] A não ser.que seja pra.fazer algo que aguente temperatura alta
+[2017-11-28 01:39:22] Pq o fio não derreteu, me parece q foi o conector
+[2017-11-28 01:39:44] Pq o conector é a parte mais fraca
+[2017-11-28 01:40:19] Se o conector da placa derreteu é sinal de q está passando mais corrente do q deveria nessa placa
+[2017-11-28 01:40:30] Nem sempre
+[2017-11-28 01:40:37] É China
+[2017-11-28 01:40:53] E esse fio talvez ele que colocou não veio no kit
+[2017-11-28 01:40:53] Se vc reforçar o fio e a corrente passar vai torrar a sua placa
+[2017-11-28 01:40:59] Esses chineses sao f*da
+[2017-11-28 01:41:57] Isso q eu falei é da maior importância. Antes de vc sair trocando fio etc.
+[2017-11-28 01:42:20] Já sofri com essas placas nessas parte ai
+[2017-11-28 01:42:26] Algumas vezes
+[2017-11-28 01:42:29] Analisa a partir da cabeça. Ela está esquentando mais do q o normal?
+[2017-11-28 01:43:27] O conector da cabeça de impressão nunca teve problema
+[2017-11-28 01:43:39] E esta ok pelo que parece
+[2017-11-28 01:44:47] Maioria das vezes era o conector de má qualidade fio fino demais e controle pid errado
+[2017-11-28 01:45:05] Ou temperatura alta de mais e o calor passa pro frio
+[2017-11-28 01:45:51] Esses fios sempre ficaram quentes quando estava funcionando
+[2017-11-28 01:45:55] No fim das imprimir PLA deu menos dor de cabeça e a qualidade se tiver bem configurado chega a ser superior ao ABS
+[2017-11-28 01:46:33] Pois é
+[2017-11-28 01:46:42] Tá errado
+[2017-11-28 01:47:27] Tem impressora chinesa que o limite da mesa é 60°
+[2017-11-28 01:47:36] Maioria na verdade
+[2017-11-28 01:48:12] Aí tu baixa as coisas da internet e quer comprar colocar 110 ou 90 aí dá merda
+[2017-11-28 01:48:22] Sendo que 60 não serve pra ABS
+[2017-11-28 01:49:15] O limite refente aos componentes que ela tem. Tu tem que melhorar os componentes pra conseguir ou desistir de ABS
+[2017-11-28 01:51:25] photo
+[2017-11-28 01:52:09] no anuncio diz que da para fazer 110 a cama e 240 a cabeça , mas pelo que parece não é bem assim
+[2017-11-28 02:40:04] ehehe
+[2017-11-28 07:04:42] Nãooooo... eu não quero implantar esse troço!
+[2017-11-28 07:14:06] Eu ....
+[2017-11-28 07:15:17] Reativamos recentemente a brigada
+[2017-11-28 07:24:14] Pelo esquema a entrada vai de 12 a 24 volts, quanto você esta usando? Por que parece que é esse conector que está derretido, certo?
+[2017-11-28 07:27:02] Se for esse valor de output mesmo, até o conector parece ser subdimensionado... 30A!? 🤔
+[2017-11-28 07:52:55] Eu to usando 12v
+[2017-11-28 07:59:33] Posso estar errado, mas talvez se a placa realmente suportar 24v e usar uma fonte de 24v, talvez isso pare. Porque a corrente fluirá de uma forma mais uniforme e não teria um "gargalho" nesse conector. (To chutando aqui, porque tinha uma makerbot no serviço que usava fonte de 28v com saída de 22-24A, se não me engano)
+[2017-11-28 08:02:24] 👍🏻 só q tem um detalhe, precisa ver se essa placa foi projetada pra aguentar toda essa corrente. O conector q colocaram nessa placa só aguenta de 6A a 10A. Se fosse uma placa projetada pra aguentar 30A jamais eles colocariam um conector desses aí.
+[2017-11-28 08:03:45] O problema é ou no aquecimento do bico ou na placa driver em si.
+[2017-11-28 08:04:54] Se o bico aquece demais a placa pede mais corrente. A fonte joga, pq a fonte tem capacidade de até 30A (360/12). Com isso, quem está no meio, torra.
+[2017-11-28 08:05:25] Foi o que imaginei, mas aí se aplica o que eu mandei na mensagem sugerindo aumentar a entrada. Se não me engano em AC maior tensão  tem um suporte melhor para a corrente. Certo ou viajei!?
+[2017-11-28 08:05:44] Se acertei, to meio que chutando que DC siga a mesma premissa...
+[2017-11-28 08:07:48] Não arrisco chutar pq o q está em jogo é uma placa driver q pode torrar. Se eu soubesse as especificações desse equipamento poderia dar um palpite mais certeiro. Mas aumentando a tensão sem saber se a faixa de trabalho da driver aceitaria é mto arriscado.
+[2017-11-28 08:10:01] Tem um problema maior nesse equipamento, e o certo seria eliminar a causa do problema, não aumentando a bitola do fio, a tensão da fonte, etc. Isso poderia só piorar as coisas. Seria o mesmo q tentar apagar fogo jogando querosene em cima...
+[2017-11-28 08:10:05] Emho
+[2017-11-28 08:11:32] A única coisa q arrisco dizer, é q me parecd q esse bico está forçando demais a placa driver.
+[2017-11-28 08:13:49] Se eu noto q um conector pra 6-10A está DERRETENDO, eu me preocuparia muito com isso
+[2017-11-28 08:15:05] Minha atenção se voltaria imediatamente pra o q está ligado na saída da placa. Pois está puxando mais corrente do q deveria...
+[2017-11-28 08:17:15] https://m.facebook.com/story.php?story_fbid=1572199506136472&id=100000393144736
+[2017-11-28 08:23:38] Em resumo, o q eu tentaria fazer d imediato, seria entrar nos ajustes da maquina e tentar setar a temperatura máxima do bico injetor pra bem menos do q estaria atualmente. E (depois de substituir o bloco de terminais derretido), tentaria operar a máquina, com um olho em cima dessa placa pra sentir se está aquecendo os terminais ou se passou a operar normalmente.
+[2017-11-28 08:35:12] Kodare joined
+[2017-11-28 08:35:13] Hi Kodare !
+[2017-11-28 08:44:08] Uma possibilidade seria vc intercalar entre a saída da sua fonte e a entrada da placa, um conversor boost com limitador de corrente: http://www.prodctodc.com/400w-nc-voltage-regulatorpower-supply-module-dc-665v-to-060v-8a-buck-adapter-charger-voltmeterammetercapacity-metertime-meter-p-665.html#.Wh1dNqFzKM8
+[2017-11-28 08:44:56] Daí vc garante q a placa não irá receber mais q 15A max (no caso desse).
+[2017-11-28 08:45:48] Alias, minto: maximo 8A na saída desse conversor.
+[2017-11-28 08:47:54] Interessante
+[2017-11-28 08:52:24] Vc precisa só prestar atenção na corrente máxima de ENTRADA q ele aguenta. Esse aqui não diz (mas pelo dissipador q vem instalado em cima do CI regulador, diria q ele é parrudo), mas garante ajuste na SAÍDA de até 10A: http://www.prodctodc.com/constant-voltagecurrent-c-17
+[2017-11-28 08:53:06] Desculpe, o link é esse: http://www.prodctodc.com/100w-power-supply-module-dc-1050v-to-136v-10a-adjustable-buck-converter-dc-12v-24v-voltage-regulatoradaptercharger-p-366.html#.Wh0_-OzJ3qA
+[2017-11-28 08:54:14] Ele tem proteção contra sobrecorrente tbm. Ou seja, se a placa driver pedir mais q 10A o boost desarma. E desliga o bico antes de pifar ambas as placas, evitando um prejuízo.
+[2017-11-28 08:54:57] Na impossibilidade de fazer esse ajuste na máquina, eu colocaria um desses antes da placa driver. Aí só precisa ajustar nos trimpots qual a tensão e corrente q vc quer jogar na placa driver. Ajuste individual, o q permite maior controle.
+[2017-11-28 10:54:08] https://spaceflightnow.com/2017/11/27/space-station-cargo-flight-next-on-spacexa-launch-schedule/
+[2017-11-28 11:15:28] https://garoa.net.br/wiki/Garoa_Demo_Party_2017
+[2017-11-28 11:18:01] Hoje tem festa de 02 anos de Noite de Processing! Com projetor aberto e relâmpagos! E espero que cerveja e pizza! Todos convidados...
+[2017-11-28 11:37:08] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804724562_82601.jpg
+[2017-11-28 11:42:26] Você pode projetar uma demo hoje se quiser Juca
+[2017-11-28 11:42:44] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_4938606641097474063.gif
+[2017-11-28 11:58:18] Quero ver a demo do @fsanches
+[2017-11-28 12:31:17] eu tenho quase certeza de que não conseguirei ir hoje, infelizmente
+[2017-11-28 13:43:49] https://www.tecmundo.com.br/seguranca/124602-cuidado-ransomware-scarab-disparado-12-milhoes-emails.htm
+[2017-11-28 14:09:50] Dúvida rápida: as telecoms estão cortando internet quando se chega a franquia contratada em mobile?
+[2017-11-28 14:10:31] Sim
+[2017-11-28 14:12:11] Manja qual tele não o faz?
+[2017-11-28 14:13:12] Acho que a MVNO dos Correios não corta, mas não garanto nada.
+[2017-11-28 14:16:13] Agora já comprei... Vamos ter que colocar! heheheeh
+[2017-11-28 14:27:07] Pessoal, uma amiga que é programadora em PHP está procurando trampo, alguém que possa indicar?
+[2017-11-28 14:36:26] Algumas deixam serviços como mensageiros livres, mesmo depois da franquia acabar (experiência própria com a Vivo)
+[2017-11-28 14:39:19] Meu tim beta reduz a velocidade
+[2017-11-28 15:03:38] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806119306_36.jpg
+[2017-11-28 15:32:31] Joao Carlos:
+O Startup Weekend São Paulo Blockchain é o lugar para procurar uma equipe, criar um protótipo, validar sua idéia de negócios e receber comentários de empreendedores experientes e especialistas em Blockchain, tudo isso em um único fim de semana!
+
+Participe dessa que será a segunda edição no mundo sobre o tema! Dias 08, 09 e 10 de dezembro na FLAGCX!
+
+Site do evento: http://communities.techstars.com/brazil/sao-paulo/startup-weekend/11692
+
+Site para inscrições: https://www.sympla.com.br/startup-weekend-sao-paulo-blockchain__194485
+
+VAGAS LIMITADAS!
+
+The Revolution will be Decentralized!
+[2017-11-28 15:57:54] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_58023844232823455.webp
+[2017-11-28 16:10:33] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804722194_83851.jpg
+[2017-11-28 16:53:05] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806121136_279.jpg
+[2017-11-28 16:53:29] Que parte do sujou limpou será que a pessoa não entendeu?
+[2017-11-28 17:51:16] @monicarizzolli, vou aparecer pela primeira vez na Noite de Processing, preciso levar algo?
+[2017-11-28 17:52:44] @ThePerna se quiser apresentar algo no projetor é só trazer! vamos festejar e conversar!
+[2017-11-28 17:54:55] vou pegar dicas de como começar com Processing ;D
+[2017-11-28 17:57:31] Galera, quem tiver atras de VPS para testar ferramentas, a CloudatCost http://www.cloudatcost.com/ continua com os preços de Black Friday/Cyber Monday
+Uma VPS de 1vCPU, 2 IPs Publicos, 512MB RAM, 10GB SSD tá por USD14, normalmente é USD35
+Pra quem não não conhece a CloudatCost, você paga APENAS UMA VEZ a VPS, não é mensal. Vc compra os recursos e monta como quiser.
+
+se alguem for comprar, por favor coloque meu email, gutemhc@gmail.com, no campo "Referral" que Eu ganho desconto nas próximas compras
+[2017-11-28 18:01:20] Anual? Ou one-time?
+[2017-11-28 18:01:41] one time
+[2017-11-28 18:02:35] Oh boy. É bom?
+[2017-11-28 18:02:52] to testando
+[2017-11-28 18:02:59] usava Digital Ocean, geralemtne
+[2017-11-28 18:03:14] subi duas maquinas lá e to brincando
+[2017-11-28 18:30:43] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_805512434_51869.jpg
+[2017-11-28 18:30:57] Padrão Freitas é melhor que padrão suíço!
+[2017-11-28 18:32:08] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_156473097476637407.webp
+[2017-11-28 18:54:20] Primeiras impressões: Conexão tá em 11MB/s
+[2017-11-28 18:54:38] já dá pra usar como VPN, pelo menos
+[2017-11-28 19:32:50] mano
+[2017-11-28 19:32:58] como esses caras sobrevivem?
+[2017-11-28 19:33:05] se só paga uma vez
+[2017-11-28 19:47:42] não faço ideia...
+[2017-11-28 19:47:56] to tetando
+[2017-11-28 19:48:02] vamos ver daqui 1 semana
+[2017-11-28 19:48:27] subi uma Seedbox com Apache + rTorrent + ruTorrent
+[2017-11-28 19:52:33] https://groups.google.com/forum/#!topic/rails-br/3az7j-YHej8
+[2017-11-28 19:52:46] aqui o pessoal tem umas opiniões um pouco negativas
+[2017-11-28 19:56:55] se for pra produção também não parece uma boa ideia
+[2017-11-28 19:56:56] https://news.ycombinator.com/item?id=8024241
+[2017-11-28 19:57:04] mas como eu vou só dar uma brincada
+[2017-11-28 19:57:07] acho que vou comprar sim
+[2017-11-28 19:57:43] quando vcs fazer cerveja
+[2017-11-28 19:58:23] Eles tem a versão Dev, que é essa one-time e tem uma versão Prod que é mensal
+[2017-11-28 20:00:10] entendi
+[2017-11-28 20:00:25] será que vale a pena deixar mineirando uns bitcoins quando eu não tiver usando?
+[2017-11-28 20:00:26] hahahaha
+[2017-11-28 20:01:01] E essa thread do hackernews é de 4 anos atras... Eles melhoraram um pouco... rs
+[2017-11-28 20:01:28] não. CPU e GPU não vale a pena, só ASIC
+[2017-11-28 20:02:50] não to vendo o campo referral
+[2017-11-28 20:14:53] na criação da conta
+[2017-11-28 20:14:56] depois de pagar
+[2017-11-28 20:17:46] não apareceu aqui
+[2017-11-28 20:17:49] ctrl f
+[2017-11-28 20:26:47] ei! Você ser menor de idade!
+[2017-11-28 20:27:01] meu pai quer saber
+[2017-11-28 20:27:20] e eu consigo fazer ele ir pro garoa
+[2017-11-28 20:27:29] ah ok
+[2017-11-28 20:27:52] eu não sei dizer
+[2017-11-28 20:28:09] talvez alguma outra pessoa aqui saiba informar melhor
+[2017-11-28 20:29:11] interessante, vou ver direito aqui
+[2017-11-28 20:29:54] devem compartilhar seus dados... tem empresas que fazem isso
+[2017-11-28 20:33:57] Foi pra sua mãe que eu vendi uma garrafa?
+[2017-11-28 20:34:15] sei la, achei o site estranho.... não possui ssl no proprio site, a página Sobre tem poucas informações, etc
+não "botei fé"
+[2017-11-28 20:34:23] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_244604348921808667.webp
+[2017-11-28 20:34:30] se foi esse sabadoa noite deve ter sido
+[2017-11-28 20:34:57] Show de bola
+[2017-11-28 20:35:38] Então. Proximo encontro vamos engarrafar. Não temos a data ainda
+[2017-11-28 20:35:52] @lvido, o @fourteen14uu não parece um mini Oda? rs
+[2017-11-28 20:36:28] Olha, é só dar mais comida pra ele que vai ficar igualzinho
+[2017-11-28 20:36:29] é todo mundo zoa falando que eu pareço o oda
+[2017-11-28 20:36:29] tem até foto dele com coque samurai... rs
+[2017-11-28 20:37:13] Talvez dia 09/12...pra engarrafar
+[2017-11-28 20:38:06] não estamos zoanda, Jovem Padawan, só fazendo uma "comparação de semelhança"... rs
+[2017-11-28 20:38:15] vendo se o hash MD5 colide... rs
+[2017-11-28 20:40:57] O Oda se chama Eduardo.
+[2017-11-28 20:45:51] Piorou a situação
+[2017-11-28 20:46:09] http://www.cloudatacost.com/mystory/possible-scam-alert-2017
+[2017-11-28 20:47:05] eita
+[2017-11-28 20:47:11] não sei se fiz uma boa compra
+[2017-11-28 20:48:29] Tô falando que esse MD5 colide...
+[2017-11-28 21:23:02] tem alguma cryptomoeda que vale a pena mineirar nesse server enquanto ele fica parado?
+[2017-11-28 21:23:20] não que eu saiba
+[2017-11-28 21:23:32] mas se for deixar parado, minera Monero (XMR)
+[2017-11-28 21:24:03] hmm acho que vou mineirar então, enquanto eu não tenho o que fazer
+[2017-11-28 22:45:49] https://twitter.com/ProcessingOrg/status/935555113191723008
+[2017-11-28 22:45:59] https://spaceflightnow.com/2017/11/28/debut-of-spacexs-falcon-heavy-rocket-now-planned-in-january/
+[2017-11-28 23:26:46] https://www.youtube.com/watch?v=-aYmjZIUa8o

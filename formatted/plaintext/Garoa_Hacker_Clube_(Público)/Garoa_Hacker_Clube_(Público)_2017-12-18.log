@@ -1,0 +1,84 @@
+[2017-12-18 09:09:25] to iniciando o aprendizado em arduino e afins, caso use o Arduino Nano muda muita coisa na programação?
+[2017-12-18 09:43:19] Salve Lucas! Não muda nada na programação, que eu me lembre.
+[2017-12-18 09:43:30] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804725664_95571.jpg
+[2017-12-18 09:45:22] Muda o formato físico, ganha duas entradas analógicas.
+[2017-12-18 11:51:55] qro iniciar com um projeto
+[2017-12-18 11:51:57] http://www.instructables.com/id/Arduino-Ultrasonic-Sensor-HC-SR04-With-Buzzer/
+[2017-12-18 11:52:02] usando o Nano
+[2017-12-18 11:52:19] vallew @villares
+[2017-12-18 16:48:58] Marcos Abreu Ferreira - ABAP joined
+[2017-12-18 16:50:03] Pessoal, alguém faz idéia do que pode estar acontecendo no meu celular. Coloco ele para carregar e nada, tiro a bateria e coloco em outro aparelho igual (Samsung S4) e carrega.
+[2017-12-18 16:51:08] Fez alguma atualização recentemente nesse aparelho?
+[2017-12-18 16:52:36] não fiz, ele fica encostado lá em casa, deixo ele lá para caso de algum problema no meu celular e numa emergencia troco o chip e pronto... Deixava ele ligado e dava carga uma vez por semana
+[2017-12-18 16:54:08] inclusive ele ainda esta com o CyanogenMod. Ia atualizar para o LineageOS
+[2017-12-18 16:59:05] Faça restauração de fábrica (pergunte se não souber fazer), depois atualize para a versão mais recente.
+[2017-12-18 17:00:32] o problema é esse, como nao consigo carregar o celular, nao consigo atualizar nem restaurar as configurações de fábrica.... estou achando que pode ser o conector USB dele com algum defeito de mal contato ou algo parecido...
+[2017-12-18 17:00:40] Você testou outra bateria no seu aparelho?
+[2017-12-18 17:00:48] Acontece a mesma coisa?
+[2017-12-18 17:01:15] testei, funcionou até zerar a bateria, depois quando ligo no carregador, nada...
+[2017-12-18 17:02:42] Se for físico, está com jeito de ser o conector mesmo. Tive um problema parecido com um S2 há alguns anos e a troca dessa peça (comprada no eBay por preço bem em conta) resolveu, no meu caso.
+[2017-12-18 17:11:23] i. Deixa o celular com a bateria no carregador por um tempo grande (12h+) 
+ii. Deixa o celular com a bateria conectar no computador e espera uma resposta
+iii. Deixa o celular sem a bateria no computador e espera uma resposta
+iv. http://www.instructables.com/id/How-to-use-phone-without-battery/
+[2017-12-18 17:27:43] Pessoal o que acham dessa questão de neutralidade de rede nos EUA?
+[2017-12-18 17:29:56] acho melhor começar a pensar em como montar nossos provedores autonomos
+[2017-12-18 17:30:04] Pessoal, como será a programação do Garoa nesse final de ano?
+[2017-12-18 17:30:36] to com umas horas pra tirar aqui na "firma", como não vou viajar .... gostaria de dar uma passada para conhecer
+[2017-12-18 17:47:45] Era só o que faltava...
+http://www.infomoney.com.br/mercados/bitcoin/noticia/7147481/relator-projeto-sobre-bitcoin-quer-proibir-criminalizar-criptomoedas-brasil?utm_campaign=bitcoin&utm_source=hs_email&utm_medium=email&utm_content=59467502
+[2017-12-18 18:00:04] Ok. Vamos supor que ele criminalize ou proíba. Como o Excelentíssimo Relator iria fazer para dar materialidade à lei?
+[2017-12-18 18:01:19] Massa
+[2017-12-18 18:01:36] Assim q tem q ser.
+[2017-12-18 18:03:51] Essa é uma ótima questão. Principalmente com Criptomoedas com maior grau de anonimato (como Monero) se for estendida às demais.
+[2017-12-18 18:07:17] O que eu percebo é um medo exarcebado com relação a Criptomoedas e, mais ainda, com a tecnologia do Blockchain. Enquanto eles condenam tudo, a FEBRABAN tem um grupo de estudos realizados o assunto.
+[2017-12-18 18:10:12] Teve um painel na final do StarSeedsBR sobre blockchain com gente da Blockchain Academy, Bradesco, Pessoal de VC. A mina do Blockchain Academy disse que o nosso Banco Central já está estudando blockchain e cryptocoins. Eu vejo que muito logo teremos uma cryptomoeda brasileira. Algo em torno de uma década ela vem.
+[2017-12-18 18:12:22] O atual presidente do Banco Central chamou o Bitcoin de pirâmide, mas não mencionou que o Itaú (de onde ele veio) adquiriu a XP Investimentos que, recentemente, criou XP Bitcoin.
+[2017-12-18 18:12:56] Hauahhaauhaha
+[2017-12-18 18:13:34] http://mobile.valor.com.br/empresas/4951308/itau-bradesco-e-b3-testam-tecnologia-blockchain
+[2017-12-18 18:14:25] Quem manda nesse país são os bancos, essa lei não passa nunca
+[2017-12-18 18:14:56] Eu concordo. Terá que enfrentar um lobby muito grande para passar essa lei.
+[2017-12-18 18:22:10] Босс joined
+[2017-12-18 18:28:49] ⚠️ MUITO IMPORTANTE ⚠️ 
+
+Repassando... texto de “Fernando Ulrich” não deixem de assinar e repassar!!! 
+
+“Li com perplexidade o parecer do Dep. Expedito Netto, relator da Comissão Especial de Moedas Virtuais, publicado no dia 13 de dezembro, recomendando a criminalização de diversos usos das critpomoedas.
+
+Surpreendeu-me a modificação proposta do PL 2303/15, sobretudo por contrariar o espírito e os debates realizados durante as audiências públicas na Câmara dos Deputados.
+
+Quando participei da primeira audiência, inclusive parabenizei o Dep. Expedito Netto pela iniciativa de visitar os Emirados Árabes Unidos, Singapura, e outras localidades exemplares em termos de regulação e acolhimento da tecnologia. Aliás, fiquei ainda mais contente em saber que estava lendo meu livro.
+
+Infelizmente, o  teor de seu parecer não está em linha com a ideia de fomentar o setor, trazer regras claras, reduzir a insegurança e fazer florescer a tecnologia no Brasil, defendida e apoiada durante as discussões e ratificada pelo presidente da Comissão, o Dep. Aureo, que, por sinal, já manifestou sua oposição ao parecer do relator.
+
+Convido a todos que se interessam por essa tecnologia, que trabalham ou empreendem de alguma forma nesse setor, a expressar seu desacordo com este parecer, contatando o próprio Dep. Expedito Netto, e apoiando a ideia legislativa no link abaixo.
+
+Obrigado.”
+
+https://www12.senado.leg.br/ecidadania/visualizacaoideia?id=96975&voto=favor
+[2017-12-18 18:29:11] Em vez de dormir de pé, maos a obra garotada :)
+[2017-12-18 18:55:21] Ótimo! Fiz minha parte assinando e divulgando.
+[2017-12-18 18:55:27] Obrigado por compartilhar.
+[2017-12-18 20:00:53] Jiovens, eu consigo uma saida 5v no nodemcu?
+[2017-12-18 20:16:18] Esp8266? Acho que lembro de um pino assim.
+[2017-12-18 20:20:02] Hmm
+[2017-12-18 20:20:08] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804727521_75336.jpg
+[2017-12-18 20:20:38] Sd2 tem saida 5v?
+[2017-12-18 20:20:55] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_388543743986238064.webp
+[2017-12-18 20:21:14] Vo testar aqui o/
+[2017-12-18 20:22:24] O que eu te mandei foi do esp8266
+[2017-12-18 20:22:31] O sd2 é o que?
+[2017-12-18 20:25:04] Coloca schematic + Nome da placa no Google images
+[2017-12-18 20:27:40] E essa placa mesmo . . . Vou testar a saida desse pino
+[2017-12-18 20:27:43] o/
+[2017-12-18 20:27:54] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804724566_96872.jpg
+[2017-12-18 21:42:15] Galera, comprei um tv box do mercado livre e ele tem um probleminha estranho: Toda vez  que desligo ele o mesmo fica travado na tela inicial do Android quando eu o ligo de volta. Nao acontece esse problema se eu o desligo puxando da tomada ou qd vou na opção reiniciar.
+[2017-12-18 21:44:05] Pra "resolver" esse problema eu dou um reset de fábrica e só desligo ele puxando da tomada ou o deixo com a tela bloqueada .
+[2017-12-18 21:44:26] Estranho pra caramba esse problema haha
+[2017-12-18 21:59:19] Geralmente o site do "fabricante" tem firmware pra atualizar/restaurar
+[2017-12-18 22:21:31] Esse caralho é fisicamente uma cópia de outro TV box chinês haha
+Não acho nada sobre essa cópia
+[2017-12-18 22:21:54] E com o hardware diferente
+[2017-12-18 22:24:46] @fsanches se liga nessa https://www.nexojornal.com.br/expresso/2017/12/18/A-anima%C3%A7%C3%A3o-que-usa-est%C3%A9tica-de-games-para-explicar-Simone-de-Beauvoir
+[2017-12-18 23:02:56] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806124210_10828.jpg
+[2017-12-18 23:03:03] Pitchula de mamãe

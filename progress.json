@@ -1,10 +1,10 @@
 {
   "dumper": "json",
-  "last_modified": "2017-11-24T12:16:28+00:00",
+  "last_modified": "2018-02-01T03:19:40+00:00",
   "dialogs": {
     "167796546": {
-      "newest_id": "02000000425f000a4fd50400000000000000000000000000",
-      "newest_date": 1511524404,
+      "newest_id": "02000000425f000a53eb0400000000000000000000000000",
+      "newest_date": 1512417040,
       "dumper_state": {
         "outfile": "json/Coreboot_Libreboot_-_Garoa_Hacker_Clube.jsonl"
       }
@@ -17,29 +17,29 @@
       }
     },
     "103600951": {
-      "newest_id": "0200000037d32c061d760400000000000000000000000000",
-      "newest_date": 1507219600,
+      "newest_id": "0200000037d32c06f22a0500000000000000000000000000",
+      "newest_date": 1517013585,
       "dumper_state": {
         "outfile": "json/Garoa_Hacker_Camp_2.0.jsonl"
       }
     },
     "237635176": {
-      "newest_id": "0200000068062a0ea0ad0400000000000000000000000000",
-      "newest_date": 1509920493,
+      "newest_id": "0200000068062a0e700c0500000000000000000000000000",
+      "newest_date": 1514512990,
       "dumper_state": {
         "outfile": "json/FontBakery.jsonl"
       }
     },
     "235873000": {
-      "newest_id": "02000000e8220f0e747e0400000000000000000000000000",
-      "newest_date": 1507665885,
+      "newest_id": "02000000e8220f0ecbe90400000000000000000000000000",
+      "newest_date": 1512347388,
       "dumper_state": {
         "outfile": "json/GT-Anti-Blobs.jsonl"
       }
     },
     "1050919227": {
-      "newest_id": "050000003bc1a33eb3c90000000000006e6ae5ba90ca32fa",
-      "newest_date": 1511524921,
+      "newest_id": "050000003bc1a33e28e70000000000006e6ae5ba90ca32fa",
+      "newest_date": 1517455175,
       "dumper_state": {
         "outfile": "json/Garoa_Hacker_Clube_(Público).jsonl"
       }

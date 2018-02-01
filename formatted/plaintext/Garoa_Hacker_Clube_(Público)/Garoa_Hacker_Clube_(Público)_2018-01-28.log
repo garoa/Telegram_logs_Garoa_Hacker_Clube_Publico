@@ -1,0 +1,634 @@
+[2018-01-28 08:23:52] Obrigado vou checar
+[2018-01-28 09:26:51] hauhauhauah
+[2018-01-28 09:28:11] oo ponto eh muito simples, se vc assume que probabilidade eh medida de informacao, tudo, absolutamente tudo que nos interessa eh estimar P(A|B)
+[2018-01-28 09:28:43] e o arcabouco canonico para isso eh teorema de bayes
+[2018-01-28 09:29:12] estranho eh o papo dos frequentistas...
+[2018-01-28 09:30:04] mas enfim, como nem sempre vc sabe descrever bem as variaveis aleatorias para aplicar o teorema de bayes, usa a forca bruta
+[2018-01-28 09:32:20] me parece que  se vc nao tomar cuidado com o que minimiza, acaba desviando disso ai
+[2018-01-28 09:33:28] tipo,  regressao logistica usual eh minimizacao de verossimilhanca
+[2018-01-28 09:33:56] perceptron vc pode minimizar quadrados
+[2018-01-28 09:34:37] ou ainda pode tentar uma abordagem bayesiana na raca
+[2018-01-28 09:35:04] felizmente tudo costuma convergir para o mesmo lugar se a amostra eh grande
+[2018-01-28 09:43:09] vcs são matemáticos?
+[2018-01-28 09:43:28] "And it may be because SGD biases learning towards flat minima, rather than sharp minima." —> nao sei de onde ele tirou isso, mas se for verdade essa eh uma boa noticia
+[2018-01-28 09:43:44] parece que sim
+[2018-01-28 09:46:01] @eduoda estudante ou formado?
+[2018-01-28 09:47:34] Hackers should be judged by their hacking, not bogus criteria such as degrees, age, race or position.
+[2018-01-28 09:47:42] 😜
+[2018-01-28 09:48:33] não sou hacker e estava apenas conversando, enfim, se não quiser responder é seu direito
+[2018-01-28 09:48:44] Eu sou da computação, se eu falar sim ou não dá uma discussão enorme hahahahaha
+[2018-01-28 09:49:06] vc entendeu mal, o que quis dizer eh que nao importa se somos formados ou nao
+[2018-01-28 09:49:09] pelo menos nao aqui
+[2018-01-28 09:50:09] aqui o que importa eh quanto nos interessamos por algo
+[2018-01-28 09:51:12] fui duas vezes ao garoa, faz muito tempo. Estavam no prédio antigo. As atividades eram na maioria voltadas pra eletrônica.
+[2018-01-28 09:51:18] maker
+[2018-01-28 09:52:01] Legal :)
+Isso é uma deficiência grande da minha formação, n manjo quase nada dessas coisas
+[2018-01-28 09:52:09] resumindo: se vc estuda bastante matematica entao vc eh matematica, nao importa os titulos
+[2018-01-28 09:52:25] @tilt4 ta falando com vc
+[2018-01-28 09:53:19] não penso assim, mas não vou entrar nessa discussão
+[2018-01-28 09:53:47] o garoa ainda eh muito mais voltado para eletronica, mas tem de tudo por la, tinha o encontro que chamavam de "matematicos de quinta" ou algo assim, nao me recordo
+[2018-01-28 09:54:08] entao vc acha que alguem deve ser julgado pelos seus titulos?
+[2018-01-28 09:54:18] acho que ai vc ta no lugar errado mesmo :D
+[2018-01-28 09:58:37] Perfeito
+[2018-01-28 10:00:41] Se eu tivesse a minha própria escola e elas não fossem regulamentadas pelo governo, nas primeiras sérias todo mundo aprenderia lógica computacional e eu usaria só atividades concretas de programação, aí depois nos anos finais tenho certeza que o pessoal iria conseguir demonstrar teoremas básicos e fazer operações elementares com maestria
+[2018-01-28 10:01:06] Calma cara, só fiz uma pergunta, acabei de acordar. Muito overthinking aí, rs.
+[2018-01-28 10:01:44] Conheço muita gente se formando em matemática pura que não sabe nem a definição de função injetora direito
+[2018-01-28 10:01:57] Então tendo a concordar que títulos não importam mesmo
+[2018-01-28 10:02:17] tudo bem, eu nao fui muito excelente antes, foi mal
+[2018-01-28 10:04:34] aquela frase que postei antes saiu disso aqui: https://en.wikipedia.org/wiki/Hackers:_Heroes_of_the_Computer_Revolution
+[2018-01-28 10:04:58] eh uma boa baliza para evitar confusoes como o Antonio falou que tem que evitar as vezes
+[2018-01-28 10:05:16] acho bacana
+[2018-01-28 10:05:17] Eu sonho com o dia que os revisores de pappers não olhem apenas o seu nome e a sua instituição quando vc publica e sim o que vc escreveu
+[2018-01-28 10:05:29] Aí não vou ter que fazer voto de pobreza pra conseguir fazer isso
+[2018-01-28 10:05:34] ate agora, eu diria que ele eh matematico (apesar de ter feito computacao #fail kkkk)
+[2018-01-28 10:05:57] tem umas revistas mais assim ja
+[2018-01-28 10:06:17] Acho que é legal!
+[2018-01-28 10:06:46] Meu maior problema quando entrei na facul foi que nunca tinha visto uma prova na vida e achava q matemática era algo que caia do céu pronto
+[2018-01-28 10:07:00] Eu considero o Knuth um matemático e ele é da computação, então na verdade acho que depende mais se vc vai pra parte mais prática ou teórica
+[2018-01-28 10:07:21] Então quebrei a cara em álgebra etc que precisava provar as coisas 
+Acho que seu sistema remediaria bem isso
+[2018-01-28 10:07:51] Eu fui pra matemática porque no ensino médio conheci a fabulosa coleção de livros do Gelson Iezzi & cia
+[2018-01-28 10:08:03] Priscila, oi😊 vc era do irc.
+[2018-01-28 10:08:10] com todos os principais tópicos do ensino médio demonstrados
+[2018-01-28 10:08:30] Se eu não me engano já é assim em algumas
+Quando eu fui fazer aquele Paper com meu orientador precisamos tirar todas as referências que poderiam identificar a instituição no corpo do Paper para não julgarem por isso
+[2018-01-28 10:08:31] Sim! Eu era. Quem vc era lá e de que canal (is)?
+[2018-01-28 10:08:48] miya, #slackware-br
+[2018-01-28 10:08:51] faz milianos
+[2018-01-28 10:09:00] não entrava muito
+[2018-01-28 10:09:22] Ah, o slackware-br
+[2018-01-28 10:09:29] tem o grupo de slackware aqui no telegram agora tb
+[2018-01-28 10:09:47] Eu me sinto velha de lembrar de lá, conheço algumas pessoas pessoalmente faz mais de 14/15 anos
+[2018-01-28 10:10:29] Programação como se faz no mercado (lógica básica e Crud) deveria ser matéria do ensino básico. Ajudaria muita gente a resolver problemas simples da vida.
+[2018-01-28 10:10:31] Eu tava pensando isso essa semana, o telegram é uma versão moderna dos canais do irc
+[2018-01-28 10:10:39] tem?
+[2018-01-28 10:10:46] engracado uns slackers se juntando aqui no grupo do garoa
+[2018-01-28 10:10:58] o loganbr ta por ai tb
+[2018-01-28 10:11:09] acho q nunca conversamos mto, mas eu lembro de vc, hehehe
+[2018-01-28 10:11:10] @slackshowbr
+[2018-01-28 10:11:33] Com certeza! No lugar de aprender coisas inúteis de matemática (porque não se usa aquilo pra nada, o Mathematica e o Wolfram Alpha fazem tudo) poderiam ensinar programação, além de ser útil, depois pra aprender *qualquer* coisa em matemática fica muito mais simples
+[2018-01-28 10:11:41] acho que boa parte dos veio do slackware-br tao nesse grupo
+[2018-01-28 10:12:07] Porque pra mim programação é simplesmente uma forma mais acessível de matemática. Acessível no sentido que os livros são melhores e sempre tem alguém pra te ajudar
+[2018-01-28 10:12:23] Já na matemática, sinto que a cultura é quanto mais difícil e inacessível, melhor
+[2018-01-28 10:12:58] :O
+[2018-01-28 10:13:00] não uso slackware mais
+[2018-01-28 10:13:09] po
+[2018-01-28 10:13:25] acabou o papo agora :P
+[2018-01-28 10:13:31] Nem eu, agora tenho algumas coisas com debian, mas na prática só uso ubuntu
+[2018-01-28 10:13:36] kkkk
+[2018-01-28 10:13:42] sou user e com tempo limitado, quero tudo funcionando sem ter que configurar muita coisa
+[2018-01-28 10:13:46] aff
+[2018-01-28 10:13:51] ubuntu tb
+[2018-01-28 10:14:08] nao sei quando vcs largaram o slackware, mas ele ta bem de boa
+[2018-01-28 10:14:10] Eu uso o Arch e achava mó desafio mas perto de vcs sou bem Noob haha
+[2018-01-28 10:14:23] Mas agora uso pq gosto do sistema tbem
+[2018-01-28 10:14:30] Isso mesmo. Fui colocar debian num desktop, eu sofri com coisas básicas
+[2018-01-28 10:14:39] Vc quer que o computador ligue e funcione
+[2018-01-28 10:14:43] 2009
+[2018-01-28 10:15:02] ahh ta bem melhor agora, nada de linuxpackages.net
+[2018-01-28 10:15:05] Eu troco todo esse conhecimento por fazer as coisas em ai que você faz rs
+[2018-01-28 10:15:07] exato, 😂
+[2018-01-28 10:15:23] entao, o slackware ta assim, viu?
+[2018-01-28 10:15:44] ainda eh vanilla, nada de apt-get reconfigure zuado
+[2018-01-28 10:16:11] mas tem o slackpkg e o sbopkg, entre outros, que deixam tudo bem sussa
+[2018-01-28 10:17:04] como eu uso luks, lvm e outras frescuras, a instalacao eh mais chatinha, mas depois disso, ta sussa
+[2018-01-28 10:17:20] Mas já tinha há algum tempo, ajudava um pouco com o sistema de pacotes mas não 100%. eu parei com o slackware o dia que eu precisei do TexWorks e perdi dois dias, tinha menos de uma semana pra fazer o negócio em latex. Aí baixei o ubuntu, tudo funcionou e eu virei uma pessoa acomodada.
+To tentando desacomodar um pouco agora, mas acho que o gentoo do ponto de vista geral atende mais isso do que o slackware. Demora mas fica 100% tunado
+[2018-01-28 10:17:54] gentoo, arch e afins eu nao curti
+[2018-01-28 10:18:02] pq quero algo que vc ligue e funcione
+[2018-01-28 10:18:03] kkkk
+[2018-01-28 10:18:22] Deixa eu decepcionar vc ainda mais: eu to chateada que o unity vai morrer no ubuntu hauahuaha
+[2018-01-28 10:18:32] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_532582924025856826.mp4
+[2018-01-28 10:19:17] Pessoal que usa essas distros é da opinião que você tem que ser um engenheiro pra poder colocar uma breja na geladeira, gelar e depois beber ela. É assim que eu vejo isso hoje
+[2018-01-28 10:20:02] asdfg, demorava 2 dias pra configurar meu ambiente de trabalho. Isso no ubuntu, imagina se tivesse q me preocupar com n outras coisas, quero nem pensar qto tempo iria demorar.
+[2018-01-28 10:20:44] acho que é mais pra quem está querendo aprender
+[2018-01-28 10:20:54] slackpkg traiu a filosofia slack
+[2018-01-28 10:21:41] as horas a mais seriam não pagas, trash
+[2018-01-28 10:22:24] pq quero ver fazer o cliente pagar isso, rs
+[2018-01-28 10:23:01] O meu maior problema são com prazos
+[2018-01-28 10:23:44] @Miya0 manja muito de linux no desktop.  Ela me ajudou a instalar o meu. Gente fina.
+[2018-01-28 10:23:55] ah vá, hahaha
+[2018-01-28 10:24:07] Eu tava quebrando cabeca
+[2018-01-28 10:24:10] 2 meses
+[2018-01-28 10:24:24] Sem sua ajuda nao teria sido tao rapido.
+[2018-01-28 10:24:32] Estou muito feliz.
+[2018-01-28 10:24:35] hahaha
+[2018-01-28 10:24:51] Em 2 horas tudo resolvido
+[2018-01-28 10:25:03] linux no deskombi
+[2018-01-28 10:25:59] Eu tô a um ponto de tirar o windows e fazer meu laptop um sistema Linux puro
+[2018-01-28 10:26:12] Mas tô mto apegado a meus joguinhos na Steam ainda rs
+[2018-01-28 10:26:22] às vezes me dá até medo do google
+[2018-01-28 10:26:53] Ontem eu fiquei pesquisando sobre como fazer coisas no dd-wrt e hoje apareceu um post pago de um app pra android pra controlar roteadores com esse firmware
+[2018-01-28 10:27:24] Naaaooo preciso que vc tenha windows pra quando eu precisar de alguma coisa kkk
+[2018-01-28 10:29:14] Usa o duck duck go!
+[2018-01-28 10:29:17] Eu gosto mto dele
+[2018-01-28 10:29:28] poxa :'(
+[2018-01-28 10:29:43] Ou searx.me
+[2018-01-28 10:29:58] Eu tenho medo do teclado do celular do Google
+[2018-01-28 10:30:08] Vai pedir acucar pelo windows do vizinho?
+[2018-01-28 10:31:02] Vc fala que quer ver um filme e ele mostra recomendações de cinema próximos
+[2018-01-28 10:31:17] Sim
+[2018-01-28 10:31:26] às vezes tem coisa que só tem pra windows e em geral são coisas rápidas pra mim (pelo menos por enquanto)
+tava pensando em modificar uma rom de um tablet e só dava pra acessar diretamente por windows aquela porcaria, pelo que vi
+[2018-01-28 10:31:35] Pena que ele tem swype
+[2018-01-28 10:31:59] E o anysoft keyboard não tá tão boa a precisão de toque dele
+[2018-01-28 10:31:59] eu uso o swift keyboard
+[2018-01-28 10:32:05] não que seja melhor em privacidade
+[2018-01-28 10:32:13] mas eu acho ele o melhor pra usar
+[2018-01-28 10:33:38] Also, é uma desculpa pra ir ver o @abel
+[2018-01-28 10:33:48] @abello também :-)
+[2018-01-28 10:34:18] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_473785410154136266.webp
+[2018-01-28 10:41:17] patrick parece discordar ;) nao lembro se em 2009 ja tava la, mas agora o slackpkg vem por padrao
+[2018-01-28 10:42:16] acho que vc pode falar disso das queues do sbopkg
+[2018-01-28 10:42:54] slackpkg+ tb pode ser meio estranho dependendo dos repos que adicionar
+[2018-01-28 10:43:25] mas mesmo o alienbob usa e recomenda
+[2018-01-28 10:46:22] Pessoal, deixa eu perguntar
+[2018-01-28 10:46:27] Vocês tem assadeiras ai no garoa?
+[2018-01-28 10:46:38] https://youtu.be/spUNpyF58BY
+[2018-01-28 10:46:41] Tava afim de fazer uns pãos de queijo e levar pro pessoal comer
+[2018-01-28 11:05:05] tem assadeira la sim
+[2018-01-28 11:05:11] fazemos as pizzas nelas
+[2018-01-28 11:05:18] @rodzil confirma?
+[2018-01-28 11:06:12] Tem umas 2
+[2018-01-28 11:06:28] valeu
+[2018-01-28 11:06:55] Sim temos
+[2018-01-28 11:07:09] 👏👏👏👏
+[2018-01-28 11:10:05] Blz!
+[2018-01-28 11:33:52] https://twitter.com/juliagalef/status/957365672782176256
+[2018-01-28 11:50:00] :O
+[2018-01-28 12:24:35] Oda é Doutor. Não é butininhu?
+[2018-01-28 12:36:38] Alexandro Abade (ordnax) joined
+[2018-01-28 12:36:46] Qual foi a tese de doutorado?
+[2018-01-28 12:36:54] em qual área?
+[2018-01-28 12:36:58] Bom dia guys
+[2018-01-28 12:37:51] Michael E. Smith, arqueólogo especializado em Mesoamérica com vários livros publicados, teve um artigo recusado pois o revisor alegou que ele não tinha citado um grande autor na área Michael E. Smith!!!!
+Ele escreveu ao editor que Michael E Smith era ele mesmo e se reservava o direito de se citar ou não.
+[2018-01-28 12:40:02] @eduoda sobre o que foi seu doutorado?
+[2018-01-28 12:43:46] caralho
+[2018-01-28 12:44:20] às vezes eu acho que a interação entre as pessoas é tipo uma tragédia cômica
+[2018-01-28 12:45:06] Um dia também vou ser :D
+[2018-01-28 12:45:54] Alguém aqui usa essa joça do dd-wrt? Preciso de ajuda :/
+[2018-01-28 12:50:37] controle otimo
+[2018-01-28 12:50:55] sai dessa. Infelizmente estão cortando as bolsas em todos os lugares...
+[2018-01-28 12:51:22] em que área?
+[2018-01-28 12:51:49] pois eh, sou doutor, pronto, agora a simetria das relacoes esta perturbada :P
+[2018-01-28 12:52:39] controle otimo, matematica aplicada, o problema eh si foi fenomeno fuller em problmemas n-dimensionais
+[2018-01-28 12:54:42] Fenômeno Fuller em problemas de
+controle ótimo: trajetórias em
+tempo mı́nimo de veı́culos
+autônomos subaquáticos
+[2018-01-28 12:55:25] esse foi o mestrado, né? Estou dando uma olhadinha, =)
+[2018-01-28 12:55:27] acho que isso ai foi o mestrado
+[2018-01-28 12:55:28] Demitri joined
+[2018-01-28 12:56:16] realmente vai perder seu tempo kkkk
+[2018-01-28 12:58:41] por que? você acha que o que vc escreveu é perda de tempo?
+[2018-01-28 12:58:52] sim
+[2018-01-28 12:58:58] nao foi para mim
+[2018-01-28 12:59:08] mas para vc vai ser
+[2018-01-28 12:59:31] para mim foi parte de conseguir o titulo
+[2018-01-28 12:59:34] então blz, fechei aqui
+[2018-01-28 12:59:52] mas o conteudo em si eh, como quase tudo produzido em ciencia atualmente, uma completa inutilidade
+[2018-01-28 13:01:34] que revolta, talvez fosse melhor trabalhar com coisas que você acredita, se tiver a possibilidade
+[2018-01-28 13:01:49] rsrsrs
+[2018-01-28 13:01:53] nao eh revolta
+[2018-01-28 13:02:00] eh so uma constatacao de fatos
+[2018-01-28 13:02:09] eu acredito em matematica, btw
+[2018-01-28 13:02:18] e acho o problema que estudei muito bonito
+[2018-01-28 13:02:21] olha, eu tive a sorte de trabalhar com uma equipe muito boa
+[2018-01-28 13:02:27] mas isso nao quer dizer que seja util
+[2018-01-28 13:02:31] eh tipo pintar quadro
+[2018-01-28 13:02:32] acho que deveria procurar os centros de excelência no país...
+[2018-01-28 13:02:55] 👍
+[2018-01-28 13:03:35] vc acha que de alguma forma contribuiu para o avanço no conhecimento científico no seu pais?
+[2018-01-28 13:03:47] :O
+[2018-01-28 13:03:54] hauaahauauhahua
+[2018-01-28 13:04:15] acredito que fez parte da minha formacao
+[2018-01-28 13:04:23] Quem contribui pro avanço do conhecimento científico no Brasil são os pais que sustentam mestrandos/doutorandos sem bolsa ou com uma bolsa que não tem aumento há mais de 10 anos hehe
+[2018-01-28 13:04:45] #fato
+[2018-01-28 13:05:03] desisti do doutorado pq cortaram as bolsas
+[2018-01-28 13:05:13] projeto, tudo certim
+[2018-01-28 13:05:22] certim e cortaram bolsa?
+[2018-01-28 13:05:24] corte de verbas...
+[2018-01-28 13:05:30] nem na usp isso rolou
+[2018-01-28 13:05:42] não teve verba para as bolsas novas
+[2018-01-28 13:05:42] onde vc tava?
+[2018-01-28 13:05:43] O problema é que você não faz pós para você. Você faz para o seu orientador.
+[2018-01-28 13:05:55] Esse ano acho que vai rolar :/
+[2018-01-28 13:06:05] @LGMart olha, no meu caso nao posso dizer isso
+[2018-01-28 13:06:19] e talvez isso tenha sido uma das coisas que diminuiu a relevancia do meu doutorado
+[2018-01-28 13:06:24] Então fez o que queria. Ponto positivo.
+[2018-01-28 13:06:33] Eu pensei em dar aulas particulares pra me sustentar porcamente pra poder fazer isso hehe
+[2018-01-28 13:06:53] no caso, todos os anos saiam x bolsas, no ano que ia fazer cortaram por falta de verba
+[2018-01-28 13:06:56] Cara... Não veja por esse lado.
+[2018-01-28 13:07:01] ufabc
+[2018-01-28 13:07:16] cara, hoje eu oriento um povo
+[2018-01-28 13:07:19] na época do Lula, investiram bastante na faculdade
+[2018-01-28 13:07:40] e acho que o fato deles trabalharem para o grupo e nao para si leva a producoes melhores
+[2018-01-28 13:07:44] depois vieram os cortes
+[2018-01-28 13:07:53] co-oriento, na real
+[2018-01-28 13:07:53] Acho mais infeliz fazer algo que não quer, só pq o orientador quer.
+[2018-01-28 13:08:50] sobre bolsas, vc nao tem um pe de meia ou um paitrocinio (famosa bolsa papis), tem aprender a viver com pouco
+[2018-01-28 13:08:51] Isso eu concordo! Acho até a melhor prática.
+[2018-01-28 13:09:02] entao, eh isso
+[2018-01-28 13:09:11] ninguem pede para as pessoas entrarem em um grupo, elas que querem
+[2018-01-28 13:09:13] entrar
+[2018-01-28 13:09:19] ai pega um dos problemas que tem por la
+[2018-01-28 13:09:47] pode dar um vies delas, mas as linhas gerais tao na mesa desde sempre
+[2018-01-28 13:10:00] as vezes alguem acha que isso eh trabalhar para o orientador
+[2018-01-28 13:10:04] É que tenho visto muitos orientandos infelizes por terem que fazer seus trabalhos por desejos de seus orientadores.
+[2018-01-28 13:10:45] essa preocupacao com felicidade eh coisa de auto ajuda
+[2018-01-28 13:10:51] Fiz uma lattus que minha orientadora definiu meu tema.
+[2018-01-28 13:11:29] quem gosta de pesquisa, gosta de qq pesquisa com metodologia adequada
+[2018-01-28 13:11:35] E era um tema pertinente para ela, não para meu desenvolvimento profissional.
+[2018-01-28 13:12:11] o seu desenvolvimento profissional nao vem do projeto e sim do trabalho
+[2018-01-28 13:12:12] Fico feliz pelos seus orientandos.
+[2018-01-28 13:12:23] esse eh um ponto que parece dificil das pessoas assimilarem
+[2018-01-28 13:12:30] mas em geral antes de entrar no mestrado/doutorado define-se o que vai fazer...
+[2018-01-28 13:12:55] Quem sabe a nova leva de orientadores possam ter essa mentalidade. Aí me empolgo para um doutorado.
+[2018-01-28 13:13:37] O foda é desenvolver algo que você não acredita e não tem tesão.
+[2018-01-28 13:14:09] Eu tenho certeza
+[2018-01-28 13:14:42] gente, quando vc entra na pos vc escolhe a area, o grupo e quase sempre o orientador
+[2018-01-28 13:14:45] e ainda pode mudar no meio
+[2018-01-28 13:14:47] Sim. Define-se a linha, para estar alinhado com o orientador. Mas o projeto e área de aplicação pode mudar
+[2018-01-28 13:15:07] se depois de escolher tudo isso vc ainda quer refinar mais a escolha, talvez vc esteja na area errada
+[2018-01-28 13:15:26] No futuro vou procurar você para me orientar.
+[2018-01-28 13:15:29] 👍
+[2018-01-28 13:15:51] entao nao acho que o problema seja o orientador ou projeto
+[2018-01-28 13:17:00] Eu que o diga...
+[2018-01-28 13:17:37] eh, o valor da bolsa ta foda
+[2018-01-28 13:17:49] por outro lado, a gente aqui ta falando do lado feliz da historia
+[2018-01-28 13:17:49] Vou tentar fazer umas aulas como aluno especial nesse semestre, depois vejo se mudei de ideia.
+[2018-01-28 13:17:51] Mas porque alguem nao pode pesquisar o que quer e ser auxiliado no proprio processo pelo orientador, ao inves de ser obrigado a acatar uma hierarquia de poder?
+[2018-01-28 13:17:57] se vc fizer uma pos na PUC, ainda vai ter que pagar
+[2018-01-28 13:18:34] pq ciencia nao eh conversa de bar
+[2018-01-28 13:18:52] eh dinheiro publico (geralmente) que deve ser direcionado adequadamente
+[2018-01-28 13:18:54] Ciencia implica hierarquia?
+[2018-01-28 13:19:03] se quiser fazer o que quer, entao nao peca bolsa, vai la e estude o que quiser
+[2018-01-28 13:19:07] pode fazer isso no garoa, inclusive
+[2018-01-28 13:19:20] o garoa eh registrado na fapesp
+[2018-01-28 13:19:35] atualmente sim
+[2018-01-28 13:19:49] isso nao quer dizer que as relacoes nao possam ser dialogicas
+[2018-01-28 13:20:05] tem hierarquia, mas tb tem co-construcao, nao eh exercito
+[2018-01-28 13:20:49] what?
+[2018-01-28 13:21:15] agradeca ao @solstag
+[2018-01-28 13:21:41] podemos pleitear bolsas e coisas do tipo na fapesp pelo garoa
+[2018-01-28 13:21:46] se vai sair eh outro papo
+[2018-01-28 13:22:12] Não sabia. Que foda!
+[2018-01-28 13:22:14] na real, no quadro de associados tem algumas pessoas aptas a uma orientacao
+[2018-01-28 13:22:34] solstag (abdo) e eu, por exemplo
+[2018-01-28 13:22:40] mdssss
+ia ser legal se saisse um paper daqui
+[2018-01-28 13:22:57] bobear o abdo ja submeteu algum como garoa
+[2018-01-28 13:23:11] Isso dá um projeto beeeemmmm legal.
+[2018-01-28 13:23:11] outro dia numa banca quase coloquei minha filiacao como garoa
+[2018-01-28 13:23:21] cara, isso eh so zueira
+[2018-01-28 13:23:31] o garoa eh um lugar onde titulo nao importa
+[2018-01-28 13:23:40] vai la e estude o que quiser
+[2018-01-28 13:23:59] o dificil eh alguem encarar isso seriamente sem uma promessa de recompensa
+[2018-01-28 13:24:01] como um titulo
+[2018-01-28 13:24:42] Ainda sinto uma dificuldade de integração no Garoa.
+[2018-01-28 13:24:43] Uma Verdade Insofismável!
+[2018-01-28 13:24:56] foi por isso mesmo que vi a necessidade de ter um papel de graduação, pra garantir que ia resistir até o fim
+[2018-01-28 13:25:05] kkkk
+[2018-01-28 13:25:15] apesar de que na usp parece toda hora praticamente que a gente tá no pelotão do capitão nascimento
+[2018-01-28 13:25:17] o markun fez a graduacao dele
+[2018-01-28 13:25:19] Eu concordo,  por isso meus problemas com a ditadura da academia na producao de conhecimento organizado coletivamente
+[2018-01-28 13:25:48] no meu curso só 3 pessoas fizeram tcc comigo
+[2018-01-28 13:25:55] eu era a terceira, alias
+[2018-01-28 13:25:59] duma turma de 40
+[2018-01-28 13:26:15] Curso de que?
+[2018-01-28 13:26:15] achei um pouco metido a besta, na verdade, mas ele foi la e estudou o que quis por ai, fez disciplinas em diversos lugares e tal, e chamou isso de graduacao dele, nao tem diploma ate onde sei, a menos que ele tenha emitido um
+[2018-01-28 13:26:37] Como assim? Só 3 formaram?
+[2018-01-28 13:27:06] vc ta 300% melhor do que eu, acho que da minha turma da aplicada fui o unico que se formou...
+[2018-01-28 13:27:06] 1 formou, eu ainda tenho 1 matéria pra fazer (espero passar agora no verão e me livrar)
+[2018-01-28 13:27:16] e acho que a outra menina formou no ano passado
+[2018-01-28 13:27:48] eu acho que isso indica problema do curso, e não incapacidade dos alunos
+[2018-01-28 13:27:51] sinceramente
+[2018-01-28 13:28:21] no caso da aplicada era problema dos alunos
+[2018-01-28 13:28:28] Tem muito professor que ninguém suporta nem ver a cara
+[2018-01-28 13:28:54] Vale para todos os cursos
+[2018-01-28 13:29:21] matematica tem um probleminha no meio, que eh vc em algum momento virar matematico, eh tipo um click, meio do dia para noite
+[2018-01-28 13:29:26] depois disso fica facil
+[2018-01-28 13:29:38] mas ate esse dia chegar, vc se fode demais e muitos desistem
+[2018-01-28 13:29:58] é lógico, não se aprende matemática
+[2018-01-28 13:30:08] o que se ensina no ensino médio é totalmente descartável
+[2018-01-28 13:30:09] o que aconteceu agora eh algumas habilitacoes da aplicada nao exigem esse click para se formar
+[2018-01-28 13:30:16] concordo
+[2018-01-28 13:30:42] e.. bem... ai fica a questao se isso ta certo...
+[2018-01-28 13:30:47] se tivesse habilitação no icmc eu ia estar sem previsão de me formar
+[2018-01-28 13:30:54] habilitação obrigatória
+[2018-01-28 13:31:18] eu catei todas as disciplinas que eu fiz quando era da física e isso mais uma ou duas coisinhas deram todos os 24 créditos de optativas
+[2018-01-28 13:31:26] na real, quando entrei nao tinha habilitacoes pre-definidas, achoque isso diminuia a taxa de formandos
+[2018-01-28 13:31:33] Verdade...
+[2018-01-28 13:32:11] Interessante a ideia,  a questão é perder o papel da rede no estudo, virar um estudo isolado
+[2018-01-28 13:32:31] olha... rede nao eh o problema dele
+[2018-01-28 13:32:35] em muitos sentidos kkkk
+[2018-01-28 13:32:38] Fiquei curioso pra tentar entender o que seria esse click
+[2018-01-28 13:32:50] pois eh, eu nao sei explicar
+[2018-01-28 13:33:02] Se eu fosse uma pessoa rica herdeira de [coloque qualquer empresa média ou grande aqui] eu ia fazer a mesma coisa
+[2018-01-28 13:33:07] so sei que um dia nada fazia sentido, no outro fazia
+[2018-01-28 13:33:17] Isso depois de viajar o mundo e saber pelo menos 4 línguas com fluência
+[2018-01-28 13:33:26] nao eh o caso do markun, ele so eh hacker de coracao :D
+[2018-01-28 13:33:49] Já faz anos que a minha mãe não aguenta mais eu ganhando só bolsa ou 1k por mês
+[2018-01-28 13:33:59] nao que seja pobre e tal, mas nao eh exatmente um herdeiro
+[2018-01-28 13:34:20] Toda semana a vizinhança e a família jogam na cara como eu sou imprestável enquanto todos os meus primos e conhecidos já não dependem do dinheiro da família
+[2018-01-28 13:34:31] sim, eh foda
+[2018-01-28 13:34:33] conheco a histori
+[2018-01-28 13:34:50] mas vamos contar o outro lado: vc nao leva uma vida de quem ganha 1k/mes
+[2018-01-28 13:34:51] ne?
+[2018-01-28 13:34:59] tem muita gente na usp que leva...
+[2018-01-28 13:35:02] Então acho que não poderia descer o nível
+[2018-01-28 13:35:10] E fazer algo legal assim
+[2018-01-28 13:35:49] bom... cada um com suas escolhas, eu nao julgo, de verdade
+[2018-01-28 13:35:53] Eu levo uma vida de quem ganha menos que isso, porque quando ganhava isso pagava aluguel e agora me dão quase a metade disso pra eu fazer tudo por mês
+[2018-01-28 13:36:30] as pessoas da usp moram em republica ou no crusp, comem no bandeijao todo dia e ainda sustentam filho
+[2018-01-28 13:36:45] serio, tenho varios amigos que levam/levaram essa vida
+[2018-01-28 13:36:59] Ou seja, vivem em voto de pobreza
+[2018-01-28 13:37:04] sim
+[2018-01-28 13:37:12] como disse, cada um com suas escolhas
+[2018-01-28 13:37:29] Nao é meu caso, mas se a familia tem pra ajudar o desenvolvimento prssoal da Pessoa, sempre me pareceu algo lógico
+[2018-01-28 13:37:40] Pq obrigar alguem a se vender pro mercado
+[2018-01-28 13:37:50] Eu não acho que tem que ser assim, aliás, um país que trata quem traz inovação científica desse jeito, não vai ser nunca um país de ponta nisso
+[2018-01-28 13:38:06] Se vc pode dar uma força
+[2018-01-28 13:38:18] vc tem um ponto, nao vou negar
+[2018-01-28 13:38:32] Acho muito conformista esse discurso "cada um com as suas escolhas". Antigamente tinha mina que perdia a virgindade, nunca mais ninguém se aproximava dela, era vista como uma escória social e todo mundo falava a mesma coisa hehe
+[2018-01-28 13:39:01] mas olhe o outro lado: estamos mesmo no momento de investir tanto assim em pesquisa? eu diria que nao
+[2018-01-28 13:39:33] Uma questao também acho que é qual pesquisa
+[2018-01-28 13:39:56] isso volta ao tema de antes: tem que trabalhar para o orientador, para o grupo, etc
+[2018-01-28 13:40:12] Dinheiro tem, se a corrupção não fosse tão descarada como é, sobrariam bolsas
+[2018-01-28 13:40:28] nao misture as coisas, uma coisa eh vc dizer que o pais nao apoia pesquisa, outra eh vc dizer que queria ser pesquisadora mas nao vai se sujeitar as implicacoes disso
+[2018-01-28 13:40:31] Só pegar o auxílio paletó dos políticos e transformar em bolsas
+[2018-01-28 13:40:42] Olha só quanta gente já não conseguiria voltar a pesquisar
+[2018-01-28 13:40:54] se a gente fizer isso vai ter mais uma tonelada de pesquisa coxa entupindo os periodicos...
+[2018-01-28 13:41:03] E isso sem entrar no mérito da corrupção, só do dinheiro jogado no lixo mesmo
+[2018-01-28 13:41:24] sim, acho que tem muito dinheiro mal gasto no pais
+[2018-01-28 13:41:30] Acho que o direcionamento da pesquisa pra areas de interesse empresarial um problema maior qur o dinheiro que nao vai pra pesquisa
+[2018-01-28 13:41:48] Muita gente que poderia ter impacto real vai pro mercado tbm, ai vai o pessoal coxa e quem realmente faria algo legal
+[2018-01-28 13:42:12] outro ponto a favor da sua opiniao eeh que cria massa critica
+[2018-01-28 13:42:19] eh que eu nao gosto muito dessa linha...
+[2018-01-28 13:42:29] mas enfim, debates infinitos por ai
+[2018-01-28 13:42:38] Foda é que ninguém aqui no Brasil presta atenção nas coisas que já existem
+[2018-01-28 13:42:49] o brasil eh uma puta zona
+[2018-01-28 13:42:53] Quantas pessoas sabem que existem cursos de astrofísica pro público em geral no planetário?
+[2018-01-28 13:42:56] nem sei por onde comecar a arrumar...
+[2018-01-28 13:43:15] mas todos sabem que eh ultimo capitulo da novela
+[2018-01-28 13:43:19] eh foda, de fato
+[2018-01-28 13:43:35] dinheiro privado para pesquisas eh legal, petrobras fez muito isso
+[2018-01-28 13:43:47] mas ahco que so empresa nacional tem interesse em investir em pesquisa aqui
+[2018-01-28 13:44:00] multinacionais vao investir nos EUA ou no seu pais de origem
+[2018-01-28 13:44:15] Mas o maior problema é o dinheiro publico usado pra isso
+[2018-01-28 13:44:17] rola um pouco aqui, mas eh bem pouco
+[2018-01-28 13:44:27] Cursos de graduação que mais parecem um curso tecnico
+[2018-01-28 13:44:36] vish, varios
+[2018-01-28 13:44:43] mas eu sou partidario de curso tecnico
+[2018-01-28 13:44:51] graduacao deveria ser para alguns casos ou para pesquisa
+[2018-01-28 13:45:16] exemplo classico eh o cara que quer ser dev e faz ciencia da computacao...
+[2018-01-28 13:45:21] surreal
+[2018-01-28 13:45:58] Eu não gosto dessa vibe de ter um monte de cursos técnicos e graduação ser pros "escolhidos"
+O ser humano não é uma máquina de fazer dinheiro
+[2018-01-28 13:46:14] A gente tem necessidades muito maiores que fazer dinheiro e fazer a economia crescer
+[2018-01-28 13:46:48] vc eh que esta colocando as coisas assim
+[2018-01-28 13:46:49] tipo colocar comida naesa
+[2018-01-28 13:46:59] nao eh para os escolhidos, eh para o camarada escolher
+[2018-01-28 13:47:16] se ele quer ser tecnico, otimo, ele eh tao importante quanto o cientista
+[2018-01-28 13:47:29] se for pra viver uma vida colocando comida na mesa, pagando boletos, etc eu prefiro morrer
+[2018-01-28 13:47:41] hauhauuahahuah
+[2018-01-28 13:47:43] se tudo se resumir a isso
+[2018-01-28 13:47:46] a vida é uma merda
+[2018-01-28 13:47:49] vou comprar uma cordinha para vc
+[2018-01-28 13:47:50] :D
+[2018-01-28 13:48:13] não precisa, acho que esse não é um jeito eficiente
+[2018-01-28 13:48:17] que bom
+[2018-01-28 13:48:34] pensa por aqui: ta facil maximizar a mais valia contratando pos graduado para fazer trabalho tecnico
+[2018-01-28 13:49:05] mas isso eh ineficiente do ponto de vista do investimento em educacao
+[2018-01-28 13:49:38] acho que as empresas não gostam muito de pós graduandos
+[2018-01-28 13:49:45] vc entendeu...
+[2018-01-28 13:50:01] troca por graduado, bacharel, etc, se preferir
+[2018-01-28 13:50:13] fiz uma entrevista na empresa X, bem grande, uma amiga disse pra eu não dizer que tinha pós graduação
+Eles só querem peões pra fazer carreira e ficar presos na empresa
+[2018-01-28 13:50:16] Pro resto da vida
+[2018-01-28 13:50:44] a historia das vidas das pessoas eh assim: faz graduacao, se fode para se formar, vai para o mercado, diz que nao usa nada do que aprendeu, reclama que a graduacao eh uma merda
+[2018-01-28 13:50:56] que não tinha pós/não ia fazer pós
+[2018-01-28 13:51:13] e não é verdade?
+[2018-01-28 13:51:33] eu nem queria entrar nessa conversa, sou novo no grupo, mas sabia que a maior parte do dinheiro pra pesquisa sai do bolso de peoes?
+[2018-01-28 13:51:36] na real, o cara eh que ta no emprego errado para a formacao dele, mas dado o exercito de excedentes, ele tem que se sujeitar a isso
+[2018-01-28 13:51:43] mas ninguém quer contratar cara do ensino médio ou com técnico da paula souza pra preencher relatório o dia inteiro
+[2018-01-28 13:51:58] pq esta sobrando graduado
+[2018-01-28 13:52:00] so por isso
+[2018-01-28 13:52:03] quer ter alguém com um nome chic da usp/unicamp no currículo, mas que ao mesmo tempo não faça mais nada pra ficar na empresa
+[2018-01-28 13:52:07] do bolso de quem rala pra colocar comida na mesa
+[2018-01-28 13:53:16] eu não acho errado a pessoa que rala pra colocar comida na mesa, mas eu acho que essa mesma pessoa tinha que poder ambicionar ter uma formação em algo que ela realmente gosta e que não tem 'uso' como filosofia por exemplo
+[2018-01-28 13:53:21] acho que os peoes deviam reinvidicar dinheiro das pesquisas pra terem cursos tecnicos pra ganhar um pouco a mais
+[2018-01-28 13:53:29] e não isso ser sujeito a sua sorte ao nascer
+[2018-01-28 13:53:50] dificil semm oportunidade a estudo ne?
+[2018-01-28 13:54:47] "peoes" (nao gosto do termo pq implica em assimetria) deviam, ao inves de querer lugar em universidades, questionar a existencia delas e exigir uma educacao basica melhor
+[2018-01-28 13:54:53] difícil, mas isso não é realidade em todos os países
+[2018-01-28 13:55:04] Em Israel por exemplo não existem escolas privadas
+[2018-01-28 13:55:08] mas é aqui
+[2018-01-28 13:55:50] Eu sozinha não posso muita coisa, mas se isso for prioridade, as pessoas podem mudar isso
+[2018-01-28 13:56:10] no bairro onde eu cresci mesmo a galera bem sabe direito o que significa a palavra oportunidade, dizer pra eles que eles podem escolher o que fazer é ate grosseiro
+[2018-01-28 13:56:41] Concordo, mas isso é, na minha opinião, algo que tem que ser mudado e não aceito
+[2018-01-28 13:57:02] abandonam o ensino medio pra colocar comida na mesa, enquanto pessoas que vemm de fammilias ricas se aproveitam de bolsas pra. meestrado, doutorado, pesquisa
+[2018-01-28 13:57:41] meio dificil mesmo mudar essa realidade
+[2018-01-28 13:57:46] muito triste
+[2018-01-28 13:57:58] Ufa, ainda bem que é em Israel né, senão alguém já ia me mandar pra Cuba.
+[2018-01-28 13:59:07] Com certeza, e eu realmente admiro as pessoas que fazem essa 'escolha' difícil, mas eu realmente espero que a mentalidade mude por aqui pras pessoas poderem ter mais oportunidades
+[2018-01-28 14:04:42] o @kanazuchi tem um ponto ai, pesquisa e tal, eh papo de luxo, por mim corta boa parte esse dinheiro publico que vai para universidades e pesquisas e investe tudo em educacao basica/alimentacao/moradia
+[2018-01-28 14:05:59] ate saude e seguranca vem depois
+[2018-01-28 14:07:54] a triste verdade eh que a gente so tem USP, Unicamp e outras no brasil para os matarazzos e afins, durante o cafezinho da tarde em paris, poderem falar que nao vivem na selva, que no pais deles tb tem universidade de ponta
+[2018-01-28 14:08:18] quando alguem quer pesquisar de verdade a importancia da pesquisa para o brasil, eh ativamente boicotado
+[2018-01-28 14:08:44] tente procurar por pesquisas que usem a base completa do lattes
+[2018-01-28 14:19:58] eu apoio a pesquisa, acho que deve existir, concordo com partes do ponto de vista da Priscila, só achei que a forma dela defender o ponto de vista dela ignorava a realidade do nosso pais
+[2018-01-28 14:20:35] pesquisa deve exisitr porque abre oportunidade de investimento privado, e consequentemente oportunidades de trabalho
+[2018-01-28 14:21:15] mas enquanto sucatearmos a educaçao basica não adianta reclamar de falta no investimento em pesquisas
+[2018-01-28 14:22:54] a priscila colocou que tem muito dinheiro mal investido no pais e que talvez nao seja necessario diminuir graduacoes/pesquisa
+[2018-01-28 14:23:38] mas se for para olhar para uma coisa so, o volume de $ destinado a educacao e pesquisa, acho que ele esta desbalanceado
+[2018-01-28 14:23:43] meu chute eh que tem que existir menos de 20% da pesquisa que temos atualmente
+[2018-01-28 14:23:54] muito dinheiro desviado
+[2018-01-28 14:23:59] e o dinheiro dos 80% deveria ir para educacao basica e outras demandas elementares
+[2018-01-28 14:24:15] sim, parte dele eh desviado em pesquisa, inclusive
+[2018-01-28 14:25:38] vai por mim, falando de dentro, pesquisa ta bem longe de ser importante pa qq coisa quando alimentacao eh um problema real bem pertinho da gente
+[2018-01-28 14:26:56] fui contratado para fazer umas pesquisas em cidades vizinhas e fiquei meio chocado com esse tema ai, principalmente no vale do tiete
+[2018-01-28 14:27:26] s2
+[2018-01-28 14:27:31] bem isso
+[2018-01-28 14:28:08] a conversa era assim:
+- e a educacao aqui eh boa? 
+- sim! tem 3 refeicoes!
+- mas seu filho sabe escrever o nome dele?
+- ainda nao, mas ele so tem 12 anos...
+[2018-01-28 14:29:56] o tema da foma eh tao presente que nem se consegue discutir qualidade de ensino
+[2018-01-28 14:30:58] minha mãe é merendeira de uma escola publica, ela diz que faz questao de ir mais cedo preparar a comida porque as crianças só vao pra escola quando tem comida boa
+[2018-01-28 14:31:13] detalhe, elas fazem rifa pra comprar alguns temperos
+[2018-01-28 14:31:20] cara, parece papo sensacionalista, ne?
+[2018-01-28 14:31:31] vira e mexe eu compro uma cartela cheia da rifa
+[2018-01-28 14:31:46] parece, mas é uma realidade que vejo todo dia
+[2018-01-28 14:31:56] mas eh de fato foda, tive que guardar o cinismo e assumir que meu doutorado nao serviu para nada socialmente falando
+[2018-01-28 14:32:13] se eh que nao foi desservico
+[2018-01-28 14:32:21] eu nao me dou bem com a area academica, sou dev e aprendi trabalhando, estudo pra isso, e olha qie abandonei uma faculdade federal
+[2018-01-28 14:32:49] por isso acho que as pessoas que eu cresci merecem oportunidades que eu nao tive
+[2018-01-28 14:33:29] como vc dissse acima, um curso tecnico teria muito mais valor que a faculdade
+[2018-01-28 14:33:41] entao, falar oportunidade eh generico, acho que eles merecem estar igualmente aptas a disputar pelas oportunidades que quiserem
+[2018-01-28 14:34:10] se pudessemos ensinar, boa parte aprenderia programar, e seriam infinitamente melhor que pessoas que trabalho todo dia e se formaram na unicamp
+[2018-01-28 14:34:47] afinal, boa parte foram pra unicamp pra provar algo aos pais e nao a eles mesmos
+[2018-01-28 14:35:17] foram pq todo mundo sabe que graduacao eh o passaporte para a classe media
+[2018-01-28 14:35:27] com uma graduacao vc ta mais ou menos garantido ser classe media para o resto da vida
+[2018-01-28 14:35:52] sem isso, ate arrumar emprego eh zuado, pelo excedente de trabalhadores
+[2018-01-28 14:36:46] realmente o nome UNICAMP cria um bug social na cabeça de recrutadores
+[2018-01-28 14:36:55] vejo isso pela empresa que trabalho
+[2018-01-28 14:37:27] todo processo seletivo que tem vejo os recrutadores com olhinhos brilhando
+[2018-01-28 14:37:32] kkkk
+[2018-01-28 14:38:18] ai o cara vai la, estuda busca em grafos para depois programar em java kkk
+[2018-01-28 14:39:17] hauahuahaahhahahaua
+[2018-01-28 14:39:36] organizar classes é programar?
+[2018-01-28 14:39:41] escrevi e sai correndo
+[2018-01-28 14:40:03] na pratica, esquece tudo que aprende na graduacao, no mercado so tem XGH
+[2018-01-28 14:40:35] Basicamente o maior significado dos diplomas
+[2018-01-28 14:41:39] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804724923_122377.jpg
+[2018-01-28 14:45:17] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_150229821346022369.webp
+[2018-01-28 14:45:43] vido, bebi aquela cerveja ontem
+[2018-01-28 14:45:49] tava incrivel
+[2018-01-28 14:47:21] o problema não é o quanto gastamos com ensino superior  no Brasil
+[2018-01-28 14:47:55] o problema são os desvios de verba, excesso de beneficios dos políticos, corrupção...
+[2018-01-28 14:50:02] Boa. Próxima é uma Stout
+[2018-01-28 14:50:08] Tem outros problemas tbm....a falta de incentivo a area cientifica faz com que perdamos os melhores cientistas para quem pagar melhor, acho que isso influencia no baixo retorno social da formação superior
+[2018-01-28 14:50:48] cara, cientista sobre de sindrome de estocolmo
+[2018-01-28 14:51:03] pouquissimos vao embora
+[2018-01-28 14:51:29] e chegam muitos tb
+[2018-01-28 14:51:49] bobear 30% dos docentes do meu departamento sao de fora
+[2018-01-28 14:52:45] O foda é esse gap entre a formação basica / formação cientifica, é comum um moleque de quebrada terminal o ensino medio sem nunca ter pisado num laboratorio na vida
+[2018-01-28 14:54:08] @Miya0 sim, a priscila levantou isso tb, vamos torcer para isso melhorar um pouco tb, mas mesmo num mundo sem corrupcao, vc tem que lidar com o problema do exercito de reserva de mao de obra
+[2018-01-28 14:54:34] nao temos demanda por educacao superior e sim tecnica
+[2018-01-28 14:55:02] http://mercadopopular.org/2015/07/como-a-universidade-publica-e-gratuita-aumenta-a-desigualdade-de-renda/
+[2018-01-28 14:55:26] sim, mercado de programação, 90% tudo fazendo CRUD
+[2018-01-28 14:55:32] isso
+[2018-01-28 14:55:34] O governo fica ampliando os programas de ensino tecnico para ter mais mão de obra "especializada"
+[2018-01-28 14:55:45] nao precisa de faculdade pra isso
+[2018-01-28 14:55:49] ai gasta-se dinheiro desnecessariamente com ensino superior
+[2018-01-28 14:56:01] o ponto a ser criticado eh outro
+[2018-01-28 14:56:18] o foda eh que o cara da quebrada, como disse o tiago, nem pode optar por tecnico ou superior
+[2018-01-28 14:56:31] ele se fode e pronto
+[2018-01-28 14:57:01] Faculdade publica no Brasil não é pra pobre, isso que é complicado
+[2018-01-28 14:57:02] tem que dar ensino basico de qualidade para que ele possa escolher entre tecnico ou superior
+[2018-01-28 14:57:13] nao eh pq o ensino basico eh ruim
+[2018-01-28 14:57:33] mas vale notar que a maior parte dos alunos da usp vem do ensino publico
+[2018-01-28 14:57:33] exato, educaçao basica
+[2018-01-28 14:58:00] o foda eh que se distorce as coisas, dizendo que todo mundo precisa fazer graduacao... eh de cagar...
+[2018-01-28 14:58:27] isso so desvaloriza mais quem ja tava fodido
+[2018-01-28 14:58:39] Ensino Publico muitas vezes não é ruim, é incompleto....no colegial por exemplo fiquei 1 ano sem matematica e outro sem fisica...e nao era periodo de crises homericas nem nada
+[2018-01-28 14:59:00] eh cara, qualidade de ensino basico nao eh suficiente se a criancada nao tem o que comer
+[2018-01-28 14:59:09] se a familia eh desestruturada e essas outras buchas
+[2018-01-28 14:59:36] por isso tem que garantir o basico: educacao, alimentecao e moradia
+[2018-01-28 14:59:53] Mas se fosse integral, iria amenizar bastante as deficiencias sociais
+[2018-01-28 15:00:06] sei la, ach oque eh discutivel
+[2018-01-28 15:00:26] eu nao estudei integral e acho que fui mais feliz assim, passa a tarde zuando na rua
+[2018-01-28 15:00:45] integral eh meio paliativo, acho
+[2018-01-28 15:01:05] hauhauahauhau
+[2018-01-28 15:01:18] kkkkk
+[2018-01-28 15:01:25] flood, ne?
+[2018-01-28 15:02:27] Nada... Gosto de ver essa interação. Só não posso contribuir em muito. Larguei todas as Graduações que passei
+[2018-01-28 15:02:27] Depende muito da condição social e da realidade do seu cotidiano...um tanto complicado ser da Brasilândia e "preferir" a rua... É relativo
+[2018-01-28 15:02:37] Mas prometo que uma hora me formo
+[2018-01-28 15:03:06] eu era do jabaquara, eh so um pouco melhor que brasilandia :D
+[2018-01-28 15:03:14] eu conto essa mentira pra mim todo dia haahaahahaahahaa
+[2018-01-28 15:03:19] Um dia me formo tbm talvez
+[2018-01-28 15:03:20] hahahahah
+[2018-01-28 15:03:38] hahahahahaha
+[2018-01-28 15:03:43] ahahahahaha
+[2018-01-28 15:03:49] Sei como é
+[2018-01-28 15:04:15] Mas dessa vez, vai... (Só não sei pra onde! rs)
+[2018-01-28 15:04:22] faz qq coisa pelo correio, caralho
+[2018-01-28 15:05:05] Instituto Universal Brasileiro
+[2018-01-28 15:05:19] Vem aquelas reflexões, será que diploma bota comida na mesa?
+[2018-01-28 15:05:43] to pensando em maatematica na uninter da. vida
+[2018-01-28 15:05:44] hahaahaahaa
+[2018-01-28 15:05:47] Não. Não bota. Mas te ajuda a passar fome na Europa, por exemplo
+[2018-01-28 15:06:04] maatematica eh um defict que trago do ensino medio
+[2018-01-28 15:06:23] Tô vendo a UNIVESP, Universidade Virtual de SP. Eles tem Eng Computação
+[2018-01-28 15:06:39] Boa...haha amplia sua mobilidade pra passar fome :)
+[2018-01-28 15:07:12] Aí, semestralmente, vc precisa fazer a prova presencial em algum Telecentro/CEU
+[2018-01-28 15:07:25] Tem um relativamente perto de Casa
+[2018-01-28 15:08:16] Mas é bacharelado ?
+[2018-01-28 15:09:58] Sim
+[2018-01-28 15:10:27] Presta o Vestibular pela Unesp
+[2018-01-28 15:10:40] Vunesp
+[2018-01-28 15:11:05] É uma boa opção pra quem não tem mais a minima paciencia pra viver em ambiente academico
+[2018-01-28 15:11:05] eh, tem que impactar o minimo no dia-a-dia
+[2018-01-28 15:11:09] senao acaba largando
+[2018-01-28 15:11:26] História da Minha vida
+[2018-01-28 15:11:36] graduacao foi pensada para um determinada fase da vida, depois que passa, eh complicado
+[2018-01-28 15:11:50] ai, gutem, vc tem paciencia pra que?
+[2018-01-28 15:12:32] Os cursos são: Eng Computação. Eng Produção. Pedagogia.
+Licenciaturas: Biologia, Matematica, Fisica, Quimica
+[2018-01-28 15:12:37] https://univesp.br/cursos
+[2018-01-28 15:12:48] Boa pergunta...
+[2018-01-28 15:13:11] Tô a 30 anos tentando descobrir... rs
+[2018-01-28 15:13:49] Os cursos da UNIVESP foram feitos por Profs da USP, UNICAMP e UNESP
+[2018-01-28 15:14:35] licenciatura em matematica me anima, mas inscriçoes encerradas :(
+[2018-01-28 15:14:52] Tem vestibular
+[2018-01-28 15:15:02] abre a cada 6 meses, como o tradicional
+[2018-01-28 15:15:26] acho que vai ser uma particular ead mesmo, assim começo logo, ta baratinho, 250 por mes
+[2018-01-28 15:15:28] faz licenciatura
+[2018-01-28 15:15:33] mais chance de se formar
+[2018-01-28 15:15:41] gente, vou comprar um diploma e nem sinto vergonha
+[2018-01-28 15:15:42] mas vc vai querer matar o pessoal da educacao
+[2018-01-28 15:15:51] huhauauahu
+[2018-01-28 15:16:01] Começa na Particular e depois presta ela
+[2018-01-28 15:16:03] ah, da pra esperar entao, logo abre
+[2018-01-28 15:16:39] to fazendo um curso na fundaçao bradesco, da pra mentir pra mim qie basta ate abrir o vestibular hahahahah
+[2018-01-28 15:18:41] hahahahaha
+[2018-01-28 15:33:23] Não faz isso não, estuda e aproveita a chance q vc tem...
+[2018-01-28 15:35:54] haahaajaja, eu gosto de estudar Miya, provavelmente irei aproveitar uma faculdade EAD sim, eu nao me dou bem é em ficar 4 horas numa sala de aula
+[2018-01-28 15:36:15] 😊
+[2018-01-28 15:36:30] :)
+[2018-01-28 16:18:55] https://tech.slashdot.org/story/18/01/28/0036242/no-drones-or-driverless-trucks-demands-teamsters-labor-union
+[2018-01-28 16:32:20] https://ned.ipac.caltech.edu/level5/Moore/Moore_contents.html
+[2018-01-28 16:36:51] wyrkt joined
+[2018-01-28 16:52:25] BlackScissor joined
+[2018-01-28 17:24:14] Eu ainda vou conseguir fazer o Juca cursar essa.
+Tem um monte de matéria que ele pode eliminar.
+[2018-01-28 17:34:09] Concordo plenamente
+[2018-01-28 17:34:29] Eu fico triste de estar numa realidade assim :-(
+[2018-01-28 17:37:24] RogerioP - ZumbiPy joined
+[2018-01-28 18:16:29] Faço lá... o curso Eng da Computação ..
+[2018-01-28 18:26:55] inscrições pro primeiro semestre acabaram dia 8 :\
+muito azarado eu saber da univesp duas semanas depois kkk
+[2018-01-28 18:38:59] Kkkkk
+[2018-01-28 18:39:02] Normal
+[2018-01-28 19:02:29] Guilherme joined
+[2018-01-28 19:11:50] \o/
+[2018-01-28 19:11:57] qual semestre?
+[2018-01-28 19:15:57] Sou da 1a turma de 2014..  vou iniciar o 8 semestre agora..
+[2018-01-28 19:40:02] https://www.oanalista.com.br/2018/01/28/garoa-hacker-clube-hackerspace-de-sao-paulo/
+[2018-01-28 19:40:23] Ótimo artigo!
+Parabéns ao pessoal de CTF do Garoa ❤️
+[2018-01-28 20:08:43] Perguntaram isso em um grupo da campus party.
+[2018-01-28 20:08:43] Pergunta Treteira: o pessoal da "bancada do software livre" na Campus Party não divide o espaço com a galera do Dumont hackerspace ?
+[2018-01-28 20:11:55] esse cara tava la ontem kk
+[2018-01-28 20:13:50] Legal ficamos felizes em ajudar, de qualquer forma \o/
+[2018-01-28 20:28:37] não é ele que escreve o Mr. Robot brasileiro? uhahua
+[2018-01-28 20:28:52] nao sei
+[2018-01-28 20:32:16] https://www.oanalista.com.br/open/diario-de-um-hacker/
+[2018-01-28 20:33:19] eita, nem sabia
+[2018-01-28 20:34:13] pelas referencias que ele passou nas conversas, deve ser mesmo
+[2018-01-28 20:40:25] Resposta Treteira: a menos que tu seja retardado ou nunca tenha ido a um Evento, todo Evento tem uma Organização que faz a Gestão/Curadoria, e são eles que decidem o Layout de onde cada Comunidade ficará. Dito isso, Software Livre, e aqui agora são palavras minhas, é tanto um Estilo de Vida como um Movimento Social. 
+O Garoa, e em extensão o Dumont, é um hackerspace onde, além de ter membros da Free Software Foundation, alguns dos seus membros apoiam a causa, mas não paramos aí.
+Unificar o Movimento do Software Livre e o dos Hackerspace seria um malefício para ambos.
+[2018-01-28 20:43:55] Sim 👍
+[2018-01-28 20:46:04] João Sabino joined
+[2018-01-28 20:48:20] Eu concordo com o Gutem , e não entendi porque a treta nesse assunto. São duas comunidades independentes que se apoian, se complementam, e conviven muito bem. Inclusive, durante muitos anos a comunidade de Software Livre tinha um palco exclusivo dedicado para eles, e normalmente nós escolhiamos a bancada do garoa ou Dumont para ficar próximo deles
+[2018-01-28 20:49:20] Entendi pessoal, vou repassar as respostas
+[2018-01-28 20:49:26] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_1045404939746018960.webp
+[2018-01-28 21:26:10] Sebastião Barretto joined
+[2018-01-28 21:38:29] Vou dar meus 2 cents: Zdeli melhor hambúrguer e batata. Único lugar no BR que eu achei uma batata que chega perto da batata belga
+[2018-01-28 22:57:37] ZDeli é animal! 🤘🏻
+[2018-01-28 23:11:52] Cara, eu fui em uma cacetada de hamburgueria top na Europa e nada chegava nos pés do Zdeli
+[2018-01-28 23:12:01] Animal e pouco huajuajuua
+[2018-01-28 23:21:56] Tenho seguido esse Ranking. Não concordo com algumas posições, mas tem boas sugestões. http://www.ohamburguerperfeito.com.br/ranking
+[2018-01-28 23:25:42] Kkkk via boa em
+[2018-01-28 23:26:33] nossa, por favor, hamburguer é carne moída e cebola, muito fácil de fazer em casa...
+[2018-01-28 23:27:03] não justifica esses preços aí dessas hamburguerias
+[2018-01-28 23:28:23] Kkkkk no japao e caro pq la carne e ouro kkk
+[2018-01-28 23:28:45] O correto não é moída e sim na ponta da faca, assim você não destrói as fibras da carne
+[2018-01-28 23:34:46] Depende do blend
+[2018-01-28 23:54:04] morre qto uma hamburgueria dessas? 100 conto?

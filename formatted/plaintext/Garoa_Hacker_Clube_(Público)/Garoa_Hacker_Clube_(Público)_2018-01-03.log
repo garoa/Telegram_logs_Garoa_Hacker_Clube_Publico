@@ -1,0 +1,345 @@
+[2018-01-03 00:00:57] Se o pessoal não olha um gif que fica verde ou vermelho, da para ter esperança que iriam ver uma webcam até aparecer uma sombra andando? 😔
+[2018-01-03 00:54:31] With more than 5 million pounds of thrust at liftoff—equal to approximately eighteen 747 aircraft at full power—Falcon Heavy will be the most powerful operational rocket in the world by a factor of two.
+http://ift.tt/2lJlqCg
+
+Submitted January 03, 2018 at 03:04AM by TMahlman
+via reddit http://ift.tt/2CxBFwP
+[2018-01-03 03:21:09] Artigo longo mas bacana sobre uma futura web, menos descentralizada e mais livre https://thenextweb.com/syndication/2018/01/02/web-dying-mesh-networks-will-save/
+[2018-01-03 09:09:51] Bom dia! Segue repositório com 30 books sobre Raspberry e afins : https://drive.google.com/open?id=15-D5FRnpLOq3AR4q69vJhXJl5OKLeU9v
+[2018-01-03 09:09:51] Bom dia! Segue repositório com 30 books sobre Raspberry e afins : https://drive.google.com/open?id=15-D5FRnpLOq3AR4q69vJhXJl5OKLeU9v
+[2018-01-03 09:46:26] Muito bom
+[2018-01-03 09:55:43] a ideia das meshs n seria descentralizar? entao pq menos descentralizadas?
+[2018-01-03 09:56:20] Acho que ele escreveu errado se pá
+[2018-01-03 09:56:35] acho nao, tenho certeza!
+[2018-01-03 09:56:44] se nao, eh bullshit
+[2018-01-03 09:56:56] O artigo é do caralho
+[2018-01-03 09:56:58] Many months ago I quit my job in order to join a group of peer-to-peer programmers and help build technology that can rescue our digital freedoms. I want to share with you our plan, which in short is:
+[2018-01-03 09:57:04] P2P
+[2018-01-03 09:57:51] vocês conhecem IPFS? qual a opinião sobre?
+[2018-01-03 09:58:14] Não, vou ver sobre hoje
+[2018-01-03 09:58:32] Phillipp Oliveira joined
+[2018-01-03 09:58:47] Eu só conhecia alguma coisa que tinha sido apresentada no documentário freenet
+[2018-01-03 09:58:55] Sobre meshnet
+[2018-01-03 10:32:58] https://www.youtube.com/watch?v=IOwKeZbsc7E
+[2018-01-03 10:33:07] como não colaram, ta aí
+[2018-01-03 10:36:16] não é bullshit, o artigo é fenomenal!! Conseguiu condensar informações que eu demorei semanas pra juntar, e ainda vi coisa nova! Muito obrigado por compartilhar!
+[2018-01-03 10:36:56] Do caralho é bom no meu ponto de vista.
+[2018-01-03 10:37:16] sim, eu digo pro cara que disse que era bullshit
+[2018-01-03 10:37:37] marquei errado haha
+[2018-01-03 10:38:28] essa ideia de fazer os mesh nodes com baixo custo é boa, sabem se tem alguma alternativa com rpi zero W? acredito que o mais caro seja a antena mesh
+[2018-01-03 11:00:28] n tou falando q o artigo é bullshit, tou falando sobre isso
+-> "menos descentralizada e mais livre" <- ser bullshit
+[2018-01-03 11:02:03] isso é fato
+[2018-01-03 11:02:08] não sei o quão baixo custo é a rede mesh para ser colocada no ar... precisariamos de pessoas interessadas em compartilhar isso
+[2018-01-03 11:02:12] o artigo é muito bacana
+[2018-01-03 11:02:17] acabei de ler no caminho do trabalho
+[2018-01-03 11:49:32] Pablo De Almeida Martins joined
+[2018-01-03 11:59:02] Menos centralizadas, sorry
+[2018-01-03 11:59:24] relaxa
+[2018-01-03 11:59:30] mas é foda para caralho o conceito de mesh
+[2018-01-03 11:59:54] o @michaelhoward9 fez umas conexões com a rede Freifunk
+[2018-01-03 12:09:57] O pessoal do Freifunk recomendou usar o libremesh.  Roda em raspberry pi.  Tambem em x86
+[2018-01-03 12:11:03] http://repo.libremesh.org/current/targets/x86/64/Generic/lime_default/
+[2018-01-03 12:12:32] Raspberry http://repo.libremesh.org/current/targets/brcm2708/
+[2018-01-03 12:17:15] O Thiago do Garoa mudou para Berlim e conheceu o pessoal do Freifunk, eles fazem um encontro semanal, e vão instalar antenas nos pontos altos da cidade, edifícios e torres de igrejas.
+[2018-01-03 12:19:04] https://libremesh.org/docs/en_quick_starting_guide.html
+[2018-01-03 12:20:58] Libremesh é mais usado no guifi na Espanha
+[2018-01-03 12:37:26] que doido isso!!
+[2018-01-03 13:03:25] James joined
+[2018-01-03 13:08:05] Pois é.  A Peggy do Freifunk veio no garoa e estávamos estudando qual versão de Freifunk usar. Nisso ela perguntou aos colegas lá, e um deles disse que o libremesh esta com algumas vantagens.
+[2018-01-03 13:16:07] A Daiane participa da única rede mesh que conheço em Sampa, usando libremesh
+[2018-01-03 13:59:13] vou pesquisar mais sobre esse libremesh
+[2018-01-03 13:59:21] as antenas são caras?
+[2018-01-03 14:21:53] Tem uma marca nacional, aquario, parece que sao boas e preços acessiveis
+[2018-01-03 14:26:18] Podemos fazer antenas http://www.instructables.com/id/Easy-to-Build-WIFI-24GHz-Yagi-Antenna/
+[2018-01-03 14:39:18] Dá pra usar o WR842N que é acessivel
+[2018-01-03 14:54:20] como assim, que bruxaria é essa???
+[2018-01-03 14:55:13] sempre vi telecom como algo espirito-transcendental, mas uma antena wifi alcançar kms com pauzinho de picolé é maravilhoso!!
+[2018-01-03 14:55:19] eu preciso testar isso hahahaha
+[2018-01-03 14:55:47] Alcança até mais se for parabólica. Mas vai ficando cada vez mais direcional
+[2018-01-03 14:56:16] se a ANALTEL bater na minha porta, já estarei com o meu dedo do meio a postos
+[2018-01-03 14:59:21] se errar 0,003mm já não funciona rs
+[2018-01-03 15:02:21] haha desse jeito! tem uma board da AVNET que a antena pcb pareve um cérebro 2D...curioso pra saber como o cara chegou naquele formato
+[2018-01-03 15:02:32] parece*
+[2018-01-03 15:50:20] Cade a galera do Garoa???
+ https://goo.gl/forms/2MwrTME2ohmKJj6g1
+[2018-01-03 17:13:29] Glauber joined
+[2018-01-03 17:28:30] Comprei os bagulhos...
+[2018-01-03 17:28:30] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806118442_19312.jpg
+[2018-01-03 17:31:25] Galera, para comprar notebook no br. Onde?
+[2018-01-03 17:37:24] Grabr.io e pede para alguem trazer... ;)
+[2018-01-03 17:37:33] Ei! Estou te dando um código de cupom de desconto de US$10 'guteemberg-nunes' da Grabr. Junte-se à Grabr aqui: https://grabr.io/invitation/guteemberg-nunes?utm_source=referral_program&utm_campaign=web&utm_medium=copy_link
+[2018-01-03 17:39:36] demora muito?
+[2018-01-03 17:39:41] dá bão?
+[2018-01-03 17:40:11] dá bão
+[2018-01-03 17:40:16] demora varia
+[2018-01-03 17:40:24] vc depende de alguem vindo pra trazer
+[2018-01-03 17:41:41] Funciona assim:
+Vc publica o link de onde comprar.
+A pessoa fala que vai comprar e vc aceita a proposta dela de data ou não.
+O serviço te cobra no cartão e fica em escrow.
+Recebendo o produto, vc libera a grana pro cara.
+[2018-01-03 17:42:10] sim sim
+[2018-01-03 17:42:41] tenho usado
+[2018-01-03 17:42:46] tem funcionado
+[2018-01-03 17:43:11] e, caso for viajar, pode ganhar uma grana levando coisas
+[2018-01-03 17:47:46] é um serviço de muamba modernizdo com aplicativo sharing economy peer to peer
+[2018-01-03 17:48:04] pelo que endendi
+[2018-01-03 17:48:43] manda mais buzzword que ficou pouco... rs
+[2018-01-03 17:49:12] be careful what you wish for
+[2018-01-03 17:49:25] Coloca um disruptivo aí nessa frase
+[2018-01-03 17:49:36] serviço disruptivo
+[2018-01-03 17:49:51] e inovador
+[2018-01-03 17:50:13] para os millennials
+[2018-01-03 17:50:46] Dá para escrever quase tudo em hype portuglish
+[2018-01-03 17:51:19] Eu ouvir "Gerador de Buzzphrase"? rs
+[2018-01-03 17:51:50] cadê o gerador de portunhol?
+[2018-01-03 17:51:57] vai ver que podemos expandir
+[2018-01-03 17:52:23] é um uber para muambas. Só falta aceitar criptomoedas
+[2018-01-03 17:52:59] Pq, afinal, "Imposto é roubo"... #ShitAncapSays
+[2018-01-03 17:53:30] hehe Não entendi. O que é ancap?
+[2018-01-03 17:54:21] Ancap is a "walking contradition"...
+[2018-01-03 17:54:49] A etec de Jacareí aceita, caso ainda não tenha sido doado. Temos curso técnico em Redes de computadores.
+[2018-01-03 18:04:07] anarcocapitalista
+[2018-01-03 18:16:42] Você vai ter que se explicar.
+Segue o link: https://t.me/joinchat/DHuVn1CgD6hrz4qPTxzYgA
+[2018-01-03 18:17:12] huahauahuahaua
+[2018-01-03 18:17:43] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804728798_83516.jpg
+[2018-01-03 18:18:07] Fala e sai correndo
+[2018-01-03 18:18:18] é o que ?
+[2018-01-03 18:18:25] quero trabalhar não
+[2018-01-03 18:18:38] tipo eu no meu trampo
+[2018-01-03 18:18:50] Robert, você tem que trabalhar!
+[2018-01-03 18:19:02] invoquei o @lvido
+[2018-01-03 18:19:07] se eles pudessem eles contratavam
+[2018-01-03 18:20:13] Senhores, sem off topic. Respondo feliz da vida no grupo de debates.
+[2018-01-03 18:20:39] tem um?
+[2018-01-03 18:20:52] https://t.me/joinchat/DHuVn1CgD6hrz4qPTxzYgA
+[2018-01-03 18:20:54] queria o link
+[2018-01-03 18:21:30] É onde os esquerdinhas vão para receber a doutrina conservadora..
+[2018-01-03 18:32:16] vish mano, os últimos 15 dias.. rsrsrs
+[2018-01-03 18:33:10] Kkkk
+[2018-01-03 18:39:19] Por falar em doação, estou com uma CPU encostada lá em casa:   E7300, 4gb RAM, leitor e gravador de DVD. Não consegui instalar S.O. nenhum (acredito que em partes por preguiça em insistir é fazer testes adicionais), mas sobre tranquilamente com Live (testei Ubuntu em DVD e Tails em Pen Drive).
+[2018-01-03 18:39:50] Mandou muito Portunhol? rs
+[2018-01-03 18:39:55] O Garoa aceita? Ou alguém tem interesse em levar? (Moro ao lado do metrô Saúde).
+[2018-01-03 18:41:27] eu aceito a memória ram
+[2018-01-03 18:41:42] pra ficar com 12 gb
+[2018-01-03 18:42:21] sin duda
+[2018-01-03 18:42:31] rsrsrs
+[2018-01-03 18:43:13] Vai somente CPU e cabo de força, sem teclado, mouse, monitor, etc.
+[2018-01-03 18:44:14] Eu queria doar tudo... Mas tenho um pente de 4gb extra e posso doar também, se quiser. 👍
+[2018-01-03 19:08:02] @fourteen14uu curte montar pcs
+[2018-01-03 19:24:14] Me enganei todo. O computador tem 4gb (2x2gb em dual)
+[2018-01-03 19:24:53] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804729957_82823.jpg
+[2018-01-03 19:57:15] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804723082_108431.jpg
+[2018-01-03 19:58:00] O planeta terra vai acabar e a culpa é de vocês que não apagaram a luz da cozinha
+[2018-01-03 20:02:29] parece que vai ser possivel começar a desligar alguns disjuntores na hora de fechar
+[2018-01-03 20:03:28] que parede da hora haha
+[2018-01-03 21:06:27] De novo isso??? PQP!
+[2018-01-03 21:09:02] Você perdeu uma discussão super construtiva no grupo. Você deveria participar.
+[2018-01-03 21:09:39] NUNCA
+VOU
+OBEDECER
+VOCÊ
+[2018-01-03 21:10:32] cara, isso já deu uma treta do caralho
+[2018-01-03 21:10:56] E você lembra muito bem quanto a isso
+[2018-01-03 21:11:32] Ahh... não fale assim chuchu
+[2018-01-03 21:12:18] Já falaram que não é para tentar censurar pessoas
+[2018-01-03 21:12:58] E você começou de novo!!!
+[2018-01-03 21:15:50] Eu sou um grande defensor da liberdade de expressão. Eu conheço um lugar excelente para você debater suas ideias:
+[2018-01-03 21:16:38] Cuidado que tem LEIS para a tal "liberdade de expressão" tá?
+[2018-01-03 21:18:09] E se for para defender ideia NAZISTA, RACISTA, HOMOFÓBICA, o lugar de defesa destas ideias é na CADEIA
+[2018-01-03 21:19:05] Eu acho feio acusar as pessoas desta forma.
+[2018-01-03 21:19:14] https://t.me/joinchat/DHuVn1CgD6hrz4qPTxzYgA
+[2018-01-03 21:19:52] PIOR É CALAR PESSOAS COMO VOCÊ FAZ
+[2018-01-03 21:20:51] Não sei o que é pior, ficar defendendo direita ou instigar debate politico e depois fazer coação pra discutir em outro grupo.
+[2018-01-03 21:20:59] Vou falar AQUI. VOCÊ NÃO VAI ME CALAR
+[2018-01-03 21:21:25] não é a primeira vez que ele apronta destas
+[2018-01-03 21:22:09] To sabendo, eu fico de 👀, mas fico na minha.
+[2018-01-03 21:22:27] Querida, mostra onde eu fiz isso, por favor
+[2018-01-03 21:24:33] Gostei desse Grabr 👍🏾
+[2018-01-03 21:24:46] É, cara.... só que se "ficarmos na nossa" em breve teremos carecas do ABC frequentando o Garoa
+[2018-01-03 21:25:56] Cara, discutimos muito e chegamos em um consenso: Política é offtopic neste grupo. Eu criei um grupo específico para isso.
+[2018-01-03 21:26:37] Chegamos ?
+[2018-01-03 21:27:03] quando um usuário é escroto um admin bani ele, mas quando um admin é escroto acontece o que? (só por curiosidade)
+[2018-01-03 21:27:04] Já esqueceu da resposta que recebeu quanto a este grupo???
+[2018-01-03 21:27:31] Boa pergunta, tou me perguntando aqui também, cara
+[2018-01-03 21:27:43] Sai todo mundo do grupo!
+[2018-01-03 21:27:45] Direita x esquerda é no minimo excludente, a cultura hacker é muito mais proxima da anarquia
+[2018-01-03 21:27:56] Exatamente, ELE ACHA QUE FALA POR TODOS
+[2018-01-03 21:28:59] Sim, bem mais próximo do Anarquismo...muitas ações hacker são de afronta ao sistema e a governos, quaisquer que sejam
+[2018-01-03 21:29:02] Meu caro, prove as suas acusações.
+[2018-01-03 21:29:30] Lucas, eu fiz uma pergunta e não uma afirmação. Tem uma ? bem no final da frase
+[2018-01-03 21:30:02] não use a carapuça
+[2018-01-03 21:30:08] Bom conselho.
+[2018-01-03 21:30:32] Apolitico, diria, originalmente. Depois diria que apartidaria. Hoje, acho que não se aplica mais
+[2018-01-03 21:30:52] Tá "tudo junto e misturado"
+[2018-01-03 21:31:01] Acho que se todo mundo manter os papos no escopo do universo de um hackerclub, acho que o bom senso vai prevalecer
+[2018-01-03 21:31:17] Exato! E deixa os ditadores mandando nos ventos
+[2018-01-03 21:31:42] ++
+[2018-01-03 21:32:59] Então, mas aí é que está... Nem foi exatamente político o assunto puxado... E sim mais ideológico, falaram de anarcocapitalismo
+[2018-01-03 21:33:58] Que, por exemplo, está bem ligado às criptomoedas
+[2018-01-03 21:34:16] Ancap hj é quase motivo de escárnio...os que conheço estão dentro do armário :)
+[2018-01-03 21:34:33] Hahaha, pior que é
+[2018-01-03 21:34:48] São meio contraditórios
+[2018-01-03 21:35:32] Não, não está... Por favor, não diga mais isso!
+CriptoMoedas vieram do Movimento CriptoAnarquista (CypherPunks), não do AnarcoCapitalista
+[2018-01-03 21:35:48] "Questão de Higiene" a explicação... ;)
+[2018-01-03 21:36:01] os ancap que vivem falando de criptomoedas HOJE
+[2018-01-03 21:36:04] Bom, a galera ancap abraçou de vez,hahaa
+[2018-01-03 21:36:10] aí ligam eles a isso
+[2018-01-03 21:36:23] Sim, eles pegaram o bonde andando
+[2018-01-03 21:36:26] Bem, não é a 1a vez que subvertem algo, né? rs
+[2018-01-03 21:36:27] é isso aí que o Gutem falou
+[2018-01-03 21:36:55] sempre que falam de ancap eu fico rindo e lembrando de um vídeo que vi sobre
+[2018-01-03 21:37:05] até hoje não consegui falar sobre isso de forma séria
+[2018-01-03 21:37:07] hahaha
+[2018-01-03 21:38:09] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_805513993_71093.jpg
+[2018-01-03 21:38:21] Sim.... subverter....e é este o perigo de muitas ideias
+[2018-01-03 21:39:10] Acho que o windows é mais zoado aqui do que qualquer ideologia politica. Então tá tudo certo.
+[2018-01-03 21:39:26] É que você não participou da ultima discussão. Meu interlocutor terminou o debate no RageQuit
+[2018-01-03 21:39:43] eu li, não alimento chorume, desculpa
+[2018-01-03 21:40:09] Eu acho muito difícil vocês defenderem ideias contrárias a ética libertária.
+[2018-01-03 21:40:17] Não é um argumento.
+[2018-01-03 21:41:01] tanto faz né? chorume é chorume, sendo argumento ou não
+[2018-01-03 21:41:44] Eita. Segundo Ad hominem na sequencia. Você argumenta muito bem.
+[2018-01-03 21:42:16] eu não estou argumento nada, só falei que li Lucas
+[2018-01-03 21:42:21] PAZ
+[2018-01-03 21:43:06] @corvolino Desculpas aceitas.
+[2018-01-03 21:44:21] Tem medo de ideias libertárias?? Que pena ELAS AVANÇAM SEM VOCÊ MESMO
+[2018-01-03 21:44:44] Outra falácia argumentativa clássica. Comparar o interlocutor aos autoritários (mesmo que de forma indireta)
+[2018-01-03 21:45:15] Serviu a carapuça? Aproveite bem então
+[2018-01-03 21:45:41] Nice!
+[2018-01-03 21:46:02] Ana Bastos joined
+[2018-01-03 21:46:07] Está na cara que você não está falando do mesmo assunto que eu.
+[2018-01-03 21:47:48] Seja bem vinda, @Anapbastos
+[2018-01-03 21:48:07] Obrigada
+[2018-01-03 21:48:36] @lvido acho que você tá precisando de um Abraço. Vou te dar um próxima vez que te ver... ;)
+[2018-01-03 21:49:02] Gutem. Será um prazer. hehehe
+[2018-01-03 21:49:26] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_362950403236561120.webp
+[2018-01-03 21:53:49] Bem vinda, @Anapbastos.
+[2018-01-03 21:54:54] Não vale a pena discutir política em grupo de hackerspace, galera. Só se for pra defender o Cunha
+[2018-01-03 21:55:00] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_41149003626184991.webp
+[2018-01-03 21:56:18] Mesmo assim, garanto que teria gente que iria se opor... Tanto a Discussão como a Prisão.
+[2018-01-03 21:56:54] Enfim, foquemos nas hackinagens que os hackudões fazem... ;)
+[2018-01-03 21:57:41] Eu tava zoando, era só um comic relief... bom avisar antes que alguém comece a de fato discutir, huahua
+[2018-01-03 21:59:47] Tava afim de fazer um Grupo de Estudos de Engenharia Aeronáutica e/ou Aeroespacial
+[2018-01-03 21:59:51] Alguem anima?
+[2018-01-03 21:59:55] 1x por mês
+[2018-01-03 22:00:41] posso te dar um role de trem! hehehe
+[2018-01-03 22:00:57] Com torno
+[2018-01-03 22:01:15] Comporte-se
+[2018-01-03 22:01:23] sahusuahsuhasuhasahuasuhsa
+[2018-01-03 22:01:33] Logo mais!
+[2018-01-03 22:05:59] Final de 2016 ANAC derrubou a necessidade de realizar o Curso para ser Piloto Privado. Agora que estou com "Tempo", voltei a ler os livros de Teoria de Voo
+[2018-01-03 22:07:15] E tô na pira de construir um Simulador de Voo e, posteriormente, talvez brincar com uns kits de ultraleve ou aviões pequenos
+[2018-01-03 22:07:23] Vou procurar o contato do povo da engenharia aeronáutica
+[2018-01-03 22:07:41] Eu ouvi protótipo?
+[2018-01-03 22:08:11] yep
+[2018-01-03 22:08:18] pensei em começar com UAV
+[2018-01-03 22:08:39] to com um modelo de uma Asa de 845mm
+[2018-01-03 22:08:53] Tipo aeromodelismo?
+[2018-01-03 22:08:54] aí pensei em ir aumentando e ver onde vai dar... rs
+[2018-01-03 22:09:21] Tipo, mas trabalhar com designs proprio
+[2018-01-03 22:09:46] e dai gerar um prototipo "voavel" em tamanho real
+[2018-01-03 22:10:02] comecei a brincar com a eletronica e sensores que são usados em voo
+[2018-01-03 22:10:21] dá pra fazer um avião de qualidade com um custo reduzido
+[2018-01-03 22:10:34] obvio que para tirar um lazer, nào para ir de SP ao Rio
+[2018-01-03 22:10:36] Noisebridge está buscando novo local
+[2018-01-03 22:10:39] http://hoodline.com/2017/12/facing-displacement-noisebridge-hackerspace-seeks-new-home
+[2018-01-03 22:11:10] Alo, entrei nesse grupo final do ano passado mas só to voltando pra sp semana que vem. Escuto do garoa tem uns anos já  mas nunca fui. Tem algum dia mais legal de ir pra conhecer? Algum evento, sei lá :P
+[2018-01-03 22:11:12] Hmmm... interessante
+[2018-01-03 22:11:26] Preços de imóveis lá em sf estao malucos
+[2018-01-03 22:12:20] Tava vendo uma série de videos de um cara que construiu um avião eletrico, em 1 mes e meio, usando 2 motores de Aeromodelo, no porõa de casa
+[2018-01-03 22:13:10] Opa! Bão? Quinta costuma ser o dia mais movimentado, pq rolava a nossa Noite do Arduino
+[2018-01-03 22:13:38] Tem outro tipo de "avião" simples, pouco conhecido http://www.jefflewis.net/autogyros.html
+[2018-01-03 22:13:59] dia 11, uma quinta, teremos um workshop de BadUSB com o @vrechson
+[2018-01-03 22:14:05] pode ser um bom dia para ir
+[2018-01-03 22:14:19] Que horas seria?
+[2018-01-03 22:14:29] 19h30
+[2018-01-03 22:14:42] Posso tentar então ^^
+[2018-01-03 22:14:54] :)
+[2018-01-03 22:14:55] Ty (っ• - •)っ ♡
+[2018-01-03 22:15:01] o/
+[2018-01-03 22:15:09] É meio caótico e imprevisível
+[2018-01-03 22:15:13] Eu vi essa noticia e "não acreditei"...
+A especulação imobiliária no Mission District tá forte
+[2018-01-03 22:15:52] Eu também, então tá tudo certo👍🏻
+[2018-01-03 22:16:25] Dia que faz cerveja é divertido
+[2018-01-03 22:16:46] Especialmente participar de fazer mesmo
+[2018-01-03 22:17:01] Aqui o video do Avião Elétrico Caseiro:
+https://www.youtube.com/watch?v=eNSN6qet1kE
+[2018-01-03 22:18:08] Temos que visitar campo de marte
+[2018-01-03 22:18:17] Ver como funciona lá
+[2018-01-03 22:18:49] Pensei em um Aeroclube do interior, menor, fora de area urbana...
+[2018-01-03 22:18:53] Caramba! Mas não dá treta em termos de leis aqui no Brasil?
+[2018-01-03 22:19:08] Ou alguma pista pequena por aí
+[2018-01-03 22:19:36] Vem voar aqui perto da minha casa que não tem porra nenhuma
+[2018-01-03 22:19:50] Visitei um perto de Araçatuba, em Gabriel Monteiro
+[2018-01-03 22:19:57] Eu nào sei como funciona aqui, não pesquisei. Mas sei que tem uma parte que regula prototipos e "kits de construção"
+[2018-01-03 22:20:04] hauahuahauahau
+[2018-01-03 22:20:24] é sério
+[2018-01-03 22:20:46] imagino... rs
+[2018-01-03 22:21:01] mas calma, ainda tem muito trabalho até voar
+[2018-01-03 22:21:16] Falo isso porque já dei uma olhada em regras para aeromodelos..e olha, é regra que não acaba mais
+[2018-01-03 22:21:34] Sem falar que o dele se encaixa na categoria de ultraleves, que é diferente de avião em si
+[2018-01-03 22:21:43] Será que radar não cobre o país todo?
+[2018-01-03 22:22:17] Sim, mas como todas as regras, tem partes genericas, que se aplica a todos, e as especificas, eu vou começar com as especificas
+[2018-01-03 22:22:43] Se perguntar para a Força Aerea, ela dirá que sim. A verdade é que não... rs
+[2018-01-03 22:23:12] Mas é outra situação, só entra no SINDACTA quando vc tem transponder
+[2018-01-03 22:23:36] Não cobre.
+[2018-01-03 22:23:37] que, no caso, seria um avião que passa de 300m
+[2018-01-03 22:23:49] Tem um bar Brahma lá no aeroporto campo de marte
+[2018-01-03 22:23:57] Acho melhor começar lá
+[2018-01-03 22:24:16] Cerveja é mais barato que avião
+[2018-01-03 22:26:32] Na verdade lá em Gabriel Monteiro é uma pista de um mecânico de aviões
+[2018-01-03 22:26:51] Ah, certeza! E dependendo quanto, deixa "alto" tbm... hehehe
+[2018-01-03 22:26:52] https://www.myinstants.com/instant/rimshot/
+[2018-01-03 22:28:09] http://theplaidzebra.com/this-man-escaped-the-iron-curtain-in-a-diy-plane-and-now-lives-in-an-airplane-hangar-in-the-desert/
+[2018-01-03 22:28:11] Então, não sei como é a legislação pra isso...
+Lembro que quando criança, visitava uns parentes em Mato Grosso do Sul e um amigo da Familia convidou a gente para o Sitio dele.
+Lá ele tinha uma Pista e um ultraleve que ele mesmo montou
+[2018-01-03 22:30:05] Como tudo no Brasil, deve haver o a trilha para a elite correta, super cara.  E uma trilha irregular, para o resto, os atrevidos, fora da lei, bandidos,  corruptos...
+[2018-01-03 22:31:04] Simpatizo com a "Trilha Marginal"... Sempre! heheheh
+[2018-01-03 22:31:08] Suspeito que no mato grosso voar avião sem documento é tão arriscado quanto andar a cavalo
+[2018-01-03 22:31:19] hauhauahauhauah
+[2018-01-03 22:31:34] heeeheheheheheh
+[2018-01-03 22:31:38] Guardada as devidas proporções em caso de acidente, sim
+[2018-01-03 22:31:42] Sempre
+[2018-01-03 22:32:18] É, mas tem que conhecer
+[2018-01-03 22:34:45] Eu tenho um livro sobre Legislação pra Piloto Privado, provavelmente não aborda essa parte de ultraleve, planador e prototipos
+[2018-01-03 22:35:21] Mas tenho uns amigos Oficiais da FA que acho que podem dar um Norte
+[2018-01-03 22:42:34] Hmmm...seria legal dar uma pesquisada sobre... também nunca vi
+[2018-01-03 22:43:57] Claro
+[2018-01-03 22:45:20] Tudo que escrevi foi uma "exteriorização" do que tava sentindo esses dias... Voltar a Estudar Teoria de Voo, mexer com eletronica embarcada e sensores para uso no Flight Simulator e essa série de videos do cara construindo um avião em casa
+[2018-01-03 22:45:21] Parece que a forma mais baixo custo e leve de voar é o paramotor
+[2018-01-03 22:45:43] voar voar, para pente
+[2018-01-03 22:45:45] Também dá para guardar em casa
+[2018-01-03 22:46:10] sim
+[2018-01-03 22:47:13] Paraglider EN = parapente PTbr
+[2018-01-03 22:47:32] yep
+[2018-01-03 22:47:54] parapente não tem motor e vc tem que saltar de um lugar tipo Asa Delta
+[2018-01-03 22:48:09] mas vc consegue se manter no ar usando as correntes ascendentes
+[2018-01-03 22:48:15] mesma teoria do planador
+[2018-01-03 22:48:56] só fiz a comparação que é mais barato, pq não tem o custo do motor e gasolina como no paramotor
+[2018-01-03 22:49:21] logico que a autonomia é menor
+[2018-01-03 23:09:01] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804730668_83681.jpg
+[2018-01-03 23:09:01] Réplica fiel da placa de decodificação de opcodes do instruction-set da CPU do computador Patinho Feio da USP (1971)
+[2018-01-03 23:09:01] Terminei de soldar tudo. Só falta botar os chips de portas lógicas da família 74 (TTL) nos soquetes...
+[2018-01-03 23:11:15] Que foda Juca
+[2018-01-03 23:13:24] ;-)
+[2018-01-03 23:13:46] Muito loko
+[2018-01-03 23:23:21] Fez a placa onde?
+[2018-01-03 23:30:50] 👍
+[2018-01-03 23:31:30] Griffus pelo jeito
+[2018-01-03 23:31:39] Encomendei pelo site Curta Circuitos. De um amigo nosso lá de Santa Catarina
+[2018-01-03 23:32:10] http://curtacircuitos.com.br/
+[2018-01-03 23:32:49] Já projetou todas as placas ou tá indo com calma?
+[2018-01-03 23:33:04] tks
+[2018-01-03 23:36:55] Com calma :-)
+[2018-01-03 23:37:30] Mas já tem grande parte encaminhada. Acho que já tenho cerca de 70% dos esquemáticos prontos. Layout de PCB foi só dessa e da placa auxiliar para debugging
+[2018-01-03 23:38:57] Que massa. Ansioso pra ver isso funcionando :D
+[2018-01-03 23:44:24] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806122546_19839.jpg
+[2018-01-03 23:44:52] "Tá pronto! Só falta testar..." :-P
+[2018-01-03 23:57:45] A codificação de instruções é bem simples pra conseguir fazer com poucos componentes
+[2018-01-03 23:58:46] Essa CPU tem microcodigo ou é tudo feito na raça?

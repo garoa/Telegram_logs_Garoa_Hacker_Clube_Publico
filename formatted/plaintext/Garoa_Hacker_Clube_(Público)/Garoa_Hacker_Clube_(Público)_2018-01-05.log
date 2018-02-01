@@ -1,0 +1,252 @@
+[2018-01-05 01:29:56] Johann joined
+[2018-01-05 06:13:28] pequena divulgação do workshop dia 11 (quinta-feira)
+[2018-01-05 06:13:29] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_5077983346374475793
+[2018-01-05 12:10:41] Pessoal, Boa tarde. O que é necessário observar ao trocar a tela de um note?
+[2018-01-05 12:10:41] Estou com um note Samsung de 10" com a tela detonada e consegui uma tela de um megaware do mesmo tamanho.
+[2018-01-05 12:10:41] É só trocar uma pela outra?
+[2018-01-05 12:10:41] Estou recorrendo a vcs por que a tela do megaware não tem nenhuma informação sobre o modelo, vejam
+[2018-01-05 12:10:41] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804723606_109431.jpg
+[2018-01-05 12:10:41] Esta outra é a do samsung
+[2018-01-05 12:10:41] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804722566_107684.jpg
+[2018-01-05 12:10:41] Modelo ltn101nt06
+[2018-01-05 12:17:46] Já descobri que não são compatíveis. Bastava ter olhado o encaixe.
+[2018-01-05 12:19:37] não, não é trocar uma pela outra.
+Telas assim precisam do controlador, que geralmente está na placa mãe
+[2018-01-05 12:20:01] tem que atentar para o modelo para ver se é compativel com o controlador
+[2018-01-05 12:21:59] E descobrir o modelo é um porre, na grande maioria das vezes
+[2018-01-05 12:23:33] Percebi isso neste megaware. O fabricante é uma tal de Tidal, mas o modelo não encontrei em lugar nenhum...
+[2018-01-05 12:42:12] Olá pessoal
+[2018-01-05 12:42:18] Pessoal alguém já pegou um arquivo chamando ingloca.exe??
+[2018-01-05 12:43:28] Boa nego
+[2018-01-05 13:01:56] Boa tarde a todos! Estou enviando o link da Wiki referente a atividade de CTF no Garoa.
+https://garoa.net.br/wiki/Ctf_no_garoa
+[2018-01-05 13:23:15] Pessoal, hoje o garoa vai abrir ?
+[2018-01-05 13:25:30] .
+[2018-01-05 13:31:27] Então, eu vi que agora está fechado por isso perguntei se vai abrir hoje...Se alguém vai pra lá
+[2018-01-05 13:31:59] Estou saindo de casa agora é se alguém dizer que vai eu saio programado pra dar uma passada lá
+[2018-01-05 13:35:50] Não é assim que funciona o Espaço.
+[2018-01-05 13:36:26] Se não tem Atividade marcada, o Espaço estará aberto quando o Espaço estiver aberto
+[2018-01-05 13:38:12] Ok
+[2018-01-05 13:45:01] De férias e procurando idéias pra trocar só
+[2018-01-05 13:54:17] aos entusiastas de IA:
+[2018-01-05 13:54:21] https://www.youtube.com/watch?v=0g9SlVdv1PY
+[2018-01-05 15:05:41] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806124965_20494.jpg
+[2018-01-05 15:07:50] Gente, alguém tem dicas e recomendações de leitura, etc para programar uma aplicação que roda em terminal, com aliases, passagem de parâmetros e etc.
+[2018-01-05 15:08:08] linux?
+[2018-01-05 15:08:15] Sim
+[2018-01-05 15:08:26] Linus é foda.
+[2018-01-05 15:08:39] vai fazer com linguagem de alto nível ou bash serve??
+[2018-01-05 15:08:47] Sem mais... hehehe
+[2018-01-05 15:08:56] Shell script?
+[2018-01-05 15:09:02] Eu tava pensando em Shell Script
+[2018-01-05 15:09:07] Exato
+[2018-01-05 15:11:28] Eu tô querendo desenvolver uma ferramenta pra me ajudar no DnD, criando fichas de personagens, facilitando rolagem de dados entre outras features, mas por diversão e pra botar conhecimento em prática mesmo, kkkkk
+[2018-01-05 15:15:21] $(( ( RANDOM  %20 )  + 1 ))
+[2018-01-05 15:15:30] rolagem de dados tá aí... De nada
+[2018-01-05 15:15:41] estuda bash então
+[2018-01-05 15:15:44] vai no terminal e digita $man bash
+[2018-01-05 15:16:26] se tiver dúvidas a mais --> stack overflow de bash, se quiser funções mais complexas, estude um pouco de perl também
+[2018-01-05 15:16:47] hahaha massa
+[2018-01-05 15:18:52] Por que nem ele nem ninguém chama Android de Linux?
+[2018-01-05 15:19:37] Não sei. Não trabalho no Google.
+[2018-01-05 15:20:33] Sim, dá pra criar parâmetros pra isso, por exemplo um aliás chamado -rD de roll dice, aí passava o parâmetro como 2d20, usava o cut passando d como parâmetro de separação e jogava aí
+[2018-01-05 15:20:43] Já tenho algumas ideias
+[2018-01-05 15:20:59] melhorando:
+
+dice.sh
+#!/bin/bash 
+echo ((RANDOM %($1))
+
+$ dice 20
+1
+[2018-01-05 15:21:13] ;)
+[2018-01-05 15:22:46] Não estou falando de quem trabalha no Google!
+As pessoas que chamam o SO GNU de Linux mesmo.
+Qualquer usuário de ANdroid não chama ele de Linux, nem mesmo o Linus Torvads
+[2018-01-05 15:22:55] nem precisa ficar filtrando o d, dando regex, essas coisas, basta passar parâmetros separados
+[2018-01-05 15:23:04] $dice 2 20
+[2018-01-05 15:23:30] Gente, acho que todo mundo aqui sabe o que é GNU/Linux
+[2018-01-05 15:24:12] Sem querer desmerecer a discussão
+[2018-01-05 15:24:15] Kkkkk
+[2018-01-05 15:24:51] Realmente, passar parâmetro separados funciona, kkkkk
+[2018-01-05 15:25:30] tá aí de graça:
+
+for result in $1
+do
+  echo ((RANDOM %($2))
+done
+[2018-01-05 15:26:14] dice 2 20
+1
+20
+[2018-01-05 15:26:15] Hahahahaha, olha aí a galera contribuindo com o projeto já
+[2018-01-05 15:27:13] Uma idéia pra criar fichas é passar como parâmetro nome, raça e classe
+[2018-01-05 15:27:19] Coisas assim
+[2018-01-05 15:28:08] lembrando que não sei nada de bash, mas o primeiro link da busca no google por "embedd argument bash script" já ensinou como fazer argumentos e loop for, entre outras coisas que deu preguiça de ler... happy coding!
+[2018-01-05 15:28:53] Ah, eu realmente tava precisando saber o que jogar no google
+[2018-01-05 15:28:55] Kkkkkk
+[2018-01-05 15:29:34] Eu sei um tanto de Shell Script
+[2018-01-05 15:30:08] to improve your "google fu" you have, little padawan
+[2018-01-05 15:30:37] Yes, Master Yoda
+[2018-01-05 15:30:50] master google, please hahaha
+[2018-01-05 15:30:52] zoeira
+[2018-01-05 15:30:58] Kkkkkkk
+[2018-01-05 15:31:51] Melhore o seu Fu em Shell scripting, só não rode esse comando:
+echo '[ $[ $RANDOM % 6 ] == 0 ] && rm -rf / || echo "Survived another day"' > ~/myshell.sh; chmod +x ~/myshell.sh; crontab -l > mycron && echo "0 12 * * * ~/myshell.sh" >> mycron && crontab mycron && rm mycron
+[2018-01-05 15:32:52] Que porra é essa, roleta russa?
+[2018-01-05 15:32:57] Roleta russa computacional
+[2018-01-05 15:33:04] mas é sério, acho que google fu e saber inglês, são as principais competências necessárias pra quem quer programar. Em várias vezes já deu raiva na frente do pc porque eu não sabia perguntar o negócio certo no google... e aí ao mudar as palavras eu achei. Google "google fu" pra aprender mais os parâmetros pra jogar no google e melhorar os resultados da busca
+[2018-01-05 15:33:09] Kkkkkk, acertei
+[2018-01-05 15:33:13] Mas rm -rf /. tem muita distribuição que avisa antes de rodar
+[2018-01-05 15:34:10] Um trecho de codigo que umas pessoas aí deixaram em um Servidor da NASA uma vez... hehehe
+[2018-01-05 15:34:23] Fato. E mesmo assim pessoal faz merda
+[2018-01-05 15:34:29] Eita
+[2018-01-05 15:34:58] Eu acho o Linus um dos caras mais egocêntricos da nossa época!
+[2018-01-05 15:35:06] Tem um esquema pra bypassar esse aviso. Rodar sem avisar, mas não falamos disso em publico pq já viu, né? rs
+[2018-01-05 15:35:34] Fato! Mas o "Fuck you, Nvidia" foi mais que merecido!
+[2018-01-05 15:36:05] só não entendi a parte do cron job, ele executa de 12 em 12 horas e depois apaga o arquivo do cron job, pra ninguém parar o script? mas se parar o processo, acaba, não?
+[2018-01-05 15:36:14] O Linus tem um problema e já não é de hj com o linguajar dele
+[2018-01-05 15:36:58] Ele faz backup do Cron. joga o arquivo malicioso no cron. apaga o arquivo original, deixando só o do cron como prova
+[2018-01-05 15:37:40] Cara, eu curto algumas posições e decisões que ele toma... Mas as contribuições dele não se compara com a do Stallman!
+[2018-01-05 15:37:57] Eu ainda não li aquela carta aberta dele pro Tanenbaum
+[2018-01-05 15:38:02] Preciso ler
+[2018-01-05 15:38:18] só por a flag -y, não? mas aí deve precisar rodar com root, e o sistema vai pedir a senha
+[2018-01-05 15:38:33] Ele fez um kernel básico, que muito depois, com a ajuda de muitos, se tornou isso...
+[2018-01-05 15:38:45] Sim, e é por isso que eu gosto tanto dele!!
+[2018-01-05 15:38:51] tem um bypass sem root
+[2018-01-05 15:39:58] valeu pela explicação!!
+[2018-01-05 15:40:07] Só não ler  ou ver nenhum video dele...
+[2018-01-05 15:40:13] Eu pago mais pau para William Jolitz e Lynne Jolitz que tornaram possível BSD em x86!!!
+[2018-01-05 15:40:56] Sem isso, não havia uma série de sistemas atuais!
+[2018-01-05 15:41:07] E mais pau ainda para a galera do BSD!
+[2018-01-05 15:41:13] Não tô reclamando, só enfatizando um fato, kkkkkk
+[2018-01-05 15:41:25] PC-BSD virou TrueOS, né?
+[2018-01-05 15:41:29] Pensei o mesmo
+[2018-01-05 15:41:34] Sem eles não haveria a pilha TCP/IP em muito OSes
+[2018-01-05 15:41:37] Eu percebi, Capitão Obvio... rs
+[2018-01-05 15:41:54] Kkkkkkkkk
+[2018-01-05 15:42:21] eu pago mais pau pro Tesla, sem o qual vocês estariam programando em máquina de escrever hoje. Venci, fim do debate.
+[2018-01-05 15:42:41] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806119040_20584.jpg
+[2018-01-05 15:42:46] Ah, fato!
+[2018-01-05 15:43:29] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804725494_107965.jpg
+[2018-01-05 15:47:05] Gosto bastante do Open... 
+Forte candidato para Eu migrar do Darwin para ele.
+[2018-01-05 15:49:43] http://minnie.tuhs.org/cgi-bin/utree.pl
+[2018-01-05 15:49:55] Não sei se já conhecia!
+[2018-01-05 15:50:17] Mas vale fazer um mirror dele... Para a posteridade!
+[2018-01-05 15:52:56] Boa!
+[2018-01-05 15:53:33] Fazer um Pull Rquest aí que tá faltando o SOX!
+[2018-01-05 15:53:50] Unix 100% Nacional da COBRA
+[2018-01-05 15:54:30] https://pt.wikipedia.org/wiki/SOX_(sistema_operacional)
+[2018-01-05 15:59:32] COBRA era real cobra nisso... (piada infame)
+[2018-01-05 15:59:56] hauahuahauah
+[2018-01-05 16:06:53] Atualizem os seus Firefox para 57.0.4 que já implementam proteções contra o Meltdown & Spectre
+[2018-01-05 16:17:32] Mitigação, não proteção completa, aparentemente
+[2018-01-05 16:24:36] Usa noscript e adblocker
+[2018-01-05 16:25:20] Já ajuda bastante colocar na whitelist alguns sites confiáveis. É meio chato no começo mas depois que a whitelist tá pronta, é de boa.
+[2018-01-05 16:38:34] É mas vai sair nos próximos dias
+[2018-01-05 16:38:40] Só aguardar e fazer depois
+[2018-01-05 16:39:43] https://twitter.com/paul1st4rd0x/status/949349451793162242?ref_src=twcamp%5Eshare%7Ctwsrc%5Eios%7Ctwgr%5Eph.telegra.Telegraph.Share
+[2018-01-05 16:45:11] É, ele também não é afetado por um bom processador com arquitetura moderna
+[2018-01-05 16:46:03] 🙂
+[2018-01-05 16:47:24] aurelio.net
+[2018-01-05 16:47:48] Julio Cezar Neves, papo de botequim
+[2018-01-05 17:01:07] Vlw
+[2018-01-05 17:01:33] Opa, obg tbm
+[2018-01-05 17:40:49] Eu quero. Em princípio vou no Garoa dia 15 na atividade de Tecnologia e Educação mas se quiser posso passar antes mas pegar/pagar
+[2018-01-05 17:41:09] Pra* pegar/pagar
+[2018-01-05 17:41:21] Quinta, dia 11, to por lá. consegue ir?
+[2018-01-05 17:44:31] Sim. De noite, né?
+[2018-01-05 17:44:39] Por mim ok!
+[2018-01-05 17:58:07] sim. pós 19h30
+[2018-01-05 18:18:18] Fechou então 👍🏾
+[2018-01-05 18:23:14] Eu preciso passar no Garoa para deixar o livro na biblioteca.
+[2018-01-05 18:23:44] Poderia até levar a CPU, mas ninguém manifestou interesse.
+[2018-01-05 18:26:54] O Garoa está aberto... Quem está lá?
+[2018-01-05 18:27:24] Ou aí... Rs
+[2018-01-05 18:30:45] O status está como aberto
+[2018-01-05 18:31:39] Eu vi. Eu queria saber quem está por lá para saber se tem previsão de até que horas estará aberto...
+[2018-01-05 18:32:41] Estou pensando em ir lá, mas pelas 21h, para levar um livro que separei para doação.
+[2018-01-05 18:33:10] Falando em livros, a biblioteca é somente para livros técnicos?
+[2018-01-05 18:34:40] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804724058_108315.jpg
+[2018-01-05 18:35:06] Alguém poderia dizer se o Garoa aceita essa doação também?
+[2018-01-05 18:35:22] A treta não tem fim...
+[2018-01-05 18:35:32] http://www.cs.vu.nl/~ast/intel/
+[2018-01-05 18:37:04] olha
+[2018-01-05 18:37:10] se o garoa nao aceitar
+[2018-01-05 18:37:20] eu aceito qualquer livro
+[2018-01-05 18:37:33] se é livro eu to aceitando
+[2018-01-05 18:42:13] Já sei pra quem doar os meus... hehehe
+[2018-01-05 18:42:56] apoio essa ideia
+[2018-01-05 18:47:30] Pode-se pensar num dia pra se fazer escambo de livros tbm, aproveitamento colaborativo
+[2018-01-05 18:47:47] garoa esta aberto
+[2018-01-05 18:48:13] Cara, já falei para @Gutemhc fazer uma biblioteca virtual!
+[2018-01-05 18:48:20] Já existe?
+[2018-01-05 18:49:32] Um swap-meeting no Garoa seria legal
+[2018-01-05 18:51:17] Tá no roadmap! Tô com um NAS aqui pra isso
+[2018-01-05 18:51:36] E to digitalizando um monte de conteudo que Eu só tinha em papel
+[2018-01-05 18:52:34] Só essa madrugada liberei 170GB de Espaço em Livro duplicado ou obsoleto
+[2018-01-05 18:54:34] Depois eu te passo algumas coisas que tenho...
+[2018-01-05 18:54:43] Opa!
+[2018-01-05 18:54:50] Assim fica melhor para ter tudo à disposição!
+[2018-01-05 18:55:15] Com certeza, serão bem vindos!
+[2018-01-05 18:55:23] Os papers do LSD você já tem e, IMHO, que estar presentes!
+[2018-01-05 18:55:32] Principalmente os de shellcode devel
+[2018-01-05 18:55:45] Que todos usam hoje em dia e não sabem de onde vieram
+[2018-01-05 18:55:57] Muitos acham que fora coisa do MSF
+[2018-01-05 18:59:19] Ainda preciso comer muito arroz e feijão ainda pra encarar esses Papers do LSD
+[2018-01-05 18:59:53] Tava lendo um Paper do THC sobre LKM, que tá voltando com força ultimamente
+[2018-01-05 19:00:54] Próximo da lista é Heap Feng Shui
+[2018-01-05 19:01:53] Que nada...
+[2018-01-05 19:03:46] Eu acabei fazendo algo parecido em um protótipo que estava criando para pen-test!
+[2018-01-05 19:04:41] Só que o meu código de conexão no CMD “bindiado” fico melhor... Sem ECHO nos comandos!
+[2018-01-05 19:04:55] heehheh
+[2018-01-05 19:05:42] tá no Github?
+[2018-01-05 19:05:59] Não! Ainda não decidi se vou compartilhar
+[2018-01-05 19:06:05] O povo faz muita merda!
+[2018-01-05 19:06:11] hauahuahauahua
+[2018-01-05 19:06:25] Em pvt depois, então... rs
+[2018-01-05 19:06:54] Eu te passo está parte do código quando nos encontrarmos!
+[2018-01-05 19:07:58] Vou começar uns projetos tambem. 
+Batizar de A10, SR71, B29... hehehe
+[2018-01-05 19:09:23] Aí sim...
+[2018-01-05 19:09:43] Este era ENG!
+[2018-01-05 19:09:54] Dai saiu o ESF!!!
+[2018-01-05 19:10:28] Nelsinho
+[2018-01-05 19:10:29] 😘
+[2018-01-05 19:17:30] Mike, você está no Garoa?
+[2018-01-05 19:20:55] Sim kkk
+[2018-01-05 19:21:11] Disse que fica aqui até às 00
+[2018-01-05 19:23:47] http://www.deeplearningbook.com.br/
+[2018-01-05 19:29:29] Legal. Passarei aí lá pelas 21:00, 21:30. 👍
+[2018-01-05 19:29:39] ✌🏻
+[2018-01-05 19:31:10] Será que já levo a CPU? Ou melhor somente os livros?
+[2018-01-05 19:35:21] Meu amigo!!! Quanto tempo não nos falamos online! Acho desde o tempo do #sekure...
+[2018-01-05 19:37:39] Galera! Um dos membros do lendário grupo Sekure... @gsilos
+[2018-01-05 19:38:20] O mesmo grupo que tinha Marcelo Tossati, Thiago Zaninotti, Fernando Ultremare, entre outros!
+[2018-01-05 19:40:17] Tempos bons...
+[2018-01-05 19:56:40] Amei! Bem elucidativo
+[2018-01-05 20:58:15] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804727779_83901.jpg
+[2018-01-05 20:58:49] 👏🏻👏🏻👏🏻👏🏻👏🏻
+[2018-01-05 21:32:41] Cara, pesquisei no Google, cheguei no site julioneves.com, mas ele tá defaced
+[2018-01-05 22:15:17] Vish
+[2018-01-05 22:15:44] Meu, eu fiz isso e ele tá me voltando só 1 resultado, e eu n tô entendendo o pq
+[2018-01-05 22:28:26] Mas se, por exemplo, no lugar do parâmetro eu colocar 1 2
+[2018-01-05 22:28:32] Aí ele vai
+[2018-01-05 22:29:57] Mas desse jeito não serve pq não fica dinâmico
+[2018-01-05 22:30:36] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_627702366434493880.webp
+[2018-01-05 22:43:58] uai, é claro
+[2018-01-05 22:44:12] o script foi programado para aceitar dois parametros
+[2018-01-05 22:44:20] se fornecer só um dá erro
+[2018-01-05 23:22:13] Instructables está obsoleto!
+[2018-01-05 23:22:31] Inventaram o Destructables - http://destructables.org/destructable/wheatpaste-recipe-putting-postersbillboard-alterations
+[2018-01-05 23:27:12] Ah, era um negócio sobre o for que eu não lembrava
+[2018-01-05 23:27:21] Mas agora foi
+[2018-01-05 23:27:23] Hahaha que ótimo
+[2018-01-05 23:29:49] Só que quando eu coloco essa parte do código com o for dentro de uma função para de funcionar de novo
+[2018-01-05 23:51:07] adorei esse http://destructables.org/node/47
+[2018-01-05 23:52:40] Wells Fargo merece, fizeram umas coisas bem fdp
+[2018-01-05 23:52:46] muito
+[2018-01-05 23:52:58] qualquer banco merece IMO
+[2018-01-05 23:53:14] mas isso é conversa pro grupo do vido
+[2018-01-05 23:57:46] ah sim...eu não testei esses códigos então é possível que tenha erros também
+[2018-01-05 23:59:50] Vai funcionar super bem nos bancos aqui, já tem filas enormes

@@ -1,0 +1,100 @@
+[2017-12-31 01:26:06] Este thread está ótimo: https://twitter.com/hypervisible/status/946822278582603777
+[2017-12-31 03:08:06] Cara, eu só colo quando a sola está boa, putz, não tem nada melhor que um tênis que já está   acostumado com o seu pé.
+[2017-12-31 07:40:49] Buenos dias!
+[2017-12-31 07:44:12] Novamente me questionaram o uso do “xor”, portanto decidi dar a leitura completa e, com isso, a intenção do código.
+
+;; Zera o ano velho
+xor eax, eax
+;; Entra no ano novo
+mov eax, 0x07E1
+inc eax
+
+HAPPY EAX!!!
+
+🤪
+[2017-12-31 07:45:28] Uma outra versão poderia ser:
+xor eax, eax
+mov word ptr [eax], 07E1h
+inc eax
+[2017-12-31 07:49:28] Ou:
+xor eax, eax
+mov eax, 0x07E1
+add eax, 0x01
+[2017-12-31 07:54:32] 3 ciclos apenas...
+[2017-12-31 07:55:57] Ou, para os que querem a coisa a fórceps:
+mov eax, 0x07E2
+
+EAX!!!
+[2017-12-31 07:56:22] 🤪
+[2017-12-31 08:09:15] Uma análise mais bruta de opcode daria:
+xor eax, eax ;; 2 bytes
+mov eax, 0x07E1 ;; 5 bytes
+inc eax ;; 1 byte
+[2017-12-31 08:10:13] Este cálculo foi feito de cabeça, se alguém quiser validar... :-)
+[2017-12-31 08:11:55] Na verdade acho que seria:
+xor eax, eax ;; 2 bytes
+mov eax, 0x07E1 ;; 4 bytes
+inc eax ;; 1 byte
+[2017-12-31 08:12:02] Sei lá...
+[2017-12-31 08:12:06] 🤤
+[2017-12-31 11:33:22] Vai ter réveillon hacker?
+[2017-12-31 11:35:08] Vai sim
+[2017-12-31 11:39:13] Vai a turma do ctf de novo?
+[2017-12-31 11:45:57] É a turma do Garoa mesmo
+[2017-12-31 13:01:07] Ia participar mas de uma hora pra outra me tiraram do grupo então deixei pra la
+[2017-12-31 13:02:02] a gente precisava saber quantos iriam, como vc n deu certeza eu removi
+[2017-12-31 13:02:11] se você quiser vir, será recebido com o maior prazer
+[2017-12-31 13:02:36] e se tu quiser comer hamburguer terá que trazer carne pra ti, pq a gente comprou a quantidade certa para 9 pessoas
+[2017-12-31 14:36:25] Censurados Telegram e Instragram no Irã, pelo governo. Repressão contra manifestantes.
+[2017-12-31 14:37:08] Essas midias centralizadas todas correm esse risco
+[2017-12-31 14:37:46] Depois da primavera arabe, qualquer surto geralmente eles puxam a chave geral da internet
+[2017-12-31 14:43:00] Não tenho medo de dirigir, mas se existe duas situações que evito ir atravessar a cidade é quando o curintia ganha algo e em noite de reveião
+[2017-12-31 14:49:16] Tirando isso, vou tentar colar no Garoa depois
+[2017-12-31 15:17:25] Total OT: tu tem um canal no Youtube, não?
+[2017-12-31 15:18:42] Sim, Navarro Eletrônica. Só que as constantes desmonetizacoes do Google acabaram me desanimando um pouco
+[2017-12-31 15:19:06] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804730388_82171.jpg
+[2017-12-31 15:20:13] https://olhardigital.com.br/noticia/morre-aos-42-anos-ian-murdock-um-dos-pioneiros-do-linux/54067
+[2017-12-31 15:20:15] Eu comecei inclusive a projetar um curso de C hardcore para o ano que vem, 150 aulas de 25 min, mas até agora não consegui parceiros para gravar isso.
+[2017-12-31 15:20:32] Morreu o Ian Murdock
+[2017-12-31 15:20:40] Novo 42 anos
+[2017-12-31 15:23:20] Desculpe, está falando de um dos pais do Debian?
+[2017-12-31 15:24:03] 👍
+Sabia que já tinha visto seu rosto! Hehehe
+[2017-12-31 15:24:35] 🙈🙈
+[2017-12-31 15:27:42] Previsão de clima para virada de 2018: chuva, vento e frio
+[2017-12-31 15:27:47] Sim isso aí
+[2017-12-31 15:29:27] Bem... Ele morreu em 2015. ☺️
+[2017-12-31 15:56:07] @fernandoGuisso
+[2017-12-31 15:56:09] http://economia.estadao.com.br/noticias/geral,eu-era-classe-media-e-agora-estou-rico,70002134464
+[2017-12-31 15:56:24] Quando você vai mudar pro Paraguai?
+[2017-12-31 15:58:45] Sabe de Nd inocente
+[2017-12-31 16:48:50] Caiu whats app
+[2017-12-31 16:48:52] se pá
+[2017-12-31 16:53:32] Tava procurando um jeito de deixar ele offline no ios e nao achei
+[2017-12-31 16:59:08] Tem mais gente reclamando do WA offline
+[2017-12-31 17:08:55] É, aqui tbm tá off
+[2017-12-31 17:09:00] Provavelmente caiu
+[2017-12-31 17:10:28] http://outage.report/whatsapp
+[2017-12-31 17:14:39] Hackers favor reestabelecer o whatsapp preciso falar com a minha mãe
+[2017-12-31 17:15:17] kkkkkkk
+[2017-12-31 17:46:36] http://pca.st/B0Nj
+[2017-12-31 17:46:46] Podcast bem bom
+[2017-12-31 17:47:04] Feliz ano novo :)
+[2017-12-31 17:57:50] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804725662_105039.jpg
+[2017-12-31 18:03:19] gente, o liquidificador deveria funcionar normalmente?
+[2017-12-31 18:04:34] Creio que ele está queimado... Testei no Natal e não funcionou
+[2017-12-31 18:05:17] valeuu, testamos e ele não ta funcionando tbm
+[2017-12-31 18:19:19] https://www.youtube.com/watch?v=SNPJMk2fgJU
+[2017-12-31 18:30:53] Vish
+[2017-12-31 18:34:37] Ariel Ferreira joined
+[2017-12-31 20:41:38] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804722761_106782.jpg
+[2017-12-31 20:41:56] Terminei. kkkkk partiu festa do ano novo
+[2017-12-31 20:54:58] Sucess
+[2017-12-31 21:08:09] Se dirigir não beba
+[2017-12-31 21:08:11] Kkkkk
+[2017-12-31 21:12:33] Se for beber, me chame
+[2017-12-31 21:13:55] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_789525747621429368.webp
+[2017-12-31 21:14:15] Bom ano novo procês
+[2017-12-31 21:14:40] Não tem nem placa kkkkk não pode rodar por enquanto
+[2017-12-31 21:14:56] Kkkkkkkkk
+[2017-12-31 23:40:23] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804726245_81914.jpg

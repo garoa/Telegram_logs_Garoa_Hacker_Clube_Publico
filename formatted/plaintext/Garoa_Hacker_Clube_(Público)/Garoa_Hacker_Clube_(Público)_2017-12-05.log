@@ -1,0 +1,104 @@
+[2017-12-05 00:07:43] Legal séria passar um ransomware pro pessoal desse grupo
+[2017-12-05 00:07:49] Vou entrar
+[2017-12-05 00:28:26] Vou tentar ir nessa quinta 👍😊
+[2017-12-05 00:48:11] https://www.kaspersky.com.br/blog/?s=ransomware&submit=Pesquisa
+
+A lista das últimas novidades sobre o tema...
+[2017-12-05 10:09:26] Victor Carlos joined
+[2017-12-05 10:09:27] Hi Victor !
+[2017-12-05 10:11:21] Bom dia pessoal
+[2017-12-05 11:12:01] https://www.nasa.gov/feature/jpl/voyager-1-fires-up-thrusters-after-37
+[2017-12-05 14:15:02] 👍
+[2017-12-05 16:12:11] Alguém aqui por acaso alguma vez já tentou extrair as gravações de programas do HDD do seu DVR para assistir no PC?
+[2017-12-05 16:12:46] Falo do DVR da sua operadora de TV paga.
+[2017-12-05 16:29:01] tentei no modelo anterior de decodificador qdo um hd era interno. Retirei e coloquei em um pc e não tinha tabela de partições, não consegui na época descobrir se era um LVM ou outra coisa.
+[2017-12-05 16:30:15] O meu é um modelo Pace IPH8005, ele possui internamente um HDD de 2.5" com 500GB de capacidade. Ele é removível (tem uma portinha atrás do equipamento, na qual ele é preso, e puxando, ele sai).
+[2017-12-05 16:31:15] Eu encontrei 3 partições FAT (pelo que eu pesquisei, ele roda Windows CE 5.0), duas delas são respectivamente, boot e armazenamento temporário (logs), enquanto que a terceira é de 445GB. 😏
+[2017-12-05 16:31:55] Essa partição tem uma pasta dentro da qual vejo dezenas de arquivos com a extensão .SLC - todos os arquivos têm exatamente 1GB de tamanho, o q me leva a crer q isso é o vídeo, só q particionado.
+[2017-12-05 16:33:05] Segundo investiguei, essa extensão é de um formato de arquivo compatível com o padrão MPEG-4. Estou fazendo a cópia desses arquivos para um HD externo, para depois ver se o VLC consegue decodificar.
+[2017-12-05 16:36:17] esse era um limite no padrão do DVD, curioso, mas creio que nesse caso esse limite seja pq o sistema de arquivos é fat e não quiseram usar 4G
+[2017-12-05 16:38:27] rodou?:
+file arquivo.slc
+[2017-12-05 16:39:16] https://www.file-extensions.org/slc-file-extension-at-t-u-verse-recorded-video
+[2017-12-05 16:40:49] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806117723_3611.jpg
+[2017-12-05 16:40:59] https://en.wikipedia.org/wiki/AT%26T_U-verse
+[2017-12-05 16:42:20] Qdo terminar a cópia, tentarei isso: http://www.fixya.com/support/t22190483-open_slc_files_from_our_ip_tv_set_top
+[2017-12-05 17:07:33] não rola dar play sem precisar copiar para outro dispositivo?
+[2017-12-05 17:57:50] até deve rolar, mas agora estou copiando. Prefiro deixar quieto.
+[2017-12-05 17:58:46] hehe!!
+[2017-12-05 18:00:12] Viram isso??? 
+
+https://www.facebook.com/area31hackerspace/photos/a.496017423823933.1073741828.494111670681175/1570628893029442/?type=3
+[2017-12-05 18:00:31] Uma amiga que faz PHD na Dinamarca em computação quer dar um workshop sobre programação funcional para minorias (mulheres, lgbts, portadores de deficiência etc) em janeiro quando estiver no Brasil. Ela pode em São Paulo e Belo Horizonte. Contatos???? Pode ser no Garoa? :)
+[2017-12-05 18:09:06] Que tal no Garoa e no Google Campus?
+[2017-12-05 18:10:02] Acho que que a proposta pode ser encaminhada ao garoa, com mais detalhes e data, acho eu uma boa
+[2017-12-05 18:11:56] 1. Infoproletários? Sério?
+2. Essa página do Área 31 é de um hackerspace ou de um partido político? 🤔
+[2017-12-05 18:13:11] De idiotas mesmo.
+[2017-12-05 18:13:18] Mas...o infoproletários se reuniu no garoa e não no a31
+[2017-12-05 18:13:33] 🤣🤣🤣
+[2017-12-05 18:15:08] Não pode se levar esse tal de area31 a sério
+[2017-12-05 18:16:30] É tipo uma versão TI do mbl
+[2017-12-05 18:19:48] Por outro lado o infoproletários, bem como inúmeros outros grupos que estão aparecendo por aí, são uma versão TI do PCdoB
+[2017-12-05 18:19:52] Pessoalmente, acho que esse tipo de coisa (de ambos os lados) só serve pra rachar a comunidade
+[2017-12-05 18:22:11] A31=ancap
+Infoproletariados=comunista de iphone
+[2017-12-05 18:22:15] A situação politica do país acaba reverberando em qualquer area, mas quem conhece o minimo da cultura hacker, sabe que isso não pode ser algo que influencie
+[2017-12-05 18:24:28] Não vai ter não. O Garoa já discutiu sobre isso.
+[2017-12-05 18:28:51] Menos, cara
+[2017-12-05 18:29:00] Alívio ver alguém dizer isso. Todo dia aparece grupo militante disfarçado de clubinho hacker (em todos os sentidos da palavra)
+[2017-12-05 18:29:14] O q tá errado?
+[2017-12-05 18:29:50] Tem que ter Facebook pra ver o link?
+[2017-12-05 18:31:15] O link eh a imagem da mensagem
+[2017-12-05 18:31:17] Galera, explicações sobre o caso.
+[2017-12-05 18:31:26] Só acho meio chato começar a trocar ofensas aqui
+[2017-12-05 18:31:38] Não é ofensa
+[2017-12-05 18:31:47] Os dois se declaram assim
+[2017-12-05 18:32:00] Sim rolou um reunião dos caras no garoa, no meio do ano. Depois ficou combinado que não teria mais.
+[2017-12-05 18:32:25] Esse post é de 03 Jun
+[2017-12-05 18:34:03] Area 31 não é só ancap, tem muito mais problemas com aquela galera, volto a dizer, desperdício de franquia e de tempo, falar sobre eles
+[2017-12-05 18:34:22] O GruPy tem uma divisão de mulheres. Conhece o Régis? fala com ele no meetup do Grupy
+[2017-12-05 18:35:32] Tem o pyladies tbm, tem alguns coletivos de minas/lgbt espalhados por ai
+[2017-12-05 18:35:45] Avisei a ela. Ela chama Ju e e-mail j@cyberglot.me
+[2017-12-05 18:36:29] Verdade. Postarei aqui no grupo do Telegram
+[2017-12-05 18:37:27] Isso. Pyladies. Achei que era uma divisão do GruPy
+[2017-12-05 18:40:11] Acho que seria uma boa algumas atividades direcionada para pras minas
+[2017-12-05 18:44:36] Isso me revolta: um cara posta no blog dele, um tutorial sobre como limpar um G&W da Nintendo (Donkey Kong - esse é pros da minha geração) q foi arrematado no ebay por uma ninharia. Até aí td bem. Só q o FDP comprou esse negócio e não percebeu a assinatura q tinha em cima - e passou um pano com removedor de esmalte pra tirar td!! Era a assinatura de ninguém menos q Shigeru Miyamoto!! 😡😡😡
+[2017-12-05 18:44:47] http://damntechnology.blogspot.com.br/2010/09/how-to-disassemble-and-clean-game-watch.html
+[2017-12-05 18:46:33] O coitado (coitado uma vírgula, o imbecil) ainda se recusa a aceitar, as pessoas nos comments trolando ele e ele fazendo de conta q os outros é q não sabem do q estão falando. Tanto é, q tem outros blogs comentando sobre o q esse infeliz ser fez: http://www.forcesofgeek.com/2013/04/how-to-dissemble-clean-your-donkey-kong.html e http://geekologie.com/2013/04/guy-posts-tutorial-of-how-to-clean-donke.php
+[2017-12-05 18:48:34] Ser ancap é um problema?
+[2017-12-05 18:48:48] Ser soça é um problema também?
+[2017-12-05 18:49:26] Começou
+[2017-12-05 18:51:27] Não vou entrar em merito de posicionamento politico, acho que esse grupo não é direcionado a isso.
+[2017-12-05 18:53:24] @tiagonaoexiste @Ph4nt00n , tem moderador vendo. Por favor discutam de maneira construtiva.
+[2017-12-05 18:53:49] Oba, pode sim!
+[2017-12-05 18:54:45] Super pode ser no Garoa
+[2017-12-05 18:55:07] Fica frio, essas provocações do área 31 são unilaterais. Nós, do garoa, simplesmente ignoramos eles e seguimos fazendo nosso trabalho sério
+[2017-12-05 18:58:00] Sim sim, eu não tava sugerindo que o Garoa fazia, tava me referindo a essa guerrinha esquerda vs. direita que de vez em quando esquenta dentro da comunidade
+[2017-12-05 19:01:34] Como eu disse anteriormente, as vzs a polarizacao politica ecoa para areas que são alheias a isso, a comunidade tem como bandeira a liberdade de pensamento, tentar subverter isso é ir contra toda uma cultura.
+[2017-12-05 19:05:38] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_4987870233810174011.pdf
+[2017-12-05 19:05:44] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_1842540969984056.webp
+[2017-12-05 19:10:32] Deixa esse caras pra lá jovem.
+[2017-12-05 19:44:38] Galera, Sábado 09/12 as 12h vamos fazer atividade da cerveja. Aberta a todos. Estão todos convidados.
+[2017-12-05 19:51:28] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_805512171_55989.jpg
+[2017-12-05 19:53:42] ou seja, menos
+[2017-12-05 19:56:05] Ainda tem a noite do arduonoas quintas?
+[2017-12-05 19:56:18] *arduino
+[2017-12-05 19:57:32] https://www.meetup.com/pt-BR/Garoa-Hacker-Clube/events/245572430/
+[2017-12-05 19:58:10] Não é que acabou... apenas ampliou o escopo
+[2017-12-05 20:20:11] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_50945793963590110.webp
+[2017-12-05 20:32:56] Oia
+[2017-12-05 20:32:57] Valeu mano
+[2017-12-05 20:41:02] Pokémon Yellow
+[2017-12-05 20:58:33] Fernando joined
+[2017-12-05 20:58:34] Hi Fernando !
+[2017-12-05 21:55:15] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804729156_65606.jpg
+[2017-12-05 21:55:15] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804723451_88609.jpg
+[2017-12-05 21:55:15] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804724793_87436.jpg
+[2017-12-05 21:55:15] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806120425_3761.jpg
+[2017-12-05 21:55:15] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804725451_86292.jpg
+[2017-12-05 21:55:15] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804726011_66913.jpg
+[2017-12-05 21:55:35] Aula 4 Eletrônica criativa #SescStoAmaro
+[2017-12-05 21:57:07] @Triatebr, por acaso vc está em um grupo chamado HackathonNews no wpp?
+[2017-12-05 21:58:13] Que legal. Você que está dando essa aula?
+[2017-12-05 21:58:46] Não conheço esse YwRobot o que é?
