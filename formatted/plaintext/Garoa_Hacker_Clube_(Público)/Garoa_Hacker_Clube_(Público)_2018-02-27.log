@@ -1,0 +1,495 @@
+[2018-02-27 00:35:16] Leak, do leak, do leak
+[2018-02-27 02:58:49] Alguem tem contato para Memória RAM com preço bom?
+Pente de 16GB ECC REG DDR3 1066/1333MHz
+[2018-02-27 04:46:03] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806119559_49594.jpg
+[2018-02-27 04:46:40] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804726302_118705.jpg
+[2018-02-27 07:49:02] Vc consegue fazer isso com um LED no pino de encher o pneu, coloca a bateria junto e pronto, tem umas soluções dessa no ali
+[2018-02-27 08:31:44] Isso é tenso, o da bike é mais fácil, tem uns pau de led no Garoa, da pra vc desmontar e montar na bike
+[2018-02-27 09:46:29] https://youtu.be/T44XOHfby_0
+[2018-02-27 10:27:25] Eu tinha um fornecedor aqui http://www.scarcom.com.br/ que fazia um preço legal, era o Luciano. Talvez ainda tenha, faz um tempinho que não compro com ele mas na época era um pouquinho abaixo da média.
+[2018-02-27 11:25:59] achei bem legal este artigo: https://dl.acm.org/citation.cfm?id=2999546
+[2018-02-27 11:26:42] me lembrou um papo que o @eduoda estava tendo sobre "se tornar" matemático
+[2018-02-27 12:35:08] Tks
+[2018-02-27 12:59:01] To querendo fazer uma oficina na HOPE (Hackers On Planet Earth) em Julho de como instalar um raspberry pi para rodar um Tor relay (non-exit), com todas configurações de segurança para manter seguro, mas preciso fazer uma oficina de teste... Alguém se interessa se eu fizer uma no Garoa?
+[2018-02-27 13:00:16] Tudo que precisaria levar é um RasPi (modelo 2 ou 3, o primeiro é mto lento), adaptador wifi ou ethernet, e um PC
+[2018-02-27 13:01:09] É uma intro legal pra quem nunca teve um servidor pessoal e não sabe como configurar firewall e outras coisas, ou como usar ssh, etc
+[2018-02-27 13:13:28] Faz o mesmo esquema da oficina tvbgone
+[2018-02-27 13:13:40] Coloca na wiki
+[2018-02-27 13:13:46] E divulga
+[2018-02-27 13:41:36] Só precisa combinar com um associado, para abrir o lugar no dia...
+[2018-02-27 14:34:07] valeu pelos links gente vou fazer os role
+[2018-02-27 14:37:33] Idéia bem legal!!! Ia ser massa fazer isso no Garoa e vc pode também propor para a CryptoRave!
+[2018-02-27 14:38:53] Pensei na CryptoRave, mas quase ctz não vou estar aqui...
+[2018-02-27 14:39:12] Falando nisso, todos já colaboraram com o catarse deles?
+[2018-02-27 14:39:53] https://www.catarse.me/cryptorave2018
+[2018-02-27 14:47:10] topo
+[2018-02-27 14:49:31] Tenho interesse 👀
+[2018-02-27 14:51:32] Massa
+[2018-02-27 15:03:58] Eu rodo um Relay de Tor e um de I2P...
+Tava falando com o @fernandoGuisso justamente de fazer uma Oficina disso desde antes da CP
+[2018-02-27 15:04:35] Haha massa :)
+[2018-02-27 15:04:35] E, BTW: Tenho Kit de RPi 3 a venda, para quem quiser adquirir. PVT-ME
+[2018-02-27 15:04:36] tava, nem lembro? to aguardando o BTS mesmo
+[2018-02-27 15:04:55] BTS?
+[2018-02-27 15:06:08] Outra parada...
+[2018-02-27 15:07:04] 🤔 tenho impressão que o Fernando Guisso não tava being excellent
+[2018-02-27 15:07:09] 😂
+[2018-02-27 15:07:45] why not? BTS pra estudar as rede, ninguém falou de atacar os amiguinhos
+[2018-02-27 15:08:39] Hahaha, entendi errado mesmo, exquece
+[2018-02-27 15:09:43] Não tava... Tá cobrando o amiguinho aqui em Publico! rs
+[2018-02-27 15:10:20] é por uma boa causa, as pessoas precisam saber oq é um BTS e a gente tem q montar uma atividade
+[2018-02-27 15:10:35] LimeSDR ta ai, só esperando, se quiser emprestar, aceito
+[2018-02-27 15:11:57] Pqp, quero testar seu sdr... To pra comprar um há tempos...
+[2018-02-27 15:12:19] Teve uma palestra no 34C3 sobre como usar sdr pra detectar bugs...
+[2018-02-27 15:12:43] E tem um projeto no hackaday de uma bug usando bateria CR2032 que tava louco pra fazer e testar um com o outro
+[2018-02-27 15:13:32] Já é, então! Temos 3 interessados em uma atividade de SDR
+[2018-02-27 15:14:19] Passa o link ai
+[2018-02-27 15:15:24] https://hackaday.com/2018/02/21/an-especially-tiny-and-perfectly-formed-fm-bug/
+[2018-02-27 15:15:41] Tava digitando já, kkkk
+[2018-02-27 15:18:15] Awesome
+[2018-02-27 15:19:16] inclusive quero
+[2018-02-27 15:20:40] https://media.ccc.de/v/34c3-8735-spy_vs_spy_a_modern_study_of_microphone_bugs_operation_and_detection
+[2018-02-27 15:20:57] @Ispangler
+[2018-02-27 15:21:57] A talk foi meio desapontadora, eles na real testaram apenas com bugs q vc compra da China, mas tem software pra rodar e detectar com SDR e funcionou melhor que os detectores tbm vendidos na China
+[2018-02-27 15:22:09] Enzzo joined
+[2018-02-27 15:22:43] to interessado tbm nos sdr da vida tudo
+[2018-02-27 15:22:52] Lucas Teske joined
+[2018-02-27 15:23:16] Melior Bug (feat. Theremim):
+https://hackaday.com/2015/12/08/theremins-bug/
+[2018-02-27 15:23:21] ano passado teve uma palestra de sniffing de celulares com sdr na cryptorave
+[2018-02-27 15:23:21] +1 SDR. Mas dependo de datas para ir para SP
+[2018-02-27 15:23:30] eu to caçando o palestrante
+[2018-02-27 15:23:40] pq quero os conteudo
+[2018-02-27 15:23:41] kk
+[2018-02-27 15:24:04] se ele for de sp vou pedir para ele propor algo no garoa tbm
+[2018-02-27 15:24:13] Foi um tiozão? Ultima Talk do 1º dia?
+[2018-02-27 15:25:07] nao fui ano passado :/, tava só vendo o conteúdo que costuma ter no evento pra submeter minha palestra e me interessei postumamente
+[2018-02-27 15:26:04] 🙋🏻‍♂️
+[2018-02-27 15:27:06] Acho que deve ser... É um tiozão gente fina. Ele esqueceu o SDR dele e Eu emprestei o meu pra ele na parte do Demo
+[2018-02-27 15:28:01] carai, vou entrar em contato e pedir para ele repetir o conteúdo no garoa
+[2018-02-27 15:29:11] Foi bem básica. O cara é um Entusiasta/Curioso. Ele é funcionário Publico e brinca com isso nas horas vagas
+[2018-02-27 15:30:11] Mas foi BEM engraçada... Diz aí, @paul1st4rd0x (tava com nóis nessa, @vmesel?)
+[2018-02-27 15:30:27] nope
+[2018-02-27 15:31:10] O Zézão tava com nóis lá... Acho que o @paul1st4rd0x inventou de ver a Talk do "Camada 8"
+[2018-02-27 15:32:40] Interessado no SDR ainda.
+[2018-02-27 15:32:44] Outro
+[2018-02-27 15:34:27] The Thing é massa, mas o problema é manter um transmissor apontado pra ela, não é baixa potência...
+[2018-02-27 15:35:40] kkk é bom que a gente da uma viajada junto com ele
+[2018-02-27 15:35:58] tenho zero teorias de sdr
+[2018-02-27 15:36:06] mas do umas viajada ndkqiwnfnc
+[2018-02-27 15:36:27] talvez não seja mas, talvez seja por isso HAHAHA
+[2018-02-27 15:44:41] Decidi que irei me comunicar com as pessoas por meio da lista de emails do Garoa ou por meio de interações pessoais lá no próprio clube. Estou saindo de todos os grupos de Telegram relacionados ao Garoa.
+[2018-02-27 15:44:42] https://www.youtube.com/watch?v=4VdO7LuoBzM
+[2018-02-27 15:45:32] https://garoa.net.br/wiki/Usu%C3%A1rio:Juca/Canais_de_comunica%C3%A7%C3%A3o
+[2018-02-27 15:49:55] https://ideias.mercadolivre.com.br/insights/freteabusivonao/
+[2018-02-27 15:51:03] vão privatizar os correios mesmo
+[2018-02-27 15:51:51] se fosse privatizar nao seria aumentar o frete
+[2018-02-27 15:52:01] teria um frete caro pra qm quer urgencia
+[2018-02-27 15:52:30] o que nao entendo eh como um monopolio quebra
+[2018-02-27 15:52:59] Pensando aqui: Talvez, e aqui é um "talvez gigante", seja uma boa...
+Uma vez que deixa de ser "estatal" cai o monopolio sobre entrega de documentos.
+Teoricamente (Digo teoricamente pq a maioria dos conceitos nào funcionam no Brasil) o Livre Mercado pode fazer os preços descerem
+[2018-02-27 15:56:15] trocaria o talvez pelo teoricamente. falaram isso das passagens né, e olha no que deu.
+[2018-02-27 15:56:50] Que passagens?
+[2018-02-27 15:56:57] de avião
+[2018-02-27 15:57:15] RT
+[2018-02-27 15:57:44] Azul pratica um preço menor, se vc não se importar de ir até Campinas
+[2018-02-27 15:58:14] Duvido, acredito que numa livre concorrencia, uma segunda empresa entraria no mercado com preço similares, prometendo qualidade de serviço, com um marketing ah la Doria, o que faria 90% das pessoas comprarem a ideia
+[2018-02-27 15:58:41] depois de alguns meses, o QoS disso sumiria, ficando duas empresas cobrando caro por serviços ruins
+[2018-02-27 15:58:45] As viagens nacionais agora não cobrem envio de bagagem, somente bagagem de mão. Bagagem é paga separadametne para quem quer/pode.
+Essa mudança supostamente traria os preços para baixo mas não foi o que aconteceu na prática.
+Era disso que falava, @corvolino ?
+[2018-02-27 15:58:54] ate que surgira uma terceira empresa com o mesmo marketing
+[2018-02-27 15:59:01] nunca mais vi preço de passagens, só sei que para trocar o nome é maior role, paga para trocar de assento, uns absurdos magnificos
+[2018-02-27 15:59:20] é isso aí
+[2018-02-27 15:59:47] talvez uma sensação de concorrência, como temos em postos de gasolina, telefonia, gás de cozinha deixem as pessoas mais satisfeitas
+[2018-02-27 16:00:05] "acabou o monopolio", vão dizer né
+[2018-02-27 16:00:28] Empresas são "Profit"... Que te empede, além de medo e preguiça, de montar uma Cooperativa e praticar preços justos?
+[2018-02-27 16:01:15] queria ver isso hein
+[2018-02-27 16:01:49] Livre Mercado não funciona = Terra é plana heheheheheheh
+[2018-02-27 16:01:55] temos mais exemplos de coisas estatais cagadas do que coisas privatizadas cagadas
+[2018-02-27 16:02:11] hahahahaha
+[2018-02-27 16:03:06] igual as cooperativas agropecuarias?
+[2018-02-27 16:03:15] @rafaelcamera tá querendo fazer uma de Tor.
+[2018-02-27 16:03:22] Aí podemos ver uma de I2P
+[2018-02-27 16:03:26] que sao obrigadas a se subjulgarem as grandes do mercado?
+[2018-02-27 16:03:51] Mas temos mais exemplos de Estados Fortes com empresas grandes e eficientes/eficazes do que exemplos de Estados Fracos...
+[2018-02-27 16:03:55] sei la, preciso ver isso acontecendo pra deixar de ser cetico, mas faz sentido
+[2018-02-27 16:04:07] no garoa ou na cryptorave?
+[2018-02-27 16:04:26] Ambos, acho...
+[2018-02-27 16:04:54] bão.. ACHO que vou na cryptorave
+[2018-02-27 16:04:56] acho que eh o lance de uma mao lava a outra, o erro eh achar que privado-publico sao coisas totalemente separadas e so pode existir um
+[2018-02-27 16:11:26] Sem entrar na questão política, se a existência de uma UPS, Fedex, DHL, Amazon etc no Brasil melhorasse alguma coisa, não teríamos os resultados que temos pra pesquisa de vídeos
+"[ano] + [nome da empresa] + ["delivery fail]" como temos.
+[2018-02-27 16:21:40] Eu, pessoalmente, acho mais certo melhorar o serviço dos Correios (ou acabar com o mesmo de vez) com uma concorrência privada.
+[2018-02-27 16:22:07] Porque tem coisa que não dá pra entender. Eu pedi uma peça automotiva da China, e demorou menos tempo pra essa peça chegar no BR que pra um eletrônico sair de SP e ir pro Pará.
+[2018-02-27 16:22:30] Ou encomenda minha ficar 10 dias no CTE Jaguaré e 5 dia no CDD do lado de casa - a menos de 2km de casa
+[2018-02-27 16:23:09] Frete é sorte
+[2018-02-27 16:24:38] Fala isso pro Gov...
+[2018-02-27 16:24:54] A forma como os correios calcula o frete, considerando os pontos estrategicos da logistica é desonesta demais, fora todo o descaso por parte dos funcionarios dos correios, como ja postaram videos aqui mesmo no grupo deles jogando encomendas
+[2018-02-27 16:25:37] Os funcionarios são os que mais se fodem
+[2018-02-27 16:26:03] Que dificilmente serão exonerados por isso. Se fosse uma Empresa Privada, teriam rodado
+[2018-02-27 16:27:14] Correio do Brasil é um dos primeiros do mundo, era uma referencia de bom funcionamento, hj em dia tá essa joça pois vão querer privatizar a preço de banana e quem intermediar isso vai levar seu faz-me-rir no bolso
+[2018-02-27 16:29:37] Acho até legal privatizar, mas não nessa situação
+[2018-02-27 16:30:21] gostaria de ver o correio dando lucro e o pessoal falando bem, mas...
+[2018-02-27 16:30:22] podem manter o correios publico, mas tira os impostos abusivos pras outras entrarem, ai desafoga o correios ja que so tem mao de alface la
+[2018-02-27 16:30:27] A resposta é "monopólio estatal"...
+[2018-02-27 16:30:44] Sabe o q cairia bem hj?
+[2018-02-27 16:30:55] yeap
+[2018-02-27 16:30:57] heheheheheheheheheh
+[2018-02-27 16:31:29] Privatizar é bom sempre !
+[2018-02-27 16:31:46] Na sua visão :/
+[2018-02-27 16:32:54] Tem a questão política também
+[2018-02-27 16:33:00] Olha só isso
+[2018-02-27 16:33:10] https://www.correioscelular.com.br/plano
+[2018-02-27 16:33:32] Pra que investir em telefonia celular?
+[2018-02-27 16:33:53] Logistica de Encomendas, na maioria dos paises tem a sua versão estatal, a pergunta é: só aqui não funciona bem? Pq?
+[2018-02-27 16:33:55] Ah, mas tem uma empresa privada que vai prover o serviço de infraestrutura pros correios.
+[2018-02-27 16:34:22] Tá na cara que tem algum político lucrando com isso
+[2018-02-27 16:34:32] Sjoerd Timmer joined
+[2018-02-27 16:34:32] eles usam a infra já existente
+[2018-02-27 16:34:36] Operadora de celular foi um tiro no pé
+[2018-02-27 16:34:40] a IURD tem telefonia
+[2018-02-27 16:35:12] igreja tem mais dinheiro que qlqr coisa
+[2018-02-27 16:35:12] Acho que é MNO
+[2018-02-27 16:35:39] a universal tem sua propria financeira e banco, inclusive maquinas de cartao homologadas como universal
+[2018-02-27 16:35:52] porisso ja falei pro garoa virar igreja
+[2018-02-27 16:35:58] so temos que definir ql deus ou deusa
+[2018-02-27 16:36:25] acho isso bem da hora hahaha
+[2018-02-27 16:36:30] não tem como escapar
+[2018-02-27 16:36:54] Hey people, tonight "processing night"? Is that still on?
+[2018-02-27 16:37:53] Yes, it is...
+[2018-02-27 16:38:10] does it include collective pizza ordering?
+[2018-02-27 16:38:35] I think so
+[2018-02-27 16:38:46] Um carteiro falou pro porteiro do prédio onde moro que estão com poucos funcionários e no início de ano tem muita gente de férias. Não estão dando conta de fazer triagem
+[2018-02-27 16:39:13] gest~ao pika
+[2018-02-27 16:39:40] Cool. I'll be there around 19
+[2018-02-27 16:39:44] Pessoal, uma dúvida: como já manifestei outras vezes, não entendo porcarias de eletrônica, mas tenho vontade de aprender. Quero eleger um projetinho pra me motivar: acham que fazer o controle remoto do DVD de casa (pois eu perdi o controle original) que eu perdi é relativamente fácil?
+[2018-02-27 16:42:01] Não recomendo como primeiro projeto.
+[2018-02-27 16:42:15] putz, achei que era facil
+[2018-02-27 16:42:21] vou escolher outra coisa entao
+[2018-02-27 16:42:37] Pq vc vai ter que programar os sinais que o Led IR tem que enviar
+[2018-02-27 16:43:15] Tem Arduino?
+[2018-02-27 16:43:52] tenho, mas minha ideia era fazer algo sem microcontrolador ou computador (ou usa-los só como ferramenta auxiliar)
+[2018-02-27 16:44:10] mas posso usa-los tbm
+[2018-02-27 16:44:12] alguma sugestao?
+[2018-02-27 16:44:21] hum...
+[2018-02-27 16:44:25] Você pode montar um tv b gone, sem entender. Depois estudar o código e tentar mudar.
+[2018-02-27 16:44:42] um amplificar de audio pode ser um bom começo...
+[2018-02-27 16:44:49] a parte de software pra mim nao seria a mais complicada, mesmo sendo de baixo nivel
+[2018-02-27 16:45:30] pode ser! eh que não vejo muita aplicação para meu dia-a-dia, diferente do controle remoto
+[2018-02-27 16:45:33] Não vai ser trivial, vai ter que quebrar cabeça
+[2018-02-27 16:45:46] Mais um aqui
+[2018-02-27 16:45:50] ☝️
+[2018-02-27 16:45:59] o controle vc vai ter que programar
+[2018-02-27 16:46:13] a eletronica é relativamente facil
+[2018-02-27 16:46:29] o chato é todo aquele pad de borracha e tal
+[2018-02-27 16:46:37] melhor comprar um paralelo
+[2018-02-27 16:46:49] Acho que estamos precisando algo pra juntar as pessoas por projeto/interesse
+[2018-02-27 16:46:49] Tem muita gente e conversa cruzada qui
+[2018-02-27 16:47:28] o objetivo é que as pessoas que tenham interesse em comum se encontrem :)
+[2018-02-27 16:49:29] Nunca vai deixar de existir um geral
+[2018-02-27 16:49:52] Meus interesses estão na minha página da wiki, assim como meus contatos para conversar sobre
+[2018-02-27 16:51:06] MVNO
+[2018-02-27 16:51:25] nao entendi
+[2018-02-27 16:51:45] "Acho que estamos precisando algo pra juntar as pessoas por projeto/interesse
+ Tem muita gente e conversa cruzada qui"
+[2018-02-27 16:58:06] https://imgflip.com/i/25clap
+[2018-02-27 16:59:03] me passa a sua pagina?
+[2018-02-27 16:59:04] https://sistema-tesouraria.herokuapp.com/
+[2018-02-27 16:59:27] https://garoa.net.br/wiki/Usu%C3%A1rio:Gutem
+[2018-02-27 17:03:19] Os Correios americano também está indo para o brejo
+[2018-02-27 17:03:29] legal a pagina
+[2018-02-27 17:03:50] bem, se alguem topar ser o meu tutor pra um mini projeto poderíamos começar
+[2018-02-27 17:04:05] tutor/mentor
+[2018-02-27 17:08:15] Faz como eu, fui cursar Eletrônica na ETEC na rua de trás do Garoa.
+[2018-02-27 17:08:48] cara, tava pensando nisso
+[2018-02-27 17:09:07] mas nao sei se tenho saco pra aguentar por 2 anos uma sala com um monte de molecada
+[2018-02-27 17:09:14] O SENAI tem curso rápido de Eletrônica Analógica é Eletrônica Digital.
+[2018-02-27 17:09:18] Monopólio pra cartinhas que ninguém manda mais...
+[2018-02-27 17:09:50] É só usar uma distribuidora privada
+[2018-02-27 17:10:17] com 350% de imposto?
+[2018-02-27 17:10:25] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_538462764318851795.webp
+[2018-02-27 17:11:50] Exatamente
+[2018-02-27 17:12:30] O que eu quero colocar é que, para serviços que geram receita de fato, os correios não detém monopólio
+[2018-02-27 17:12:41] Há muito tempo
+[2018-02-27 17:13:09] Assim como os bancos públicos não detém monopólio do serviço bancário
+[2018-02-27 17:13:30] E a Petrobras não possui monopólio do refino de combustíveis
+[2018-02-27 17:13:35] Todo documetno oficial é monopolio do Correio... Desde o teu Passaporte até as Cartas de Cobranças quando tu tá devendo na Praça!
+[2018-02-27 17:13:54] Isso foi derrubado na época de FHC
+[2018-02-27 17:14:04] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_272479773299572978.webp
+[2018-02-27 17:14:06] Exatamente
+[2018-02-27 17:14:08] Não, não foi...
+[2018-02-27 17:14:18] ainda bem que somos hackers
+[2018-02-27 17:14:24] Cartinhas que poucos usam
+[2018-02-27 17:15:20] STF derrubou, no ano seguinte, o que o FHC determinou
+[2018-02-27 17:15:31] O monopólio que os correios detém é quase inútil.
+[2018-02-27 17:16:12] Queria ver os números de faturamento dessas cartinhas comparado aos serviços que não são monopólio
+[2018-02-27 17:16:26] Problema é que ele dá prejuizo, né?
+[2018-02-27 17:16:55] Sim
+[2018-02-27 17:17:42] O mais lógico seria separar os serviços essenciais para a população dos serviços que qualquer empress pode oferecer
+[2018-02-27 17:18:09] Os correios ficariam com os serviços essenciais e o resto iria pra iniciativa privada
+[2018-02-27 17:18:56] Os correios são necessários nas áreas remotas do país, cujo serviço não dá lucro de jeito nenhum
+[2018-02-27 17:19:07] Mas é dispensável nas grandes metrópoles
+[2018-02-27 17:21:03] Definitivamente, não entendi tua lógica... 
+A não ser que ela seja: "Estatiza o Prejuizo. Privatiza o Lucro".
+[2018-02-27 17:22:05] Eu pessoalmente defendo a ideia de uma gestão publica eficiente, e de empresas públicas que dao lucro
+[2018-02-27 17:22:50] Mas pressupondo a ideia de que não é papel do Estado entregar o Iphone que você comprou pela internet
+[2018-02-27 17:25:29] No mínimo, o estado tem que garantir meios mínimos de comunicação, mesmo que você seja um ribeirinho e que, se o estado não arcasse com o custo de infraestrutura de entrega de cartas, a entrega delas poderia custar uma boa fração do que você ganha coletando peixes e vendendo na economia local, caso a iniciativa privada assumisse a entrega em locais tão remotos
+[2018-02-27 17:25:51] Na real, no Garoa, não vou estar aqui na Cryptorave
+[2018-02-27 17:26:49] Sonhar é muito bom, mas a realidade é bem diferente.
+[2018-02-27 17:26:57] Pois é
+[2018-02-27 17:26:58] O problema é que os correios não apenas "cartinhas" tem N serviços de utilidade PUBLICA, como emissão de documentos, serviço de banco em cidade que sequer tem agencia privada
+[2018-02-27 17:27:16] Exatamente
+[2018-02-27 17:27:42] Diria que um correios estatal é quase obrigação para uma democracia funcional
+[2018-02-27 17:27:48] O pessoal tem esse sonho de que tudo que é privado funciona bem e tudo que é estatal é aparelhamento
+[2018-02-27 17:28:05] A gente tem que ter o olhar do ribeirinho e do sertanejo nessas horas. Nossa vida em centros de economia metropolitana é muito fácil
+[2018-02-27 17:28:11] Beira a ingenuidade até
+[2018-02-27 17:28:52] Concordo com as ideias do Juca, extremamente importante documentar decisões importantes na wiki/mailing
+[2018-02-27 17:28:56] Vai pregar ausência do Estado na cidade mais seca do Piauí.
+[2018-02-27 17:29:00] Se aqui tá uma bosta imagina o ribeirinho
+[2018-02-27 17:29:07] Qualquer gestão que não sofrer a pressão da competição, vai se tornar ineficiente.
+[2018-02-27 17:29:27] Vou colocar o workshop na Wiki
+[2018-02-27 17:30:34] Eu to precisando do kit do tv b gone....fiquei sem por causa da treta do led
+[2018-02-27 17:30:48] Tiago, resolvendo isso até quinta
+[2018-02-27 17:31:04] quero um tambem :)
+[2018-02-27 17:31:12] Vou levar lá uns kits e deixar no Garoa
+[2018-02-27 17:31:18] quem vendem? envia pelos correios?
+[2018-02-27 17:31:22] /me runs
+[2018-02-27 17:31:22] Preciso só combinar com alguém pra receber
+[2018-02-27 17:31:24] Valeu, os menino bão vão me ajudar a montar
+[2018-02-27 17:31:27] mentira, to aqui, ainda quero
+[2018-02-27 17:31:37] A concorrência no caso das encomendas causou um belo efeito de trazer empresas que entregassem encomendas em qualquer parte do país sqn
+[2018-02-27 17:31:50] isso, aprende e cola no lhc dar oficina que vou la
+[2018-02-27 17:32:32] Clarp, o negocio e aprender e propagar
+[2018-02-27 17:32:46] Como fazemos pra comprar? Com o associado que estiver lá?
+[2018-02-27 17:33:15] Vou resolver e anuncio aqui
+[2018-02-27 17:33:39] Pior dos casos, mando um link pra pagar na web e deixo numa caixa lá e aviso no private onde tiver
+[2018-02-27 17:34:30] Qualquer venda que houver de agora em diante pra galera do Garoa 10% vira doação pro Garoa
+[2018-02-27 17:34:49] Não é muito mas quero ajudar mais
+[2018-02-27 17:35:16] la pelo dia 10 vou pra sp, se gerar o link ja deixo pago e quando for pego no garoa :)
+[2018-02-27 17:35:18] a oficina ja foi bem bacana
+[2018-02-27 17:35:31] a menos que eu leve o azar de estar fechado quando eu for de novo kkk
+[2018-02-27 17:35:42] mas dai peço pra alguem pegar pra mim la e me mandar :)
+[2018-02-27 17:41:50] Blz :)
+[2018-02-27 17:43:43] Muito obrigado! Mas ainda assim, ainds precisamos de grana pra manter o espaço aberto e crescendo ;)
+[2018-02-27 17:44:59] s/precisamos de/é necessário
+[2018-02-27 17:55:59] no way!!! fiquei la com voces até o final do sdr... ele era engraçado demais.. zezao ficou doido pq a gente não parava de rir...
+Mas foi show de bola o tiozão
+[2018-02-27 17:56:19] Layer8 👎🏻
+[2018-02-27 17:58:19] Garoa um brinco
+[2018-02-27 17:58:38] Parabéns pra quem ajudou a arrumar ontem
+[2018-02-27 17:58:58] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804725635_143456.jpg
+[2018-02-27 17:59:19] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806123009_49031.jpg
+[2018-02-27 18:00:05] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804725065_143608.jpg
+[2018-02-27 18:03:17] 🤩
+[2018-02-27 18:23:10] Depois da CPI dos Correios, da declaração do então deputado Roberto Jefferson, do Mensalão, aparelhamento é pouco.
+[2018-02-27 18:27:17] O que eu estava falando era de como o correio é necessário, mas politicamente serviu como moeda de troca de favores, acabou sendo gerido por incopetentes sem a minima noção do que estavam fazendo.
+[2018-02-27 18:28:16] mas enfim, é um papo fora do nosso escopo aqui. 😔
+[2018-02-27 18:29:12] @agaelebe e @Yumizinha 👏👏👏👏
+[2018-02-27 18:29:42] LOL, mas eu nao fiz nada ontem (eu só não aumentei a bagunça)
+[2018-02-27 18:29:58] na verdade, fiz uma coisa que o pessoal tem esquecido: colocar os sacos de lixo na rua.
+[2018-02-27 18:30:07] já é muito em tempos sombrios
+[2018-02-27 18:30:35] E o @anchisesbr vai me pagar uma pizza no próximo CMC :)
+[2018-02-27 18:30:47] Concordo
+[2018-02-27 18:30:54] A breja pretinha já acabou ?
+[2018-02-27 18:30:54] ++
+[2018-02-27 18:37:35] Tinha só 3 garrafas na sábado.
+[2018-02-27 18:44:16] ja deve ter acabado então .
+[2018-02-27 18:50:57] Mas essa Stout ficou muito top. Eu estava com muito receio que não tinha carbonatado direito
+[2018-02-27 18:52:52] Ainda tem?
+[2018-02-27 18:53:11] Ah, agora vi que acabou
+[2018-02-27 18:53:16] Que pena :/
+[2018-02-27 18:53:29] Encorajo a fazerem mais :3
+[2018-02-27 18:53:46] Dia 03/03 as 9h
+[2018-02-27 18:54:29] Excelente :D
+[2018-02-27 18:55:04] As brejas de vocês que experimentei foram muito boas, realmente tem, qualidade
+[2018-02-27 18:55:59] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_4949470224001794069.ogg
+[2018-02-27 18:56:27] 😍
+[2018-02-27 18:58:50] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_150229821346022327.webp
+[2018-02-27 19:36:03] Breja
+[2018-02-27 19:36:16] Alguém disse Breja
+[2018-02-27 19:51:08] Sim...teremos uma brassagem sabado 03/03 a partir das 09:00, provavel rolar uns comes e bebes durante os trabalhos.
+[2018-02-27 19:54:18] Um dia ainda trago a breja de churros pra vcs beber uai
+[2018-02-27 19:54:34] Correio rebatendo o que o Mercado Livre publicou: https://www.facebook.com/correios/posts/1635953523154856
+[2018-02-27 20:02:23] Gente do céu! É amarga demais!
+[2018-02-27 20:03:36] Nada...stout é assim mesmo, uma black ipa é bem mais puxada
+[2018-02-27 20:21:00] Verdade
+[2018-02-27 20:28:15] https://static.fjcdn.com/pictures/Title+why+oh+why+didnt+i+take+the+blue+pill_c2500d_4574457.jpg
+[2018-02-27 20:28:28] Na próxima vamos fazer uma mais leve. Uma Pilsen
+[2018-02-27 20:30:14] Não era lager ?
+[2018-02-27 20:30:40] Toda Pilsen eh Lager .... Mas nem toda Lager eh Pilsen 😉
+[2018-02-27 20:31:48] Ale e Lager são os tipos de levedura.
+[2018-02-27 20:43:21] Miguel Soares joined
+[2018-02-27 20:43:24] oi galera
+[2018-02-27 20:43:28] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_1647879278169161775.webp
+[2018-02-27 20:43:51] felipe braz joined
+[2018-02-27 20:43:51] Miguel Soares added Junior
+[2018-02-27 20:44:02] :)
+[2018-02-27 20:44:06] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_4949470224001794071.png
+[2018-02-27 20:44:17] Galera da Noite de Processing :D
+[2018-02-27 20:44:34] Sim sim...tem uns tipo doido de lager, processo meio demorado e trabalhoso
+[2018-02-27 20:44:35] Aliás ainda tem Stout pra vender? :P
+[2018-02-27 20:45:03] Acabou, se tiver é a filha unica
+[2018-02-27 20:45:07] tinha duas na geladeira
+[2018-02-27 20:45:32] Ufa!
+[2018-02-27 20:45:43] Espero q de tempo de ir lá prestigiar hehe
+[2018-02-27 20:46:01] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804723510_145988.jpg
+[2018-02-27 20:46:13] Tamos fazendo um bomberman
+[2018-02-27 20:49:52] aff que top
+[2018-02-27 20:52:31] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_272479773299572978.webp
+[2018-02-27 21:01:02] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806124686_49908.jpg
+[2018-02-27 21:01:02] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806117727_49790.jpg
+[2018-02-27 21:01:06] Display OLED
+#arduino #IOT #arduinonano 
+https://github.com/triatebr/aprenda-arduino
+[2018-02-27 21:04:03] Fiz minha contribuição 😀👍
+[2018-02-27 21:37:41] Alguém aqui usa o https://burles.co ?
+[2018-02-27 21:58:06] http://www.aholme.co.uk/GPS/Main.htm
+Muito bem documentado e interessante... Reciever de GPS caseiro
+[2018-02-27 22:45:22] Gosto!
+[2018-02-27 22:46:31] Agora que sei dele, vou usar quando precisar... rs
+[2018-02-27 22:46:45] Código vai pro Github?
+[2018-02-27 22:47:20] Sim
+[2018-02-27 22:51:12] Alooo, alguem pra me dar uma dica sobre dnsspoof?
+[2018-02-27 22:54:13] oi, pergunta ai, se a gente souber responde :)
+[2018-02-27 23:16:04] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_147119960081039388.webp
+[2018-02-27 23:16:19] 😉👍
+[2018-02-27 23:17:04] Eu estou criando o fake ap certinho, só que os sites https nao sao redirecionados para minha pagina, so os http.
+[2018-02-27 23:17:15] Isso é por conta do hsts, certo?
+[2018-02-27 23:17:31] Nao consegui resolver essa parte ainda
+[2018-02-27 23:17:59] Ja tentei dnschef, mitmf e pwnstar
+[2018-02-27 23:18:05] Sem sucesso ate agora
+[2018-02-27 23:18:17] Se alguem tiver alguma dica do que posso pesquisar...
+[2018-02-27 23:18:28] Vlw
+[2018-02-27 23:24:12] Vai sim
+[2018-02-27 23:28:31] isso não cheia a algo que o garoa apoia... 😶
+[2018-02-27 23:29:04] 😂
+[2018-02-27 23:29:07] Hmm, eu aprendi num curso de pentest até aqui.
+[2018-02-27 23:29:36] Alguém manja dos dados ai? Dia 3/03 é open data day pelo mundo afora, alguma ilustre pessoa poderia dar tutorial de alguma ferramenta de data science.
+
+To tropeçando ainda no Python, se eu manjasse mais eu mesmo faria algo do gênero.
+[2018-02-27 23:30:49] Sem intencoes maliciosas, rs eu comecei a fazer os cursos de pentest pq o lugar onde trabalho foi atacado, entao comecei a estudar...
+[2018-02-27 23:31:14] Preocupa não vou dar umas vídeo conferência e mostrar as maldades kkk mas é para fins puramente didáticos e científicos dentro de segurança ofensiva.
+[2018-02-27 23:31:33] 😉👍
+[2018-02-27 23:31:43] 👍👍
+[2018-02-27 23:31:49] @clockwisehorror tu não manja de raspagem de dados aí pra fazer um tutorial no Garoa?
+[2018-02-27 23:31:59] Obrigado, :-)
+[2018-02-27 23:35:39] Compartilhando a história que me trouxe até aqui, alguem que nao encontraram rastros conseguiu colocar um backdoor num server pelo apache, e comecou a colocar servidores para minerar bitcoin. Nao conseguiam arrumar a vulnerabilidade do apache e quando matavam o "virus" do sujeito, ele tinha sempre uma copia em outro canto.
+[2018-02-27 23:36:19] So solucionaram clonando um dos ambientes que estava limpo e subindo em paralelo, desligaram o infectado e subiram uma copia do clone.
+[2018-02-27 23:36:32] Eita
+[2018-02-27 23:36:46] Eu como q.a. apenas recebi essas informacoes e tive que retestar as coisas nos ambientes novos
+[2018-02-27 23:37:10] Que episódio de mr robot é esse?
+[2018-02-27 23:37:24] Eu tenho uma idéia do que ele pode ter feito
+[2018-02-27 23:37:36] Nesse cenario, vi que contrataram uma galera forense, que nao conseguiu dar jeito em nada, embolsou uma grana e vazou
+[2018-02-27 23:37:39] Mas não como explicar direito
+[2018-02-27 23:38:05] Não me contratou já era kkkk
+[2018-02-27 23:38:28] Entao, eu nao tenho como contar mais afundo pq sou a ultima ponta da corda rs
+[2018-02-27 23:38:36] A fundo*
+[2018-02-27 23:38:46] Kkk
+[2018-02-27 23:38:53] Na epoca ainda nao conhecia o garoa
+[2018-02-27 23:39:14] Logo no 1º
+[2018-02-27 23:39:20] Eu fiquei impressionado, pq ate então nao acreditava que fosse possivel esse tipo de ataque
+[2018-02-27 23:39:54] Já pensei em dar umas web de forense computacional será que dá ibope isso?
+[2018-02-27 23:40:03] Gente pra assistir
+[2018-02-27 23:40:21] dá
+[2018-02-27 23:40:21] E tb ninguem foi atras de nada, inclusive suspeito que alguem de dentro possa estar envolvido
+[2018-02-27 23:40:27] mas vão pedir para hacker feissebuqui
+[2018-02-27 23:40:40] hum
+[2018-02-27 23:40:47] Dá sim, tá na moda isso... Prepara aí
+[2018-02-27 23:41:12] Pode ser
+[2018-02-27 23:41:44] Só se for interceptando cookie pra tirar onda kkkl
+[2018-02-27 23:41:51] Zoa
+[2018-02-27 23:41:52] Entao pensei, po temos sempre testes funcionais, de stress, smoke e etc
+[2018-02-27 23:42:06] Tem de sec?
+[2018-02-27 23:42:06] Mas nunca checam seguranca de nada
+[2018-02-27 23:42:17] Opa uma vaga de emprego aí
+[2018-02-27 23:42:19] classico
+[2018-02-27 23:42:26] tem que investigar né
+[2018-02-27 23:42:38] Sim, tb pensei nisso
+[2018-02-27 23:42:39] Posso ensinar um algoritmo de aprendizado de máquina.
+K-means.
+[2018-02-27 23:43:01] Ai comecei a me matar de estudar, é bem dificil pra mim
+[2018-02-27 23:43:09] tu ta falando pqw quer ajuda? ou dica? ou contratar alguem?
+[2018-02-27 23:43:11] Lógico
+[2018-02-27 23:43:39] Nao, to contando o pq de eu comecar a estudar e tentar entender as coisas
+[2018-02-27 23:43:58] Aprender a identificar brechas e como tampar esses buracos
+[2018-02-27 23:44:02] Redes
+[2018-02-27 23:44:24] A parte do fake ap é so pq nao consegui fazer com as ferramentas ensinadas no cursico
+[2018-02-27 23:44:28] É que temática é mais sobre dados abertos e não data science em si, se ninguém mais aparecer para oferecer algo nesse dia, tu mesmo pode oferecer esse conteúdo, mas não necessariamente no dia 3
+[2018-02-27 23:45:07] As coisas passam pela rede, cada pacote, cada registro, pode dar pistas sobre como foi feito.
+[2018-02-27 23:45:18] nos sabados o grupo de ctf as vezes pega umas VMs com casos de forense pra localizar as coisas
+[2018-02-27 23:45:38] Ahh, esse caso eu ja acho que nao tem mais como descobrir nada
+[2018-02-27 23:45:39] nao existe forma magica, mas o primeiro passo eh saber bastante do sistema
+[2018-02-27 23:46:21] Eu gostaria de aprender mais para evitar que acontecesse no futuro, sei que pra ser forense eu teria um longo caminho
+[2018-02-27 23:46:38] Sim
+[2018-02-27 23:46:51] hardening
+[2018-02-27 23:47:07] Entao, ai conheco pouco de tudo, eu tenho mts anos de t.i., mas boa parte disso foi com mainframe
+[2018-02-27 23:47:17] Entao fiquei muito longe de td o resto
+[2018-02-27 23:47:32] Boa noite pessoal!
+
+Estão abertas as submissões de propostas de tutoriais para a Python Sudeste 2018!!! Dias 30/03, 31/03 e 01/04 em SP.
+
+#pyse2018 #pythonsudeste #naoehmentira
+
+https://speakerfight.com/events/python-sudeste-2018-tutoriais/
+[2018-02-27 23:47:33] Agora tenho corrido atras do prejuizo
+[2018-02-27 23:48:41] Mantenha seus Servidores e as Aplicações que ele roda, Atualizado.
+Instaure uma Politica de Senhas.
+Monitore os Servidores e a Rede.
+Faça Backup diário.
+Mostre pro seu Chefe as cifras de prejuizo e explique por que vale investir em InfoSec.
+[2018-02-27 23:49:43] Familia ISO 27000 é a Norma sobre Segurança da Informação
+[2018-02-27 23:49:57] Concordo
+[2018-02-27 23:50:07] Blz, vou procurar expor isso pra chefia, até tem departamentos de segurança lá, mas creio que estao sendo mais reativos e ficam presos em coisas básicas.
+[2018-02-27 23:50:49] Nao é uma empresa pequena, isso que me asustou ainda mais, pq se alguem grande foi atacado assim e nao se sabe quanto tempo ficou afetado, imagine menores?
+[2018-02-27 23:50:58] Não tem departamento de segurança os caras devem estar ganhando pra ficar no B a ba
+[2018-02-27 23:51:11] Ss, tb acho
+[2018-02-27 23:51:11] Isso é sacanagem
+[2018-02-27 23:51:51] Quando conversei com meu gestor e disse que ia atrás do pentesting, claro que o cara apoiou.
+[2018-02-27 23:52:29] Se a Empresa não tem um "Red Team" (Segurança Ofensiva), maior parte do tempo do Analista de InfoSec é respondendo ticket, geralmente de alteração de senha...
+[2018-02-27 23:52:36] Pessoal acha que um pentester resolve tudo
+[2018-02-27 23:52:57] pentest eh uma das coisas
+[2018-02-27 23:52:58] ehehe
+[2018-02-27 23:53:06] Tem muito pentester que nem sabe redes direito
+[2018-02-27 23:53:15] Hahajajajah
+[2018-02-27 23:53:19] A maioria
+[2018-02-27 23:53:25] Rs acho que nao, mas se eu so conseguisse mostrar o quao expostos estão
+[2018-02-27 23:53:26] e tem muita gente que quer ser pentester sem nem saber direito o que é hahahahah
+[2018-02-27 23:53:34] Nem sabe que o Metasploit é codado em Ruby
+[2018-02-27 23:53:37] é o que a gente mais vê nos eventos por aí
+[2018-02-27 23:53:44] Pq pelo jeito eles nao tem nada de nada
+[2018-02-27 23:53:57] Usa as ferramentas e nem sabe o que elas são
+[2018-02-27 23:54:00] tenho até vergonha de falar que quero ser pentester, porque é a resposta automática que todo mundo que não sabe o que quer dá :|
+[2018-02-27 23:54:03] Tem gente que afirma que Hacker não precisa saber programar... Né não, @vmesel ?
+[2018-02-27 23:54:08] Nem sabem usar direito na realidade
+[2018-02-27 23:54:25] Rodar ferramenta não faz a pessoa ser pentester ;)
+[2018-02-27 23:54:38] T H I S !
+[2018-02-27 23:54:59] Sim
+[2018-02-27 23:55:00] Minha internet não tá deixando eu acompanhar o papo
+[2018-02-27 23:55:05] Bye
+[2018-02-27 23:55:08] Mas muita gente faz isso
+[2018-02-27 23:55:12] Infelizmente
+[2018-02-27 23:55:21] Eu vejo isso nas empresas
+[2018-02-27 23:55:28] +1
+[2018-02-27 23:55:32] O que mais tem por aí é "rodador de ferramenta"
+[2018-02-27 23:55:46] Aí quando dá ruim que vão chamar quem entende pra tentar salvar
+[2018-02-27 23:56:11] Triste
+[2018-02-27 23:56:19] Primeiro IDS/IPS/AV que esbarra já fala que o Sistema tá Seguro pq não sabe nem como tentar dar Bypass
+[2018-02-27 23:56:25] Rs entao, eu devo estar nesse estagio de nao saber direito o que quero ser quando crescer
+[2018-02-27 23:56:28] Meu pensamento é "Não quero aprender a usar uma ferramenta, não quero aperta um botão! Quero saber como as coisas funcionam e porque elas funcionam e em quais situações !" :)
+[2018-02-27 23:56:39] E so saber ler manual e usar
+[2018-02-27 23:56:44] Mas pra mim é a base
+[2018-02-27 23:56:53] Tem gente que ainda acredita que não dá pra fazer nada com LFI/RFI sendo que dá pra fazer RCE com elas...
+[2018-02-27 23:57:08] Pra eu poder pensar em como funcionam e quem sabe poder no futuro desenvolver eu mesmo o que eu precise
+[2018-02-27 23:57:10] mas esse pensamento também é complicado...
+[2018-02-27 23:57:29] Sou só um novato, de tudo.
+[2018-02-27 23:57:35] É pensamento de quem ta começando agora e ta aprendendo a caminhar por conta própria shaushauah
+[2018-02-27 23:57:55] Exatamente!
+[2018-02-27 23:58:23] Qual é a graça de roda uma ferramenta e nem saber o que ela faz?
+[2018-02-27 23:59:03] Eu sei cada coisa que uso e isso dá um panorama legal pra criar
+[2018-02-27 23:59:08] Eu lendo um pouco vi que uma das coisas que hacker deve saber é poupar o tempo do outro hacker, entao se automatizar algo ou adiantar uma parte do trabalho, otimo para todos
+[2018-02-27 23:59:25] Mas concordo que nao da pra ficar ignorante do fundamento de cada coisa
+[2018-02-27 23:59:44] Eu precisei de ferramentas que falharam
+[2018-02-27 23:59:48] Voce automatiza uma tarefa quando precisa fazer mais de uma vez rs pelo menos eo que aprendi.
+[2018-02-27 23:59:49] digo que é complicado caso você queira ser pentester... porque é essencial saber como as coisas funcionam e ser pentester não é só rodar ferramenta, mas você também não vai querer descartar elas

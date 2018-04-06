@@ -1,6 +1,6 @@
 {
   "dumper": "json",
-  "last_modified": "2018-02-01T03:19:40+00:00",
+  "last_modified": "2018-04-06T22:42:05+00:00",
   "dialogs": {
     "167796546": {
       "newest_id": "02000000425f000a53eb0400000000000000000000000000",
@@ -17,8 +17,8 @@
       }
     },
     "103600951": {
-      "newest_id": "0200000037d32c06f22a0500000000000000000000000000",
-      "newest_date": 1517013585,
+      "newest_id": "0200000037d32c06e6ac0500000000000000000000000000",
+      "newest_date": 1522034259,
       "dumper_state": {
         "outfile": "json/Garoa_Hacker_Camp_2.0.jsonl"
       }
@@ -38,8 +38,8 @@
       }
     },
     "1050919227": {
-      "newest_id": "050000003bc1a33e28e70000000000006e6ae5ba90ca32fa",
-      "newest_date": 1517455175,
+      "newest_id": "050000003bc1a33ea5050100000000006e6ae5ba90ca32fa",
+      "newest_date": 1523051992,
       "dumper_state": {
         "outfile": "json/Garoa_Hacker_Clube_(Público).jsonl"
       }
@@ -49,6 +49,34 @@
       "newest_date": 1509999641,
       "dumper_state": {
         "outfile": "json/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos#1.jsonl"
+      }
+    },
+    "15099340": {
+      "newest_id": "02000000cc65e6002dda0000000000000000000000000000",
+      "newest_date": 1455103396,
+      "dumper_state": {
+        "outfile": "json/Dia_da_Tarsila____☕️.jsonl"
+      }
+    },
+    "9857836": {
+      "newest_id": "020000002c6b960025f90000000000000000000000000000",
+      "newest_date": 1458015721,
+      "dumper_state": {
+        "outfile": "json/Metamáquina#1.jsonl"
+      }
+    },
+    "113642161": {
+      "newest_id": "02000000b10ac60679fa0000000000000000000000000000",
+      "newest_date": 1458141376,
+      "dumper_state": {
+        "outfile": "json/Ateísmo_&_Agnosticismo.jsonl"
+      }
+    },
+    "1148437212": {
+      "newest_id": "05000000dcc27344120f00000000000083966e8d8f4e928a",
+      "newest_date": 1517457200,
+      "dumper_state": {
+        "outfile": "json/Arqueologia_Digital_e_Preservação_Histórica_por_meio_da_Emulação_de_Dispositivos_Eletrônicos.jsonl"
       }
     }
   }

@@ -1,0 +1,59 @@
+[2018-03-22 00:43:47] vão acabar chamando ele pro area31
+[2018-03-22 00:51:41] Todo mundo que tenta difamar ou menosprezar hacker está pedindo pra ser hackeado...
+[2018-03-22 00:52:05] Isto é lei...
+[2018-03-22 00:52:59] Deixa chegar na pessoa certa (ou errada, dependendo do ponto de vista)
+[2018-03-22 07:12:09] pesado hahhahaha
+[2018-03-22 08:21:52] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806007845_9405.jpg
+[2018-03-22 08:22:10] Alguém sabe dizer se isso procede?
+[2018-03-22 08:22:31] Esquece a parte do texto depois da bateria
+[2018-03-22 08:23:03] Origem do diagrama : http://henrysbench.capnfatz.com/henrys-bench/arduino-projects-tips-and-more/powering-the-esp-12e-nodemcu-development-board/
+[2018-03-22 08:54:32] Procede
+[2018-03-22 08:54:50] A tensão de operação do nodeMCU é de 4,5 ~ 9V
+[2018-03-22 09:12:23] 9v, vc usa 3.3v e queima o resto. O bom eh que essas baterias são baratas, tipo uns 40 reais
+[2018-03-22 09:13:24] Eu desmontaria QQ eletrônico sucata que tem uma bateria de lipo dentro
+[2018-03-22 09:13:34] Tipo aquelas caixinhas bluetooth
+[2018-03-22 09:14:25] E  compraria uma placa dessas que já tem o esquema para carregar a bateria
+[2018-03-22 09:14:36] Tem versões com esp8266 e esp32
+[2018-03-22 09:30:06] Vlw!
+[2018-03-22 09:30:19] Acho que vou partir pra isso
+[2018-03-22 09:30:50] Se bem que to mais propício a usar o esp8266 simples
+[2018-03-22 09:31:12] Sei que o @lvido tem uns pra vender
+[2018-03-22 09:33:33] Tenho varios kkkkkkk
+[2018-03-22 09:33:41] https://www.desafiocyber.beyellow.com.br/
+[2018-03-22 09:42:16] DICAS DE SEGURANÇA
+
+Compilamos uma lista de manuais e tutoriais de segurança. Dá uma olhada
+e compartilhe!
+
+https://encripta.org/dicas_e_tutoriais_seguranca/
+[2018-03-22 09:55:54] Se for utilizar um ESP-8266 direto, você precisará de um regulador de tensão, tipo o AMS1117-3.3, por exemplo, ou melhor, um DC-DC step-down com melhor eficiência energética.
+[2018-03-22 09:59:46] Um DC-DC step-down bom irá reduzir a tensão, porém aumentará a corrente, usando a bateria de forma mais eficiente.
+
+Não recomendo um divisor de tensão, com uso resistores, pois irá desperdiçar energia, que será consumida em forma de calor.
+[2018-03-22 10:05:57] Espero não ter dito nenhuma bobagem, o professor @marcelocamposs vai saber te orientar melhor.
+[2018-03-22 10:13:36] melhor não sair de casa
+[2018-03-22 10:22:04] Hahahaha... verdade...
+[2018-03-22 10:33:23] 1117 é o componente mais comum pra isso. Bem facil de achar
+[2018-03-22 11:09:22] https://nostarch.com/gtfo#reviews
+[2018-03-22 11:09:53] a leitura deve ser bem divertida
+[2018-03-22 11:10:03] acabei de descobrir esse livro
+[2018-03-22 12:29:35] Vlw
+[2018-03-22 13:02:34] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804725604_162625.jpg
+[2018-03-22 13:02:37] New normal?
+[2018-03-22 13:32:01] https://rideapart.com/articles/1986-suzuki-nuda-concept
+[2018-03-22 16:41:42] É a compilação desses aqui: https://www.alchemistowl.org/pocorgtfo/
+[2018-03-22 19:06:03] Bom esse link dá pra ver todos facilmente
+[2018-03-22 19:09:41] Alguém vai ao Garoa no sábado?
+[2018-03-22 19:12:03] a galera do ctf fim da tarde/noite
+[2018-03-22 19:19:36] Boa noite galera, tem como participar do ctf do garoa sem estar ai no garoa msm?
+[2018-03-22 19:21:28] Se você já souber jogar sim.. tem vários onlines se não souber fica mais difícil te ajudar.
+[2018-03-22 19:21:44] Mas se quiser ajudar ou dicas manda aqui que tentamos
+[2018-03-22 19:22:32] O CTF não é do Garoa. O Pessoal se reune no Garoa para jogar CTFs online como o HackTheBox
+[2018-03-22 19:23:30] Boaa Gutem. Não tinha me atentado a esse detalhe
+[2018-03-22 19:24:01] Entra no grupo público do CTF
+[2018-03-22 19:37:42] Brian Lima added Roberta Fernandes
+[2018-03-22 23:29:42] Fala gente, tudo bem? :)
+[2018-03-22 23:29:53] fiz um calendário GHC no Google Calendar :)
+[2018-03-22 23:29:55] https://calendar.google.com/calendar?cid=N3FtaDc0YmpsZWNqZTVlaGxscjNqYnAzdmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ
+[2018-03-22 23:45:46] se tu conseguir manter ela vai ser massa
+[2018-03-22 23:50:59] quem quiser convite de edição do calendário pra ajudar a manter atualizado me manda o e-mail no privado ^^

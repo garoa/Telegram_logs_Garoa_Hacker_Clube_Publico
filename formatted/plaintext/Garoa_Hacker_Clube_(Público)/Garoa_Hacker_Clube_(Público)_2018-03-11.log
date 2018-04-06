@@ -1,0 +1,48 @@
+[2018-03-11 00:01:23] Cheguei atrasada mas quero mostrar o meu
+[2018-03-11 00:01:40] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806122813_56369.jpg
+[2018-03-11 00:01:52] Ainda não
+[2018-03-11 00:01:56] Só o CFP
+[2018-03-11 00:02:44] cert é top
+[2018-03-11 00:27:02] aff quero um
+[2018-03-11 00:43:25] Aeeee
+[2018-03-11 00:48:52] Baguio loco
+[2018-03-11 00:50:29] boa
+[2018-03-11 08:27:19] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804724257_153437.jpg
+[2018-03-11 08:27:33] Era a baleia mas ela afundou kkk
+[2018-03-11 12:00:43] Hahaha
+[2018-03-11 12:10:47] uso um da eff
+[2018-03-11 20:52:58] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804725474_153933.jpg
+[2018-03-11 20:53:26] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806007880_2631.jpg
+[2018-03-11 20:53:26] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806006450_2961.jpg
+[2018-03-11 20:53:26] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806118303_57894.jpg
+[2018-03-11 20:53:26] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804724117_154014.jpg
+[2018-03-11 20:53:28] depois
+[2018-03-11 20:55:28] enquanto tava postando o processo no mastodon um sujeitinho veio pra mim e falou pra comprar um novo que é mais fácil... é.. amiga cresce em árvore
+[2018-03-11 21:10:16] galera, alguém aí já usou python-daemon? é normal ele ser absurdamente lento?
+[2018-03-11 21:10:38] eu fui testar, escrevi um código nesses moldes aí: https://gist.github.com/drmalex07/a175544878a3ccd579a8
+[2018-03-11 21:11:29] cronometrei dois minutos entre a execução do comando e o início da execução do código do daemon em si (que ali, no caso, seria o do_main() )
+[2018-03-11 21:56:43] 👏🏻👏🏻👏🏻
+[2018-03-11 21:57:10] Pergunta pra ele onde fica essa árvore!...
+[2018-03-11 22:03:48] SENSACIONAL!!! É sempre muito bom ver máquinas sendo recuperadas e restauradas! Parabéns! :-D
+[2018-03-11 22:08:36] agora que teclado e vídeo rgb estão todos funcionando o meu sonho é ter uma aceleradora e uma AGA pra ele
+[2018-03-11 22:09:03] cortei 2 pinos fora de um db25 pra fazer um cabo rgb
+[2018-03-11 22:13:01] Ainda não usei, mas achei interessante a ideia de um daemon feito em Python... assim que puder vou testar...
+[2018-03-11 22:13:32] não sei por que nessa revisão do A600 a commodore resolveu empurrar os caps de filtro de 12V pro meio da placa (-12V era esse azul que já tinha sido porcamente trocado), nas revisões mais antigas da placa todos os caps de filtro de energia ficavam próximos ao plug da fonte
+[2018-03-11 22:13:44] (o meu é a revisão 2B, a mais nova)
+[2018-03-11 22:14:25] comeu uma das trilhas do teclado, que é esse fio verde que eu coloquei pra substituir
+[2018-03-11 22:17:14] agora dá pra jogar jogo PAL nesse amiga NTSC
+[2018-03-11 22:17:15] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_805514224_108990.jpg
+[2018-03-11 22:18:32] antes mesmo forçando ele pra PAL o vídeo composto ficava errado e não dava pra jogar direito, agora tá perfeito
+[2018-03-11 22:18:49] tô bem feliz, depois de 11 anos finalmente fiz esse amiga funcionar bem
+[2018-03-11 22:33:09] Parabéns, menina! 😃 👏👏👏
+[2018-03-11 22:35:33] Massa demais! Deu vontade de ver um "9 fingers" de novo. :)
+[2018-03-11 22:53:32] gente
+[2018-03-11 22:53:40] esqueci uma chave no garoa
+[2018-03-11 22:53:42] Realmente um trabalho excepcional
+[2018-03-11 22:53:57] na bancada do meio la da sala perto dos soldadorrs
+[2018-03-11 22:54:16] se algum anjo achar me avisa por favor <3
+[2018-03-11 23:03:53] creio que descobri o problema da demora, é o Pi Zero
+[2018-03-11 23:04:13] no Pi Zero leva quase dois minutos pra iniciar o daemon, no Pi 3 uns 30 segundos, em um servidor x86 (um core só, a VPS mais barata que eu consegui encontrar) foram só 3,5 segundos
+[2018-03-11 23:07:40] Rodei agora num Atom X5-Z8350, para testar, e foi menos de 2 segundos...
+[2018-03-11 23:08:09] é, talvez tenha algo a ver com x86 vs. ARM?
+[2018-03-11 23:08:22] se tiver um Pi à mão e puder testar algum dia, eu agradeço (:

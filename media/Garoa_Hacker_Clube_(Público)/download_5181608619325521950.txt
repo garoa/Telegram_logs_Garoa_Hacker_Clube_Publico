@@ -1,0 +1,3232 @@
+.
+├── Makefile
+├── apps
+│   ├── EmbeddedIOP
+│   │   ├── EmbeddedIOP.mk
+│   │   ├── EmbeddedIOPFirmware.h
+│   │   ├── EmbeddedIOPProtocol.h
+│   │   ├── application.mk
+│   │   ├── clock_management.c
+│   │   ├── clock_management.h
+│   │   ├── clock_stepping.c
+│   │   ├── clock_stepping.h
+│   │   ├── config
+│   │   │   ├── s5l8940xae2-config.mk
+│   │   │   ├── s5l8940xiop-config.mk
+│   │   │   ├── s5l8942xiop-config.mk
+│   │   │   ├── s5l8945xae2-config.mk
+│   │   │   ├── s5l8945xiop-config.mk
+│   │   │   ├── s5l8947xiop-config.mk
+│   │   │   ├── s5l8950xae2-config.mk
+│   │   │   └── s5l8950xiop-config.mk
+│   │   ├── debugcmds.c
+│   │   ├── function_audio
+│   │   │   ├── iop_audio.c
+│   │   │   ├── iop_audio_protocol.h
+│   │   │   ├── libstd_stub.cpp
+│   │   │   └── rules.mk
+│   │   ├── function_audiodsp
+│   │   │   ├── AE2_DMA
+│   │   │   │   ├── ae2_dma.h
+│   │   │   │   ├── pio_ae2.c
+│   │   │   │   ├── pio_ae2.h
+│   │   │   │   ├── pl080dmac_ae2.c
+│   │   │   │   └── pl080dmac_ae2.h
+│   │   │   ├── AE2_I2S
+│   │   │   │   └── ae2_i2s.h
+│   │   │   ├── AE2_MCA
+│   │   │   │   └── ae2_mca.h
+│   │   │   ├── AudioUnits
+│   │   │   │   ├── AUBase_AE2.h
+│   │   │   │   ├── AUComponent_AE2.h
+│   │   │   │   ├── AUNull.cpp
+│   │   │   │   ├── AUNull.h
+│   │   │   │   ├── AUSidetone.cpp
+│   │   │   │   ├── AUSidetone.h
+│   │   │   │   ├── AudioUnitProperties_AE2.h
+│   │   │   │   ├── CoreAudioTypes_AE2.h
+│   │   │   │   ├── iop_au_interface.cpp
+│   │   │   │   └── iop_au_interface.h
+│   │   │   ├── debug_tap.c
+│   │   │   ├── debug_tap.h
+│   │   │   ├── iop_audiodsp.c
+│   │   │   ├── iop_audiodsp_protocol.h
+│   │   │   ├── loopback_device.c
+│   │   │   ├── loopback_device.h
+│   │   │   ├── loopback_process.c
+│   │   │   ├── loopback_process.h
+│   │   │   ├── rules.mk
+│   │   │   ├── timestamper.c
+│   │   │   └── timestamper.h
+│   │   ├── function_ceata
+│   │   │   ├── ceata.h
+│   │   │   ├── iop_ceata.c
+│   │   │   ├── iop_ceata.h
+│   │   │   ├── iop_ceata_protocol.h
+│   │   │   └── rules.mk
+│   │   ├── function_fmi
+│   │   │   ├── iop_fmi.c
+│   │   │   ├── iop_fmi_protocol.h
+│   │   │   └── rules.mk
+│   │   ├── function_sdio
+│   │   │   ├── iop_sdio.c
+│   │   │   ├── iop_sdio_protocol.h
+│   │   │   ├── iop_sdio_wrapper.c
+│   │   │   ├── iop_sdio_wrapper.h
+│   │   │   └── rules.mk
+│   │   ├── iop.h
+│   │   ├── main.c
+│   │   ├── qwi.c
+│   │   ├── qwi.h
+│   │   └── qwi_protocol.h
+│   ├── SecureROM
+│   │   ├── SecureROM.mk
+│   │   ├── application.mk
+│   │   ├── config
+│   │   │   ├── t8002-config.mk
+│   │   │   ├── t8010-config-base.mk
+│   │   │   └── t8010-config.mk
+│   │   ├── main.c
+│   │   └── tests
+│   │       ├── blinky_armv7
+│   │       │   ├── build_rom_test.sh
+│   │       │   └── rom_test.c
+│   │       ├── blinky_armv8
+│   │       │   ├── build_rom_test.sh
+│   │       │   └── rom_test.c
+│   │       ├── images_t8002
+│   │       │   ├── rom_test.bin
+│   │       │   ├── rom_test_ibss_encrypted.im4p
+│   │       │   ├── rom_test_ibss_unencrypted.im4p
+│   │       │   ├── rom_test_illb_encrypted.im4p
+│   │       │   └── rom_test_illb_unencrypted.im4p
+│   │       ├── images_t8010
+│   │       │   ├── rom_test.bin
+│   │       │   ├── rom_test_ibss_encrypted.im4p
+│   │       │   ├── rom_test_ibss_unencrypted.im4p
+│   │       │   ├── rom_test_illb_encrypted.im4p
+│   │       │   └── rom_test_illb_unencrypted.im4p
+│   │       ├── test_generator_hx.py
+│   │       └── test_generator_mx.py
+│   └── iBoot
+│       ├── application.mk
+│       ├── boot.c
+│       ├── config
+│       │   ├── alcatrazref-config.mk
+│       │   ├── appletv3-config-base.mk
+│       │   ├── appletv4-config-base.mk
+│       │   ├── appletv5-config-base.mk
+│       │   ├── appletv6-config-base.mk
+│       │   ├── b137-config.mk
+│       │   ├── b165-config.mk
+│       │   ├── b184-config.mk
+│       │   ├── b238-config.mk
+│       │   ├── boot-from-nand-template.mk
+│       │   ├── boot-from-nor-template.mk
+│       │   ├── capriref-config.mk
+│       │   ├── cyclonic-config.mk
+│       │   ├── e86-config.mk
+│       │   ├── e88-config.mk
+│       │   ├── elbaref-config.mk
+│       │   ├── elbauiref-config.mk
+│       │   ├── fijiref-config.mk
+│       │   ├── iaccy1-config-base.mk
+│       │   ├── ipad2-config-base.mk
+│       │   ├── ipad2b-config-base.mk
+│       │   ├── ipad3-config-base.mk
+│       │   ├── ipad3b-config-base.mk
+│       │   ├── ipad4-config-base.mk
+│       │   ├── ipad4b-config-base.mk
+│       │   ├── ipad5-config-base.mk
+│       │   ├── ipad5b-config-base.mk
+│       │   ├── ipad5c-config-base.mk
+│       │   ├── ipad6b-config-base.mk
+│       │   ├── ipad6d-config-base.mk
+│       │   ├── iphone5-config-base.mk
+│       │   ├── iphone5b-config-base.mk
+│       │   ├── iphone6-config-base.mk
+│       │   ├── iphone7-config-base.mk
+│       │   ├── iphone8-config-base.mk
+│       │   ├── iphone8b-config-base.mk
+│       │   ├── ipod6-config-base.mk
+│       │   ├── j1-config.mk
+│       │   ├── j105-config.mk
+│       │   ├── j127-config.mk
+│       │   ├── j128-config.mk
+│       │   ├── j2-config.mk
+│       │   ├── j2a-config.mk
+│       │   ├── j33-config.mk
+│       │   ├── j33i-config.mk
+│       │   ├── j34-config.mk
+│       │   ├── j34m-config.mk
+│       │   ├── j42-config.mk
+│       │   ├── j42d-config.mk
+│       │   ├── j42m-config.mk
+│       │   ├── j71-config.mk
+│       │   ├── j72-config.mk
+│       │   ├── j73-config.mk
+│       │   ├── j81-config.mk
+│       │   ├── j82-config.mk
+│       │   ├── j85-config.mk
+│       │   ├── j85m-config.mk
+│       │   ├── j86-config.mk
+│       │   ├── j86m-config.mk
+│       │   ├── j87-config.mk
+│       │   ├── j87m-config.mk
+│       │   ├── j96-config.mk
+│       │   ├── j97-config.mk
+│       │   ├── j98-config.mk
+│       │   ├── j98a-config.mk
+│       │   ├── j99-config.mk
+│       │   ├── j99a-config.mk
+│       │   ├── k93-config.mk
+│       │   ├── k93a-config.mk
+│       │   ├── k94-config.mk
+│       │   ├── k95-config.mk
+│       │   ├── m7ref-config.mk
+│       │   ├── maltaref-config.mk
+│       │   ├── maltauiref-config.mk
+│       │   ├── mauiref-config.mk
+│       │   ├── mauiuiref-config.mk
+│       │   ├── n102-config.mk
+│       │   ├── n27-config.mk
+│       │   ├── n27a-config.mk
+│       │   ├── n28-config.mk
+│       │   ├── n28a-config.mk
+│       │   ├── n41-config.mk
+│       │   ├── n42-config.mk
+│       │   ├── n48-config.mk
+│       │   ├── n49-config.mk
+│       │   ├── n51-config.mk
+│       │   ├── n53-config.mk
+│       │   ├── n56-config.mk
+│       │   ├── n59-config.mk
+│       │   ├── n61-config.mk
+│       │   ├── n66-config-base.mk
+│       │   ├── n66-config.mk
+│       │   ├── n66m-config.mk
+│       │   ├── n69-config.mk
+│       │   ├── n69u-config.mk
+│       │   ├── n71-config-base.mk
+│       │   ├── n71-config.mk
+│       │   ├── n71m-config.mk
+│       │   ├── n78-config.mk
+│       │   ├── n94-config.mk
+│       │   ├── p101-config.mk
+│       │   ├── p102-config.mk
+│       │   ├── p103-config.mk
+│       │   ├── p105-config.mk
+│       │   ├── p106-config.mk
+│       │   ├── p107-config.mk
+│       │   ├── s7002fpga-config.mk
+│       │   ├── s7002sim-config.mk
+│       │   ├── s8000fpga-config.mk
+│       │   ├── s8000ref-config-base.mk
+│       │   ├── s8000sim-config.mk
+│       │   ├── s8001fpga-config.mk
+│       │   ├── s8001ref-config-base.mk
+│       │   ├── s8001sim-config.mk
+│       │   ├── s8003fpga-config.mk
+│       │   ├── s8003sim-config.mk
+│       │   ├── swifter-config.mk
+│       │   ├── t7000fpga-config.mk
+│       │   ├── t7001fpga-config.mk
+│       │   ├── t7001padsim-config.mk
+│       │   ├── t8002fpga-config.mk
+│       │   ├── t8002sim-config.mk
+│       │   ├── t8010fpga-config.mk
+│       │   ├── t8010sim-config.mk
+│       │   ├── typhonic-config.mk
+│       │   └── watch2-config-base.mk
+│       ├── debugcmds.c
+│       ├── default_env.c
+│       ├── iBoot.mk
+│       ├── main.c
+│       ├── menu_commands.c
+│       ├── products.mk
+│       └── upgrade.c
+├── arch
+│   ├── arm
+│   │   ├── asm.S
+│   │   ├── cache_v7.S
+│   │   ├── cachedebug_a8.c
+│   │   ├── context.S
+│   │   ├── cortex_debug.c
+│   │   ├── cortex_hang.S
+│   │   ├── cpu.c
+│   │   ├── dcc
+│   │   │   ├── dcc.c
+│   │   │   └── rules.mk
+│   │   ├── entropy.S
+│   │   ├── exceptions.S
+│   │   ├── fp.c
+│   │   ├── handlers.c
+│   │   ├── include
+│   │   │   └── arch
+│   │   │       ├── arch_task.h
+│   │   │       └── arm
+│   │   │           ├── arm.h
+│   │   │           └── assembler.h
+│   │   ├── link.exp
+│   │   ├── mmu.c
+│   │   ├── mpu.c
+│   │   ├── rules.mk
+│   │   ├── start.S
+│   │   └── task.c
+│   └── arm64
+│       ├── asm.S
+│       ├── context.S
+│       ├── cpu.c
+│       ├── entropy.S
+│       ├── exceptions_el1.S
+│       ├── exceptions_el3.S
+│       ├── fp.c
+│       ├── handlers.c
+│       ├── include
+│       │   └── arch
+│       │       └── arm64
+│       │           └── proc_reg.h
+│       ├── link.exp
+│       ├── mmu.c
+│       ├── mmu_test.c
+│       ├── rules.mk
+│       ├── start.S
+│       ├── task.c
+│       ├── test.mk
+│       ├── tests-mmu.mk
+│       └── timer.c
+├── docs
+│   ├── Cayman_IOSpreadsheet_Template.xlsx
+│   ├── Doxyfile
+│   ├── Elba_IOSpreadsheet_Template.xlsx
+│   ├── M8_IOSpreadsheet_Template.xlsx
+│   ├── Maui_IOSpreadsheet_Template.xlsx
+│   ├── chain_validation.txt
+│   ├── dcs-specs
+│   │   ├── Elba_Init_A0_July_15_2015.html
+│   │   ├── Elba_Init_B0_Mar_4_2016.html
+│   │   ├── Elba_Init_B0_Oct_30_2015.html
+│   │   ├── Malta_Init_1200_October_29_2015.html
+│   │   ├── Malta_Init_A0_1200_June_17_2015.html
+│   │   ├── Malta_Init_A0_May_20_2015.html
+│   │   ├── Maui_Init_1200_October_29_2015.html
+│   │   ├── Maui_Init_B0_1200_June_2_2015.html
+│   │   └── Maui_Init_B0_May_20_2015.html
+│   ├── fuzzing.txt
+│   ├── iBoot_IO_Spreadsheet_Standard.pages
+│   ├── image3_format.txt
+│   ├── image3_pki_interface.txt
+│   ├── image3_user.txt
+│   ├── mmu64.txt
+│   ├── source_layout.txt
+│   ├── uncrustify.cfg
+│   ├── unittests.txt
+│   └── upgrade_mode.txt
+├── drivers
+│   ├── aes
+│   │   ├── aes.c
+│   │   └── rules.mk
+│   ├── analogix
+│   │   └── displayport
+│   │       ├── displayport.c
+│   │       ├── include
+│   │       │   └── drivers
+│   │       │       └── displayport
+│   │       │           └── displayport.h
+│   │       ├── regs.h
+│   │       └── rules.mk
+│   ├── apple
+│   │   ├── a5iop
+│   │   │   ├── a5iop.c
+│   │   │   ├── include
+│   │   │   │   └── drivers
+│   │   │   │       └── a5iop
+│   │   │   │           └── a5iop.h
+│   │   │   └── rules.mk
+│   │   ├── a7iop
+│   │   │   ├── a7iop.c
+│   │   │   ├── a7iop_debug.c
+│   │   │   ├── include
+│   │   │   │   └── drivers
+│   │   │   │       └── a7iop
+│   │   │   │           └── a7iop.h
+│   │   │   └── rules.mk
+│   │   ├── adbe
+│   │   │   ├── adbe.c
+│   │   │   ├── adbe_regs_v1.h
+│   │   │   ├── adbe_regs_v2.h
+│   │   │   ├── adbe_regs_v3.h
+│   │   │   ├── adbe_v1.c
+│   │   │   ├── adbe_v2.c
+│   │   │   ├── adbe_v3.c
+│   │   │   ├── include
+│   │   │   │   └── drivers
+│   │   │   │       └── adbe
+│   │   │   │           └── adbe.h
+│   │   │   └── rules.mk
+│   │   ├── adfe
+│   │   │   ├── adfe.c
+│   │   │   ├── adfe_regs.h
+│   │   │   ├── include
+│   │   │   │   └── drivers
+│   │   │   │       └── adfe
+│   │   │   │           └── adfe.h
+│   │   │   └── rules.mk
+│   │   ├── adfe_v2
+│   │   │   ├── adfe_v2.c
+│   │   │   ├── adfe_v2_regs.h
+│   │   │   ├── include
+│   │   │   │   └── drivers
+│   │   │   │       └── adfe_v2
+│   │   │   │           └── adfe.h
+│   │   │   └── rules.mk
+│   │   ├── aes
+│   │   │   ├── aes_ap.c
+│   │   │   ├── aes_ap.h
+│   │   │   └── rules.mk
+│   │   ├── aes_s7002
+│   │   │   ├── aes_s7002.c
+│   │   │   ├── aes_s7002.h
+│   │   │   └── rules.mk
+│   │   ├── aes_v2
+│   │   │   ├── aes_v2.c
+│   │   │   ├── aes_v2.h
+│   │   │   └── rules.mk
+│   │   ├── aic
+│   │   │   ├── aic.c
+│   │   │   ├── include
+│   │   │   │   └── drivers
+│   │   │   │       └── aic
+│   │   │   │           └── aic.h
+│   │   │   └── rules.mk
+│   │   ├── amc
+│   │   │   ├── amc.c
+│   │   │   ├── amc_v2.c
+│   │   │   ├── calibration_v1.c
+│   │   │   ├── include
+│   │   │   │   └── drivers
+│   │   │   │       └── amc
+│   │   │   │           ├── amc.h
+│   │   │   │           ├── amc_phy.h
+│   │   │   │           ├── amc_regs.h
+│   │   │   │           ├── amc_regs_v12.h
+│   │   │   │           ├── amc_regs_v3.h
+│   │   │   │           └── amc_regs_v45.h
+│   │   │   └── rules.mk
+│   │   ├── amg
+│   │   │   ├── amg.c
+│   │   │   ├── amg.h
+│   │   │   └── rules.mk
+│   │   ├── amp
+│   │   │   ├── amp_v1.c
+│   │   │   ├── amp_v2.c
+│   │   │   ├── include
+│   │   │   │   └── drivers
+│   │   │   │       └── amp
+│   │   │   │           ├── amp_v1.h
+│   │   │   │           ├── amp_v2.h
+│   │   │   │           └── amp_v2_calibration.h
+│   │   │   └── rules.mk
+│   │   ├── amp_v3
+│   │   │   ├── amp_v3.c
+│   │   │   ├── amp_v3_calibration.c
+│   │   │   ├── iboot
+│   │   │   │   ├── amp_v3_shim.c
+│   │   │   │   └── amp_v3_shim.h
+│   │   │   ├── include
+│   │   │   │   ├── amp_v3.h
+│   │   │   │   └── amp_v3_calibration.h
+│   │   │   └── rules.mk
+│   │   ├── anc
+│   │   │   ├── anc_bootrom.c
+│   │   │   ├── anc_bootrom.h
+│   │   │   ├── anc_bootrom_cmds.h
+│   │   │   ├── anc_bootrom_private.h
+│   │   │   ├── anc_bootrom_regs.h
+│   │   │   ├── anc_bootrom_regs_m7.h
+│   │   │   ├── anc_llb.c
+│   │   │   ├── anc_llb.h
+│   │   │   ├── ppn_npl_regs.h
+│   │   │   ├── rules.mk
+│   │   │   ├── util_boot.c
+│   │   │   └── util_boot.h
+│   │   ├── apcie
+│   │   │   ├── apcie.c
+│   │   │   └── rules.mk
+│   │   ├── asp
+│   │   │   ├── asp.c
+│   │   │   ├── common_util.c
+│   │   │   ├── common_util.h
+│   │   │   ├── debug.c
+│   │   │   └── rules.mk
+│   │   ├── audio
+│   │   │   ├── audio.c
+│   │   │   ├── debug.c
+│   │   │   ├── include
+│   │   │   │   └── drivers
+│   │   │   │       └── audio
+│   │   │   │           └── audio.h
+│   │   │   └── rules.mk
+│   │   ├── ausb
+│   │   │   ├── ausb.c
+│   │   │   ├── ausb.h
+│   │   │   └── rules.mk
+│   │   ├── ccc
+│   │   │   ├── ccc.c
+│   │   │   ├── include
+│   │   │   │   └── drivers
+│   │   │   │       └── ccc
+│   │   │   │           └── ccc.h
+│   │   │   └── rules.mk
+│   │   ├── cdma
+│   │   │   ├── cdma.c
+│   │   │   ├── cdma.h
+│   │   │   ├── cdma_aes.c
+│   │   │   └── rules.mk
+│   │   ├── consistent_debug
+│   │   │   ├── consistent_debug.c
+│   │   │   ├── include
+│   │   │   │   └── consistent_debug
+│   │   │   │       ├── consistent_debug_helper_fns.h
+│   │   │   │       └── consistent_debug_registry.h
+│   │   │   └── rules.mk
+│   │   ├── csi
+│   │   │   ├── csi.c
+│   │   │   ├── debug.c
+│   │   │   ├── endpoints
+│   │   │   │   ├── builtin.c
+│   │   │   │   ├── console_ep.c
+│   │   │   │   ├── crashlog_ep.c
+│   │   │   │   ├── management_ep.c
+│   │   │   │   └── syslog_ep.c
+│   │   │   ├── firmware
+│   │   │   │   ├── csi_firmware.c
+│   │   │   │   ├── csi_firmware.h
+│   │   │   │   └── fw_ans.c
+│   │   │   ├── include
+│   │   │   │   ├── csi_private.h
+│   │   │   │   ├── endpoints
+│   │   │   │   │   ├── console_ep.h
+│   │   │   │   │   ├── crashlog_ep.h
+│   │   │   │   │   ├── management_ep.h
+│   │   │   │   │   └── syslog_ep.h
+│   │   │   │   └── queue.h
+│   │   │   └── rules.mk
+│   │   ├── dart_lpae
+│   │   │   ├── dart.c
+│   │   │   ├── dart_regs.h
+│   │   │   └── rules.mk
+│   │   ├── dcs
+│   │   │   ├── dcs.c
+│   │   │   ├── dcs_calibration.c
+│   │   │   ├── dcs_calibration_v2.c
+│   │   │   ├── dcs_init_lib.c
+│   │   │   ├── include
+│   │   │   │   └── drivers
+│   │   │   │       └── dcs
+│   │   │   │           ├── dcs.h
+│   │   │   │           ├── dcs_cal.h
+│   │   │   │           ├── dcs_cal_v2.h
+│   │   │   │           ├── dcs_calibration.h
+│   │   │   │           ├── dcs_init_lib.h
+│   │   │   │           └── dcs_regs.h
+│   │   │   └── rules.mk
+│   │   ├── displaypipe
+│   │   │   ├── displaypipe.c
+│   │   │   ├── displaypipe.h
+│   │   │   └── rules.mk
+│   │   ├── dither
+│   │   │   ├── dither.c
+│   │   │   ├── dither_v2.h
+│   │   │   ├── dither_v3.h
+│   │   │   ├── dither_v4.h
+│   │   │   └── rules.mk
+│   │   ├── dockchannel
+│   │   │   ├── dockchannel_regs.h
+│   │   │   ├── dockchannel_uart.c
+│   │   │   ├── include
+│   │   │   │   └── drivers
+│   │   │   │       └── dockchannel
+│   │   │   │           └── dockchannel.h
+│   │   │   └── rules.mk
+│   │   ├── dockfifo
+│   │   │   ├── cobs.c
+│   │   │   ├── cobs.h
+│   │   │   ├── dockfifo_bulk.c
+│   │   │   ├── dockfifo_regs.h
+│   │   │   ├── dockfifo_uart.c
+│   │   │   ├── include
+│   │   │   │   └── drivers
+│   │   │   │       └── dockfifo
+│   │   │   │           └── dockfifo.h
+│   │   │   └── rules.mk
+│   │   ├── dpb
+│   │   │   ├── dpb.c
+│   │   │   ├── dpb.h
+│   │   │   └── rules.mk
+│   │   ├── dpb_v2
+│   │   │   ├── dpb_v2.c
+│   │   │   ├── dpb_v2.h
+│   │   │   └── rules.mk
+│   │   ├── dwi
+│   │   │   ├── dwi.c
+│   │   │   ├── dwi.h
+│   │   │   └── rules.mk
+│   │   ├── gpio
+│   │   │   ├── gpio.c
+│   │   │   ├── include
+│   │   │   │   └── drivers
+│   │   │   │       └── apple
+│   │   │   │           └── gpio.h
+│   │   │   └── rules.mk
+│   │   ├── h2fmi
+│   │   │   ├── H2FIL.c
+│   │   │   ├── H2fmi.c
+│   │   │   ├── H2fmi.h
+│   │   │   ├── H2fmi_8920regs.h
+│   │   │   ├── H2fmi_8922regs.h
+│   │   │   ├── H2fmi_8940regs.h
+│   │   │   ├── H2fmi_8945regs.h
+│   │   │   ├── H2fmi_8950regs.h
+│   │   │   ├── H2fmi_boot.c
+│   │   │   ├── H2fmi_debug.c
+│   │   │   ├── H2fmi_dma.h
+│   │   │   ├── H2fmi_dma_iboot.c
+│   │   │   ├── H2fmi_dma_types.h
+│   │   │   ├── H2fmi_erase.c
+│   │   │   ├── H2fmi_iop.c
+│   │   │   ├── H2fmi_iop.h
+│   │   │   ├── H2fmi_misc.c
+│   │   │   ├── H2fmi_ppn.c
+│   │   │   ├── H2fmi_ppn.h
+│   │   │   ├── H2fmi_ppn_fil.c
+│   │   │   ├── H2fmi_ppn_iop.c
+│   │   │   ├── H2fmi_private.h
+│   │   │   ├── H2fmi_read.c
+│   │   │   ├── H2fmi_test.c
+│   │   │   ├── H2fmi_timing.c
+│   │   │   ├── H2fmi_timing.h
+│   │   │   ├── H2fmi_write.c
+│   │   │   ├── boot
+│   │   │   │   ├── H2fmi_bootrom.c
+│   │   │   │   ├── H2fmi_private.h
+│   │   │   │   ├── H2fmi_regs.h
+│   │   │   │   └── rules.mk
+│   │   │   ├── debug.c
+│   │   │   ├── fmiss.c
+│   │   │   ├── fmiss.h
+│   │   │   ├── fmiss_ppn.c
+│   │   │   ├── fmiss_raw.c
+│   │   │   ├── rules.mk
+│   │   │   └── soc.h
+│   │   ├── iic
+│   │   │   ├── iic.c
+│   │   │   ├── iic.h
+│   │   │   └── rules.mk
+│   │   ├── lpdp_phy
+│   │   │   ├── include
+│   │   │   │   └── drivers
+│   │   │   │       └── lpdp_phy
+│   │   │   │           └── lpdp_phy.h
+│   │   │   ├── lpdp_v1.c
+│   │   │   ├── lpdp_v2.c
+│   │   │   ├── regs_v1.h
+│   │   │   ├── regs_v2.h
+│   │   │   └── rules.mk
+│   │   ├── mcu
+│   │   │   ├── mcu.c
+│   │   │   └── rules.mk
+│   │   ├── oscar
+│   │   │   ├── include
+│   │   │   │   └── drivers
+│   │   │   │       └── oscar
+│   │   │   │           └── oscar.h
+│   │   │   ├── oscar.c
+│   │   │   └── rules.mk
+│   │   ├── prc
+│   │   │   ├── prc.c
+│   │   │   ├── prc.h
+│   │   │   └── rules.mk
+│   │   ├── reconfig
+│   │   │   ├── reconfig.c
+│   │   │   └── rules.mk
+│   │   ├── sep
+│   │   │   ├── include
+│   │   │   │   └── drivers
+│   │   │   │       └── sep
+│   │   │   │           └── sep_client.h
+│   │   │   ├── rules.mk
+│   │   │   └── sep_client.c
+│   │   ├── sha2
+│   │   │   ├── rules.mk
+│   │   │   ├── sha2.c
+│   │   │   └── sha2.h
+│   │   ├── shmcon
+│   │   │   ├── rules.mk
+│   │   │   └── shmcon.c
+│   │   ├── swifterpmu
+│   │   │   ├── power.c
+│   │   │   ├── power.h
+│   │   │   └── rules.mk
+│   │   ├── voltage_knobs
+│   │   │   ├── include
+│   │   │   │   └── drivers
+│   │   │   │       └── voltage_knobs
+│   │   │   │           └── knobs.h
+│   │   │   ├── knobs.c
+│   │   │   ├── knobs_s7002.c
+│   │   │   ├── knobs_s7002.h
+│   │   │   ├── knobs_s8000.c
+│   │   │   ├── knobs_s8000.h
+│   │   │   ├── knobs_t7000.c
+│   │   │   ├── knobs_t7000.h
+│   │   │   ├── menu_commands.c
+│   │   │   └── rules.mk
+│   │   └── wpc
+│   │       ├── rules.mk
+│   │       ├── wpc.c
+│   │       └── wpc.h
+│   ├── arasan
+│   │   └── sdio
+│   │       ├── rules.mk
+│   │       ├── sdiocommon
+│   │       │   ├── sdhc_debug.c
+│   │       │   ├── sdhc_debug.h
+│   │       │   ├── sdhc_registers.c
+│   │       │   ├── sdhc_registers.h
+│   │       │   ├── sdio_cccr.h
+│   │       │   ├── sdio_cis.h
+│   │       │   ├── sdio_cmdfields.c
+│   │       │   ├── sdio_cmdfields.h
+│   │       │   ├── sdio_cmdprop.c
+│   │       │   ├── sdio_cmdprop.h
+│   │       │   └── sdio_types.h
+│   │       ├── sdiodrv_command.c
+│   │       ├── sdiodrv_command.h
+│   │       ├── sdiodrv_config.c
+│   │       ├── sdiodrv_config.h
+│   │       ├── sdiodrv_transfer.c
+│   │       └── sdiodrv_transfer.h
+│   ├── backlight
+│   │   ├── lm3534
+│   │   │   ├── library.mk
+│   │   │   ├── lm3534.c
+│   │   │   └── rules.mk
+│   │   └── lp8559
+│   │       ├── lp8559.c
+│   │       ├── lp8559.h
+│   │       └── rules.mk
+│   ├── dialog
+│   │   ├── charger
+│   │   │   └── rules.mk
+│   │   └── pmu
+│   │       ├── NTCTables.h
+│   │       ├── charger.c
+│   │       ├── d1755.h
+│   │       ├── d1815.h
+│   │       ├── d1881.h
+│   │       ├── d1946.h
+│   │       ├── d1972.h
+│   │       ├── d1974.h
+│   │       ├── d2018.h
+│   │       ├── d2045.h
+│   │       ├── d2089.h
+│   │       ├── d2186.h
+│   │       ├── d2207.h
+│   │       ├── d2231.h
+│   │       ├── d2238.h
+│   │       ├── d2255.h
+│   │       ├── d2257.h
+│   │       ├── d2355.h
+│   │       ├── dCommon.h
+│   │       ├── power.c
+│   │       └── rules.mk
+│   ├── display
+│   │   ├── edp
+│   │   │   ├── edp.c
+│   │   │   ├── edp.h
+│   │   │   └── rules.mk
+│   │   ├── pinot
+│   │   │   ├── pinot.c
+│   │   │   ├── pinot.h
+│   │   │   └── rules.mk
+│   │   ├── summit
+│   │   │   ├── rules.mk
+│   │   │   ├── summit.c
+│   │   │   └── summit.h
+│   │   └── tmds
+│   │       ├── rules.mk
+│   │       ├── tmds.c
+│   │       └── tmds.h
+│   ├── display_pmu
+│   │   ├── beryllium
+│   │   │   ├── beryllium.c
+│   │   │   └── rules.mk
+│   │   └── chestnut
+│   │       ├── chestnut.c
+│   │       └── rules.mk
+│   ├── displayport
+│   │   ├── controller.c
+│   │   ├── debug.c
+│   │   ├── device.c
+│   │   ├── dpcd.h
+│   │   ├── edid.h
+│   │   ├── process_edid.c
+│   │   └── rules.mk
+│   ├── flash_nand
+│   │   ├── OAM
+│   │   │   ├── EmbeddedIOP
+│   │   │   │   ├── WMRBuf.c
+│   │   │   │   ├── WMRFeatures.h
+│   │   │   │   ├── WMROAM.c
+│   │   │   │   ├── WMRPlatform.h
+│   │   │   │   └── WMRTypes.h
+│   │   │   ├── WMRBuf.h
+│   │   │   ├── WMROAM.h
+│   │   │   ├── iBoot
+│   │   │   │   ├── WMRBuf.c
+│   │   │   │   ├── WMRBufTypes.h
+│   │   │   │   ├── WMRFeatures.h
+│   │   │   │   ├── WMROAM.c
+│   │   │   │   ├── WMRPlatform.h
+│   │   │   │   └── WMRTypes.h
+│   │   │   ├── rules.mk
+│   │   │   └── spTypes.h
+│   │   ├── benchmark
+│   │   │   ├── L2V_Test.c
+│   │   │   ├── benchmark.c
+│   │   │   └── rules.mk
+│   │   ├── boot
+│   │   │   ├── firmware
+│   │   │   │   ├── nand_firmware.c
+│   │   │   │   ├── nand_firmware.h
+│   │   │   │   └── rules.mk
+│   │   │   ├── nand_boot.c
+│   │   │   ├── nand_export.c
+│   │   │   ├── nand_export.h
+│   │   │   ├── nand_part.h
+│   │   │   ├── nand_part_core.c
+│   │   │   ├── nand_part_core.h
+│   │   │   ├── nand_part_interface.h
+│   │   │   ├── nvram
+│   │   │   │   ├── nand_nvram.c
+│   │   │   │   ├── nand_nvram_core.c
+│   │   │   │   ├── nand_nvram_core.h
+│   │   │   │   ├── nand_nvram_dump.c
+│   │   │   │   ├── nand_nvram_dump.h
+│   │   │   │   ├── nand_nvram_impl.h
+│   │   │   │   ├── nand_nvram_platform.h
+│   │   │   │   └── rules.mk
+│   │   │   ├── rules.mk
+│   │   │   └── syscfg
+│   │   │       ├── nand_syscfg.c
+│   │   │       └── rules.mk
+│   │   ├── debug.c
+│   │   ├── ftl
+│   │   │   ├── nand.c
+│   │   │   └── rules.mk
+│   │   ├── id
+│   │   │   ├── nandid.c
+│   │   │   ├── nandid.h
+│   │   │   └── rules.mk
+│   │   ├── ppn
+│   │   │   ├── WhimoryPPN
+│   │   │   │   ├── Boot
+│   │   │   │   │   ├── ANDStats.c
+│   │   │   │   │   ├── ANDStats.h
+│   │   │   │   │   ├── RegBoth.c
+│   │   │   │   │   ├── RegSwiss.c
+│   │   │   │   │   ├── RegVanilla.c
+│   │   │   │   │   ├── WhimoryBoot.c
+│   │   │   │   │   ├── WhimoryBoot.h
+│   │   │   │   │   └── WhimoryBootTypes.h
+│   │   │   │   ├── Core
+│   │   │   │   │   ├── FPart
+│   │   │   │   │   │   ├── PPNFPart.c
+│   │   │   │   │   │   ├── PPNFPartTypes.h
+│   │   │   │   │   │   └── PPNTest.c
+│   │   │   │   │   ├── FTL
+│   │   │   │   │   │   ├── L2V
+│   │   │   │   │   │   │   ├── L2V.h
+│   │   │   │   │   │   │   ├── L2V_Assert.h
+│   │   │   │   │   │   │   ├── L2V_Config.h
+│   │   │   │   │   │   │   ├── L2V_Defines.h
+│   │   │   │   │   │   │   ├── L2V_Extern.h
+│   │   │   │   │   │   │   ├── L2V_Forget.c
+│   │   │   │   │   │   │   ├── L2V_Forget.h
+│   │   │   │   │   │   │   ├── L2V_Free.c
+│   │   │   │   │   │   │   ├── L2V_Funcs.c
+│   │   │   │   │   │   │   ├── L2V_Funcs.h
+│   │   │   │   │   │   │   ├── L2V_Init.c
+│   │   │   │   │   │   │   ├── L2V_Mem.c
+│   │   │   │   │   │   │   ├── L2V_Mem.h
+│   │   │   │   │   │   │   ├── L2V_Print.c
+│   │   │   │   │   │   │   ├── L2V_Print.h
+│   │   │   │   │   │   │   ├── L2V_Repack.c
+│   │   │   │   │   │   │   ├── L2V_Repack.h
+│   │   │   │   │   │   │   ├── L2V_Search.c
+│   │   │   │   │   │   │   ├── L2V_Test.c
+│   │   │   │   │   │   │   ├── L2V_Test.mak
+│   │   │   │   │   │   │   ├── L2V_Types.c
+│   │   │   │   │   │   │   ├── L2V_Types.h
+│   │   │   │   │   │   │   ├── L2V_Update.c
+│   │   │   │   │   │   │   ├── L2V_Valid.c
+│   │   │   │   │   │   │   ├── L2V_Valid.h
+│   │   │   │   │   │   │   ├── WMRFeatures-test.h
+│   │   │   │   │   │   │   ├── WMROAM-test.c
+│   │   │   │   │   │   │   └── WMROAM-test.h
+│   │   │   │   │   │   ├── yaFTL.c
+│   │   │   │   │   │   ├── yaFTLTypes.h
+│   │   │   │   │   │   ├── yaFTL_BTOC.c
+│   │   │   │   │   │   ├── yaFTL_BTOC.h
+│   │   │   │   │   │   ├── yaFTL_Defines.h
+│   │   │   │   │   │   ├── yaFTL_gc.c
+│   │   │   │   │   │   ├── yaFTL_gc.h
+│   │   │   │   │   │   ├── yaFTL_meta.h
+│   │   │   │   │   │   ├── yaFTL_meta_ppn.c
+│   │   │   │   │   │   ├── yaFTL_meta_ppn.h
+│   │   │   │   │   │   ├── yaFTL_meta_raw.c
+│   │   │   │   │   │   ├── yaFTL_meta_raw.h
+│   │   │   │   │   │   └── yaFTL_whoami.h
+│   │   │   │   │   ├── Misc
+│   │   │   │   │   │   ├── PPNMisc.c
+│   │   │   │   │   │   ├── PPNMiscTypes.h
+│   │   │   │   │   │   ├── VFLBuffer.c
+│   │   │   │   │   │   └── VFLBuffer.h
+│   │   │   │   │   ├── SFTL
+│   │   │   │   │   │   ├── L2V
+│   │   │   │   │   │   │   ├── L2V.h
+│   │   │   │   │   │   │   ├── L2V_Assert.h
+│   │   │   │   │   │   │   ├── L2V_Config.h
+│   │   │   │   │   │   │   ├── L2V_Defines.h
+│   │   │   │   │   │   │   ├── L2V_Dump.m
+│   │   │   │   │   │   │   ├── L2V_Dump_Prefix.h
+│   │   │   │   │   │   │   ├── L2V_Extern.h
+│   │   │   │   │   │   │   ├── L2V_FindFrag.c
+│   │   │   │   │   │   │   ├── L2V_Free.c
+│   │   │   │   │   │   │   ├── L2V_Funcs.c
+│   │   │   │   │   │   │   ├── L2V_Funcs.h
+│   │   │   │   │   │   │   ├── L2V_Init.c
+│   │   │   │   │   │   │   ├── L2V_Mem.c
+│   │   │   │   │   │   │   ├── L2V_Mem.h
+│   │   │   │   │   │   │   ├── L2V_Print.c
+│   │   │   │   │   │   │   ├── L2V_Print.h
+│   │   │   │   │   │   │   ├── L2V_Repack.c
+│   │   │   │   │   │   │   ├── L2V_Repack.h
+│   │   │   │   │   │   │   ├── L2V_Search.c
+│   │   │   │   │   │   │   ├── L2V_Test.c
+│   │   │   │   │   │   │   ├── L2V_Test.mak
+│   │   │   │   │   │   │   ├── L2V_Types.c
+│   │   │   │   │   │   │   ├── L2V_Types.h
+│   │   │   │   │   │   │   ├── L2V_Update.c
+│   │   │   │   │   │   │   ├── L2V_Valid.h
+│   │   │   │   │   │   │   ├── WMRFeatures-test.h
+│   │   │   │   │   │   │   ├── WMROAM-test.c
+│   │   │   │   │   │   │   └── WMROAM-test.h
+│   │   │   │   │   │   ├── gdb
+│   │   │   │   │   │   │   ├── compare-valid.gdb
+│   │   │   │   │   │   │   ├── count-bb.gdb
+│   │   │   │   │   │   │   ├── count-sbs.gdb
+│   │   │   │   │   │   │   ├── erases-histo.sh
+│   │   │   │   │   │   │   ├── find-0valid.gdb
+│   │   │   │   │   │   │   ├── find-high-reads.gdb
+│   │   │   │   │   │   │   ├── free-space.gdb
+│   │   │   │   │   │   │   ├── gc-zone-lbas.gdb
+│   │   │   │   │   │   │   ├── log-erases.gdb
+│   │   │   │   │   │   │   ├── log-userseq.gdb
+│   │   │   │   │   │   │   ├── log-valid.gdb
+│   │   │   │   │   │   │   ├── min-valid.gdb
+│   │   │   │   │   │   │   ├── print-bb.gdb
+│   │   │   │   │   │   │   └── wamp.gdb
+│   │   │   │   │   │   ├── s_bg.c
+│   │   │   │   │   │   ├── s_bg.h
+│   │   │   │   │   │   ├── s_boot.c
+│   │   │   │   │   │   ├── s_boot.h
+│   │   │   │   │   │   ├── s_btoc.c
+│   │   │   │   │   │   ├── s_btoc.h
+│   │   │   │   │   │   ├── s_cxt.c
+│   │   │   │   │   │   ├── s_cxt.h
+│   │   │   │   │   │   ├── s_cxt_diff.c
+│   │   │   │   │   │   ├── s_cxt_diff.h
+│   │   │   │   │   │   ├── s_cxt_load.c
+│   │   │   │   │   │   ├── s_cxt_load.h
+│   │   │   │   │   │   ├── s_cxt_save.c
+│   │   │   │   │   │   ├── s_cxt_save.h
+│   │   │   │   │   │   ├── s_dbg.c
+│   │   │   │   │   │   ├── s_dbg.h
+│   │   │   │   │   │   ├── s_defines.h
+│   │   │   │   │   │   ├── s_external.c
+│   │   │   │   │   │   ├── s_flatten.c
+│   │   │   │   │   │   ├── s_flatten.h
+│   │   │   │   │   │   ├── s_fmt.c
+│   │   │   │   │   │   ├── s_fmt.h
+│   │   │   │   │   │   ├── s_gc.c
+│   │   │   │   │   │   ├── s_gc.h
+│   │   │   │   │   │   ├── s_geom.c
+│   │   │   │   │   │   ├── s_geom.h
+│   │   │   │   │   │   ├── s_init.c
+│   │   │   │   │   │   ├── s_init.h
+│   │   │   │   │   │   ├── s_internal.c
+│   │   │   │   │   │   ├── s_internal.h
+│   │   │   │   │   │   ├── s_meta.c
+│   │   │   │   │   │   ├── s_meta.h
+│   │   │   │   │   │   ├── s_read.c
+│   │   │   │   │   │   ├── s_read.h
+│   │   │   │   │   │   ├── s_readdist.c
+│   │   │   │   │   │   ├── s_readdist.h
+│   │   │   │   │   │   ├── s_sb.c
+│   │   │   │   │   │   ├── s_sb.h
+│   │   │   │   │   │   ├── s_stats.c
+│   │   │   │   │   │   ├── s_stats.h
+│   │   │   │   │   │   ├── s_token.c
+│   │   │   │   │   │   ├── s_token.h
+│   │   │   │   │   │   ├── s_trim.c
+│   │   │   │   │   │   ├── s_trim.h
+│   │   │   │   │   │   ├── s_wearlev.c
+│   │   │   │   │   │   ├── s_wearlev.h
+│   │   │   │   │   │   ├── s_write.c
+│   │   │   │   │   │   └── s_write.h
+│   │   │   │   │   ├── SVFL
+│   │   │   │   │   │   ├── s_vfl.c
+│   │   │   │   │   │   └── s_vfl_types.h
+│   │   │   │   │   └── VFL
+│   │   │   │   │       ├── PPNVFLInterface.c
+│   │   │   │   │       └── PPNVFLTypes.h
+│   │   │   │   └── Test
+│   │   │   │       ├── FILTest.c
+│   │   │   │       ├── FPartTest.c
+│   │   │   │       ├── FTLTest.c
+│   │   │   │       └── VFLTest.c
+│   │   │   ├── export.txt
+│   │   │   ├── library.mk
+│   │   │   ├── ppn.c
+│   │   │   ├── ppn_syscfg.c
+│   │   │   └── rules.mk
+│   │   ├── ppn-swiss
+│   │   │   ├── export.txt
+│   │   │   ├── library.mk
+│   │   │   ├── ppn.c
+│   │   │   ├── ppn_syscfg.c
+│   │   │   └── rules.mk
+│   │   ├── raw
+│   │   │   ├── Whimory
+│   │   │   │   ├── Core
+│   │   │   │   │   ├── FPart
+│   │   │   │   │   │   ├── FPart.c
+│   │   │   │   │   │   └── FPartTypes.h
+│   │   │   │   │   ├── FTL
+│   │   │   │   │   │   ├── FTLInterface.c
+│   │   │   │   │   │   ├── FTLTypes.h
+│   │   │   │   │   │   ├── L2V
+│   │   │   │   │   │   │   ├── L2V.h
+│   │   │   │   │   │   │   ├── L2V_Assert.h
+│   │   │   │   │   │   │   ├── L2V_Config.h
+│   │   │   │   │   │   │   ├── L2V_Defines.h
+│   │   │   │   │   │   │   ├── L2V_Extern.h
+│   │   │   │   │   │   │   ├── L2V_Forget.c
+│   │   │   │   │   │   │   ├── L2V_Forget.h
+│   │   │   │   │   │   │   ├── L2V_Free.c
+│   │   │   │   │   │   │   ├── L2V_Funcs.c
+│   │   │   │   │   │   │   ├── L2V_Funcs.h
+│   │   │   │   │   │   │   ├── L2V_Init.c
+│   │   │   │   │   │   │   ├── L2V_Mem.c
+│   │   │   │   │   │   │   ├── L2V_Mem.h
+│   │   │   │   │   │   │   ├── L2V_Print.c
+│   │   │   │   │   │   │   ├── L2V_Print.h
+│   │   │   │   │   │   │   ├── L2V_Repack.c
+│   │   │   │   │   │   │   ├── L2V_Repack.h
+│   │   │   │   │   │   │   ├── L2V_Search.c
+│   │   │   │   │   │   │   ├── L2V_Test.c
+│   │   │   │   │   │   │   ├── L2V_Test.mak
+│   │   │   │   │   │   │   ├── L2V_Types.c
+│   │   │   │   │   │   │   ├── L2V_Types.h
+│   │   │   │   │   │   │   ├── L2V_Update.c
+│   │   │   │   │   │   │   ├── L2V_Valid.c
+│   │   │   │   │   │   │   ├── L2V_Valid.h
+│   │   │   │   │   │   │   ├── WMRFeatures-test.h
+│   │   │   │   │   │   │   ├── WMROAM-test.c
+│   │   │   │   │   │   │   └── WMROAM-test.h
+│   │   │   │   │   │   ├── yaFTL.c
+│   │   │   │   │   │   ├── yaFTLTypes.h
+│   │   │   │   │   │   ├── yaFTL_BTOC.c
+│   │   │   │   │   │   ├── yaFTL_BTOC.h
+│   │   │   │   │   │   ├── yaFTL_Defines.h
+│   │   │   │   │   │   ├── yaFTL_gc.c
+│   │   │   │   │   │   ├── yaFTL_gc.h
+│   │   │   │   │   │   ├── yaFTL_meta.h
+│   │   │   │   │   │   ├── yaFTL_meta_ppn.c
+│   │   │   │   │   │   ├── yaFTL_meta_ppn.h
+│   │   │   │   │   │   ├── yaFTL_meta_raw.c
+│   │   │   │   │   │   ├── yaFTL_meta_raw.h
+│   │   │   │   │   │   └── yaFTL_whoami.h
+│   │   │   │   │   └── VFL
+│   │   │   │   │       ├── VFLBuffer.c
+│   │   │   │   │       ├── VFLBuffer.h
+│   │   │   │   │       ├── VFLInterface.c
+│   │   │   │   │       ├── VFLTypes.h
+│   │   │   │   │       ├── VSVFLInterface.c
+│   │   │   │   │       └── VSVFLTypes.h
+│   │   │   │   ├── Exam
+│   │   │   │   │   ├── ANDStats.c
+│   │   │   │   │   ├── ANDStats.h
+│   │   │   │   │   ├── WMRExam.c
+│   │   │   │   │   └── WMRExam.h
+│   │   │   │   ├── Inc
+│   │   │   │   │   ├── ANDTypes.h
+│   │   │   │   │   ├── FIL.h
+│   │   │   │   │   ├── FILTypes.h
+│   │   │   │   │   ├── FPart.h
+│   │   │   │   │   ├── FTL.h
+│   │   │   │   │   ├── PPN_FIL.h
+│   │   │   │   │   ├── VFL.h
+│   │   │   │   │   ├── WMRConfig.h
+│   │   │   │   │   └── WMRTest.h
+│   │   │   │   └── Test
+│   │   │   │       └── FILTest.c
+│   │   │   ├── export.txt
+│   │   │   ├── library.mk
+│   │   │   ├── raw_nand.c
+│   │   │   └── rules.mk
+│   │   └── rules.mk
+│   ├── flash_nor
+│   │   ├── nor.c
+│   │   ├── rules.mk
+│   │   └── spi
+│   │       ├── rules.mk
+│   │       └── spi_flash.c
+│   ├── hdc
+│   │   ├── boot
+│   │   │   ├── rules.mk
+│   │   │   ├── sw_h2fmi.c
+│   │   │   └── sw_h2fmi_private.h
+│   │   ├── hdc.c
+│   │   ├── hdc_private.h
+│   │   └── rules.mk
+│   ├── hdmi
+│   │   ├── controller.c
+│   │   ├── debug.c
+│   │   ├── device.c
+│   │   ├── edid.h
+│   │   ├── process_edid.c
+│   │   └── rules.mk
+│   ├── idt
+│   │   └── idtp9022
+│   │       ├── idtp9022.c
+│   │       └── rules.mk
+│   ├── iic
+│   │   ├── debug.c
+│   │   ├── rules.mk
+│   │   └── swiic.c
+│   ├── intel
+│   │   └── thunderbolt_nhi
+│   │       ├── nhi.c
+│   │       ├── nhi_protocol.h
+│   │       └── rules.mk
+│   ├── nvme
+│   │   ├── nvme.c
+│   │   ├── nvme_blockdev.c
+│   │   ├── nvme_blockdev.h
+│   │   ├── nvme_protocol.h
+│   │   └── rules.mk
+│   ├── nxp
+│   │   └── cbtl1610
+│   │       ├── cbtl1610.c
+│   │       └── rules.mk
+│   ├── pci
+│   │   ├── pci.c
+│   │   ├── pci_private.h
+│   │   └── rules.mk
+│   ├── power
+│   │   └── hdqgauge
+│   │       ├── hdqgauge.c
+│   │       └── rules.mk
+│   ├── primecell
+│   │   ├── pl080dmac
+│   │   │   ├── include
+│   │   │   │   └── drivers
+│   │   │   │       └── primecell
+│   │   │   │           └── pl080dmac.h
+│   │   │   ├── pl080dmac.c
+│   │   │   ├── pl080dmac_regs.h
+│   │   │   └── rules.mk
+│   │   └── pl192vic
+│   │       ├── pl192vic.c
+│   │       ├── pl192vic.h
+│   │       └── rules.mk
+│   ├── samsung
+│   │   ├── aes
+│   │   │   ├── aes.c
+│   │   │   ├── aes.h
+│   │   │   └── rules.mk
+│   │   ├── arm7iop
+│   │   │   ├── arm7.c
+│   │   │   └── rules.mk
+│   │   ├── arm7m
+│   │   │   ├── arm7m.c
+│   │   │   ├── include
+│   │   │   │   └── drivers
+│   │   │   │       └── arm7m
+│   │   │   │           └── arm7m.h
+│   │   │   └── rules.mk
+│   │   ├── clcd_v2
+│   │   │   ├── clcd.c
+│   │   │   ├── clcd_regs.h
+│   │   │   ├── include
+│   │   │   │   └── drivers
+│   │   │   │       └── clcd_v2
+│   │   │   │           └── clcd.h
+│   │   │   └── rules.mk
+│   │   ├── displayport
+│   │   │   ├── displayport.c
+│   │   │   ├── include
+│   │   │   │   └── drivers
+│   │   │   │       └── displayport
+│   │   │   │           └── displayport.h
+│   │   │   ├── regs.h
+│   │   │   └── rules.mk
+│   │   ├── drex
+│   │   │   ├── drex.c
+│   │   │   ├── drex.h
+│   │   │   └── rules.mk
+│   │   ├── dwi
+│   │   │   ├── dwi.c
+│   │   │   ├── dwi.h
+│   │   │   └── rules.mk
+│   │   ├── gpio
+│   │   │   ├── gpio.c
+│   │   │   ├── gpio.h
+│   │   │   └── rules.mk
+│   │   ├── hdmi8947
+│   │   │   ├── hdmi.c
+│   │   │   ├── hdmi.h
+│   │   │   ├── hdmi_static_config.c
+│   │   │   ├── regs.h
+│   │   │   └── rules.mk
+│   │   ├── mipi
+│   │   │   ├── dsim.c
+│   │   │   ├── dsim.h
+│   │   │   └── rules.mk
+│   │   ├── pke
+│   │   │   ├── AppleS5L8900XPKE-hardware.c
+│   │   │   ├── AppleS5L8900XPKE-hardware.h
+│   │   │   ├── DevPke_cal_R2modM.S
+│   │   │   ├── pke.c
+│   │   │   └── rules.mk
+│   │   ├── rgbout
+│   │   │   ├── include
+│   │   │   │   └── drivers
+│   │   │   │       └── rgbout
+│   │   │   │           └── rgbout.h
+│   │   │   ├── rgbout.c
+│   │   │   ├── rgbout_regs.h
+│   │   │   └── rules.mk
+│   │   ├── rosc
+│   │   │   ├── rosc.c
+│   │   │   ├── rosc.h
+│   │   │   └── rules.mk
+│   │   ├── sha1
+│   │   │   ├── rules.mk
+│   │   │   ├── sha1.c
+│   │   │   └── sha1.h
+│   │   ├── spi
+│   │   │   ├── rules.mk
+│   │   │   ├── spi.c
+│   │   │   └── spi.h
+│   │   ├── swi
+│   │   │   ├── rules.mk
+│   │   │   ├── swi.c
+│   │   │   └── swi.h
+│   │   ├── timer
+│   │   │   ├── rules.mk
+│   │   │   ├── timer.c
+│   │   │   └── timer.h
+│   │   ├── uart
+│   │   │   ├── rules.mk
+│   │   │   ├── uart.c
+│   │   │   └── uart.h
+│   │   └── usbphy
+│   │       ├── rules.mk
+│   │       ├── usbphy.c
+│   │       └── usbphy.h
+│   ├── sha1
+│   │   ├── mozilla_sha.c
+│   │   ├── mozilla_sha.h
+│   │   ├── rules.mk
+│   │   ├── sha1.c
+│   │   ├── tests.c
+│   │   └── tests.mk
+│   ├── spi
+│   │   ├── gpio_spi.c
+│   │   └── rules.mk
+│   ├── synopsys
+│   │   ├── mipi
+│   │   │   ├── dsim.c
+│   │   │   ├── dsim.h
+│   │   │   ├── include
+│   │   │   │   └── drivers
+│   │   │   │       └── mipi
+│   │   │   │           └── mipi.h
+│   │   │   └── rules.mk
+│   │   └── usbotg
+│   │       ├── rules.mk
+│   │       ├── synopsys_otg.c
+│   │       └── synopsys_otg_regs.h
+│   ├── thunderbolt
+│   │   ├── ipipe.c
+│   │   ├── ipipe_protocol.h
+│   │   ├── rules.mk
+│   │   ├── tbt_control_port.c
+│   │   ├── tbt_control_port.h
+│   │   ├── tbt_cp_crc.c
+│   │   ├── tbt_cp_crc.h
+│   │   ├── tbt_protocol.h
+│   │   ├── tbt_xd_packet.h
+│   │   ├── tbt_xdomain.c
+│   │   ├── tbt_xdomain.h
+│   │   ├── thunderboot.c
+│   │   ├── thunderboot_debug.c
+│   │   ├── thunderboot_protocol.h
+│   │   ├── uuid.c
+│   │   └── uuid.h
+│   ├── ti
+│   │   ├── sn2400
+│   │   │   ├── rules.mk
+│   │   │   └── sn2400.c
+│   │   └── ths7383
+│   │       ├── rules.mk
+│   │       └── ths7383.c
+│   ├── uart
+│   │   ├── 16x50
+│   │   │   ├── 16x50.c
+│   │   │   ├── 16x50.h
+│   │   │   └── rules.mk
+│   │   ├── rules.mk
+│   │   └── uart.c
+│   └── usb
+│       ├── rules.mk
+│       ├── usb.c
+│       ├── usb_controller.c
+│       ├── usb_core.c
+│       ├── usb_debug.c
+│       ├── usb_dfu.c
+│       ├── usb_dockfifo_controller.c
+│       ├── usb_serial.c
+│       └── usb_transfer.c
+├── iboot.txt
+├── include
+│   ├── AssertMacros.h
+│   ├── Availability.h
+│   ├── arch.h
+│   ├── assert.h
+│   ├── c++
+│   │   └── iostream.h
+│   ├── cbuffer.h
+│   ├── compiler.h
+│   ├── debug.h
+│   ├── drivers
+│   │   ├── aes.h
+│   │   ├── anc_boot.h
+│   │   ├── apcie.h
+│   │   ├── asp.h
+│   │   ├── buttons.h
+│   │   ├── charger.h
+│   │   ├── consistent_debug.h
+│   │   ├── csi.h
+│   │   ├── dart.h
+│   │   ├── display.h
+│   │   ├── displayAV.h
+│   │   ├── display_pmu.h
+│   │   ├── displayport.h
+│   │   ├── dither.h
+│   │   ├── dma.h
+│   │   ├── dpb.h
+│   │   ├── dram.h
+│   │   ├── edgeic.h
+│   │   ├── ethernet.h
+│   │   ├── flash_nand.h
+│   │   ├── flash_nor.h
+│   │   ├── gasgauge.h
+│   │   ├── hdc.h
+│   │   ├── hdmi.h
+│   │   ├── iic.h
+│   │   ├── iis.h
+│   │   ├── ipipe.h
+│   │   ├── mcu.h
+│   │   ├── mipi.h
+│   │   ├── miu.h
+│   │   ├── nand_boot.h
+│   │   ├── nand_device_tree.h
+│   │   ├── nand_syscfg.h
+│   │   ├── nvme.h
+│   │   ├── pci.h
+│   │   ├── phy.h
+│   │   ├── pke.h
+│   │   ├── power.h
+│   │   ├── prc.h
+│   │   ├── process_edid.h
+│   │   ├── radio.h
+│   │   ├── reconfig.h
+│   │   ├── rsecc.h
+│   │   ├── sha1.h
+│   │   ├── shmcon.h
+│   │   ├── spi.h
+│   │   ├── sw_h2fmi.h
+│   │   ├── thermal.h
+│   │   ├── thunderbolt
+│   │   │   ├── nhi.h
+│   │   │   └── thunderboot.h
+│   │   ├── tristar.h
+│   │   ├── uart.h
+│   │   ├── usb
+│   │   │   ├── synopsys_otg_public.h
+│   │   │   ├── usb_chap9.h
+│   │   │   ├── usb_controller.h
+│   │   │   ├── usb_core.h
+│   │   │   ├── usb_debug.h
+│   │   │   └── usb_public.h
+│   │   ├── usbphy.h
+│   │   └── wpc.h
+│   ├── endian_tools.h
+│   ├── gcc
+│   │   ├── limits.h
+│   │   ├── stdarg.h
+│   │   └── syslimits.h
+│   ├── lib
+│   │   ├── DERApTicket.h
+│   │   ├── Image2Format.h
+│   │   ├── blockdev.h
+│   │   ├── cbuf.h
+│   │   ├── cksum.h
+│   │   ├── devicetree.h
+│   │   ├── env.h
+│   │   ├── fs.h
+│   │   ├── heap.h
+│   │   ├── image.h
+│   │   ├── image4_spi.h
+│   │   ├── libc.h
+│   │   ├── libiboot.h
+│   │   ├── lzss.h
+│   │   ├── macho.h
+│   │   ├── mib.h
+│   │   ├── mib_def.h
+│   │   ├── net
+│   │   │   ├── arp.h
+│   │   │   ├── callbacks.h
+│   │   │   ├── ethernet.h
+│   │   │   ├── icmp.h
+│   │   │   ├── ipv4.h
+│   │   │   ├── mbuf.h
+│   │   │   ├── udp.h
+│   │   │   └── xp.h
+│   │   ├── net.h
+│   │   ├── nonce.h
+│   │   ├── nvram.h
+│   │   ├── paint.h
+│   │   ├── paniclog.h
+│   │   ├── partition.h
+│   │   ├── pki.h
+│   │   ├── profile.h
+│   │   ├── ramdisk.h
+│   │   ├── random.h
+│   │   ├── syscfg.h
+│   │   ├── tftp.h
+│   │   └── ticket.h
+│   ├── libkern
+│   │   └── OSByteOrder.h
+│   ├── list.h
+│   ├── non_posix_types.h
+│   ├── platform
+│   │   ├── breadcrumbs.h
+│   │   ├── chipid.h
+│   │   ├── clocks.h
+│   │   ├── gpio.h
+│   │   ├── int.h
+│   │   ├── memmap_defaults.h
+│   │   ├── miu.h
+│   │   ├── pmgr.h
+│   │   ├── power.h
+│   │   ├── timer.h
+│   │   └── tunables.h
+│   ├── platform.h
+│   ├── posix
+│   │   ├── ctype.h
+│   │   ├── errno.h
+│   │   ├── machine
+│   │   │   └── endian.h
+│   │   ├── stdbool.h
+│   │   ├── stdint.h
+│   │   ├── stdio.h
+│   │   ├── stdlib.h
+│   │   ├── string.h
+│   │   └── sys
+│   │       ├── cdefs.h
+│   │       ├── errno.h
+│   │       └── types.h
+│   ├── sys
+│   │   ├── boot.h
+│   │   ├── callout.h
+│   │   ├── hash.h
+│   │   ├── linker_set.h
+│   │   ├── menu.h
+│   │   ├── security.h
+│   │   └── task.h
+│   ├── sys.h
+│   └── target.h
+├── lib
+│   ├── blockdev
+│   │   ├── blockdev.c
+│   │   ├── debug.c
+│   │   ├── library.mk
+│   │   ├── mem_blockdev.c
+│   │   ├── rules.mk
+│   │   ├── subdev.c
+│   │   ├── tests.c
+│   │   └── tests.mk
+│   ├── cbuf
+│   │   ├── cbuf.c
+│   │   ├── library.mk
+│   │   └── rules.mk
+│   ├── cksum
+│   │   ├── adler32.c
+│   │   ├── arm
+│   │   │   └── adler32vec.S
+│   │   ├── arm64
+│   │   │   └── adler32vec.S
+│   │   ├── crc.c
+│   │   ├── crc32.c
+│   │   ├── debug.c
+│   │   ├── library.mk
+│   │   ├── rules.mk
+│   │   ├── siphash.c
+│   │   ├── tests.c
+│   │   └── tests.mk
+│   ├── devicetree
+│   │   ├── devicetree.c
+│   │   ├── devicetree_debug.c
+│   │   ├── devicetree_load.c
+│   │   ├── devicetree_private.h
+│   │   ├── fuzz.c
+│   │   ├── fuzzing-dict.txt
+│   │   ├── library.mk
+│   │   ├── rules.mk
+│   │   ├── tests-fuzz.mk
+│   │   ├── tests.c
+│   │   └── tests.mk
+│   ├── effaceable
+│   │   ├── README
+│   │   ├── common
+│   │   │   ├── effaceable_context.h
+│   │   │   ├── effaceable_delegation.h
+│   │   │   ├── effaceable_locker.h
+│   │   │   ├── effaceable_nand_core.c
+│   │   │   ├── effaceable_nand_core.h
+│   │   │   ├── effaceable_nor_core.c
+│   │   │   ├── effaceable_nor_core.h
+│   │   │   ├── effaceable_private_types.h
+│   │   │   ├── effaceable_storage_core.c
+│   │   │   ├── effaceable_storage_core.h
+│   │   │   ├── effaceable_storage_dev.h
+│   │   │   ├── include
+│   │   │   │   ├── AppleEffaceableStorageFormat.h
+│   │   │   │   ├── AppleEffaceableStorageKeys.h
+│   │   │   │   ├── effaceable_contract.h
+│   │   │   │   └── effaceable_debug.h
+│   │   │   ├── queue.h
+│   │   │   └── rules.mk
+│   │   ├── docs
+│   │   │   └── notes_to_auditors.txt
+│   │   ├── iboot
+│   │   │   ├── effaceable_cmd.c
+│   │   │   ├── effaceable_storage.c
+│   │   │   ├── effaceable_system.c
+│   │   │   ├── include
+│   │   │   │   └── lib
+│   │   │   │       ├── effaceable.h
+│   │   │   │       └── effaceable_impl.h
+│   │   │   ├── nand
+│   │   │   │   ├── effaceable_nand.c
+│   │   │   │   ├── include
+│   │   │   │   │   └── lib
+│   │   │   │   │       └── effaceable_nand.h
+│   │   │   │   └── rules.mk
+│   │   │   ├── nor
+│   │   │   │   ├── effaceable_nor.c
+│   │   │   │   ├── include
+│   │   │   │   │   └── lib
+│   │   │   │   │       └── effaceable_nor.h
+│   │   │   │   └── rules.mk
+│   │   │   └── rules.mk
+│   │   ├── iokit
+│   │   │   ├── AppleEffaceableNAND.cpp
+│   │   │   ├── AppleEffaceableNAND.h
+│   │   │   ├── AppleEffaceableNOR.cpp
+│   │   │   ├── AppleEffaceableNOR.h
+│   │   │   ├── AppleEffaceableStorage.cpp
+│   │   │   ├── AppleEffaceableStorage.h
+│   │   │   ├── AppleEffaceableStorageUserClient.cpp
+│   │   │   ├── AppleEffaceableStorageUserClient.h
+│   │   │   └── Info.plist
+│   │   └── ios
+│   │       ├── effaceable.c
+│   │       └── effaceable.h
+│   ├── env
+│   │   ├── env.c
+│   │   ├── library.mk
+│   │   ├── rules.mk
+│   │   ├── tests.c
+│   │   └── tests.mk
+│   ├── fs
+│   │   ├── debug.c
+│   │   ├── fs.c
+│   │   ├── hfs
+│   │   │   ├── cache.c
+│   │   │   ├── fuzz.c
+│   │   │   ├── hfs.c
+│   │   │   ├── hfs.h
+│   │   │   ├── hfs_format.h
+│   │   │   ├── hfs_fs.c
+│   │   │   ├── library.mk
+│   │   │   ├── rules.mk
+│   │   │   ├── test-hfs-helper.sh
+│   │   │   ├── tests-common.mk
+│   │   │   ├── tests-fuzz.mk
+│   │   │   ├── tests.c
+│   │   │   └── tests.mk
+│   │   ├── library.mk
+│   │   └── rules.mk
+│   ├── heap
+│   │   ├── heap.c
+│   │   ├── libc_stub.c
+│   │   ├── library.mk
+│   │   ├── rules.mk
+│   │   ├── tests-common.mk
+│   │   ├── tests-debugging.mk
+│   │   ├── tests.c
+│   │   └── tests.mk
+│   ├── image
+│   │   ├── debug.c
+│   │   ├── image.c
+│   │   ├── image3
+│   │   │   ├── Image3.c
+│   │   │   ├── Image3.h
+│   │   │   ├── Image3Format.h
+│   │   │   ├── Image3SuperBlock.h
+│   │   │   ├── image3_wrapper.c
+│   │   │   ├── image3_wrapper.h
+│   │   │   └── rules.mk
+│   │   ├── image4
+│   │   │   ├── image4_partial.c
+│   │   │   ├── image4_partial.h
+│   │   │   ├── image4_wrapper.c
+│   │   │   ├── image4_wrapper.h
+│   │   │   └── rules.mk
+│   │   └── rules.mk
+│   ├── libbuiltin
+│   │   ├── arm
+│   │   │   ├── builtin_divide.c
+│   │   │   └── rules.mk
+│   │   └── library.mk
+│   ├── libc
+│   │   ├── arm
+│   │   │   ├── bcopy.S
+│   │   │   ├── bzero.S
+│   │   │   ├── rules.mk
+│   │   │   └── strlen.S
+│   │   ├── arm64
+│   │   │   ├── asm.h
+│   │   │   ├── bcopy.S
+│   │   │   ├── bzero.S
+│   │   │   ├── memcpy.S
+│   │   │   ├── memset.S
+│   │   │   └── rules.mk
+│   │   ├── atoi.c
+│   │   ├── ctype.c
+│   │   ├── endian.c
+│   │   ├── library.mk
+│   │   ├── log2.c
+│   │   ├── memchr.c
+│   │   ├── memcmp.c
+│   │   ├── memcpy_chk.c
+│   │   ├── memmove_chk.c
+│   │   ├── memscan.c
+│   │   ├── memset_chk.c
+│   │   ├── misc.c
+│   │   ├── printf.c
+│   │   ├── printf_chk.c
+│   │   ├── qsort.c
+│   │   ├── stdio.c
+│   │   ├── stdlib.c
+│   │   ├── strchr.c
+│   │   ├── strcmp.c
+│   │   ├── strcoll.c
+│   │   ├── strdup.c
+│   │   ├── strlcat.c
+│   │   ├── strlcat_chk.c
+│   │   ├── strlcpy.c
+│   │   ├── strlcpy_chk.c
+│   │   ├── strlen.c
+│   │   ├── strncmp.c
+│   │   ├── strnicmp.c
+│   │   ├── strnlen.c
+│   │   ├── strpbrk.c
+│   │   ├── strrchr.c
+│   │   ├── strsep.c
+│   │   ├── strspn.c
+│   │   ├── strstr.c
+│   │   ├── strtok.c
+│   │   ├── strtol.c
+│   │   ├── strtoll.c
+│   │   ├── strtoul.c
+│   │   ├── strtoull.c
+│   │   ├── strxfrm.c
+│   │   ├── test_printf.c
+│   │   ├── tests-base.mk
+│   │   ├── tests-release.mk
+│   │   └── tests.mk
+│   ├── libc++
+│   │   ├── iostream.cpp
+│   │   ├── library.mk
+│   │   ├── misc.cpp
+│   │   ├── new.cpp
+│   │   └── rules.mk
+│   ├── libcorecrypto
+│   │   └── library.mk
+│   ├── lzss
+│   │   ├── arm
+│   │   │   └── lzssdec.S
+│   │   ├── arm64
+│   │   │   └── lzssdec.S
+│   │   ├── library.mk
+│   │   ├── lzss.c
+│   │   ├── rules.mk
+│   │   ├── tests.c
+│   │   └── tests.mk
+│   ├── macho
+│   │   ├── boot.h
+│   │   ├── dt.c
+│   │   ├── kernelcache.c
+│   │   ├── macho.c
+│   │   ├── macho_header.h
+│   │   ├── monitor.c
+│   │   └── rules.mk
+│   ├── mib
+│   │   ├── header.mk
+│   │   ├── library.mk
+│   │   ├── mib.base
+│   │   ├── mib.c
+│   │   ├── mib_gen_def.awk
+│   │   ├── mib_gen_hdr.awk
+│   │   └── rules.mk
+│   ├── net
+│   │   ├── arp.c
+│   │   ├── callbacks.c
+│   │   ├── debug.c
+│   │   ├── ethernet.c
+│   │   ├── icmp.c
+│   │   ├── ipv4.c
+│   │   ├── mbuf.c
+│   │   ├── net.c
+│   │   ├── rules.mk
+│   │   ├── udp.c
+│   │   └── xp.c
+│   ├── nonce
+│   │   ├── library.mk
+│   │   ├── nonce.c
+│   │   └── rules.mk
+│   ├── nvram
+│   │   ├── fuzz.c
+│   │   ├── library.mk
+│   │   ├── nvram.c
+│   │   ├── rules.mk
+│   │   ├── tests-common.mk
+│   │   ├── tests-fuzz.mk
+│   │   ├── tests.c
+│   │   └── tests.mk
+│   ├── paint
+│   │   ├── library.mk
+│   │   ├── paint.c
+│   │   ├── rules.mk
+│   │   ├── tests.c
+│   │   └── tests.mk
+│   ├── paniclog
+│   │   ├── library.mk
+│   │   ├── paniclog.c
+│   │   └── rules.mk
+│   ├── partition
+│   │   ├── gpt.c
+│   │   ├── library.mk
+│   │   ├── lwvm.c
+│   │   ├── mbr.c
+│   │   ├── partition.c
+│   │   ├── partition_private.h
+│   │   └── rules.mk
+│   ├── pki
+│   │   ├── apple_ca.h
+│   │   ├── chain-validation.c
+│   │   ├── debug.c
+│   │   ├── fake_ca.h
+│   │   ├── libDER
+│   │   │   ├── DER_CertCrl.c
+│   │   │   ├── DER_CertCrl.h
+│   │   │   ├── DER_Decode.c
+│   │   │   ├── DER_Decode.h
+│   │   │   ├── DER_Digest.c
+│   │   │   ├── DER_Digest.h
+│   │   │   ├── DER_Encode.c
+│   │   │   ├── DER_Encode.h
+│   │   │   ├── DER_Keys.c
+│   │   │   ├── DER_Keys.h
+│   │   │   ├── asn1Types.h
+│   │   │   ├── libDER.h
+│   │   │   ├── libDER_config.h
+│   │   │   ├── oids.c
+│   │   │   └── oids.h
+│   │   ├── libGiants
+│   │   │   ├── giantDebug.c
+│   │   │   ├── giantDebug.h
+│   │   │   ├── giantExternal.c
+│   │   │   ├── giantExternal.h
+│   │   │   ├── giantIntegers.c
+│   │   │   ├── giantIntegers.h
+│   │   │   ├── giantMemutils.c
+│   │   │   ├── giantMod.c
+│   │   │   ├── giantMod.h
+│   │   │   ├── giantPlatform.h
+│   │   │   ├── giantPlatformEmulation.h
+│   │   │   ├── giantPortCommon.h
+│   │   │   ├── giantPort_C.c
+│   │   │   ├── giantPort_Generic.h
+│   │   │   └── giantTypes.h
+│   │   ├── libGiantsUtils
+│   │   │   ├── GIReturnString.c
+│   │   │   └── GIReturnString.h
+│   │   ├── libgRSA
+│   │   │   ├── libgRSA.c
+│   │   │   ├── libgRSA.h
+│   │   │   ├── libgRSA_DER.c
+│   │   │   ├── libgRSA_DER.h
+│   │   │   ├── libgRSA_config.h
+│   │   │   ├── libgRSA_priv.c
+│   │   │   ├── libgRSA_priv.h
+│   │   │   ├── rsaGiantKey.c
+│   │   │   ├── rsaGiantKey.h
+│   │   │   ├── rsaPadding.c
+│   │   │   ├── rsaPadding.h
+│   │   │   ├── rsaRawKey.c
+│   │   │   ├── rsaRawKey.h
+│   │   │   └── rsaTypes.h
+│   │   ├── library.mk
+│   │   ├── rules.mk
+│   │   └── tests
+│   │       ├── fake-hierarchy-img3-test.txt
+│   │       ├── intermediate-cert.der
+│   │       ├── intermediate-key.pem
+│   │       ├── make-img3-specs
+│   │       └── to_binary_hash.c
+│   ├── power
+│   │   ├── power.c
+│   │   └── rules.mk
+│   ├── profile
+│   │   ├── profile.c
+│   │   └── rules.mk
+│   ├── ramdisk
+│   │   ├── library.mk
+│   │   ├── ramdisk.c
+│   │   └── rules.mk
+│   ├── random
+│   │   ├── library.mk
+│   │   ├── random.c
+│   │   └── rules.mk
+│   ├── syscfg
+│   │   ├── library.mk
+│   │   ├── rules.mk
+│   │   ├── syscfg.c
+│   │   ├── tests.c
+│   │   └── tests.mk
+│   ├── tftp
+│   │   ├── debug.c
+│   │   ├── rules.mk
+│   │   └── tftp.c
+│   └── ticket
+│       ├── DERApTicket.c
+│       ├── fuzz.c
+│       ├── library.mk
+│       ├── rules.mk
+│       ├── tests-fuzz.mk
+│       └── ticket.c
+├── makefiles
+│   ├── build.mk
+│   ├── config.mk
+│   ├── device_map.mk
+│   ├── format-headerfile.awk
+│   ├── headers.mk
+│   ├── lib.mk
+│   ├── libraries.mk
+│   ├── macros.mk
+│   ├── main-nested-module.mk
+│   ├── main.mk
+│   ├── test.mk
+│   ├── tests.mk
+│   └── tools.mk
+├── platform
+│   ├── defaults
+│   │   ├── chipid_get_raw_production_mode.c
+│   │   ├── formatter.awk
+│   │   ├── library.mk
+│   │   ├── lister.awk
+│   │   ├── platform.defaults
+│   │   ├── platform_get_default_gpio_cfg.c
+│   │   ├── platform_get_memory_region.c
+│   │   ├── platform_get_spi_frequency.c
+│   │   ├── platform_memory_map.c
+│   │   ├── platform_restore_system.c
+│   │   ├── rules.mk
+│   │   ├── target_get_boot_battery_capacity.c
+│   │   ├── target_get_precharge_gg_flag_mask.c
+│   │   ├── target_get_property.c
+│   │   ├── target_get_property_base.c
+│   │   └── template.c
+│   ├── generic
+│   │   ├── breadcrumbs.c
+│   │   ├── default_mib.c
+│   │   ├── defaults.c
+│   │   ├── library.mk
+│   │   ├── platform_dep.c
+│   │   ├── platform_indep.c
+│   │   ├── platform_info.S
+│   │   ├── pmgr
+│   │   │   ├── pmgr_binning.c
+│   │   │   ├── pmgr_binning_menu.c
+│   │   │   └── rules.mk
+│   │   ├── rules.mk
+│   │   ├── target_dep.c
+│   │   ├── target_indep.c
+│   │   └── target_pass_boot_manifest.c
+│   ├── s5l8747x
+│   │   ├── asm.S
+│   │   ├── chipid
+│   │   │   ├── chipid.c
+│   │   │   └── rules.mk
+│   │   ├── clocks
+│   │   │   ├── clocks.c
+│   │   │   └── rules.mk
+│   │   ├── include
+│   │   │   └── platform
+│   │   │       ├── gpiodef.h
+│   │   │       ├── image_devices.h
+│   │   │       ├── memmap.h
+│   │   │       ├── pinconfig.h
+│   │   │       ├── soc
+│   │   │       │   ├── chipid.h
+│   │   │       │   ├── clocks.h
+│   │   │       │   ├── hwclocks.h
+│   │   │       │   ├── hwisr.h
+│   │   │       │   ├── hwregbase.h
+│   │   │       │   ├── miu.h
+│   │   │       │   ├── power.h
+│   │   │       │   └── sdo.h
+│   │   │       ├── trampoline.h
+│   │   │       └── usbconfig.h
+│   │   ├── init.c
+│   │   ├── miu
+│   │   │   ├── miu.c
+│   │   │   └── rules.mk
+│   │   ├── pmgr
+│   │   │   ├── pmgr.c
+│   │   │   └── rules.mk
+│   │   └── rules.mk
+│   ├── s5l8940x
+│   │   ├── amc
+│   │   │   ├── amc_s5l8940x.c
+│   │   │   ├── amc_s5l8947x.c
+│   │   │   └── rules.mk
+│   │   ├── chipid
+│   │   │   ├── chipid.c
+│   │   │   └── rules.mk
+│   │   ├── include
+│   │   │   └── platform
+│   │   │       ├── amcconfig.h
+│   │   │       ├── amcconfig_s5l8940x.h
+│   │   │       ├── amcconfig_s5l8942x.h
+│   │   │       ├── amcconfig_s5l8947x.h
+│   │   │       ├── amgconfig.h
+│   │   │       ├── ampconfig.h
+│   │   │       ├── boot_pins.h
+│   │   │       ├── boot_pins_s5l8940x.h
+│   │   │       ├── boot_pins_s5l8942x.h
+│   │   │       ├── boot_pins_s5l8947x.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── gpiodef_s5l8940x.h
+│   │   │       ├── gpiodef_s5l8942x.h
+│   │   │       ├── gpiodef_s5l8947x.h
+│   │   │       ├── image_devices.h
+│   │   │       ├── memconfig.h
+│   │   │       ├── memmap.h
+│   │   │       ├── pinconfig_s5l8940x.h
+│   │   │       ├── pinconfig_s5l8942x.h
+│   │   │       ├── pinconfig_s5l8947x.h
+│   │   │       ├── soc
+│   │   │       │   ├── chipid.h
+│   │   │       │   ├── display.h
+│   │   │       │   ├── display_timings.h
+│   │   │       │   ├── hwclocks.h
+│   │   │       │   ├── hwdmachannels.h
+│   │   │       │   ├── hwdmachannels_s5l8940x.h
+│   │   │       │   ├── hwdmachannels_s5l8942x.h
+│   │   │       │   ├── hwdmachannels_s5l8947x.h
+│   │   │       │   ├── hwisr.h
+│   │   │       │   ├── hwregbase.h
+│   │   │       │   ├── miu.h
+│   │   │       │   └── pmgr.h
+│   │   │       ├── trampoline.h
+│   │   │       └── usbconfig.h
+│   │   ├── init.c
+│   │   ├── iop_init.c
+│   │   ├── miu
+│   │   │   ├── miu.c
+│   │   │   └── rules.mk
+│   │   ├── pinconfig_s5l8940x.c
+│   │   ├── pinconfig_s5l8942x.c
+│   │   ├── pinconfig_s5l8947x.c
+│   │   ├── pmgr
+│   │   │   ├── pmgr.c
+│   │   │   └── rules.mk
+│   │   └── rules.mk
+│   ├── s5l8945x
+│   │   ├── amc
+│   │   │   ├── amc.c
+│   │   │   └── rules.mk
+│   │   ├── chipid
+│   │   │   ├── chipid.c
+│   │   │   └── rules.mk
+│   │   ├── include
+│   │   │   └── platform
+│   │   │       ├── amcconfig.h
+│   │   │       ├── amgconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── image_devices.h
+│   │   │       ├── memconfig.h
+│   │   │       ├── memmap.h
+│   │   │       ├── pinconfig.h
+│   │   │       ├── soc
+│   │   │       │   ├── chipid.h
+│   │   │       │   ├── display.h
+│   │   │       │   ├── display_timings.h
+│   │   │       │   ├── hwclocks.h
+│   │   │       │   ├── hwdmachannels.h
+│   │   │       │   ├── hwisr.h
+│   │   │       │   ├── hwregbase.h
+│   │   │       │   ├── miu.h
+│   │   │       │   └── pmgr.h
+│   │   │       ├── trampoline.h
+│   │   │       └── usbconfig.h
+│   │   ├── init.c
+│   │   ├── iop_init.c
+│   │   ├── miu
+│   │   │   ├── miu.c
+│   │   │   └── rules.mk
+│   │   ├── pmgr
+│   │   │   ├── pmgr.c
+│   │   │   └── rules.mk
+│   │   └── rules.mk
+│   ├── s5l8950x
+│   │   ├── amc
+│   │   │   ├── amc.c
+│   │   │   └── rules.mk
+│   │   ├── asm.S
+│   │   ├── chipid
+│   │   │   ├── chipid.c
+│   │   │   └── rules.mk
+│   │   ├── include
+│   │   │   └── platform
+│   │   │       ├── amcconfig.h
+│   │   │       ├── ampconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── image_devices.h
+│   │   │       ├── memconfig.h
+│   │   │       ├── memmap.h
+│   │   │       ├── pinconfig.h
+│   │   │       ├── soc
+│   │   │       │   ├── chipid.h
+│   │   │       │   ├── display.h
+│   │   │       │   ├── display_timings.h
+│   │   │       │   ├── hwclocks.h
+│   │   │       │   ├── hwdmachannels.h
+│   │   │       │   ├── hwisr.h
+│   │   │       │   ├── hwregbase.h
+│   │   │       │   ├── miu.h
+│   │   │       │   └── pmgr.h
+│   │   │       ├── trampoline.h
+│   │   │       └── usbconfig.h
+│   │   ├── init.c
+│   │   ├── iop_init.c
+│   │   ├── miu
+│   │   │   ├── miu.c
+│   │   │   └── rules.mk
+│   │   ├── pmgr
+│   │   │   ├── pmgr.c
+│   │   │   └── rules.mk
+│   │   └── rules.mk
+│   ├── s5l8955x
+│   │   ├── amc
+│   │   │   ├── amc.c
+│   │   │   └── rules.mk
+│   │   ├── asm.S
+│   │   ├── chipid
+│   │   │   ├── chipid.c
+│   │   │   └── rules.mk
+│   │   ├── include
+│   │   │   └── platform
+│   │   │       ├── amcconfig.h
+│   │   │       ├── ampconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── image_devices.h
+│   │   │       ├── memconfig.h
+│   │   │       ├── memmap.h
+│   │   │       ├── pinconfig.h
+│   │   │       ├── soc
+│   │   │       │   ├── chipid.h
+│   │   │       │   ├── display.h
+│   │   │       │   ├── display_timings.h
+│   │   │       │   ├── hwclocks.h
+│   │   │       │   ├── hwdmachannels.h
+│   │   │       │   ├── hwisr.h
+│   │   │       │   ├── hwregbase.h
+│   │   │       │   ├── miu.h
+│   │   │       │   └── pmgr.h
+│   │   │       ├── trampoline.h
+│   │   │       └── usbconfig.h
+│   │   ├── init.c
+│   │   ├── iop_init.c
+│   │   ├── miu
+│   │   │   ├── miu.c
+│   │   │   └── rules.mk
+│   │   ├── pmgr
+│   │   │   ├── pmgr.c
+│   │   │   └── rules.mk
+│   │   └── rules.mk
+│   ├── s5l8960x
+│   │   ├── amc
+│   │   │   ├── amc.c
+│   │   │   └── rules.mk
+│   │   ├── asm.S
+│   │   ├── chipid
+│   │   │   ├── chipid.c
+│   │   │   └── rules.mk
+│   │   ├── error_handler
+│   │   │   ├── error_handler.c
+│   │   │   └── rules.mk
+│   │   ├── include
+│   │   │   └── platform
+│   │   │       ├── amcconfig.h
+│   │   │       ├── ampconfig.h
+│   │   │       ├── error_handler.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── image_devices.h
+│   │   │       ├── memconfig.h
+│   │   │       ├── memmap.h
+│   │   │       ├── pinconfig.h
+│   │   │       ├── soc
+│   │   │       │   ├── ccc.h
+│   │   │       │   ├── chipid.h
+│   │   │       │   ├── display.h
+│   │   │       │   ├── display_color_manager_tables.h
+│   │   │       │   ├── display_timings.h
+│   │   │       │   ├── hwclocks.h
+│   │   │       │   ├── hwisr.h
+│   │   │       │   ├── hwregbase.h
+│   │   │       │   ├── miu.h
+│   │   │       │   └── pmgr.h
+│   │   │       ├── trampoline.h
+│   │   │       └── usbconfig.h
+│   │   ├── init.c
+│   │   ├── miu
+│   │   │   ├── miu.c
+│   │   │   └── rules.mk
+│   │   ├── pmgr
+│   │   │   ├── pmgr.c
+│   │   │   └── rules.mk
+│   │   ├── rules.mk
+│   │   └── trampoline.S
+│   ├── s7002
+│   │   ├── amc
+│   │   │   ├── amc.c
+│   │   │   └── rules.mk
+│   │   ├── asm.S
+│   │   ├── chipid
+│   │   │   ├── chipid.c
+│   │   │   └── rules.mk
+│   │   ├── include
+│   │   │   └── platform
+│   │   │       ├── amcconfig.h
+│   │   │       ├── ampconfig.h
+│   │   │       ├── dmin.h
+│   │   │       ├── dockfifo_config.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── image_devices.h
+│   │   │       ├── memconfig.h
+│   │   │       ├── memmap.h
+│   │   │       ├── pinconfig.h
+│   │   │       ├── pl080dmac_config.h
+│   │   │       ├── soc
+│   │   │       │   ├── chipid.h
+│   │   │       │   ├── display.h
+│   │   │       │   ├── display_timings.h
+│   │   │       │   ├── hwclocks.h
+│   │   │       │   ├── hwdmachannels.h
+│   │   │       │   ├── hwisr.h
+│   │   │       │   ├── hwregbase.h
+│   │   │       │   ├── miu.h
+│   │   │       │   ├── pmgr.h
+│   │   │       │   ├── reconfig.h
+│   │   │       │   └── spu.h
+│   │   │       ├── trampoline.h
+│   │   │       └── usbconfig.h
+│   │   ├── init.c
+│   │   ├── miu
+│   │   │   ├── miu.c
+│   │   │   └── rules.mk
+│   │   ├── pmgr
+│   │   │   ├── pmgr.c
+│   │   │   └── rules.mk
+│   │   ├── reconfig
+│   │   │   ├── reconfig.c
+│   │   │   └── rules.mk
+│   │   └── rules.mk
+│   ├── s8000
+│   │   ├── apcie
+│   │   │   ├── apcie_v2.c
+│   │   │   └── rules.mk
+│   │   ├── asm.S
+│   │   ├── chipid
+│   │   │   ├── chipid.c
+│   │   │   ├── dvfmperf.c
+│   │   │   ├── operating_point.c
+│   │   │   ├── pmgr_binning_s8000.c
+│   │   │   ├── pmgr_binning_s8001.c
+│   │   │   ├── pmgr_binning_s8003.c
+│   │   │   ├── rules.mk
+│   │   │   ├── tunables_pmgr_product.c
+│   │   │   ├── tunables_pmgr_s8000.c
+│   │   │   ├── tunables_pmgr_s8001.c
+│   │   │   ├── tunables_pmgr_s8001_ipad6b.c
+│   │   │   └── tunables_pmgr_s8003.c
+│   │   ├── dcs
+│   │   │   ├── dcs.c
+│   │   │   ├── dcs_init_lib_s8000.c
+│   │   │   ├── dcs_init_lib_s8001.c
+│   │   │   ├── dcs_init_lib_s8003.c
+│   │   │   └── rules.mk
+│   │   ├── error_handler
+│   │   │   ├── error_handler.c
+│   │   │   └── rules.mk
+│   │   ├── include
+│   │   │   └── platform
+│   │   │       ├── apcie.h
+│   │   │       ├── apcie_regs.h
+│   │   │       ├── dcsconfig.h
+│   │   │       ├── dcsconfig_s8000.h
+│   │   │       ├── dcsconfig_s8001.h
+│   │   │       ├── dcsconfig_s8003.h
+│   │   │       ├── error_handler.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── gpiodef_s8000.h
+│   │   │       ├── gpiodef_s8001.h
+│   │   │       ├── image_devices.h
+│   │   │       ├── memconfig.h
+│   │   │       ├── memmap.h
+│   │   │       ├── pcimap.h
+│   │   │       ├── pinconfig.h
+│   │   │       ├── pinconfig_s8000.h
+│   │   │       ├── pinconfig_s8001.h
+│   │   │       ├── soc
+│   │   │       │   ├── ccc.h
+│   │   │       │   ├── chipid.h
+│   │   │       │   ├── display.h
+│   │   │       │   ├── display_s8000.h
+│   │   │       │   ├── display_s8001.h
+│   │   │       │   ├── display_s8003.h
+│   │   │       │   ├── display_timings.h
+│   │   │       │   ├── dvfmperf.h
+│   │   │       │   ├── hwclocks.h
+│   │   │       │   ├── hwisr.h
+│   │   │       │   ├── hwregbase.h
+│   │   │       │   ├── miu.h
+│   │   │       │   ├── operating_point.h
+│   │   │       │   ├── pmgr.h
+│   │   │       │   ├── reconfig.h
+│   │   │       │   ├── reconfig_sequences_1200_s8000.h
+│   │   │       │   ├── reconfig_sequences_1200_s8000_b0.h
+│   │   │       │   ├── reconfig_sequences_1200_s8003.h
+│   │   │       │   ├── reconfig_sequences_1200_s8003_a0.h
+│   │   │       │   ├── reconfig_sequences_mcu_1200_s8000.h
+│   │   │       │   ├── reconfig_sequences_mcu_1200_s8000_b0.h
+│   │   │       │   ├── reconfig_sequences_mcu_1200_s8003.h
+│   │   │       │   ├── reconfig_sequences_mcu_1200_s8003_a0.h
+│   │   │       │   ├── reconfig_sequences_mcu_4ch_s8001.h
+│   │   │       │   ├── reconfig_sequences_mcu_4ch_s8001_a0.h
+│   │   │       │   ├── reconfig_sequences_mcu_8ch_s8001.h
+│   │   │       │   ├── reconfig_sequences_mcu_8ch_s8001_a0.h
+│   │   │       │   ├── reconfig_sequences_s8001.h
+│   │   │       │   ├── reconfig_sequences_s8001_a0.h
+│   │   │       │   ├── s8000
+│   │   │       │   │   ├── apcie_common.h
+│   │   │       │   │   ├── apcie_config.h
+│   │   │       │   │   ├── ausr_cfg.h
+│   │   │       │   │   ├── ausr_shm_cfg.h
+│   │   │       │   │   ├── aust_shm_cfg.h
+│   │   │       │   │   ├── b0
+│   │   │       │   │   │   └── tunable
+│   │   │       │   │   │       ├── apcie_common.h
+│   │   │       │   │   │       ├── apcie_config.h
+│   │   │       │   │   │       ├── ausr_cfg.h
+│   │   │       │   │   │       ├── ausr_shm_cfg.h
+│   │   │       │   │   │       ├── aust_shm_cfg.h
+│   │   │       │   │   │       ├── x1_pcie_rc.h
+│   │   │       │   │   │       └── x2_pcie_rc.h
+│   │   │       │   │   ├── c0
+│   │   │       │   │   │   └── tunable
+│   │   │       │   │   │       ├── apcie_common.h
+│   │   │       │   │   │       ├── apcie_config.h
+│   │   │       │   │   │       ├── ausr_cfg.h
+│   │   │       │   │   │       ├── ausr_shm_cfg.h
+│   │   │       │   │   │       ├── aust_shm_cfg.h
+│   │   │       │   │   │       ├── x1_pcie_rc.h
+│   │   │       │   │   │       └── x2_pcie_rc.h
+│   │   │       │   │   ├── x1_pcie_rc.h
+│   │   │       │   │   └── x2_pcie_rc.h
+│   │   │       │   ├── s8001
+│   │   │       │   │   ├── a0
+│   │   │       │   │   │   └── tunable
+│   │   │       │   │   │       ├── apcie_common.h
+│   │   │       │   │   │       ├── apcie_config.h
+│   │   │       │   │   │       ├── apcie_phy_glue.h
+│   │   │       │   │   │       └── x2_pcie_rc.h
+│   │   │       │   │   ├── apcie_common.h
+│   │   │       │   │   ├── apcie_config.h
+│   │   │       │   │   ├── apcie_phy_glue.h
+│   │   │       │   │   ├── b0
+│   │   │       │   │   │   └── tunable
+│   │   │       │   │   │       ├── apcie_common.h
+│   │   │       │   │   │       ├── apcie_config.h
+│   │   │       │   │   │       ├── apcie_phy_glue.h
+│   │   │       │   │   │       └── x2_pcie_rc.h
+│   │   │       │   │   └── x2_pcie_rc.h
+│   │   │       │   └── s8003
+│   │   │       │       ├── a0
+│   │   │       │       │   └── tunable
+│   │   │       │       │       ├── apcie_common.h
+│   │   │       │       │       ├── apcie_config.h
+│   │   │       │       │       ├── apcie_phy_glue.h
+│   │   │       │       │       ├── x1_pcie_rc.h
+│   │   │       │       │       └── x2_pcie_rc.h
+│   │   │       │       ├── a1
+│   │   │       │       │   └── tunable
+│   │   │       │       │       ├── apcie_common.h
+│   │   │       │       │       ├── apcie_config.h
+│   │   │       │       │       ├── apcie_phy_glue.h
+│   │   │       │       │       ├── x1_pcie_rc.h
+│   │   │       │       │       └── x2_pcie_rc.h
+│   │   │       │       ├── apcie_common.h
+│   │   │       │       ├── apcie_config.h
+│   │   │       │       ├── apcie_phy_glue.h
+│   │   │       │       ├── x1_pcie_rc.h
+│   │   │       │       └── x2_pcie_rc.h
+│   │   │       ├── trampoline.h
+│   │   │       ├── uartconfig.h
+│   │   │       └── usbconfig.h
+│   │   ├── init.c
+│   │   ├── miu
+│   │   │   ├── miu.c
+│   │   │   └── rules.mk
+│   │   ├── pmgr
+│   │   │   ├── pmgr.c
+│   │   │   └── rules.mk
+│   │   ├── reconfig.c
+│   │   ├── reconfig_s8000_a1.c
+│   │   ├── rules.mk
+│   │   └── trampoline.S
+│   ├── t7000
+│   │   ├── amc
+│   │   │   ├── amc.c
+│   │   │   └── rules.mk
+│   │   ├── apcie
+│   │   │   ├── apcie_common_regs.h
+│   │   │   ├── apcie_v1.c
+│   │   │   └── rules.mk
+│   │   ├── asm.S
+│   │   ├── chipid
+│   │   │   ├── chipid.c
+│   │   │   └── rules.mk
+│   │   ├── error_handler
+│   │   │   ├── error_handler.c
+│   │   │   └── rules.mk
+│   │   ├── include
+│   │   │   └── platform
+│   │   │       ├── amcconfig.h
+│   │   │       ├── amcconfig_t7000.h
+│   │   │       ├── amcconfig_t7001.h
+│   │   │       ├── ampconfig.h
+│   │   │       ├── apcie_regs.h
+│   │   │       ├── error_handler.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── gpiodef_t7000.h
+│   │   │       ├── gpiodef_t7001.h
+│   │   │       ├── image_devices.h
+│   │   │       ├── memconfig.h
+│   │   │       ├── memmap.h
+│   │   │       ├── pcimap.h
+│   │   │       ├── pinconfig.h
+│   │   │       ├── pinconfig_t7000.h
+│   │   │       ├── pinconfig_t7001.h
+│   │   │       ├── soc
+│   │   │       │   ├── ccc.h
+│   │   │       │   ├── chipid.h
+│   │   │       │   ├── display.h
+│   │   │       │   ├── display_t7000.h
+│   │   │       │   ├── display_t7001.h
+│   │   │       │   ├── display_timings.h
+│   │   │       │   ├── hwclocks.h
+│   │   │       │   ├── hwisr.h
+│   │   │       │   ├── hwregbase.h
+│   │   │       │   ├── miu.h
+│   │   │       │   └── pmgr.h
+│   │   │       ├── trampoline.h
+│   │   │       └── usbconfig.h
+│   │   ├── init.c
+│   │   ├── miu
+│   │   │   ├── miu.c
+│   │   │   └── rules.mk
+│   │   ├── pmgr
+│   │   │   ├── pmgr.c
+│   │   │   └── rules.mk
+│   │   ├── rules.mk
+│   │   └── trampoline.S
+│   ├── t8002
+│   │   ├── asm.S
+│   │   ├── chipid
+│   │   │   ├── chipid.c
+│   │   │   ├── rules.mk
+│   │   │   └── tunables_pmgr_t8002.c
+│   │   ├── dcs
+│   │   │   ├── dcs.c
+│   │   │   ├── dcs_init_lib_t8002.c
+│   │   │   └── rules.mk
+│   │   ├── include
+│   │   │   └── platform
+│   │   │       ├── dcsconfig.h
+│   │   │       ├── dmin.h
+│   │   │       ├── dockchannel_config.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── image_devices.h
+│   │   │       ├── memconfig.h
+│   │   │       ├── memmap.h
+│   │   │       ├── pinconfig.h
+│   │   │       ├── soc
+│   │   │       │   ├── aop_dma.h
+│   │   │       │   ├── chipid.h
+│   │   │       │   ├── display.h
+│   │   │       │   ├── display_timings.h
+│   │   │       │   ├── hwclocks.h
+│   │   │       │   ├── hwisr.h
+│   │   │       │   ├── hwregbase.h
+│   │   │       │   ├── miu.h
+│   │   │       │   ├── pmgr.h
+│   │   │       │   └── spds
+│   │   │       │       └── aes.h
+│   │   │       ├── trampoline.h
+│   │   │       ├── uartconfig.h
+│   │   │       └── usbconfig.h
+│   │   ├── init.c
+│   │   ├── miu
+│   │   │   ├── miu.c
+│   │   │   └── rules.mk
+│   │   ├── pmgr
+│   │   │   ├── pmgr.c
+│   │   │   └── rules.mk
+│   │   ├── rules.mk
+│   │   └── trampoline.S
+│   └── t8010
+│       ├── apcie
+│       │   ├── apcie.c
+│       │   └── rules.mk
+│       ├── asm.S
+│       ├── chipid
+│       │   ├── chipid.c
+│       │   ├── dvfmperf.c
+│       │   ├── operating_point.c
+│       │   └── rules.mk
+│       ├── dcs
+│       │   ├── dcs.c
+│       │   ├── dcs_init_lib_t8010.c
+│       │   └── rules.mk
+│       ├── error_handler
+│       │   ├── error_handler.c
+│       │   └── rules.mk
+│       ├── include
+│       │   └── platform
+│       │       ├── apcie.h
+│       │       ├── apcie_regs.h
+│       │       ├── dcsconfig.h
+│       │       ├── dcsconfig_t8010.h
+│       │       ├── error_handler.h
+│       │       ├── gpiodef.h
+│       │       ├── gpiodef_t8010.h
+│       │       ├── image_devices.h
+│       │       ├── memconfig.h
+│       │       ├── memmap.h
+│       │       ├── pcimap.h
+│       │       ├── pinconfig.h
+│       │       ├── pinconfig_t8010.h
+│       │       ├── soc
+│       │       │   ├── aop_config_sequences.h
+│       │       │   ├── ccc.h
+│       │       │   ├── chipid.h
+│       │       │   ├── display.h
+│       │       │   ├── display_timings.h
+│       │       │   ├── dvfmperf.h
+│       │       │   ├── hwclocks.h
+│       │       │   ├── hwisr.h
+│       │       │   ├── hwregbase.h
+│       │       │   ├── hwregbase_t8010.h
+│       │       │   ├── miu.h
+│       │       │   ├── operating_point.h
+│       │       │   ├── pmgr.h
+│       │       │   ├── reconfig.h
+│       │       │   └── t8010
+│       │       │       ├── a0
+│       │       │       │   └── tunable
+│       │       │       │       ├── apcie_common.h
+│       │       │       │       ├── apcie_config.h
+│       │       │       │       └── x2_pcie_rc.h
+│       │       │       ├── apcie_common.h
+│       │       │       ├── apcie_config.h
+│       │       │       └── x2_pcie_rc.h
+│       │       ├── trampoline.h
+│       │       ├── uartconfig.h
+│       │       └── usbconfig.h
+│       ├── init.c
+│       ├── miu
+│       │   ├── miu.c
+│       │   └── rules.mk
+│       ├── pmgr
+│       │   ├── pmgr.c
+│       │   └── rules.mk
+│       ├── rules.mk
+│       └── trampoline.S
+├── sys
+│   ├── boot.c
+│   ├── callout.c
+│   ├── debug.c
+│   ├── halt.c
+│   ├── hash.c
+│   ├── init.c
+│   ├── lock.c
+│   ├── mem.c
+│   ├── menu.c
+│   ├── rules.mk
+│   ├── security.c
+│   ├── simple_menu.c
+│   ├── task.c
+│   ├── tests-list.c
+│   ├── tests-sha384.c
+│   ├── tests.mk
+│   └── time.c
+├── target
+│   ├── alcatrazref
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   └── rules.mk
+│   ├── b184
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── amcconfig.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── powerconfig.h
+│   │   │       ├── uartconfig.h
+│   │   │       └── usbconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   ├── properties.c
+│   │   └── rules.mk
+│   ├── b238
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   └── rules.mk
+│   ├── capriref
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── amcconfig.h
+│   │   │       ├── ampconfig.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   └── rules.mk
+│   ├── cyclonic
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── amcconfig.h
+│   │   │       ├── ampconfig.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── nand_spec_tables.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   └── rules.mk
+│   ├── e86
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   └── rules.mk
+│   ├── e88
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── gpiodef.h
+│   │   │       ├── nand_spec_tables.h
+│   │   │       ├── powerconfig.h
+│   │   │       ├── uartconfig.h
+│   │   │       └── usbconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   └── rules.mk
+│   ├── elbaref
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── boardid.h
+│   │   │       ├── dcsfixup.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── lpdp_settings.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   └── rules.mk
+│   ├── fijiref
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   └── rules.mk
+│   ├── iaccy1
+│   │   ├── display_get_info.c
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── gpiodef.h
+│   │   │       ├── pinconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   └── rules.mk
+│   ├── ipad2
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── amgconfig.h
+│   │   │       ├── display_gamma_tables.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── nand_spec_tables.h
+│   │   │       ├── pinconfig.h
+│   │   │       ├── powerconfig.h
+│   │   │       ├── radioconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   ├── properties.c
+│   │   └── rules.mk
+│   ├── ipad2b
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── display_gamma_tables.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── nand_spec_tables.h
+│   │   │       ├── pinconfig.h
+│   │   │       ├── powerconfig.h
+│   │   │       ├── uartconfig.h
+│   │   │       └── usbconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   ├── properties.c
+│   │   └── rules.mk
+│   ├── ipad3
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── gpiodef.h
+│   │   │       ├── nand_spec_tables.h
+│   │   │       ├── pinconfig.h
+│   │   │       ├── powerconfig.h
+│   │   │       ├── radioconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   ├── properties.c
+│   │   └── rules.mk
+│   ├── ipad3b
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── gpiodef.h
+│   │   │       ├── nand_spec_tables.h
+│   │   │       ├── pinconfig.h
+│   │   │       ├── powerconfig.h
+│   │   │       ├── radioconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   ├── properties.c
+│   │   └── rules.mk
+│   ├── ipad4
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── amcconfig.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── pinconfig.h
+│   │   │       ├── powerconfig.h
+│   │   │       ├── uartconfig.h
+│   │   │       └── usbconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   ├── properties.c
+│   │   └── rules.mk
+│   ├── ipad4b
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── boardid.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── pinconfig-nomesa.h
+│   │   │       ├── powerconfig.h
+│   │   │       ├── uartconfig.h
+│   │   │       └── usbconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig-mesa.c
+│   │   ├── pinconfig-nomesa.c
+│   │   ├── properties.c
+│   │   └── rules.mk
+│   ├── ipad5
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── amcconfig.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── boardid.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── lpdp_settings.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   ├── properties.c
+│   │   └── rules.mk
+│   ├── ipad5b
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── boardid.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── lpdp_settings.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   ├── properties.c
+│   │   └── rules.mk
+│   ├── ipad5c
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── boardid.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── lpdp_settings.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   ├── pinconfig_evt.c
+│   │   ├── pinconfig_evt2.c
+│   │   ├── pinconfig_proto2.c
+│   │   ├── pinconfig_proto3.c
+│   │   ├── properties.c
+│   │   └── rules.mk
+│   ├── ipad6b
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── boardid.h
+│   │   │       ├── dcsfixup.h
+│   │   │       ├── display_gamma_tables.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── lpdp_settings.h
+│   │   │       ├── powerconfig.h
+│   │   │       ├── uartconfig.h
+│   │   │       └── usbconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   ├── pinconfig_proto2.c
+│   │   └── rules.mk
+│   ├── ipad6d
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── boardid.h
+│   │   │       ├── display_gamma_tables.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── lpdp_settings.h
+│   │   │       ├── powerconfig.h
+│   │   │       ├── uartconfig.h
+│   │   │       └── usbconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   └── rules.mk
+│   ├── iphone5
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── gpiodef.h
+│   │   │       ├── nand_spec_tables.h
+│   │   │       ├── pinconfig.h
+│   │   │       ├── powerconfig.h
+│   │   │       ├── radioconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   └── rules.mk
+│   ├── iphone5b
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── gpiodef.h
+│   │   │       ├── nand_spec_tables.h
+│   │   │       ├── pinconfig.h
+│   │   │       ├── powerconfig.h
+│   │   │       ├── radioconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   └── rules.mk
+│   ├── iphone6
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   └── rules.mk
+│   ├── iphone7
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   └── rules.mk
+│   ├── iphone8
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   └── rules.mk
+│   ├── ipod6
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── amcconfig.h
+│   │   │       ├── ampconfig.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── cjay.h
+│   │   │       ├── display_gamma_tables.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── init_fpga.c
+│   │   ├── init_fpga.h
+│   │   ├── init_product.c
+│   │   ├── init_product.h
+│   │   ├── init_sim.c
+│   │   ├── init_sim.h
+│   │   ├── pinconfig_evt.c
+│   │   ├── pinconfig_fpga.c
+│   │   ├── pinconfig_product.c
+│   │   ├── pinconfig_proto2a.c
+│   │   ├── pinconfig_proto2b.c
+│   │   ├── pinconfig_sim.c
+│   │   ├── properties.c
+│   │   ├── rules.mk
+│   │   └── target_prepare_dali.c
+│   ├── j105
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   ├── properties.c
+│   │   └── rules.mk
+│   ├── j33
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── amcconfig.h
+│   │   │       ├── amgconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── nand_spec_tables.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   └── rules.mk
+│   ├── j33i
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── gpiodef.h
+│   │   │       ├── nand_spec_tables.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   └── rules.mk
+│   ├── j34
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── amcconfig.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── powerconfig.h
+│   │   │       ├── uartconfig.h
+│   │   │       └── usbconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   ├── properties.c
+│   │   └── rules.mk
+│   ├── j34m
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── amcconfig.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── powerconfig.h
+│   │   │       ├── uartconfig.h
+│   │   │       └── usbconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   ├── properties.c
+│   │   └── rules.mk
+│   ├── j42
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── amcconfig.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   ├── properties.c
+│   │   └── rules.mk
+│   ├── k93a
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── display_gamma_tables.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── nand_spec_tables.h
+│   │   │       ├── pinconfig.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   ├── properties.c
+│   │   └── rules.mk
+│   ├── m7ref
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   └── rules.mk
+│   ├── mauiref
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── display_gamma_tables.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   └── rules.mk
+│   ├── n102
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   └── rules.mk
+│   ├── n59
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   └── rules.mk
+│   ├── n69
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   └── rules.mk
+│   ├── n78
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── gpiodef.h
+│   │   │       ├── nand_spec_tables.h
+│   │   │       ├── pinconfig.h
+│   │   │       ├── powerconfig.h
+│   │   │       ├── uartconfig.h
+│   │   │       └── usbconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   └── rules.mk
+│   ├── n94
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── gpiodef.h
+│   │   │       ├── nand_spec_tables.h
+│   │   │       ├── powerconfig.h
+│   │   │       ├── radioconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig.c
+│   │   └── rules.mk
+│   ├── s8000fpga
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── dcsfixup.h
+│   │   │       ├── dcsfixup_s8000.h
+│   │   │       ├── dcsfixup_s8001.h
+│   │   │       ├── dcsfixup_s8003.h
+│   │   │       ├── gpiodef.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig_s8000fpga.c
+│   │   ├── pinconfig_s8001fpga.c
+│   │   └── rules.mk
+│   ├── s8000sim
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── nand_spec_tables.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig_s8000sim.c
+│   │   ├── pinconfig_s8001sim.c
+│   │   └── rules.mk
+│   ├── t7000fpga
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── amcconfig.h
+│   │   │       ├── amcconfig_t7000.h
+│   │   │       ├── amcconfig_t7001.h
+│   │   │       ├── ampconfig.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── pinconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig_t7000fpga.c
+│   │   ├── pinconfig_t7001fpga.c
+│   │   └── rules.mk
+│   ├── t8010fpga
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── dcsfixup.h
+│   │   │       ├── dcsfixup_t8010.h
+│   │   │       ├── gpiodef.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig_t8010fpga.c
+│   │   └── rules.mk
+│   ├── t8010sim
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── gpiodef.h
+│   │   │       ├── nand_spec_tables.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig_t8010sim.c
+│   │   └── rules.mk
+│   ├── typhonic
+│   │   ├── include
+│   │   │   └── target
+│   │   │       ├── adbe_settings.h
+│   │   │       ├── amcconfig.h
+│   │   │       ├── amcconfig_t7000.h
+│   │   │       ├── amcconfig_t7001.h
+│   │   │       ├── ampconfig.h
+│   │   │       ├── aspnandconfig.h
+│   │   │       ├── gpiodef.h
+│   │   │       ├── nand_spec_tables.h
+│   │   │       ├── pinconfig.h
+│   │   │       ├── powerconfig.h
+│   │   │       └── uartconfig.h
+│   │   ├── init.c
+│   │   ├── pinconfig_t7001padsim.c
+│   │   ├── pinconfig_typhonic.c
+│   │   └── rules.mk
+│   └── watch2
+│       ├── include
+│       │   └── target
+│       │       ├── adbe_settings.h
+│       │       ├── aspnandconfig.h
+│       │       ├── dcsfixup.h
+│       │       ├── gpiodef.h
+│       │       ├── pinconfig.h
+│       │       ├── pinconfig_product.h
+│       │       ├── powerconfig.h
+│       │       └── uartconfig.h
+│       ├── init.c
+│       ├── init_fpga.c
+│       ├── init_fpga.h
+│       ├── init_product.c
+│       ├── init_product.h
+│       ├── init_sim.c
+│       ├── init_sim.h
+│       ├── pinconfig_evt.c
+│       ├── pinconfig_fpga.c
+│       ├── pinconfig_product.c
+│       ├── pinconfig_proto2a.c
+│       ├── pinconfig_proto2b.c
+│       ├── pinconfig_sim.c
+│       ├── rules.mk
+│       └── target_prepare_dali.c
+├── tests
+│   ├── fuzz-main.c
+│   ├── include
+│   │   ├── linux-support.h
+│   │   ├── mock_syscfg.h
+│   │   ├── non-posix.h
+│   │   └── unittest.h
+│   ├── mocks
+│   │   ├── blockdev.c
+│   │   ├── sys
+│   │   │   ├── lock.c
+│   │   │   └── security.c
+│   │   └── syscfg.c
+│   ├── non-posix.c
+│   ├── unittest-main.c
+│   └── unittest-tests.mk
+└── tools
+    ├── BootX2Bin.cpp
+    ├── Buffer.cpp
+    ├── Buffer.h
+    ├── DeviceTreePatcher.cpp
+    ├── DeviceTreePatcher.h
+    ├── Kernelcache.cpp
+    ├── Kernelcache.h
+    ├── LoadMachO.cpp
+    ├── LoadMachO.h
+    ├── Macho2Bin.c
+    ├── Makefile
+    ├── analyzer-report.py
+    ├── analyzer-suppress.txt
+    ├── bhc.c
+    ├── check_liblist.py
+    ├── check_product_size
+    ├── code_sizer
+    ├── config_debug.tcl
+    ├── config_seq.py
+    ├── csvtopinconfig.py
+    ├── gcovr
+    ├── generate_debug_hashes.py
+    ├── igmacros
+    ├── iop_stitcher.c
+    ├── lldb_init_iboot.py
+    ├── lldb_os_iboot.py
+    ├── macho.py
+    ├── macho_post_process.py
+    ├── missing-symbol-finder
+    ├── ofile_cstring_sizes
+    ├── oldskool_csvtopinconfig.py
+    ├── parse_release_log.py
+    ├── pctrace-decoder
+    ├── pickfiles.sh
+    ├── ppnfw_asn1.rb
+    ├── rom-release
+    ├── scrub-SecureROM.sh
+    └── symbolicate-panic
+
+617 directories, 2612 files

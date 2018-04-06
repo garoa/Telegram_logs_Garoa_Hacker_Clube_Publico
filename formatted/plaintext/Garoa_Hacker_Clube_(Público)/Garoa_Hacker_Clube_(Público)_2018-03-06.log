@@ -1,0 +1,76 @@
+[2018-03-06 04:21:30] https://www.embarcados.com.br/zr16s08-microcontrolador-brasileiro/
+[2018-03-06 06:52:43] 👍
+[2018-03-06 07:06:08] Bom dia ,obrigado!
+[2018-03-06 12:04:27] André joined
+[2018-03-06 13:26:25] O site na PCB zr16.com.br não entra só aqui ou ainda não está pronto?
+[2018-03-06 13:26:52] Gostaria de saber tbm
+[2018-03-06 13:35:46] Consultei aqui e o domínio está disponível pra registro. :<<
+Os caras estão vacilando.
+[2018-03-06 13:47:58] Data Sheet: http://w3.ufsm.br/smdh/files/ZR16S08_datasheet.pdf
+
+Guia de Utilização:
+http://w3.ufsm.br/smdh/files/ZR16S08_ManualSamba.pdf
+[2018-03-06 14:34:15] Procuro por projetos com Lilypad!
+Alguma indicação?
+Galera, já procurei no Google
+[2018-03-06 14:35:34] vi isso outro dia numa palestra
+[2018-03-06 14:35:41] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806119269_53278.jpg
+[2018-03-06 14:48:37] Lilypad é Arduino, basicamente
+[2018-03-06 14:49:01] Troque os fios por linha condutiva e vc tem um "Projeto Lilypad"
+[2018-03-06 15:08:05] vallew, mas procuro algo com Lilypad mesmo sabe (vide a imagem q enviei)
+[2018-03-06 15:32:23] Escolhe um: https://www.instructables.com/id/Lilypad-Projects/
+[2018-03-06 18:58:16] Galerinha, alguem tem algum material para indicar sobre matematica para iniciantes ou algum caminho a indicar? . . . Nunca tive um ensino muito forte nesta materia e agora busco como hobby
+[2018-03-06 19:00:34] Khan academy serve? 
+Eu sempre vejo por lá.
+[2018-03-06 19:02:44] Qualquer material e valido, quero começar a estudar matematica no tempo livre
+[2018-03-06 19:03:29] Nao conhecia a plataforma o.O
+[2018-03-06 19:07:46] https://www.instagram.com/p/Bf_3BlGA0IX/
+[2018-03-06 19:26:35] É muito caro pra deixar um bixão desses andando
+[2018-03-06 19:45:30] 💔
+[2018-03-06 20:00:00] O que vc entende por matemática? Quer estudar mais matemática do ensino fundamental e médio, coisas mais avançadas como cálculo, análise, topologia ou fundamentos (teoria dos conjuntos, forcing e lógica)?
+[2018-03-06 20:00:17] É muito genérico dizer 'estudar matemática'
+[2018-03-06 20:01:48] Como eu era absolutamente noob e queria estudar matemática eu simplesmente entrei num curso de matemática e enfrentei as pauladas e acho que hoje em dia sei alguma coisa, mas mesmo assim tem coisas na matemática que eu não faço a menor ideia porque é muito especializado
+[2018-03-06 20:02:22] Então tem que saber o que quer estudar rs
+[2018-03-06 20:02:47] Acho que, para que nem sabe o que quer estudar, fazer as aulas de ensino médio do Khan Academy é uma ótima.
+[2018-03-06 20:03:11] Tem o livro Street fighting mathematics que e ótimo também, mas talvez ele precise começar antes disso
+[2018-03-06 20:03:16] Bem, na minha visão de hoje matemática do ensino médio pra baixo não é matemática
+[2018-03-06 20:03:31] Eu recomendo a coleção do Iezzi de fundamentos de matemática elementar
+[2018-03-06 20:03:34] no mínimo
+[2018-03-06 20:03:56] Ok, mas vai dar a base para ele e as aulas do Khan são boas. E vão além do nosso ensino médio
+[2018-03-06 20:05:03] Fora isso, não sei indicar nada para ele. Não manjo muito de matemática.
+[2018-03-06 20:05:14] Com sorte, consigo usar de vez em quando
+[2018-03-06 20:05:59] Mas é o que eu falei num encontro de programadoras de python que eu fui, hoje em dia com python dá pra deitar e rolar pra usar ferramentas matemáticas sem muito conhecimento
+[2018-03-06 20:06:39] Python, na minha opinião, veio pra tornar várias coisas acessíveis pra galera apenas com os conhecimentos do ensino médio
+[2018-03-06 20:07:12] e é uma ótima forma de começar a entrar em contato e perder o medo, pq é foda o massacre que fazem com a gente durante o ensino pra gente achar que é totalmente inacessível
+[2018-03-06 20:08:15] Se eu fosse introduzir matemática pra alguém não interessado na parte teórica eu introduziria modelagens de problemas usando pacotes do python
+[2018-03-06 20:08:31] Eu acho que tem muito a ver com os professores não dominarem, ou não gostarem do tema, e com o programa ser mal feito.
+[2018-03-06 20:09:13] Acho que essa questão tem que ser bem avaliada pq é bem danosa como um todo :/
+[2018-03-06 20:09:13] Eu ensinaria GA, talvez usando processing. Ou pygame, talvez? Mas eu também não ensinaria matemática para ninguém
+[2018-03-06 20:09:45] o importante, dependendo do que a pessoa quer e de como ela é, é introduzir mesmo, depois ela corre atrás
+[2018-03-06 20:10:08] acho que falta muito o "ei, eu consigo fazer isso, vou procurar aprender mais"
+[2018-03-06 20:10:39] Acho que é um dos problemas mais fundamentais do ensino no Brasil. Quem faz curso de pedagogia não gosta de matemática. É um professoduto que praticamente garante que as crianças não vão ter um contato agradável com o tema
+[2018-03-06 20:10:56] :'(
+[2018-03-06 20:11:23] https://www1.folha.uol.com.br/educacao/2018/03/filhos-ficam-um-ano-na-frente-quando-os-pais-conhecem-matematica.shtml
+[2018-03-06 20:17:42] Sim, tipo a teoria do flow e tal. Sempre desafiador, sempre próximo. Mas, voltando ao colega, acho que vale ele dizer porque ele quer aprender, assim a gente pode ajudá-lo a descobrir o que ele quer.
+[2018-03-06 20:18:12] Sim, e o que quer aprender
+[2018-03-06 20:18:17] Pra gente poder ajudar melhor
+[2018-03-06 20:20:33] O que eu quis dizer é que para descobrir o que o @RapHaTM quer aprender, vai ser preciso que ele diga o porquê. É intimador ter que dar nome ao que ainda não conhece
+[2018-03-06 20:21:29] Sim, peço desculpas, é que depois de tanto tempo a gente acaba esquecendo :/
+[2018-03-06 20:31:57] é dificil né gente, incentivar alguem a estudar algo dizendo que é dificil e complicado rs
+[2018-03-06 20:39:04] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_805514736_106388.jpg
+[2018-03-06 20:39:04] Hacktonto da vez ... pague R$300 para ter o honra de participar do processo seletivo para participar do hackatonto do Rio2C  - Detalhe o pagamento da inscrição não garante a participação ...kkkk
+[2018-03-06 20:41:19] To fora desses rolês mudernos....
+[2018-03-06 20:42:38] http://xon.sh/
+[2018-03-06 20:42:45] Um shell escrito em python
+[2018-03-06 20:42:45] @fernandoGuisso
+[2018-03-06 20:43:08] to acuado com isso mas mesmo assim vou instalar pra ver no que é que dá
+[2018-03-06 20:46:42] Se eleito for, tudo vai mudar kkk
+[2018-03-06 20:47:25] "Se Eleito for"... usa assim... ;)
+[2018-03-06 21:43:32] Vai parcelar 3 x R$100 ...kkk
+[2018-03-06 22:27:25] Pessoal boa noite, onde posso encontrar material sobre segurança para embarcado e segurança em iot?
+[2018-03-06 22:52:04] Já conhece conceitos de Eng Reversa e gravação de Firmware em Dispositivos embarcados?
+[2018-03-06 23:25:41] Não
+[2018-03-06 23:26:11] Então já sabe o que procurar...
+[2018-03-06 23:26:34] Início por estes passos? Se sim, vou atrás
+[2018-03-06 23:26:49] Lê esse post: http://maycon.hacknroll.io/embedded-hacking/2018/01/26/iot-hacking-extracao-de-firmware-usando-spi.html
+[2018-03-06 23:27:16] Valew!

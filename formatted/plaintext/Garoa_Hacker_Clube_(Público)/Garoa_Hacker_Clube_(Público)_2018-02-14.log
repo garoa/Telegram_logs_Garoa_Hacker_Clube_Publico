@@ -1,0 +1,154 @@
+[2018-02-14 00:12:04] @eduoda obrigado pela sua colaboração nesse episódio!
+[2018-02-14 00:57:43] https://www.youtube.com/watch?v=sNUw4b62L7c
+[2018-02-14 01:16:10] Os provedores de Internet no Brasil atuarem de forma quase que criminosa em relação aos clientes, não é novidade nenhuma, mas a NET foi um pouco mais além e decidiu bloquear, deliberadamente, o Pastebin.com: serviço de colagem de código fonte, comumente usado por hackerativistas. 
+
+Com o passar do tempo, o Pastebin passou de uma simples ferramenta de colagem de textos, principalmente de código fonte, para um meio de compartilhamento de toda a comunidade hacker, o que o torna valioso demais para deixarmos de lado. 
+
+A NET, com um cinismo digno de Alexander Delarge, apenas responde aos clientes incomodados que já estão cientes e que trata-se de um problema interno, mas que podem enviar um técnico para resolver o “problema”, localmente. 
+
+(Não! Não é uma piada!) 🤪
+
+Como hackers, nós do Teresina Hacker Clube fizemos o que estava a disposição: um hack. Subimos um proxy para o site original, com Let's Encrypt - para furar o bloqueio e ainda manter os usuários seguros. O acesso, do proxy até o site, é feito também com HTTPS, garantindo a segurança do acesso. 
+
+No entanto, login com Facebook, Google+ e outros não deve funcionar, pois trata-se de um domínio diferente do original.
+
+Acesse: https://pastebinproxy.com 😉
+
+P.S: Estamos preparando um tutorial explicando como levantar o proxy... vai que a NET derruba o nosso também, né? 🤣
+[2018-02-14 01:20:34] viva o marco civil
+[2018-02-14 01:24:15] TeresinaHC++
+[2018-02-14 01:24:57] 0xbadc0ffe joined
+[2018-02-14 01:24:58] Srs, compilem seus T50, por que essa Guerra tá longe de acabar! #OpNET
+[2018-02-14 01:38:44] eita!!
+[2018-02-14 02:06:07] ha
+[2018-02-14 02:06:27] eu tinha pensado em fazer o proxy mas fiquei com medo do tráfego derrubar meu vps
+[2018-02-14 05:12:37] consegui acessar usando o opera e a vpn nativa do navegador, mais diretamente na acessa msm lol,nem ping nem nsloockup nada
+[2018-02-14 05:13:32] bizarro
+[2018-02-14 05:36:10] Demorou para trocarem de provedor (quem pode, claro).
+A Net do irá reagir quando sentirem no bolso... boicote já...
+[2018-02-14 05:39:27] aposto que o bloqueio vem da net
+[2018-02-14 05:39:38] pessoal da ip tv ta usando esse serviço
+[2018-02-14 05:40:26] o range do ip 104.20.209.21/16 segundo o arin aqui e testei uns ips proximos estãao todos ping  up so o 21 que ta fora
+[2018-02-14 05:42:03] tem o email noc@cloudflare.com envia la quem sabe responde se tem bloqueio pro range de ip da net assim ja mata essa dúvida
+[2018-02-14 06:16:31] Saca aí: https://www.reddit.com/r/InternetBrasil/comments/7vjyfo/bloqueio_do_pastebin_pela_net/dtuog59/
+[2018-02-14 06:39:40] sim você está certo e o cara do noc deles me responderam que n fazem isso n então é a net msm
+[2018-02-14 06:39:43] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_805514260_94230.jpg
+[2018-02-14 06:40:37] então acho que cabe reclamação na anatel se precisar ajuda a abrir faço a minha aqui tb
+[2018-02-14 06:47:27] vou dormir aqui,vlw brow precisando, só falar aê,  não vamos deixar esse ISP manda nos sites que acessamos não.
+[2018-02-14 06:47:39] t+
+[2018-02-14 08:01:12] Repassando
+[2018-02-14 08:01:13] Os provedores de Internet no Brasil atuarem de forma quase que criminosa em relação aos clientes, não é novidade nenhuma, mas a NET foi um pouco mais além e decidiu bloquear, deliberadamente, o Pastebin.com: serviço de colagem de código fonte, comumente usado por hackerativistas. 
+
+Com o passar do tempo, o Pastebin passou de uma simples ferramenta de colagem de textos, principalmente de código fonte, para um meio de compartilhamento de toda a comunidade hacker, o que o torna valioso demais para deixarmos de lado. 
+
+A NET, com um cinismo digno de Alexander Delarge, apenas responde aos clientes incomodados que já estão cientes e que trata-se de um problema interno, mas que podem enviar um técnico para resolver o “problema”, localmente. 
+
+(Não! Não é uma piada!) 🤪
+
+Como hackers, nós do Teresina Hacker Clube fizemos o que estava a disposição: um hack. Subimos um proxy para o site original, com Let's Encrypt - para furar o bloqueio e ainda manter os usuários seguros. O acesso, do proxy até o site, é feito também com HTTPS, garantindo a segurança do acesso. 
+
+No entanto, login com Facebook, Google+ e outros não deve funcionar, pois trata-se de um domínio diferente do original.
+
+Acesse: https://pastebinproxy.com 😉
+
+P.S: Estamos preparando um tutorial explicando como levantar o proxy... vai que a NET derruba o nosso também, né? 🤣
+[2018-02-14 08:10:41] Vlw e ja ta fundando
+[2018-02-14 08:11:33] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_5095863986717458444.mp4
+[2018-02-14 08:12:00] Vlw e ja ta funfando
+[2018-02-14 08:58:30] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_150229821346022369.webp
+[2018-02-14 09:28:53] Seria engraçado chamar um técnico e pedir para "consertar" no garoa
+[2018-02-14 09:29:11] Pena que não temos net
+[2018-02-14 09:58:43] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_485395015992869885.webp
+[2018-02-14 10:29:48] https://youtu.be/GosVxP0M6t4
+[2018-02-14 10:35:34] Será que hoje, dá garoa ??? Ou só quinta mesmo ???
+[2018-02-14 10:46:35] Danillo joined
+[2018-02-14 10:58:14] devemos nos pronunciar publicamente tbm! Que tal um fork deste post?
+[2018-02-14 12:40:45] Last login: Wed Apr  6 23:22:37 2016
+[2018-02-14 12:40:54] reencontrando umas maquinas abandonadas
+[2018-02-14 13:40:43] https://g1.globo.com/ce/ceara/noticia/incendio-de-grandes-proporcoes-atinge-correios-na-avenida-oliveira-paiva.ghtml
+[2018-02-14 13:54:41] Segundo galpão dos correios que pega fogo em pouco tempo... Bizarro.
+[2018-02-14 14:00:09] Uma coincidência muito apropriada num momento em que estão precarizando propositalmente os serviços do correios para forçar uma privatização...
+[2018-02-14 14:06:17] Cara, não sei se tão precarizando propositalmente
+[2018-02-14 14:06:50] Mas tenho um brother que é entregador lá, diz ele que tá foda, no naipe de demitirem uma galera e pegarem mais trabalho. O CTE do Jaguaré, aqui de SP, funcionou o feriado todo pra fazerem triagem, por exemplo, caso contrário não daria conta.
+[2018-02-14 14:06:59] Mas é uma coincidência bem estranha mesmo
+[2018-02-14 14:10:48] Moro em São Caetano e 90% das encomendas vem por um centro de distribuição da Aclimação - SP, sendo que aqui no município tem um desses centros de distribuição e raramente as encomendas vem por ele.
+[2018-02-14 14:10:56] Tudo muito mal distribuido
+[2018-02-14 14:14:22] Os correios são administrador por cargos de confiança e pelo menos os ultimos 3 indicados pra comandar os correios não tinham a minima noção do que estavam fazendo, soh entraram por questão de barganha politica.
+[2018-02-14 14:16:38] Empresas multinacionais recebem "pacote de ajuda" quando estão no aperto, já o correio, tá moribundo, estão aguardando o momento de falar que não tem mais salvação e terá que ser privatizado.... por isso que digo que esses incendios são coincidencias beeem apropriadas pro momento
+[2018-02-14 14:17:32] foi em fortaleza
+[2018-02-14 14:17:33] ufa
+[2018-02-14 14:17:54] to com varias encomendas paradas ha meses
+[2018-02-14 14:18:15] ja liberadas de tributacao e com prazo de entrega em 40 dias :P
+[2018-02-14 14:19:06] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804725871_135602.jpg
+[2018-02-14 14:19:53] se seu brother for um desses, da uma na cara dele por mim, por favor: https://www.youtube.com/watch?v=jr1rOk-j3hs
+[2018-02-14 14:21:22] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804722135_112981.jpg
+[2018-02-14 14:21:22] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_805514484_74039.jpg
+[2018-02-14 14:21:30] isso era dia 8 de janeiro
+[2018-02-14 14:21:35] nada mudou
+[2018-02-14 14:26:08] Estou ainda com 2 encomendas sem numero de rastreio, essas já até desencanei..
+[2018-02-14 14:37:02] Ja perdi duas encomendas no status de rastreio "encomenda furtada" a sorte que (digamos assim) eram miudezas, nada caro e me enviaram outros de graça￼
+[2018-02-14 14:39:55] Eu tenho uma apresentação a fazer no Garoa sobre isso, no próximo encontro de Biohacking. O próximo encontro é só em março, mas posso adiantar pra quem se interessar.
+[2018-02-14 14:41:16] Mas tu q fez ou vc vai só apresentar as possibilidades?
+[2018-02-14 14:42:43] É um projeto de crowdfunding ainda a ser lançado. A apresentação seria para apresentar (ah, vá!) o projeto e ver quem se interessa em desenvolver o projeto junto. E depois fomentar o biohacking de garagem no Brasil.
+[2018-02-14 14:43:16] Legal, a gebte aguarda kkk
+[2018-02-14 14:50:05] Primeira terça do mês, às 19h30, certo?
+[2018-02-14 14:51:12] Tem q ver com o @Gutemhc, ele que ia voltar essa atividade
+[2018-02-14 14:51:38] Pode ser antes, ou pode ser uma reunião de noite ou no final de semana.
+[2018-02-14 15:00:12] Certo. Por hora. Mas um pessoal pediu para mudar pro fds por questões de compromissos como faculdade.
+[2018-02-14 15:00:34] Pode ser que vá para sábado ou domingo
+[2018-02-14 15:12:19] Bom, amanhã de noite eu planejo ir ao Garoa e posso procurar-te para conversarmos e combinarmos a apresentação.
+O @fernandoGuisso me orientou que é melhor do que chegar no dia pedindo pra apresentar alguma coisa.
+[2018-02-14 15:13:25] Show de bola chegar e apresentar, mas se já tem a ideia em mente, melhor avisar pra gente chamar a galera toda pra ver
+[2018-02-14 15:23:20] Se ele fosse, eu já teria socado ele hahahaha
+[2018-02-14 15:23:25] É só trampo da rua mesmo
+[2018-02-14 15:24:44] Não precisam precarizar propositadamente, se já fazem isso naturalmente...
+[2018-02-14 15:26:55] Sim
+[2018-02-14 15:30:12] 70 dias úteis??? Caraca!!!
+[2018-02-14 15:40:36] https://news.slashdot.org/story/18/02/14/1453228/germany-considers-free-public-transport-in-fight-to-banish-air-pollution
+[2018-02-14 15:41:40] @fernandoGuisso @Gutemhc meu amigo do butantan passou esses materiais:
+
+https://www.thermofisher.com/br/pt/home/life-science/cell-analysis/fluorophores/green-fluorescent-protein.html
+
+http://www.bio-rad.com/pt-br/category/pglo-plasmid-gfp-kits
+
+https://www.scbt.com/scbt/pt/browse/antibodies-Primary-Antibodies-fusion-protein-tags-antibodies-gfp-Antibodies/_/N-106q2wp
+
+http://news.mit.edu/2017/engineers-create-nanobionic-plants-that-glow-1213
+[2018-02-14 15:46:47] Tks
+[2018-02-14 15:48:34] Aqui correspondência chega sempre depois das datas e a parte de encomenda só funciona 1 hora por dia. Se não for lá buscar eles devolvem.. (não sei pq mas algumas encomendas se n for pegar não recebe) hahaha
+[2018-02-14 15:49:12] Até passei a pouco por um carro do Sedex, só um cara trabalhando.
+[2018-02-14 16:21:13] O que compro em SP tento sempre buscar na mão do vendedor, daí não tem grilo, foda é comprar da China, quando chega vc até esquece que havia comprado
+[2018-02-14 16:28:05] Gostei dessa proposta de atividade biohacking
+[2018-02-14 16:28:15] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806120872_42059.jpg
+[2018-02-14 17:25:12] Anuncio de provedor internet honesto. Que bloqueia sites aleatorios, cobra extra caro, e não está nem aí com o cliente. https://www.youtube.com/watch?v=JucFpDhuF98
+[2018-02-14 17:28:07] Planos pra hj? Não sei se consigo vir amanhã, mas hj tô pelo garoa no começo da noite...
+[2018-02-14 17:31:50] Consigo estar lá 21:30
+[2018-02-14 17:32:23] Saio do lado da estação Vila Mariana às 20:45, vou de metrô
+[2018-02-14 17:33:28] Blz
+[2018-02-14 17:33:36] Fico aqui até umas 23h
+[2018-02-14 19:56:00] vcs ja ouviram falar no "problema de artefatos" da placa de vídeo?
+[2018-02-14 19:56:11] eu tenho um amigo querendo meter a placa dele no forno
+[2018-02-14 19:58:19] Vamos usar até torrar as GPUs do google haha
+
+http://rafanovello.blogspot.com.br/2018/02/gpu-para-deep-learning-por-conta-do.html
+[2018-02-14 20:11:51] não sei se foi falado aqui, mas a intel lançou um bug bounty de respeito. https://www.bleepingcomputer.com/news/hardware/post-meltdown-intel-tries-to-save-face-with-250-000-bug-bounty-program/
+[2018-02-14 20:29:56] mano... https://produto.mercadolivre.com.br/MLB-966923019-commodore-amiga-600-apollo630-32mbram-_JM
+[2018-02-14 20:50:48] Colegas , alguém está vendendo notebook ou sabe de que importa , precisa ter gpu NVidia 940mx , preciso de uma unidade , pode ser usada , grato a atenção.
+[2018-02-14 21:51:45] ta passando sobre o garoa
+[2018-02-14 21:51:54] na televisao
+[2018-02-14 21:52:04] canal discovery science
+[2018-02-14 21:52:11] ele ta falando de biohacking
+[2018-02-14 21:52:18] e que eles defendem isso na usp e no garoa
+[2018-02-14 21:53:09] Não tem link?
+[2018-02-14 21:53:20] ta na tv
+[2018-02-14 21:53:21] kk
+[2018-02-14 21:53:59] Kkk
+[2018-02-14 21:56:20] Eles poderiam ter falado com a gente,  talvez agente não mandasse eles embora.
+[2018-02-14 22:20:34] Opa, boa noite pessoal. Estou de volta. Temos uma area de anuncios de itens no garoa? Um amigo esta vendendo um gear vr...
+[2018-02-14 22:22:58] Nao existe.  Mas pode criar se quiser
+[2018-02-14 22:25:33] Opa, vou criar uma paginazinha na wiki, as vezes aparecem gadgets a venda ou a gente quer algo... melhor que ficar enchendo o grupo e deixar parecendo uma feira do rolo rs
+[2018-02-14 22:32:09] É uma ideia
+[2018-02-14 22:32:57] Tambem acho que podem postar coisas que podemos comprar que faltam no garoa
+[2018-02-14 22:33:21] Tipo, se eu quiser ajudar o garoa, comprando um item que nao tem...
+[2018-02-14 22:33:40] 👆
+[2018-02-14 22:47:22] Isso já tem no site, só não sei se está atualizado

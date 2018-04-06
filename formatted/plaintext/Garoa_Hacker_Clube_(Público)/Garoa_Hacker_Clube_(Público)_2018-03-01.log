@@ -1,0 +1,127 @@
+[2018-03-01 01:16:02] Caras, olhem que foda:
+Os caras usaram um Arduino para fazer experimento no CERN! http://www.roma1.infn.it/conference/ArduSiPM/pdf/ArduSiPM%20arduino%20Blog.pdf
+[2018-03-01 01:45:02] Tem o Johnny Wash na Vila Olímpia
+[2018-03-01 01:45:52] Oficina e hamburgueria ao mesmo tempo... Cara pra kct e comida meia boca. E tem cheio de gente q mal anda de moto e vai lá se pagar de motociclista
+[2018-03-01 12:08:17] Oma added Gustavo Oliveira
+[2018-03-01 14:03:27] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806119849_51138.jpg
+[2018-03-01 14:13:13] Janaúba? Fica perto de qual metrô?
+[2018-03-01 14:18:28] Só pegar o trem e ta lá Uai
+[2018-03-01 14:18:29] kkk
+[2018-03-01 14:20:08] melhor arduino day vai ser no garoa
+[2018-03-01 14:20:45] Sou mais fazer um ESP Day topzera
+[2018-03-01 14:34:18] ESP Day seria show... mas podia ter um dia só pra ele, não no mesmo dia do Arduino Day...
+[2018-03-01 14:35:47] Podemos colocar junto com Arduino Day, se usarmos a IDE do Arduno... hehehehe
+[2018-03-01 14:36:47] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804726925_115654.jpg
+[2018-03-01 14:37:54] Descobri que o Esp Day 2017 foi um festival de música que aconteceu na Lapa... 😂😂😂
+[2018-03-01 14:42:04] Eu topo fazer depois tb
+[2018-03-01 15:18:29] arduino day é da comunidade e nao da placa
+[2018-03-01 15:18:35] se usa a ide pode usar o esp
+[2018-03-01 15:18:36] auehau
+[2018-03-01 15:20:36] boa
+[2018-03-01 15:20:42] ahhaha
+[2018-03-01 15:26:08] né?
+[2018-03-01 15:33:20] se alguem que nao tem necessidade muito especifica (qtd de portas e tal) ainda usa outra coisa que nao seja esp, tem que mandar internar
+[2018-03-01 15:38:10] hoje nem eh sexta e pego uma dessas: maluco cria um sistema com uma milhao de tabelas de "config", tipo possiveis perfis de usuario, possiveis status de uma parada etc, ai na tabela que ele vai cadastrar a parada em si, ele coloca umas colunas para essa porra semi-inuteis e depois UMA COLUNA QUE GUARDA UM JSON COM OS UNICOS DADOS QUE IMPORTAM NA PORRA TODA
+[2018-03-01 15:39:04] detalhe que o tipo da coluna eh longtext e nao o (novo) json suportado pelo mariadb
+[2018-03-01 15:40:11] HAHAHAAHAHAHHAHAH
+[2018-03-01 15:40:17] Banco de dados 101
+[2018-03-01 15:41:03] agora vc imagina umas queries cheias de JSON_UNQUOTE(JSON_EXTRACT(data,'$.blablabla'))
+[2018-03-01 15:42:05] o pior: a performance disso
+[2018-03-01 15:43:25] toda vez que você vai iterar em UM ITEM você tem que ler o json inteiro (O(n)), achar a porra da chave e retornar
+[2018-03-01 15:43:46] imagina iterar na porra toda, com 100000 itens
+[2018-03-01 15:45:21] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_532580269736102529.mp4
+[2018-03-01 15:58:43] incrivelmente performance nao eh impactada
+[2018-03-01 16:00:16] testei umas queries aqui, com e sem pegar dados do json, a diferenca da la na casa dos 0.001s para 2k registros
+[2018-03-01 16:20:44] Masoq
+[2018-03-01 16:22:29] mariadb fazendo suas magicas... alias, esse tipo de coluna novo ai, json, eh interessante, viu? traz para o mariadb umas vantagens do nosql
+[2018-03-01 16:22:46] nao sei como ficam os indices
+[2018-03-01 18:20:00] Boa noite, a partir de que hs tem gente hoje no Garoa?
+[2018-03-01 18:41:24] A pergunta é pq cheguei cedo demais kkk
+[2018-03-01 18:42:12] Você tem que olhar na wiki e ver se tem evento.
+Se não tem evento, tem que esperar algum associado abrir, olhando na mesma wiki se tem gente (garoa aberto) ou não (garoa fechado)
+Tem um bot também que explica isso.
+[2018-03-01 18:43:13] Eu já vi e tem evento, só queria saber que hs costumam chegar aqui hj
+[2018-03-01 18:43:31] Tanto que me inscrevi pelo meetup
+[2018-03-01 18:43:33] 👍
+[2018-03-01 18:46:43] Isso não garante nada (experimentar própria)
+[2018-03-01 18:47:35] site do garoa está lento ou eh minha conex ?
+[2018-03-01 18:47:50] Blz, então vou nessa... Vlw YK
+[2018-03-01 18:48:05] Pra mim no 4g está normal
+[2018-03-01 21:09:02] Por nada
+Sempre pergunte pra algum associado ou aqui no grupo se vai ter gente lá de noite
+[2018-03-01 21:15:22] amanhã terá hacknight e tals, se pans eu apareço, prum hack happy hour
+[2018-03-01 21:56:13] É que eu pensei que a parte do meetup do Garoa fosse com o todos os demais que participo, se não vai ter o evento, não aparece lá... Ainda bem que vim embora, pois de Pinheiros até Itaquaquecetuba é longe kkkk
+[2018-03-01 21:57:43] Garoa Fechado em uma Quinta? RIP Noite do Arduino...
+[2018-03-01 22:09:21] RIP
+[2018-03-01 22:15:29] Fernando joined
+[2018-03-01 22:47:13] Quinta retrasada eu e o @clockwisehorror colamos e tb não tinha ninguém, eu como uma pessoa "de fora" do garoa recomendo que algum associado confirme que irá na quinta no Garoa pra depois criar o evento do meetup, tem gente que não conhece o garoa e cola sem saber como funciona realmente o espaço, aí da de cara com o espaço fechado
+[2018-03-01 22:52:20] se for no google e procura por garoa hacker clube, acha o nosso site, la vai ter o status.. mesmo que nao saiba nada vai saber que o garoa so ta aberto qnd mostra aberto ali
+[2018-03-01 22:52:36] se bateu a cara com portao fechado uma vez
+[2018-03-01 22:52:39] na proxima nao erra mais
+[2018-03-01 22:52:42] ;D
+[2018-03-01 22:53:29] o negocio eh feito por pessoas que trabalha o dia todo e precisamos de mais associados.. quer dizer, precisamos de menos consumidores e mais realizadores
+[2018-03-01 22:53:33] isso eh a o reflexo disso
+[2018-03-01 22:53:39] Concordo em partes, pois sempre foi comentado que toda quinta tinha noite do arduino... Mas já foi
+[2018-03-01 22:53:57] Digo pq tem evento MARCADO no Meetup, ai pode gerar uma confusão mesmo
+[2018-03-01 22:54:31] acontece
+[2018-03-01 22:54:37] justamente pelo que o disse antes
+[2018-03-01 22:55:06] tem 800 pessoas aqui, e meia duzia de associado se matando pra manter o negocio aberto.. a chance de erro eh altissima
+[2018-03-01 22:55:20] logo.. menos reclamacao e mais 'fazecao'
+[2018-03-01 22:55:57] se realmente gosta do garoa, tenta se envolver mais e tentar fazer a diferen'ca
+[2018-03-01 22:56:49] Bem-vindo ao mundo corporativo
+[2018-03-01 22:57:41] Eu estou tentando voltar ao garoa, só que ainda rola um certo receio, mas quem sabe um dia eu vire associada e possa fazer algo diferente com o cenho fazendo com o pessoal do Developers SP ;)
+[2018-03-01 22:58:44] sim cada um tem seus objetivos porisso ngm conseguiu ir a tempo hoje ao garoa pra abrir
+[2018-03-01 22:59:02] Pq se eu tivesse desistido do garoa, já tinha sido antes com as duas péssimas experiências passadas... Amanhã se tiver o encontro mesmo talvez eu apareça
+[2018-03-01 22:59:56] Que bom, mas vamos que vamos e isso pra mim já foi, vc é uma das minhas referências...
+[2018-03-01 23:00:14] Boa noite à todos
+[2018-03-01 23:00:27] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_538462764318851795.webp
+[2018-03-01 23:03:51] gente, be excelent each other
+[2018-03-01 23:03:59] escrevi e sai correndo
+[2018-03-01 23:06:29] qm nao ta sendo?
+[2018-03-01 23:07:29] eu sai correndo justamente pra nao ter que responder qualquer pergunta hahahahha
+[2018-03-01 23:07:51] entao nao tem pq falar
+[2018-03-01 23:08:06] pq esse tipo de coisa eh justamente o contrario do que vc disse
+[2018-03-01 23:08:53] eita, calma, foi so uma brincadeira pra descontrair, isso de ir visitar um hackerspace e nao ter ninguem ja aconteceu comigo, acontece com qqr um
+[2018-03-01 23:09:08] to calmo
+[2018-03-01 23:09:15] so to chamando atencao pro flame
+[2018-03-01 23:09:22] faz umas 2 semanas que to tentando acertar um dia pra passar no lhc pegar uma camisa
+[2018-03-01 23:09:44] Acho que melhor cancelar o evento recorrente do meetup
+[2018-03-01 23:10:04] as ultimas 3 vezes que fui pra sampa e queria visitar o garoa nao tinha ninguem
+[2018-03-01 23:11:06] quem marcou ?
+[2018-03-01 23:11:12] ou eh feito por bot ?
+[2018-03-01 23:13:45] Eu marquei, posso desmarcar.
+[2018-03-01 23:14:10] Se preferimos resolver assim.
+[2018-03-01 23:14:30] Repete automaticamente toda quinta
+[2018-03-01 23:15:20] Abri o garoa vários dias por semana por uns anos
+[2018-03-01 23:18:32] eh isso ai, associados folgados! abram o garoa todo dia para a gente!
+[2018-03-01 23:18:49] e divulguem direitinho
+[2018-03-01 23:18:52] senao vou reclamar no procon
+[2018-03-01 23:19:07] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_538462764318851626.webp
+[2018-03-01 23:19:23] eu não manjo como é o funcionamento de outros hackerspaces, mas como haviam falado, pra atividade ir para frente, alguem precisa tocar, tenho aprendido isso com  o pessoal lá....a noite de arduino tá sem pai e sem mãe atualmente, só isso
+[2018-03-01 23:20:31] exato
+[2018-03-01 23:20:39] Como o Afonso disse, pouca gente fazendo
+[2018-03-01 23:20:43] todos os 1500 hackerspaces ativos no mundo eh assim
+[2018-03-01 23:21:54] hackerspaces sao geridos por pessoas normais, que trabalham e estudam, hackers sao pessoas que pegam onibus e pagam conta de luz atrasada
+[2018-03-01 23:21:57] É sim. Se não está quebrado, ninguém quer consertar.  Bom, agora está quebrado.
+[2018-03-01 23:22:48] por isso brinquei pra descontrair, como disseram, sempre é poucas pessoas pra fazer por muitos
+[2018-03-01 23:22:56] e esses desencontros acontecem
+[2018-03-01 23:23:32] Hackerspace é casa de amigo
+Tem que assoviar na porta pra ver se tem gente
+Só dia legal quando eu fui e tinha Volks
+[2018-03-01 23:23:49] E tinha gente
+[2018-03-01 23:23:57] Só juntar uma turma de anarquistas que quer fazer rolar de algum jeito nas quintas de novo
+[2018-03-01 23:24:34] exato.. o problema eh os milenials que nao passou por isso uaheauheaue
+[2018-03-01 23:24:35] eu nao consigo frequentar nem o lhc que fica a 45km de casa :(
+[2018-03-01 23:44:48] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806121067_50918.jpg
+[2018-03-01 23:45:10] Boa noite a todos!
+[2018-03-01 23:45:52] Quem pode assumir a organização das quintas
+[2018-03-01 23:50:02] To querendo, fazer o Guisso Talks, o q acha?
+[2018-03-01 23:50:14] youtuber
+[2018-03-01 23:50:19] "?
+[2018-03-01 23:50:26] Exato
+[2018-03-01 23:50:39] Ta quase pronto o video piloto
+[2018-03-01 23:51:21] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806122785_51523.jpg
+[2018-03-01 23:52:02] O compromisso mínimo é bem mais simples.  Chegar 19h. Abrir porta.
+[2018-03-01 23:53:14] Mas talvez o melhor seja deixar fechado, assim todos vão entender que não tem funcionários.
+[2018-03-01 23:55:52] Talvez um evento "como funciona um hackerspace"
+[2018-03-01 23:57:03] Ai é com vc

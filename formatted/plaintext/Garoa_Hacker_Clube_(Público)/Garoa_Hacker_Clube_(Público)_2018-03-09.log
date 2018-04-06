@@ -1,0 +1,216 @@
+[2018-03-09 00:01:51] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_113414654469865879.webp
+[2018-03-09 00:02:17] Vocês me adoram. Vou dormir. Beijos a todos
+[2018-03-09 00:24:14] <3
+[2018-03-09 06:19:01] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_150229821346022327.webp
+[2018-03-09 06:46:55] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_839666029058589203.webp
+[2018-03-09 07:57:16] Check out @JohnHyphen’s Tweet: https://twitter.com/JohnHyphen/status/971402820091105282?s=09
+[2018-03-09 08:48:58] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_805512034_110416.jpg
+[2018-03-09 08:49:06] pinned the message
+[2018-03-09 09:07:23] …and that’s why I was late. LOL
+[2018-03-09 09:13:43] :D
+[2018-03-09 09:15:12] Montei um display de LEDs doidão pra botar na sala de jogos. Em breve... https://garoa.net.br/wiki/Sala_de_Jogos
+[2018-03-09 09:53:13] Eu não acho que qualquer coisa que fira a dignidade alheia esteja passível de discussão. Eu duvido que hoje em dia alguém ache saudável discutir se judeus tem o direito ou não de existir ou se é bom um negro usar o mesmo bebedouro de um branco. Por que com outras pessoas que pagam as próprias contas e não estão atrapalhando a vida de ninguém seria diferente?
+[2018-03-09 09:55:38] Boa hehe 👍🏼👍🏼
+[2018-03-09 09:56:03] Não sabia sobre a existência de um salão de jogos kk
+[2018-03-09 09:58:43] Antes era metade estúdio (com instrumentos musicais e mesa de dj) e a outra metade jogos e a "terceira metade" era com entulho, sucata, extensão do depósito
+[2018-03-09 09:59:03] agora virou exclusivamente Sala de Jogos. Desde sábado passado.
+[2018-03-09 10:00:10] Galera, quem estava no meetup de ontem no garoa? Pra eu poder achar aqui?
+[2018-03-09 10:00:11] Legal kkkk
+[2018-03-09 10:00:43] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806117118_55178.jpg
+[2018-03-09 10:00:46] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806006598_1417.jpg
+[2018-03-09 10:01:29] Que top hahaha
+[2018-03-09 10:01:31] a foto escura é mais recente, com o arcade funcionando
+[2018-03-09 10:02:08] na foto mais antiga ele ainda tava desligado e sem os controles, mas a iluminação da foto tá melhor, dá pra ver melhor o resto da sala
+[2018-03-09 10:03:14] Bacana. O display que montou já está por lá também?
+[2018-03-09 10:03:52] Não. Tá aqui na minha casa ainda. Montei ele hoje de manhã. O software tá meia boca ainda. Mas já funciona.
+[2018-03-09 10:05:34] document
+[2018-03-09 10:05:48] gravei um videozinho aqui do (d)efeito visual que programei hoje no display
+[2018-03-09 10:12:23] Legal! Tem alguma ideia do que vai jogar no display ou vai deixar ele maulcão assim mesmo hehe?
+[2018-03-09 10:12:43] (d)efeito hahahahaha
+[2018-03-09 10:12:55] não sei
+[2018-03-09 10:12:59] qualquer coisa
+[2018-03-09 10:13:18] vou subir o código no github e com o tempo podemos is mudando
+[2018-03-09 10:13:47] Boa! Beleza então!
+[2018-03-09 10:14:24] é (d)efeito mesmo! Foi o que dei pra fazer como um truque sujo pra não dar flickering
+[2018-03-09 10:14:57] o que eu realmente queria, que era desenhar algo arbitrario no display inteiro não rolou por que o arduino não deu conta de atualizar os pixels rapido o suficiente
+[2018-03-09 10:15:13] pra fazer melhor acho que vou ter que escrever em ASM de avr8
+[2018-03-09 10:15:53] ou talvez em C mesmo, mas sem usar a API digitalWrite do Arduino. Ou seja, fazendo acesso direto aos registradores, pra ter mais velocidade no acesso às portas
+[2018-03-09 10:16:26] aí a gambiarra foi desenhar um padrão repetitivo e, assim, gastar menos tempo no envio de dados e conseguir um framerate mais alto
+[2018-03-09 10:19:10] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806124689_52050.jpg
+[2018-03-09 10:19:16] Autômatos celulares FTW!
+[2018-03-09 10:19:34] Tá demais! Recomendo!
+[2018-03-09 10:20:03] e o pior é que não é! Achei mesmo que alguém fosse achar. Mas isso aí é feito só com 2 senos.
+[2018-03-09 10:20:47] ah! Entendi! Você tá dizendo que gostaria de algum dia implementar efeitos visuais de automatos celulares nesse display, é isso?
+[2018-03-09 10:22:55] Show de bola. Bom, projeto legal. E dando continuidade melhor ainda. Salão de jogos estilo fsociety kkkk
+[2018-03-09 10:25:21] Eu postei sobre isso em baixo da mensagem, a ressalva sobre assuntos que ferem a integridade humana e preconceitos. Até pelo fato de que preconceito corroe e deturpa o ser humano e seu contexto social.
+[2018-03-09 10:25:43] Show
+[2018-03-09 10:25:56] Lembro disso
+[2018-03-09 10:26:26] Boa
+[2018-03-09 10:26:33] Vou ver se faço
+[2018-03-09 10:26:47] haha! Boa! Eu nem tinha pensado nisso, verdade...
+[2018-03-09 10:26:53] Ficou muito show de bola isso.
+[2018-03-09 10:27:46] Hahahahaha
+[2018-03-09 10:27:58] Concordo
+[2018-03-09 10:30:02] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_4976705011057688602
+[2018-03-09 10:30:03] Tnks! 😄🙌🏾✨👍🏾
+[2018-03-09 10:31:08] Legal kkkk
+[2018-03-09 10:33:35] Tenho 3 livros de origami um em inglês e os outros em chinês acho
+[2018-03-09 10:34:06] Pois eu não sei diferenciar chinês com os alfabetos japoneses
+[2018-03-09 10:42:08] O jeito é seguir as imagens mesmo kk
+[2018-03-09 10:44:28] O método Yoshizawa-Randlett foi criado pras explicações não precisarem de palavras, só as setas, linhas, etc. Mas o melhor jeito de começar a aprender é no YouTube ou com alguém...
+[2018-03-09 10:55:04] Sei fazer algumas coisas devido aos trabalhos de escola. Risos. depois eu tiro foto e mostro.
+[2018-03-09 11:01:19] Broadcast do Garoa!
+https://t.me/garoa_hc
+[2018-03-09 11:01:48] pinned the message
+[2018-03-09 12:32:19] 🙋🏻‍♀️
+[2018-03-09 15:00:21] Galera, 
+Vocês conhecem alguma empresa no Brasil que esteja fazendo algo com Iota?
+[2018-03-09 15:01:22] Tem uma exchange, mas não boto fé não
+[2018-03-09 15:01:38] xTangle
+[2018-03-09 15:01:54] alguém deles acho q participou do projeto Iota
+[2018-03-09 15:01:57] Putz, deveria ter falado tirando exchange.
+[2018-03-09 15:02:43] Eu vejo tanta empresa IoT entrando na onda do IoTA lá fora que eu estou sinceramente considerando fazer um sprint de estudo da moeda.
+[2018-03-09 15:10:18] Da uma analizada viu, pq tem mts q são os proprios cara do projeto, justamente pra vc achar isso e investir tb
+[2018-03-09 15:30:36] Não penso em investir minha posição é apenas BTC, são empresas totalmente fora do projeto do IoTA.
+[2018-03-09 15:38:07] https://motherboard.vice.com/en_us/article/59k8v8/packets-please-is-a-post-net-neutrality-simulator-from-hell-throttling-game
+[2018-03-09 15:52:07] A galera vomita muita regra que na maioria das vezes não conseguiria seguir
+[2018-03-09 16:14:52] A começar, você não me conhece.
+Outra coisa é que pior do que "cagar regra" sobre não ser escroto com o outro é cagar regra que todo mundo tem que ver escrotice e fingir que está tudo bem e ficar quieto.
+Eu nem vou mais responder sobre isso, pra mim uma discussão sobre se é aceitável ou não ficar fazendo piada escrota não tem nenhum sentido, já que isso deveria ser algo básico pra convivência em sociedade
+[2018-03-09 16:15:25] Referente a que? Quero compreender teu raciocínio
+[2018-03-09 16:15:54] Referente à discussão de ontem sobre o meme escroto que colocaram aqui
+[2018-03-09 16:18:22] Nossa de novo 🤦🏻‍♂
+[2018-03-09 16:19:17] Deixa as mina
+[2018-03-09 16:20:30] Opa. Não estou segurando ninguém.
+[2018-03-09 16:20:47] Os ADMs já se pronunciaram sobre. Boa. Já deu.
+[2018-03-09 16:21:37] Isso é uma forma de silenciamento, então se não for pra somar, evite
+[2018-03-09 16:22:12] Concordo! Ela está respondendo a mensagem que foi citada.
+[2018-03-09 16:24:12] Estou sempre pra somar! Mas não pra ficar sustentando discussões que já tiveram fim.
+[2018-03-09 16:24:29] Se ela acha que tem algo a mais a ser dito e não está ofendendo ninguém, não vejo nenhum problema em falar. E a outra moça está perguntando.
+[2018-03-09 16:25:58] Oi gente, quanto a discussão de ontem resolvemos com medidas severas em relação aos envolvidos
+[2018-03-09 16:26:17] Se  não quer sustentar, basta não se pronunciar sobre o assunto. Acho esse tipo de comentário desnecessário. Se ninguém está ofendendo ninguém, não existe motivo pra não se falar sobre o assunto.
+[2018-03-09 16:27:11] em relação a discussões no grupo, qdo off topic sugiro fazer em privado pois o objetivo do grupo são temas ligados a hackerspace e temos 812 pessoas no grupo recebendo tudo que está aqui
+[2018-03-09 16:27:23] Se você "acha" desnecessário. Tudo bem. Mas não queira que eu também pense assim.
+[2018-03-09 16:27:43] se alguém se sentir ofendido, favor relatar a um admin para que tomemos as providências necessárias
+[2018-03-09 16:28:06] Ufa!! Está difícil da galera entender isto. E ainda querem mais lenha no fogo 🤦🏻‍♂
+[2018-03-09 16:28:09] Thanks!! <3
+[2018-03-09 16:28:36] Ótimo. Fixar isto pra ver se resolve.
+[2018-03-09 16:29:00] /ban /ban /ban ahuhauahuhahahauhuah
+[2018-03-09 16:29:17] chegou a zuera hahahahah
+[2018-03-09 16:29:38] e em relação a pressão com as garotas no grupo, sério, estou vendo que tem uma galera precisando de bons modos
+[2018-03-09 16:30:35] Até entendo sua preocupação em manter o foco do grupo, mas suas abordagens são um tanto agressivas inclusive as de agora, caso necessario ao presenciar algo que precise de intervenção procure um moderador e evite silenciar as poucas meninas que fazem parte do grupo.
+[2018-03-09 16:30:39] se um determinado problema que uma mulher passa não faz parte da sua realidade, não questione
+[2018-03-09 16:30:56] Muito obrigado, era isso o que eu queria apontar. Acho muito complicado essas tentativas de silenciamento veladas
+[2018-03-09 16:31:04] Charles Alencar joined
+[2018-03-09 16:31:30] pessoal é só reportar o incidente aos admins que eles resolvem
+[2018-03-09 16:32:07] fico puta com esse tipo de assunto... peço mais respeito aqui...
+[2018-03-09 16:33:21] Agora entendi Tiago. Desculpe! Não quis ser rude. Nem tive a intenção. Ah e nada contra as meninas, nunca! É só o assunto que enfim...
+Mas vou fazer isto, tentar intervir não é a melhor situação. Podem entender como um pedido de silêncio... valeu Tiago!
+[2018-03-09 16:33:50] Estou com saudades de rodar código no garoa
+[2018-03-09 16:34:01] mas e os WIFI.... JA HACKEARAM?
+[2018-03-09 16:34:12] É só saber trocar ideia, nada demais.
+[2018-03-09 16:34:32] Diálogo
+[2018-03-09 16:34:37] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806009605_1443.jpg
+[2018-03-09 16:34:39] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_626250250876618756.webp
+[2018-03-09 16:34:50] Oh louco 😂😂😂😂😂😂
+[2018-03-09 16:35:05] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806006894_1603.jpg
+[2018-03-09 16:35:09] Pedido de 1998
+[2018-03-09 16:35:10] estou fazendo umas bagunças com matlab, mas queria muito replicar no R, quem anima fazer isso no gaora? posso ver um dia da semana para vir e brincar um pouco com dados cerebrais
+[2018-03-09 16:35:24] heheheheheheh
+[2018-03-09 16:35:26] hahahaha
+[2018-03-09 16:35:32] hauahuahauahua
+[2018-03-09 16:35:51] Ultima geração (do Milenio passado)
+[2018-03-09 16:36:27] hauauuahaahauahuaa
+[2018-03-09 16:36:53] É importante entender a ideia alheia também kk
+[2018-03-09 16:37:49] HAHAHAHAHAHAHAHAHA
+[2018-03-09 16:38:17] Agora conseguiram o que queriam, colocaram a crise do correio na midia, treta com os cariocas, treta com mercadolivre
+[2018-03-09 16:38:43] treta e mais treta
+[2018-03-09 16:38:47] quero ver sangue!!
+[2018-03-09 16:38:50] kkk zuera
+[2018-03-09 16:38:52] parei
+[2018-03-09 16:38:55] Hahahahahahaha
+[2018-03-09 16:38:57] vou trabalhar
+[2018-03-09 16:39:10] não pq meu SDR está vindo de Curitiba para o Rio de Janeiro e não deve chegar nunca
+[2018-03-09 16:39:15] Daqui a pouco vem a frase "é nao tem jeito, vamos ter que privatizar"
+[2018-03-09 16:39:51] Estou aqui arrumar briga. Se quisesse fazer amigos eu estava no bar, não é mesmo? heheheheheh
+[2018-03-09 16:40:10] Alguém falou SDR? Tenho um HackRF One para venda, originalzão com kit de shield e tudo :)
+[2018-03-09 16:40:13] exatamente!! kkkkkkkkkkkkkkk
+[2018-03-09 16:40:17] Tu não precisa de SDR pra hackear wifi. Alias, dependendo o modelo, nem vai chegar em 2.4GHz
+[2018-03-09 16:40:42] Partiu PvP 5 min sem perder a amizade? hehehe
+[2018-03-09 16:40:54] deixa eu chorar por causa do meu SDR 😢
+[2018-03-09 16:40:55] olha os caras todos equipados... eu só tenho a anteninha interna do meu note
+[2018-03-09 16:41:04] Justo! heheeheh
+[2018-03-09 16:41:29] E eu hehehehe
+[2018-03-09 16:42:29] *jogando gasolina*
+E o Lula? Vai ser preso?
+[2018-03-09 16:42:57] Noooooooooo
+[2018-03-09 16:43:06] Gilmar manda soltar... #TudoLulaLah
+[2018-03-09 16:43:41] Inventa treta nao, ontem ja foi osso... hj é sexta
+[2018-03-09 16:47:00] dia de maldade
+[2018-03-09 16:47:31] Quanto quer? 😁
+[2018-03-09 16:47:46] 2900 pelo ML
+[2018-03-09 17:00:39] Eu peguei um LimeSDR
+[2018-03-09 17:00:55] ainda dandos os passos iniciais
+[2018-03-09 17:01:47] leva no garoa gutem vamos brincar de radio
+[2018-03-09 17:02:01] to com um sdr emprestado
+[2018-03-09 17:05:45] Quem vai na Crypto?
+[2018-03-09 17:07:56] Já garanti minha camisa
+Vamo joga um dinheiro lá pq tá bem longe da meta :/
+[2018-03-09 17:09:54] Tem gente interessado em aprender fazer origami? Minha namorada conheceu o garoa no dia de montar o b-gone, e ela faz uns bem animsid
+[2018-03-09 17:10:04] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806010334_1585.jpg
+[2018-03-09 17:10:29] Ops era para mandar tudo junto. Agora já foi 😅
+[2018-03-09 17:10:39] Nossa que louco
+[2018-03-09 17:12:01] Ela que ia dar uma Oficina no SESC, não?
+[2018-03-09 17:12:48] Gostei até do gato
+[2018-03-09 17:13:31] A barbixa dele eh charmosa :3
+[2018-03-09 17:14:32] Gente tô colocando umas palestras pra crypto tava pensando em por como observação o que vai precisar para quem quiser praticar o que foi feito na palestra caso me chamarem
+[2018-03-09 17:15:10] Que acham?
+[2018-03-09 17:16:19] Isso. Se tiver gente que anima ela pode fazer um aí no garoa. Só preciso de uma ajuda para ver como organiza
+[2018-03-09 17:20:31] Muito bom
+[2018-03-09 17:21:11] Eu curto montar figuras geodésicas, geométricas, mas aprender coisas novas é sempre bem vindo.
+[2018-03-09 17:21:13] Eu quando tiver por sampa tenho que passar mais tempo no Garoa
+[2018-03-09 17:50:01] Alguem aqui já utilizou serviços de corte/grava laser em metal?
+[2018-03-09 17:51:48] quer indicação?
+[2018-03-09 17:52:40] por favor
+[2018-03-09 17:53:34] já já te chamo no pvt
+[2018-03-09 17:54:02] tks
+[2018-03-09 17:58:14] Vcs podem propor uma atividade de origami sim, sou super a favor
+[2018-03-09 18:03:28] Hj é dia internacional do DJ
+[2018-03-09 18:03:52] Idem
+[2018-03-09 18:22:15] Presente(cara do Java)
+[2018-03-09 18:23:35] hahahhaah só amor! xD
+[2018-03-09 18:25:55] https://medium.com/@malcomvetter/friends-dont-let-friends-ceh-b676b4c34cd5
+[2018-03-09 19:29:03] Joga a dica em público aê pra galera... Pode ser útil pra mais gente
+[2018-03-09 19:43:55] Galera boa noite ,quem curte e quer trocar alguns quadrinhos Tenho alguns do (HellBlazer Vertigo) não são o arco completo e Sandman(Casa de Bonecas este é completo são 7 exemplares) se quiser podemos combinar de nos encontrara no garoa e trocar trocamos sem contrapartida , venda nada,podemos catalogar trocas e devolver e apenas pela diversão da leitura. ah minha filha lê Sakura Card Captor se alguem tiver e quiser vender...
+[2018-03-09 19:47:02] Eu tenho um sandman piratão. Quem quiser eu posso passar o arquivo
+[2018-03-09 20:47:18] Nossa!! Gosto!! Tenho alguns do Neil Gaiman aqui
+[2018-03-09 21:04:26] Opa
+[2018-03-09 21:05:59] Julie Ane added N
+[2018-03-09 21:14:21] opa, estou na academia, chegando em casa eu subo o arquivo do Sandman
+[2018-03-09 21:27:08] Ok
+[2018-03-09 21:31:08] Opa podemos levar então
+[2018-03-09 21:31:46] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_805512605_110224.jpg
+[2018-03-09 21:32:13] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806124757_55511.jpg
+[2018-03-09 21:32:51] Estes são do 1 ao 7
+[2018-03-09 21:33:33] Minha coleção
+[2018-03-09 21:40:50] Priscila mas eu estava concordando contigo! Eu li oq aconteceu, li sobre vc falar sobre a mania de rotularem os modos e generalizar as mulheres. Oq eu disse era referente a isso. Desculpa ai!
+[2018-03-09 21:44:24] Topo. Tenho alguns tb, se quiserem levo pra troca ou empréstimo
+[2018-03-09 21:57:50] Opa parece que vamos.organizar.um.clube de quadrinhos no garoa...gostei
+[2018-03-09 22:38:36] Meu Desktop resolveu morrer hoje. Acho que não vou conseguir fazer o upload tão cedo
+[2018-03-09 22:39:39] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806009043_1760.jpg
+[2018-03-09 22:42:48] Joga no forno 👀
+[2018-03-09 22:43:29] kkkkk
+[2018-03-09 22:43:36] Vai que volta 🤷‍♂
+[2018-03-09 22:43:40] Traz aí pra gente minerar
+[2018-03-09 22:44:11] Alguém sabe se upgrade de processador em Macbook é viável?
+[2018-03-09 22:44:47] antes de 2012, sim
+[2018-03-09 22:46:14] Radeon XT1600XT kkkkkk pau véio total
+[2018-03-09 22:47:07] Opa. Isto faria com que as atualizações da Apple aconteçam normalmente (Sem outros meios...) ?
+[2018-03-09 22:49:13] Estou com um aqui, cor2duo. Já tentei Ubuntu, Debian... Mas esquenta muito. Já com o MacOS esquenta normalmente.
+[2018-03-09 22:49:50] Alguém já tentou? Nem virtualizando esquenta tanto.
+[2018-03-09 23:14:31] Victor Antoniassi joined
+[2018-03-09 23:39:51] FONE DE OUVIDO 
+Esqueci em cima da bancada de eletrônica .
+Ele é todo branco.
+Por favor quem encontrar guarde em algum lugar e me avisa
+[2018-03-09 23:40:31] É do tipo auricular

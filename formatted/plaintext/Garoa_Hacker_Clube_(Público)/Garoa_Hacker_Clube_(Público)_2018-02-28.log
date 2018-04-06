@@ -1,0 +1,344 @@
+[2018-02-28 00:00:00] E nao tinha o conhecimento pra arrumar
+[2018-02-28 00:00:23] e, eu não sou pentester ainda, mas dá pra perceber que requer uma série de skills que vão muito além do técnico
+[2018-02-28 00:00:35] Sim, é algo que ensinam rapido pros Q.A.s rs
+[2018-02-28 00:00:42] Automatizar tem um custo alto
+[2018-02-28 00:00:44] Por isso eu disse de redes
+[2018-02-28 00:00:51] tem que lidar com pessoas, tem que saber entender a empresa e se comunicar bem com os executivos, e daí por diante
+[2018-02-28 00:01:02] Sim
+[2018-02-28 00:01:07] Sim, mas falei somente na questão de rodar ferramentas sem saber usar elas! E não em descarta-las :) da uma lida novamente!
+[2018-02-28 00:01:16] Analise de vulnerabilidade envolve o fator humano
+[2018-02-28 00:01:32] Eu vivo reinventado a roda...
+Pego uma ferramenta e reescrevo usando uma linguagem que conheço, assim Eu entendo "como funciona debaixo do capô"
+[2018-02-28 00:01:36] "Não quero aprender a usar uma ferramenta" hahahah
+[2018-02-28 00:01:39] achei meio radical por isso
+[2018-02-28 00:01:48] mas sim, acho que entendi o que você quis dizer
+[2018-02-28 00:02:16] Ferramentas são para automatizar as paradas.
+Vc até pode automatizar o que não sabe, mas aí cai no caso do "rodador de ferramentas"
+[2018-02-28 00:02:51] Sim, sim mas tem umas aspas ali de qualquer forma deu pra entender rs
+[2018-02-28 00:03:00] Eu acabei o cursinho online de pentest, rs fiquei com sabor de "nossa" isso está datado, preciso de fontes melhores.
+[2018-02-28 00:03:08] As vezes você é contratado apenas pra conversar com as pessoas e andar pela empresa observando as coisas como são feitas. Se enviando algum item alguém vai abrir, se tem alguém entrando em algo que não é do serviço etc... Depois sempre rola uma auditoria bacana pra tratar disso.
+[2018-02-28 00:03:29] E ai tenho estudado por conta assuntos soltos, ou revisitando coisas
+[2018-02-28 00:03:44] Mas é bem duro nao saber por onde comecar e pra onde ir agora
+[2018-02-28 00:03:48] Bom Galera, o papo ta bacana mas preciso ir.
+[2018-02-28 00:03:56] Boa noite
+[2018-02-28 00:03:58] Quando a questão é segurança vários fatores estão em jogo
+[2018-02-28 00:04:03] isso já não está mais pra physical pentest?
+[2018-02-28 00:05:58] Segurança do hardware, do código, da infra, da rede, do servidor, das aplicações, do ambiente coorporativo, dos funcionários ...
+[2018-02-28 00:06:06] Putz, onde trabalho isso daria uma enorme lista de vulnerabilidades
+[2018-02-28 00:06:29] na tua empresa e 99% mais
+[2018-02-28 00:06:31] A equipe de segurança tem que verificar tudo isso e trabalhar em conjunto com a diretoria da empresa
+[2018-02-28 00:06:31] hahaha
+[2018-02-28 00:07:12] La pode usar maquina propria, muitos recursos de rede usados a vontade. Pessoas leigas, infra estrutura fraca...
+[2018-02-28 00:07:13] Relatórios de analise de vulnerabilidade podem auxiliar no que será implantado ou não dentre outros aspectos
+[2018-02-28 00:07:49] Acho que se largar um pendrive na porta, qq um enfia no micro e lasca tudo
+[2018-02-28 00:07:51] 😂😂😂
+[2018-02-28 00:08:15] Isso se traduz em uma palavra PREJUÍZO
+[2018-02-28 00:10:41] Acho que se tivesse uma rede mais bem monitorada, seria de boa
+[2018-02-28 00:11:04] Onde tem muita bagunça tem prejuízo, gastos abusivos por exemplo
+[2018-02-28 00:11:21] Por exemplo, cheguei la e no primeiro dia falaram pra eu usar cabo de rede de uma impressora velha, pq ele nao tinha monitoramento
+[2018-02-28 00:11:29] Melhora bastante
+[2018-02-28 00:12:13] Tem redes internas abertas, com autenticacao so pelo user e senha por um pprtalzinho web
+[2018-02-28 00:12:23] Eu monitoro até a rede da minha casa
+[2018-02-28 00:12:27] Kkkk
+[2018-02-28 00:12:43] Acho que depois que ja conectou com a rede, isso ja nem importa mais né?
+[2018-02-28 00:13:29] Fácil de interceptar
+[2018-02-28 00:13:44] Aposto que o server é obsoleto também
+[2018-02-28 00:14:55] mano que que a equipe de sec tá fazendo aí ? Comendo batatinhas e tomando café
+[2018-02-28 00:15:06] Certeza que é obsoleto
+[2018-02-28 00:15:20] Devem estar so flauteando msm, rsrsrs
+[2018-02-28 00:15:45] se subiram uma cópia ela nao estará vulnerável tbm?
+[2018-02-28 00:15:57] Entao, pelo que entendi
+[2018-02-28 00:16:14] O nó B foi contaminado, e o A não
+[2018-02-28 00:16:30] Subiram tudo que tinha no A em um nó C
+[2018-02-28 00:16:47] E ai depois de colocarem no ar o nó C
+[2018-02-28 00:16:50] Tiraram o B
+[2018-02-28 00:16:55] E limparam
+[2018-02-28 00:17:00] E subiram o B tb
+[2018-02-28 00:17:38] ele tava montando o servidor no tor mas ai ne
+[2018-02-28 00:18:13] Procedimento padrão
+[2018-02-28 00:18:59] Me lasquei, trabalhei no ano novo e mais umas duas madrugadas tb
+[2018-02-28 00:19:05] Pra fazer regressao de td
+[2018-02-28 00:19:06] Kkk
+[2018-02-28 00:19:37] Sacanagem
+[2018-02-28 00:19:47] Na epoca nao podiam contar pra equipe, ai eu trabalhava de dia e de noite.
+[2018-02-28 00:19:59] Depois que arrumaram, contaram pro pessoal.
+[2018-02-28 00:20:16] Augusto Oliveira joined
+[2018-02-28 00:20:28] Procedimento padrão também
+[2018-02-28 00:20:58] vc ta dizendo que a empresa é grande e o pessoal tem usado o server pra mineirar bitcoin?
+[2018-02-28 00:21:35] Foi o que me contaram, ficou conhecido como o problema do bitcoin
+[2018-02-28 00:21:44] Nao sei te dizer se foi uma maquina
+[2018-02-28 00:21:53] Se foram n maquinas afetadas
+[2018-02-28 00:21:58] faa ai o nome da empresa tbm quero uns bitcoin HUAHUAUHAHUHUA
+[2018-02-28 00:22:00] to brincando
+[2018-02-28 00:22:06] só queria fazer a piada
+[2018-02-28 00:22:07] Mas que  teve problema teve
+[2018-02-28 00:22:09] Kkkk
+[2018-02-28 00:22:12] Uai os cientistas nucleares estavam fazendo isso se viu kkk
+[2018-02-28 00:22:23] ainda to no começo da conversa
+[2018-02-28 00:22:31] Nao tem problema rs
+[2018-02-28 00:23:04] Ahahah, tem mt ser humano assim, que é white hat até ter uma oportunidade
+[2018-02-28 00:23:26] Kkkk
+[2018-02-28 00:23:32] meu, mas voce parece que ta se matando pra resolver um problema que é da empresa
+[2018-02-28 00:23:58] Entao, pensei no problema e enxerguei uma "oportunidade"
+[2018-02-28 00:24:09] Em 12 anos de TI, nao tinha visto nada assim
+[2018-02-28 00:24:28] Entao achei que seria uma boa aprender o lado defensivo
+[2018-02-28 00:24:34] Agregar mais alem de testes
+[2018-02-28 00:24:36] até minha universidade ta começando a ter red team
+[2018-02-28 00:25:10] Eu faco tb freelances, e vi tb nos clientes vulnerabilidade que só agora entendo a gravidade
+[2018-02-28 00:25:17] E devem ter muito mais
+[2018-02-28 00:25:53] Nao tinha visto essa msg antes, mas concordo que devem estar nesse nivel
+[2018-02-28 00:28:03] todo ctf que tem lfi tem que ler o flag.txt em base64 meu sonho é um ctf que entenda a função do lfi
+[2018-02-28 00:29:14] Sério agora sem brincadeira, pra você entender como defender é preciso trabalhar as vulnerabilidades, testar as coisas. As pequenas falhas geralmente são as que dão os problemas mais catastróficos
+[2018-02-28 00:29:58] Ter a mente pro crime
+[2018-02-28 00:30:32] Pensar como um criminoso o que ele ia explorar
+[2018-02-28 00:30:34] meu sonho é escrever o vrechqlmap
+[2018-02-28 00:30:56] Entao, como temos alem dos sites comerciais, as ferramentas para lojistas (trabalho em marketplace), sei que deve ter muita coisa la sem o cuidado que deveria ter
+[2018-02-28 00:31:00] Amigo  meu fez um artigo no LinkdIn sobre isso.
+[2018-02-28 00:31:10] Muitas APIs expostas...
+[2018-02-28 00:31:30] Boto Fé!
+[2018-02-28 00:31:54] Valeu pelas dicas San
+[2018-02-28 00:32:01] 😱😱😱
+[2018-02-28 00:32:11] essa afirmação é a ideia central do anarquismo se voce mudar "tem muito ser humano" para "todo ser humano"
+[2018-02-28 00:32:25] Redes e monitoramento de tráfego
+[2018-02-28 00:32:32] Já ajuda bastante
+[2018-02-28 00:32:54] É que eu nao gosto de generalizar né
+[2018-02-28 00:33:05] é uma boa mesmo
+[2018-02-28 00:33:06] Ética é aquilo que vc faz quando tem gente olhando.
+Carater é o que vc faz quando não tem ninguem olhando.
+[2018-02-28 00:33:16] Sobre a afirmação de td ser humano
+[2018-02-28 00:33:23] Sim
+[2018-02-28 00:33:40] Vou ver melhor como isso funciona la
+[2018-02-28 00:34:18] Pq eu uso note pessoal por exemplo, e nunca veio ninguem falar que tem uma maquina estranha na rede e etc
+[2018-02-28 00:34:20] hahahahahha pois é
+[2018-02-28 00:35:28] Fiz um trampo numa empresa que eles tinham monitoramento mas não sabiam usar aí não adianta em nada
+[2018-02-28 00:35:47] Rs pode ser o caso deles
+[2018-02-28 00:36:05] olha
+[2018-02-28 00:36:09] Talvez tenham algo, sei que se plugar em qq cabo de rede, ele acaba sendo bloqueado
+[2018-02-28 00:36:11] infelizmente o metasploit é em ruby
+[2018-02-28 00:36:15] kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+[2018-02-28 00:36:26] nao bastasse ele
+[2018-02-28 00:36:28] Por isso me mandaram usar em um específico, que era da impressora
+[2018-02-28 00:36:28] o beef tbm
+[2018-02-28 00:36:34] que odio dessa linguagem
+[2018-02-28 00:36:38] ruby é legal...
+[2018-02-28 00:36:42] Rs eu sei um pouco de ruby
+[2018-02-28 00:36:48] Por conta da automacao de testes
+[2018-02-28 00:37:04] Uso pra mobile, web e rest, ate soap tb
+[2018-02-28 00:37:24] É o que paga as minhas contas
+[2018-02-28 00:37:58] Mas queria tb aprender python e se der tempo perl, vejo que tem bastante coisa criada nessas linguagens
+[2018-02-28 00:39:14] perl
+[2018-02-28 00:39:16] sdds
+[2018-02-28 00:39:23] até eu começar a sofrer bullying
+[2018-02-28 00:39:27] webbullying
+[2018-02-28 00:39:31] Ahahaha
+[2018-02-28 00:39:51] queria reaprender perl pq seria muito útil agora que eu mexo com ctf
+[2018-02-28 00:40:00] Dificil é ter tempo de trabalhar, estudar, dar atencao pras pessoas.
+[2018-02-28 00:40:01] mas se eu for estudar algo eu vou estudar python
+[2018-02-28 00:40:10] as pessoas nao precisam de atencao kkk
+[2018-02-28 00:40:24] Eu gosto do code academy pra estudar linguagens
+[2018-02-28 00:40:35] Comecam bem de baixo
+[2018-02-28 00:40:37] Boa
+[2018-02-28 00:40:50] Precisam cara, nao quero filhos mas quero casar ainda rs
+[2018-02-28 00:41:28] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_532579243238924219.mp4
+[2018-02-28 00:41:36] Eu também não casei ninguém me quer risos
+[2018-02-28 00:41:44] na vale a pena casar
+[2018-02-28 00:42:14] Acredito que depende da pessoa
+[2018-02-28 00:42:23] eh que nem querer comecar a desenvolver em java um ERP nos tempos de hoje
+[2018-02-28 00:42:36] morar junto ja resolve ahahha
+[2018-02-28 00:42:37] kkk
+[2018-02-28 00:42:49] Ahahahaha
+[2018-02-28 00:42:56] Poupa grana
+[2018-02-28 00:43:21] Vdd, essas coisas ai de cerimonia e etc custam uma fortuna
+[2018-02-28 00:43:52] lol
+[2018-02-28 00:43:59] Contrato de união estável com declaração de pobreza é gratuito.
+[2018-02-28 00:44:21] Não digam que sou uma pessoa suvina
+[2018-02-28 00:44:37] Mas pra que eu vou pagar por algo que posso ter de graça?
+[2018-02-28 00:45:31] Ahahaha
+[2018-02-28 00:45:33] afonso transformou o role em vários desabafo
+[2018-02-28 00:45:35] Depois parte pro Chopp com os amigos numa churrascaria se quiser
+[2018-02-28 00:45:38] Kkkkkk
+[2018-02-28 00:45:45] kkkkk
+[2018-02-28 00:46:08] Eu to falando da parte de festa e cerimonia com firulas
+[2018-02-28 00:46:24] Essa ideia ai é boa rs de churrascaria
+[2018-02-28 00:46:54] Eu vejo tudo por cerveja tipo o que gasto pra x poderia comprar n cervejas. Não vale a pena gastar tantas cervejas. Vou ver se tem como ter gratuidade nisso ou desconto..
+[2018-02-28 00:47:58] Tem rodízio barato e geralmente quem trás os convidados não paga nesses casos comemorativos
+[2018-02-28 00:49:31] e o java?
+[2018-02-28 00:49:50] Sábado vou ser padrinho de um casamento, vou dar essa ideia, pessoal nao tem condições de fazer festa.
+[2018-02-28 00:50:08] Java? Tenso java...
+[2018-02-28 00:50:18] Pode fazer a francesa
+[2018-02-28 00:50:29] Cada um trás uma bebida e uma comida
+[2018-02-28 00:55:09] Pode também ver se algum parente tem pátio grande
+[2018-02-28 00:55:56] No sul fazíamos uma grande lona plástica pra tapar o sol e aproveitávamos o espaço do quintal
+[2018-02-28 00:57:36] Coisas que gaúcho faz
+[2018-02-28 00:57:59] Ahahah, show
+[2018-02-28 00:58:09] Ainda vou conhecer o sul, com certeza.
+[2018-02-28 00:58:18] Ficava uma tenda grande
+[2018-02-28 00:58:25] Basicamente
+[2018-02-28 00:59:00] Minha família tá basicamente toda lá ainda
+[2018-02-28 00:59:36] Legal... eu so tenho familia em sp msm
+[2018-02-28 00:59:39] Uma pena
+[2018-02-28 01:00:29] Seu caminho vc que faz
+[2018-02-28 01:00:49] É bom tomar cuidado nas escolhas
+[2018-02-28 01:01:00] Ss, acredito nisso mt
+[2018-02-28 01:01:48] E digo mais, so com mais conhecimento pra ir por um caminho melhor
+[2018-02-28 01:02:57] Duas formas ou você trabalha muito num serviço físico ou você estuda muito pra trabalhar num serviço lógico que pague bem
+[2018-02-28 01:04:00] Ou seja ou vc trabalha exaustivamente e junta grana e vai construindo ou você estuda muito faz muitos cursos pra conseguir algo melhor que possa comprar algo geralmente pronto
+[2018-02-28 01:04:28] Quem estuda muito nem sempre tem tempo pra construir então opta pelo pronto
+[2018-02-28 01:04:49] Na maioria das vezes
+[2018-02-28 01:05:33] Fui
+[2018-02-28 01:06:31] Opa, falou, obrigado pela conversa boa noite
+[2018-02-28 01:06:49] Darlley Brito joined
+[2018-02-28 01:11:53] Boa noite
+[2018-02-28 06:04:10] Bom dia
+[2018-02-28 06:45:33] Boa noite pessoal!
+
+Estão abertas as submissões de propostas de tutoriais para a Python Sudeste 2018!!! Dias 30/03, 31/03 e 01/04 em SP.
+
+#pyse2018 #pythonsudeste #naoehmentira
+
+https://speakerfight.com/events/python-sudeste-2018-tutoriais/
+[2018-02-28 08:00:08] "Eu sou hasker e não sei codar"
+[2018-02-28 08:00:20] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_532579887483984131.mp4
+[2018-02-28 08:01:15] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_150229821346022369.webp
+[2018-02-28 08:58:04] ❤️
+[2018-02-28 09:33:13] "até minha vó é résker"
+[2018-02-28 09:53:55] Tá assistindo muito filme
+[2018-02-28 10:00:44] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_538462764318851802.webp
+[2018-02-28 10:17:43] Posso não! To cansada!!
+[2018-02-28 10:18:40] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_579971338312089684.webp
+[2018-02-28 10:22:29] https://www.kickstarter.com/projects/1614073669/iceu-spectres
+[2018-02-28 12:34:35] Vizinho instalou aplicativo que mostra senhas de rede WPA2 do Google play e tava se achando o hasker kkklk
+[2018-02-28 12:35:13] Ainda humilhou os vizinho e ficou tocando o terror. Cortei as asas do infeliz.
+[2018-02-28 12:37:34] Deauth nele!!
+[2018-02-28 12:37:37] kkk
+[2018-02-28 13:06:20] Alguém conhece alguma empresa que faça cases personalizados e possa recomendar?
+[2018-02-28 13:25:43] De acrílico?
+[2018-02-28 13:26:30] @AllanTrindad
+[2018-02-28 13:26:30] https://www.youtube.com/watch?v=ezf5oeP3eRE
+[2018-02-28 13:26:48] Não não, bordado mesmo, sabe aqueles casos acolchoados? Queria algo do tipo para alguns equipamentos
+[2018-02-28 13:27:41] Não conheço, desculpe.
+[2018-02-28 13:29:12] depois que eu montar o meu tv-b-gone vou tentar montar um casezinho pra andar no bolso
+[2018-02-28 13:46:33] Já comprei nessa loja aqui (comprei uma que tinham pronta, não foi encomenda): http://caseart.com.br/loja/
+[2018-02-28 13:55:08] Esses caras devem conhecer quem faz personalizado, obrigadão!
+[2018-02-28 14:01:09] Eles fazem :)
+[2018-02-28 14:49:57] O que você fez? O.O
+[2018-02-28 15:01:26] Que aplicativo? Aqueles que mostram as senhas salvas no próprio dispositivo? 😂
+[2018-02-28 15:02:56] P3DR1NH0 joined
+[2018-02-28 15:04:04] Slv😁👍
+[2018-02-28 15:11:56] bem vindo
+[2018-02-28 17:52:09] Richard Pandolfi joined
+[2018-02-28 18:04:24] Vlw
+[2018-02-28 18:21:04] Pessoal, alguma dica de loja na Santa Efigenia pra montar um PC desktop?
+[2018-02-28 18:29:40] vai lá e faz uma pesquisa de loja em loja
+[2018-02-28 18:29:54] Em menos de 1h você pega 10 orçamentos
+[2018-02-28 18:43:11] Eu geralmente pesquiso, escolho as peças que quero e depois vou na santa perguntando pelas peças e pesquisando preços. Geralmente, quando vc faz esse tipo de orçamento nas lojas, eles tentam te empurrar algumas peças ruins
+[2018-02-28 18:45:38] Eu já tenho ideia do que eu quero, mas não queria comprar um componente em cada loja. Se der algum problema, vai ser difícil provar qual peça é a responsável.
+[2018-02-28 18:51:48] provar não é dificil,,,, testar é a questão...o lance é comprar o "grosso" numa loja só e comprar algo mais especifico com alguma mais especializada, que geralmente pode testar no pos compra
+[2018-02-28 18:56:23] nunca mais montei maquina, nem pra cliente, mas com macbook de plastico a preço de carro, não vai ter jeito
+[2018-02-28 18:58:37] Na minha opinião não é tão difícil assim. A maioria das coisas dá pra ver na bios, e se a placa mãe der problema, ela mesma vai apontar através dos leds de indicação. Mas vc pode ir em uma loja e pedir todas as peças no mesmo lugar
+[2018-02-28 19:00:21] No fundo, a maioria das lojas de lá tem mais ou menos as mesmas peças, no grosso. Olhando em 3, 4, vc já vai ter uma ideia do que vc acha por lá ou não.
+[2018-02-28 19:26:50] Procuro grupo que trate de Impressão 3D! Alguém conhece pra indicar?
+[2018-02-28 19:31:01] sinceramente toda vez que eu vou na sta. ifigenia saio de lá decepcionada. todas as vezes que procurei, o kabum tem preços melhores
+[2018-02-28 19:58:23] Galera, alguém poderia me recomendar algo sobre desenvolvimento de chatbots em Python?
+[2018-02-28 19:58:28] Eu andei pesquisando e encontrei algumas bibliotecas, mas elas geralmente são voltadas à implementação de chatbots com AI, daquele tipo que aprende respostas novas em cada interação, mas a minha necessidade era algo mais simples, que se limitasse a respostas pré-programadas para frases previamente especificadas
+[2018-02-28 19:58:37] Também ficaria difícil implementar algo através de comparações simples por causa daquelas variações que pode ter na conversa... um 'oi' pode ser 'olá', 'hey', 'opa', e assim por diante
+[2018-02-28 19:58:39] Resumindo, o problema é o processamento de linguagem natural, mesmo
+[2018-02-28 20:26:19] https://spacy.io/ ?
+[2018-02-28 20:30:42] https://archive.org/details/msdos_Chato_1995
+[2018-02-28 20:40:05] opa, estou dando uma olhada aqui, parece que vai ajudar!
+[2018-02-28 20:40:35] Não me desanima não
+[2018-02-28 20:41:00] bem mais fácil abrir a página do kabum que andar até a santa ifigênia, né?
+[2018-02-28 20:41:47] Sem dúvida, mas como estou ansioso e de férias, a Santa é uma boa também
+[2018-02-28 20:42:15] pode ser, eu é que não tenho o dinheiro pra pagar a diferença a mais
+[2018-02-28 20:42:21] Ultimamente tenho comprado muita coisa pela Internet, seja em lojas comuns ou mercado livre
+[2018-02-28 20:42:28] ah, parece um pouco sado, mas eu gosto de bater perna na Santa
+[2018-02-28 20:43:03] Vou pegar uns valores na Internet e vou dar um pulo lá
+[2018-02-28 20:43:04] eu também, só que ultimamente ou é marmanjo não querendo me atender pq sou mulher, ou é preço muito mais caro que na internet e não vale a  pena
+[2018-02-28 20:43:19] mas realmente as vezes vc soh encontra alguma coisa que procura, no modelo antigo e mais caro que o que vc viu na internet
+[2018-02-28 21:31:02] Tem atividade de biohacking marcada p março
+[2018-02-28 21:58:08] Isso é uma pergunta ou afirmação?
+[2018-02-28 22:03:00] Galera não é bem um hackerspace, mas eu achei interessante a idéia. Nós vivemos falando sobre um oficina mecânica colaborativa
+[2018-02-28 22:03:03] https://www.youtube.com/watch?v=HKTe8nRjpb8&feature=youtu.be&t=10m30s
+[2018-02-28 22:03:20] @eduoda @tilt4
+[2018-02-28 22:04:38] Só que o espaço roda como empresa. Eles resolvem alguns problemas, que observamos no Garoa, cobrando das pessoas.
+[2018-02-28 22:04:45] Eu tava com a ideia de oferecer pro mercado car Barra funda esse sistema
+[2018-02-28 22:04:47] bem interessante
+[2018-02-28 22:05:00] Nos USA tem bastante
+[2018-02-28 22:05:28] Só não gosto de Custom. Mas de resto eu acho um modelo bacana
+[2018-02-28 22:05:36] São os car club
+[2018-02-28 22:05:40] mas eh aquilo, tudo cobrado
+[2018-02-28 22:06:04] 150 para associar, paga curso, paga estacionamento, paga aqui, paga acola
+[2018-02-28 22:06:24] É osso aí
+[2018-02-28 22:06:36] Sim, é bem diferente do Garoa.
+[2018-02-28 22:06:46] na moral? ta caro, eh pra playboy
+[2018-02-28 22:07:10] 150 reais/mes eh 1800 reais
+[2018-02-28 22:07:11] eheheheheh isso é obvio heheheheh
+[2018-02-28 22:07:15] por ano
+[2018-02-28 22:07:39] e paga tudo que rola a mais
+[2018-02-28 22:07:57] da para ir montando uma oficininha na casa da tia, da avo...
+[2018-02-28 22:08:35] wd40 tem ou nao tem? NAO
+[2018-02-28 22:08:39] vtnc
+[2018-02-28 22:08:50] kkkk
+[2018-02-28 22:09:23] Mas o negócio não é só esse. Tem um bar, lanchonete... Os caras ganham com os associados, e atream publico com o bar.
+[2018-02-28 22:09:48] sim, como negoci eh bom, ainda mais com moto (@tilt4 acho que carro eh mais dificil)
+[2018-02-28 22:10:18] (provavelmente vai falir, porque quando eu acho algo bacana o negócio não funciona heheheheheh)
+[2018-02-28 22:10:37] Carro precisa de muito espaço
+[2018-02-28 22:11:03] esses manos que tem moto de pagar de rota 66, tem grana e curtem ser poser
+[2018-02-28 22:11:21] Tipo, a questão do projeto parado: Para pelo aluguel do espaço, simples. Puta incentivo para o projeto andar
+[2018-02-28 22:11:43] exato eheheheheh Fora que Harley é uma bosta
+[2018-02-28 22:11:46] entao um bar com cara de clube de motociclista deve ganhar uma grana vendendo chop germania
+[2018-02-28 22:12:22] aluguel para deixar projeto no garoa? sei nao se faz sentido para a gente
+[2018-02-28 22:12:26] sera?
+[2018-02-28 22:12:30] Os car club não aceita carro parado. Entrou arrumou saiu. Se deu bosta tem que tirar o carro com guincho
+[2018-02-28 22:13:09] tirar arcade com guincho? faz sentido, hein?
+[2018-02-28 22:13:11] AUhUAHHUAHUAHA
+[2018-02-28 22:13:16] Exato
+[2018-02-28 22:13:40] Pro garoa não. Mas eu achei uma idéia bacana
+[2018-02-28 22:13:43] Se não tira tem muita diaria
+[2018-02-28 22:13:59] Multa
+[2018-02-28 22:14:20] a oficina que levo meus carros reformou
+[2018-02-28 22:14:25] ta puta hipster
+[2018-02-28 22:14:28] uahauahuh
+[2018-02-28 22:14:36] É... nessa caso eu acho que poderia rolar uma taxa mensal heheheheh
+[2018-02-28 22:14:44] Pra aumentar o preço
+[2018-02-28 22:14:50] acho que rola conversar com o meca la e alugar o espaco
+[2018-02-28 22:15:09] alias, se liga nessa oficina do video ai
+[2018-02-28 22:15:19] nunca trocaram um oleo nesses elevadores
+[2018-02-28 22:15:34] Barbearia, hamburguer, food truck, bicicletaria, soh faltavam as mecanicas
+[2018-02-28 22:15:50] tatooaria tb tem
+[2018-02-28 22:15:51] Agora uma kombi corujinha custa 50k
+[2018-02-28 22:17:00] De tattoo nao posso falar nada pois comecei a ser carimbado esse ano
+[2018-02-28 22:17:00] eh meu amigo, muito louca essas paradas modernas ai
+[2018-02-28 22:17:50] tem uma em moema, legal pra caralho o espaco, mas eh aquele clima de wanna be
+[2018-02-28 22:18:09] mas se o tatuador que vc curte passar por uma, vale a pena
+[2018-02-28 22:18:52] Demorei pra achar, o cara tah la no meio descoladão de Pinheiros...
+[2018-02-28 22:19:27] Mas o trampo do cara é bom, ele paga de zen mas ja vi que é "ex" maloqueiro
+[2018-02-28 22:19:40] sei la, tatuador eh outra parada que ta ficando babaca
+[2018-02-28 22:20:12] todo mundo achando que o artista mais fodido querendo vc de tela
+[2018-02-28 22:20:29] Mais uma coisa que jogador de futebol e funkeiro conseguiram cagar em cima
+[2018-02-28 22:20:42] huahauhauahu
+[2018-02-28 22:21:06] Mas ok, moda é moda...
+[2018-02-28 22:21:41] Eu tava me revoltando com breja artesanal aí o garoa me salvou
+[2018-02-28 22:24:12] Acabei conhecendo mais gente que faz breja boa de panela e não pensa em lucro, tem uns fornecedores novos vendendo insumos tbm com preços mais acessiveis
+[2018-02-28 22:45:28] Pessoal, criei um site para visualizaçao dos dados que o Movimento Passe Livre disponibilizou sobre o corte das linhas de onibus em SP (disponivel em: https://meubusao.herokuapp.com/ )
+[2018-02-28 22:58:40] Já leu sobre OpenGarages?
+[2018-02-28 22:58:41] http://opengarages.org/index.php/Main_Page
+[2018-02-28 22:59:55] Maioria é nessa linha... #Maloca
+[2018-02-28 23:13:49] Pergunta. Desculpe-me. Tem atividade de biohacking marcada para março?
+[2018-02-28 23:16:54] tem uma área lá que parece que vende estoque de empresa que faliu, de lan house que fechou, várias lojas com computadores em bom estado, sempre de penúltima geração pra trás.
+[2018-02-28 23:19:12] Nossa, isso me interessa! Você sabe o endereço?
+[2018-02-28 23:34:56] São lojas que compram de empresas que estão renovando as máquinas
+[2018-02-28 23:35:25] O @Gutemhc está planejando uma para março, mas tbm existem outras atividades marcadas com outros palestrantes/oficineiros sobre o tema, soh se manter atento no site do garoa.
+[2018-02-28 23:36:13] Eu quero umas plantinha que brilha no escuro :)
+[2018-02-28 23:36:40] Tem algumas na Rua do Triunfo, na altura da Rua dos Gusmoes
+[2018-02-28 23:36:57] Ah os de lote...
+[2018-02-28 23:40:07] Uma vez quase comprei um mac pro octacore, até interessante, de um lote de agencia de propaganda, mas tava muito barulhento e quando abri a tapa tinha uns oxidados, achei zoado
+[2018-02-28 23:40:19] Valeu! Bom saber!
+[2018-02-28 23:41:14] Se você andar por lá, encontrará várias lojas com pilhas de computadores expostos na frente
+[2018-02-28 23:43:16] Eu ouvi "Excursão a Sta Efigenia"? heheheh
+[2018-02-28 23:43:56] Tavam perguntando do Biohacking
+[2018-02-28 23:44:13] Ai lembrei que vc planeja algo pra março
+[2018-02-28 23:44:38] On hold, por hora
+[2018-02-28 23:45:12] Opa! Nunca recuso uma dessas! Hahaha
+[2018-02-28 23:45:20] Talvez faça uma Oficina de Miscroscopio de baixo custo com o Cel, mas, se rolar, será pro fim de Março
+[2018-02-28 23:45:26] [2]

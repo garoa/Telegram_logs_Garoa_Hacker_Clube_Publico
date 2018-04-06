@@ -1,0 +1,137 @@
+[2018-02-21 00:29:21] Vamos colocar os servidores do garoa pra funcionar?
+[2018-02-21 00:29:39] Alguém tem umas memórias sobrando?
+[2018-02-21 00:30:03] Vamos usar no CTF
+[2018-02-21 00:33:15] Hahahha
+[2018-02-21 00:33:37] Posso só buscá-los então e deixar as suas coisas Oda ?
+[2018-02-21 00:44:15] Claro
+[2018-02-21 00:44:16] Mas tem que estar aberto o garoa
+[2018-02-21 07:23:29] Alguém conhece outros programas simples para votação, consenso, etc no estilo de allourideas.org e doodle.com
+[2018-02-21 07:23:37] ?
+[2018-02-21 07:44:25] Caras, 
+Como a gente conversa com o pessoal do Github para um tipo de arquivo eles começarem a entender que é referente a um software X? A comunidade que usa o Github com o programa que eu uso para PCB é gigante e até hoje o Github acha que os arquivos são arquivos HTML.
+[2018-02-21 10:14:40] Que programa?
+[2018-02-21 10:15:24] Altium, padrão da indústria, ele reconhece como HTML 🤔
+[2018-02-21 10:16:09] Nossa, qual dos arquivos? Tenho vários repositórios com muitos arquivos do Altium.
+[2018-02-21 10:16:47] PcbDoc, PrjPcb, PrjPcbStructure, SchDoc, PcbDoc, nada ele reconhece como Altium
+[2018-02-21 10:16:58] https://github.com/PY1CX/pH-SPI-Shield
+[2018-02-21 10:17:01] Aqui por exemplo
+[2018-02-21 10:17:03] 100% C++
+[2018-02-21 10:17:39] https://github.com/PY1CX/Quad-Serial
+[2018-02-21 10:17:47] Os que não tem código, ele não reconhece como Altium
+[2018-02-21 10:17:59] https://dudle.inf.tu-dresden.de/
+https://cryptpad.fr/poll/ 
+Também tem o sandstorm.io, que tem aplicativos de pool
+[2018-02-21 10:18:05] Sim, ele não reconhece como Altium. Mas como HTML? Como isso se manifesta?
+[2018-02-21 10:18:50] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806120542_46416.jpg
+[2018-02-21 10:18:51] Quando eu abro o arquivo criado em uma versão antiga em uma versão mais nova, o Altium gera um arquivo tipo HTML para avisar que o projeto foi gerado em uma versão mais antiga
+[2018-02-21 10:19:03] Exato
+[2018-02-21 10:19:04] Para mim ele mostra que os binários são binários
+[2018-02-21 10:19:17] Exatamente
+[2018-02-21 10:19:39] Não entendi então.
+[2018-02-21 10:19:43] Só que seria legal reconhecer esses arquivos como altium na composição do repositório, para quem não conhecer o tipo de arquivo entender que é do programa X
+[2018-02-21 10:20:29] Ah, entendi. Isso seria legal, mesmo. Mas e a parte dele reconhecer como HTML?
+[2018-02-21 10:20:47] É porque é um HTML mesmo
+[2018-02-21 10:20:57] aí como ele não reconhece o resto
+[2018-02-21 10:21:01] o repositório fica 100% html
+[2018-02-21 10:21:04] Manda um pull request aqui: https://github.com/github/linguist/pulls
+[2018-02-21 10:21:45] Ah, entendi. Bem, de qualquer maneira, eu não recomendo colocar os HTMLs que o Altium gera, nem os outputs, no repositório
+[2018-02-21 10:21:45] Valeu cara!
+[2018-02-21 10:21:56] Mas é uma boa ele reconhecer
+[2018-02-21 10:23:15] É é porque geralmente faço o upload dos arquivos e acaba indo o html junto, estou começando a limpar isso.
+[2018-02-21 10:24:20] Uma coisa que eu tava vendo hoje, .gitattributes não resolve isso, né?
+[2018-02-21 10:26:31] Não, essa classificação é coisa do github. Mas eu recomendo ter um gitignore padrão que exclua HTMLs e outros arquivos gerados, e os diretórios com arquivos gerados . Nos meus repositórios tem alguns
+[2018-02-21 10:26:37] Pode usar
+[2018-02-21 10:29:07] Aylons, você trabalha com Altium?
+[2018-02-21 10:29:36] Eu estou pensando em começar um projeto de script aqui bem interessante que talvez também sirva para você.
+[2018-02-21 10:30:52] Sim, parece interessante. Gosto de automação
+[2018-02-21 10:31:41] Então, eu não sei como são suas libs, mas as minhas sofrem com componentes parando de serem fabricados, especialmente os passivos.
+[2018-02-21 10:31:54] Aí quando eu vou gerar um BOM de compra, tenho que ficar atualizando na mão
+[2018-02-21 10:32:10] A ideia é criar uma forma de ler o arquivo de biblioteca do Altium em um Python da vida
+[2018-02-21 10:32:37] e com a API da Digikey, você digitar o part-number do passivo e ele gerar o componente
+[2018-02-21 10:32:58] E os que tiverem virado obsoletos, ele marcar, para você entrar com um novo part-number
+[2018-02-21 10:33:44] Eu já faço isso, uso o BOM gerado 3 verifico na Octopart. Depois te mando
+[2018-02-21 10:40:36] Maneiro, também uso muito Octopart, maaaas, que seria legal entrar com part-number e ele adicionar um novo elemento na biblioteca, seria.
+[2018-02-21 10:50:03] Ah
+[2018-02-21 10:50:16] Eu uso bibliotecas se banco de dados, você também?
+[2018-02-21 10:51:34] Não, biblioteca de bando de dados? Nunca ouviu falar dessa
+[2018-02-21 11:01:21] Hoje está rolando um lançamento de foguete Falcon 9 na Califórnia. O streaming ao vivo está prestes a abrir em https://www.youtube.com/watch?v=-p-PToD2URA para o lançamento que deve ocorrer dequi 15 minutos.
+[2018-02-21 11:10:13] https://twitter.com/SpaceX/status/966313372814749701
+[2018-02-21 11:25:53] Google Forms
+[2018-02-21 14:52:10] Feliz aniversário Erin  https://www.howtocookthat.net/public_html/minecraft-slime-balls-grass-blocks-tnt-cake/
+[2018-02-21 15:08:41] Só em SP que a Caixa Federal é um exemplo de Efetividade? #SQN
+[2018-02-21 15:20:20] br todo
+[2018-02-21 15:27:06] A quantidade de fraude nos bancos públicos obriga o engessamento de procedimentos, na minha opinião.
+[2018-02-21 15:29:04] Exatamente
+[2018-02-21 15:32:55] Concordo. Mas isso não justifica o fato da agência ter 13 guichês e só 2 funcionários trabalhando enquanto já vi uns outros 2 funcionários ociosos
+[2018-02-21 15:34:19] Oda fui ontem fazer uma entrevista no planetário e hoje outra no ime com a camisa do garoa e nos dois lugares me perguntaram se eu conhecia você hehe
+[2018-02-21 15:35:19] kkk
+[2018-02-21 15:35:22] popstar
+[2018-02-21 15:35:54] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_532581390722572294.mp4
+[2018-02-21 15:38:54] Sim.
+[2018-02-21 15:47:11] Pessoal, o alguém sabe de empresa que importe PCs (trading)? Um amigo tem verba na fapesp e precisa disso
+[2018-02-21 15:47:42] Pessoal, a Yaman está buscando pessoas com deficiência visual interessadas em aprender TI pra fazer parte de sua equipe. Se souberem de alguém, compartilhem :)
+[2018-02-21 15:48:26] Meu amigo tem uma trading, posso apresentar
+[2018-02-21 16:08:14] obg mike :P tá mandando eu explodir, é isso?
+[2018-02-21 16:08:24] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804724466_140844.jpg
+[2018-02-21 16:09:23] não precisa mandar duas vezes a mesma foto
+[2018-02-21 16:13:55] Foi pra mim? Se foi, aqui só aparece o envio de uma foto... Deve ter bugado, not my fault ;P
+[2018-02-21 16:14:03] eu apaguei o repeteco
+[2018-02-21 16:14:07] Inbox
+[2018-02-21 16:14:17] Ah, sorry!
+[2018-02-21 16:17:07] Desculpe a ignorância mas o que seria PCD?
+[2018-02-21 16:17:56] Pessoa com deficiência, mas querem especificamente Visuak
+[2018-02-21 16:20:31] A, OK! Obrigado pelo esclarecimento
+[2018-02-21 16:39:58] Ontem teve a reunião mensal do CMC (Conselho Manda Chuva) que é onde são tomadas decisões sobre a gestão do Garoa Hacker Clube. Todos podem participar dessas reuniões, que acontecem toda última terça-feira do mês. Quem quiser ver o que foi discutido e decidido ontem, pode ver o conteúdo da ata da reunião aqui: https://garoa.net.br/wiki/Reuni%C3%A3o_de_20/02/2018
+[2018-02-21 16:52:15] http://roborace.com.br
+O PRIMEIRO CAMPEONATO BRASILEIRO DE CORRIDA
+DE VEÍCULOS AUTONOMOS EM ESCALA
+
+INSCRIÇÕES ATÉ 20/10 (R$100 POR EQUIPE)
+A competição será realizada dia 04/11/2018 na pista do AARC do ABC
+[2018-02-21 17:28:31] Caixas eletrônicos de agências do BB funcionam até as 16hrs em Santo André...
+[2018-02-21 18:00:44] Pessoal não achei na Wiki nem aqui horário da AGO
+[2018-02-21 18:01:09] 14h
+[2018-02-21 18:04:15] Pessoal,
+
+Eu estou tentando refazer o mapa das impressoras 3D no Brasil:
+
+https://goo.gl/Y09LLr
+
+Mas como ocorreu das outras vezes alguém foi lá e bagunçou algumas localizações, para evitar este problema limitei o acesso de todos apenas para visualização, os que tiverem interesse de se cadastrar devem preencher esta  planilha:
+
+https://goo.gl/HfWxV9
+[2018-02-21 18:17:00] Corrigindo o link correto para o cadastro é esse:
+
+goo.gl/MVUcX3
+[2018-02-21 19:34:21] Oportunidade para palestrar na Universidade Federal do ABC
+
+https://docs.google.com/forms/d/e/1FAIpQLSeAsZDI_xIc7z6Mw3WzB2oiumNNNJly-tdJxq1krXuyJ9Y12A/viewform
+[2018-02-21 19:38:01] Sim, o Altium permite manter o cadastro componentes em banco de dados, e você referencia o símbolo esquemático e o footprint em campos desse banco. É assim que fazemos no LNLS e no CERN
+[2018-02-21 19:43:38] Uma coisa muito importante é que você pode usar o mesmo banco de dados para vários aplicativos
+[2018-02-21 20:09:49] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804729288_112035.jpg
+[2018-02-21 20:36:11] Valeu
+[2018-02-21 21:12:01] Pode ir de boa na AGÔ? Ou é tipo conselho jedi?
+[2018-02-21 21:13:40] reuniões secretas, de acesso exclusivo a apenas alguns poucos  não estão alinhadas com os valores do Garoa. Sempre fizemos tudo de forma pública e convidativa a qualquer um que eira participar
+[2018-02-21 21:14:15] Isso é bom.
+[2018-02-21 21:16:25] isso eh hackerspace ;)
+[2018-02-21 21:17:57] Só uma correção: as reuniões do CMC são sempre na terceira terça-feira de cada mês!
+[2018-02-21 21:18:18] Quanto mais eu frequento, mais me adapto e aprendo
+[2018-02-21 21:24:23] No sábado nós também vamos fazer uma festa para comemorar o aniversário do Garoa
+[2018-02-21 21:26:27] Festcheenha é comigo mesmo, meu niver será em março se for possivel quero confraternizar um dia, vcs são brothers
+[2018-02-21 21:31:53] e pq de terca? tuesday pattern!
+https://wiki.hackerspaces.org/The_Tuesday_Pattern
+[2018-02-21 21:33:42] Pra ser padwan eu precido arrumar alguem que me "apadrinhe" e algo mais?
+[2018-02-21 21:52:20] Hahaha 😝
+[2018-02-21 23:04:45] https://hackaday.com/2018/02/21/linux-adds-ch341-gpio/
+[2018-02-21 23:09:52] Que massa!
+[2018-02-21 23:10:34] então, mas o cara escreveu o script com while, pelas minhas pesquisas o for, é mais rápido
+[2018-02-21 23:10:53] então talvez consiga melhorar a frequência de 2.2khz
+[2018-02-21 23:12:49] https://www.facebook.com/elpaisbrasil/posts/1715919728467970
+[2018-02-21 23:15:31] Ah, fato. Se vc precisa de um loop finito, for decrementando, costuma performar melhor que o while
+[2018-02-21 23:18:17] eu nunca cheguei em aplicações onde performance era importante, acho bem interessante.
+[2018-02-21 23:19:44] Na maior parte do Tempo, tbm nunca precisei me preocupar com uma Performance MUITO Otimizada, mas é bom ter um truque ou outro na manga... #VaiQue
+[2018-02-21 23:22:54] vai que né, fazer uns benchmarking
+[2018-02-21 23:28:53] Pelo que diz na página, seu "padrinho" é o primeiro passo. Mas seria legal você pensar em um projeto para melhoria do Garoa no seu processo de aprovação. (Só sugestão)
+[2018-02-21 23:30:58] https://garoa.net.br/wiki/Como_se_associar
+[2018-02-21 23:36:03] 🆘 Onde eu acho o código do sensor da porta? Que altera o logo de vermelho para verde?
+[2018-02-21 23:38:11] https://github.com/afonso/garoa_status

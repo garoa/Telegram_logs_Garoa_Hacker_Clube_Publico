@@ -1,0 +1,368 @@
+[2018-02-22 00:01:19] Tks 👍🏻
+[2018-02-22 01:04:12] Arthur S joined
+[2018-02-22 07:48:10] Eita, nem sabia
+[2018-02-22 08:46:35] Até escorreu uma lágrima aqui
+[2018-02-22 08:47:31] Hahahhaa
+[2018-02-22 08:52:11] "Beyond Java, Duimovich expressed interest in making development easier overall by making it more dev and less ops. "The notion that as a developer you'll have to learn Docker, Kubernetes, and 30 other things before you can even deploy an app is something I'd like to get rid of," he said."
+[2018-02-22 08:53:19] Quando o cara de Java da IBM diz que  a coisa tá demais, vc percebe que pegamos a rota errada...
+[2018-02-22 08:54:38] O cara de Java, manooo
+[2018-02-22 09:23:58] Hauahaua
+[2018-02-22 09:26:19] https://www.youtube.com/watch?v=aFuA50H9uek
+[2018-02-22 09:37:09] https://games.slashdot.org/story/18/02/21/2217227/game-industry-pushes-back-against-efforts-to-restore-gameplay-servers
+[2018-02-22 09:40:44] Mike Howard added Pegs
+[2018-02-22 09:43:09] Mil vezes isso, pelo amor de deus. Imagina se eu tivesse que aprender a operar todas as máquinas antes de projetar uma PCB. Da fábrica de placas à CNC da caixinha. È legal conhecer e saber projetar, mas essa ideia de que o programador precisa administrar e configurar toda a estrutura é ridícula.
+[2018-02-22 09:47:35] ta bem assim, o cara passa horas escrevendo 300 arquivos de config de como gerar ambientes e o caralho, depois o codigo em si ele nem se liga que implementou um bubble sort
+[2018-02-22 09:49:24] isso sem falar em camadas e camadas de virtualizacoes e afins
+[2018-02-22 10:07:07] Se não aguenta bebe leite
+[2018-02-22 10:07:14] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_244604348921808892.webp
+[2018-02-22 10:09:58] Tinha que ser o cara do Java pra falar uma asneira dessa..
+[2018-02-22 10:11:01] gente, da um desconto, ja eh dificil aprender java, né!
+[2018-02-22 10:11:13] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806118024_46419.jpg
+[2018-02-22 10:11:34] Se o trampo do cara for pegar um UML da vida e digitar beleza ele não precisa mas pra fazer coisas decentes tem que saber tudo do ambiente. Não é qlqr linguagem que roda numa VM própria e fodasse quem vai rodar
+[2018-02-22 10:11:37] meu processo de aprendizado se baseia em escrita, alem da leitura e demora muit estudar java
+[2018-02-22 10:16:56] acho que vcs estao confundindo saber tudo (o que provavelmente eh precisamente o meu caso kkkk) com ter que usar tudo...
+[2018-02-22 10:34:50] Vale a pena aprender java atualmente?
+[2018-02-22 10:37:00] tanto quanto valia aprender cobol ha uns 20 anos atras
+[2018-02-22 10:38:46] vai ganhar bem para cuidar de sistema legado, reclamar da molecada, dizer que aquilo tudo eh varzea e que o que liga eh se fuder em 1 milhao de picuinhas e coisas engessadas
+[2018-02-22 10:39:28] Cara. Eu odeio Java, na real. Mas foi um belo de um aprendizado pra eu melhorar como programador.
+[2018-02-22 10:39:55] Porque Java é muito engessado, ao meu ver. E é bom se acostumar daquele jeito pra evitar gambiarras em linguagens mais "abertas" a gambiarras (tô olhando pra você, PHP)
+[2018-02-22 10:39:57] o curioso eh que a geracao pos-cobol veio com uma ideia de simplificar
+[2018-02-22 10:40:10] e a geracao pos-java ta vindo com essas ideias de ser pior que java...
+[2018-02-22 10:41:53] Nos aprendizados de python eles adoram citar java e c pra comparação, daí fica quase uma mensagem subliminar pra ir atrás
+[2018-02-22 10:41:55] vale a pena aprender qualquer linguagem, mas linguagem em si é apenas a ferramenta (ao meu ver) entao acho que vale a pena aprender alguma que vc va usar
+[2018-02-22 10:42:18] a zica de java eh ser burocratica demais
+[2018-02-22 10:42:31] vc escreve 100 linhas de codigo, de util mesmo tem umas 5
+[2018-02-22 10:42:44] programador python tende muitas vezes odiar java, mas a maioria so tem um parametro de comparação, que eh a quantidade de codigo a ser escrita
+[2018-02-22 10:43:00] a critica do mano ai da IBM eh que o esquema de trabalho da molecada, a coisa ta ainda pior
+[2018-02-22 10:43:30] cara, vai desenvolver um sistema inteiro em python usando todas as frescuras atuais
+[2018-02-22 10:43:32] Python é algo que só aprendi pra desenvolver meu TCC. Preciso voltar a brincar com ele.
+[2018-02-22 10:43:34] não seria a exigencia do mercado Oda?
+[2018-02-22 10:43:53] Alias, a questão correta seria "ainda é util aprender java?" Vcs ja responderam
+[2018-02-22 10:43:53] python eh lindo, se fosse gente eu pegava
+[2018-02-22 10:44:20] vai ver que essa critica ai nao procede
+[2018-02-22 10:45:26] porque vc olha as vagas disponiver hoje, ta la, dev backend, desejavel kubernet, doker, kvm, bhyve, godmod
+[2018-02-22 10:45:28] Eu lembro que meu TOC delirava só de saber que o código *tem que ser identado*
+[2018-02-22 10:45:30] o mercado nao exige nada alem de "faz essa porra funcionar" ai contrata um mano que passou tempo demais em cursos e palestras e esse cara exige a porra toda e que no final implica na "coisa nao funcionar"
+[2018-02-22 10:46:17] codigo nao identado nem pode ser chamado de codigo
+[2018-02-22 10:46:20] aouhoaHAOUOUAhouA
+[2018-02-22 10:46:38] é so um amontoado de comandos escritos por alguem que nem deveria existir
+[2018-02-22 10:46:56] entao, a principal justificativa para identar eh a legibilidade
+[2018-02-22 10:47:18] que eh algo para equipes e etc trabalharem melhor, facilitar manutencao, etc
+[2018-02-22 10:47:22] exato
+[2018-02-22 10:47:44] que eh a mesma justificativa que leva ao java ser escrotamente burocratico
+[2018-02-22 10:47:58] Exato
+[2018-02-22 10:48:03] entao cuidado com piadinhas sobre essas merdas
+[2018-02-22 10:48:37] Falando em linguagens, alguém já mexeu com golang?
+[2018-02-22 10:50:18] eu ja sou velho, entao eu to parecendo o tiozao que fala que molecada so faz hue
+[2018-02-22 10:50:23] mas a coisa eh pior do que parece kkkk
+[2018-02-22 10:50:26] Eu já brinquei um pouco
+Mas não passei do hello world
+[2018-02-22 10:50:51] eu sou tiozao o suficiente para usar slackware por achar que ele eh realmente mais facil
+[2018-02-22 10:50:55] do fundo do coracao
+[2018-02-22 10:51:14] pq para mim qq coisa que nao seja KISS eh dificil
+[2018-02-22 10:51:20] eu uso freebsd por achar eh que mais facil :/
+[2018-02-22 10:51:29] Tô pensando em começar a aprender ela pra implantar aqui na empresa. Eu tô enraizado no idoso PHP, e a empresa também. Acho que já tá na hora de dar uma movida nas coisas aqui. Já tava vendo AngularJS pra brincar, acho que Go ia ser um belo acompanhamento.
+[2018-02-22 10:51:32] vc usa freebsd para parecer hackudo, assume logo
+[2018-02-22 10:51:39] essa bosta ai nao tem sentido
+[2018-02-22 10:52:06] nao, pior que nao kkk
+[2018-02-22 10:52:13] eh que o pkg eh lindo :3
+[2018-02-22 10:52:24] e o poudriere deixa tudo tao mais simples
+[2018-02-22 10:52:25] Ontem foi cancelado por conta de ventos fortes. Vão tentar de novo agora: 
+https://spaceflightnow.com/2018/02/16/falcon-9-paz-mission-status-center/
+[2018-02-22 10:52:30] Eu tô tentando migrar pra Linux, mas ainda tenho que usar muito client de VPN que simplesmente não roda direito (SNX, seu lindo)
+[2018-02-22 10:52:32] eu sou apenas um noobzin
+[2018-02-22 10:52:37] se vc gosta de gerenciador de pacotes, usa fedora, centos, etc
+[2018-02-22 10:53:10] uso fedora tb, no note
+[2018-02-22 10:53:28] Então
+O go é lindo no quesiro performance
+Eu, particularmente, odeio a sintaxe, e todas as pessoas que eu conheço que manjam de Go admitem que ele é verboso pra poha, que foi a mesma impressão que eu tive com meu hello world
+Então, assim
+Se vc achar necessário, e achar que o custo benefício de aprender ele e a sintaxe feia dele valem a pena, manda bala. Sapoha é rápida bagarai
+Mas dá uma olhada nisso antes
+[2018-02-22 10:53:59] rapido eh fortran
+[2018-02-22 10:54:19] É que o foda é que tô procurando coisa de performance bruta aqui. O problema não é só no backend, mas porra, 1~2secs pra renderizar um JSON de uma query que roda em 0.02sec? Tá foda...
+[2018-02-22 10:54:34] Cheguei a ver um pouco fortran, sdds. Aquilo era um canhão.
+[2018-02-22 10:54:38] Pode pá
+[2018-02-22 10:54:59] Espero não ser apedrejado, mas já tentou ver se NodeJS não te atende?
+[2018-02-22 10:55:14] Cara... Eu nunca mexi com nodeJS
+[2018-02-22 10:55:20] Preciso criar vergonha na cara huaehuaheua
+[2018-02-22 10:55:36] acho que estamos numa epoca meio zuada, o @tilt4  mesmo tava falando como ta mudando tudo, metade das pessoas que metem pau no angular hoje babavam ovo para ele ha 1 ou 2 anos atras
+[2018-02-22 10:55:57] ahusahsuahu eu amo Node
+A gente tá fazendo tudo com NodeJS e tá ficando foda
+[2018-02-22 10:56:03] e ai, se vc for fazer um sistema que vc nao queira que ninguem diga que eh uma bosta daqui ha 2 anos, vai usar ok?
+[2018-02-22 10:56:09] Esse F9 não vai pousar. Vai lançar um satélite espanhol (a carga comercial). Mas junto vai também lançar 2 satélites experiumentais da própria SpaceX, para o futuro serviço de banda-larga via satélite (a rede "StarLink" de 4 mil satélites que o Elon Musk quer botar em operação pra arrecadar grana pra ir pra Marte) Esses serão os 2 primeiros protótipos de satélites da StarLink, projetados pela própria SpaceX numa nova sede em Los Angeles que foi montada ano passado exclusivamente para a pesquisa e desenvolvimento desse produto.
+[2018-02-22 10:56:09] Acho que vão testar a comunicação por laser entre os satélites em órbita baixa. E também a comunicação dos satélites com os "modems" dos usuários aqui na Terra.
+[2018-02-22 10:56:09] Supostamente esse F9 não vai pousar por que pra levar  3 satélites não sobre combustível pra levar também pernas, ou pra fazer as queimas dos motores para um pouso.
+[2018-02-22 10:56:10] E metem o pau porque? Tô achando ele bem bacana agora, tô fazendo uma POC aqui pra pegar a manhã dele .
+[2018-02-22 10:56:25] angular?
+[2018-02-22 10:56:33] E, pra frontend, não sei se vc tá aberto a mudança e tal
+Mas VueJS é infinitamente mais simples, e funciona lindamente
+[2018-02-22 10:56:43] viu?
+[2018-02-22 10:56:44] kkkk
+[2018-02-22 10:56:50] Kkkkk
+[2018-02-22 10:56:53] amanha tem outro e vuw vai ser pesado, complicado etc
+[2018-02-22 10:56:55] modinhas
+[2018-02-22 10:56:55] Não faz sistema
+[2018-02-22 10:56:55] sim hahhahahaha
+[2018-02-22 10:56:56] aouAHOUAouUAO
+[2018-02-22 10:57:07] AIN, essa roupa nao combina
+[2018-02-22 10:57:11] mano, aprender angular agora eh coisa de bebado ou de quem foi contratado para isso
+[2018-02-22 10:57:15] Toda vez que a gente desenvolve algo tem que ter consciência que aquilo vai ser legado depois
+[2018-02-22 10:57:16] amanha, nooofffa, aquela ropa super combinava
+[2018-02-22 10:57:18] aouhoaoauOAO
+[2018-02-22 10:57:30] Eu sei lá, eu sou muito do que o Oda tinha falado antes
+[2018-02-22 10:57:33] Se funciona, tá bom
+[2018-02-22 10:57:36] E legado todo mundo odeia
+[2018-02-22 10:57:42] roz, 2 anos ano eh legado, ainda ta em dev
+[2018-02-22 10:57:45] Não tem tecnologia que dura pra sempre
+[2018-02-22 10:57:48] me fala um sistema acabado em 2 anos
+[2018-02-22 10:57:57] auhahauh
+[2018-02-22 10:57:59] Carai
+[2018-02-22 10:58:04] vc bota em prod em 4 ou 6 meses
+[2018-02-22 10:58:07] fala isso pro php
+[2018-02-22 10:58:14] ta durando mais que devia
+[2018-02-22 10:58:15] kkkk
+[2018-02-22 10:58:19] A não ser os devs PHP, o resto acha uma bosta
+[2018-02-22 10:58:21] Tipo
+[2018-02-22 10:58:30] @gouveia00 php7 com laravel tá melhor que ruby+grape/python+flask mas prefiro nodejs
+[2018-02-22 10:58:30] Não quis dizer que morre, mas se torna "bosta"
+[2018-02-22 10:58:35] a maioria que acha bosta so repete as merdas que ouve
+[2018-02-22 10:58:38] A gente tava discutindo no almoço esses dias
+[2018-02-22 10:58:39] pfSense eh php, logo preciso usar
+[2018-02-22 10:58:42] merda neh
+[2018-02-22 10:58:43] Será?
+[2018-02-22 10:58:48] eh hipe dizer que algo eh bosta, vc parece mais inteligente
+[2018-02-22 10:58:49] é fato
+[2018-02-22 10:58:52] não é será
+[2018-02-22 10:58:52] Po vcs nao me animam, um levanta uma ljnguagem e vem outro e joga uma pá de cal
+[2018-02-22 10:58:53] Porque tô fazendo o app justamente em PHP7
+[2018-02-22 10:58:54] Que a gente xinga o sistema legado que tem aqui
+E que, algum dia, vão xingar o nosso
+[2018-02-22 10:59:11] Eu sou bem acostumado com PHP em si, mas queria aprender algo novo pra abrir um pouco a cabeça também
+[2018-02-22 10:59:12] se tu programar errado pode ser a melhor linguagem do mundo e vai ficar uma merda
+[2018-02-22 10:59:17] Fato
+[2018-02-22 10:59:21] THIS. É o que falo pra todo mundo.
+[2018-02-22 10:59:34] Galera, como faço pra participar da oficina de solda do tv-b-gone que vai rolar hoje?? Tem algum cadastro ou é só chegar na hora e já era? Tinha um compromisso pra hoje a noite que foi cancelado e agora rola ir!! hahahahah
+[2018-02-22 10:59:35] PHP não é perfeito, mas nenhuma linguagem é. É você que é um programador ruim.
+[2018-02-22 10:59:45] php nao eh bosta, bosta da pra limpar
+[2018-02-22 10:59:45] Foi mal ae se já mandaram a resposta aqui antes..
+[2018-02-22 10:59:47] /me runs
+[2018-02-22 10:59:51] sobre padrao de codigo em equipe é só usar .editorconfig não precisamos mais de linguagem dizendo como tem que escrever em equipe
+[2018-02-22 11:00:00] 😅
+[2018-02-22 11:00:04] Soh colar no horario
+[2018-02-22 11:00:26] 55 golpes o kit
+[2018-02-22 11:01:05] Era a próxima pergunta! hahahahaha Valeu, vejo vcs mais tarde então
+[2018-02-22 11:01:08] eu era um deles, ate começar a trabalhar com pfSense e ter que usar php em backend
+[2018-02-22 11:01:24] pfsense eh uma bosta
+[2018-02-22 11:01:28] auehau
+[2018-02-22 11:01:29] hoje eu falo mal porque caga em toda carga de processamento das caixinhas
+[2018-02-22 11:01:44] o mano fala de freebsd, pfsense e php e ainda reclama
+[2018-02-22 11:01:46] paga meu salario, me nego a concordar
+[2018-02-22 11:01:47] auHOAOHUHAuoOUAHUO
+[2018-02-22 11:01:58] por ser uma bosta vc tem salario
+[2018-02-22 11:02:08] se fosse bom nao precisava de vcs ai ;)
+[2018-02-22 11:02:14] uahueuaeuaheuaheuahe
+[2018-02-22 11:02:17] mas eu nao falei que era bosta :(
+falei que nao gosto
+[2018-02-22 11:02:18] kkkk
+[2018-02-22 11:02:22] Enfim
+Recomendo NodeJS pq é lindo
+Recomendo o VueJS, não pq é hype, mas pq fui atrás de mexer com as alternativas e realmente acho que VueJS é um dos frameworks mais dahora que tem
+React tá meio que no mesmo nível pra mim. Eu não aprendi pq achei JSX feio e pq não ia usar no trampo
+[2018-02-22 11:02:24] deve ser bom pra alguem
+[2018-02-22 11:02:31] eu 
+disse que nao era bosta, que bosta da pra limpar
+[2018-02-22 11:02:31] kkkkkk
+[2018-02-22 11:02:48] nosa, jsx eh bizarro...
+[2018-02-22 11:02:53] ashusahusa
+[2018-02-22 11:02:54] costumava dizer que java era bosta, windows era bosta
+[2018-02-22 11:02:58] ate ver que pra alguem eh bom
+[2018-02-22 11:03:33] backend a briga ta mais de boa, agora a gente aprendeu que o lance eh rest e foda-se toda a discussao
+[2018-02-22 11:03:41] esse comentario fez eu achar que sou bom em algo, brigado <3
+[2018-02-22 11:03:42] kkkkkkk
+[2018-02-22 11:03:50] agora front eh que ta mais foda
+[2018-02-22 11:03:54] muda a cada 6 meses
+[2018-02-22 11:04:07] o anterior eh considerado uma porcaria inaceitavel
+[2018-02-22 11:04:31] e a valuation do negocio cai com isso
+[2018-02-22 11:04:42] pq sempre tem um retardado que acha que isso conta alguma coisa
+[2018-02-22 11:04:54] eu queria aprender mais front, mas cada vez que vejo uma sopa de letrinhas seguidas de js me da calafrios
+[2018-02-22 11:05:14] angular, node, naoseiquelajs
+[2018-02-22 11:05:28] entao, ha pouco tempo todo mundo metia o pau em JS, viu?
+[2018-02-22 11:05:40] eh
+[2018-02-22 11:05:56] eh engracado ver o mesmo cara hoje falando bem de ***.js
+[2018-02-22 11:06:27] Se funciona, considero bom
+[2018-02-22 11:06:33] Tem muito programador orientado a modinha por aí
+[2018-02-22 11:06:46] eh tipo usuario de freebsd, mete o pau no mac, dai a empresa da um mac pra ele trabalhar
+NOOOFFFFAAAAAA mac eh lindo
+[2018-02-22 11:07:05] na real, esse papo de gosto disso ou daquilo eh puta papo de otario
+[2018-02-22 11:07:37] gosto de hacking, o resto eh detalhe
+[2018-02-22 11:10:38] vira e mexe aparece o papo de identacao... o que eu gostava mesmo era as coisas do  Obfuscated C Code Contest
+[2018-02-22 11:12:19] esse aqui eh uma lenda:
+[2018-02-22 11:12:24] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_805513743_99190.jpg
+[2018-02-22 11:12:26] 98
+[2018-02-22 11:12:36] ele compila e vira um simuladorzinho de voo
+[2018-02-22 11:13:19] ué, ta identado
+[2018-02-22 11:13:20] aOUHAOUHuaoUOAUOA
+[2018-02-22 11:18:16] http://blog.aerojockey.com/post/iocccsim
+[2018-02-22 11:24:05] [Elon on Instagram] “Going to try to catch the giant fairing (nosecone) of Falcon 9 as it falls back from space at about eight times the speed of sound.”
+http://ift.tt/2HCVjHF
+
+Submitted February 22, 2018 at 03:10PM by zucarritas
+via reddit http://ift.tt/2GDh4ps
+[2018-02-22 11:52:51] na verdade javascript ainda é uma bosta, o que deixa ele ser bom e ter perfomace melhor que maioria das linguagens é a versao ES6 e o Nodejs
+[2018-02-22 12:14:39] callback hell is a hell anyway
+[2018-02-22 12:15:03] e promise ta longe de ser algo bonito
+[2018-02-22 12:15:36] pessoal, mudando de assunto, to com um arquivo com alguma zica de charset que nao consegui resolver
+[2018-02-22 12:16:08] Ã vira ├   
+É vira ╔  
+Ê vira ╩
+[2018-02-22 12:16:09] etc
+[2018-02-22 12:16:29] alguma dica de como recuperar o treco?
+[2018-02-22 12:28:39] Elon Musk on Twitter: Missed by a few hundred meters, but fairing landed intact in water. Should be able to catch it with slightly bigger chutes to slow down descent.
+https://twitter.com/elonmusk/status/966692641533390848
+
+Submitted February 22, 2018 at 04:16PM by Zucal
+via reddit http://ift.tt/2EYIc4I
+[2018-02-22 12:48:56] Chegando Tarde na discussão
+[2018-02-22 12:50:41] Se for pra Mobile, não. Vai de Kotlin.
+Se for pra Desktop, não. Vai de Go, Rust, C até Python/Ruby, se Performance e o fato de ser Script não for problema.
+Ou seja, esquece Java!
+[2018-02-22 12:52:43] Esquece Angular e vai de Vue. Mais simples e Performatico
+[2018-02-22 12:55:08] Vou testar também
+[2018-02-22 12:55:42] Me enquadro mais ou menos aí...
+Trabalhei com Angular em 2015/2016. 
+Não meto o pau hj, apenas reconheço que existem opções melhores.
+[2018-02-22 12:56:22] Mas que fique registrado: odeio Typescript
+[2018-02-22 13:16:51] hauhauahu
+[2018-02-22 13:17:21] falam mal de javascript, mas quando os caras tentam dar um tapa no visu, ninguem gosta tb
+[2018-02-22 13:17:53] btw, tb prefico ficar no js
+[2018-02-22 13:26:50] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_805513507_98194.jpg
+[2018-02-22 13:31:12] Hoje no garoa temos a oficina de solda montando um TV b gone https://garoa.net.br/wiki/Oficina_de_solda_montando_TV-B-Gone
+[2018-02-22 13:36:53] Eu nem havia ouvido falar de cotlin
+[2018-02-22 13:38:41] http://static.wixstatic.com/media/a38fe2_978e5739dcf84ff764e90fa392093445.jpg_1024
+[2018-02-22 13:39:52] python2?
+[2018-02-22 13:40:19] bash?
+[2018-02-22 13:44:10] python3 nao sofre com isso mais
+[2018-02-22 13:44:25] Elon Musk on Instagram: “Falcon fairing half as seen from our catcher’s mitt in boat form, Mr. Steven. No apparent damage from reentry and splashdown.”
+http://ift.tt/2sPqADw
+
+Submitted February 22, 2018 at 04:59PM by TheVehicleDestroyer
+via reddit http://ift.tt/2CcZxWK
+[2018-02-22 13:46:35] faz o teste
+# -*- coding: utf-8 -*-
+print "Acentos: áéíóúãõç"
+print u"Acentos2: áéíóúãõç"
+[2018-02-22 14:11:47] aff os slides da atividade de amanhã tao bem top
+[2018-02-22 14:11:58] porém hj não vou conseguir ir pois estou morrend
+[2018-02-22 14:16:36] Manda algum teaser de amanhã :)
+[2018-02-22 14:29:46] É a linguagem que o Google está adotando nas versões mais novas do Android
+[2018-02-22 14:30:02] Assim como a Apple adotou o Swift sobre o Obj-C
+[2018-02-22 14:30:18] @all Entre Java, Python e C++, qual vocês consideram a melhor?
+[2018-02-22 14:30:42] A que fizer o serviço especificado
+[2018-02-22 14:31:04] Hum..não tem rolado um papo que o google vai/está fazendo um os do zero?
+[2018-02-22 14:31:08] Python e C++ :-D
+[2018-02-22 14:48:52] Explicação de XSS em cima de exemplos reais, wall of sheep de sites gov/universidades que ainda não deram bola para a vulnerabilidade, histórias que vivenciei sobre aplicações de xss reais e uma foto super sexy do Samy Kamkar
+[2018-02-22 14:50:09] e a minha voz de gripado
+[2018-02-22 14:50:14] arrasando corações
+[2018-02-22 14:51:52] Samy Kamkar
+[2018-02-22 14:52:30] desculpa
+[2018-02-22 14:52:36] tava lendo game of thrones
+[2018-02-22 14:52:47] hahahahaha
+[2018-02-22 14:54:56] A ruiva com cara de sonsa
+[2018-02-22 14:57:38] kk
+[2018-02-22 16:25:06] Café Reparo em OZ - Sesc Osasco
+O projeto Café Reparo reunirá sapateiros, marceneiros, eletricistas, entre outros profissionais de Osasco, para compartilharem seus saberes com o público. Em uma grande tenda, eles auxiliarão as pessoas a consertarem seus objetos, estimulando-as a fazerem seus próprios reparos e romperem com o ciclo de descarte.Com o Café Reparo, projeto de difusão da cultura hacker.
+3 e 4/3, Sábado e domingo, das 11h às 18h
+Livre. Acesso livre
+[2018-02-22 16:25:37] Esses e outros cursos legais, em:
+https://www.sescsp.org.br/online/artigo/11767_19+APRENDIZADOS+INUSITADOS+PARA+EXPLORAR+NO+FESTA+2018
+[2018-02-22 16:33:10] Tem até gravação de vinil lo-fi pra quem tem as tardes de sexta livre
+[2018-02-22 16:45:13] Maquina de dubplate, é uma arte isso daí
+[2018-02-22 16:51:18] Lathe Trolls #FTW
+[2018-02-22 16:51:41] Um dia, com muita calma, monto a minha
+[2018-02-22 16:52:39] Btw:
+[2018-02-22 16:52:47] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804723065_142010.jpg
+[2018-02-22 16:52:51] tava rolando agora
+[2018-02-22 17:00:55] Me amarro nessa cultura
+[2018-02-22 17:04:49] E comprei uma Spinbox, um toca disco DIY
+[2018-02-22 17:05:27] E esse disco em especial é bom demais
+[2018-02-22 17:11:57] Eles vão usar uma Neumann AM32B
+[2018-02-22 17:12:09] Está chovendo na região do garoa ? (ja conheço o trocadalho)
+[2018-02-22 17:13:10] "forecast são paulo pinheiros" no google diz que sim
+[2018-02-22 17:17:59] Trabalho aqui perto (estação Faria Lima) e não está chovendo
+[2018-02-22 17:18:06] Mas tá um clima bem feio
+[2018-02-22 17:18:32] aff espero que nao esteja chovendo, plot twist acho que vou
+[2018-02-22 17:19:07] Aqui na cantareira tá feião tbm
+[2018-02-22 17:22:41] Tem que segurar a chuva até a hora de eu ir pra facul pelo menos... hehe
+[2018-02-22 17:22:50] kkk
+[2018-02-22 18:00:35] Começando a chover, e forte, na zl
+[2018-02-22 18:00:52] Aqui tá começando a garoar agora
+[2018-02-22 18:03:42] aqui no garoa está caindo uma garoa
+[2018-02-22 18:04:19] vocês são hilários, sabia?
+[2018-02-22 18:05:05] CARALHO GRAMATIK?
+[2018-02-22 18:07:36] ;)
+[2018-02-22 18:07:39] álbum duplo
+[2018-02-22 18:18:02] A chuva chegou aqui mas de boa por enqto
+[2018-02-22 18:18:51] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804729821_115692.jpg
+[2018-02-22 18:19:21] Aqui tá chovendo bastante, acho que vou mais cedo pra chegar a tempo de ir na oficina de TV B gone
+[2018-02-22 18:19:33] vai rolar o evento ainda? ta moh temporal aqui
+[2018-02-22 18:21:04] vai
+[2018-02-22 18:21:05] O Garoa está aberto, temos ferros de solda, já podemos ensinar a soldar.  Os kits vão chegar com o Rafael.
+[2018-02-22 18:21:45] Previsto pra chuva parar umas 19:40
+[2018-02-22 18:21:54] Tá chovendo muito na Vila Madalena
+[2018-02-22 18:22:48] O guarda-chuva tá fechado e vermelho
+[2018-02-22 18:23:18] Pessoal, to atrasado, tentando chegar no Garoa
+[2018-02-22 18:23:31] Mas pelo visto vou chegar só umas 19h15
+[2018-02-22 18:23:43] Eu não vou conseguir chegar
+[2018-02-22 18:23:51] até que horas vai
+[2018-02-22 18:23:54] ?
+[2018-02-22 18:24:01] Eita, já vou indo então
+[2018-02-22 18:24:09] Planejo ficar até as 23
+[2018-02-22 18:24:20] Tem lugar pra estacionar na rua?
+[2018-02-22 18:24:22] Tenho uns 40 kits
+[2018-02-22 18:24:44] E to levando ferros
+[2018-02-22 18:24:48] E solda
+[2018-02-22 18:26:17] Mandamos um sms para Tupã e ele disse que precisa chover um pouco hoje, mas não muito
+[2018-02-22 18:26:34] Se alguém for de Oz e precisar de carona, me chama, umas 18:40 eu vou sair
+[2018-02-22 18:28:07] normalmente tem lugar na rua
+[2018-02-22 18:28:09] Agora o bicho pegou, garoa virou chuva
+[2018-02-22 18:32:07] perde muita coisa se atrasar hj?
+[2018-02-22 18:35:15] Parece que é soh uma pancada, daqui a pouco pára
+[2018-02-22 18:36:03] Aqui do lado do Garoa já parou
+[2018-02-22 18:36:14] Ta até com Arco-Iris
+[2018-02-22 18:37:02] Saindo para GHC
+[2018-02-22 18:38:50] A chuva que tava la, está aqui na região norte, daqui a pouco vai pra serra, o app foi apurado até
+[2018-02-22 18:45:21] Eu chego as 19h22, piorou um pouco meu trajeto mas passei pela pior parte
+[2018-02-22 18:46:17] Preciso dai de 10 pra arrumar os ferros, então quem chegar até umas 19h45 não vai perder nada
+[2018-02-22 18:47:07] Me desculpe, aqueles que chegaram antes, eu achei que ia terminar minha mudança ainda de manhã, mas atrasou td :(
+[2018-02-22 18:55:55] diminui a chuva
+[2018-02-22 18:55:59] estarei colante nesse role
+[2018-02-22 18:58:46] Queria colar
+[2018-02-22 18:58:52] Mas tenho aula de calculo :(
+[2018-02-22 18:58:56] Sábado tô por ai
+[2018-02-22 19:01:34] Devo chegar ao entorno das 19:45
+[2018-02-22 19:18:19] so do i
+[2018-02-22 19:38:22] Vou sair agora de casa vamos ver
+[2018-02-22 19:43:26] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_532531981418758378.webp
+[2018-02-22 19:46:40] Ainda estou no trabalho, tentarei ir!
+[2018-02-22 19:51:50] /
+[2018-02-22 20:01:33] https://signal.org/blog/signal-foundation/
+[2018-02-22 20:01:53] Signal ganhando 50M do mano do WhatsApp
+[2018-02-22 21:12:01] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804723182_141026.jpg
+[2018-02-22 21:12:06] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806119376_46933.jpg
+[2018-02-22 21:43:03] Oficina lotada 😁
+[2018-02-22 21:49:19] Cheia mesmo up up
+[2018-02-22 22:25:33] @paul1st4rd0x ae
+[2018-02-22 22:25:48] era um desse que vc tava brincando na campus?
+[2018-02-22 22:26:04] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806119564_47456.jpg
+[2018-02-22 23:11:43] E ai @vrechson esse mesmo meu brother
+[2018-02-22 23:11:57] Pegou um ? Projetos?
+[2018-02-22 23:40:06] O @vrechson com RFID?
+Prevejo maldades... 😂😂😂
+[2018-02-22 23:40:56] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_804729418_113576.jpg
+[2018-02-22 23:45:13] nunca kkkkk
+[2018-02-22 23:45:30] deu pra fazer o q de bom?
+[2018-02-22 23:49:12] Com Matheus!! Que nada!! 🧐
+[2018-02-22 23:49:21] 👀
+[2018-02-22 23:49:48] Usando no chip por enquanto.
+Tenho mais em mente mas ultimamente não anda rolando tempo.
