@@ -1,6 +1,6 @@
 {
   "dumper": "json",
-  "last_modified": "2018-04-06T22:42:05+00:00",
+  "last_modified": "2018-05-06T05:56:49+00:00",
   "dialogs": {
     "167796546": {
       "newest_id": "02000000425f000a53eb0400000000000000000000000000",
@@ -17,15 +17,15 @@
       }
     },
     "103600951": {
-      "newest_id": "0200000037d32c06e6ac0500000000000000000000000000",
-      "newest_date": 1522034259,
+      "newest_id": "0200000037d32c0638d00500000000000000000000000000",
+      "newest_date": 1523497952,
       "dumper_state": {
         "outfile": "json/Garoa_Hacker_Camp_2.0.jsonl"
       }
     },
     "237635176": {
-      "newest_id": "0200000068062a0e700c0500000000000000000000000000",
-      "newest_date": 1514512990,
+      "newest_id": "0200000068062a0eb5db0500000000000000000000000000",
+      "newest_date": 1524083337,
       "dumper_state": {
         "outfile": "json/FontBakery.jsonl"
       }
@@ -38,8 +38,8 @@
       }
     },
     "1050919227": {
-      "newest_id": "050000003bc1a33ea5050100000000006e6ae5ba90ca32fa",
-      "newest_date": 1523051992,
+      "newest_id": "050000003bc1a33e310d0100000000006e6ae5ba90ca32fa",
+      "newest_date": 1525582142,
       "dumper_state": {
         "outfile": "json/Garoa_Hacker_Clube_(Público).jsonl"
       }

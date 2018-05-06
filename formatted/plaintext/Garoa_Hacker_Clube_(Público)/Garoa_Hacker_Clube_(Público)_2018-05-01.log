@@ -1,0 +1,83 @@
+[2018-05-01 11:23:36] Rafael, o Wikilab também está aceitando doações...
+[2018-05-01 11:24:09] Parece ok. Temos um parecido desse no garoa que precisa de fonte. Acho que juntando os dois dá pra montar um legal. Ele tem fonte?
+[2018-05-01 11:24:57] Talvez valha a pena ver se o wikilab nao que pegar alguma máquina no garoa, temos algumas paradas, mas algumas faltam peças .
+[2018-05-01 11:26:22] Sim, vou falar com eles...
+[2018-05-01 12:11:03] Pessoal comentem esta materia
+[2018-05-01 12:11:07] http://www.bbc.com/portuguese/geral-41250020
+[2018-05-01 12:15:25] Outro dia estava debatendo com pessoal de um grupo de machine learning sobre uma materia do uol sobre algoritmos preconceituosos e foi levantada a questao da reprodução de dados e quantificação sem qualificacao e variaveis de controle. Por ex um negro pobre e um branco rico sem variaveis de controle e peso na classificacao de probabilidade de crimes acabar por reproduzir preconceitos sociais como por exemplo atividade profissional sim ou nao reu primario sim ou nao etc
+[2018-05-01 12:17:56] Acho isso meio BS, o termo “ciência lixo” resumiu bem:
+[2018-05-01 12:19:40] O algoritmo do uber induz os motoristas a evitarem as “quebradas” e ninguem fala sobre isso...
+[2018-05-01 12:21:59] Agora me deparo com esta materia e gostaria de refletir sobre a qualidade e o porque do que estamos construindo. Estamos escrevendo algoritmos mas sera q nos temos dimensão da aplicabilidade do que produzimos? Seria nossa responsabilidade? Um programador que pensa em acumular dados e escreve um programa de probabilidade sem pensar o contexto social de um dererminado local e pensar em vez de escrever um algoritmo "excel " escrever u. Algoritmo de inteligencia que preveja incluir variaveis como a probabilidade de um negro morador de favela cair na cadeia eh alta visto que a maioria eh em quantidade de dados frente a um branco classe media porem quando inseridas variaveis de controle e peso como o negro trabalha e o branco nao eh mais reu primario esta probabilidade seria mais inteligentemente calculada? Oq vcs acham? Eh nossa funçao pensar sobre isso ao escrever nossos programas?
+[2018-05-01 12:24:07] Mas nesse caso nao seria uma questao de rota? ruas fechadas e nao somente perigo? Pq eu entendo q nao eh q td mundo ali eh bandido nao esta sendo dito isso pelo algoritmo mas ali de fato eh mais inseguro?
+[2018-05-01 12:24:13] Mas isso é por duas questões: menor concentração de usuários de uber nas quebradas e maior número de violência.
+[2018-05-01 12:24:59] Criaram um serviço chamado Ubra aqui na Brasilandia, um Uber de quebrada
+[2018-05-01 12:26:13] Como vc deve ter lido na matéria: os dados deles estão bem enviesados a americanos brancos e perfis de sites de relacionamento, "que podem ser reveladores da orientação sexual"  segundo o texto
+[2018-05-01 12:26:35] Além do mais que os dados podem estar enviesados na análise, usando os mesmos dados de treino para teste
+[2018-05-01 12:26:37] Eu acho que a maior preocupação social da maioria dos programadores é com o próprio bolso ou inventar algo pra deixar um “legado”
+[2018-05-01 12:26:47] De onde você tirou que em quebrada tem menos usuário de Uber?
+[2018-05-01 12:26:50] Mila essa é uma questão altamente relevante que aborda, esses dias o podcast pizza de dados tocou nesse tema em meio ao assunto sobre "Ética, leis e segurança de dados". Acho que vale ouvir e ter uma ótica de uma advogada sobre o assunto, eu recomendo http://pizzadedados.com/episodio-007/
+[2018-05-01 12:27:18] Sim estatisticamente (e por isso eu falo de algoritmos excel) a violencia ocorre mais nestes locais porem sefosse pra usar estes mesmos dados pra um programa apontar perigo nao srria inteligente do programador pensar em escrever variaveis de xontrole como por exemplo rotascomuns do usuario, ultimas ocorrencias no local se houveram ou nao se outros locais houveram mais e criar uma taxa de porcenyagem q pudesse nao apenas acumular mas se auto alimentar no tempo?
+[2018-05-01 12:28:11] Como você sabe que não é assim hoje em dia?
+[2018-05-01 12:28:34] Eu peguei um uber no garoa para voltar para a ZN e o motorista era um 171.
+[2018-05-01 12:28:41] Não era o mesmo cara da foto
+[2018-05-01 12:28:53] Só tinha criado perfil novo pra ganhar bônus
+[2018-05-01 12:29:07] Nossa q otima dixamto obrigada. Eu realmente queria saber o vcs pensam. Pq se nos qescrevemos os programas nao pensarmos nisso quem ira? Provavelmentequem nos contrsta nao ira. E um mundo cada vez mais dependente da tecnologia vejo q temos um grande fator de poder pra causar transformações e ao mesmo tempo mta responsa ilidade
+[2018-05-01 12:31:16] Exato nao sabemos. Por isso penso em variaveis de controle por ex um perfil novo ja tem defato uma pontuaçao menor em termos de segurança q ouyros embora mtos nao olhem isso na horade usar a coisa
+[2018-05-01 12:31:46] Perdi o interesse na formação acadêmica em tecnologia pela ausência de interesse das instituições em aproximarem tecnologia à consciência social, acabei indo pra humanas
+[2018-05-01 12:32:38] Ai q triste. Eu sou formada em historia e mto depois q fui trabalhar com tecnologia. Me interesso por isso pq minha motivacao nao eh criar uma startup de sucesso por ex
+[2018-05-01 12:32:45] O mec acabou inserido aulas de ética no curriculo, mesmo assim ainda está lá longe do ideal
+[2018-05-01 12:33:23] Mas eu entendo que a gte nao pode obrigar ngm a querer nem pensar nada. Mas como disse o itamar, nao teriamos regras eticas no nosso trabalho como os medicos por ex
+[2018-05-01 12:33:47] Eu fiz o caminho contrario kkk
+[2018-05-01 12:34:05] É que na verdade, se tu for um perfil novo e com nota baixa voce vai pegar um motorista muito ruim (abaixo de 4.5), o que faz tu parar de usar o aplicativo por acreditar que a qualidade é ruim.
+[2018-05-01 12:34:17] Eh akela materia q td mundo mata aula. Mas qnts pessoas nao trabalham na area sem formaçao?
+[2018-05-01 12:34:49] Hj em dia deve ser em torno de 60% ou mais
+[2018-05-01 12:35:18] Minha faculdade não tem essa matéria
+[2018-05-01 12:35:27] Eu trabalhei 15 anos sem formação
+[2018-05-01 12:35:51] Outro dia peguei um motorista q disse qtem um app q so roda nos jardins e regioes centrais de sp. Agora nao lembro o nome mas nao eh easy nem 99 eh um novo starup desses
+[2018-05-01 12:36:05] Quando comecei sistemas de informação, tinha uma disciplina chamada etica e cidadania acho
+[2018-05-01 12:36:39] Isso eh debatido no ambiente universitario gente?
+[2018-05-01 12:36:54] virou moda o motorista do uber perguntar antes o destino para vê se vale a pena fazer a corrida ou não.. igual taxista
+[2018-05-01 12:37:06] a tecnologia sozinha não resolve nada
+[2018-05-01 12:37:32] O uber não vai nos extremos de sp por exemplo
+[2018-05-01 12:38:16] Se abrir o aplicativo num lugar MEIO quebrada, pode ficar procurando motorista 30 hora e não aparece.
+[2018-05-01 12:38:31] O app “finge” estar procurando
+[2018-05-01 12:39:16] A não ser que o motorista estiver trazendo alguem e aproveita a volta
+[2018-05-01 12:42:33] Mas gte por ex no nosso dia a dia isso ta presente eu acho. C trabalha numa empresa de cpncessao de credito, uma fintech, vc trabalha criando um bot que vai atender pessoas em situaçao de risco, vc cria um ssitema de distribuição de remédios por ocorrencias de hospitais pro governo. As vezes o administrador diz que quer um programa pra automatizar tal coisa e qnd vc ve o seu programa esta comprando mais remedios pra gripe q tem custo menor pq tem mais ocorrencias ja q eh periodico viral do q comprando remedios pro cancer ou outras doenças que de fato as pessoas precisam ter maos acesso e sao mais caros. So um exemplo
+[2018-05-01 12:43:34] Ate onde esta o limite da nossa interferencia ?
+[2018-05-01 12:46:11] Isso ja aconteceu comigo
+[2018-05-01 12:46:14] Um bot soh faz o que lhe é programado ué
+[2018-05-01 12:47:07] A linha de credito de uma pessoa é designada pelo bot do serasa por exemplo
+[2018-05-01 12:51:14] Eh mta gente né
+[2018-05-01 12:53:14] Vamos fazendo
+[2018-05-01 12:53:21] Quando der merda para
+[2018-05-01 12:53:26] Padrão ser humano
+[2018-05-01 12:53:49] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_244604348921808892.webp
+[2018-05-01 12:59:47] Formação academica em TI serve mais pra segmentar salario do que pra qualquer outra coisa...quantos aqui devem ter chefe cheio de canudo e zero de experiencia pratica
+[2018-05-01 13:02:55] isso serve pra qualquer formaçao academica, entao
+[2018-05-01 13:03:43] Hahahahahahah
+[2018-05-01 13:04:04] no caso do uber, nao é o algoritmo que faz as pessoas esperarem 30 min. são os motoristas
+[2018-05-01 13:04:08] Sim
+[2018-05-01 13:04:32] concordo que eles só querem dinheiro, mas nao pode julgar assim de graça
+[2018-05-01 13:06:47] Nao podemos ate pq eu tenho clientes q nao tem experiencia e justamente me contratam por isso. Sao pequenos empreendedores que tbm querem usar os recursos da tecnologia pra crescerem. Ai entramos naquela questao de temos de pensar sobre isso? Podemos interferir e criar algo que reavalie isso e ate onde podemos ir ja que em mtos casos ngm vai ler nosso codigo e nosso algoritmo nem saber oq ele esta fazendo a nao ser nos mesmos e nossos colegas de trabalho
+[2018-05-01 13:14:30] Ultimamente quando leio “empreendedor” ou “coach” arrepio igual gato
+[2018-05-01 13:15:32] Kkk
+[2018-05-01 13:16:16] mas calma, vocês acham ruim o Uber tentar garantir a segurança dos motoristas?
+[2018-05-01 13:17:46] A premissa de automaticamente aliar o termo quebrada/periferia à violência... já induz a uma resposta
+[2018-05-01 13:18:26] O algoritmo dele simplesmente reproduz isso.
+[2018-05-01 13:19:42] existem áreas de risco, tiago, e a maioria dos serviços tem restrições nelas, inclusive Correios
+[2018-05-01 13:21:15] Não tiro e nem dou razão, o processo de gentrificação da cidade vai ampliando cada dia mais o mapa de “regiões insólitas”
+[2018-05-01 13:22:29] no caso do Uber especificamente, a motivação mercadológica provavelmente é que, se o app mandasse os motoristas para áreas de risco, a maioria deles não iria se dispor a trabalhar com a empresa, ficariam por conta própria mesmo ou iriam pra algum concorrente
+[2018-05-01 13:23:05] Mas ainda dentro da area de tecnologia, através de configurações simples, um candidato pode ser automaticamente eliminado de uma vaga de emprego por residir em periferia por exemplo
+[2018-05-01 14:13:12] No final do ano passado passei uma semana inteira saindo do centro de SP pros extremos de SP (Brasilândia, Vila Nova Cachoeirinha, Capão, Jd São Luís) e não tive problemas nem pra ir nem pra voltar de Uber...
+[2018-05-01 14:22:29] Hum... qual sua nota no Uber?
+[2018-05-01 14:24:27] Quando a nota é alta, em geral não se geram problemas. E, se você sai do Centro, também não.
+[2018-05-01 14:24:35] O foda é o contrário.
+[2018-05-01 14:25:21] Já fiquei um bom tempo na Cachoeirinha esperando Uber. Só consegui quando troquei o login do meu amigo (que tinha feito só duas corridas) pelo meu, que uso há quase um ano e tenho uma nota boa.
+[2018-05-01 14:25:32] Entendo a questão da segurança, mas...
+[2018-05-01 14:56:37] Aí que tá: ela vai te restringir, esse é o critério para manter a normalidade
+[2018-05-01 16:53:09] Pelo jeito vc  nunca foi no garoa e, muito menos, nunca foi nas nossas reuniões do conselho. Quando puder, apareça
+[2018-05-01 16:59:22] moro no rio, mas quando eu tiver a oportunidade de ir em sp, pode deixar :)
+[2018-05-01 17:32:54] https://hackaday.com/2018/04/30/tiny-arduino-fpga-sno/
+[2018-05-01 17:37:22] owooo
+[2018-05-01 17:40:44] você por aqui? ^_^
+[2018-05-01 18:24:48] https://tecnoblog.net/241495/ira-bloqueia-telegram-40-milhoes-usuarios/

@@ -1,0 +1,48 @@
+[2018-04-11 00:20:30] https://twitter.com/davidoreilly/status/983782270241771521
+[2018-04-11 00:33:49] Boa noite pessoal
+[2018-04-11 00:34:48] Estou precisando de ajuda alguem que entenda de impressora 3D com Ramps e arduino estou com problema no nivelamento automatico que estou implementando.
+[2018-04-11 00:37:39] Estou usando o firmware marlin
+[2018-04-11 00:38:31] o problema é que quando ele vai nivelar ela nivela em 3 pontos até ai tudo bem mas dai quando eu mando ela descer para começar imprimir fica um vão de 25mm aproximadamente entre ela e a mesa de impressão tentei configurar o offset só que não parece adiantar
+[2018-04-11 11:11:40] Rtfm
+[2018-04-11 11:12:13] Tá usando ubl?
+[2018-04-11 11:13:08] Vc tem que configurar o offset
+[2018-04-11 11:13:17] Da um m503 e vê la
+[2018-04-11 11:13:22] Acho que eh m512
+[2018-04-11 11:15:27] Não, eh m206
+[2018-04-11 11:15:52] http://marlinfw.org/docs/gcode/M206.html
+[2018-04-11 11:17:31] Depois não esquece do m500
+[2018-04-11 11:17:40] Para salvar na eeprom
+[2018-04-11 12:25:34] Alguém já mexou com Groovy?
+[2018-04-11 13:23:22] Sim. Um pouco
+[2018-04-11 14:16:04] Então, tem alguma dica? Eu tenho uma plataforma de trade, que usa groovy nos scripts. Estou tentanto fazer alguma coisa
+[2018-04-11 14:16:23] Tryd5 no caso
+[2018-04-11 14:23:06] Opa pessoal configurei o offset no script esse é o link. Da configuracao https://pastebin.com/nEs0UKs2
+[2018-04-11 14:23:32] Mas mesmo assim ela não vai estou usando o nivelamento de 3 pontos
+[2018-04-11 14:23:57] Só que minha mesa é só 180cm por 180 por causa do
+[2018-04-11 14:24:25] *180mm por causa do motor da extrusora
+[2018-04-11 14:36:48] Tenho uma dica: Troca a linguagem... rs
+[2018-04-11 14:37:10] heheheheheheh... gostaria muito
+[2018-04-11 14:52:25] https://flisol.info/FLISOL2018/Brasil/SantoAndre
+[2018-04-11 15:16:14] FLISOL - Festival Latino-Americano de Instalação de Software Livre
+
+Vem aí o Festival Latino Americano de Instalação de Software Livre em Santo André. O FLISol é um evento internacional realizado simultaneamente em diversas cidades da América Latina para promover o uso de software livre e gratuito nos computadores, mostrando seu alcance, avanços e desenvolvimento. O evento é gratuito e teremos diversas palestras e workshops.
+O Festival é dia 28/4, das 9h às 17h30, no Campus Santo André da Universidade Federal do ABC. O endereço é Avenida dos Estados, 5001. Participe!
+
+Inscreva-se:
+https://goo.gl/p4HvZ5
+
+Mais informações:
+https://flisol.info/FLISOL2018/Brasil/SantoAndre
+
+Evento no Facebook:
+https://www.facebook.com/events/202172080374260/
+[2018-04-11 17:35:59] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806118356_76891.jpg
+[2018-04-11 17:50:27] Alguém vai ao garoa hoje?
+[2018-04-11 18:47:20] Onde é essa foto?
+[2018-04-11 18:59:46] Campus Party Natal :)
+[2018-04-11 19:31:09] \o/
+[2018-04-11 19:33:02] Puxa, quartas costumava ter o pessoal de data-science mas o sensor tá indicando fechado :(
+[2018-04-11 21:42:42] 😢
+[2018-04-11 22:36:32] Rodrigo Rubira Branco (BSDaemon):
+https://t.me/joinchat/Bl88Lg5OV4_87kHdu06RCQ Grupo Oficial da H2HC (vamos ver se vale a pena). Nao eh pra competir com outros nem nda, manteremos se a comunidade ver valor.
+[2018-04-11 22:49:30] http://flashparty.dx.am/index.php?lang=en

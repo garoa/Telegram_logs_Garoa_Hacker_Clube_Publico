@@ -1,0 +1,257 @@
+[2018-04-19 09:04:10] Galera , postei agora no Medium meu 2º artigo! 
+Compartilho conhecimentos sobre os 'Tipos de Arduino'.
+Se puderem lerem e darem  seu feedback eu agradeço muito
+https://medium.com/@triate/tipos-de-arduino-3c3206c46bc
+[2018-04-19 10:45:31] Para quem usa o Insomnia (em vez do Postman), já estão disponíveis os repositórios oficiais para Debian/Ubuntu.
+
+Para instalar:
+echo "deb https://dl.bintray.com/getinsomnia/Insomnia /" | sudo tee -a /etc/apt/sources.list.d/insomnia.list
+
+wget --quiet -O - https://insomnia.rest/keys/debian-public.key.asc | sudo apt-key add -
+
+sudo apt-get update
+
+sudo apt-get install insomnia
+[2018-04-19 11:24:58] Bom dia, eu me interesso, mas essa sexta não poderei ir, nas próximas estarei lá.
+[2018-04-19 11:40:14] Ana de Paula joined
+[2018-04-19 11:50:20] Mila joined
+[2018-04-19 11:56:37] Estarei lá !
+[2018-04-19 11:57:08] Sandra Rocha joined
+[2018-04-19 12:04:06] Combina com o Marcelo Campos que topou abril na lista. Vou te passar o contato dele.
+[2018-04-19 12:04:24] Melhor ainda!
+[2018-04-19 12:32:07] Vô abri uma consultoria e na home do site vai ser esse meme
+[2018-04-19 12:32:19] Hahahaha
+[2018-04-19 12:55:20] Tem que ver se é Copyleft
+[2018-04-19 13:01:47] 😍😍
+[2018-04-19 13:02:45] Manda sim! O Guisso falou que ia abrir tbm
+[2018-04-19 13:03:16] 👍
+[2018-04-19 13:12:11] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806120184_80891.jpg
+[2018-04-19 13:22:35] pathilink joined
+[2018-04-19 13:31:10] Tá na internet se não é. Vira
+[2018-04-19 13:31:33] Se der BO usamos a justiça rápida brasileira
+[2018-04-19 13:31:56] 😂
+[2018-04-19 13:55:43] Aí o cara vai e hospeda o site em um País sem Acordo de Cooperação com o Brasil... #EpicWin
+[2018-04-19 13:59:51] auheauhea
+[2018-04-19 13:59:54] ai vai pro limbo
+[2018-04-19 14:00:01] melhor pais pra morar
+[2018-04-19 14:02:20] Só uma observação: o garoa é muito bem avaliado em vário lugares . Nos lugares que vou, que o pessoal sabe de alguma forma que eu conheço/frequento o garoa, sempre é um excelente 'cartão de visitas'
+[2018-04-19 14:02:47] Ops, não era pra ser uma resposta a alguma coisa dita aqui, foi sem querer :p
+[2018-04-19 14:06:26] ;)
+[2018-04-19 14:06:44] @fernandoGuisso 
+https://www.cbsi.net.br/2018/04/youtuber-de-criptomoedas-e-hackeado-e.html
+[2018-04-19 14:07:18] nunca nem vi esse cara ai
+[2018-04-19 14:11:48] A pesquisadora Bia Martins concluiu, semana passada, uma pesquisa de pós-doc no IBICT/UFRJ chamada "Hackerspaces e inovação de base: um estudo da experiência brasileira”. Seguindo os princípios da ciência aberta, ela divulgou os dados do questionário que passou para os 21 hackerspaces ativos identificados no Brasil, dos quais obteve 16 respostas. Estas e demais informações da pesquisa podem ser conferidas aqui: https://autoriaemrede.wordpress.com/hackerspaces-no-brasil/
+[2018-04-19 15:03:30] Para quem não sabe, o Luide do Não Salvo virou um fã da dieta low carb, emagreceu pra caramba de uma forma saudável fazendo essa dieta e ele anda falando pela Internet que gordura animal > carboidratos.
+Tipo nesse post: https://m.facebook.com/story.php?story_fbid=10213683386938077&id=1206897199
+[2018-04-19 15:04:55] O que acham dessa dieta?
+[2018-04-19 15:14:43] A dieta Keto/Paleo vai um pouco nessa linha
+[2018-04-19 15:15:16] Prioriza Gordura Animal acima de Carb ou Alimentos Processados, por exemplo
+[2018-04-19 15:16:43] Independente de Dieta, Jejum intermitente tem se mostrado um otimo complemento a Dietas
+[2018-04-19 15:19:09] 12/12h?
+[2018-04-19 15:19:38] acima de 12h... 14h/10h, pra começar.
+[2018-04-19 15:19:50] minha mae faz essa dieta ai
+[2018-04-19 15:20:05] 16h/8h é o mais indicado
+[2018-04-19 15:20:10] intermitente e so carne e salada
+[2018-04-19 15:20:17] ta sucesso total pra idade dela
+[2018-04-19 15:20:24] Esse é top
+[2018-04-19 15:21:03] Adiciona uma Salada de Frutas de Sobremesa e pronto! Todas as Categorias de Alimentos foram ingeridas
+[2018-04-19 15:21:29] então, se como às 6h, como novamente só 22h, e depois as 6h novamente?
+[2018-04-19 15:22:19] o mais indicado, em um jejum 16/8, é a primeira refeição ser o Almoço, as 12h
+[2018-04-19 15:22:35] aí tu tem uma janela de 8h pra ingerir comida
+[2018-04-19 15:22:41] encerrando umas 20h
+[2018-04-19 15:22:55] Jejum é a melhor. Quando você começa as fazer 24h uma vez por semana... é muito fácil perder a pança
+[2018-04-19 15:23:02] se acordar muito cedo, pode puxar para as 10h o inicio
+[2018-04-19 15:23:43] Sim, já vi gente fazendo 36/12 e perdendo 40 kg em um ano sem fazer mais nada
+[2018-04-19 15:24:37] Depois que você acostuma com a questão da fome... é muito tranquilo
+[2018-04-19 15:25:04] Sim, problema é sempre o começo
+[2018-04-19 15:25:20] as 2 primeiras semanas, na maioria das vezes, segundo me disseram
+[2018-04-19 15:25:39] Logo mais tô embarcando nessa
+[2018-04-19 15:26:14] Eu fiz a 'vida inteira" 2 refeições: 12h e 19h
+[2018-04-19 15:26:28] ela so almoca bem e come um lance antes de dormir
+[2018-04-19 15:26:40] ai 1x por semana toma cafe e lanche da tarde
+[2018-04-19 15:26:45] Ano passado eu fiquei parado. Engordei até 78Kg.
+[2018-04-19 15:26:48] Como quero voltar para o Boxe e Jiu, tenho ido com calma e com acompanhamento médico
+[2018-04-19 15:27:16] Agora estou fazendo o IF normal e dois IF de 24h por semana
+[2018-04-19 15:27:27] Tem um monte de Biohackers nessa.
+[2018-04-19 15:27:44] Estou com 73Kg. Não perdi força, nem nada. Só perdi barriga mesmo hehehe
+[2018-04-19 15:27:46] Tava acompanhando uns relatos uns tempos atrás
+[2018-04-19 15:28:32] Tim Ferris hehehehhe
+[2018-04-19 15:28:38] que dias de 24h?
+[2018-04-19 15:28:44] hauahuahauahuahau
+[2018-04-19 15:28:52] Não tem como não pensar nele, né?
+[2018-04-19 15:29:02] Basicamente é pular o almoço para mim
+[2018-04-19 15:29:04] E Tô testando sono polifásico tbm
+[2018-04-19 15:29:29] mas dias aleatorios? Ou toda terça e quinta, por exemplo?
+[2018-04-19 15:29:29] hheheheheehhe
+[2018-04-19 15:29:48] Uma na semana, outro no fds geralmente domingo
+[2018-04-19 15:30:10] Alguém aqui irá em algum evento do Pint of Science nesse ano?
+https://pintofscience.com.br/
+[2018-04-19 15:31:01] fazer dieta cabulosa tb eh biohacking
+[2018-04-19 15:31:03] uaheuahea
+[2018-04-19 15:31:23] eu queria mesmo eh ter quintal pra plantar coisas
+[2018-04-19 15:31:41] grande o suficiente pra plantar umas vacas
+[2018-04-19 15:31:42] ahahah
+[2018-04-19 15:31:44] [2]
+[2018-04-19 15:31:49] hauahuahauah
+[2018-04-19 15:32:35] Tem um pedaço aqui de casa que é laje, tô pensando em colocar uns vasos lá com alguns temperos e uns alfaces, pra começar
+[2018-04-19 15:32:57] Tbm queria fazer um "forno solar" para fazer desidratação de alimentos
+[2018-04-19 15:33:03] Garoa Farm
+[2018-04-19 15:34:05] aheuahe
+[2018-04-19 16:01:17] O problema é que as carnes brasileiras são todas comprometidas, ou seja, são podres rssss
+[2018-04-19 16:03:16] JBS...
+[2018-04-19 16:04:54] Pode explicar mais sobre isso? Nossa carne não tem supostamente padrão internacional de qualidade com exportação pra Ásia, Europa, África??
+[2018-04-19 16:05:16] supostamente papelão também
+[2018-04-19 16:05:59] http://g1.globo.com/jornal-hoje/noticia/2017/03/operacao-revela-venda-de-carne-vencida-e-moida-com-papelao.html
+[2018-04-19 16:10:55] as carnes brasileiras chegam ao mercado brasileiro sem quase fiscalização. Por exemplo, as carnes dos mercados apodrecem rapidamente e precisam de substâncias para forçaram bonitinhas nas vitrines rssss
+Isso é pelo fato do empresário não perder dinheiro. E aqui a fiscalização é ruim, precária. 
+Eu atualmente compro carne branca na feira, pq o frango ou peixe vem de pequenos produtores, e eles não precisam usar substâncias químicas para mascarar as carnes
+[2018-04-19 16:11:34] *ficarem
+[2018-04-19 16:12:32] https://www.raspberrypi.org/magpi/magic-mirror/
+[2018-04-19 16:12:45] Seria incrível um desses no espelho do banheiro do Garoa...
+[2018-04-19 16:17:14] essa fake news do papelão triturado com a carne ainda rola?
+[2018-04-19 16:17:15] http://www.gazetadopovo.com.br/agronegocio/pecuaria/embalagem-de-pasta-de-carne-teria-gerado-polemica-sobre-papelao-8ejhzdavyuxwjevbtl4f1ds4n
+[2018-04-19 16:18:29] http://www.bbc.com/portuguese/brasil-39317738
+[2018-04-19 16:18:55] assustador. Mas aquele SIF não é garantia de nada?
+[2018-04-19 16:19:22] Eu não acredito
+[2018-04-19 16:19:36] Moro no RJ e já vinde TD aqui
+[2018-04-19 16:19:39] Rsss
+[2018-04-19 16:20:00] *vi
+[2018-04-19 16:21:41] "Funcionário: seu Paulo.
+Paulo Sposito: oi.
+Funcionário: achamos umas paletas 127, que estão vencidas desde fevereiro. Manda embora ou deixa na produção pra eles usar?
+Paulo Sposito: deixa na produção pra eles usar."
+[2018-04-19 16:22:58] to falando do papelão triturado
+[2018-04-19 16:23:09] a matéria da bbc explica bem sobre a operação
+[2018-04-19 16:23:15] eu entendi
+[2018-04-19 16:23:31] Pessoal, desculpem o spam.
+Mas é só pra divulgar que temos mais um hc em sp :)
+[2018-04-19 16:23:33] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806120988_81232.jpg
+[2018-04-19 16:23:34] e eu to falando da qualidade do produto
+[2018-04-19 16:24:20] 👍
+[2018-04-19 16:25:54] "auditório à confirmar"... Tem 2 problemas aí. (1) Complicado ficar dependendo de autorização de uso de infraestrutura da universidade... Já vi projetos muito legais morrendo por conta desse tipo de coisa. (2) Não leva crase!
+[2018-04-19 16:26:09] Não consigo decidir qual dos dois problemas é o mais grave...
+[2018-04-19 16:26:16] Como sempre, a pf fazendo um trabalho muito exemplar kkk
+
+https://exame.abril.com.br/negocios/entenda-o-que-e-a-operacao-carne-fraca-e-os-impactos-para-a-brf/
+
+1ª Fase – Carne Fraca
+Iniciada em março de 2017, a primeira fase envolveu 1.100 agentes, 309 mandados judiciais, 27 pedidos de prisão preventiva, 11 de prisão temporária e ocorreu em 6 estados mais o Distrito Federal.
+
+A PF, que investigou cerca de 30 frigoríficos por depoimentos e escutas telefônicas, afirmou que funcionários ofereciam propinas por certificados de qualidade adulterados.
+
+Essa fase da operação foi a mais conturbada, com erros na divulgação das informações por parte da PF, que chegou a afirmar que algumas empresas adicionavam papelão à carne. O áudio gravado pelos fiscais na verdade se referia à embalagem do produto.
+[2018-04-19 16:26:34] O hc em si tem espaço fixo
+[2018-04-19 16:27:31] eu não fiz o cartaz, mas vou pedir pra quem fez corrigir
+[2018-04-19 16:27:34] rs :-)
+[2018-04-19 16:27:50] É... o problema (1) então é o mais grave, já que o (2) é fácil de corrigir :-P
+[2018-04-19 16:28:25] Eu tenho um conhecido que precisa ir assinar a cada dia 15 dias um papel na delegacia porque ele é dono de um restaurante e acharam coisas vencidas numa área aonde guardavam também mantimentos a serem usados.]
+Acredito que a fiscalização, na prática, é maior, bem como a punição.
+
+Tem algum relatório ou pesquisa que confirme que "as carnes brasileiras chegam ao mercado brasileiro sem quase fiscalização"?
+[2018-04-19 16:29:01] O que é Big Science? E recomendo trocar a palavra deep learning por inteligência artificial, deep learning é uma coisa muito específica, um ramo dentro de outro ramo que é dentro de outro ramo....
+[2018-04-19 16:29:52] arrisco chutar que deve ser ciência desenvolvida com apoio de técnicas de Big Data
+[2018-04-19 16:30:02] (mas é só chute meu mesmo)
+[2018-04-19 16:30:05] segundo o wikipédia, é uma coisa bem diferente
+[2018-04-19 16:30:34] a wikipédia 😉
+[2018-04-19 16:31:13] a enciclopédia
+[2018-04-19 16:31:37] eu usaria big data mesmo... ou astrologia moderna, já que quem faz ciência de verdade nisso são os estatísticos #brinks kkk
+[2018-04-19 16:31:54] então, big science não tem nada a ver com big data
+[2018-04-19 16:32:26] eu colocaria data science no lugar, já que engloba big data, data mining, IA, estatisica e etc
+[2018-04-19 16:32:26] vou repassar as críticas pros responsáveis
+[2018-04-19 16:32:56] obg, mas tu curte corrigir os erros de ptbr dos outros kkkk, tá loko, vamo com calma que aqui é um meio informal
+[2018-04-19 16:34:03] o wikipédia
+o site
+[2018-04-19 16:34:06] ah, eu não acho isso algo 'errado'. não tem porque se sentir ofendido qdo alguém corrige. a menos que seja uma pessoa querendo refutar qualquer coisa que vc diga, mesmo quando está correto, não há porque se ofender
+[2018-04-19 16:34:16] Dahora, pena que é as 16 horas
+[2018-04-19 16:34:48] errinho e em meio informal, eu não curto
+[2018-04-19 16:36:06] Gente
+[2018-04-19 16:36:11] Preciso de vcs
+[2018-04-19 16:36:15] Ouçam meu audio
+[2018-04-19 16:36:17] Pls
+[2018-04-19 16:39:50] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_5098100749850640431.ogg
+[2018-04-19 16:45:05] https://www.quora.com/How-do-I-stream-Android-audio-to-my-PC-over-wifi
+[2018-04-19 16:46:07] https://forum.xda-developers.com/showthread.php?t=764980
+[2018-04-19 16:48:44] qq caixa de som bluetooth resolveria, não?
+[2018-04-19 16:49:05] se não tiver, eu usaria um pc como intermediário
+[2018-04-19 16:49:49] Eu nao tenho caixinha bluetooth
+[2018-04-19 16:50:27] E pra o audio de um skype ficar audivel pra quem ta do outro lado do tel?
+[2018-04-19 16:50:32] Microfone?
+[2018-04-19 16:51:14] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_5098100749850640432.ogg
+[2018-04-19 16:57:56] Hmmm, faz um hangout, deixa o computador como um usuário retransmitindo e usa o seu celular pro hangout normalmente
+[2018-04-19 16:58:07] pra fazer as perguntas
+[2018-04-19 16:58:19] ai  a pessoa que estiver no skype/hangout escuta tbm
+[2018-04-19 17:02:34] Discord!!
+[2018-04-19 17:03:00] 2 Votos
+[2018-04-19 17:05:41] entao posso entrar no grupo de quase veganos auehjauie
+[2018-04-19 17:09:07] Gente
+[2018-04-19 17:09:37] Vamos deixar oq a Priscila fslou como plano b
+[2018-04-19 17:09:56] Eu fslei com a jorbalista do uol ela vai ver se consegue ir no garoa
+[2018-04-19 17:10:10] A produtora de video vai la tbm
+[2018-04-19 17:10:22] Estara comigo pra fazer um video do local
+[2018-04-19 17:10:29] Pra depois fornecer pra vcs
+[2018-04-19 17:10:52] A partir das 16h estaremos ai
+[2018-04-19 17:11:26] E tbm enviar um video pro uol
+[2018-04-19 17:12:55] Se a jornalista nao conseguir sair do evento dela a tempo ela vai me ligar e farenos transmissao e gravamos o debate estilo uma call com quem tiver la respondendo se ela me avisar e conseguir ela vai presencial no garoa ai facilita eu saberei amanha na hora do almoço
+[2018-04-19 17:12:59] Vcs me ajudam?
+[2018-04-19 17:13:02] Plsss
+[2018-04-19 17:13:28] Então, tem que avisar antes pra ter alguém que abra !!!
+[2018-04-19 17:17:59] isso eh quye dia?
+[2018-04-19 17:29:23] photo: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_806117943_80312.jpg
+[2018-04-19 17:29:46] Recebemos na empresa hoje gostaria de saber que medidas tomar
+[2018-04-19 17:38:15] de cara eu não sei te dizer, mas não parece ser algo legal do ponto de vista da empresa. Eu recomendaria você subir uma VM e testar isolada da sua rede... e investigar de onde veio esse script ou como ele chegou até sua empresa. Assim você já consegue ter uma noção de como bloquear as próximas tentativas de ataque.
+[2018-04-19 17:39:35] Se foi por e-mail você consegue ver o Head da mensagem e saber de onde foi a origem.
+[2018-04-19 17:39:37] Concientização é sempre uma ótima medida a ser tomada, ensinando os usuários/funcionários a não baixar arquivos em anexos, sites de fontes desconhecidas, etc.
+[2018-04-19 17:40:20] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_627702366434493888.webp
+[2018-04-19 17:42:42] Obrigado galera
+[2018-04-19 17:43:08] Já tomei providências de comunicação para não abrirem, sorte que não são todos que tem WinRAR
+[2018-04-19 17:43:20] Pois esse script veio zipado em WinRAR
+[2018-04-19 17:45:36] Tem como você aplicar políticas no firewall para impedir o recebimento de arquivos .zip
+[2018-04-19 17:51:51] Galerinha que foi ao garoa essa semana, como está o ambiente? 
+Cês deixaram tudo organizado e arrumadinho? Pq amanhã teremos visita :) 
+
+Just saying I hope so!!!!
+[2018-04-19 17:52:06] ontem tava arrumando
+[2018-04-19 18:01:30] Sim, tomamos todas as bebidas da Gabi. :D
+[2018-04-19 18:02:37] Brincadeira, na verdade eu guardei toda a louça da cozinha. O pessoal aprendeu a lavar. Mas sempre fica uma pilha enorme lá. Eu guardei tudo dessa vez. Nunca antes nesse hackerspace, o espaço esteve tão arrumado.
+[2018-04-19 18:03:51] talvez.
+[2018-04-19 18:03:54] alguem talvez
+[2018-04-19 18:03:57] Hahaha
+[2018-04-19 18:04:03] talvez hoje faça uma lambança
+[2018-04-19 18:04:19] document: /home/felipe/devel/github_garoa/Telegram_logs_Garoa_Hacker_Clube_Publico/media/Garoa_Hacker_Clube_(Público)/download_244604348921808892.webp
+[2018-04-19 18:04:45] A gte vai gravar heinnn
+[2018-04-19 18:04:50] :p
+[2018-04-19 18:05:07] é, acabo de ver isso
+https://www.brasil247.com/pt/247/economia/351852/União-Europeia-proíbe-20-frigoríficos-brasileiros-de-exportar-frango-para-a-região.htm
+[2018-04-19 18:11:36] Só aos finais de semana 😎
+[2018-04-19 18:11:52] Eu arrumo mais o garoa do que a minha casa 😂😂
+[2018-04-19 18:12:31] Minhas águas skaodoaosks
+[2018-04-19 18:12:35] Carne Brasileira vive sofrendo embargo internacional...
+[2018-04-19 18:20:05] Alguém indo abrir o garoa hoje? como não há evento de ordem alguma,  resolvi perguntar
+[2018-04-19 18:20:10] Buenas a todos
+[2018-04-19 18:30:06] talvez sim
+[2018-04-19 18:30:22] nada certo
+[2018-04-19 18:35:59] Ok
+[2018-04-19 18:48:25] Lembro da galera falando outro dia de DNS, fiz uns testes aqui(Santo André), o DNS com melhor ping pro lugar onde moro é o OpenDNS, seguido do DNS do Google e do Giga DNS.
+O DNS da Cloudflare ficou abaixo desses.
+[2018-04-19 19:03:43] Não tem alguma coisa que eu possa plugar no Arduino e perder peso
+😄
+[2018-04-19 19:04:44] Pô, se inventar, fica Rico! hehehe
+[2018-04-19 19:07:37] Monta uma startup heheheheeh
+[2018-04-19 19:11:05] 😂
+[2018-04-19 19:39:48] To trampando numa casa vegana, to no meio da ponte
+[2018-04-19 19:45:21] Legal esse papo da entrevista, gravar em video uma entrevista via telefone ? 🤔
+[2018-04-19 19:47:59] pluga um pitbull raivoso nele e pendura um chiuaua no pescoço "P
+[2018-04-19 20:12:11] Você é maldoso
+[2018-04-19 20:52:35] Alguém anima fazer um proj open souce q liste projetos de lei e o número de eleitores q apoiam? 
+Daí bater na assessoria dos candidatos p mostrar o potencial e buscar um compromisso em troca de capital político.
+Pro eleitor: apoia isso e aquilo? Fulano se comprometeu.
+Para o candidato: X pessoas votariam em quem se compromete com a propostas Y.
+Creio que se a gente conseguir viralizar, vira pauta recorrente nas eleições e os candidatos podem se apropriar.
+[2018-04-19 21:43:28] Eu 5opo
+[2018-04-19 21:44:33] Queria também mais coisas ligadas a programação.  Tem grupo de python e Go ? Estou iniciando em Go e Python sei pouca coisa
+[2018-04-19 21:49:22] Conheço uma plataforma que as pessoas propoem, debatem e votam propostas de lei e o sistema manda direto pra camara (municipal no caso)
+[2018-04-19 21:49:48] Esqueci o nome que faz tempo que não me volto pro assunto
+[2018-04-19 22:55:32] Flávio, uma vez por mês, na segunda segunda-feira do mês, tem o Python Lab no Garoa Hacker Clube.
+
+Você também pode começar a frequentar os meetups do Grupy-SP e entrar no grupo do Telegram (@grupysaopaulo).
+[2018-04-19 23:01:31] Além do Grupy-SP, indico esse @PyCoding
